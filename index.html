@@ -38,7 +38,7 @@
 
     <!-- Calendly -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+    <script src="https://assets.calendly.com/assets/external/widget.js" defer></script>
 
     <!-- Tailwind Config -->
     <script>
@@ -91,6 +91,7 @@
         "@context": "https://schema.org",
         "@type": "LegalService",
         "name": "Cabinet CHICHE COHEN",
+        "description": "Cabinet d'avocats spécialisé en dommage corporel à Marseille. Indemnisation des victimes d'accidents de la route, d'accidents de la vie, d'agressions et d'erreurs médicales. Honoraires uniquement au résultat. 0€ d'avance.",
         "image": "https://www.chiche-cohen.avocat.fr/img/logo.svg",
         "url": "https://www.chiche-cohen.avocat.fr",
         "telephone": "+33663465984",
@@ -102,6 +103,20 @@
             "postalCode": "13001",
             "addressCountry": "FR"
         },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 43.2937,
+            "longitude": 5.3795
+        },
+        "areaServed": [
+            {"@type": "City", "name": "Marseille"},
+            {"@type": "City", "name": "Aix-en-Provence"},
+            {"@type": "City", "name": "Toulon"},
+            {"@type": "AdministrativeArea", "name": "Bouches-du-Rhône"},
+            {"@type": "AdministrativeArea", "name": "Var"},
+            {"@type": "Country", "name": "France"}
+        ],
+        "knowsAbout": ["Dommage corporel", "Accident de la route", "Loi Badinter", "Indemnisation victimes", "Erreur médicale", "ONIAM", "CIVI", "FGTI", "Nomenclature Dintilhac", "Accident de la vie", "GAV"],
         "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.9",
@@ -115,6 +130,16 @@
                 "closes": "19:00"
             }
         ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Services juridiques en dommage corporel",
+            "itemListElement": [
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Indemnisation accident de la route"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Indemnisation accident de la vie (GAV)"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Indemnisation victime d'agression (CIVI/FGTI)"}},
+                {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Recours pour erreur médicale (CCI/ONIAM)"}}
+            ]
+        },
         "priceRange": "€€"
     }
     </script>
@@ -193,6 +218,7 @@
                     <a href="#equipe" class="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">L'Équipe</a>
                     <a href="#expertises" class="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">Domaines</a>
                     <a href="honoraires.html" class="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">Honoraires</a>
+                    <a href="blog/" class="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">Blog</a>
                     <a href="contact.html" class="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors">Contact</a>
 
                     <div class="w-px h-6 bg-gray-200"></div>
@@ -1231,6 +1257,43 @@
                     <h3 class="text-xl font-black text-white mb-2">Téléphone</h3>
                     <p class="text-gray-400 text-sm">06 63 46 59 84</p>
                 </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== BLOG PREVIEW ===== -->
+    <section class="py-20 bg-white border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="flex items-end justify-between mb-12">
+                <div>
+                    <p class="text-blue-600 text-sm font-bold uppercase tracking-widest mb-2">Nos conseils</p>
+                    <h2 class="text-4xl font-black tracking-tight">Informez-vous avant d'agir</h2>
+                    <p class="text-gray-500 mt-2">Comprendre vos droits pour mieux vous défendre</p>
+                </div>
+                <a href="blog/" class="hidden sm:inline-flex items-center gap-2 text-blue-600 font-bold hover:underline text-sm">Tous les articles →</a>
+            </div>
+            <div class="grid sm:grid-cols-3 gap-6">
+                <a href="blog/que-faire-apres-accident-route.html" class="block bg-gray-50 hover:bg-blue-50 border border-gray-100 hover:border-blue-200 rounded-2xl p-6 transition group">
+                    <div class="inline-flex items-center gap-1.5 px-3 py-1 bg-blue-100 text-blue-700 text-xs font-bold rounded-full mb-4">Accident de la route</div>
+                    <h3 class="font-bold text-lg leading-snug group-hover:text-blue-600 transition mb-3">Que faire juste après un accident de la route ?</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Les 7 réflexes immédiats qui protègent vos droits et maximisent votre indemnisation.</p>
+                    <p class="text-blue-600 text-sm font-bold mt-4">Lire l'article →</p>
+                </a>
+                <a href="blog/indemnisation-accident-corporel.html" class="block bg-gray-50 hover:bg-blue-50 border border-gray-100 hover:border-blue-200 rounded-2xl p-6 transition group">
+                    <div class="inline-flex items-center gap-1.5 px-3 py-1 bg-green-100 text-green-700 text-xs font-bold rounded-full mb-4">Indemnisation</div>
+                    <h3 class="font-bold text-lg leading-snug group-hover:text-blue-600 transition mb-3">Combien pour un accident corporel ? Les vrais montants</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Nomenclature Dintilhac, postes de préjudice, exemples chiffrés : tout ce que vous devez savoir.</p>
+                    <p class="text-blue-600 text-sm font-bold mt-4">Lire l'article →</p>
+                </a>
+                <a href="blog/refuser-offre-assurance-accident.html" class="block bg-gray-50 hover:bg-blue-50 border border-gray-100 hover:border-blue-200 rounded-2xl p-6 transition group">
+                    <div class="inline-flex items-center gap-1.5 px-3 py-1 bg-orange-100 text-orange-700 text-xs font-bold rounded-full mb-4">Assurance</div>
+                    <h3 class="font-bold text-lg leading-snug group-hover:text-blue-600 transition mb-3">Refuser l'offre de son assurance : quand et comment ?</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Pourquoi les premières offres sont sous-évaluées et comment les contester efficacement.</p>
+                    <p class="text-blue-600 text-sm font-bold mt-4">Lire l'article →</p>
+                </a>
+            </div>
+            <div class="text-center mt-8 sm:hidden">
+                <a href="blog/" class="inline-flex items-center gap-2 text-blue-600 font-bold text-sm">Voir tous les articles →</a>
             </div>
         </div>
     </section>
