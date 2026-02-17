@@ -2,6 +2,9 @@
 <html lang="fr" class="scroll-smooth bg-[#0A0A0A]">
 
 <head>
+    <!-- Performance: preconnect CDNs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Google Tag Manager — ⚠️ Remplacez GTM-WP82S37T par votre ID GTM réel -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -16,7 +19,7 @@
     <title>Avocat Accident de la Vie | Chute, Sport, Bricolage | Chiche Cohen</title>
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
 
@@ -70,6 +73,31 @@
             display: none;
         }
     </style>
+
+    <!-- BreadcrumbList Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.chiche-cohen.avocat.fr/"},
+            {"@type": "ListItem", "position": 2, "name": "Accident de la Vie", "item": "https://www.chiche-cohen.avocat.fr/accidents-vie.html"}
+        ]
+    }
+    </script>
+
+    <!-- FAQPage Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": "Je me suis blessé seul, suis-je couvert par mon assurance ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui, si vous avez souscrit une Garantie Accidents de la Vie (GAV). Contrairement à la responsabilité civile, ce contrat vous couvre même sans tiers responsable. Vérifiez votre contrat d'assurance habitation ou multirisque, la GAV est souvent incluse."}},
+            {"@type": "Question", "name": "Mon assureur GAV propose une offre, dois-je l'accepter ?", "acceptedAnswer": {"@type": "Answer", "text": "Non, les offres initiales des assureurs GAV sont systématiquement sous-évaluées. Ils appliquent leurs propres barèmes qui ne correspondent pas à la réparation intégrale du préjudice. Un avocat spécialisé peut obtenir 5 à 10 fois plus."}},
+            {"@type": "Question", "name": "Combien coûte un avocat pour un accident de la vie ?", "acceptedAnswer": {"@type": "Answer", "text": "Le Cabinet Chiche-Cohen fonctionne uniquement au résultat. Vous ne payez aucun honoraire tant que vous n'êtes pas indemnisé. Votre protection juridique (souvent incluse dans votre assurance habitation) peut prendre en charge les frais fixes."}}
+        ]
+    }
+    </script>
 </head>
 
 <body
@@ -94,6 +122,7 @@
                         class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">L'Équipe</a>
                     <a href="index.html#expertises"
                         class="text-sm font-bold text-black transition duration-300">Expertises</a>
+                    <a href="blog/" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Blog</a>
                     <a href="honoraires.html"
                         class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Honoraires</a>
                     <a href="contact.html"
@@ -102,8 +131,7 @@
                     <div class="h-6 w-px bg-gray-200"></div>
 
                     <a href="tel:+33663465984"
-                        class="text-sm font-bold text-black hover:text-blue-600 transition duration-300">04 91 53 93
-                        92</a>
+                        class="text-sm font-bold text-black hover:text-blue-600 transition duration-300">06 63 46 59 84</a>
                     <a href="https://wa.me/33663465984"
                         class="bg-black text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
                         WhatsApp
@@ -130,8 +158,8 @@
                 class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Honoraires</a>
             <a href="contact.html"
                 class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Contact</a>
-            <a href="tel:+33663465984" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">04 91
-                53 93 92</a>
+            <a href="blog/" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Blog</a>
+            <a href="tel:+33663465984" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">06 63 46 59 84</a>
             <a href="https://wa.me/33663465984" class="block py-4 text-lg text-[#25D366] font-bold">WhatsApp</a>
         </div>
     </nav>
@@ -331,11 +359,107 @@
                                 <a href="https://wa.me/33663465984"
                                     class="flex-1 py-3 bg-[#25D366]/10 text-[#25D366] rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-[#25D366]/20 transition">WhatsApp</a>
                                 <a href="tel:+33663465984"
-                                    class="flex-1 py-3 bg-gray-50 text-black rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-gray-100 transition">04
-                                    91 53 93 92</a>
+                                    class="flex-1 py-3 bg-gray-50 text-black rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-gray-100 transition">06 63 46 59 84</a>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROCÉDURE DÉTAILLÉE — ACCIDENT DE LA VIE ===== -->
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-14">
+                <p class="text-orange-500 text-sm font-bold uppercase tracking-widest mb-3">Comment ça se passe</p>
+                <h2 class="text-4xl font-black tracking-tight">Obtenir l'indemnisation de votre <br class="hidden md:block">Garantie Accidents de la Vie (GAV)</h2>
+                <p class="text-gray-500 mt-4 max-w-2xl mx-auto">La GAV est un contrat d'assurance privé. Contrairement à la responsabilité civile, elle vous couvre même seul, sans tiers responsable. Mais les assureurs appliquent des barèmes minimalistes. Notre rôle : obtenir la réparation intégrale de votre préjudice.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 mb-14">
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-black text-lg">1</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-1">Vérification de votre contrat GAV</h3>
+                            <p class="text-gray-500 leading-relaxed">Nous analysons votre contrat pour identifier le seuil de déclenchement (taux d'AIPP minimum, souvent 5% à 10%), les exclusions, les délais de déclaration, et le plafond de garantie. Certaines GAV sont incluses dans les contrats multirisque habitation sans que les assurés le sachent.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-black text-lg">2</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-1">Déclaration et constitution du dossier</h3>
+                            <p class="text-gray-500 leading-relaxed">Nous déclarons l'accident auprès de l'assureur dans les délais contractuels et constituons un dossier médical complet : certificat médical initial, compte-rendus hospitaliers, bilan de consolidation. Un dossier incomplet conduit systématiquement à un refus ou une sous-indemnisation.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-black text-lg">3</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-1">Contre-expertise médicale indépendante</h3>
+                            <p class="text-gray-500 leading-relaxed">L'expert de l'assureur fixe un taux d'AIPP qui détermine votre indemnisation. Si ce taux est en dessous du seuil d'intervention ou sous-évalué, nous mandatons notre propre médecin expert pour contester cette évaluation. Dans 80% des cas, la contre-expertise aboutit à un taux plus favorable.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 bg-orange-500 text-white rounded-full flex items-center justify-center font-black text-lg">4</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-1">Négociation et recours judiciaire</h3>
+                            <p class="text-gray-500 leading-relaxed">Avec l'expertise en main, nous négocions une meilleure offre. En cas d'échec, nous saisissons le tribunal pour forcer l'application du contrat et obtenir la réparation intégrale. Les litiges avec les assureurs GAV se traitent devant le tribunal judiciaire du domicile de l'assuré.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div class="bg-orange-50 border border-orange-100 rounded-3xl p-6">
+                        <h3 class="font-bold text-lg mb-4 text-orange-900">Accidents de la vie couverts</h3>
+                        <div class="grid grid-cols-2 gap-2">
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-orange-500">•</span> Chutes domestiques</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-orange-500">•</span> Accidents de sport</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-orange-500">•</span> Accidents de bricolage</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-orange-500">•</span> Noyades accidentelles</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-orange-500">•</span> Brûlures accidentelles</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-orange-500">•</span> Accidents de jardinage</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-orange-500">•</span> Accidents de loisirs</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-orange-500">•</span> Chutes lors de randonnée</div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 border border-gray-100 rounded-3xl p-6">
+                        <h3 class="font-bold text-lg mb-4">Ce que vous pouvez obtenir</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                <span class="text-gray-600 text-sm">Déficit Fonctionnel Permanent</span>
+                                <span class="font-bold text-sm text-green-600">Selon barème</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                <span class="text-gray-600 text-sm">Incapacité temporaire de travail</span>
+                                <span class="font-bold text-sm text-green-600">Indemnité journalière</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                <span class="text-gray-600 text-sm">Frais médicaux non remboursés</span>
+                                <span class="font-bold text-sm text-green-600">100% récupérables</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                <span class="text-gray-600 text-sm">Frais de tierce personne (aide à domicile)</span>
+                                <span class="font-bold text-sm text-green-600">Inclus</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2">
+                                <span class="text-gray-600 text-sm">Préjudice moral et d'agrément</span>
+                                <span class="font-bold text-sm text-green-600">Selon contrat</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Internal links to blog -->
+            <div class="border-t border-gray-100 pt-10">
+                <p class="text-sm font-bold uppercase tracking-wider text-gray-400 mb-6">Articles pour approfondir</p>
+                <div class="grid sm:grid-cols-2 gap-4">
+                    <a href="blog/indemnisation-accident-corporel.html" class="block bg-gray-50 hover:bg-orange-50 border border-gray-100 hover:border-orange-200 rounded-2xl p-5 transition group">
+                        <p class="font-bold text-sm group-hover:text-orange-600 transition mb-1">Combien pour un accident corporel ?</p>
+                        <p class="text-gray-400 text-xs">Les montants réels d'indemnisation expliqués poste par poste</p>
+                    </a>
+                    <a href="blog/delai-prescription-accident-corporel.html" class="block bg-gray-50 hover:bg-orange-50 border border-gray-100 hover:border-orange-200 rounded-2xl p-5 transition group">
+                        <p class="font-bold text-sm group-hover:text-orange-600 transition mb-1">Délais de prescription : ce que vous devez savoir</p>
+                        <p class="text-gray-400 text-xs">Ne laissez pas vos droits s'éteindre — les délais légaux</p>
+                    </a>
                 </div>
             </div>
         </div>

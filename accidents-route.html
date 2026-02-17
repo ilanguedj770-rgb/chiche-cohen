@@ -2,6 +2,9 @@
 <html lang="fr" class="scroll-smooth bg-[#0A0A0A]">
 
 <head>
+    <!-- Performance: preconnect CDNs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Google Tag Manager — ⚠️ Remplacez GTM-WP82S37T par votre ID GTM réel -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -16,7 +19,7 @@
     <title>Avocat Accident de la Route | Indemnisation Maximale | Chiche Cohen</title>
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
 
@@ -70,6 +73,31 @@
             display: none;
         }
     </style>
+
+    <!-- BreadcrumbList Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.chiche-cohen.avocat.fr/"},
+            {"@type": "ListItem", "position": 2, "name": "Accident de la Route", "item": "https://www.chiche-cohen.avocat.fr/accidents-route.html"}
+        ]
+    }
+    </script>
+
+    <!-- FAQPage Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": "Combien de temps dure la procédure après un accident de la route ?", "acceptedAnswer": {"@type": "Answer", "text": "Pour un accident corporel, la durée dépend de la consolidation médicale. En moyenne, comptez 2 à 3 ans pour une indemnisation définitive. Des provisions peuvent être versées en cours de procédure."}},
+            {"@type": "Question", "name": "Dois-je accepter l'offre de mon assurance après un accident de la route ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Les premières offres des assurances sont systématiquement sous-évaluées de 30% à 90%. Consultez un avocat spécialisé avant de signer quoi que ce soit."}},
+            {"@type": "Question", "name": "Combien coûte un avocat spécialisé en accident de la route ?", "acceptedAnswer": {"@type": "Answer", "text": "Le Cabinet Chiche-Cohen fonctionne uniquement au résultat. Vous ne payez aucun honoraire tant que vous n'êtes pas indemnisé. La protection juridique de votre assurance couvre les frais fixes."}}
+        ]
+    }
+    </script>
 </head>
 
 <body
@@ -94,6 +122,7 @@
                         class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">L'Équipe</a>
                     <a href="index.html#expertises"
                         class="text-sm font-bold text-black transition duration-300">Expertises</a>
+                    <a href="blog/" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Blog</a>
                     <a href="honoraires.html"
                         class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Honoraires</a>
                     <a href="contact.html"
@@ -102,8 +131,7 @@
                     <div class="h-6 w-px bg-gray-200"></div>
 
                     <a href="tel:+33663465984"
-                        class="text-sm font-bold text-black hover:text-blue-600 transition duration-300">04 91 53 93
-                        92</a>
+                        class="text-sm font-bold text-black hover:text-blue-600 transition duration-300">06 63 46 59 84</a>
                     <a href="https://wa.me/33663465984"
                         class="bg-black text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
                         WhatsApp
@@ -130,8 +158,8 @@
                 class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Honoraires</a>
             <a href="contact.html"
                 class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Contact</a>
-            <a href="tel:+33663465984" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">04 91
-                53 93 92</a>
+            <a href="blog/" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Blog</a>
+            <a href="tel:+33663465984" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">06 63 46 59 84</a>
             <a href="https://wa.me/33663465984" class="block py-4 text-lg text-[#25D366] font-bold">WhatsApp</a>
         </div>
     </nav>
@@ -331,11 +359,105 @@
                                 <a href="https://wa.me/33663465984"
                                     class="flex-1 py-3 bg-[#25D366]/10 text-[#25D366] rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-[#25D366]/20 transition">WhatsApp</a>
                                 <a href="tel:+33663465984"
-                                    class="flex-1 py-3 bg-gray-50 text-black rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-gray-100 transition">04
-                                    91 53 93 92</a>
+                                    class="flex-1 py-3 bg-gray-50 text-black rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-gray-100 transition">06 63 46 59 84</a>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROCÉDURE DÉTAILLÉE — ACCIDENT DE LA ROUTE ===== -->
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-14">
+                <p class="text-blue-600 text-sm font-bold uppercase tracking-widest mb-3">Comment ça se passe</p>
+                <h2 class="text-4xl font-black tracking-tight">La procédure d'indemnisation <br class="hidden md:block">après un accident de la route</h2>
+                <p class="text-gray-500 mt-4 max-w-2xl mx-auto">La loi Badinter du 5 juillet 1985 protège les victimes d'accidents de la circulation. Voici le déroulé d'un dossier type accompagné par notre cabinet.</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 mb-14">
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-black text-lg">1</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-1">Consultation gratuite & analyse du dossier</h3>
+                            <p class="text-gray-500 leading-relaxed">Dès notre premier échange, nous évaluons la recevabilité de votre dossier : circonstances de l'accident, responsabilité du conducteur, déclaration auprès de l'assurance adverse. Nous vérifions notamment que la prescription de 10 ans (art. 2226 C.civ.) n'est pas atteinte.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-black text-lg">2</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-1">Expertise médicale contradictoire</h3>
+                            <p class="text-gray-500 leading-relaxed">L'assureur missionne son propre médecin-expert. Nous vous accompagnons avec notre médecin conseil pour défendre vos intérêts lors de cette expertise. Sans avocat, les taux d'AIPP (Atteinte à l'Intégrité Physique et Psychique) sont systématiquement sous-évalués, ce qui réduit drastiquement votre indemnisation.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-black text-lg">3</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-1">Évaluation de tous vos préjudices (Nomenclature Dintilhac)</h3>
+                            <p class="text-gray-500 leading-relaxed">Nous chiffrons chaque poste de préjudice prévu par la Nomenclature Dintilhac : Déficit Fonctionnel Temporaire (DFT), Déficit Fonctionnel Permanent (DFP), Préjudice d'Agrément, Préjudice Esthétique, Préjudice Sexuel, Préjudice d'Établissement, perte de revenus actuels et futurs, frais divers, frais de logement/véhicule adaptés. La plupart des victimes non assistées oublient 60% de ces postes.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 bg-blue-600 text-white rounded-full flex items-center justify-center font-black text-lg">4</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-1">Négociation ou procédure judiciaire</h3>
+                            <p class="text-gray-500 leading-relaxed">Nous tentons d'abord une transaction amiable avec l'assureur. Si l'offre reste insuffisante, nous saisissons le tribunal judiciaire pour obtenir une indemnisation judiciaire. La loi Badinter oblige l'assureur à faire une offre dans les 8 mois suivant l'accident, mais rien ne vous oblige à l'accepter.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div class="bg-blue-50 border border-blue-100 rounded-3xl p-6">
+                        <h3 class="font-bold text-lg mb-4 text-blue-900">Ce que les assureurs ne vous disent pas</h3>
+                        <ul class="space-y-3 text-gray-700">
+                            <li class="flex gap-3"><span class="text-red-500 font-bold flex-shrink-0">✗</span><span>La première offre est basée sur un barème interne et non sur la réparation intégrale</span></li>
+                            <li class="flex gap-3"><span class="text-red-500 font-bold flex-shrink-0">✗</span><span>L'expert médecin de l'assureur n'est pas neutre — il minimise vos séquelles</span></li>
+                            <li class="flex gap-3"><span class="text-red-500 font-bold flex-shrink-0">✗</span><span>Une fois l'offre acceptée et le protocole signé, il est très difficile de revenir en arrière</span></li>
+                            <li class="flex gap-3"><span class="text-red-500 font-bold flex-shrink-0">✗</span><span>Le préjudice moral et les souffrances endurées sont rarement inclus dans les offres amiables</span></li>
+                            <li class="flex gap-3"><span class="text-green-600 font-bold flex-shrink-0">✓</span><span>Vous avez le droit de consulter un avocat avant de signer quoi que ce soit</span></li>
+                            <li class="flex gap-3"><span class="text-green-600 font-bold flex-shrink-0">✓</span><span>Votre protection juridique prend souvent en charge les frais d'avocat</span></li>
+                        </ul>
+                    </div>
+                    <div class="bg-gray-50 border border-gray-100 rounded-3xl p-6">
+                        <h3 class="font-bold text-lg mb-4">Délais à connaître</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                <span class="text-gray-600 text-sm">Offre amiable par l'assureur</span>
+                                <span class="font-bold text-sm">8 mois après l'accident</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                <span class="text-gray-600 text-sm">Votre réponse à l'offre</span>
+                                <span class="font-bold text-sm">15 jours de délai légal</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                <span class="text-gray-600 text-sm">Prescription de l'action</span>
+                                <span class="font-bold text-sm">10 ans (art. 2226)</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2">
+                                <span class="text-gray-600 text-sm">Délai versement provision</span>
+                                <span class="font-bold text-sm text-green-600">Sous 3 mois possible</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Internal links to blog -->
+            <div class="border-t border-gray-100 pt-10">
+                <p class="text-sm font-bold uppercase tracking-wider text-gray-400 mb-6">Articles pour approfondir</p>
+                <div class="grid sm:grid-cols-3 gap-4">
+                    <a href="blog/que-faire-apres-accident-route.html" class="block bg-gray-50 hover:bg-blue-50 border border-gray-100 hover:border-blue-200 rounded-2xl p-5 transition group">
+                        <p class="font-bold text-sm group-hover:text-blue-600 transition mb-1">Que faire juste après un accident de la route ?</p>
+                        <p class="text-gray-400 text-xs">Les 7 réflexes qui protègent vos droits</p>
+                    </a>
+                    <a href="blog/indemnisation-accident-corporel.html" class="block bg-gray-50 hover:bg-blue-50 border border-gray-100 hover:border-blue-200 rounded-2xl p-5 transition group">
+                        <p class="font-bold text-sm group-hover:text-blue-600 transition mb-1">Combien pour un accident corporel ?</p>
+                        <p class="text-gray-400 text-xs">Montants réels et postes de préjudice expliqués</p>
+                    </a>
+                    <a href="blog/refuser-offre-assurance-accident.html" class="block bg-gray-50 hover:bg-blue-50 border border-gray-100 hover:border-blue-200 rounded-2xl p-5 transition group">
+                        <p class="font-bold text-sm group-hover:text-blue-600 transition mb-1">Refuser l'offre de son assurance : comment ?</p>
+                        <p class="text-gray-400 text-xs">Procédure et délais légaux pour contester</p>
+                    </a>
                 </div>
             </div>
         </div>

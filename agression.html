@@ -2,6 +2,9 @@
 <html lang="fr" class="scroll-smooth bg-[#0A0A0A]">
 
 <head>
+    <!-- Performance: preconnect CDNs -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Google Tag Manager — ⚠️ Remplacez GTM-WP82S37T par votre ID GTM réel -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -16,7 +19,7 @@
     <title>Avocat Victime Agression | Indemnisation FGTI / CIVI | Chiche Cohen</title>
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
         rel="stylesheet">
     <script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
 
@@ -70,6 +73,31 @@
             display: none;
         }
     </style>
+
+    <!-- BreadcrumbList Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://www.chiche-cohen.avocat.fr/"},
+            {"@type": "ListItem", "position": 2, "name": "Victime d'Agression", "item": "https://www.chiche-cohen.avocat.fr/agression.html"}
+        ]
+    }
+    </script>
+
+    <!-- FAQPage Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": "L'agresseur est inconnu ou insolvable, puis-je être indemnisé ?", "acceptedAnswer": {"@type": "Answer", "text": "Oui. La loi française protège les victimes via le FGTI (Fonds de Garantie des victimes des actes de Terrorisme et d'autres Infractions). Vous pouvez être indemnisé même si l'auteur n'est pas identifié, arrêté ou solvable. Nous saisissons ce fonds pour vous."}},
+            {"@type": "Question", "name": "Quels délais pour saisir la CIVI après une agression ?", "acceptedAnswer": {"@type": "Answer", "text": "Vous avez 3 ans à compter des faits ou de votre connaissance de l'infraction pour saisir la CIVI. Ce délai peut être prorogé en cas de poursuites pénales en cours. Il est crucial de ne pas laisser passer ces délais."}},
+            {"@type": "Question", "name": "Combien coûte un avocat pour une victime d'agression ?", "acceptedAnswer": {"@type": "Answer", "text": "Le Cabinet Chiche-Cohen intervient uniquement au résultat pour les victimes d'agression. Vous ne payez aucun honoraire tant que vous n'êtes pas indemnisé. L'aide juridictionnelle peut également être accordée sous conditions de ressources."}}
+        ]
+    }
+    </script>
 </head>
 
 <body
@@ -94,6 +122,7 @@
                         class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">L'Équipe</a>
                     <a href="index.html#expertises"
                         class="text-sm font-bold text-black transition duration-300">Expertises</a>
+                    <a href="blog/" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Blog</a>
                     <a href="honoraires.html"
                         class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Honoraires</a>
                     <a href="contact.html"
@@ -102,8 +131,7 @@
                     <div class="h-6 w-px bg-gray-200"></div>
 
                     <a href="tel:+33663465984"
-                        class="text-sm font-bold text-black hover:text-blue-600 transition duration-300">04 91 53 93
-                        92</a>
+                        class="text-sm font-bold text-black hover:text-blue-600 transition duration-300">06 63 46 59 84</a>
                     <a href="https://wa.me/33663465984"
                         class="bg-black text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
                         WhatsApp
@@ -130,8 +158,8 @@
                 class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Honoraires</a>
             <a href="contact.html"
                 class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Contact</a>
-            <a href="tel:+33663465984" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">04 91
-                53 93 92</a>
+            <a href="blog/" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Blog</a>
+            <a href="tel:+33663465984" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">06 63 46 59 84</a>
             <a href="https://wa.me/33663465984" class="block py-4 text-lg text-[#25D366] font-bold">WhatsApp</a>
         </div>
     </nav>
@@ -331,11 +359,106 @@
                                 <a href="https://wa.me/33663465984"
                                     class="flex-1 py-3 bg-[#25D366]/10 text-[#25D366] rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-[#25D366]/20 transition">WhatsApp</a>
                                 <a href="tel:+33663465984"
-                                    class="flex-1 py-3 bg-gray-50 text-black rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-gray-100 transition">04
-                                    91 53 93 92</a>
+                                    class="flex-1 py-3 bg-gray-50 text-black rounded-xl font-bold text-sm flex items-center justify-center gap-2 hover:bg-gray-100 transition">06 63 46 59 84</a>
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROCÉDURE DÉTAILLÉE — AGRESSION ===== -->
+    <section class="py-20 bg-white">
+        <div class="max-w-5xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-14">
+                <p class="text-purple-600 text-sm font-bold uppercase tracking-widest mb-3">Comment ça se passe</p>
+                <h2 class="text-4xl font-black tracking-tight">Indemnisation des victimes d'agression : <br class="hidden md:block">la procédure CIVI / FGTI</h2>
+                <p class="text-gray-500 mt-4 max-w-2xl mx-auto">En France, le Fonds de Garantie des victimes des actes de Terrorisme et d'autres Infractions (FGTI) permet à toute victime d'être indemnisée, même si l'auteur est inconnu ou insolvable. La procédure se déroule devant la Commission d'Indemnisation des Victimes d'Infractions (CIVI).</p>
+            </div>
+            <div class="grid md:grid-cols-2 gap-8 mb-14">
+                <div class="space-y-6">
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-black text-lg">1</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-1">Dépôt de plainte et constitution du dossier médical</h3>
+                            <p class="text-gray-500 leading-relaxed">La plainte pénale est la première étape obligatoire. Nous vous assistons pour rédiger une plainte complète qui documente précisément les préjudices physiques, psychologiques et économiques. Un certificat médical détaillé est indispensable dès les premières heures suivant l'agression.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-black text-lg">2</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-1">Saisine de la CIVI dans les 3 ans</h3>
+                            <p class="text-gray-500 leading-relaxed">La CIVI (Commission d'Indemnisation des Victimes d'Infractions) est une juridiction civile attachée à chaque tribunal judiciaire. Nous déposons votre requête en indemnisation avec l'ensemble des pièces justificatives. Le délai de prescription est de 3 ans à compter des faits ou de leur révélation.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-black text-lg">3</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-1">Expertise médicale devant la CIVI</h3>
+                            <p class="text-gray-500 leading-relaxed">La CIVI ordonne souvent une expertise médicale pour évaluer l'ensemble de vos préjudices selon la Nomenclature Dintilhac (ITT, DFP, souffrances endurées, préjudice esthétique, préjudice d'agrément, préjudice sexuel). Nous vous accompagnons lors de cet examen capital.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-4">
+                        <div class="flex-shrink-0 w-10 h-10 bg-purple-600 text-white rounded-full flex items-center justify-center font-black text-lg">4</div>
+                        <div>
+                            <h3 class="font-bold text-lg mb-1">Indemnisation par le FGTI</h3>
+                            <p class="text-gray-500 leading-relaxed">Sur décision de la CIVI, le FGTI verse l'indemnisation dans le délai d'un mois suivant la décision. Une provision peut être demandée dès la saisine, ce qui permet d'obtenir des fonds en attente du jugement définitif. Le FGTI se retourne ensuite contre l'auteur des faits pour se faire rembourser.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div class="bg-purple-50 border border-purple-100 rounded-3xl p-6">
+                        <h3 class="font-bold text-lg mb-4 text-purple-900">Infractions ouvrant droit à indemnisation</h3>
+                        <div class="space-y-2">
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-purple-500">•</span> Coups et blessures volontaires (CBV)</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-purple-500">•</span> Violences conjugales et intrafamiliales</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-purple-500">•</span> Agression sexuelle et viol</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-purple-500">•</span> Tentative d'homicide</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-purple-500">•</span> Actes de terrorisme</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-purple-500">•</span> Vol avec violence</div>
+                            <div class="flex items-center gap-2 text-sm text-gray-700"><span class="text-purple-500">•</span> Harcèlement avec séquelles physiques</div>
+                        </div>
+                    </div>
+                    <div class="bg-gray-50 border border-gray-100 rounded-3xl p-6">
+                        <h3 class="font-bold text-lg mb-4">Conditions d'accès au FGTI</h3>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                <span class="text-gray-600 text-sm">Nationalité requise</span>
+                                <span class="font-bold text-sm text-green-600">Non (toute victime)</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                <span class="text-gray-600 text-sm">Auteur identifié requis</span>
+                                <span class="font-bold text-sm text-green-600">Non</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                <span class="text-gray-600 text-sm">Condamnation pénale requise</span>
+                                <span class="font-bold text-sm text-green-600">Non</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2 border-b border-gray-200">
+                                <span class="text-gray-600 text-sm">Délai de prescription</span>
+                                <span class="font-bold text-sm">3 ans à compter des faits</span>
+                            </div>
+                            <div class="flex justify-between items-center py-2">
+                                <span class="text-gray-600 text-sm">Provision possible</span>
+                                <span class="font-bold text-sm text-green-600">Oui, dès saisine</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Internal links to blog -->
+            <div class="border-t border-gray-100 pt-10">
+                <p class="text-sm font-bold uppercase tracking-wider text-gray-400 mb-6">Articles pour approfondir</p>
+                <div class="grid sm:grid-cols-2 gap-4">
+                    <a href="blog/delai-prescription-accident-corporel.html" class="block bg-gray-50 hover:bg-purple-50 border border-gray-100 hover:border-purple-200 rounded-2xl p-5 transition group">
+                        <p class="font-bold text-sm group-hover:text-purple-600 transition mb-1">Délais de prescription : ne laissez pas vos droits s'éteindre</p>
+                        <p class="text-gray-400 text-xs">Le délai de 3 ans CIVI et les actes qui l'interrompent</p>
+                    </a>
+                    <a href="blog/indemnisation-accident-corporel.html" class="block bg-gray-50 hover:bg-purple-50 border border-gray-100 hover:border-purple-200 rounded-2xl p-5 transition group">
+                        <p class="font-bold text-sm group-hover:text-purple-600 transition mb-1">Combien pour un accident corporel ?</p>
+                        <p class="text-gray-400 text-xs">Nomenclature Dintilhac et montants réels d'indemnisation</p>
+                    </a>
                 </div>
             </div>
         </div>
