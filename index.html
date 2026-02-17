@@ -74,14 +74,7 @@
         }
 
         .animate-on-scroll {
-            opacity: 0;
-            transform: translateY(24px);
             transition: opacity 0.7s ease-out, transform 0.7s ease-out;
-        }
-
-        .animate-on-scroll.visible {
-            opacity: 1;
-            transform: translateY(0);
         }
     </style>
 
@@ -282,27 +275,27 @@
             <div class="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
 
                 <!-- Stat 1 -->
-                <div class="text-center border-t-2 border-blue-600 pt-8 animate-on-scroll">
+                <div class="text-center border-t-2 border-blue-600 pt-8 animate-on-scroll opacity-0 translate-y-10 transition duration-700">
                     <div class="text-4xl sm:text-5xl font-extrabold text-white" data-target="15000">0</div>
                     <div class="text-sm text-blue-600 font-semibold mt-1">+</div>
                     <p class="text-gray-400 text-sm mt-3">Victimes défendues</p>
                 </div>
 
                 <!-- Stat 2 -->
-                <div class="text-center border-t-2 border-blue-600 pt-8 animate-on-scroll">
+                <div class="text-center border-t-2 border-blue-600 pt-8 animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-100">
                     <div class="text-4xl sm:text-5xl font-extrabold text-white" data-target="30">0</div>
                     <div class="text-sm text-blue-600 font-semibold mt-1">+</div>
                     <p class="text-gray-400 text-sm mt-3">Années d'expérience</p>
                 </div>
 
                 <!-- Stat 3 -->
-                <div class="text-center border-t-2 border-blue-600 pt-8 animate-on-scroll">
+                <div class="text-center border-t-2 border-blue-600 pt-8 animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-200">
                     <div class="text-4xl sm:text-5xl font-extrabold text-white">x<span data-target="12">0</span></div>
                     <p class="text-gray-400 text-sm mt-4">Multiplicateur moyen vs offre assureur</p>
                 </div>
 
                 <!-- Stat 4 -->
-                <div class="text-center border-t-2 border-blue-600 pt-8 animate-on-scroll">
+                <div class="text-center border-t-2 border-blue-600 pt-8 animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-300">
                     <div class="text-4xl sm:text-5xl font-extrabold text-white">0&nbsp;€</div>
                     <p class="text-gray-400 text-sm mt-4">D'avance de frais</p>
                 </div>
@@ -328,33 +321,33 @@
 
                 <!-- Progress Bar -->
                 <div class="w-full bg-gray-100 rounded-full h-2 mb-10">
-                    <div id="diagnostic-progress" class="bg-blue-600 h-2 rounded-full transition-all duration-500" style="width: 33%"></div>
+                    <div id="diag-progress" class="bg-blue-600 h-2 rounded-full transition-all duration-500" style="width: 25%"></div>
                 </div>
 
                 <!-- Steps Container -->
                 <div id="diagnostic-steps" class="relative min-h-[320px]">
 
                     <!-- Step 1 -->
-                    <div id="step-1" class="diagnostic-step absolute inset-0 transition-all duration-500" style="transform: translateX(0%); opacity: 1;">
+                    <div id="step-1" class="step-content absolute inset-0 transition-all duration-500 ease-in-out transform translate-x-0 opacity-100">
                         <h3 class="text-xl font-bold text-gray-900 mb-2">Quel est le type de l'accident ?</h3>
                         <p class="text-gray-500 text-sm mb-8">Sélectionnez la situation qui correspond à votre cas.</p>
                         <div class="grid grid-cols-2 gap-4">
-                            <button data-type="Accident Route" onclick="selectType(this)"
+                            <button data-type="Accident Route"
                                     class="type-btn group flex flex-col items-center gap-3 p-6 rounded-2xl border-2 border-gray-100 hover:border-blue-600 hover:bg-blue-50/50 transition-all text-center">
                                 <span class="text-3xl">🚗</span>
                                 <span class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">Accident Route</span>
                             </button>
-                            <button data-type="Erreur Medicale" onclick="selectType(this)"
+                            <button data-type="Erreur Medicale"
                                     class="type-btn group flex flex-col items-center gap-3 p-6 rounded-2xl border-2 border-gray-100 hover:border-blue-600 hover:bg-blue-50/50 transition-all text-center">
                                 <span class="text-3xl">🏥</span>
                                 <span class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">Erreur Médicale</span>
                             </button>
-                            <button data-type="Agression" onclick="selectType(this)"
+                            <button data-type="Agression"
                                     class="type-btn group flex flex-col items-center gap-3 p-6 rounded-2xl border-2 border-gray-100 hover:border-blue-600 hover:bg-blue-50/50 transition-all text-center">
                                 <span class="text-3xl">⚖️</span>
                                 <span class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">Agression</span>
                             </button>
-                            <button data-type="Accident Vie" onclick="selectType(this)"
+                            <button data-type="Accident Vie"
                                     class="type-btn group flex flex-col items-center gap-3 p-6 rounded-2xl border-2 border-gray-100 hover:border-blue-600 hover:bg-blue-50/50 transition-all text-center">
                                 <span class="text-3xl">⚠️</span>
                                 <span class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">Accident Vie</span>
@@ -363,65 +356,53 @@
                     </div>
 
                     <!-- Step 2 -->
-                    <div id="step-2" class="diagnostic-step absolute inset-0 transition-all duration-500" style="transform: translateX(100%); opacity: 0;">
+                    <div id="step-2" class="step-content absolute inset-0 transition-all duration-500 ease-in-out transform translate-x-full opacity-0 pointer-events-none">
                         <h3 class="text-xl font-bold text-gray-900 mb-2">Quels éléments possédez-vous ?</h3>
                         <p class="text-gray-500 text-sm mb-8">Cochez tous les documents en votre possession.</p>
                         <div class="grid grid-cols-2 gap-4 mb-8">
-                            <button data-evidence="Constat/Plainte" onclick="toggleEvidence(this)"
+                            <button data-evidence="Constat"
                                     class="evidence-btn flex items-center gap-3 p-4 rounded-2xl border-2 border-gray-100 hover:border-blue-600 transition-all text-left">
-                                <span class="w-5 h-5 rounded-md border-2 border-gray-300 flex-shrink-0 flex items-center justify-center transition-colors">
-                                    <i data-lucide="check" class="w-3 h-3 text-white hidden"></i>
-                                </span>
+                                <span class="text-2xl">📄</span>
                                 <span class="font-medium text-gray-700 text-sm">Constat / Plainte</span>
                             </button>
-                            <button data-evidence="Certificat Medical" onclick="toggleEvidence(this)"
+                            <button data-evidence="Medical"
                                     class="evidence-btn flex items-center gap-3 p-4 rounded-2xl border-2 border-gray-100 hover:border-blue-600 transition-all text-left">
-                                <span class="w-5 h-5 rounded-md border-2 border-gray-300 flex-shrink-0 flex items-center justify-center transition-colors">
-                                    <i data-lucide="check" class="w-3 h-3 text-white hidden"></i>
-                                </span>
+                                <span class="text-2xl">🏥</span>
                                 <span class="font-medium text-gray-700 text-sm">Certificat Médical</span>
                             </button>
-                            <button data-evidence="Temoignages" onclick="toggleEvidence(this)"
+                            <button data-evidence="Temoins"
                                     class="evidence-btn flex items-center gap-3 p-4 rounded-2xl border-2 border-gray-100 hover:border-blue-600 transition-all text-left">
-                                <span class="w-5 h-5 rounded-md border-2 border-gray-300 flex-shrink-0 flex items-center justify-center transition-colors">
-                                    <i data-lucide="check" class="w-3 h-3 text-white hidden"></i>
-                                </span>
+                                <span class="text-2xl">🗣️</span>
                                 <span class="font-medium text-gray-700 text-sm">Témoignages</span>
                             </button>
-                            <button data-evidence="Rien" onclick="toggleEvidence(this)"
+                            <button data-evidence="Rien"
                                     class="evidence-btn flex items-center gap-3 p-4 rounded-2xl border-2 border-gray-100 hover:border-blue-600 transition-all text-left">
-                                <span class="w-5 h-5 rounded-md border-2 border-gray-300 flex-shrink-0 flex items-center justify-center transition-colors">
-                                    <i data-lucide="check" class="w-3 h-3 text-white hidden"></i>
-                                </span>
+                                <span class="text-2xl">🤷</span>
                                 <span class="font-medium text-gray-700 text-sm">Rien pour l'instant</span>
                             </button>
                         </div>
-                        <button data-next-step="3" onclick="goToStep(3)"
+                        <button data-next-step="3"
                                 class="w-full bg-blue-600 text-white font-semibold py-4 rounded-2xl hover:bg-blue-700 transition-colors">
                             Continuer
                         </button>
                     </div>
 
                     <!-- Step 3 -->
-                    <div id="step-3" class="diagnostic-step absolute inset-0 transition-all duration-500" style="transform: translateX(100%); opacity: 0;">
+                    <div id="step-3" class="step-content absolute inset-0 transition-all duration-500 ease-in-out transform translate-x-full opacity-0 pointer-events-none">
                         <h3 class="text-xl font-bold text-gray-900 mb-2">Avez-vous des blessures constatées ?</h3>
                         <p class="text-gray-500 text-sm mb-8">Cette information nous aide à évaluer votre dossier.</p>
                         <div class="space-y-4">
-                            <button data-injury="Oui" onclick="selectInjury(this)"
+                            <button data-injury="Oui"
                                     class="injury-btn w-full flex items-center gap-4 p-6 rounded-2xl border-2 border-gray-100 hover:border-blue-600 hover:bg-blue-50/50 transition-all text-left">
-                                <span class="w-12 h-12 rounded-full bg-blue-100 flex items-center justify-center flex-shrink-0">
-                                    <i data-lucide="heart-pulse" class="w-6 h-6 text-blue-600"></i>
-                                </span>
+                                <span class="text-3xl">🤕</span>
                                 <div>
                                     <span class="font-semibold text-gray-900 block">Oui, j'ai des blessures</span>
                                     <span class="text-gray-500 text-sm">Constatées par un médecin ou aux urgences</span>
                                 </div>
                             </button>
-                            <button data-injury="Non" onclick="selectInjury(this)"
+                            <button data-injury="Non"
                                     class="injury-btn w-full flex items-center gap-4 p-6 rounded-2xl border-2 border-gray-100 hover:border-blue-600 hover:bg-blue-50/50 transition-all text-left">
-                                <span class="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center flex-shrink-0">
-                                    <i data-lucide="help-circle" class="w-6 h-6 text-gray-500"></i>
-                                </span>
+                                <span class="text-3xl">🛡️</span>
                                 <div>
                                     <span class="font-semibold text-gray-900 block">Non / Pas encore vu de médecin</span>
                                     <span class="text-gray-500 text-sm">Vous n'avez pas encore consulté</span>
@@ -431,49 +412,37 @@
                     </div>
 
                     <!-- Result: Success -->
-                    <div id="result-success" class="diagnostic-step absolute inset-0 transition-all duration-500" style="transform: translateX(100%); opacity: 0;">
-                        <div class="text-center py-8">
-                            <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                                <i data-lucide="check-circle-2" class="w-10 h-10 text-green-600"></i>
-                            </div>
-                            <h3 class="text-2xl font-bold text-gray-900 mb-2">Dossier Éligible</h3>
-                            <p class="text-gray-500 mb-8 max-w-md mx-auto">Votre situation correspond à nos critères d'intervention. Un avocat peut étudier votre dossier gratuitement.</p>
-                            <div class="space-y-4">
-                                <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/chiche-cohen/audit-gratuit'});return false;"
-                                        class="w-full bg-black text-white font-semibold py-4 rounded-2xl hover:bg-gray-800 transition-colors flex items-center justify-center gap-2">
-                                    <i data-lucide="calendar" class="w-5 h-5"></i>
-                                    Réserver mon Audit (Gratuit)
-                                </button>
-                                <a href="https://wa.me/33663465984" target="_blank" rel="noopener noreferrer"
-                                   class="w-full inline-flex items-center justify-center gap-2 bg-green-600 text-white font-semibold py-4 rounded-2xl hover:bg-green-700 transition-colors">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                                    Contacter par WhatsApp
-                                </a>
-                            </div>
+                    <div id="step-result-success" class="step-content absolute inset-0 transition-all duration-500 ease-in-out transform translate-x-full opacity-0 pointer-events-none text-center flex flex-col justify-center items-center">
+                        <div class="w-20 h-20 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6 animate-bounce">
+                            <svg class="w-10 h-10 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M5 13l4 4L19 7"></path>
+                            </svg>
                         </div>
+                        <h3 class="text-3xl font-black mb-4 text-green-600">Dossier Éligible</h3>
+                        <p class="text-gray-500 mb-8 text-lg">Vous disposez des éléments clés pour agir. Ne laissez pas l'assurance fixer le montant seule.</p>
+                        <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/guedj-chiche-cohen'});return false;"
+                                class="w-full py-4 bg-[#25D366] text-white rounded-xl font-bold hover:bg-green-600 transition shadow-lg hover:shadow-green-500/30 flex items-center justify-center gap-2 mb-4">
+                            Réserver mon Audit (Gratuit)
+                        </button>
+                        <a href="https://wa.me/33663465984" class="text-sm text-gray-400 font-medium hover:text-green-600 underline transition">
+                            Urgence absolue ? Écrire sur WhatsApp
+                        </a>
                     </div>
 
                     <!-- Result: Warning -->
-                    <div id="result-warning" class="diagnostic-step absolute inset-0 transition-all duration-500" style="transform: translateX(100%); opacity: 0;">
-                        <div class="text-center py-8">
-                            <div class="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                                <i data-lucide="alert-triangle" class="w-10 h-10 text-orange-500"></i>
-                            </div>
-                            <h3 class="text-2xl font-bold text-gray-900 mb-2">Analyse Stratégique Nécessaire</h3>
-                            <p class="text-gray-500 mb-8 max-w-md mx-auto">Votre dossier nécessite une analyse approfondie par l'un de nos avocats pour déterminer la meilleure stratégie.</p>
-                            <div class="space-y-4">
-                                <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/chiche-cohen/audit-gratuit'});return false;"
-                                        class="w-full bg-black text-white font-semibold py-4 rounded-2xl hover:bg-gray-800 transition-colors flex items-center justify-center gap-2">
-                                    <i data-lucide="calendar" class="w-5 h-5"></i>
-                                    Réserver mon Audit (Gratuit)
-                                </button>
-                                <a href="https://wa.me/33663465984" target="_blank" rel="noopener noreferrer"
-                                   class="w-full inline-flex items-center justify-center gap-2 bg-green-600 text-white font-semibold py-4 rounded-2xl hover:bg-green-700 transition-colors">
-                                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-                                    Contacter par WhatsApp
-                                </a>
-                            </div>
+                    <div id="step-result-warning" class="step-content absolute inset-0 transition-all duration-500 ease-in-out transform translate-x-full opacity-0 pointer-events-none text-center flex flex-col justify-center items-center">
+                        <div class="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                            <span class="text-4xl">⚠️</span>
                         </div>
+                        <h3 class="text-2xl font-black mb-4 text-orange-600">Analyse Stratégique Nécessaire</h3>
+                        <p class="text-gray-500 mb-8">Attention, sans preuves formelles, votre indemnisation est menacée. Contactez-nous pour sécuriser votre dossier.</p>
+                        <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/guedj-chiche-cohen'});return false;"
+                                class="w-full py-4 bg-black text-white rounded-xl font-bold hover:bg-gray-800 transition shadow-lg flex items-center justify-center gap-2 mb-4">
+                            Réserver un créneau stratégique
+                        </button>
+                        <a href="https://wa.me/33663465984" class="text-sm text-gray-400 font-medium hover:text-black underline transition">
+                            Urgence absolue ? Écrire sur WhatsApp
+                        </a>
                     </div>
 
                 </div>
@@ -488,7 +457,7 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <!-- Section Header -->
-            <div class="text-center mb-16 animate-on-scroll">
+            <div class="text-center mb-16 animate-on-scroll opacity-0 translate-y-10 transition duration-700">
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900">Domaines d'intervention</h2>
                 <p class="text-gray-500 mt-4 text-lg max-w-2xl mx-auto">Notre cabinet se consacre exclusivement à la réparation du dommage corporel grave. Chaque dossier mérite une expertise totale.</p>
             </div>
@@ -497,7 +466,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 
                 <!-- Card 1: Accidents de la Route -->
-                <a href="accidents-route.html" class="group animate-on-scroll">
+                <a href="accidents-route.html" class="group animate-on-scroll opacity-0 translate-y-10 transition duration-700">
                     <div class="relative bg-white rounded-3xl border border-gray-100 p-8 h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                         <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-100 transition-colors">
                             <span class="text-2xl">🚗</span>
@@ -511,7 +480,7 @@
                 </a>
 
                 <!-- Card 2: Erreur Médicale -->
-                <a href="erreur-medicale.html" class="group animate-on-scroll">
+                <a href="erreur-medicale.html" class="group animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-100">
                     <div class="relative bg-white rounded-3xl border border-gray-100 p-8 h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                         <div class="w-14 h-14 bg-green-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-green-100 transition-colors">
                             <span class="text-2xl">🏥</span>
@@ -525,7 +494,7 @@
                 </a>
 
                 <!-- Card 3: Agression -->
-                <a href="agression.html" class="group animate-on-scroll">
+                <a href="agression.html" class="group animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-200">
                     <div class="relative bg-white rounded-3xl border border-gray-100 p-8 h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                         <div class="w-14 h-14 bg-purple-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple-100 transition-colors">
                             <span class="text-2xl">⚖️</span>
@@ -539,7 +508,7 @@
                 </a>
 
                 <!-- Card 4: Accidents de la Vie -->
-                <a href="accidents-vie.html" class="group animate-on-scroll">
+                <a href="accidents-vie.html" class="group animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-300">
                     <div class="relative bg-white rounded-3xl border border-gray-100 p-8 h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                         <div class="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-orange-100 transition-colors">
                             <span class="text-2xl">⚠️</span>
@@ -568,7 +537,7 @@
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <!-- Section Header -->
-            <div class="text-center mb-16 animate-on-scroll">
+            <div class="text-center mb-16 animate-on-scroll opacity-0 translate-y-10 transition duration-700">
                 <span class="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-full px-4 py-1.5 text-sm font-medium text-gray-400 mb-6">
                     Dossiers réels anonymisés
                 </span>
@@ -583,7 +552,7 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
 
                 <!-- Case 1 -->
-                <div class="animate-on-scroll bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl p-8 hover:bg-white/[0.07] transition-all">
+                <div class="animate-on-scroll opacity-0 translate-y-10 transition duration-700 bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl p-8 hover:bg-white/[0.07]">
                     <div class="flex items-center gap-2 mb-6">
                         <span class="text-sm font-medium text-blue-400 bg-blue-400/10 px-3 py-1 rounded-full">Accident Route</span>
                     </div>
@@ -613,7 +582,7 @@
                 </div>
 
                 <!-- Case 2 -->
-                <div class="animate-on-scroll bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl p-8 hover:bg-white/[0.07] transition-all">
+                <div class="animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-100 bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl p-8 hover:bg-white/[0.07]">
                     <div class="flex items-center gap-2 mb-6">
                         <span class="text-sm font-medium text-green-400 bg-green-400/10 px-3 py-1 rounded-full">Erreur Médicale</span>
                     </div>
@@ -643,7 +612,7 @@
                 </div>
 
                 <!-- Case 3 -->
-                <div class="animate-on-scroll bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl p-8 hover:bg-white/[0.07] transition-all">
+                <div class="animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-200 bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl p-8 hover:bg-white/[0.07]">
                     <div class="flex items-center gap-2 mb-6">
                         <span class="text-sm font-medium text-purple-400 bg-purple-400/10 px-3 py-1 rounded-full">Accident Moto</span>
                     </div>
@@ -675,7 +644,7 @@
             </div>
 
             <!-- Bottom Disclaimer + CTA -->
-            <div class="text-center animate-on-scroll">
+            <div class="text-center animate-on-scroll opacity-0 translate-y-10 transition duration-700">
                 <p class="text-gray-500 text-sm mb-6">Les résultats passés ne préjugent pas des résultats futurs. Chaque dossier est unique et dépend de circonstances propres.</p>
                 <a href="#diagnostic-widget" class="inline-flex items-center gap-2 text-white font-semibold hover:text-blue-400 transition-colors">
                     Estimer mon dossier gratuitement
@@ -1117,172 +1086,162 @@
 
     <!-- ===== SCRIPTS ===== -->
     <script>
-        // Lucide Icons
-        if (typeof lucide !== 'undefined') {
-            lucide.createIcons();
+        // Lucide Icons — retry until loaded
+        function initLucide() {
+            if (typeof lucide !== 'undefined') {
+                lucide.createIcons();
+            } else {
+                setTimeout(initLucide, 200);
+            }
         }
+        initLucide();
 
         // Mobile Menu Toggle
-        const btn = document.getElementById('mobile-menu-btn');
-        const menu = document.getElementById('mobile-menu');
-        if (btn && menu) {
-            btn.addEventListener('click', () => {
-                menu.classList.toggle('hidden');
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        if (mobileBtn && mobileMenu) {
+            mobileBtn.addEventListener('click', function() {
+                mobileMenu.classList.toggle('hidden');
+            });
+            // Close menu when clicking a link
+            mobileMenu.querySelectorAll('a').forEach(function(link) {
+                link.addEventListener('click', function() {
+                    mobileMenu.classList.add('hidden');
+                });
             });
         }
 
         // Diagnostic Widget Logic
-        function initDiagnosticWidget() {
-            const widget = document.getElementById('diagnostic-widget');
+        (function() {
+            var widget = document.getElementById('diagnostic-widget');
             if (!widget) return;
 
-            const diagState = { step: 1, type: null, evidence: [], injury: null };
-
-            function selectTypeDiag(type) {
-                diagState.type = type;
-                nextStep(2);
-            }
-
-            function toggleEvidence(btn, value) {
-                if (value === 'Rien') {
-                    diagState.evidence = ['Rien'];
-                    widget.querySelectorAll('.evidence-btn').forEach(b => {
-                        b.classList.remove('border-blue-600', 'bg-blue-50');
-                        b.classList.add('border-gray-100', 'bg-white');
-                    });
-                } else {
-                    if (diagState.evidence.includes('Rien')) {
-                        diagState.evidence = [];
-                        const rienBtn = widget.querySelector('[data-evidence="Rien"]');
-                        if (rienBtn) {
-                            rienBtn.classList.remove('border-blue-600', 'bg-blue-50');
-                            rienBtn.classList.add('border-gray-100', 'bg-white');
-                        }
-                    }
-
-                    if (diagState.evidence.includes(value)) {
-                        diagState.evidence = diagState.evidence.filter(v => v !== value);
-                        btn.classList.remove('border-blue-600', 'bg-blue-50');
-                        btn.classList.add('border-gray-100', 'bg-white');
-                    } else {
-                        diagState.evidence.push(value);
-                        btn.classList.remove('border-gray-100', 'bg-white');
-                        btn.classList.add('border-blue-600', 'bg-blue-50');
-                    }
-                }
-
-                if (value === 'Rien') {
-                    btn.classList.remove('border-gray-100', 'bg-white');
-                    btn.classList.add('border-blue-600', 'bg-blue-50');
-                }
-            }
-
-            function selectInjury(value) {
-                diagState.injury = value;
-                showResult();
-            }
+            var diagState = { step: 1, type: null, evidence: [], injury: null };
 
             function nextStep(targetStep) {
                 if (targetStep === 3 && diagState.evidence.length === 0) return;
 
-                const current = document.getElementById('step-' + diagState.step);
+                var current = document.getElementById('step-' + diagState.step);
                 if (current) {
                     current.classList.add('-translate-x-full', 'opacity-0', 'pointer-events-none');
                     current.classList.remove('translate-x-0', 'opacity-100');
                 }
 
-                const next = document.getElementById('step-' + targetStep);
+                var next = document.getElementById('step-' + targetStep);
                 if (next) {
                     next.classList.remove('translate-x-full', 'opacity-0', 'pointer-events-none');
                     next.classList.add('translate-x-0', 'opacity-100');
                 }
 
                 diagState.step = targetStep;
-                const progress = (targetStep / 4) * 100;
-                const progressBar = document.getElementById('diag-progress');
+                var progress = (targetStep / 4) * 100;
+                var progressBar = document.getElementById('diag-progress');
                 if (progressBar) progressBar.style.width = progress + '%';
             }
 
             function showResult() {
-                const current = document.getElementById('step-3');
+                var current = document.getElementById('step-3');
                 if (current) {
                     current.classList.add('-translate-x-full', 'opacity-0', 'pointer-events-none');
                     current.classList.remove('translate-x-0', 'opacity-100');
                 }
 
-                const isEligible = diagState.injury === 'Oui' && !diagState.evidence.includes('Rien') && diagState.evidence.length > 0;
-                const resultId = isEligible ? 'step-result-success' : 'step-result-warning';
+                var isEligible = diagState.injury === 'Oui' && !diagState.evidence.includes('Rien') && diagState.evidence.length > 0;
+                var resultId = isEligible ? 'step-result-success' : 'step-result-warning';
 
-                const result = document.getElementById(resultId);
+                var result = document.getElementById(resultId);
                 if (result) {
                     result.classList.remove('translate-x-full', 'opacity-0', 'pointer-events-none');
                     result.classList.add('translate-x-0', 'opacity-100');
                 }
 
-                const progressBar = document.getElementById('diag-progress');
+                var progressBar = document.getElementById('diag-progress');
                 if (progressBar) progressBar.style.width = '100%';
             }
 
-            // Attach Event Listeners
+            // Type buttons
             widget.querySelectorAll('[data-type]').forEach(function(btn) {
-                btn.addEventListener('click', function(e) {
-                    selectTypeDiag(e.currentTarget.dataset.type);
+                btn.addEventListener('click', function() {
+                    diagState.type = btn.dataset.type;
+                    nextStep(2);
                 });
             });
 
+            // Evidence buttons
             widget.querySelectorAll('[data-evidence]').forEach(function(btn) {
-                btn.addEventListener('click', function(e) {
-                    toggleEvidence(e.currentTarget, e.currentTarget.dataset.evidence);
+                btn.addEventListener('click', function() {
+                    var value = btn.dataset.evidence;
+                    if (value === 'Rien') {
+                        diagState.evidence = ['Rien'];
+                        widget.querySelectorAll('.evidence-btn').forEach(function(b) {
+                            b.classList.remove('border-blue-600', 'bg-blue-50');
+                            b.classList.add('border-gray-100');
+                        });
+                        btn.classList.remove('border-gray-100');
+                        btn.classList.add('border-blue-600', 'bg-blue-50');
+                    } else {
+                        if (diagState.evidence.includes('Rien')) {
+                            diagState.evidence = [];
+                            var rienBtn = widget.querySelector('[data-evidence="Rien"]');
+                            if (rienBtn) {
+                                rienBtn.classList.remove('border-blue-600', 'bg-blue-50');
+                                rienBtn.classList.add('border-gray-100');
+                            }
+                        }
+                        if (diagState.evidence.includes(value)) {
+                            diagState.evidence = diagState.evidence.filter(function(v) { return v !== value; });
+                            btn.classList.remove('border-blue-600', 'bg-blue-50');
+                            btn.classList.add('border-gray-100');
+                        } else {
+                            diagState.evidence.push(value);
+                            btn.classList.remove('border-gray-100');
+                            btn.classList.add('border-blue-600', 'bg-blue-50');
+                        }
+                    }
                 });
             });
 
+            // Injury buttons
             widget.querySelectorAll('[data-injury]').forEach(function(btn) {
-                btn.addEventListener('click', function(e) {
-                    selectInjury(e.currentTarget.dataset.injury);
+                btn.addEventListener('click', function() {
+                    diagState.injury = btn.dataset.injury;
+                    showResult();
                 });
             });
 
+            // Next step buttons
             widget.querySelectorAll('[data-next-step]').forEach(function(btn) {
-                btn.addEventListener('click', function(e) {
-                    nextStep(parseInt(e.currentTarget.dataset.nextStep));
+                btn.addEventListener('click', function() {
+                    nextStep(parseInt(btn.dataset.nextStep));
                 });
             });
-        }
+        })();
 
-        document.addEventListener('DOMContentLoaded', initDiagnosticWidget);
-
-        // IntersectionObserver for animate-on-scroll
-        const observerOptions = {
-            root: null,
-            rootMargin: '0px',
-            threshold: 0.1
-        };
-
-        const observer = new IntersectionObserver(function(entries, obs) {
+        // Scroll Animation Observer
+        var observer = new IntersectionObserver(function(entries, obs) {
             entries.forEach(function(entry) {
                 if (entry.isIntersecting) {
                     entry.target.classList.remove('opacity-0', 'translate-y-10');
                     obs.unobserve(entry.target);
                 }
             });
-        }, observerOptions);
+        }, { threshold: 0.1 });
 
-        document.querySelectorAll('.animate-on-scroll, .timeline-step').forEach(function(el) {
+        document.querySelectorAll('.animate-on-scroll').forEach(function(el) {
             observer.observe(el);
         });
 
         // Animated Counter for Stats
         function countUp(el) {
-            const target = parseInt(el.getAttribute('data-target'));
-            const duration = 2000;
-            const start = 0;
-            const startTime = performance.now();
+            var target = parseInt(el.getAttribute('data-target'));
+            var duration = 2000;
+            var startTime = performance.now();
 
             function update(currentTime) {
-                const elapsed = currentTime - startTime;
-                const progress = Math.min(elapsed / duration, 1);
-                const eased = 1 - Math.pow(1 - progress, 3);
-                const current = Math.floor(eased * (target - start) + start);
+                var elapsed = currentTime - startTime;
+                var progress = Math.min(elapsed / duration, 1);
+                var eased = 1 - Math.pow(1 - progress, 3);
+                var current = Math.floor(eased * target);
                 el.textContent = current.toLocaleString('fr-FR');
                 if (progress < 1) {
                     requestAnimationFrame(update);
@@ -1293,7 +1252,7 @@
             requestAnimationFrame(update);
         }
 
-        const counterObserver = new IntersectionObserver(function(entries, obs) {
+        var counterObserver = new IntersectionObserver(function(entries, obs) {
             entries.forEach(function(entry) {
                 if (entry.isIntersecting) {
                     countUp(entry.target);
@@ -1307,8 +1266,7 @@
         });
 
         // Apple Navbar Scroll Effect
-        const navbar = document.getElementById('navbar');
-
+        var navbar = document.getElementById('navbar');
         window.addEventListener('scroll', function() {
             if (window.scrollY > 10) {
                 navbar.classList.add('glass', 'shadow-sm');
