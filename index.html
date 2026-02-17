@@ -27,7 +27,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
 
     <!-- Calendly -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
@@ -109,6 +109,56 @@
             }
         ],
         "priceRange": "€€"
+    }
+    </script>
+
+    <!-- FAQ Schema.org for SEO -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Combien coûte la première consultation ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "La première consultation est entièrement gratuite et sans engagement. Un avocat étudie votre dossier, évalue vos chances et vous explique la procédure. Vous ne payez rien tant que nous n'avons pas obtenu votre indemnisation."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Que veut dire 0 € d'avance de frais ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Votre protection juridique couvre nos honoraires fixes. Pour les frais d'expertise médicale et de procédure, nous avançons tout. Vous ne déboursez rien de votre poche. Nos honoraires de résultat ne sont dus qu'une fois l'indemnisation obtenue."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Quel est le délai pour agir après un accident ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "En général, le délai de prescription est de 10 ans à compter de la consolidation de vos blessures. Mais chaque situation est différente. N'attendez pas — plus vous agissez tôt, plus les preuves sont solides."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Intervenez-vous en dehors de Marseille ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Oui, nous intervenons partout en France. Nous nous déplaçons chez vous, à l'hôpital, ou dans n'importe quel tribunal. Les consultations peuvent aussi se faire par visioconférence."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Combien vais-je obtenir en indemnisation ?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Le montant dépend de la gravité de vos blessures, de votre situation professionnelle et personnelle. En moyenne, nous obtenons 12 fois plus que l'offre initiale de l'assureur. Contactez-nous pour une estimation gratuite."
+                }
+            }
+        ]
     }
     </script>
 </head>
@@ -239,28 +289,52 @@
                     </p>
                 </div>
 
-                <!-- Right Column - Abstract Gradient Card -->
-                <div class="relative animate-fade-in-up" style="animation-delay: 0.2s;">
-                    <div class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-gray-900 to-black aspect-[4/5] flex flex-col items-center justify-center shadow-2xl">
+                <!-- Right Column - Key Stats Stack -->
+                <div class="relative animate-fade-in-up space-y-4" style="animation-delay: 0.2s;">
 
-                        <!-- Blue glow blob -->
-                        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-blue-500/30 rounded-full blur-3xl animate-pulse-slow"></div>
-
-                        <!-- Large Number -->
-                        <div class="relative z-10 text-center">
-                            <span class="text-[10rem] sm:text-[12rem] font-black text-white leading-none">7</span>
-                            <p class="text-xl sm:text-2xl font-semibold text-gray-300 mt-2">Avocats &amp; Juristes<br>dédiés à votre dossier</p>
-                        </div>
-
-                        <!-- Bottom Overlay Card -->
-                        <a href="#equipe" class="absolute bottom-6 left-6 right-6 z-10 bg-white/10 backdrop-blur-xl border border-white/20 rounded-2xl p-5 flex items-center justify-between group hover:bg-white/15 transition-all">
-                            <div>
-                                <p class="text-white font-bold text-lg">Une équipe de combat</p>
-                                <p class="text-gray-400 text-sm mt-0.5">Découvrir nos profils →</p>
+                    <!-- Main card: Indemnisation x12 -->
+                    <div class="relative rounded-3xl overflow-hidden bg-gradient-to-br from-gray-900 to-black p-8 sm:p-10 shadow-2xl">
+                        <div class="absolute top-1/4 right-0 w-48 h-48 bg-blue-500/20 rounded-full blur-3xl"></div>
+                        <div class="relative z-10">
+                            <p class="text-blue-400 text-sm font-bold uppercase tracking-widest mb-3">Résultat moyen</p>
+                            <div class="flex items-baseline gap-2">
+                                <span class="text-7xl sm:text-8xl font-black text-white leading-none">x12</span>
                             </div>
-                            <i data-lucide="arrow-up-right" class="w-6 h-6 text-white group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
-                        </a>
+                            <p class="text-gray-400 text-lg mt-3">vs l'offre initiale de l'assureur</p>
+                        </div>
                     </div>
+
+                    <!-- Two-column sub-cards -->
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-soft text-center">
+                            <span class="text-4xl font-black text-gray-900 block">15 000</span>
+                            <span class="text-blue-600 font-bold text-xs mt-1 block">+</span>
+                            <p class="text-gray-500 text-sm mt-2">Victimes défendues</p>
+                        </div>
+                        <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-soft text-center">
+                            <span class="text-4xl font-black text-gray-900 block">30</span>
+                            <span class="text-blue-600 font-bold text-xs mt-1 block">ans</span>
+                            <p class="text-gray-500 text-sm mt-2">D'expérience</p>
+                        </div>
+                    </div>
+
+                    <!-- Team link -->
+                    <a href="#equipe" class="flex items-center justify-between bg-white rounded-2xl border border-gray-100 p-5 shadow-soft group hover:shadow-lg transition-all">
+                        <div class="flex items-center gap-4">
+                            <div class="flex -space-x-3">
+                                <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-bold border-2 border-white">PC</div>
+                                <div class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-white text-xs font-bold border-2 border-white">SC</div>
+                                <div class="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white text-xs font-bold border-2 border-white">IG</div>
+                                <div class="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center text-white text-xs font-bold border-2 border-white">DA</div>
+                                <div class="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center text-gray-600 text-xs font-bold border-2 border-white">+3</div>
+                            </div>
+                            <div>
+                                <p class="font-bold text-gray-900 text-sm">7 Avocats & Juristes</p>
+                                <p class="text-gray-500 text-xs">Dédiés à votre dossier</p>
+                            </div>
+                        </div>
+                        <svg class="w-5 h-5 text-gray-400 group-hover:text-blue-600 group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                    </a>
                 </div>
 
             </div>
@@ -521,6 +595,66 @@
                     </div>
                 </a>
 
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!-- NOTRE MÉTHODE (4 ÉTAPES)                     -->
+    <!-- ============================================ -->
+    <section class="py-24 bg-gray-50 border-t border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll opacity-0 translate-y-10 transition duration-700">
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-gray-900">Comment ça marche<span class="text-blue-600"> ?</span></h2>
+                <p class="text-gray-500 mt-4 text-lg max-w-2xl mx-auto">Du premier appel à l'indemnisation, nous gérons tout. Vous n'avez qu'une chose à faire : guérir.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div class="relative animate-on-scroll opacity-0 translate-y-10 transition duration-700">
+                    <div class="bg-white rounded-3xl border border-gray-100 p-8 h-full shadow-sm hover:shadow-lg transition-all duration-300">
+                        <div class="w-12 h-12 bg-blue-600 rounded-2xl flex items-center justify-center text-white text-xl font-black mb-6">1</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Appel gratuit</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Vous nous appelez ou nous contactez par WhatsApp. Un avocat analyse votre situation en 15 minutes.</p>
+                    </div>
+                    <div class="hidden lg:block absolute top-12 -right-4 z-10 text-gray-300 text-2xl">→</div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-100">
+                    <div class="bg-white rounded-3xl border border-gray-100 p-8 h-full shadow-sm hover:shadow-lg transition-all duration-300">
+                        <div class="w-12 h-12 bg-blue-600 rounded-2xl flex items-center justify-center text-white text-xl font-black mb-6">2</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Constitution du dossier</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Nous récupérons toutes les pièces, mandatons un médecin expert et construisons votre stratégie.</p>
+                    </div>
+                    <div class="hidden lg:block absolute top-12 -right-4 z-10 text-gray-300 text-2xl">→</div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-200">
+                    <div class="bg-white rounded-3xl border border-gray-100 p-8 h-full shadow-sm hover:shadow-lg transition-all duration-300">
+                        <div class="w-12 h-12 bg-blue-600 rounded-2xl flex items-center justify-center text-white text-xl font-black mb-6">3</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Expertise médicale</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Notre médecin conseil vous accompagne à l'expertise pour que chaque préjudice soit correctement évalué.</p>
+                    </div>
+                    <div class="hidden lg:block absolute top-12 -right-4 z-10 text-gray-300 text-2xl">→</div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-300">
+                    <div class="bg-white rounded-3xl border border-gray-100 p-8 h-full shadow-sm hover:shadow-lg transition-all duration-300 ring-2 ring-blue-600/20">
+                        <div class="w-12 h-12 bg-green-600 rounded-2xl flex items-center justify-center text-white text-xl font-black mb-6">✓</div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Indemnisation maximale</h3>
+                        <p class="text-gray-500 text-sm leading-relaxed">Négociation ou tribunal : nous obtenons le montant maximum. Vous êtes payé, puis nous sommes payés.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12 animate-on-scroll opacity-0 translate-y-10 transition duration-700">
+                <a href="#diagnostic-widget" class="inline-flex items-center gap-2 bg-black text-white text-base font-semibold px-8 py-4 rounded-full hover:bg-gray-800 transition-all hover:shadow-lg">
+                    Vérifier mon éligibilité gratuitement
+                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+                </a>
             </div>
         </div>
     </section>
@@ -969,6 +1103,78 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section id="faq" class="py-24 bg-gray-50 border-t border-gray-100">
+        <div class="max-w-3xl mx-auto px-6 lg:px-8">
+            <div class="text-center mb-16 animate-on-scroll opacity-0 translate-y-10 transition duration-700">
+                <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900">Questions fréquentes</h2>
+                <p class="text-gray-500 mt-4 text-lg">Tout ce que vous devez savoir avant de nous contacter.</p>
+            </div>
+
+            <div class="space-y-4">
+                <details class="group bg-white rounded-2xl border border-gray-100 shadow-sm animate-on-scroll opacity-0 translate-y-10 transition duration-700" open>
+                    <summary class="flex items-center justify-between cursor-pointer p-6 text-lg font-bold text-gray-900 list-none">
+                        Combien coûte la première consultation ?
+                        <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+                        <strong class="text-gray-900">La première consultation est entièrement gratuite</strong> et sans engagement. Un avocat étudie votre dossier, évalue vos chances et vous explique la procédure. Vous ne payez rien tant que nous n'avons pas obtenu votre indemnisation.
+                    </div>
+                </details>
+
+                <details class="group bg-white rounded-2xl border border-gray-100 shadow-sm animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-100">
+                    <summary class="flex items-center justify-between cursor-pointer p-6 text-lg font-bold text-gray-900 list-none">
+                        Que veut dire "0 € d'avance de frais" ?
+                        <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+                        Votre protection juridique couvre nos honoraires fixes. Pour les frais d'expertise médicale et de procédure, <strong class="text-gray-900">nous avançons tout</strong>. Vous ne déboursez rien de votre poche. Nos honoraires de résultat ne sont dus qu'une fois l'indemnisation obtenue.
+                    </div>
+                </details>
+
+                <details class="group bg-white rounded-2xl border border-gray-100 shadow-sm animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-200">
+                    <summary class="flex items-center justify-between cursor-pointer p-6 text-lg font-bold text-gray-900 list-none">
+                        Quel est le délai pour agir après un accident ?
+                        <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+                        En général, le délai de prescription est de <strong class="text-gray-900">10 ans à compter de la consolidation</strong> de vos blessures (pas de la date de l'accident). Mais attention : chaque situation est différente. <strong class="text-gray-900">N'attendez pas</strong> — plus vous agissez tôt, plus les preuves sont solides et meilleures sont vos chances.
+                    </div>
+                </details>
+
+                <details class="group bg-white rounded-2xl border border-gray-100 shadow-sm animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-300">
+                    <summary class="flex items-center justify-between cursor-pointer p-6 text-lg font-bold text-gray-900 list-none">
+                        Intervenez-vous en dehors de Marseille ?
+                        <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+                        <strong class="text-gray-900">Oui, nous intervenons partout en France.</strong> Nous nous déplaçons chez vous, à l'hôpital, ou dans n'importe quel tribunal de France. Nous avons des clients dans toutes les régions. Les consultations peuvent aussi se faire par visioconférence.
+                    </div>
+                </details>
+
+                <details class="group bg-white rounded-2xl border border-gray-100 shadow-sm animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-[400ms]">
+                    <summary class="flex items-center justify-between cursor-pointer p-6 text-lg font-bold text-gray-900 list-none">
+                        Puis-je changer d'avocat en cours de procédure ?
+                        <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+                        <strong class="text-gray-900">Absolument.</strong> Vous êtes libre de changer d'avocat à tout moment, même en cours de procédure. Nous reprenons régulièrement des dossiers commencés par d'autres confrères et nous assurons une transition fluide de votre dossier.
+                    </div>
+                </details>
+
+                <details class="group bg-white rounded-2xl border border-gray-100 shadow-sm animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-500">
+                    <summary class="flex items-center justify-between cursor-pointer p-6 text-lg font-bold text-gray-900 list-none">
+                        Combien vais-je obtenir en indemnisation ?
+                        <svg class="w-5 h-5 text-gray-400 group-open:rotate-180 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+                        Le montant dépend de la gravité de vos blessures, de votre situation professionnelle et personnelle. En moyenne, <strong class="text-gray-900">nous obtenons 12 fois plus que l'offre initiale de l'assureur</strong>. Contactez-nous pour une estimation gratuite et confidentielle.
+                    </div>
+                </details>
             </div>
         </div>
     </section>
