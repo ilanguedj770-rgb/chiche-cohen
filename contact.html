@@ -113,7 +113,7 @@
                 </div>
 
                 <div class="md:hidden flex items-center">
-                    <button id="mobile-menu-btn" class="text-black focus:outline-none">
+                    <button id="mobile-menu-btn" class="text-black focus:outline-none p-3 -mr-3">
                         <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                 d="M4 6h16M4 12h16M4 18h16"></path>
@@ -143,12 +143,10 @@
             <div class="max-w-md mx-auto w-full space-y-6">
 
                 <div class="animate-fade-in-up">
-                    <!-- Image de l'équipe — remplacez img/equipe.jpg par une vraie photo -->
-                    <div class="w-full h-64 rounded-3xl shadow-lg mb-8 bg-gradient-to-br from-blue-600 to-blue-900 flex flex-col items-center justify-center text-white">
-                        <p class="text-5xl mb-3">⚖️</p>
-                        <p class="font-black text-xl">Cabinet Chiche Cohen</p>
-                        <p class="text-blue-200 text-sm mt-1">Avocats en dommage corporel · Marseille</p>
-                    </div>
+                    <!-- Photo de l'équipe — placez votre photo dans img/equipe.jpg -->
+                    <img src="img/equipe.jpg" class="w-full h-64 object-cover rounded-3xl shadow-lg mb-8"
+                        alt="L'équipe Chiche Cohen"
+                        onerror="this.onerror=null;this.outerHTML='<div class=\'w-full h-64 rounded-3xl shadow-lg mb-8 bg-gradient-to-br from-blue-600 to-blue-900 flex flex-col items-center justify-center text-white\'><p class=\'text-5xl mb-3\'>⚖️</p><p class=\'font-black text-xl\'>Cabinet Chiche Cohen</p><p class=\'text-blue-200 text-sm mt-1\'>Avocats en dommage corporel · Marseille</p></div>'">
                     <h1 class="text-4xl font-black mb-2 tracking-tight">Contactez-nous</h1>
                     <p class="text-gray-500 text-lg">Choisissez le moyen le plus adapté à votre situation.</p>
                 </div>
@@ -170,7 +168,7 @@
                     <!-- Formspree form — ⚠️ Remplacez XXXXXXXX par votre ID Formspree (formspree.io) -->
                     <form id="contact-form" action="https://formspree.io/f/XXXXXXXX" method="POST" class="space-y-3">
                         <input type="hidden" name="_subject" value="Nouveau contact — Cabinet Chiche Cohen">
-                        <div class="grid grid-cols-2 gap-3">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                             <div>
                                 <label class="block text-xs font-bold text-gray-600 mb-1">Prénom *</label>
                                 <input type="text" name="prenom" required placeholder="Jean"
