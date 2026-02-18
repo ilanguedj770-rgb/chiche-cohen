@@ -2,6 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://www.chiche-cohen.avocat.fr/sitemap.xml
-
-# Bloquer les pages non pertinentes pour le SEO
-Disallow: /mentions-legales.html
