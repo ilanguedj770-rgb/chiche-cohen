@@ -313,6 +313,26 @@
       </div>
     </div>
   </footer>
+  <script>
+    // Tri automatique des articles du plus récent au plus ancien
+    (function () {
+      const mois = { janvier:0, février:1, mars:2, avril:3, mai:4, juin:5, juillet:6, août:7, septembre:8, octobre:9, novembre:10, décembre:11 };
+      function parseDate(str) {
+        const [jour, m, an] = str.trim().split(' ');
+        return new Date(parseInt(an), mois[m], parseInt(jour));
+      }
+      const grid = document.querySelector('.grid.md\\:grid-cols-2.lg\\:grid-cols-3');
+      if (!grid) return;
+      const articles = Array.from(grid.querySelectorAll('article'));
+      articles.sort((a, b) => {
+        const da = parseDate(a.querySelector('time').textContent);
+        const db = parseDate(b.querySelector('time').textContent);
+        return db - da;
+      });
+      const cta = grid.querySelector('div.bg-black');
+      articles.forEach(a => grid.insertBefore(a, cta));
+    })();
+  </script>
   <script>if(typeof lucide !== 'undefined') lucide.createIcons();</script>
 </body>
 </html>
