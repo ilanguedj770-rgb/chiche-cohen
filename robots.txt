@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.chiche-cohen.avocat.fr/sitemap.xml
+Sitemap: https://www.ig-avocat.com/sitemap.xml
