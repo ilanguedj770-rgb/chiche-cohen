@@ -48,6 +48,47 @@
             border-bottom: 1px solid rgba(0, 0, 0, 0.05);
         }
     </style>
+
+    <!-- LegalService + ContactPoint Schema.org -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "LegalService",
+        "name": "Maître Ilan Guedj — Contact",
+        "url": "https://www.ig-avocat.com/contact.html",
+        "telephone": "+33663465984",
+        "email": "contact@ig-avocat.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "16 Rue Breteuil",
+            "addressLocality": "Marseille",
+            "postalCode": "13001",
+            "addressCountry": "FR"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 43.2937,
+            "longitude": 5.3795
+        },
+        "areaServed": [
+            {"@type": "City", "name": "Marseille"},
+            {"@type": "AdministrativeArea", "name": "Bouches-du-Rhône"},
+            {"@type": "Country", "name": "France"}
+        ],
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+33663465984",
+            "contactType": "customer support",
+            "availableLanguage": "French",
+            "hoursAvailable": {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "19:00"
+            }
+        }
+    }
+    </script>
 </head>
 
 <body class="antialiased bg-white flex flex-col min-h-screen">
