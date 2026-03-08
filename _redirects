@@ -1,1 +1,16 @@
-/agressions    /agression.html    301
+# Redirections anciennes pages WordPress vers nouveau site
+
+# Pages principales
+/accidents-de-la-vie/                 /accidents-vie.html    301
+/accidents-de-la-circulation/         /accidents-route.html  301
+/presentation/                        /                      301
+/actualites/                          /blog/                 301
+/agressions                           /agression.html        301
+
+# Anciens articles WordPress
+/2023/06/21/qui-dit-pertes-de-gains-professionnels-futurs-dit-incidence-sur-les-droits-a-la-retraite/    /blog/    301
+/2023/05/22/lexclusion-du-monde-du-travail-reconnue-comme-un-prejudice-indemnisable-au-titre-de-lincidence-professionnelle/    /blog/    301
+
+# Pages techniques WordPress (404 volontaire via redirect vers accueil)
+/embed/    /    301
+/nov-apijson/*    /    301
