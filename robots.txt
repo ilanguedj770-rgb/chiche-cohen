@@ -1,4 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /nov-apijson/
+Disallow: /embed/
 
 Sitemap: https://www.ig-avocat.com/sitemap.xml
