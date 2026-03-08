@@ -44,7 +44,7 @@
   </url>
   <url>
     <loc>https://www.ig-avocat.com/blog/</loc>
-    <lastmod>2026-02-18</lastmod>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -93,6 +93,12 @@
   <url>
     <loc>https://www.ig-avocat.com/blog/indemnisation-victime-passagere-accident.html</loc>
     <lastmod>2026-03-03</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.ig-avocat.com/blog/medecin-recours-victime.html</loc>
+    <lastmod>2026-03-08</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
