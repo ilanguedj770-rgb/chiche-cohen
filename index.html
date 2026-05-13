@@ -24,8 +24,17 @@
     <meta property="og:description" content="Avocat en dommage corporel à Marseille, intervention dans toute la France. Indemnisation des victimes d'accidents. 15 000+ victimes défendues. 0€ d'avance.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.ig-avocat.com">
-    <meta property="og:image" content="https://www.ig-avocat.com/img/favicon.svg">
+    <meta property="og:image" content="https://www.ig-avocat.com/img/og-cover.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Maître Ilan Guedj — Avocat dommage corporel à Marseille">
     <meta property="og:locale" content="fr_FR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Avocat Dommage Corporel Marseille | Maître Ilan Guedj">
+    <meta name="twitter:description" content="Avocat en dommage corporel à Marseille, intervention dans toute la France. Indemnisation des victimes d'accidents. 15 000+ victimes défendues. 0€ d'avance.">
+    <meta name="twitter:image" content="https://www.ig-avocat.com/img/og-cover.jpg">
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -34,6 +43,9 @@
 
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="css/tailwind.css">
+
+    <!-- Preload LCP image -->
+    <link rel="preload" as="image" href="img/equipe.webp" fetchpriority="high">
 
     <!-- Lucide Icons -->
     <script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
@@ -287,7 +299,7 @@
 
                     <!-- Team Photo -->
                     <div class="relative rounded-3xl overflow-hidden shadow-2xl">
-                        <img src="img/equipe.jpg" alt="L'équipe de Maître Ilan Guedj" class="w-full object-cover object-top" style="height: 420px;">
+                        <img src="img/equipe.webp" alt="L'équipe de Maître Ilan Guedj — avocats en dommage corporel à Marseille" class="w-full object-cover object-top" style="height: 420px;" width="1400" height="933" loading="eager" fetchpriority="high" decoding="async">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                         <div class="absolute bottom-6 left-6 right-6">
                             <p class="text-white font-bold text-lg">Maître Ilan Guedj</p>
@@ -958,7 +970,7 @@
                 <div class="flex flex-col items-center text-center group animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-100">
                     <div class="w-48 h-48 mb-6 rounded-full shadow-xl overflow-hidden bg-blue-600 flex items-center justify-center group-hover:shadow-2xl transition duration-500 relative flex-shrink-0">
                         <span class="text-5xl font-black text-white select-none">PC</span>
-                        <img src="img/associe-chiche.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Patrice CHICHE" onerror="this.style.display='none'">
+                        <img src="img/associe-chiche.webp" class="absolute inset-0 w-full h-full object-cover" alt="Maître Patrice Chiche, avocat associé" width="800" height="522" loading="lazy" decoding="async" onerror="this.style.display='none'">
                     </div>
                     <h4 class="text-xl font-black mb-1">Patrice CHICHE</h4>
                     <p class="text-blue-600 font-bold text-xs uppercase mb-2">Associé</p>
@@ -968,7 +980,7 @@
                 <div class="flex flex-col items-center text-center group animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-200">
                     <div class="w-48 h-48 mb-6 rounded-full shadow-xl overflow-hidden bg-gray-800 flex items-center justify-center group-hover:shadow-2xl transition duration-500 relative flex-shrink-0">
                         <span class="text-5xl font-black text-white select-none">SC</span>
-                        <img src="img/associe-cohen.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Stéphane COHEN" onerror="this.style.display='none'">
+                        <img src="img/associe-cohen.webp" class="absolute inset-0 w-full h-full object-cover" alt="Maître Stéphane Cohen, avocat associé" width="800" height="533" loading="lazy" decoding="async" onerror="this.style.display='none'">
                     </div>
                     <h4 class="text-xl font-black mb-1">Stéphane COHEN</h4>
                     <p class="text-blue-600 font-bold text-xs uppercase mb-2">Associé</p>
@@ -978,7 +990,7 @@
                 <div class="flex flex-col items-center text-center group animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-300">
                     <div class="w-48 h-48 mb-6 rounded-full shadow-xl overflow-hidden bg-blue-600 flex items-center justify-center group-hover:shadow-2xl transition duration-500 relative flex-shrink-0">
                         <span class="text-5xl font-black text-white select-none">IG</span>
-                        <img src="img/associe-guedj.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Ilan GUEDJ" onerror="this.style.display='none'">
+                        <img src="img/associe-guedj.webp" class="absolute inset-0 w-full h-full object-cover" alt="Maître Ilan Guedj, avocat associé spécialisé en dommage corporel" width="800" height="533" loading="lazy" decoding="async" onerror="this.style.display='none'">
                     </div>
                     <h4 class="text-xl font-black mb-1">Ilan GUEDJ</h4>
                     <p class="text-blue-600 font-bold text-xs uppercase mb-2">Associé</p>
@@ -988,7 +1000,7 @@
                 <div class="flex flex-col items-center text-center group animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-[400ms]">
                     <div class="w-48 h-48 mb-6 rounded-full shadow-xl overflow-hidden bg-gray-800 flex items-center justify-center group-hover:shadow-2xl transition duration-500 relative flex-shrink-0">
                         <span class="text-5xl font-black text-white select-none">DA</span>
-                        <img src="img/associe-amar.jpg" class="absolute inset-0 w-full h-full object-cover" alt="Daniel AMAR" onerror="this.style.display='none'">
+                        <img src="img/associe-amar.webp" class="absolute inset-0 w-full h-full object-cover" alt="Maître Daniel Amar, avocat associé" width="800" height="533" loading="lazy" decoding="async" onerror="this.style.display='none'">
                     </div>
                     <h4 class="text-xl font-black mb-1">Daniel AMAR</h4>
                     <p class="text-blue-600 font-bold text-xs uppercase mb-2">Associé</p>
