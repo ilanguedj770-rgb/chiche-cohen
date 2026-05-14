@@ -1,11 +1,22 @@
-# Redirections anciennes pages WordPress vers nouveau site
+# Canonicalisation : .html → URLs sans extension (force)
+/accidents-route.html     /accidents-route     301!
+/accidents-vie.html       /accidents-vie       301!
+/erreur-medicale.html     /erreur-medicale     301!
+/agression.html           /agression           301!
+/agressions.html          /agression           301!
+/honoraires.html          /honoraires          301!
+/contact.html             /contact             301!
+/notre-bilan.html         /notre-bilan         301!
+/mentions-legales.html    /mentions-legales    301!
+/guide-5-erreurs.html     /guide-5-erreurs     301!
+/blog/*.html              /blog/:splat         301!
 
-# Pages principales
-/accidents-de-la-vie/                 /accidents-vie.html    301
-/accidents-de-la-circulation/         /accidents-route.html  301
+# Redirections anciennes pages WordPress vers nouveau site
+/accidents-de-la-vie/                 /accidents-vie         301
+/accidents-de-la-circulation/         /accidents-route       301
 /presentation/                        /                      301
 /actualites/                          /blog/                 301
-/agressions                           /agression.html        301
+/agressions                           /agression             301
 
 # Anciens articles WordPress
 /2023/06/21/qui-dit-pertes-de-gains-professionnels-futurs-dit-incidence-sur-les-droits-a-la-retraite/    /blog/    301
