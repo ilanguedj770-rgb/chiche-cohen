@@ -1,0 +1,28 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/draft/mcp.json",
+  "_comment": "MCP Google Search Console — voir SETUP-GSC-MCP.md pour la configuration. Le fichier de credentials JSON est gitignored, à placer hors du repo (~/.gsc/credentials.json par défaut).",
+
+  "mcpServers": {
+    "gsc": {
+      "_comment": "Lecture seule — analytics, performances, requêtes. Setup le plus simple (npx, pas d'install).",
+      "command": "npx",
+      "args": ["-y", "mcp-server-gsc"],
+      "env": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "${HOME}/.gsc/credentials.json"
+      }
+    }
+  },
+
+  "_alternatives": {
+    "_comment": "Décommente le bloc ci-dessous (et déplace-le dans mcpServers) pour avoir aussi les outils d'indexation (submit_sitemap, submit_url, inspect_url). Nécessite de cloner et builder Suganthan's GSC-MCP — voir SETUP-GSC-MCP.md section 'Indexation'.",
+    "gsc-full": {
+      "command": "node",
+      "args": ["${HOME}/Suganthans-GSC-MCP/dist/index.js"],
+      "env": {
+        "GSC_AUTH_MODE": "service_account",
+        "GSC_KEY_FILE": "${HOME}/.gsc/credentials.json",
+        "GSC_SITE_URL": "sc-domain:ig-avocat.com"
+      }
+    }
+  }
+}
