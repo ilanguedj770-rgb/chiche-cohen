@@ -1,29 +1,56 @@
 # === SEO : consolidation URLs canoniques ===
 # Forme canonique cible : https://ig-avocat.com/<slug>
 # (sans www, sans .html, sans trailing slash)
-# Note : sur les règles ".html → propre", on n'utilise PAS le flag ! (force).
-# Sans !, Netlify applique le 301 sur l'URL .html explicite et laisse Pretty URLs
-# servir l'URL propre en 200. Avec ! on déclenche une boucle (cf. PR fix).
+#
+# Architecture des règles (ordre critique — première qui matche gagne) :
+#  0. Rewrites 200 : servir les URLs propres directement (évite la boucle
+#     Pretty URLs × règle trailing-slash 301!)
+#  1. Redirections .html → URL propre (avec ! pour forcer)
+#  2. Catch-all .html résiduel
+#  3. Normalisation /agressions → /agression
+#  4. Trailing-slash → version sans /
+#  5. Legacy WordPress
+
+# ═══════════════════════════════════════════════════════════════════
+# 0. REWRITES 200 — Servir directement les URLs canoniques propres
+# Court-circuite la boucle Pretty URLs × règle trailing-slash 301!
+# Ces règles DOIVENT être placées AVANT toute autre redirection.
+# ═══════════════════════════════════════════════════════════════════
+/accidents-route              /accidents-route.html              200
+/accidents-vie                /accidents-vie.html                200
+/erreur-medicale              /erreur-medicale.html              200
+/agression                    /agression.html                    200
+/honoraires                   /honoraires.html                   200
+/contact                      /contact.html                      200
+/notre-bilan                  /notre-bilan.html                  200
+/mentions-legales             /mentions-legales.html             200
+/guide-5-erreurs              /guide-5-erreurs.html              200
+/avocat-aix-en-provence       /avocat-aix-en-provence.html       200
+/avocat-toulon                /avocat-toulon.html                200
+/avocat-nice                  /avocat-nice.html                  200
+/avocat-avignon               /avocat-avignon.html               200
+/avocat-montpellier           /avocat-montpellier.html           200
+/avocat-nimes                 /avocat-nimes.html                 200
 
 # 1. Suppression des extensions .html — pages principales
-/accidents-route.html     /accidents-route     301
-/accidents-vie.html       /accidents-vie       301
-/erreur-medicale.html     /erreur-medicale     301
-/agression.html           /agression           301
+/accidents-route.html     /accidents-route     301!
+/accidents-vie.html       /accidents-vie       301!
+/erreur-medicale.html     /erreur-medicale     301!
+/agression.html           /agression           301!
 /agressions.html          /agression           301!
-/honoraires.html          /honoraires          301
-/contact.html             /contact             301
-/notre-bilan.html         /notre-bilan         301
-/mentions-legales.html    /mentions-legales    301
-/guide-5-erreurs.html     /guide-5-erreurs     301
+/honoraires.html          /honoraires          301!
+/contact.html             /contact             301!
+/notre-bilan.html         /notre-bilan         301!
+/mentions-legales.html    /mentions-legales    301!
+/guide-5-erreurs.html     /guide-5-erreurs     301!
 
 # Pages locales par ville (.html → propre)
-/avocat-aix-en-provence.html   /avocat-aix-en-provence   301
-/avocat-toulon.html            /avocat-toulon            301
-/avocat-nice.html              /avocat-nice              301
-/avocat-avignon.html           /avocat-avignon           301
-/avocat-montpellier.html       /avocat-montpellier       301
-/avocat-nimes.html             /avocat-nimes             301
+/avocat-aix-en-provence.html   /avocat-aix-en-provence   301!
+/avocat-toulon.html            /avocat-toulon            301!
+/avocat-nice.html              /avocat-nice              301!
+/avocat-avignon.html           /avocat-avignon           301!
+/avocat-montpellier.html       /avocat-montpellier       301!
+/avocat-nimes.html             /avocat-nimes             301!
 
 # Articles blog (.html → propre)
 /blog/erreur-medicale-droits-victime.html         /blog/erreur-medicale-droits-victime         301!
@@ -38,15 +65,15 @@
 /blog/indemnisation-victime-passagere-accident.html /blog/indemnisation-victime-passagere-accident 301!
 /blog/medecin-recours-victime.html                /blog/medecin-recours-victime                301!
 
-# Catch-all : tout .html restant → version sans extension (placé APRÈS les règles spécifiques)
+# 2. Catch-all : tout .html restant → version sans extension (placé APRÈS les règles spécifiques)
 /blog/*.html              /blog/:splat         301!
 /*.html                   /:splat              301!
 
-# 2. Normalisation /agressions → /agression (singulier = canonique)
+# 3. Normalisation /agressions → /agression (singulier = canonique)
 /agressions               /agression           301!
 /agressions/              /agression           301!
 
-# 3. Suppression du trailing slash (sauf /blog/ qui reste avec slash car c'est un index)
+# 4. Suppression du trailing slash (sauf /blog/ qui reste avec slash car c'est un index)
 /contact/                 /contact             301!
 /honoraires/              /honoraires          301!
 /mentions-legales/        /mentions-legales    301!
@@ -63,7 +90,7 @@
 /avocat-montpellier/      /avocat-montpellier  301!
 /avocat-nimes/            /avocat-nimes        301!
 
-# === Redirections legacy WordPress (conservées) ===
+# === 5. Redirections legacy WordPress (conservées) ===
 /accidents-de-la-vie/                 /accidents-vie         301
 /accidents-de-la-circulation/         /accidents-route       301
 /presentation/                        /                      301
