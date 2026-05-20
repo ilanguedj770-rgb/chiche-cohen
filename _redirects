@@ -1,27 +1,29 @@
 # === SEO : consolidation URLs canoniques ===
 # Forme canonique cible : https://ig-avocat.com/<slug>
 # (sans www, sans .html, sans trailing slash)
-# Le flag 301! force la redirection même si une page shadow existe côté Netlify.
+# Note : sur les règles ".html → propre", on n'utilise PAS le flag ! (force).
+# Sans !, Netlify applique le 301 sur l'URL .html explicite et laisse Pretty URLs
+# servir l'URL propre en 200. Avec ! on déclenche une boucle (cf. PR fix).
 
 # 1. Suppression des extensions .html — pages principales
-/accidents-route.html     /accidents-route     301!
-/accidents-vie.html       /accidents-vie       301!
-/erreur-medicale.html     /erreur-medicale     301!
-/agression.html           /agression           301!
+/accidents-route.html     /accidents-route     301
+/accidents-vie.html       /accidents-vie       301
+/erreur-medicale.html     /erreur-medicale     301
+/agression.html           /agression           301
 /agressions.html          /agression           301!
-/honoraires.html          /honoraires          301!
-/contact.html             /contact             301!
-/notre-bilan.html         /notre-bilan         301!
-/mentions-legales.html    /mentions-legales    301!
-/guide-5-erreurs.html     /guide-5-erreurs     301!
+/honoraires.html          /honoraires          301
+/contact.html             /contact             301
+/notre-bilan.html         /notre-bilan         301
+/mentions-legales.html    /mentions-legales    301
+/guide-5-erreurs.html     /guide-5-erreurs     301
 
 # Pages locales par ville (.html → propre)
-/avocat-aix-en-provence.html   /avocat-aix-en-provence   301!
-/avocat-toulon.html            /avocat-toulon            301!
-/avocat-nice.html              /avocat-nice              301!
-/avocat-avignon.html           /avocat-avignon           301!
-/avocat-montpellier.html       /avocat-montpellier       301!
-/avocat-nimes.html             /avocat-nimes             301!
+/avocat-aix-en-provence.html   /avocat-aix-en-provence   301
+/avocat-toulon.html            /avocat-toulon            301
+/avocat-nice.html              /avocat-nice              301
+/avocat-avignon.html           /avocat-avignon           301
+/avocat-montpellier.html       /avocat-montpellier       301
+/avocat-nimes.html             /avocat-nimes             301
 
 # Articles blog (.html → propre)
 /blog/erreur-medicale-droits-victime.html         /blog/erreur-medicale-droits-victime         301!
