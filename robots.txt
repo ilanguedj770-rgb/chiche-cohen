@@ -1,6 +1,65 @@
+# robots.txt — ig-avocat.com
+# Cabinet Guedj Chiche Cohen — Avocat dommage corporel Marseille
+
+# --- Moteurs de recherche classiques ---
 User-agent: *
 Allow: /
 Disallow: /nov-apijson/
 Disallow: /embed/
+
+# --- Robots d'IA / moteurs de réponse (GEO) ---
+# Accès explicitement autorisé : nous voulons être cités dans les réponses
+# générées par les assistants IA pour les recherches d'avocat en dommage
+# corporel (accidents de la circulation, erreur médicale, agression...).
+
+# OpenAI (ChatGPT, SearchGPT)
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+
+# Anthropic (Claude)
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: Claude-User
+Allow: /
+User-agent: Claude-SearchBot
+Allow: /
+
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+User-agent: Perplexity-User
+Allow: /
+
+# Google (Gemini / AI Overviews / Vertex)
+User-agent: Google-Extended
+Allow: /
+
+# Microsoft / Bing (Copilot)
+User-agent: bingbot
+Allow: /
+
+# Apple (Apple Intelligence / Siri)
+User-agent: Applebot
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+
+# Amazon, Meta, Mistral, DuckDuckGo, Common Crawl
+User-agent: Amazonbot
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+User-agent: MistralAI-User
+Allow: /
+User-agent: DuckAssistBot
+Allow: /
+User-agent: CCBot
+Allow: /
 
 Sitemap: https://ig-avocat.com/sitemap.xml
