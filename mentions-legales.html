@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html lang="fr" class="scroll-smooth bg-[#0A0A0A]">
+<html lang="fr" class="scroll-smooth bg-sand">
 
 <head>
-    <!-- Performance: preconnect CDNs -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -39,9 +36,8 @@
     <meta name="twitter:image" content="https://ig-avocat.com/img/og-cover.jpg">
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <link rel="stylesheet" href="css/tailwind.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
+    <link rel="preload" href="fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
     <!-- GEO:ENTITY-GRAPH:START -->
 <script type="application/ld+json">
 {
@@ -393,26 +389,26 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="flex justify-between items-center h-24">
             <a href="/" class="flex-shrink-0 cursor-pointer group">
-                <span class="text-2xl font-black tracking-tighter uppercase group-hover:opacity-80 transition">
+                <span class="font-display text-2xl font-bold tracking-tight uppercase group-hover:opacity-80 transition">
                     ILAN GUEDJ<span class="text-blue-600">.</span>
                 </span>
             </a>
 
             <div class="hidden md:flex space-x-10 items-center">
-                <a href="avocat-ilan-guedj" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">L'Avocat</a>
-                <a href="/#expertises" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Domaines</a>
-                <a href="honoraires" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Honoraires</a>
-                <a href="blog/" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Blog</a>
-                <a href="contact" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Contact</a>
+                <a href="avocat-ilan-guedj" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">L'Avocat</a>
+                <a href="/#expertises" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Domaines</a>
+                <a href="honoraires" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Honoraires</a>
+                <a href="blog/" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Blog</a>
+                <a href="contact" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Contact</a>
 
                 <div class="h-6 w-px bg-gray-200"></div>
 
-                <a href="tel:+33663465984" class="text-sm font-bold text-black hover:text-blue-600 transition duration-300">
+                <a href="tel:+33663465984" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition duration-300">
                     06 63 46 59 84
                 </a>
 
                 <a href="https://wa.me/33663465984"
-                    class="bg-black text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
+                    class="bg-gray-900 text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
                     <svg class="w-4 h-4 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                     </svg>
@@ -421,7 +417,7 @@
             </div>
 
             <div class="md:hidden flex items-center">
-                <button id="mobile-menu-btn" class="text-black focus:outline-none p-3 -mr-3">
+                <button id="mobile-menu-btn" class="text-gray-900 focus:outline-none p-3 -mr-3">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M4 6h16M4 12h16M4 18h16"></path>
@@ -451,23 +447,23 @@
                 <h2 class="text-2xl font-bold mb-6">1. Éditeur du Site</h2>
                 <div class="grid md:grid-cols-2 gap-8 text-gray-600">
                     <div>
-                        <p><strong class="text-black">Dénomination :</strong> ILAN GUEDJ</p>
-                        <p><strong class="text-black">Représentée par :</strong> Ilan Guedj</p>
-                        <p><strong class="text-black">Directeur de la publication :</strong> Ilan Guedj</p>
+                        <p><strong class="text-gray-900">Dénomination :</strong> ILAN GUEDJ</p>
+                        <p><strong class="text-gray-900">Représentée par :</strong> Ilan Guedj</p>
+                        <p><strong class="text-gray-900">Directeur de la publication :</strong> Ilan Guedj</p>
                     </div>
                     <div>
-                        <p><strong class="text-black">Siège social :</strong><br>16 Rue Breteuil, 13001 Marseille</p>
-                        <p class="mt-2"><strong class="text-black">SIRET :</strong> 481 038 321 00024</p>
-                        <p><strong class="text-black">Contact :</strong> <a
+                        <p><strong class="text-gray-900">Siège social :</strong><br>16 Rue Breteuil, 13001 Marseille</p>
+                        <p class="mt-2"><strong class="text-gray-900">SIRET :</strong> 481 038 321 00024</p>
+                        <p><strong class="text-gray-900">Contact :</strong> <a
                                 href="mailto:contact@ig-avocat.com"
                                 class="underline hover:text-blue-600">contact@ig-avocat.com</a></p>
-                        <p><strong class="text-black">Tél :</strong> 06 63 46 59 84</p>
+                        <p><strong class="text-gray-900">Tél :</strong> 06 63 46 59 84</p>
                     </div>
                 </div>
             </section>
 
             <section class="mb-16 border-b border-gray-100 pb-12 text-gray-600 space-y-4 leading-relaxed">
-                <h2 class="text-2xl font-bold mb-6 text-black">2. Règles Professionnelles</h2>
+                <h2 class="text-2xl font-bold mb-6 text-gray-900">2. Règles Professionnelles</h2>
                 <p>
                     La profession d’avocat est une profession réglementée soumise à des règles professionnelles
                     strictes. Les règles applicables sont notamment :
@@ -482,18 +478,18 @@
             <section class="mb-16 border-b border-gray-100 pb-12">
                 <h2 class="text-2xl font-bold mb-6">3. Hébergement</h2>
                 <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-gray-600 text-sm">
-                    <p><strong class="text-black text-lg block mb-2">OVH SAS</strong></p>
+                    <p><strong class="text-gray-900 text-lg block mb-2">OVH SAS</strong></p>
                     <p>2 rue Kellermann – 59100 Roubaix – France</p>
                     <p>SAS au capital de 10 069 020 €</p>
                     <p>RCS Lille Métropole 424 761 419 00045</p>
                     <p>Code APE 2620Z</p>
                     <p>N° TVA : FR 22 424 761 419</p>
-                    <p class="mt-2"><strong class="text-black">Tél :</strong> 1007</p>
+                    <p class="mt-2"><strong class="text-gray-900">Tél :</strong> 1007</p>
                 </div>
             </section>
 
             <section class="mb-16 border-b border-gray-100 pb-12 text-gray-600 space-y-4 leading-relaxed">
-                <h2 class="text-2xl font-bold mb-6 text-black">4. Assurance Responsabilité Civile Professionnelle</h2>
+                <h2 class="text-2xl font-bold mb-6 text-gray-900">4. Assurance Responsabilité Civile Professionnelle</h2>
                 <p>
                     L’assurance responsabilité civile professionnelle (RCP) de l’Avocat couvre les fautes, omissions, ou
                     négligences involontaires de l’Avocat.
@@ -502,7 +498,7 @@
                     Celle-ci est gérée par l’intermédiaire de la Société de Courtage des Barreaux :
                 </p>
                 <div class="bg-gray-50 p-4 rounded-xl border border-gray-100 text-sm">
-                    <p class="font-bold text-black">Société de Courtage des Barreaux</p>
+                    <p class="font-bold text-gray-900">Société de Courtage des Barreaux</p>
                     <p>Pôle d’Activités 400, Chemin des Jallassières</p>
                     <p>CS 30002 13510 EGUILLES</p>
                     <p>Tél : 04.13.41.60.00. – Fax : 04.13.41.61.00.</p>
@@ -511,14 +507,14 @@
             </section>
 
             <section class="mb-16 border-b border-gray-100 pb-12 text-gray-600 space-y-4 leading-relaxed">
-                <h2 class="text-2xl font-bold mb-6 text-black">5. Médiateur de la Consommation</h2>
+                <h2 class="text-2xl font-bold mb-6 text-gray-900">5. Médiateur de la Consommation</h2>
                 <p>
                     Conformément aux dispositions des articles L.612-1 et suivants du Code de la consommation, vous avez
                     la possibilité, en cas de litige, de recourir gratuitement au Médiateur de la consommation auprès du
                     Conseil National des Barreaux (CNB) dont les coordonnées sont les suivantes :
                 </p>
                 <div class="bg-gray-50 p-4 rounded-xl border border-gray-100 text-sm">
-                    <p><strong class="text-black">Maître Carole PASCAREL</strong></p>
+                    <p><strong class="text-gray-900">Maître Carole PASCAREL</strong></p>
                     <p>180 boulevard Haussmann, 75008 Paris</p>
                     <p class="mt-2">Email : <a href="mailto:mediateur-consi@mediateur-consommation-avocat.fr"
                             class="underline hover:text-blue-600">mediateur-consi@mediateur-consommation-avocat.fr</a>
@@ -529,7 +525,7 @@
             </section>
 
             <section class="mb-16 border-b border-gray-100 pb-12 text-gray-600 space-y-4 leading-relaxed">
-                <h2 class="text-2xl font-bold mb-6 text-black">6. Politique de Confidentialité (RGPD)</h2>
+                <h2 class="text-2xl font-bold mb-6 text-gray-900">6. Politique de Confidentialité (RGPD)</h2>
                 <p class="italic text-sm mb-4">En application des articles 13 et 14 du Règlement Européen Général sur la
                     protection des Données (2016/679) et de l’article 32 de la loi informatique et Libertés du 6 janvier
                     1978 modifiée, le Directeur de Publication du Site vous informe que :</p>
@@ -561,7 +557,7 @@
             </section>
 
             <section class="mb-16 border-b border-gray-100 pb-12 text-gray-600 space-y-4 leading-relaxed">
-                <h2 class="text-2xl font-bold mb-6 text-black">7. Propriété Intellectuelle</h2>
+                <h2 class="text-2xl font-bold mb-6 text-gray-900">7. Propriété Intellectuelle</h2>
                 <p>
                     Les marques et les logotypes figurant sur le site constituent des signes déposés par l’Editeur ou
                     par des tiers/partenaires et protégés au titre du droit des marques. Toute reproduction, imitation
@@ -595,7 +591,7 @@
             </section>
 
             <section class="mb-12 text-gray-600 space-y-4 leading-relaxed">
-                <h2 class="text-2xl font-bold mb-6 text-black">8. Responsabilité</h2>
+                <h2 class="text-2xl font-bold mb-6 text-gray-900">8. Responsabilité</h2>
                 <p>
                     La responsabilité de l’Editeur ne peut être engagée en cas de défaillance, panne ou interruption
                     empêchant l’accès au Site ou limitant son usage.
@@ -614,10 +610,10 @@
         </div>
     </main>
 
-    <footer class="bg-[#0A0A0A] text-white pt-20 pb-40 md:py-20 border-t border-gray-900">
+    <footer class="bg-ink text-white pt-20 pb-40 md:py-20 border-t border-gray-900">
         <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between gap-12">
             <div>
-                <p class="font-black text-3xl mb-8 tracking-tighter">ILAN GUEDJ<span class="text-blue-600">.</span>
+                <p class="font-display font-bold text-3xl mb-8 tracking-tight">ILAN GUEDJ<span class="text-blue-600">.</span>
                 </p>
                 <div class="flex flex-col gap-6">
                     <a href="tel:+33663465984"
@@ -657,16 +653,16 @@
     </footer>
 
     <!-- WhatsApp FAB Desktop -->
-    <a href="https://wa.me/33663465984" target="_blank" class="fixed bottom-8 right-8 z-50 hidden md:flex items-center justify-center w-16 h-16 bg-[#25D366] rounded-full shadow-2xl hover:scale-110 transition duration-300 group cursor-pointer">
+    <a href="https://wa.me/33663465984" target="_blank" class="fixed bottom-8 right-8 z-50 hidden md:flex items-center justify-center w-12 h-12 bg-gray-900/90 backdrop-blur ring-1 ring-white/10 rounded-full shadow-lg hover:bg-gray-900 hover:scale-105 transition duration-300 group cursor-pointer">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.102.544 4.076 1.497 5.793L0 24l6.404-1.68A11.946 11.946 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.886 0-3.653-.507-5.176-1.393l-.371-.22-3.8.997 1.015-3.704-.242-.382A9.966 9.966 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
     </a>
 
     <div class="fixed bottom-6 left-4 right-4 z-50 md:hidden">
-        <div class="bg-[#0A0A0A]/90 backdrop-blur-xl p-2 rounded-2xl shadow-2xl flex gap-3 border border-white/10">
+        <div class="bg-ink/90 backdrop-blur-xl p-2 rounded-2xl shadow-2xl flex gap-3 border border-white/10">
             <a href="https://wa.me/33663465984"
                 class="flex-1 bg-[#25D366] text-white py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition">WhatsApp</a>
             <a href="tel:+33663465984"
-                class="flex-1 bg-white text-black py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition">Appeler</a>
+                class="flex-1 bg-white text-gray-900 py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition">Appeler</a>
         </div>
     </div>
 

@@ -33,11 +33,9 @@
   })(window,document,'script','dataLayer','GTM-WP82S37T');</script>
   <!-- End Google Tag Manager -->
 
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="preload" href="../fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="../css/tailwind.css">
-  <script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js" defer></script>
 
   <script type="application/ld+json">
 {
@@ -417,26 +415,26 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="flex justify-between items-center h-24">
             <a href="../" class="flex-shrink-0 cursor-pointer group">
-                <span class="text-2xl font-black tracking-tighter uppercase group-hover:opacity-80 transition">
+                <span class="font-display text-2xl font-bold tracking-tight uppercase group-hover:opacity-80 transition">
                     ILAN GUEDJ<span class="text-blue-600">.</span>
                 </span>
             </a>
 
             <div class="hidden md:flex space-x-10 items-center">
-                <a href="../avocat-ilan-guedj" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">L'Avocat</a>
-                <a href="../#expertises" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Domaines</a>
-                <a href="../honoraires" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Honoraires</a>
-                <a href="../blog/" class="text-sm font-bold text-black transition duration-300">Blog</a>
-                <a href="../contact" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Contact</a>
+                <a href="../avocat-ilan-guedj" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">L'Avocat</a>
+                <a href="../#expertises" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Domaines</a>
+                <a href="../honoraires" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Honoraires</a>
+                <a href="../blog/" class="text-sm font-bold text-gray-900 transition duration-300">Blog</a>
+                <a href="../contact" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Contact</a>
 
                 <div class="h-6 w-px bg-gray-200"></div>
 
-                <a href="tel:+33663465984" class="text-sm font-bold text-black hover:text-blue-600 transition duration-300">
+                <a href="tel:+33663465984" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition duration-300">
                     06 63 46 59 84
                 </a>
 
                 <a href="https://wa.me/33663465984"
-                    class="bg-black text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
+                    class="bg-gray-900 text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
                     <svg class="w-4 h-4 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                     </svg>
@@ -445,7 +443,7 @@
             </div>
 
             <div class="md:hidden flex items-center">
-                <button id="mobile-menu-btn" class="text-black focus:outline-none p-3 -mr-3">
+                <button id="mobile-menu-btn" class="text-gray-900 focus:outline-none p-3 -mr-3">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M4 6h16M4 12h16M4 18h16"></path>
@@ -476,13 +474,13 @@
   </script>
 
   <!-- HERO -->
-  <section class="pt-32 pb-16 bg-gradient-to-br from-gray-50 to-white">
+  <section class="pt-32 pb-16 bg-gradient-to-br from-gray-50 to-paper">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
       <!-- Breadcrumb -->
       <nav class="flex items-center gap-2 text-sm text-gray-500 mb-8">
-        <a href="../" class="hover:text-black transition">Accueil</a>
+        <a href="../" class="hover:text-gray-900 transition">Accueil</a>
         <span>/</span>
-        <span class="text-black font-medium">Blog</span>
+        <span class="text-gray-900 font-medium">Blog</span>
       </nav>
       <div class="max-w-3xl">
         <span class="inline-block bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">Ressources juridiques</span>
@@ -502,7 +500,7 @@
         <!-- Article 12 — Accident de trottinette électrique -->
         <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div class="bg-gradient-to-br from-blue-500 to-indigo-700 h-48 flex items-center justify-center relative">
-            <span class="text-6xl">🛴</span>
+            <span class="text-6xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><circle cx="18.5" cy="17.5" r="3.5"/><circle cx="5.5" cy="17.5" r="3.5"/><circle cx="15" cy="5" r="1"/><path d="M12 17.5V14l-3-3 4-3 2 3h2"/></svg></span>
             <span class="absolute top-3 right-3 bg-white text-blue-700 text-[10px] font-black px-2 py-1 rounded-full uppercase tracking-wide">Nouveau</span>
           </div>
           <div class="p-8">
@@ -514,7 +512,7 @@
             <p class="text-gray-500 text-sm leading-relaxed mb-6">EDPM, loi Badinter, assurance obligatoire et FGAO&nbsp;: pourquoi le piéton renversé est mieux protégé que le conducteur de la trottinette, et comment obtenir votre juste indemnisation.</p>
             <div class="flex items-center justify-between">
               <time class="text-xs text-gray-400">1 juillet 2026</time>
-              <a href="accident-trottinette-electrique-indemnisation" class="text-sm font-bold text-black hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
+              <a href="accident-trottinette-electrique-indemnisation" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
             </div>
           </div>
         </article>
@@ -522,7 +520,7 @@
         <!-- Article 11 — Accident grave / préjudices importants -->
         <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div class="bg-gradient-to-br from-blue-600 to-indigo-800 h-48 flex items-center justify-center relative">
-            <span class="text-6xl">🚨</span>
+            <span class="text-6xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg></span>
           </div>
           <div class="p-8">
             <div class="flex items-center gap-3 mb-4">
@@ -533,7 +531,7 @@
             <p class="text-gray-500 text-sm leading-relaxed mb-6">Tierce personne, frais futurs, perte de gains professionnels, paraplégie, traumatisme crânien&nbsp;: comment chaque poste Dintilhac se calcule et pourquoi l'accompagnement précoce change tout.</p>
             <div class="flex items-center justify-between">
               <time class="text-xs text-gray-400">14 mai 2026</time>
-              <a href="indemnisation-accident-grave" class="text-sm font-bold text-black hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
+              <a href="indemnisation-accident-grave" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
             </div>
           </div>
         </article>
@@ -541,7 +539,7 @@
         <!-- Article 10 -->
         <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div class="bg-gradient-to-br from-blue-500 to-indigo-700 h-48 flex items-center justify-center relative">
-            <span class="text-6xl">⚖️</span>
+            <span class="text-6xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></span>
           </div>
           <div class="p-8">
             <div class="flex items-center gap-3 mb-4">
@@ -552,7 +550,7 @@
             <p class="text-gray-500 text-sm leading-relaxed mb-6">L'arrêt Cass. 2<sup>e</sup> civ. 19 juin 2025 change la donne&nbsp;: la faute doit être prouvée et avoir contribué au dommage. Décryptage et conséquences pratiques.</p>
             <div class="flex items-center justify-between">
               <time class="text-xs text-gray-400">13 mai 2026</time>
-              <a href="faute-conducteur-victime-indemnisation" class="text-sm font-bold text-black hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
+              <a href="faute-conducteur-victime-indemnisation" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
             </div>
           </div>
         </article>
@@ -560,7 +558,7 @@
         <!-- Article 9 -->
         <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div class="bg-gradient-to-br from-emerald-500 to-teal-700 h-48 flex items-center justify-center">
-            <span class="text-6xl">🩺</span>
+            <span class="text-6xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></span>
           </div>
           <div class="p-8">
             <div class="flex items-center gap-3 mb-4">
@@ -571,7 +569,7 @@
             <p class="text-gray-500 text-sm leading-relaxed mb-6">Qu'est-ce qu'un médecin-recours, comment il intervient lors de l'expertise médicale, et pourquoi il change tout pour votre indemnisation.</p>
             <div class="flex items-center justify-between">
               <time class="text-xs text-gray-400">8 mars 2026</time>
-              <a href="medecin-recours-victime" class="text-sm font-bold text-black hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
+              <a href="medecin-recours-victime" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
             </div>
           </div>
         </article>
@@ -579,7 +577,7 @@
         <!-- Article 8 -->
         <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div class="bg-gradient-to-br from-sky-500 to-blue-700 h-48 flex items-center justify-center">
-            <span class="text-6xl">🚐</span>
+            <span class="text-6xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M5 18H3c-.6 0-1-.4-1-1V7c0-.6.4-1 1-1h10c.6 0 1 .4 1 1v11"/><path d="M14 9h4l4 4v4c0 .6-.4 1-1 1h-2"/><circle cx="7" cy="18" r="2"/><path d="M15 18H9"/><circle cx="17" cy="18" r="2"/></svg></span>
           </div>
           <div class="p-8">
             <div class="flex items-center gap-3 mb-4">
@@ -590,7 +588,7 @@
             <p class="text-gray-500 text-sm leading-relaxed mb-6">La loi Badinter protège quasi intégralement les passagers, même si le conducteur est fautif. Quelle assurance intervient, comment est calculée l'indemnisation.</p>
             <div class="flex items-center justify-between">
               <time class="text-xs text-gray-400">3 mars 2026</time>
-              <a href="indemnisation-victime-passagere-accident" class="text-sm font-bold text-black hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
+              <a href="indemnisation-victime-passagere-accident" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
             </div>
           </div>
         </article>
@@ -598,7 +596,7 @@
         <!-- Article 7 -->
         <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div class="bg-gradient-to-br from-indigo-500 to-cyan-700 h-48 flex items-center justify-center">
-            <span class="text-6xl">🔬</span>
+            <span class="text-6xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M6 18h8"/><path d="M3 22h18"/><path d="M14 22a7 7 0 1 0 0-14h-1"/><path d="M9 14h2"/><path d="M9 12a2 2 0 0 1-2-2V6h6v4a2 2 0 0 1-2 2Z"/><path d="M12 6V3a1 1 0 0 0-1-1H9a1 1 0 0 0-1 1v3"/></svg></span>
           </div>
           <div class="p-8">
             <div class="flex items-center gap-3 mb-4">
@@ -609,7 +607,7 @@
             <p class="text-gray-500 text-sm leading-relaxed mb-6">Expertise amiable ou judiciaire ? Pourquoi nous recommandons l'expertise judiciaire, comment l'obtenir, et comment bien s'y préparer.</p>
             <div class="flex items-center justify-between">
               <time class="text-xs text-gray-400">24 février 2026</time>
-              <a href="expertise-medicale-judiciaire" class="text-sm font-bold text-black hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
+              <a href="expertise-medicale-judiciaire" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
             </div>
           </div>
         </article>
@@ -617,7 +615,7 @@
         <!-- Article 6 -->
         <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div class="bg-gradient-to-br from-rose-500 to-red-700 h-48 flex items-center justify-center">
-            <span class="text-6xl">🛡️</span>
+            <span class="text-6xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg></span>
           </div>
           <div class="p-8">
             <div class="flex items-center gap-3 mb-4">
@@ -628,7 +626,7 @@
             <p class="text-gray-500 text-sm leading-relaxed mb-6">CIVI, FGTI, conditions d'accès, procédure et préjudices indemnisables : tout ce que vous devez savoir pour faire valoir vos droits après une agression.</p>
             <div class="flex items-center justify-between">
               <time class="text-xs text-gray-400">19 février 2026</time>
-              <a href="agression-victime-droits-recours" class="text-sm font-bold text-black hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
+              <a href="agression-victime-droits-recours" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
             </div>
           </div>
         </article>
@@ -636,7 +634,7 @@
         <!-- Article 1 -->
         <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div class="bg-gradient-to-br from-blue-500 to-blue-700 h-48 flex items-center justify-center">
-            <span class="text-6xl">🚗</span>
+            <span class="text-6xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg></span>
           </div>
           <div class="p-8">
             <div class="flex items-center gap-3 mb-4">
@@ -647,7 +645,7 @@
             <p class="text-gray-500 text-sm leading-relaxed mb-6">Les gestes essentiels dans les premières minutes, comment remplir le constat, vos obligations légales et les erreurs à éviter absolument.</p>
             <div class="flex items-center justify-between">
               <time class="text-xs text-gray-400">17 février 2026</time>
-              <a href="que-faire-apres-accident-route" class="text-sm font-bold text-black hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
+              <a href="que-faire-apres-accident-route" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
             </div>
           </div>
         </article>
@@ -655,7 +653,7 @@
         <!-- Article 2 -->
         <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div class="bg-gradient-to-br from-green-500 to-emerald-700 h-48 flex items-center justify-center">
-            <span class="text-6xl">💶</span>
+            <span class="text-6xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M4 10h12"/><path d="M4 14h9"/><path d="M19 6a7.7 7.7 0 0 0-5.2-2A7.9 7.9 0 0 0 6 12c0 4.4 3.5 8 7.8 8 2 0 3.8-.8 5.2-2"/></svg></span>
           </div>
           <div class="p-8">
             <div class="flex items-center gap-3 mb-4">
@@ -666,7 +664,7 @@
             <p class="text-gray-500 text-sm leading-relaxed mb-6">Nomenclature Dintilhac, postes de préjudice, ITT, IPP, préjudice moral : comprendre comment est calculée votre indemnisation.</p>
             <div class="flex items-center justify-between">
               <time class="text-xs text-gray-400">17 février 2026</time>
-              <a href="indemnisation-accident-corporel" class="text-sm font-bold text-black hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
+              <a href="indemnisation-accident-corporel" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
             </div>
           </div>
         </article>
@@ -674,7 +672,7 @@
         <!-- Article 3 -->
         <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div class="bg-gradient-to-br from-orange-500 to-red-600 h-48 flex items-center justify-center">
-            <span class="text-6xl">⚖️</span>
+            <span class="text-6xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></span>
           </div>
           <div class="p-8">
             <div class="flex items-center gap-3 mb-4">
@@ -685,7 +683,7 @@
             <p class="text-gray-500 text-sm leading-relaxed mb-6">Pourquoi les premières offres sont sous-évaluées, comment contester et quels recours exercer si l'assurance refuse de négocier.</p>
             <div class="flex items-center justify-between">
               <time class="text-xs text-gray-400">17 février 2026</time>
-              <a href="refuser-offre-assurance-accident" class="text-sm font-bold text-black hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
+              <a href="refuser-offre-assurance-accident" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
             </div>
           </div>
         </article>
@@ -693,7 +691,7 @@
         <!-- Article 4 -->
         <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div class="bg-gradient-to-br from-purple-500 to-indigo-700 h-48 flex items-center justify-center">
-            <span class="text-6xl">🏥</span>
+            <span class="text-6xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></span>
           </div>
           <div class="p-8">
             <div class="flex items-center gap-3 mb-4">
@@ -704,7 +702,7 @@
             <p class="text-gray-500 text-sm leading-relaxed mb-6">CCI, ONIAM, aléa thérapeutique, preuves à réunir : tout ce que vous devez savoir pour faire valoir vos droits face au corps médical.</p>
             <div class="flex items-center justify-between">
               <time class="text-xs text-gray-400">17 février 2026</time>
-              <a href="erreur-medicale-droits-victime" class="text-sm font-bold text-black hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
+              <a href="erreur-medicale-droits-victime" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
             </div>
           </div>
         </article>
@@ -712,7 +710,7 @@
         <!-- Article 5 -->
         <article class="group bg-white border border-gray-100 rounded-2xl overflow-hidden hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
           <div class="bg-gradient-to-br from-teal-500 to-cyan-700 h-48 flex items-center justify-center">
-            <span class="text-6xl">⏱️</span>
+            <span class="text-6xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M10 2h4"/><path d="m12 14 3-3"/><circle cx="12" cy="14" r="8"/></svg></span>
           </div>
           <div class="p-8">
             <div class="flex items-center gap-3 mb-4">
@@ -723,13 +721,13 @@
             <p class="text-gray-500 text-sm leading-relaxed mb-6">Délai de 10 ans, délais spéciaux, notion de consolidation, actes interruptifs : ne laissez pas le temps jouer contre vous.</p>
             <div class="flex items-center justify-between">
               <time class="text-xs text-gray-400">17 février 2026</time>
-              <a href="delai-prescription-accident-corporel" class="text-sm font-bold text-black hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
+              <a href="delai-prescription-accident-corporel" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition flex items-center gap-1">Lire l'article <span>→</span></a>
             </div>
           </div>
         </article>
 
         <!-- CTA Card -->
-        <div class="bg-black text-white rounded-2xl overflow-hidden p-8 flex flex-col justify-between">
+        <div class="bg-gray-900 text-white rounded-2xl overflow-hidden p-8 flex flex-col justify-between">
           <div>
             <span class="text-blue-400 text-xs font-bold uppercase tracking-widest mb-4 block">Consultation gratuite</span>
             <h3 class="text-2xl font-black mb-4 leading-tight">Votre dossier mérite une analyse personnalisée</h3>
@@ -751,22 +749,22 @@
       <h2 class="text-2xl font-black mb-8 tracking-tight">Nos domaines d'intervention</h2>
       <div class="grid sm:grid-cols-2 md:grid-cols-4 gap-4">
         <a href="../accidents-route" class="block bg-white hover:bg-blue-50 border border-gray-100 hover:border-blue-200 rounded-2xl p-5 transition group">
-          <div class="text-2xl mb-3">🚗</div>
+          <div class="text-2xl mb-3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg></div>
           <h3 class="font-bold text-sm group-hover:text-blue-600 transition">Accident de la route</h3>
           <p class="text-gray-400 text-xs mt-1">Loi Badinter, indemnisation victimes</p>
         </a>
         <a href="../accidents-vie" class="block bg-white hover:bg-orange-50 border border-gray-100 hover:border-orange-200 rounded-2xl p-5 transition group">
-          <div class="text-2xl mb-3">🏠</div>
+          <div class="text-2xl mb-3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></div>
           <h3 class="font-bold text-sm group-hover:text-orange-600 transition">Accident de la vie</h3>
           <p class="text-gray-400 text-xs mt-1">GAV, chutes, sport, loisirs</p>
         </a>
         <a href="../agression" class="block bg-white hover:bg-purple-50 border border-gray-100 hover:border-purple-200 rounded-2xl p-5 transition group">
-          <div class="text-2xl mb-3">⚖️</div>
+          <div class="text-2xl mb-3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></div>
           <h3 class="font-bold text-sm group-hover:text-purple-600 transition">Victime d'agression</h3>
           <p class="text-gray-400 text-xs mt-1">CIVI, FGTI, indemnisation</p>
         </a>
         <a href="../erreur-medicale" class="block bg-white hover:bg-green-50 border border-gray-100 hover:border-green-200 rounded-2xl p-5 transition group">
-          <div class="text-2xl mb-3">🏥</div>
+          <div class="text-2xl mb-3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></div>
           <h3 class="font-bold text-sm group-hover:text-green-600 transition">Erreur médicale</h3>
           <p class="text-gray-400 text-xs mt-1">CCI, ONIAM, faute médicale</p>
         </a>
@@ -775,14 +773,14 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="bg-[#0A0A0A] text-white py-16 border-t border-gray-900">
+  <footer class="bg-ink text-white py-16 border-t border-gray-900">
     <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between gap-12">
       <div>
-        <p class="font-black text-3xl mb-6 tracking-tighter">ILAN GUEDJ<span class="text-blue-600">.</span></p>
+        <p class="font-display font-bold text-3xl mb-6 tracking-tight">ILAN GUEDJ<span class="text-blue-600">.</span></p>
         <div class="space-y-3">
-          <a href="tel:+33663465984" class="flex items-center gap-3 text-white hover:text-blue-400 font-bold">📞 06 63 46 59 84</a>
-          <a href="mailto:contact@ig-avocat.com" class="flex items-center gap-3 text-white hover:text-blue-400 font-bold">✉️ contact@ig-avocat.com</a>
-          <p class="text-gray-400">📍 16 Rue Breteuil, 13001 Marseille</p>
+          <a href="tel:+33663465984" class="flex items-center gap-3 text-white hover:text-blue-400 font-bold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 06 63 46 59 84</a>
+          <a href="mailto:contact@ig-avocat.com" class="flex items-center gap-3 text-white hover:text-blue-400 font-bold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg> contact@ig-avocat.com</a>
+          <p class="text-gray-400"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> 16 Rue Breteuil, 13001 Marseille</p>
         </div>
       </div>
       <div class="text-gray-500 flex flex-col gap-2">
@@ -811,10 +809,9 @@
         const db = parseDate(b.querySelector('time').textContent);
         return db - da;
       });
-      const cta = grid.querySelector('div.bg-black');
+      const cta = grid.querySelector('div.bg-gray-900');
       articles.forEach(a => grid.insertBefore(a, cta));
     })();
   </script>
-  <script>if(typeof lucide !== 'undefined') lucide.createIcons();</script>
 </body>
 </html>

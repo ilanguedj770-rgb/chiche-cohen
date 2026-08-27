@@ -1,0 +1,206 @@
+/* Polices auto-hébergées : plus de dépendance à un CDN tiers au premier rendu.
+   Inter et Fraunces sont des fontes variables (SIL Open Font License 1.1),
+   un seul fichier couvre toute la plage de graisses utilisée par le site. */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(../fonts/inter-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url(../fonts/inter-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(../fonts/fraunces-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 400 700;
+  font-display: swap;
+  src: url(../fonts/fraunces-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* =========================================================================
+   Charte du site — papier sable, encre bleu-nuit, bleu profond, cuivre.
+   La palette elle-même vit dans tailwind.config.js ; ce fichier porte les
+   règles de fond, la typographie et les comportements transverses.
+   ========================================================================= */
+
+@layer base {
+  :root {
+    --paper: #FDFBF8;
+    --sand: #FAF7F2;
+    --sand-deep: #F4EFE5;
+    --ink: #1B2430;
+    --rule: rgba(27, 36, 48, 0.10);
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    background-color: var(--sand);
+    color: theme('colors.gray.700');
+    font-feature-settings: 'kern', 'liga', 'calt';
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  /* Les titres passent en serif : c'est ce qui donne le registre « cabinet »
+     plutôt que « landing page ». Le HTML n'a pas à le déclarer. */
+  h1, h2, h3, .font-display {
+    font-family: theme('fontFamily.display');
+    font-optical-sizing: auto;
+    font-variation-settings: 'SOFT' 20, 'WONK' 0;
+    letter-spacing: -0.015em;
+    line-height: 1.12;
+  }
+
+  h1 { line-height: 1.06; }
+  h3 { line-height: 1.25; }
+
+  /* Les titres héritent de la couleur de leur contexte : c'était déjà le cas
+     avant la charte, et c'est ce qui les garde lisibles aussi bien sur le
+     papier que sur les fonds sombres, y compris en dégradé.
+
+     Sur les blocs d'encre, le texte sans classe de couleur doit basculer en
+     clair. La règle vise les blocs de contenu, jamais `html` ou `body` —
+     dont le fond ne sert qu'au rebond de défilement. `:where()` garde une
+     spécificité nulle : toute classe du HTML reprend la main. */
+  :where(section, div, footer, header, aside, article):where(.bg-ink, .bg-gray-900, .bg-gray-800, .bg-black) {
+    color: #E6E1D7;
+  }
+
+  p {
+    line-height: 1.7;
+  }
+
+  strong, b {
+    font-weight: 600;
+  }
+
+  /* Chiffres alignés et tabulaires partout où ils comptent (montants, stats). */
+  .font-display, table, .tabular {
+    font-variant-numeric: tabular-nums lining-nums;
+  }
+
+  ::selection {
+    background-color: theme('colors.blue.100');
+    color: theme('colors.gray.900');
+  }
+
+  /* Accessibilité : anneau de focus visible et homogène sur tout le site. */
+  :focus-visible {
+    outline: 2px solid theme('colors.blue.600');
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  .bg-ink :focus-visible,
+  [class*="bg-gray-900"] :focus-visible {
+    outline-color: theme('colors.blue.300');
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, ::before, ::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+    /* Les blocs révélés au défilement doivent rester lisibles sans animation. */
+    .animate-on-scroll { opacity: 1 !important; transform: none !important; }
+  }
+}
+
+@layer components {
+  /* Fonds de page : les sections claires prennent le papier chaud, les cartes
+     restent blanches pour se détacher. */
+  section.bg-white,
+  footer.bg-white,
+  main > .bg-white {
+    background-color: var(--paper);
+  }
+
+  section.bg-gray-50 {
+    background-color: var(--sand-deep);
+  }
+
+  /* Les séparateurs très clairs disparaissaient sur le papier : on les assoit. */
+  .border-gray-50 { border-color: var(--rule); }
+  .border-gray-100 { border-color: rgba(27, 36, 48, 0.12); }
+
+  /* Barre de navigation : voile de papier au lieu du blanc pur. */
+  nav.fixed,
+  header.fixed,
+  .nav-blur {
+    background-color: rgba(253, 251, 248, 0.86);
+    backdrop-filter: saturate(180%) blur(14px);
+    -webkit-backdrop-filter: saturate(180%) blur(14px);
+  }
+
+  /* Filet de cuivre sous les intertitres de section (le petit trait bleu
+     centré devient un repère de charte). */
+  .w-24.h-1.bg-blue-600 {
+    background: linear-gradient(90deg, theme('colors.copper.500'), theme('colors.blue.600'));
+    height: 3px;
+  }
+
+  /* Cartes : transition plus douce, élévation contenue. */
+  .rounded-2xl,
+  .rounded-3xl {
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+}
+
+@layer utilities {
+  /* Ancres : évite que les titres passent sous la barre fixe. */
+  [id] { scroll-margin-top: 6rem; }
+
+  .text-balance { text-wrap: balance; }
+  .text-pretty { text-wrap: pretty; }
+}
+
+/* =========================================================================
+   Reprises sur fond sombre. Les gris de la charte sont taillés pour le
+   papier ; sur l'encre ils tombent sous le seuil de lisibilité. Ces règles
+   sont volontairement hors couche : elles doivent l'emporter sur les
+   classes utilitaires déjà posées dans les pages.
+   ========================================================================= */
+:is(section, div, footer, header, aside, article).bg-ink :is(.text-gray-500, .text-gray-400),
+:is(section, div, footer, header, aside, article):is(.bg-gray-900, .bg-black) :is(.text-gray-500, .text-gray-400) { color: #ABA396; }
+
+:is(section, div, footer, header, aside, article).bg-ink :is(.text-gray-600, .text-gray-300),
+:is(section, div, footer, header, aside, article):is(.bg-gray-900, .bg-black) :is(.text-gray-600, .text-gray-300) { color: #C6BFB2; }
+
+:is(section, div, footer, header, aside, article).bg-ink :is(.text-gray-700, .text-gray-800),
+:is(section, div, footer, header, aside, article).bg-gray-900 .text-gray-700 { color: #DED8CD; }
+
+:is(section, div, footer, header, aside, article).bg-ink :is(.border-gray-900, .border-white\/10) { border-color: rgba(250, 247, 242, 0.14); }
+
+:is(section, div, footer, header, aside, article).bg-ink .bg-white\/5 { background-color: rgba(250, 247, 242, 0.05); }
+
+/* Le bleu profond n'est pas lisible sur l'encre : on remonte d'un cran. */
+:is(section, div, footer, header, aside, article).bg-ink .text-blue-600,
+:is(section, div, footer, header, aside, article).bg-gray-900 .text-blue-600 { color: theme('colors.blue.300'); }

@@ -9,25 +9,30 @@
     <link rel="author" href="https://ig-avocat.com/avocat-ilan-guedj">
     <link rel="canonical" href="https://ig-avocat.com/guide-5-erreurs">
   <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preload" href="fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
   <style>
     /* ===== SCREEN STYLES ===== */
+    /* Polices auto-hébergées, identiques au reste du site. */
+    @font-face { font-family:'Inter'; font-style:normal; font-weight:300 700; font-display:swap;
+      src:url(fonts/inter-latin.woff2) format('woff2'); }
+    @font-face { font-family:'Fraunces'; font-style:normal; font-weight:400 700; font-display:swap;
+      src:url(fonts/fraunces-latin.woff2) format('woff2'); }
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
       font-family: 'Inter', system-ui, sans-serif;
-      background: #f8f9fa;
-      color: #0A0A0A;
+      background: #FAF7F2;
+      -webkit-font-smoothing: antialiased;
+      color: #1B2430;
       -webkit-print-color-adjust: exact;
       print-color-adjust: exact;
     }
 
     /* Top banner */
     .top-bar {
-      background: #0A0A0A;
+      background: #1B2430;
       color: white;
       text-align: center;
       padding: 12px 24px;
@@ -38,11 +43,11 @@
       align-items: center;
     }
     .top-bar a {
-      color: #60a5fa;
+      color: #97AEE0;
       text-decoration: none;
     }
     .print-btn {
-      background: #2563EB;
+      background: #1A3796;
       color: white;
       border: none;
       padding: 8px 18px;
@@ -52,7 +57,13 @@
       cursor: pointer;
       font-family: inherit;
     }
-    .print-btn:hover { background: #1d4ed8; }
+    .print-btn:hover { background: #1A3796; }
+
+    .guide-title, .section-title, .error-title, .cta-title, h1, h2, h3 {
+      font-family: 'Fraunces', Georgia, serif;
+      font-optical-sizing: auto;
+      letter-spacing: -0.015em;
+    }
 
     /* Guide container */
     .guide {
@@ -66,7 +77,7 @@
 
     /* Header */
     .guide-header {
-      background: linear-gradient(135deg, #0A0A0A 0%, #1a1a2e 100%);
+      background: linear-gradient(135deg, #1B2430 0%, #232C38 100%);
       color: white;
       padding: 56px 64px;
       position: relative;
@@ -92,7 +103,7 @@
       display: inline-block;
       background: rgba(37, 99, 235, 0.3);
       border: 1px solid rgba(37, 99, 235, 0.5);
-      color: #93c5fd;
+      color: #C2D0EE;
       font-size: 11px;
       font-weight: 700;
       letter-spacing: 0.15em;
@@ -110,7 +121,7 @@
       margin-bottom: 20px;
       position: relative; z-index: 1;
     }
-    .guide-title span { color: #2563EB; }
+    .guide-title span { color: #1A3796; }
     .guide-subtitle {
       font-size: 18px;
       color: rgba(255,255,255,0.65);
@@ -128,7 +139,7 @@
     }
     .author-avatar {
       width: 48px; height: 48px;
-      background: #2563EB;
+      background: #1A3796;
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
       font-size: 18px; font-weight: 900; color: white;
@@ -139,14 +150,14 @@
 
     /* Warning box */
     .warning-box {
-      background: #fffbeb;
-      border-left: 4px solid #f59e0b;
+      background: #FDF6E7;
+      border-left: 4px solid #C08C29;
       margin: 40px 64px;
       padding: 20px 24px;
       border-radius: 0 10px 10px 0;
     }
-    .warning-box p { font-size: 15px; line-height: 1.6; color: #78350f; }
-    .warning-box strong { color: #92400e; }
+    .warning-box p { font-size: 15px; line-height: 1.6; color: #634716; }
+    .warning-box strong { color: #7E5A1A; }
 
     /* Body */
     .guide-body { padding: 8px 64px 64px; }
@@ -155,17 +166,17 @@
     .intro {
       font-size: 16px;
       line-height: 1.75;
-      color: #374151;
+      color: #474339;
       margin-bottom: 48px;
       padding-bottom: 40px;
-      border-bottom: 2px solid #f3f4f6;
+      border-bottom: 2px solid #F1ECE3;
     }
 
     /* Error cards */
     .error-card {
       margin-bottom: 48px;
       padding-bottom: 48px;
-      border-bottom: 1px solid #f3f4f6;
+      border-bottom: 1px solid #F1ECE3;
     }
     .error-card:last-of-type { border-bottom: none; }
 
@@ -177,18 +188,18 @@
     }
     .error-number {
       width: 56px; height: 56px;
-      background: #0A0A0A;
+      background: #1B2430;
       color: white;
       border-radius: 14px;
       display: flex; align-items: center; justify-content: center;
       font-size: 22px; font-weight: 900;
       flex-shrink: 0;
     }
-    .error-card:nth-child(1) .error-number { background: #dc2626; }
-    .error-card:nth-child(2) .error-number { background: #ea580c; }
-    .error-card:nth-child(3) .error-number { background: #d97706; }
-    .error-card:nth-child(4) .error-number { background: #16a34a; }
-    .error-card:nth-child(5) .error-number { background: #2563EB; }
+    .error-card:nth-child(1) .error-number { background: #A34435; }
+    .error-card:nth-child(2) .error-number { background: #B45309; }
+    .error-card:nth-child(3) .error-number { background: #C2761F; }
+    .error-card:nth-child(4) .error-number { background: #2F6E4E; }
+    .error-card:nth-child(5) .error-number { background: #1A3796; }
 
     .error-title-group h2 {
       font-size: 22px;
@@ -205,36 +216,36 @@
       padding: 3px 10px;
       border-radius: 10px;
     }
-    .tag-critical { background: #fee2e2; color: #991b1b; }
-    .tag-frequent { background: #ffedd5; color: #9a3412; }
-    .tag-subtil { background: #fef9c3; color: #713f12; }
-    .tag-legal { background: #dcfce7; color: #14532d; }
-    .tag-financier { background: #dbeafe; color: #1e3a8a; }
+    .tag-critical { background: #F5DDD9; color: #85372B; }
+    .tag-frequent { background: #F8E6D0; color: #92400E; }
+    .tag-subtil { background: #F9E9C6; color: #7E5A1A; }
+    .tag-legal { background: #D8E8DE; color: #245840; }
+    .tag-financier { background: #DDE5F6; color: #16307F; }
 
-    .error-content { font-size: 15px; line-height: 1.75; color: #374151; }
+    .error-content { font-size: 15px; line-height: 1.75; color: #474339; }
     .error-content p { margin-bottom: 14px; }
-    .error-content strong { color: #0A0A0A; font-weight: 700; }
+    .error-content strong { color: #1B2430; font-weight: 700; }
 
     /* Highlight block */
     .highlight {
-      background: #f0f9ff;
-      border-left: 3px solid #2563EB;
+      background: #EFF3FB;
+      border-left: 3px solid #1A3796;
       padding: 16px 20px;
       border-radius: 0 8px 8px 0;
       margin: 16px 0;
     }
-    .highlight p { font-size: 14px; color: #1e40af; margin: 0; line-height: 1.6; }
-    .highlight strong { color: #1d4ed8; }
+    .highlight p { font-size: 14px; color: #1A3796; margin: 0; line-height: 1.6; }
+    .highlight strong { color: #1A3796; }
 
     /* Danger block */
     .danger {
-      background: #fff1f2;
-      border-left: 3px solid #dc2626;
+      background: #FBF0EE;
+      border-left: 3px solid #A34435;
       padding: 16px 20px;
       border-radius: 0 8px 8px 0;
       margin: 16px 0;
     }
-    .danger p { font-size: 14px; color: #991b1b; margin: 0; line-height: 1.6; }
+    .danger p { font-size: 14px; color: #85372B; margin: 0; line-height: 1.6; }
 
     /* Checklist */
     .checklist {
@@ -246,14 +257,14 @@
       align-items: flex-start;
       gap: 10px;
       font-size: 14px;
-      color: #374151;
+      color: #474339;
       padding: 6px 0;
-      border-bottom: 1px solid #f9fafb;
+      border-bottom: 1px solid #F4EFE5;
     }
     .checklist li::before {
       content: '✓';
       font-weight: 900;
-      color: #16a34a;
+      color: #2F6E4E;
       flex-shrink: 0;
       margin-top: 1px;
     }
@@ -266,18 +277,18 @@
       margin: 24px 0;
     }
     .stat-box {
-      background: #f8f9fa;
-      border: 1px solid #e5e7eb;
+      background: #FAF7F2;
+      border: 1px solid #E2DCD1;
       border-radius: 12px;
       padding: 20px;
       text-align: center;
     }
-    .stat-number { font-size: 32px; font-weight: 900; color: #0A0A0A; }
-    .stat-label { font-size: 12px; color: #6b7280; margin-top: 4px; line-height: 1.4; }
+    .stat-number { font-size: 32px; font-weight: 900; color: #1B2430; }
+    .stat-label { font-size: 12px; color: #5C574E; margin-top: 4px; line-height: 1.4; }
 
     /* CTA bottom */
     .cta-box {
-      background: linear-gradient(135deg, #0A0A0A 0%, #1e3a8a 100%);
+      background: linear-gradient(135deg, #1B2430 0%, #16307F 100%);
       color: white;
       padding: 48px 64px;
       margin-top: 48px;
@@ -294,22 +305,22 @@
       text-decoration: none;
       display: inline-flex; align-items: center; gap: 8px;
     }
-    .cta-btn-primary { background: #2563EB; color: white; }
+    .cta-btn-primary { background: #1A3796; color: white; }
     .cta-btn-secondary { background: rgba(255,255,255,0.1); color: white; border: 1px solid rgba(255,255,255,0.2); }
     .cta-btn:hover { opacity: 0.9; }
 
     /* Footer */
     .guide-footer {
-      background: #f8f9fa;
-      border-top: 1px solid #e5e7eb;
+      background: #FAF7F2;
+      border-top: 1px solid #E2DCD1;
       padding: 24px 64px;
       display: flex;
       justify-content: space-between;
       align-items: center;
       font-size: 12px;
-      color: #9ca3af;
+      color: #7E786D;
     }
-    .guide-footer strong { color: #374151; }
+    .guide-footer strong { color: #474339; }
 
     /* ===== PRINT STYLES ===== */
     @media print {
@@ -681,7 +692,7 @@
 
   <!-- Top bar -->
   <div class="top-bar">
-    <span>Guide offert par <a href="/">Maître Ilan Guedj</a> — Avocats en dommage corporel à Marseille</span>
+    <span>Guide offert par <a href="/">Maître Ilan Guedj</a> — Avocat en dommage corporel à Marseille</span>
     <button class="print-btn" onclick="window.print()">⬇ Enregistrer en PDF</button>
   </div>
 
@@ -695,17 +706,17 @@
 <div class="geo-answer" aria-label="Reponse essentielle"><p class="guide-subtitle">Ce que font 9 victimes sur 10 — et qui leur coûte des dizaines de milliers d'euros d'indemnisation.</p></div>
 <!-- GEO:ANSWER:END -->
       <div class="guide-author">
-        <div class="author-avatar">CC</div>
+        <div class="author-avatar">IG</div>
         <div class="author-info">
           <p>Maître Ilan Guedj</p>
-          <p>Avocats en dommage corporel · Marseille</p>
+          <p>Avocat en dommage corporel · Marseille</p>
         </div>
       </div>
     </div>
 
     <!-- Warning -->
     <div class="warning-box">
-      <p>⚠️ <strong>Ce guide ne remplace pas un conseil juridique personnalisé.</strong> Chaque situation est unique. Si vous avez été victime d'un accident corporel, consultez un avocat en dommage corporel avant de signer quoi que ce soit avec votre assurance.</p>
+      <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> <strong>Ce guide ne remplace pas un conseil juridique personnalisé.</strong> Chaque situation est unique. Si vous avez été victime d'un accident corporel, consultez un avocat en dommage corporel avant de signer quoi que ce soit avec votre assurance.</p>
     </div>
 
     <!-- Body -->
@@ -745,11 +756,11 @@
         <div class="error-content">
           <p>C'est l'erreur numéro un, et de loin la plus coûteuse. Après un accident, l'assurance adverse vous contacte rapidement avec une offre d'indemnisation. Elle semble correcte, elle est formulée dans un langage rassurant — et elle est presque toujours dramatiquement insuffisante.</p>
           <div class="danger">
-            <p>🚨 <strong>Les assureurs sont légalement tenus de formuler une offre dans les 3 à 8 mois selon la loi Badinter, mais rien ne les oblige à ce qu'elle soit juste.</strong> Leur objectif est de clore le dossier au plus vite, au coût le plus bas.</p>
+            <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg> <strong>Les assureurs sont légalement tenus de formuler une offre dans les 3 à 8 mois selon la loi Badinter, mais rien ne les oblige à ce qu'elle soit juste.</strong> Leur objectif est de clore le dossier au plus vite, au coût le plus bas.</p>
           </div>
           <p>Les premières offres omettent systématiquement des postes de préjudice entiers : le préjudice esthétique, le préjudice d'agrément, le pretium doloris, les pertes de revenus futurs, l'aide humaine permanente... Des postes qui peuvent représenter la majeure partie de l'indemnisation totale.</p>
           <div class="highlight">
-            <p>✅ <strong>Ce qu'il faut faire :</strong> Ne signez jamais rien avant d'avoir consulté un avocat en dommage corporel. La consultation initiale est gratuite dans notre cabinet. Une fois l'accord signé, il est définitif — vous perdez tout droit à une indemnisation complémentaire.</p>
+            <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg> <strong>Ce qu'il faut faire :</strong> Ne signez jamais rien avant d'avoir consulté un avocat en dommage corporel. La consultation initiale est gratuite dans notre cabinet. Une fois l'accord signé, il est définitif — vous perdez tout droit à une indemnisation complémentaire.</p>
           </div>
         </div>
       </div>
@@ -774,7 +785,7 @@
             <li>Notez chaque jour l'impact des blessures sur votre vie quotidienne (journal de douleur)</li>
           </ul>
           <div class="highlight">
-            <p>✅ <strong>À savoir :</strong> Certaines séquelles n'apparaissent que des semaines ou des mois après l'accident (traumatismes cervicaux, troubles psychologiques post-traumatiques, algodystrophie...). Un suivi médical rigoureux permet de les intégrer dans votre dossier.</p>
+            <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg> <strong>À savoir :</strong> Certaines séquelles n'apparaissent que des semaines ou des mois après l'accident (traumatismes cervicaux, troubles psychologiques post-traumatiques, algodystrophie...). Un suivi médical rigoureux permet de les intégrer dans votre dossier.</p>
           </div>
         </div>
       </div>
@@ -791,11 +802,11 @@
         <div class="error-content">
           <p>La <strong>consolidation</strong> est le moment où votre état de santé est stabilisé et où vos séquelles définitives peuvent être évaluées. Accepter une indemnisation avant ce stade, c'est accepter une photo floue de votre préjudice — prise avant qu'on en connaisse l'étendue réelle.</p>
           <div class="danger">
-            <p>🚨 <strong>Une transaction signée avant consolidation est valable même si votre état s'aggrave par la suite.</strong> Vous n'aurez plus aucun recours, même si votre invalidité s'avère plus importante que prévu.</p>
+            <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg> <strong>Une transaction signée avant consolidation est valable même si votre état s'aggrave par la suite.</strong> Vous n'aurez plus aucun recours, même si votre invalidité s'avère plus importante que prévu.</p>
           </div>
           <p>Les assureurs le savent et multiplient les relances et les offres "avantageuses" avant la consolidation. C'est une stratégie délibérée : ils savent que l'indemnisation post-consolidation sera souvent beaucoup plus élevée.</p>
           <div class="highlight">
-            <p>✅ <strong>Ce qu'il faut faire :</strong> Attendez que votre médecin traitant ou le médecin expert ait prononcé la consolidation avant toute négociation. Si vous avez besoin d'argent rapidement, votre avocat peut obtenir une provision (acompte) sans que vous renoncez à vos droits futurs.</p>
+            <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg> <strong>Ce qu'il faut faire :</strong> Attendez que votre médecin traitant ou le médecin expert ait prononcé la consolidation avant toute négociation. Si vous avez besoin d'argent rapidement, votre avocat peut obtenir une provision (acompte) sans que vous renoncez à vos droits futurs.</p>
           </div>
         </div>
       </div>
@@ -819,7 +830,7 @@
             <li>Contestez le rapport d'expertise si les conclusions vous semblent erronées</li>
           </ul>
           <div class="highlight">
-            <p>✅ <strong>À retenir :</strong> Un taux d'IPP (Incapacité Permanente Partielle) mal évalué de 2 ou 3 points peut représenter une différence de plusieurs dizaines de milliers d'euros sur votre indemnisation totale.</p>
+            <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg> <strong>À retenir :</strong> Un taux d'IPP (Incapacité Permanente Partielle) mal évalué de 2 ou 3 points peut représenter une différence de plusieurs dizaines de milliers d'euros sur votre indemnisation totale.</p>
           </div>
         </div>
       </div>
@@ -836,12 +847,12 @@
         <div class="error-content">
           <p>La grande majorité des victimes ne savent pas qu'elles disposent déjà d'une <strong>protection juridique</strong> incluse dans leurs contrats d'assurance habitation, automobile ou carte bancaire. Cette garantie prend en charge tout ou partie des frais d'avocat — sans que vous ayez à avancer le moindre euro.</p>
           <div class="highlight">
-            <p>✅ <strong>Réflexe à avoir immédiatement :</strong> Vérifiez vos contrats d'assurance (habitation, auto, complémentaire santé, carte Visa Premier ou Infinite, etc.) pour la mention "Protection Juridique" ou "Défense Recours". Signalez-la à votre avocat dès le premier rendez-vous.</p>
+            <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg> <strong>Réflexe à avoir immédiatement :</strong> Vérifiez vos contrats d'assurance (habitation, auto, complémentaire santé, carte Visa Premier ou Infinite, etc.) pour la mention "Protection Juridique" ou "Défense Recours". Signalez-la à votre avocat dès le premier rendez-vous.</p>
           </div>
           <p>Par ailleurs, de nombreuses victimes ignorent l'existence du <strong>FGTI (Fonds de Garantie des victimes de Terrorisme et d'Infractions)</strong> pour les victimes d'agressions, ou de <strong>l'ONIAM</strong> pour les accidents médicaux — des organismes qui indemnisent même en l'absence de faute identifiée.</p>
           <p>Enfin, beaucoup pensent qu'un avocat en dommage corporel représente un coût prohibitif. La réalité : les cabinets dédiés au dommage corporel travaillent <strong>uniquement au résultat</strong>. Vous ne payez rien tant que vous n'êtes pas indemnisé. Les honoraires sont prélevés sur l'indemnisation obtenue — et l'augmentation obtenue grâce à l'avocat dépasse systématiquement ces honoraires.</p>
           <div class="danger">
-            <p>🚨 <strong>Sans avocat, vous négociez avec un professionnel de l'indemnisation, en terrain inconnu, avec des milliers d'euros en jeu.</strong></p>
+            <p><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><circle cx="12" cy="12" r="10"/><path d="M12 8v4"/><path d="M12 16h.01"/></svg> <strong>Sans avocat, vous négociez avec un professionnel de l'indemnisation, en terrain inconnu, avec des milliers d'euros en jeu.</strong></p>
           </div>
         </div>
       </div>
@@ -851,8 +862,8 @@
         <h3>Votre situation mérite une analyse personnalisée</h3>
         <p>Ce guide vous donne les bases, mais chaque dossier est différent. Un entretien de 30 minutes avec Maître Ilan Guedj peut changer radicalement le montant de votre indemnisation. Le premier rendez-vous est toujours gratuit et sans engagement.</p>
         <div class="cta-buttons">
-          <a href="contact" class="cta-btn cta-btn-primary">📅 Prendre rendez-vous gratuitement</a>
-          <a href="https://wa.me/33663465984" class="cta-btn cta-btn-secondary">💬 Écrire sur WhatsApp</a>
+          <a href="contact" class="cta-btn cta-btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg> Prendre rendez-vous gratuitement</a>
+          <a href="https://wa.me/33663465984" class="cta-btn cta-btn-secondary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg> Écrire sur WhatsApp</a>
         </div>
       </div>
 
