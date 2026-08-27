@@ -13,3 +13,18 @@ jobs:
           python-version: '3.12'
       - run: python tools/geo-audit.py
       - run: python tools/check-internal-links.py
+
+  styles:
+    # La feuille livrée doit toujours correspondre à sa source : sans ce
+    # garde-fou, une modification de css/input.css ou de la palette peut
+    # partir en production sans avoir été compilée.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm ci
+      - run: npm run build:css
+      - name: css/tailwind.css est-il à jour ?
+        run: git diff --exit-code -- css/tailwind.css

@@ -1,5 +1,4 @@
 node_modules/
-css/input.css
 
 # Google Search Console — credentials du compte de service (voir SETUP-GSC-MCP.md)
 .gsc/

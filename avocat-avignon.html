@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html lang="fr" class="scroll-smooth bg-[#0A0A0A]">
+<html lang="fr" class="scroll-smooth bg-sand">
 
 <head>
-    <!-- Performance: preconnect CDNs -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -38,9 +35,8 @@
     <meta name="twitter:image" content="https://ig-avocat.com/img/og-cover.jpg">
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <link rel="stylesheet" href="css/tailwind.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
+    <link rel="preload" href="fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
@@ -535,7 +531,7 @@
 </head>
 
 <body
-    class="bg-[#FAFAFA] text-[#0A0A0A] antialiased selection:bg-black selection:text-white flex flex-col min-h-screen">
+    class="bg-sand text-gray-900 antialiased selection:bg-blue-100 selection:text-gray-900 flex flex-col min-h-screen">
     <!-- Google Tag Manager (noscript) -->
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP82S37T"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -545,26 +541,26 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="flex justify-between items-center h-24">
             <a href="/" class="flex-shrink-0 cursor-pointer group">
-                <span class="text-2xl font-black tracking-tighter uppercase group-hover:opacity-80 transition">
+                <span class="font-display text-2xl font-bold tracking-tight uppercase group-hover:opacity-80 transition">
                     ILAN GUEDJ<span class="text-blue-600">.</span>
                 </span>
             </a>
 
             <div class="hidden md:flex space-x-10 items-center">
-                <a href="avocat-ilan-guedj" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">L'Avocat</a>
-                <a href="/#expertises" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Domaines</a>
-                <a href="honoraires" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Honoraires</a>
-                <a href="blog/" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Blog</a>
-                <a href="contact" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Contact</a>
+                <a href="avocat-ilan-guedj" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">L'Avocat</a>
+                <a href="/#expertises" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Domaines</a>
+                <a href="honoraires" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Honoraires</a>
+                <a href="blog/" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Blog</a>
+                <a href="contact" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Contact</a>
 
                 <div class="h-6 w-px bg-gray-200"></div>
 
-                <a href="tel:+33663465984" class="text-sm font-bold text-black hover:text-blue-600 transition duration-300">
+                <a href="tel:+33663465984" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition duration-300">
                     06 63 46 59 84
                 </a>
 
                 <a href="https://wa.me/33663465984"
-                    class="bg-black text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
+                    class="bg-gray-900 text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
                     <svg class="w-4 h-4 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                     </svg>
@@ -573,7 +569,7 @@
             </div>
 
             <div class="md:hidden flex items-center">
-                <button id="mobile-menu-btn" class="text-black focus:outline-none p-3 -mr-3">
+                <button id="mobile-menu-btn" class="text-gray-900 focus:outline-none p-3 -mr-3">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M4 6h16M4 12h16M4 18h16"></path>
@@ -595,7 +591,7 @@
 </nav>
 
     <!-- ===== HERO ===== -->
-    <section class="relative pt-48 pb-24 bg-gradient-to-b from-gray-50 to-[#FAFAFA] overflow-hidden">
+    <section class="relative pt-48 pb-24 bg-gradient-to-b from-gray-50 to-sand overflow-hidden">
         <div class="absolute top-0 right-0 w-1/2 h-full bg-blue-50/30 blur-3xl -z-10"></div>
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <!-- Breadcrumb -->
@@ -613,7 +609,7 @@
                     Intervention locale · Avignon</div>
                 <h1 class="text-5xl md:text-7xl font-black tracking-tighter leading-[0.95] mb-8 text-balance">Avocat dommage corporel à <span class="text-blue-600">Avignon</span>.</h1>
                 <!-- GEO:ANSWER:START -->
-<div class="geo-answer" aria-label="Reponse essentielle"><p class="text-2xl md:text-3xl text-gray-500 font-medium leading-snug max-w-3xl text-balance">Cabinet basé à Marseille, à <strong class="text-black">100 km d'Avignon</strong>, intervenant devant le TJ Avignon et la <strong class="text-black">Cour d'appel de Nîmes</strong> (et non Aix). <span class="text-black">Accidents, erreurs médicales, agressions, accidents de la vie.</span></p></div>
+<div class="geo-answer" aria-label="Reponse essentielle"><p class="text-2xl md:text-3xl text-gray-500 font-medium leading-snug max-w-3xl text-balance">Cabinet basé à Marseille, à <strong class="text-gray-900">100 km d'Avignon</strong>, intervenant devant le TJ Avignon et la <strong class="text-gray-900">Cour d'appel de Nîmes</strong> (et non Aix). <span class="text-gray-900">Accidents, erreurs médicales, agressions, accidents de la vie.</span></p></div>
 <!-- GEO:ANSWER:END -->
                 <p class="text-sm text-gray-400 mt-6">Maître Ilan Guedj — Avocat au Barreau de Marseille. Déplacements physiques à Avignon (CH Avignon, Polyclinique Urbain V, Clinique Rhône Durance) et à Nîmes pour les audiences d'appel. Visioconférence pour les rendez-vous courants.</p>
                 <!-- Engagements -->
@@ -626,7 +622,7 @@
                         </div>
                     </div>
                     <div class="h-10 w-px bg-gray-200 hidden sm:block"></div>
-                    <p class="text-sm text-gray-600 max-w-md leading-snug">Maître Ilan Guedj ne défend <strong class="text-black">que des victimes</strong>&nbsp;: aucune assurance, aucun assureur adverse.</p>
+                    <p class="text-sm text-gray-600 max-w-md leading-snug">Maître Ilan Guedj ne défend <strong class="text-gray-900">que des victimes</strong>&nbsp;: aucune assurance, aucun assureur adverse.</p>
                     <a href="avocat-ilan-guedj" class="text-sm font-bold text-blue-600 hover:underline whitespace-nowrap">Sa présentation →</a>
                 </div>
             </div>
@@ -665,7 +661,7 @@
     </section>
 
     <!-- ===== NOS 4 DOMAINES À AVIGNON ===== -->
-    <section class="py-20 bg-gradient-to-b from-[#FAFAFA] to-white">
+    <section class="py-20 bg-gradient-to-b from-sand to-paper">
         <div class="max-w-6xl mx-auto px-6 lg:px-8">
             <div class="text-center mb-14">
                 <p class="text-blue-600 text-sm font-bold uppercase tracking-widest mb-3">Domaines d'intervention</p>
@@ -675,25 +671,25 @@
 
             <div class="grid md:grid-cols-2 gap-6">
                 <a href="accidents-route" class="bento-card p-8 rounded-3xl group">
-                    <p class="text-4xl mb-4">🚗</p>
+                    <p class="text-4xl mb-4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg></p>
                     <h3 class="text-xl font-bold mb-3 group-hover:text-blue-600 transition">Accident de la route</h3>
                     <p class="text-gray-500 leading-relaxed mb-4">Loi Badinter. Carrefour A7/A9, axes Nord-Sud très chargés. Accidents fréquents impliquant poids lourds en transit. Trafic touristique en saison (festival d'Avignon). Saisine du TJ Avignon, appel à Nîmes.</p>
                     <span class="text-blue-600 font-bold text-sm">En savoir plus →</span>
                 </a>
                 <a href="erreur-medicale" class="bento-card p-8 rounded-3xl group">
-                    <p class="text-4xl mb-4">🏥</p>
+                    <p class="text-4xl mb-4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></p>
                     <h3 class="text-xl font-bold mb-3 group-hover:text-blue-600 transition">Erreur médicale</h3>
                     <p class="text-gray-500 leading-relaxed mb-4">CCI Occitanie/PACA selon le ressort, saisine du TJ Avignon ou du TA Nîmes selon la nature publique ou privée de l'établissement (CH Avignon, Polyclinique Urbain V, Clinique Rhône Durance).</p>
                     <span class="text-blue-600 font-bold text-sm">En savoir plus →</span>
                 </a>
                 <a href="agression" class="bento-card p-8 rounded-3xl group">
-                    <p class="text-4xl mb-4">⚖️</p>
+                    <p class="text-4xl mb-4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></p>
                     <h3 class="text-xl font-bold mb-3 group-hover:text-blue-600 transition">Agression</h3>
                     <p class="text-gray-500 leading-relaxed mb-4">Constitution de partie civile devant le TJ Avignon, action devant la CIVI rattachée au TJ Avignon, indemnisation par le FGTI lorsque l'auteur est insolvable ou inconnu. Violences urbaines, agressions sexuelles, vols avec violence.</p>
                     <span class="text-blue-600 font-bold text-sm">En savoir plus →</span>
                 </a>
                 <a href="accidents-vie" class="bento-card p-8 rounded-3xl group">
-                    <p class="text-4xl mb-4">🏠</p>
+                    <p class="text-4xl mb-4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg></p>
                     <h3 class="text-xl font-bold mb-3 group-hover:text-blue-600 transition">Accident de la vie</h3>
                     <p class="text-gray-500 leading-relaxed mb-4">Chute, brûlure, accident domestique, accident scolaire, accident sportif. Mise en jeu de la GAV (Garantie Accident de la Vie) et des responsabilités tierces (commune, entreprise, école). Chiffrage selon Dintilhac.</p>
                     <span class="text-blue-600 font-bold text-sm">En savoir plus →</span>
@@ -768,7 +764,7 @@
     </section>
 
     <!-- ===== POURQUOI MARSEILLE POUR AVIGNON ===== -->
-    <section class="py-20 bg-gradient-to-b from-white to-[#FAFAFA]">
+    <section class="py-20 bg-gradient-to-b from-paper to-sand">
         <div class="max-w-5xl mx-auto px-6 lg:px-8">
             <div class="mb-12">
                 <p class="text-blue-600 text-sm font-bold uppercase tracking-widest mb-3">Proximité & expérience</p>
@@ -806,7 +802,7 @@
         </div>
     </section>
     <!-- ===== ENGAGEMENTS ===== -->
-    <section class="py-20 bg-[#0A0A0A] text-white">
+    <section class="py-20 bg-ink text-white">
         <div class="max-w-6xl mx-auto px-6 lg:px-8">
             <div class="text-center mb-12">
                 <p class="text-blue-400 text-sm font-bold uppercase tracking-widest mb-3">Mes engagements</p>
@@ -814,19 +810,19 @@
             </div>
             <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <div class="bg-white/5 border border-white/10 rounded-3xl p-8 text-center">
-                    <p class="text-5xl font-black text-white mb-2">100%</p>
+                    <p class="text-5xl font-black text-white mb-2 font-display">100%</p>
                     <p class="text-blue-400 text-sm font-bold uppercase tracking-wider">Dommage corporel</p>
                 </div>
                 <div class="bg-white/5 border border-white/10 rounded-3xl p-8 text-center">
-                    <p class="text-5xl font-black text-white mb-2">0&nbsp;€</p>
+                    <p class="text-5xl font-black text-white mb-2 font-display">0&nbsp;€</p>
                     <p class="text-blue-400 text-sm font-bold uppercase tracking-wider">D'avance de frais</p>
                 </div>
                 <div class="bg-white/5 border border-white/10 rounded-3xl p-8 text-center">
-                    <p class="text-5xl font-black text-white mb-2">4</p>
+                    <p class="text-5xl font-black text-white mb-2 font-display">4</p>
                     <p class="text-blue-400 text-sm font-bold uppercase tracking-wider">Domaines d'intervention</p>
                 </div>
                 <div class="bg-white/5 border border-white/10 rounded-3xl p-8 text-center">
-                    <p class="text-5xl font-black text-white mb-2">1</p>
+                    <p class="text-5xl font-black text-white mb-2 font-display">1</p>
                     <p class="text-blue-400 text-sm font-bold uppercase tracking-wider">Interlocuteur unique</p>
                 </div>
             </div>
@@ -834,7 +830,7 @@
     </section>
 
     <!-- ===== FAQ AVIGNON ===== -->
-    <section class="py-20 bg-[#FAFAFA]">
+    <section class="py-20 bg-sand">
         <div class="max-w-4xl mx-auto px-6 lg:px-8">
             <div class="mb-12">
                 <p class="text-blue-600 text-sm font-bold uppercase tracking-widest mb-3">FAQ</p>
@@ -874,7 +870,7 @@
     </section>
 
     <!-- ===== CTA FINAL ===== -->
-    <section class="py-20 bg-[#0A0A0A]">
+    <section class="py-20 bg-ink">
         <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center">
             <h2 class="text-4xl md:text-5xl font-black text-white tracking-tight mb-6">Une victime à Avignon ? Le cabinet vous accompagne.</h2>
             <p class="text-gray-400 text-xl mb-10 max-w-2xl mx-auto">Premier échange gratuit. Réponse rapide par téléphone, WhatsApp ou rendez-vous Calendly. Honoraires uniquement au résultat — vous ne payez rien tant que vous n'êtes pas indemnisé.</p>
@@ -884,7 +880,7 @@
                     Parler à un avocat (WhatsApp)
                 </a>
                 <a href="tel:+33663465984"
-                    class="inline-flex items-center justify-center gap-2 bg-white text-black px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition active:scale-95">
+                    class="inline-flex items-center justify-center gap-2 bg-white text-gray-900 px-8 py-4 rounded-full font-bold hover:bg-gray-100 transition active:scale-95">
                     06 63 46 59 84
                 </a>
                 <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/guedj-chiche-cohen'});return false;"
@@ -895,10 +891,10 @@
         </div>
     </section>
 
-    <footer class="bg-[#0A0A0A] text-white pt-20 pb-40 md:py-20 border-t border-gray-900">
+    <footer class="bg-ink text-white pt-20 pb-40 md:py-20 border-t border-gray-900">
         <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between gap-12">
             <div>
-                <p class="font-black text-3xl mb-8 tracking-tighter">ILAN GUEDJ<span class="text-blue-600">.</span>
+                <p class="font-display font-bold text-3xl mb-8 tracking-tight">ILAN GUEDJ<span class="text-blue-600">.</span>
                 </p>
                 <div class="flex flex-col gap-6">
                     <a href="tel:+33663465984"
@@ -935,21 +931,20 @@
     </footer>
 
     <!-- WhatsApp FAB Desktop -->
-    <a href="https://wa.me/33663465984" target="_blank" class="fixed bottom-8 right-8 z-50 hidden md:flex items-center justify-center w-16 h-16 bg-[#25D366] rounded-full shadow-2xl hover:scale-110 transition duration-300 group cursor-pointer">
+    <a href="https://wa.me/33663465984" target="_blank" class="fixed bottom-8 right-8 z-50 hidden md:flex items-center justify-center w-12 h-12 bg-gray-900/90 backdrop-blur ring-1 ring-white/10 rounded-full shadow-lg hover:bg-gray-900 hover:scale-105 transition duration-300 group cursor-pointer">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.102.544 4.076 1.497 5.793L0 24l6.404-1.68A11.946 11.946 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.886 0-3.653-.507-5.176-1.393l-.371-.22-3.8.997 1.015-3.704-.242-.382A9.966 9.966 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
     </a>
 
     <div class="fixed bottom-6 left-4 right-4 z-50 md:hidden animate-fade-in-up">
-        <div class="bg-[#0A0A0A]/90 backdrop-blur-xl p-2 rounded-2xl shadow-2xl flex gap-3 border border-white/10">
+        <div class="bg-ink/90 backdrop-blur-xl p-2 rounded-2xl shadow-2xl flex gap-3 border border-white/10">
             <a href="https://wa.me/33663465984"
                 class="flex-1 bg-[#25D366] text-white py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition">WhatsApp</a>
             <a href="tel:+33663465984"
-                class="flex-1 bg-white text-black py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition">Appeler</a>
+                class="flex-1 bg-white text-gray-900 py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition">Appeler</a>
         </div>
     </div>
 
     <script>
-        lucide.createIcons();
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
         if (btn && menu) { btn.addEventListener('click', () => { menu.classList.toggle('hidden'); }); }

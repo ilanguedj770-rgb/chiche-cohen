@@ -21,9 +21,9 @@ Estimer mon indemnisation 06 63 46 59 84
 Intervention Nationale — Déplacement à l'hôpital
 Maître Ilan Guedj
 Avocat en dommage corporel — Marseille
-100 %
+100%
 Dommage corporel
-0 €
+0€
 D'avance de frais
 IG
 Maître Ilan Guedj
@@ -46,20 +46,18 @@ Qui est Maître Ilan Guedj ? · Comment sont fixés les honoraires
 Réponse immédiate, gratuite et confidentielle.
 ### Quel est le type de l'accident ?
 Sélectionnez la situation qui correspond à votre cas.
-🚗 Accident Route 🏥 Erreur Médicale ⚖️ Agression ⚠️ Accident Vie
+Accident Route Erreur Médicale Agression Accident Vie
 ### Quels éléments possédez-vous ?
 Cochez tous les documents en votre possession.
-📄 Constat / Plainte 🏥 Certificat Médical 🗣️ Témoignages 🤷 Rien pour l'instant
+Constat / Plainte Certificat Médical Témoignages Rien pour l'instant
 Continuer
 ### Avez-vous des blessures constatées ?
 Cette information nous aide à évaluer votre dossier.
 Oui, j'ai des blessures Constatées par un médecin ou aux urgences
-🛡️
 Non / Pas encore vu de médecin Vous n'avez pas encore consulté
 ### Dossier Éligible
 Vous disposez des éléments clés pour agir. Ne laissez pas l'assurance fixer le montant seule.
 Réserver mon Audit (Gratuit) Urgence absolue ? Écrire sur WhatsApp
-⚠️
 ### Analyse Stratégique Nécessaire
 Attention, sans preuves formelles, votre indemnisation est menacée. Contactez-nous pour sécuriser votre dossier.
 Réserver un créneau stratégique Urgence absolue ? Écrire sur WhatsApp
@@ -71,11 +69,9 @@ En savoir plus →
 ### Erreur Médicale
 Erreur de diagnostic, faute chirurgicale, infection nosocomiale : nous engageons la responsabilité des professionnels de santé.
 En savoir plus →
-⚖️
 ### Agression
 Agression physique, attentat, violence volontaire : nous saisissons la CIVI et obtenons l'indemnisation intégrale de votre préjudice.
 En savoir plus →
-⚠️
 ### Accidents de la Vie
 Chute, accident domestique, accident scolaire ou sportif : nous faisons valoir vos droits pour chaque situation de la vie courante.
 En savoir plus →
@@ -148,23 +144,18 @@ Votre protection juridique couvre les honoraires fixes. Vous ne payez rien d'ava
 ### Partout en France
 Nous nous déplaçons chez vous, à l'hôpital, partout en France. Aucune distance ne nous arrête pour défendre vos droits.
 ## La voix de nos clients
-★★★★★
 "Excellente prestation des services ILAN GUEDJ & ASSOCIÉS. En tant que client nous avons eu pratiquement rien à faire. Je recommande à toute personne qui auront besoin de leur service."
 Michael S.
 Accident de la route
-★★★★★
 "Un mot à dire.. faite leur confiance ! Ce sont des professionnels dans le domaine. Très réputé à Marseille. Connu pour être les meilleurs !"
 Nekka K.
 Erreur Médicale
-★★★★★
 "Le meilleur cabinet de Marseille. On me l'avait recommandé. Je conseille vivement."
 Julie C.
 Agression
-★★★★★
 "Après mon accident, j'étais complètement perdu. Le cabinet m'a pris en charge de A à Z. L'indemnisation obtenue a changé ma vie. Merci infiniment."
 Thomas R.
 Accident Moto
-★★★★★
 "Professionnalisme et humanité. Ils ont su se battre contre l'hôpital et obtenir une indemnisation à la hauteur de mon préjudice. Je recommande sans hésitation."
 Sarah M.
 Erreur Médicale
@@ -227,9 +218,9 @@ Prénom *
 Email *
 Votre situation Choisir (optionnel) J'ai eu un accident récemment Ma procédure est déjà en cours J'ai reçu une offre de l'assurance Je m'informe pour l'avenir
 Télécharger mon guide gratuit
-✅ Demande reçue !
+Demande reçue !
 Accédez à votre guide immédiatement :
-📄 Ouvrir le guide →
+Ouvrir le guide →
 Vos données sont protégées. Aucun spam garanti.
 Couverture géographique
 ## Notre intervention dans le Sud de la France
@@ -250,14 +241,11 @@ Nîmes
 CA Nîmes · 120 km
 Toute la France
 Déplacements et visio
-⚠️ Attention avant de partir
+Attention avant de partir
 Votre assurance sous-évalue
 ## votre préjudice.
 En pratique, nous obtenons bien davantage que l'offre initiale de l'assureur. Une consultation gratuite de 15 minutes peut changer le montant de votre indemnisation.
-0€
-d'avance
-15min
-consultation
+0 € d'avance 15 min de consultation
 Parler à un avocat maintenant (WhatsApp) Choisir un créneau gratuit (Calendly)
 Secret professionnel · Premier avis toujours gratuit
 Discuter sur WhatsApp
@@ -345,7 +333,6 @@ URL : https://ig-avocat.com/honoraires
 Une rémunération transparente,
 # liée à votre succès.
 Zéro avance d'honoraires grâce à votre protection juridique. Nous ne sommes payés que lorsque vous êtes indemnisé.
-🛡️
 ### Prise en charge immédiate
 Nous activons votre Protection Juridique pour couvrir l'honoraire fixe de dossier. Vous n'avez rien à avancer.
 ### Zéro reste à charge
@@ -367,7 +354,6 @@ Honoraire de Résultat
 10 à 20 % HT
 des sommes obtenues
 (selon complexité du dossier)
-⚖️
 ### Agression & Autres
 Honoraire Fixe
 0 €
@@ -508,7 +494,6 @@ Conjoint, enfants, parents : chacun a droit à son préjudice moral et économiq
 Inclut la perte de revenus, le préjudice d'affection, le préjudice d'accompagnement.
 ## Spécificités selon votre profil
 La loi Badinter protège différemment chaque usager. Voici les points à connaître par catégorie.
-🏍️
 ### Motards et scootéristes
 Statistiquement les plus gravement blessés. Le motard fautif conserve son droit à indemnisation pour les séquelles importantes (Cass. 2e civ., 19 juin 2025). Le casque ou les équipements ne sont jamais opposables.
 ### Piétons renversés
@@ -539,7 +524,7 @@ Ces ordres de grandeur sont indicatifs. L'indemnisation effective dépend de l'�
 Lire le guide complet « Accident grave et indemnisation maximale » Évaluer mon dossier (WhatsApp)
 Résultats concrets
 ## Ce que nous avons obtenu.
-🏍️ Motard · Polytraumatisme
+Motard · Polytraumatisme
 Motard d'une trentaine d'années, polytraumatisé après une collision avec un véhicule en agglomération. Séquelles permanentes (DFP 35 %), tierce personne ponctuelle et incidence professionnelle lourde. L'assureur du véhicule adverse cherchait à imputer une part de faute au motard.
 Offre assureur
 90 000 €
@@ -547,14 +532,14 @@ Avec retenue de faute
 Obtenu
 680 000 €
 × 7,5 l'offre initiale
-🚶 Piétonne renversée · Traumatisme crânien
+Piétonne renversée · Traumatisme crânien
 Piétonne renversée sur passage protégé, traumatisme crânien sévère avec séquelles cognitives et perte d'autonomie partielle. Tierce personne 4 h/jour à vie. L'enjeu : faire reconnaître l'ensemble des postes de préjudice (PGPF, frais futurs, aide humaine, incidence professionnelle).
 Première offre amiable
 240 000 €
 Obtenu après expertise
 1 250 000 €
 × 5 l'offre initiale
-👤 Passager arrière · Fractures multiples
+Passager arrière · Fractures multiples
 Passager d'une trentaine d'années, fractures multiples et 8 mois d'ITT après un accident dont le conducteur était fautif. L'assureur a tenté un règlement rapide à l'amiable. Refus, expertise médicale indépendante et chiffrage complet des postes.
 Offre assureur
 12 000 €
@@ -642,7 +627,7 @@ Combien pour un accident corporel ?
 Les postes d'indemnisation que vous pouvez réclamer
 Résultat concret
 ## Ce que nous avons obtenu.
-🏥 Erreur médicale · Chirurgie ratée
+Erreur médicale · Chirurgie ratée
 Notre client a subi des séquelles neurologiques permanentes suite à une faute chirurgicale. L'hôpital niait toute responsabilité. Nous avons mandaté un expert médical indépendant, démontré la faute en expertise CCI (Commission de Conciliation et d'Indemnisation), et obtenu une indemnisation complète via l'ONIAM.
 Position hôpital
 Refus
@@ -731,7 +716,7 @@ Combien pour un accident corporel ?
 Nomenclature Dintilhac et montants réels d'indemnisation
 Résultat concret
 ## Ce que nous avons obtenu.
-⚖️ Agression · Violence physique grave
+Agression · Violence physique grave
 Notre client a été victime d'une agression violente avec séquelles permanentes (fracture de la mâchoire, traumatisme crânien). L'auteur était inconnu. Nous avons saisi la CIVI (Commission d'Indemnisation des Victimes d'Infractions) et constitué un dossier médical complet pour obtenir une indemnisation intégrale via le FGTI.
 Sans avocat (estimation)
 15 000 €
@@ -821,7 +806,7 @@ Délais de prescription : ce que vous devez savoir
 Ne laissez pas vos droits s'éteindre — les délais légaux
 Résultat concret
 ## Ce que nous avons obtenu.
-⚠️ Accident de la vie · Chute domestique
+Accident de la vie · Chute domestique
 Notre cliente a chuté dans un escalier, entraînant une fracture du col du fémur et 30% d'IPP permanente. Son assureur GAV proposait un règlement basé sur un barème forfaitaire nettement sous-évalué. Nos avocats ont mandaté un médecin conseil et obtenu une contre-expertise favorable.
 Offre initiale GAV
 8 500 €
@@ -864,7 +849,6 @@ En savoir plus →
 ### Erreur médicale
 CCI PACA pour les actes ouvrant droit à l'ONIAM, saisine du TJ Aix-en-Provence ou du Tribunal administratif de Marseille selon la nature publique ou privée de l'établissement (Hôpital du Pays d'Aix, cliniques privées du bassin aixois).
 En savoir plus →
-⚖️
 ### Agression
 Constitution de partie civile, action devant la CIVI rattachée au TJ Aix-en-Provence, indemnisation par le FGTI lorsque l'auteur est insolvable ou inconnu. Violences urbaines, agressions sexuelles, vols avec violence.
 En savoir plus →
@@ -950,7 +934,6 @@ En savoir plus →
 ### Erreur médicale
 CCI PACA pour la solidarité nationale (ONIAM), saisine du TJ Toulon ou du TA Toulon selon la nature publique ou privée de l'établissement (CHITS, HIA Sainte-Anne pour les militaires, cliniques privées du bassin toulonnais).
 En savoir plus →
-⚖️
 ### Agression
 Constitution de partie civile, action devant la CIVI rattachée au TJ Toulon, indemnisation par le FGTI lorsque l'auteur est insolvable ou inconnu. Violences urbaines, agressions sexuelles, agressions à proximité des bars du centre.
 En savoir plus →
@@ -1030,14 +1013,12 @@ Ensuite la forte présence touristique : Nice et toute la Côte d'Azur accueille
 Domaines d'intervention
 ## Nos 4 domaines à Nice
 Le cabinet exerce exclusivement en dommage corporel. Quatre familles de dossiers structurent notre pratique pour les victimes niçoises.
-🏍️
 ### Accident de la route
 Loi Badinter. Accidents moto fréquents sur les routes de montagne (Moyenne Corniche, vallée du Var, lacets de l'arrière-pays). Tourisme moto en saison. Forte fréquence d'accidents impliquant véhicules étrangers (frontière italienne).
 En savoir plus →
 ### Erreur médicale
 CCI PACA pour l'aléa thérapeutique, saisine du TJ Nice ou du TA Nice selon la nature publique ou privée de l'établissement (CHU de Nice, cliniques privées, polycliniques de la Côte d'Azur).
 En savoir plus →
-⚖️
 ### Agression
 Constitution de partie civile, action devant la CIVI rattachée au TJ Nice, indemnisation par le FGTI. Violences urbaines, agressions sur la Promenade des Anglais, vieux Nice, vols avec violence, attentats (régime de victime d'attentat applicable).
 En savoir plus →
@@ -1126,7 +1107,6 @@ En savoir plus →
 ### Erreur médicale
 CCI Occitanie/PACA selon le ressort, saisine du TJ Avignon ou du TA Nîmes selon la nature publique ou privée de l'établissement (CH Avignon, Polyclinique Urbain V, Clinique Rhône Durance).
 En savoir plus →
-⚖️
 ### Agression
 Constitution de partie civile devant le TJ Avignon, action devant la CIVI rattachée au TJ Avignon, indemnisation par le FGTI lorsque l'auteur est insolvable ou inconnu. Violences urbaines, agressions sexuelles, vols avec violence.
 En savoir plus →
@@ -1212,7 +1192,6 @@ En savoir plus →
 ### Erreur médicale
 CHU de Montpellier (Saint-Éloi, Gui de Chauliac, Lapeyronie, Arnaud de Villeneuve), Polyclinique Saint-Jean, Clinique du Millénaire. CCI Occitanie, saisine du TJ Montpellier ou du TA Montpellier selon statut de l'établissement. Solidarité nationale via ONIAM.
 En savoir plus →
-⚖️
 ### Agression
 Constitution de partie civile, action devant la CIVI rattachée au TJ Montpellier, indemnisation par le FGTI. Violences en zone étudiante, agressions sexuelles, vols avec violence. Population étudiante vulnérable nécessitant un accompagnement spécifique.
 En savoir plus →
@@ -1298,7 +1277,6 @@ En savoir plus →
 ### Erreur médicale
 CHU de Nîmes (Hôpital Carémeau), Polyclinique Grand Sud, Clinique Kennedy. CCI Occitanie, saisine du TJ Nîmes ou du TA Nîmes selon statut public ou privé de l'établissement. Solidarité nationale via l'ONIAM.
 En savoir plus →
-⚖️
 ### Agression
 Constitution de partie civile devant le TJ Nîmes, action devant la CIVI rattachée au TJ Nîmes, indemnisation par le FGTI lorsque l'auteur est insolvable ou inconnu. Violences urbaines, agressions sexuelles, vols avec violence.
 En savoir plus →
@@ -1373,7 +1351,7 @@ Type d'accident * Choisir... 🚗 Accident de la route 🏥 Erreur médicale ⚖
 Décrivez brièvement votre situation
 J'accepte que mes données soient utilisées pour traiter ma demande. Secret professionnel garanti.
 Envoyer ma demande
-✅ Demande envoyée !
+Demande envoyée !
 Nous vous recontactons sous 24h.
 ## Réserver un créneau
 Recommandé pour une étude approfondie
@@ -1549,10 +1527,10 @@ Faut-il accepter l'offre d'indemnisation de son assurance ?
 ### Blessé en trottinette ?
 Avant tout accord avec un assureur ou un opérateur, faites analyser votre dossier gratuitement.
 WhatsApp 06 63 46 59 84
-📌 À retenir
+À retenir
 La trottinette électrique est un véhicule terrestre à moteur. Le piéton renversé est indemnisé intégralement (art. 3) ; le conducteur de l'engin relève de l'article 4 et peut voir son indemnisation réduite par sa faute — à condition qu'elle ait contribué à son dommage corporel.
 Nos domaines
-🚗 Accident de la route 🏥 Erreur médicale ⚖️ Agression ⚠️ Accident de la vie
+Accident de la route Erreur médicale Agression Accident de la vie
 Accident de trottinette — Agissez
 Victime d'un accident
 ## de trottinette électrique ?
@@ -1626,7 +1604,7 @@ Faut-il accepter l'offre d'indemnisation de son assurance ?
 Analysez votre dossier avec un avocat en dommage corporel. 0€ d'avance.
 WhatsApp 06 63 46 59 84
 Nos domaines
-🚗 Accident de la route 🏥 Erreur médicale ⚖️ Agression ⚠️ Accident de la vie
+Accident de la route Erreur médicale Agression Accident de la vie
 Victime d'agression — Agissez
 Face au FGTI,
 ## vous avez besoin d'un avocat
@@ -1740,7 +1718,7 @@ Faut-il accepter l'offre de son assurance ?
 Analysez votre dossier avec un avocat en dommage corporel. 0€ d'avance.
 WhatsApp 06 63 46 59 84
 Nos domaines
-🚗 Accident de la route 🏥 Erreur médicale ⚖️ Agression ⚠️ Accident de la vie
+Accident de la route Erreur médicale Agression Accident de la vie
 Le temps joue contre vous
 N'attendez pas que
 ## vos droits s'éteignent
@@ -1910,7 +1888,7 @@ Faut-il accepter l'offre de l'assurance ?
 Analysez votre dossier avec un avocat en dommage corporel. 0€ d'avance.
 WhatsApp 06 63 46 59 84
 Nos domaines
-🚗 Accident de la route 🏥 Erreur médicale ⚖️ Agression ⚠️ Accident de la vie
+Accident de la route Erreur médicale Agression Accident de la vie
 Erreur médicale — Agissez
 Face au corps médical,
 ## vous avez besoin d'un avocat
@@ -2039,7 +2017,7 @@ Victime d'une erreur médicale : vos droits et recours
 Analysez votre dossier avec un avocat en dommage corporel. 0€ d'avance.
 WhatsApp 06 63 46 59 84
 Nos domaines
-🚗 Accident de la route 🏥 Erreur médicale ⚖️ Agression ⚠️ Accident de la vie
+Accident de la route Erreur médicale Agression Accident de la vie
 Expertise médicale — Agissez
 Ne laissez pas l'assureur
 ## choisir votre expert
@@ -2136,10 +2114,10 @@ Combien toucher après un accident corporel ?
 ### Vous êtes en tort ?
 Avant d'accepter toute réduction de votre indemnisation, faites analyser votre dossier gratuitement.
 WhatsApp 06 63 46 59 84
-📌 À retenir
+À retenir
 L'arrêt Cass. 2e civ., 19 juin 2025, n° 23-22.911 impose désormais : (1) une faute prouvée concrètement, (2) un lien causal direct avec le dommage corporel. La gravité ne suffit plus.
 Nos domaines
-🚗 Accident de la route 🏥 Erreur médicale ⚖️ Agression ⚠️ Accident de la vie
+Accident de la route Erreur médicale Agression Accident de la vie
 Conducteur fautif — Agissez
 L'assurance invoque votre faute
 ## pour refuser de vous indemniser ?
@@ -2249,7 +2227,7 @@ Faut-il accepter l'offre d'indemnisation de son assurance ?
 Analysez votre dossier avec un avocat en dommage corporel. 0€ d'avance.
 WhatsApp 06 63 46 59 84
 Nos domaines
-🚗 Accident de la route 🏥 Erreur médicale ⚖️ Agression ⚠️ Accident de la vie
+Accident de la route Erreur médicale Agression Accident de la vie
 Évaluez votre préjudice
 Votre indemnisation
 ## mérite d'être chiffrée correctement
@@ -2488,7 +2466,7 @@ Délais de prescription accident corporel
 Analysez votre dossier avec un avocat en dommage corporel. 0€ d'avance.
 WhatsApp 06 63 46 59 84
 Nos domaines
-🚗 Accident de la route 🏥 Erreur médicale ⚖️ Agression ⚠️ Accident de la vie
+Accident de la route Erreur médicale Agression Accident de la vie
 Accident grave — Premier avis gratuit
 Vous avez subi un accident grave ?
 ## Faites évaluer votre dossier
@@ -2567,7 +2545,7 @@ Faut-il accepter l'offre d'indemnisation de son assurance ?
 Analysez votre dossier avec un avocat en dommage corporel. 0€ d'avance.
 WhatsApp 06 63 46 59 84
 Nos domaines
-🚗 Accident de la route 🏥 Erreur médicale ⚖️ Agression ⚠️ Accident de la vie
+Accident de la route Erreur médicale Agression Accident de la vie
 Passager blessé — Agissez
 Face à l'assureur,
 ## vous avez besoin d'un avocat
@@ -2651,7 +2629,7 @@ Combien toucher après un accident corporel ?
 Analysez votre dossier avec un avocat en dommage corporel. 0€ d'avance.
 WhatsApp 06 63 46 59 84
 Nos domaines
-🚗 Accident de la route 🏥 Erreur médicale ⚖️ Agression ⚠️ Accident de la vie
+Accident de la route Erreur médicale Agression Accident de la vie
 Médecin-recours — Agissez
 Ne vous rendez jamais seul
 ## à une expertise médicale
@@ -2732,7 +2710,7 @@ Faut-il accepter l'offre d'indemnisation de son assurance ?
 Analysez votre dossier avec un avocat en dommage corporel. 0€ d'avance.
 WhatsApp 06 63 46 59 84
 Nos domaines
-🚗 Accident de la route 🏥 Erreur médicale ⚖️ Agression ⚠️ Accident de la vie
+Accident de la route Erreur médicale Agression Accident de la vie
 Agissez maintenant
 Votre accident mérite
 ## une indemnisation juste
@@ -2823,7 +2801,7 @@ Combien toucher après un accident corporel ?
 Analysez votre dossier avec un avocat en dommage corporel. 0€ d'avance.
 WhatsApp 06 63 46 59 84
 Nos domaines
-🚗 Accident de la route 🏥 Erreur médicale ⚖️ Agression ⚠️ Accident de la vie
+Accident de la route Erreur médicale Agression Accident de la vie
 Ne signez pas sans nous consulter
 L'offre de l'assurance
 ## n'est jamais suffisante

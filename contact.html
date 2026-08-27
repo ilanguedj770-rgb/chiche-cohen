@@ -1,10 +1,7 @@
 <!DOCTYPE html>
-<html lang="fr" class="scroll-smooth bg-[#0A0A0A]">
+<html lang="fr" class="scroll-smooth bg-sand">
 
 <head>
-    <!-- Performance: preconnect CDNs -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -39,9 +36,8 @@
     <meta name="twitter:image" content="https://ig-avocat.com/img/og-cover.jpg">
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <link rel="stylesheet" href="css/tailwind.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-        rel="stylesheet">
-    <script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
+    <link rel="preload" href="fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
     <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
@@ -467,26 +463,26 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="flex justify-between items-center h-24">
             <a href="/" class="flex-shrink-0 cursor-pointer group">
-                <span class="text-2xl font-black tracking-tighter uppercase group-hover:opacity-80 transition">
+                <span class="font-display text-2xl font-bold tracking-tight uppercase group-hover:opacity-80 transition">
                     ILAN GUEDJ<span class="text-blue-600">.</span>
                 </span>
             </a>
 
             <div class="hidden md:flex space-x-10 items-center">
-                <a href="avocat-ilan-guedj" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">L'Avocat</a>
-                <a href="/#expertises" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Domaines</a>
-                <a href="honoraires" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Honoraires</a>
-                <a href="blog/" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Blog</a>
-                <a href="contact" class="text-sm font-bold text-black transition duration-300">Contact</a>
+                <a href="avocat-ilan-guedj" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">L'Avocat</a>
+                <a href="/#expertises" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Domaines</a>
+                <a href="honoraires" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Honoraires</a>
+                <a href="blog/" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Blog</a>
+                <a href="contact" class="text-sm font-bold text-gray-900 transition duration-300">Contact</a>
 
                 <div class="h-6 w-px bg-gray-200"></div>
 
-                <a href="tel:+33663465984" class="text-sm font-bold text-black hover:text-blue-600 transition duration-300">
+                <a href="tel:+33663465984" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition duration-300">
                     06 63 46 59 84
                 </a>
 
                 <a href="https://wa.me/33663465984"
-                    class="bg-black text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
+                    class="bg-gray-900 text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
                     <svg class="w-4 h-4 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                     </svg>
@@ -495,7 +491,7 @@
             </div>
 
             <div class="md:hidden flex items-center">
-                <button id="mobile-menu-btn" class="text-black focus:outline-none p-3 -mr-3">
+                <button id="mobile-menu-btn" class="text-gray-900 focus:outline-none p-3 -mr-3">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M4 6h16M4 12h16M4 18h16"></path>
@@ -526,7 +522,7 @@
                     <img src="img/associe-guedj.webp" class="w-full h-64 object-cover object-top rounded-3xl shadow-lg mb-8"
                         alt="Maître Ilan Guedj, avocat en dommage corporel à Marseille"
                         width="800" height="533" loading="lazy" decoding="async"
-                        onerror="this.onerror=null;this.outerHTML='<div class=\'w-full h-64 rounded-3xl shadow-lg mb-8 bg-gradient-to-br from-blue-600 to-blue-900 flex flex-col items-center justify-center text-white\'><p class=\'text-5xl mb-3\'>⚖️</p><p class=\'font-black text-xl\'>Maître Ilan Guedj</p><p class=\'text-blue-200 text-sm mt-1\'>Avocat en dommage corporel · Marseille</p></div>'">
+                        onerror="this.onerror=null;this.outerHTML='<div class=\'w-full h-64 rounded-3xl shadow-lg mb-8 bg-gradient-to-br from-blue-600 to-blue-900 flex flex-col items-center justify-center text-white\'><p class=\'font-display text-4xl font-bold mb-2\'>IG</p><p class=\'font-bold text-xl\'>Maître Ilan Guedj</p><p class=\'text-blue-200 text-sm mt-1\'>Avocat en dommage corporel · Marseille</p></div>'">
                     <h1 class="text-4xl font-black mb-2 tracking-tight">Contactez-nous</h1>
                     <p class="text-gray-500 text-lg">Choisissez le moyen le plus adapté à votre situation.</p>
                 </div>
@@ -536,7 +532,7 @@
                     style="animation-delay: 0.05s;">
                     <div class="flex items-center gap-4 mb-5">
                         <div class="p-3 bg-blue-600 rounded-xl">
-                            <i data-lucide="send" class="w-6 h-6 text-white"></i>
+                            <svg class="w-6 h-6 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
                         </div>
                         <div>
                             <h2 class="text-lg font-bold">Décrire ma situation</h2>
@@ -587,11 +583,11 @@
                         </div>
                         <button type="submit" id="submit-btn"
                             class="w-full py-3 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition flex items-center justify-center gap-2 active:scale-95">
-                            <i data-lucide="send" class="w-4 h-4"></i>
+                            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
                             <span>Envoyer ma demande</span>
                         </button>
                         <div id="form-success" class="hidden bg-green-50 border border-green-200 rounded-xl p-4 text-center">
-                            <p class="text-green-800 font-bold text-sm">✅ Demande envoyée !</p>
+                            <p class="text-green-800 font-bold text-sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg> Demande envoyée !</p>
                             <p class="text-green-600 text-xs mt-1">Nous vous recontactons sous 24h.</p>
                         </div>
                     </form>
@@ -602,7 +598,7 @@
                     style="animation-delay: 0.1s;">
                     <div class="flex items-center gap-4 mb-4">
                         <div class="p-3 bg-blue-50 rounded-xl">
-                            <i data-lucide="calendar" class="w-6 h-6 text-blue-600"></i>
+                            <svg class="w-6 h-6 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>
                         </div>
                         <div>
                             <h2 class="text-lg font-bold">Réserver un créneau</h2>
@@ -620,7 +616,7 @@
                     <div class="flex justify-between items-start mb-2">
                         <div class="flex items-center gap-4">
                             <div class="p-3 bg-green-50 rounded-xl">
-                                <i data-lucide="message-circle" class="w-6 h-6 text-[#25D366]"></i>
+                                <svg class="w-6 h-6 text-[#25D366]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg>
                             </div>
                             <h2 class="text-lg font-bold">Discussion confidentielle</h2>
                         </div>
@@ -634,7 +630,7 @@
                     <a href="https://wa.me/33663465984"
                         class="w-full py-3 bg-[#25D366] text-white rounded-xl font-bold hover:bg-green-600 transition flex items-center justify-center gap-2 group">
                         <span>Ouvrir WhatsApp</span>
-                        <i data-lucide="arrow-right" class="w-4 h-4 group-hover:translate-x-1 transition"></i>
+                        <svg class="w-4 h-4 group-hover:translate-x-1 transition" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                     </a>
                 </div>
 
@@ -642,12 +638,12 @@
                     style="animation-delay: 0.2s;">
                     <div class="flex items-center gap-4 mb-4">
                         <div class="p-3 bg-gray-100 rounded-xl">
-                            <i data-lucide="phone" class="w-6 h-6 text-black"></i>
+                            <svg class="w-6 h-6 text-gray-900" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                         </div>
                         <h2 class="text-lg font-bold">Appeler le secrétariat</h2>
                     </div>
                     <a href="tel:+33663465984"
-                        class="w-full py-3 bg-white border border-gray-200 text-black rounded-xl font-bold hover:bg-gray-50 transition flex items-center justify-center gap-2 group">
+                        class="w-full py-3 bg-white border border-gray-200 text-gray-900 rounded-xl font-bold hover:bg-gray-50 transition flex items-center justify-center gap-2 group">
                         <span>06 63 46 59 84</span>
                     </a>
                 </div>
@@ -656,14 +652,14 @@
                     style="animation-delay: 0.25s;">
                     <div class="flex items-center gap-4 mb-4">
                         <div class="p-3 bg-white rounded-xl shadow-sm">
-                            <i data-lucide="file-text" class="w-6 h-6 text-gray-600"></i>
+                            <svg class="w-6 h-6 text-gray-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg>
                         </div>
                         <h2 class="text-lg font-bold">Envoyer mes pièces</h2>
                     </div>
                     <p class="text-gray-500 text-sm mb-4">Pour une étude sur pièces de votre dossier (PV, expertise...).
                     </p>
                     <a href="mailto:contact@ig-avocat.com"
-                        class="text-sm font-bold text-black border-b border-black hover:text-blue-600 hover:border-blue-600 transition pb-1 inline-block break-all">
+                        class="text-sm font-bold text-gray-900 border-b border-gray-900 hover:text-blue-600 hover:border-blue-600 transition pb-1 inline-block break-all">
                         contact@ig-avocat.com
                     </a>
                 </div>
@@ -671,16 +667,16 @@
                 <div class="pt-6 border-t border-gray-100 animate-fade-in-up" style="animation-delay: 0.3s;">
                     <div class="flex flex-col gap-3">
                         <div class="flex items-center gap-3">
-                            <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500"></i>
+                            <svg class="w-5 h-5 text-green-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
                             <span class="font-bold text-sm text-gray-700">Le premier rendez-vous est toujours
                                 gratuit</span>
                         </div>
                         <div class="flex items-center gap-3">
-                            <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500"></i>
+                            <svg class="w-5 h-5 text-green-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
                             <span class="font-bold text-sm text-gray-700">Secret professionnel absolu</span>
                         </div>
                         <div class="flex items-center gap-3">
-                            <i data-lucide="check-circle-2" class="w-5 h-5 text-green-500"></i>
+                            <svg class="w-5 h-5 text-green-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
                             <span class="font-bold text-sm text-gray-700">Déplacement à l'hôpital possible</span>
                         </div>
                     </div>
@@ -700,14 +696,14 @@
             <div class="absolute bottom-8 left-8 right-8 lg:left-12 lg:right-auto lg:w-80 bg-white p-6 rounded-2xl shadow-2xl border border-gray-100 animate-fade-in-up"
                 style="animation-delay: 0.5s;">
                 <div class="flex items-start gap-4">
-                    <div class="p-3 bg-black rounded-xl text-white">
-                        <i data-lucide="map-pin" class="w-5 h-5"></i>
+                    <div class="p-3 bg-gray-900 rounded-xl text-white">
+                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                     </div>
                     <div>
                         <h3 class="font-bold text-lg leading-tight mb-1">16 Rue Breteuil</h3>
                         <p class="text-gray-500 text-sm mb-3">13001 Marseille</p>
                         <div class="inline-flex items-center gap-1.5 px-2.5 py-1 bg-gray-100 rounded-lg">
-                            <i data-lucide="parking-circle" class="w-3 h-3 text-gray-500"></i>
+                            <svg class="w-3 h-3 text-gray-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M9 17V7h4a3 3 0 0 1 0 6H9"/></svg>
                             <span class="text-xs font-bold text-gray-600">Parking Monthyon à 50m</span>
                         </div>
                     </div>
@@ -717,33 +713,30 @@
 
     </main>
 
-    <footer class="bg-[#0A0A0A] text-white pt-20 pb-40 md:py-20 border-t border-gray-900">
+    <footer class="bg-ink text-white pt-20 pb-40 md:py-20 border-t border-gray-900">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="flex flex-col md:flex-row justify-between gap-12">
                 <div>
-                    <p class="font-black text-3xl mb-8 tracking-tighter">ILAN GUEDJ<span
+                    <p class="font-display font-bold text-3xl mb-8 tracking-tight">ILAN GUEDJ<span
                             class="text-blue-600">.</span></p>
 
                     <div class="flex flex-col gap-6">
                         <a href="tel:+33663465984"
                             class="text-white hover:text-blue-500 font-bold text-lg transition flex items-center gap-3 group">
-                            <i data-lucide="phone"
-                                class="w-5 h-5 text-gray-500 group-hover:text-blue-500 transition"></i>
+                            <svg class="w-5 h-5 text-gray-500 group-hover:text-blue-500 transition" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                             06 63 46 59 84
                         </a>
 
                         <a href="mailto:contact@ig-avocat.com"
                             class="text-white hover:text-blue-500 font-bold text-lg transition flex items-center gap-3 group">
-                            <i data-lucide="mail"
-                                class="w-5 h-5 text-gray-500 group-hover:text-blue-500 transition"></i>
+                            <svg class="w-5 h-5 text-gray-500 group-hover:text-blue-500 transition" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
                             contact@ig-avocat.com
                         </a>
 
                         <a href="https://www.google.com/maps/search/?api=1&query=16+Rue+Breteuil+13001+Marseille"
                             target="_blank"
                             class="text-gray-400 hover:text-white font-medium text-lg transition flex items-start gap-3 group">
-                            <i data-lucide="map-pin"
-                                class="w-6 h-6 text-gray-500 group-hover:text-white transition mt-1"></i>
+                            <svg class="w-6 h-6 text-gray-500 group-hover:text-white transition mt-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                             <span>
                                 16 Rue Breteuil<br>
                                 13001 MARSEILLE
@@ -768,18 +761,18 @@
     </footer>
 
     <!-- WhatsApp FAB Desktop -->
-    <a href="https://wa.me/33663465984" target="_blank" class="fixed bottom-8 right-8 z-50 hidden md:flex items-center justify-center w-16 h-16 bg-[#25D366] rounded-full shadow-2xl hover:scale-110 transition duration-300 group cursor-pointer">
+    <a href="https://wa.me/33663465984" target="_blank" class="fixed bottom-8 right-8 z-50 hidden md:flex items-center justify-center w-12 h-12 bg-gray-900/90 backdrop-blur ring-1 ring-white/10 rounded-full shadow-lg hover:bg-gray-900 hover:scale-105 transition duration-300 group cursor-pointer">
         <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.102.544 4.076 1.497 5.793L0 24l6.404-1.68A11.946 11.946 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 22c-1.886 0-3.653-.507-5.176-1.393l-.371-.22-3.8.997 1.015-3.704-.242-.382A9.966 9.966 0 012 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z"/></svg>
     </a>
 
     <div class="fixed bottom-6 left-4 right-4 z-50 md:hidden animate-fade-in-up">
-        <div class="bg-[#0A0A0A]/90 backdrop-blur-xl p-2 rounded-2xl shadow-2xl flex gap-3 border border-white/10">
+        <div class="bg-ink/90 backdrop-blur-xl p-2 rounded-2xl shadow-2xl flex gap-3 border border-white/10">
             <a href="https://wa.me/33663465984"
                 class="flex-1 bg-[#25D366] text-white py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition">
                 WhatsApp
             </a>
             <a href="tel:+33663465984"
-                class="flex-1 bg-white text-black py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition">
+                class="flex-1 bg-white text-gray-900 py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition">
                 Appeler
             </a>
         </div>
@@ -789,8 +782,6 @@
     <script type="text/javascript">window.addEventListener('load', function() { Calendly.initInlineWidgets(); })</script>
 
     <script>
-        lucide.createIcons();
-
         // Mobile Menu Toggle
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
@@ -820,12 +811,12 @@
                         if (window.dataLayer) window.dataLayer.push({ event: 'form_submit', form_name: 'contact_form' });
                     } else {
                         submitBtn.disabled = false;
-                        submitBtn.innerHTML = '<i data-lucide="send" class="w-4 h-4"></i><span>Réessayer</span>';
+                        submitBtn.innerHTML = '<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg><span>Réessayer</span>';
                         alert('Erreur lors de l\'envoi. Veuillez appeler le 06 63 46 59 84.');
                     }
                 } catch (err) {
                     submitBtn.disabled = false;
-                    submitBtn.innerHTML = '<i data-lucide="send" class="w-4 h-4"></i><span>Réessayer</span>';
+                    submitBtn.innerHTML = '<svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg><span>Réessayer</span>';
                     alert('Erreur réseau. Veuillez appeler le 06 63 46 59 84.');
                 }
             });

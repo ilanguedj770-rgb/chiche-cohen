@@ -39,9 +39,8 @@
     <meta name="twitter:image" content="https://ig-avocat.com/img/og-cover.jpg">
 
     <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preload" href="fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
     <!-- Tailwind CSS -->
     <link rel="stylesheet" href="css/tailwind.css">
@@ -50,7 +49,6 @@
     <link rel="preload" as="image" href="img/associe-guedj.webp" fetchpriority="high">
 
     <!-- Lucide Icons -->
-    <script src="https://unpkg.com/lucide@0.344.0/dist/umd/lucide.min.js"></script>
 
     <!-- Calendly -->
     <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
@@ -663,26 +661,26 @@
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
         <div class="flex justify-between items-center h-24">
             <a href="/" class="flex-shrink-0 cursor-pointer group">
-                <span class="text-2xl font-black tracking-tighter uppercase group-hover:opacity-80 transition">
+                <span class="font-display text-2xl font-bold tracking-tight uppercase group-hover:opacity-80 transition">
                     ILAN GUEDJ<span class="text-blue-600">.</span>
                 </span>
             </a>
 
             <div class="hidden md:flex space-x-10 items-center">
-                <a href="avocat-ilan-guedj" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">L'Avocat</a>
-                <a href="#expertises" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Domaines</a>
-                <a href="honoraires" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Honoraires</a>
-                <a href="blog/" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Blog</a>
-                <a href="contact" class="text-sm font-bold text-gray-500 hover:text-black transition duration-300">Contact</a>
+                <a href="avocat-ilan-guedj" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">L'Avocat</a>
+                <a href="#expertises" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Domaines</a>
+                <a href="honoraires" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Honoraires</a>
+                <a href="blog/" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Blog</a>
+                <a href="contact" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Contact</a>
 
                 <div class="h-6 w-px bg-gray-200"></div>
 
-                <a href="tel:+33663465984" class="text-sm font-bold text-black hover:text-blue-600 transition duration-300">
+                <a href="tel:+33663465984" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition duration-300">
                     06 63 46 59 84
                 </a>
 
                 <a href="https://wa.me/33663465984"
-                    class="bg-black text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
+                    class="bg-gray-900 text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
                     <svg class="w-4 h-4 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
                         <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
                     </svg>
@@ -691,7 +689,7 @@
             </div>
 
             <div class="md:hidden flex items-center">
-                <button id="mobile-menu-btn" class="text-black focus:outline-none p-3 -mr-3">
+                <button id="mobile-menu-btn" class="text-gray-900 focus:outline-none p-3 -mr-3">
                     <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="M4 6h16M4 12h16M4 18h16"></path>
@@ -715,7 +713,7 @@
     <!-- ============================================ -->
     <!-- HERO SECTION                                 -->
     <!-- ============================================ -->
-    <section class="relative min-h-screen flex items-center pt-20 overflow-hidden bg-gradient-to-br from-gray-50 via-white to-blue-50/30">
+    <section class="relative min-h-screen flex items-center pt-20 overflow-hidden bg-gradient-to-br from-gray-50 via-paper to-blue-50/30">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 lg:py-24">
             <div class="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
 
@@ -744,20 +742,20 @@
                     <!-- CTAs -->
                     <div class="flex flex-wrap gap-4">
                         <a href="#diagnostic-widget"
-                           class="inline-flex items-center gap-2 bg-black text-white text-base font-semibold px-8 py-4 rounded-full hover:bg-gray-800 transition-all hover:shadow-lg hover:-translate-y-0.5">
+                           class="inline-flex items-center gap-2 bg-gray-900 text-white text-base font-semibold px-8 py-4 rounded-full hover:bg-gray-800 transition-all hover:shadow-lg hover:-translate-y-0.5">
                             Estimer mon indemnisation
-                            <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                         </a>
                         <a href="tel:+33663465984"
                            class="inline-flex items-center gap-2 bg-white text-gray-900 text-base font-semibold px-8 py-4 rounded-full border border-gray-200 hover:border-gray-300 hover:shadow-soft transition-all">
-                            <i data-lucide="phone" class="w-5 h-5"></i>
+                            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
                             06 63 46 59 84
                         </a>
                     </div>
 
                     <!-- Small text -->
                     <p class="text-sm text-gray-400 flex items-center gap-2">
-                        <i data-lucide="map-pin" class="w-4 h-4"></i>
+                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
                         Intervention Nationale — Déplacement à l'hôpital
                     </p>
                 </div>
@@ -778,14 +776,12 @@
                     <!-- Two-column sub-cards -->
                     <div class="grid grid-cols-2 gap-4">
                         <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-soft text-center">
-                            <span class="text-4xl font-black text-gray-900 block">100</span>
-                            <span class="text-blue-600 font-bold text-xs mt-1 block">%</span>
-                            <p class="text-gray-500 text-sm mt-2">Dommage corporel</p>
+                            <p class="font-display text-4xl font-bold text-gray-900 leading-none">100<span class="text-blue-600 text-2xl align-top ml-0.5">%</span></p>
+                            <p class="text-gray-500 text-sm mt-3">Dommage corporel</p>
                         </div>
                         <div class="bg-white rounded-2xl border border-gray-100 p-6 shadow-soft text-center">
-                            <span class="text-4xl font-black text-gray-900 block">0</span>
-                            <span class="text-blue-600 font-bold text-xs mt-1 block">€</span>
-                            <p class="text-gray-500 text-sm mt-2">D'avance de frais</p>
+                            <p class="font-display text-4xl font-bold text-gray-900 leading-none">0<span class="text-blue-600 text-2xl align-top ml-0.5">€</span></p>
+                            <p class="text-gray-500 text-sm mt-3">D'avance de frais</p>
                         </div>
                     </div>
 
@@ -809,7 +805,7 @@
     <!-- ============================================ -->
     <!-- ENGAGEMENTS                                  -->
     <!-- ============================================ -->
-    <section class="relative py-20 bg-[#0A0A0A]">
+    <section class="relative py-20 bg-ink">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <div class="text-center mb-12 animate-on-scroll opacity-0 translate-y-10 transition duration-700">
@@ -825,28 +821,28 @@
 
                 <!-- Engagement 1 — Exclusivité -->
                 <div class="text-center border-t-2 border-blue-600 pt-8 animate-on-scroll opacity-0 translate-y-10 transition duration-700">
-                    <div class="text-4xl sm:text-5xl font-extrabold text-white">100&nbsp;%</div>
+                    <div class="text-4xl sm:text-5xl font-extrabold text-white font-display">100&nbsp;%</div>
                     <div class="text-xs text-blue-400 font-bold mt-1 uppercase tracking-wider">Dommage corporel</div>
                     <p class="text-gray-400 text-sm mt-3">Aucune autre matière</p>
                 </div>
 
                 <!-- Engagement 2 — Côté victimes -->
                 <div class="text-center border-t-2 border-blue-600 pt-8 animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-100">
-                    <div class="text-4xl sm:text-5xl font-extrabold text-white">0</div>
+                    <div class="text-4xl sm:text-5xl font-extrabold text-white font-display">0</div>
                     <div class="text-xs text-blue-400 font-bold mt-1 uppercase tracking-wider">Dossier pour un assureur</div>
                     <p class="text-gray-400 text-sm mt-3">Uniquement des victimes</p>
                 </div>
 
                 <!-- Engagement 3 — Interlocuteur -->
                 <div class="text-center border-t-2 border-blue-600 pt-8 animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-200">
-                    <div class="text-4xl sm:text-5xl font-extrabold text-white">1</div>
+                    <div class="text-4xl sm:text-5xl font-extrabold text-white font-display">1</div>
                     <div class="text-xs text-blue-400 font-bold mt-1 uppercase tracking-wider">Interlocuteur unique</div>
                     <p class="text-gray-400 text-sm mt-3">Votre avocat, du début à la fin</p>
                 </div>
 
                 <!-- Engagement 4 — Avance -->
                 <div class="text-center border-t-2 border-blue-600 pt-8 animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-300">
-                    <div class="text-4xl sm:text-5xl font-extrabold text-white">0&nbsp;€</div>
+                    <div class="text-4xl sm:text-5xl font-extrabold text-white font-display">0&nbsp;€</div>
                     <div class="text-xs text-blue-400 font-bold mt-1 uppercase tracking-wider">D'avance de frais</div>
                     <p class="text-gray-400 text-sm mt-3">Honoraires au résultat</p>
                 </div>
@@ -856,12 +852,12 @@
             <div class="text-center mt-12">
                 <a href="avocat-ilan-guedj" class="inline-flex items-center gap-2 text-blue-400 font-bold hover:text-blue-300 transition text-sm">
                     Qui est Maître Ilan Guedj ?
-                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </a>
                 <span class="mx-3 text-gray-700">·</span>
                 <a href="honoraires" class="inline-flex items-center gap-2 text-gray-400 font-bold hover:text-white transition text-sm">
                     Comment sont fixés les honoraires
-                    <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                    <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </a>
             </div>
         </div>
@@ -870,7 +866,7 @@
     <!-- ============================================ -->
     <!-- DIAGNOSTIC WIDGET                            -->
     <!-- ============================================ -->
-    <section id="diagnostic-widget" class="scroll-mt-24 relative py-24 bg-gradient-to-b from-gray-50 to-white">
+    <section id="diagnostic-widget" class="scroll-mt-24 relative py-24 bg-gradient-to-b from-gray-50 to-paper">
         <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
 
             <!-- Section Header -->
@@ -897,22 +893,22 @@
                         <div class="grid grid-cols-2 gap-4">
                             <button data-type="Accident Route"
                                     class="type-btn group flex flex-col items-center gap-3 p-4 sm:p-6 rounded-2xl border-2 border-gray-100 hover:border-blue-600 hover:bg-blue-50/50 transition-all text-center">
-                                <span class="text-3xl">🚗</span>
+                                <span class="text-3xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg></span>
                                 <span class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">Accident Route</span>
                             </button>
                             <button data-type="Erreur Medicale"
                                     class="type-btn group flex flex-col items-center gap-3 p-4 sm:p-6 rounded-2xl border-2 border-gray-100 hover:border-blue-600 hover:bg-blue-50/50 transition-all text-center">
-                                <span class="text-3xl">🏥</span>
+                                <span class="text-3xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></span>
                                 <span class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">Erreur Médicale</span>
                             </button>
                             <button data-type="Agression"
                                     class="type-btn group flex flex-col items-center gap-3 p-4 sm:p-6 rounded-2xl border-2 border-gray-100 hover:border-blue-600 hover:bg-blue-50/50 transition-all text-center">
-                                <span class="text-3xl">⚖️</span>
+                                <span class="text-3xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></span>
                                 <span class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">Agression</span>
                             </button>
                             <button data-type="Accident Vie"
                                     class="type-btn group flex flex-col items-center gap-3 p-4 sm:p-6 rounded-2xl border-2 border-gray-100 hover:border-blue-600 hover:bg-blue-50/50 transition-all text-center">
-                                <span class="text-3xl">⚠️</span>
+                                <span class="text-3xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span>
                                 <span class="font-semibold text-gray-900 group-hover:text-blue-600 transition-colors">Accident Vie</span>
                             </button>
                         </div>
@@ -925,22 +921,22 @@
                         <div class="grid grid-cols-2 gap-4 mb-8">
                             <button data-evidence="Constat"
                                     class="evidence-btn flex items-center gap-3 p-4 rounded-2xl border-2 border-gray-100 hover:border-blue-600 transition-all text-left">
-                                <span class="text-2xl">📄</span>
+                                <span class="text-2xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg></span>
                                 <span class="font-medium text-gray-700 text-sm">Constat / Plainte</span>
                             </button>
                             <button data-evidence="Medical"
                                     class="evidence-btn flex items-center gap-3 p-4 rounded-2xl border-2 border-gray-100 hover:border-blue-600 transition-all text-left">
-                                <span class="text-2xl">🏥</span>
+                                <span class="text-2xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></span>
                                 <span class="font-medium text-gray-700 text-sm">Certificat Médical</span>
                             </button>
                             <button data-evidence="Temoins"
                                     class="evidence-btn flex items-center gap-3 p-4 rounded-2xl border-2 border-gray-100 hover:border-blue-600 transition-all text-left">
-                                <span class="text-2xl">🗣️</span>
+                                <span class="text-2xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m3 11 18-5v12L3 14v-3z"/><path d="M11.6 16.8a3 3 0 1 1-5.8-1.6"/></svg></span>
                                 <span class="font-medium text-gray-700 text-sm">Témoignages</span>
                             </button>
                             <button data-evidence="Rien"
                                     class="evidence-btn flex items-center gap-3 p-4 rounded-2xl border-2 border-gray-100 hover:border-blue-600 transition-all text-left">
-                                <span class="text-2xl">🤷</span>
+                                <span class="text-2xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg></span>
                                 <span class="font-medium text-gray-700 text-sm">Rien pour l'instant</span>
                             </button>
                         </div>
@@ -957,7 +953,7 @@
                         <div class="space-y-4">
                             <button data-injury="Oui"
                                     class="injury-btn w-full flex items-center gap-4 p-4 sm:p-6 rounded-2xl border-2 border-gray-100 hover:border-blue-600 hover:bg-blue-50/50 transition-all text-left">
-                                <span class="text-3xl">🤕</span>
+                                <span class="text-3xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></span>
                                 <div>
                                     <span class="font-semibold text-gray-900 block">Oui, j'ai des blessures</span>
                                     <span class="text-gray-500 text-sm">Constatées par un médecin ou aux urgences</span>
@@ -965,7 +961,7 @@
                             </button>
                             <button data-injury="Non"
                                     class="injury-btn w-full flex items-center gap-4 p-4 sm:p-6 rounded-2xl border-2 border-gray-100 hover:border-blue-600 hover:bg-blue-50/50 transition-all text-left">
-                                <span class="text-3xl">🛡️</span>
+                                <span class="text-3xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/></svg></span>
                                 <div>
                                     <span class="font-semibold text-gray-900 block">Non / Pas encore vu de médecin</span>
                                     <span class="text-gray-500 text-sm">Vous n'avez pas encore consulté</span>
@@ -995,15 +991,15 @@
                     <!-- Result: Warning -->
                     <div id="step-result-warning" class="step-content absolute inset-0 transition-all duration-500 ease-in-out transform translate-x-full opacity-0 pointer-events-none text-center flex flex-col justify-center items-center">
                         <div class="w-20 h-20 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6">
-                            <span class="text-4xl">⚠️</span>
+                            <span class="text-4xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span>
                         </div>
                         <h3 class="text-2xl font-black mb-4 text-orange-600">Analyse Stratégique Nécessaire</h3>
                         <p class="text-gray-500 mb-8">Attention, sans preuves formelles, votre indemnisation est menacée. Contactez-nous pour sécuriser votre dossier.</p>
                         <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/guedj-chiche-cohen'});return false;"
-                                class="w-full py-4 bg-black text-white rounded-xl font-bold hover:bg-gray-800 transition shadow-lg flex items-center justify-center gap-2 mb-4">
+                                class="w-full py-4 bg-gray-900 text-white rounded-xl font-bold hover:bg-gray-800 transition shadow-lg flex items-center justify-center gap-2 mb-4">
                             Réserver un créneau stratégique
                         </button>
-                        <a href="https://wa.me/33663465984" class="text-sm text-gray-400 font-medium hover:text-black underline transition">
+                        <a href="https://wa.me/33663465984" class="text-sm text-gray-400 font-medium hover:text-gray-900 underline transition">
                             Urgence absolue ? Écrire sur WhatsApp
                         </a>
                     </div>
@@ -1032,7 +1028,7 @@
                 <a href="accidents-route" class="group animate-on-scroll opacity-0 translate-y-10 transition duration-700">
                     <div class="relative bg-white rounded-3xl border border-gray-100 p-8 h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                         <div class="w-14 h-14 bg-blue-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-blue-100 transition-colors">
-                            <span class="text-2xl">🚗</span>
+                            <span class="text-2xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg></span>
                         </div>
                         <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-blue-600 transition-colors">Accidents de la Route</h3>
                         <p class="text-gray-500 text-sm leading-relaxed mb-6">Conducteur, passager, piéton ou cycliste : nous défendons l'indemnisation intégrale de chaque poste de préjudice.</p>
@@ -1046,7 +1042,7 @@
                 <a href="erreur-medicale" class="group animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-100">
                     <div class="relative bg-white rounded-3xl border border-gray-100 p-8 h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                         <div class="w-14 h-14 bg-green-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-green-100 transition-colors">
-                            <span class="text-2xl">🏥</span>
+                            <span class="text-2xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></span>
                         </div>
                         <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-green-600 transition-colors">Erreur Médicale</h3>
                         <p class="text-gray-500 text-sm leading-relaxed mb-6">Erreur de diagnostic, faute chirurgicale, infection nosocomiale : nous engageons la responsabilité des professionnels de santé.</p>
@@ -1060,7 +1056,7 @@
                 <a href="agression" class="group animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-200">
                     <div class="relative bg-white rounded-3xl border border-gray-100 p-8 h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                         <div class="w-14 h-14 bg-purple-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-purple-100 transition-colors">
-                            <span class="text-2xl">⚖️</span>
+                            <span class="text-2xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg></span>
                         </div>
                         <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-purple-600 transition-colors">Agression</h3>
                         <p class="text-gray-500 text-sm leading-relaxed mb-6">Agression physique, attentat, violence volontaire : nous saisissons la CIVI et obtenons l'indemnisation intégrale de votre préjudice.</p>
@@ -1074,7 +1070,7 @@
                 <a href="accidents-vie" class="group animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-300">
                     <div class="relative bg-white rounded-3xl border border-gray-100 p-8 h-full hover:shadow-lg hover:-translate-y-1 transition-all duration-300">
                         <div class="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center mb-6 group-hover:bg-orange-100 transition-colors">
-                            <span class="text-2xl">⚠️</span>
+                            <span class="text-2xl"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg></span>
                         </div>
                         <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-orange-600 transition-colors">Accidents de la Vie</h3>
                         <p class="text-gray-500 text-sm leading-relaxed mb-6">Chute, accident domestique, accident scolaire ou sportif : nous faisons valoir vos droits pour chaque situation de la vie courante.</p>
@@ -1140,7 +1136,7 @@
             </div>
 
             <div class="text-center mt-12 animate-on-scroll opacity-0 translate-y-10 transition duration-700">
-                <a href="#diagnostic-widget" class="inline-flex items-center gap-2 bg-black text-white text-base font-semibold px-8 py-4 rounded-full hover:bg-gray-800 transition-all hover:shadow-lg">
+                <a href="#diagnostic-widget" class="inline-flex items-center gap-2 bg-gray-900 text-white text-base font-semibold px-8 py-4 rounded-full hover:bg-gray-800 transition-all hover:shadow-lg">
                     Vérifier mon éligibilité gratuitement
                     <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
                 </a>
@@ -1151,7 +1147,7 @@
     <!-- ============================================ -->
     <!-- CASE STUDIES (DARK SECTION)                  -->
     <!-- ============================================ -->
-    <section class="relative py-24 bg-black overflow-hidden">
+    <section class="relative py-24 bg-ink overflow-hidden">
 
         <!-- Glowing blobs -->
         <div class="absolute top-20 left-10 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl"></div>
@@ -1166,7 +1162,7 @@
                 </span>
                 <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white">
                     La différence s'appelle<br>
-                    <span class="bg-gradient-to-r from-blue-400 to-green-400 bg-clip-text text-transparent">l'Exigence.</span>
+                    <span class="bg-gradient-to-r from-blue-300 to-copper-300 bg-clip-text text-transparent">l'Exigence.</span>
                 </h2>
                 <p class="text-gray-400 mt-4 text-lg max-w-2xl mx-auto">Les assureurs ont leurs barèmes. Nous avons la jurisprudence, l'expertise médicale et l'acharnement de la justice.</p>
             </div>
@@ -1191,7 +1187,7 @@
 
                         <!-- Arrow -->
                         <div class="flex-shrink-0">
-                            <i data-lucide="arrow-right" class="w-6 h-6 text-gray-600"></i>
+                            <svg class="w-6 h-6 text-gray-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                         </div>
 
                         <!-- New amount -->
@@ -1221,7 +1217,7 @@
 
                         <!-- Arrow -->
                         <div class="flex-shrink-0">
-                            <i data-lucide="arrow-right" class="w-6 h-6 text-gray-600"></i>
+                            <svg class="w-6 h-6 text-gray-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                         </div>
 
                         <!-- New amount -->
@@ -1251,7 +1247,7 @@
 
                         <!-- Arrow -->
                         <div class="flex-shrink-0">
-                            <i data-lucide="arrow-right" class="w-6 h-6 text-gray-600"></i>
+                            <svg class="w-6 h-6 text-gray-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                         </div>
 
                         <!-- New amount -->
@@ -1271,7 +1267,7 @@
                 <p class="text-gray-500 text-sm mb-6">Les résultats passés ne préjugent pas des résultats futurs. Chaque dossier est unique et dépend de circonstances propres.</p>
                 <a href="#diagnostic-widget" class="inline-flex items-center gap-2 text-white font-semibold hover:text-blue-400 transition-colors">
                     Estimer mon dossier gratuitement
-                    <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                    <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
                 </a>
             </div>
         </div>
@@ -1386,7 +1382,7 @@
                 <div class="bg-white rounded-2xl p-10 border border-gray-200 hover:shadow-lg transition duration-300 animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-100">
                     <div class="flex items-start gap-6">
                         <div class="flex-shrink-0 w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center">
-                            <span class="text-3xl font-black text-blue-600">💯</span>
+                            <span class="text-3xl font-black text-blue-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg></span>
                         </div>
                         <div>
                             <h3 class="text-2xl font-black mb-2">100% Dommage Corporel</h3>
@@ -1399,7 +1395,7 @@
                 <div class="bg-white rounded-2xl p-10 border border-gray-200 hover:shadow-lg transition duration-300 animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-200">
                     <div class="flex items-start gap-6">
                         <div class="flex-shrink-0 w-16 h-16 bg-green-50 rounded-2xl flex items-center justify-center">
-                            <span class="text-3xl font-black text-green-600">🩺</span>
+                            <span class="text-3xl font-black text-green-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg></span>
                         </div>
                         <div>
                             <h3 class="text-2xl font-black mb-2">Médecins Conseils Dédiés</h3>
@@ -1425,7 +1421,7 @@
                 <div class="bg-white rounded-2xl p-10 border border-gray-200 hover:shadow-lg transition duration-300 animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-[400ms]">
                     <div class="flex items-start gap-6">
                         <div class="flex-shrink-0 w-16 h-16 bg-orange-50 rounded-2xl flex items-center justify-center">
-                            <span class="text-3xl font-black text-orange-600">📍</span>
+                            <span class="text-3xl font-black text-orange-600"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg></span>
                         </div>
                         <div>
                             <h3 class="text-2xl font-black mb-2">Partout en France</h3>
@@ -1448,7 +1444,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- Testimonial 1 -->
                 <div class="bg-gray-50 p-8 rounded-2xl animate-on-scroll opacity-0 translate-y-10 transition duration-700">
-                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4">★★★★★</div>
+                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
                     <p class="text-gray-600 italic mb-6 leading-relaxed">"Excellente prestation des services ILAN GUEDJ &amp; ASSOCIÉS. En tant que client nous avons eu pratiquement rien à faire. Je recommande à toute personne qui auront besoin de leur service."</p>
                     <div class="flex items-center gap-3">
                         <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center font-bold text-blue-600">M</div>
@@ -1461,7 +1457,7 @@
 
                 <!-- Testimonial 2 -->
                 <div class="bg-gray-50 p-8 rounded-2xl animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-100">
-                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4">★★★★★</div>
+                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
                     <p class="text-gray-600 italic mb-6 leading-relaxed">"Un mot à dire.. faite leur confiance ! Ce sont des professionnels dans le domaine. Très réputé à Marseille. Connu pour être les meilleurs !"</p>
                     <div class="flex items-center gap-3">
                         <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center font-bold text-purple-600">N</div>
@@ -1474,7 +1470,7 @@
 
                 <!-- Testimonial 3 -->
                 <div class="bg-gray-50 p-8 rounded-2xl animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-200">
-                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4">★★★★★</div>
+                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
                     <p class="text-gray-600 italic mb-6 leading-relaxed">"Le meilleur cabinet de Marseille. On me l'avait recommandé. Je conseille vivement."</p>
                     <div class="flex items-center gap-3">
                         <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center font-bold text-green-600">J</div>
@@ -1487,7 +1483,7 @@
 
                 <!-- Testimonial 4 -->
                 <div class="bg-gray-50 p-8 rounded-2xl animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-300">
-                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4">★★★★★</div>
+                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
                     <p class="text-gray-600 italic mb-6 leading-relaxed">"Après mon accident, j'étais complètement perdu. Le cabinet m'a pris en charge de A à Z. L'indemnisation obtenue a changé ma vie. Merci infiniment."</p>
                     <div class="flex items-center gap-3">
                         <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center font-bold text-orange-600">T</div>
@@ -1500,7 +1496,7 @@
 
                 <!-- Testimonial 5 -->
                 <div class="bg-gray-50 p-8 rounded-2xl animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-[400ms]">
-                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4">★★★★★</div>
+                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
                     <p class="text-gray-600 italic mb-6 leading-relaxed">"Professionnalisme et humanité. Ils ont su se battre contre l'hôpital et obtenir une indemnisation à la hauteur de mon préjudice. Je recommande sans hésitation."</p>
                     <div class="flex items-center gap-3">
                         <div class="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center font-bold text-pink-600">S</div>
@@ -1608,7 +1604,7 @@
     </section>
 
     <!-- ===== CALLBACK CTA ===== -->
-    <section class="bg-black py-24">
+    <section class="bg-ink py-24">
         <div class="max-w-5xl mx-auto px-6 lg:px-8 text-center">
             <div class="mb-12 animate-on-scroll opacity-0 translate-y-10 transition duration-700">
                 <h2 class="text-4xl md:text-5xl font-black text-white tracking-tighter mb-4">Obtenez un premier avis gratuit<span class="text-blue-500">.</span></h2>
@@ -1641,7 +1637,7 @@
                 <!-- Téléphone -->
                 <a href="tel:+33663465984" class="group bg-white/5 border border-white/20 rounded-2xl p-8 hover:bg-white/10 transition duration-300 block">
                     <div class="w-14 h-14 bg-white rounded-2xl flex items-center justify-center mx-auto mb-5">
-                        <svg class="w-7 h-7 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <svg class="w-7 h-7 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                         </svg>
                     </div>
@@ -1761,10 +1757,9 @@
                             Télécharger mon guide gratuit
                         </button>
                         <div id="guide-success" class="hidden bg-green-50 border border-green-200 rounded-xl p-4 text-center">
-                            <p class="text-green-800 font-bold text-sm">✅ Demande reçue !</p>
+                            <p class="text-green-800 font-bold text-sm"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><path d="m9 11 3 3L22 4"/></svg> Demande reçue !</p>
                             <p class="text-green-600 text-xs mt-1 mb-3">Accédez à votre guide immédiatement :</p>
-                            <a href="guide-5-erreurs" target="_blank" class="inline-block bg-blue-600 text-white text-xs font-bold px-4 py-2 rounded-lg hover:bg-blue-700 transition">
-                                📄 Ouvrir le guide →
+                            <a href="guide-5-erreurs" target="_blank" class="inline-block bg-blue-600 text-white text-xs font-bold px-4 py-2 rounded-lg hover:bg-blue-700 transition"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg> Ouvrir le guide →
                             </a>
                         </div>
                         <p class="text-center text-xs text-gray-400">Vos données sont protégées. Aucun spam garanti.</p>
@@ -1820,10 +1815,10 @@
     </section>
 
     <!-- ===== FOOTER ===== -->
-    <footer class="bg-[#0A0A0A] text-white py-20 border-t border-gray-900">
+    <footer class="bg-ink text-white py-20 border-t border-gray-900">
         <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between gap-12">
             <div>
-                <p class="font-black text-3xl mb-8 tracking-tighter">ILAN GUEDJ<span class="text-blue-600">.</span></p>
+                <p class="font-display font-bold text-3xl mb-8 tracking-tight">ILAN GUEDJ<span class="text-blue-600">.</span></p>
 
                 <div class="flex flex-col gap-6">
                     <a href="tel:+33663465984" class="text-white hover:text-blue-500 font-bold text-lg transition flex items-center gap-3 group">
@@ -1869,69 +1864,61 @@
     </footer>
 
     <!-- ===== EXIT-INTENT POPUP ===== -->
-    <div id="exit-popup" class="fixed inset-0 z-[999] flex items-center justify-center p-4 hidden" role="dialog" aria-modal="true">
-        <!-- Overlay -->
-        <div id="exit-popup-overlay" class="absolute inset-0 bg-black/60 backdrop-blur-sm"></div>
-        <!-- Modal -->
-        <div class="relative bg-white rounded-3xl shadow-2xl max-w-md w-full p-8 animate-fade-in-up">
+    <div id="exit-popup" class="fixed z-[999] bottom-4 left-4 right-4 sm:right-auto sm:bottom-8 sm:left-8 sm:w-[23rem] hidden" role="complementary" aria-label="Proposition de consultation">
+        <!-- Encart discret : pas de voile, pas de blocage de la page -->
+        <div id="exit-popup-overlay" class="hidden"></div>
+        <div class="relative bg-paper rounded-2xl shadow-glass ring-1 ring-gray-200 p-6 animate-fade-in-up">
             <!-- Close -->
             <button id="exit-popup-close" class="absolute top-4 right-4 p-2 rounded-full hover:bg-gray-100 transition text-gray-400 hover:text-gray-600">
                 <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
             </button>
             <!-- Content -->
-            <div class="text-center mb-6">
-                <div class="w-16 h-16 bg-blue-50 rounded-2xl flex items-center justify-center mx-auto mb-4">
-                    <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+            <div class="mb-5 pr-6">
+                <div class="w-10 h-10 bg-blue-50 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
                 </div>
-                <div class="inline-flex items-center gap-1 px-3 py-1 bg-red-50 text-red-600 text-xs font-bold rounded-full mb-3">
-                    ⚠️ Attention avant de partir
+                <div class="inline-flex items-center gap-1.5 text-copper-600 text-xs font-semibold uppercase tracking-wider mb-3"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Attention avant de partir
                 </div>
-                <h2 class="text-2xl font-black tracking-tight mb-2">Votre assurance sous-évalue<br>votre préjudice.</h2>
-                <p class="text-gray-500 text-sm leading-relaxed">En pratique, nous obtenons <strong class="text-black">bien davantage</strong> que l'offre initiale de l'assureur. Une consultation gratuite de 15 minutes peut changer le montant de votre indemnisation.</p>
+                <h2 class="text-xl font-bold tracking-tight mb-2">Votre assurance sous-évalue<br>votre préjudice.</h2>
+                <p class="text-gray-500 text-sm leading-relaxed">En pratique, nous obtenons <strong class="text-gray-900">bien davantage</strong> que l'offre initiale de l'assureur. Une consultation gratuite de 15 minutes peut changer le montant de votre indemnisation.</p>
             </div>
-            <!-- Stats row -->
-            <div class="grid grid-cols-2 gap-3 mb-6">
-                <div class="text-center p-3 bg-gray-50 rounded-xl">
-                    <p class="text-xl font-black text-blue-600">0€</p>
-                    <p class="text-xs text-gray-500 font-medium">d'avance</p>
-                </div>
-                <div class="text-center p-3 bg-gray-50 rounded-xl">
-                    <p class="text-xl font-black text-blue-600">15min</p>
-                    <p class="text-xs text-gray-500 font-medium">consultation</p>
-                </div>
-            </div>
+            <p class="text-xs text-gray-500 mb-5 flex items-center gap-4">
+                <span><strong class="text-gray-900 font-semibold">0 €</strong> d'avance</span>
+                <span class="w-px h-3 bg-gray-200"></span>
+                <span><strong class="text-gray-900 font-semibold">15 min</strong> de consultation</span>
+            </p>
             <!-- CTAs -->
             <div class="space-y-3">
                 <a href="https://wa.me/33663465984" target="_blank"
-                    class="w-full py-3.5 bg-black text-white rounded-xl font-bold flex items-center justify-center gap-2 hover:bg-gray-800 transition active:scale-95"
+                    class="w-full py-3 bg-gray-900 text-white rounded-xl font-semibold text-sm flex items-center justify-center gap-2 hover:bg-gray-800 transition active:scale-[0.98]"
                     onclick="if(window.dataLayer) window.dataLayer.push({event:'exit_popup_cta', action:'whatsapp'})">
                     <svg class="w-5 h-5 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
                     Parler à un avocat maintenant (WhatsApp)
                 </a>
                 <button onclick="Calendly.initPopupWidget({url: 'https://calendly.com/guedj-chiche-cohen'});document.getElementById('exit-popup').classList.add('hidden');if(window.dataLayer) window.dataLayer.push({event:'exit_popup_cta', action:'calendly'});return false;"
-                    class="w-full py-3 bg-white border-2 border-gray-200 text-black rounded-xl font-bold flex items-center justify-center gap-2 hover:border-gray-300 transition active:scale-95 text-sm">
+                    class="w-full py-2.5 bg-transparent border border-gray-200 text-gray-700 rounded-xl font-semibold flex items-center justify-center gap-2 hover:border-gray-300 hover:text-gray-900 transition active:scale-[0.98] text-sm">
                     Choisir un créneau gratuit (Calendly)
                 </button>
             </div>
-            <p class="text-center text-xs text-gray-400 mt-4">Secret professionnel · Premier avis toujours gratuit</p>
+            <p class="text-xs text-gray-400 mt-4">Secret professionnel · Premier avis toujours gratuit</p>
         </div>
     </div>
 
     <!-- ===== WhatsApp FAB (Desktop) ===== -->
-    <a href="https://wa.me/33663465984" id="fab" class="fixed bottom-8 right-8 z-50 hidden md:flex items-center justify-center w-16 h-16 bg-[#25D366] rounded-full shadow-2xl hover:scale-110 transition duration-300 animate-pulse-slow group cursor-pointer">
-        <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+    <a href="https://wa.me/33663465984" id="fab" aria-label="Discuter sur WhatsApp" class="fixed bottom-8 right-8 z-50 hidden md:flex items-center justify-center w-12 h-12 bg-gray-900/90 backdrop-blur ring-1 ring-white/10 rounded-full shadow-lg hover:bg-gray-900 hover:scale-105 transition duration-300 group cursor-pointer">
+        <svg class="w-5 h-5 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
             <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
         </svg>
-        <span class="absolute right-full mr-4 bg-black text-white text-xs font-bold px-3 py-2 rounded-lg opacity-0 group-hover:opacity-100 transition whitespace-nowrap shadow-lg">Discuter sur WhatsApp</span>
+        <span class="absolute right-full mr-3 bg-gray-900 text-white text-xs font-semibold px-3 py-1.5 rounded-lg opacity-0 group-hover:opacity-100 transition whitespace-nowrap shadow-lg">Discuter sur WhatsApp</span>
     </a>
 
     <!-- ===== Mobile Bottom Bar ===== -->
     <div class="fixed bottom-6 left-4 right-4 z-50 md:hidden animate-fade-in-up">
-        <div class="bg-[#0A0A0A]/90 backdrop-blur-xl p-2 rounded-2xl shadow-2xl flex gap-3 border border-white/10">
+        <div class="bg-ink/90 backdrop-blur-xl p-2 rounded-2xl shadow-2xl flex gap-3 border border-white/10">
             <a href="https://wa.me/33663465984" class="flex-1 bg-[#25D366] text-white py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition">
                 WhatsApp
             </a>
-            <a href="tel:+33663465984" class="flex-1 bg-white text-black py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition">
+            <a href="tel:+33663465984" class="flex-1 bg-white text-gray-900 py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition">
                 Appeler
             </a>
         </div>
@@ -1939,15 +1926,6 @@
 
     <!-- ===== SCRIPTS ===== -->
     <script>
-        // Lucide Icons — retry until loaded
-        function initLucide() {
-            if (typeof lucide !== 'undefined') {
-                lucide.createIcons();
-            } else {
-                setTimeout(initLucide, 200);
-            }
-        }
-        initLucide();
 
         // Mobile Menu Toggle
         const mobileBtn = document.getElementById('mobile-menu-btn');
