@@ -1,18 +1,46 @@
 # robots.txt — ig-avocat.com
-# Cabinet Guedj Chiche Cohen — Avocat dommage corporel Marseille
+# Cabinet Chiche Cohen & Associés — Maître Ilan Guedj
+# Avocat en dommage corporel, barreau de Marseille
+#
+# Politique : accès TOTAL et explicite accordé aux robots d'indexation et aux
+# robots des moteurs de réponse génératifs (GEO). Nous voulons que le contenu
+# du site soit lu, indexé et cité par les assistants IA lorsqu'un internaute
+# cherche un avocat en dommage corporel dans le Sud de la France.
+#
+# Ressources pour les agents conversationnels :
+#   https://ig-avocat.com/llms.txt        (synthèse structurée du cabinet)
+#   https://ig-avocat.com/llms-full.txt   (corpus complet du site en texte)
+#   https://ig-avocat.com/avocat-ilan-guedj (page d'identité de l'avocat)
 
-# --- Moteurs de recherche classiques ---
+# ═══════════════════════════════════════════════════════════
+# Règle générale
+# ═══════════════════════════════════════════════════════════
 User-agent: *
 Allow: /
 Disallow: /nov-apijson/
 Disallow: /embed/
 
-# --- Robots d'IA / moteurs de réponse (GEO) ---
-# Accès explicitement autorisé : nous voulons être cités dans les réponses
-# générées par les assistants IA pour les recherches d'avocat en dommage
-# corporel (accidents de la circulation, erreur médicale, agression...).
+# ═══════════════════════════════════════════════════════════
+# Moteurs de recherche classiques
+# ═══════════════════════════════════════════════════════════
+User-agent: Googlebot
+Allow: /
+User-agent: Googlebot-Image
+Allow: /
+User-agent: bingbot
+Allow: /
+User-agent: BingPreview
+Allow: /
+User-agent: Qwantify
+Allow: /
+User-agent: DuckDuckBot
+Allow: /
 
-# OpenAI (ChatGPT, SearchGPT)
+# ═══════════════════════════════════════════════════════════
+# Robots d'IA / moteurs de réponse (GEO)
+# ═══════════════════════════════════════════════════════════
+
+# OpenAI — ChatGPT, ChatGPT Search
 User-agent: GPTBot
 Allow: /
 User-agent: OAI-SearchBot
@@ -20,7 +48,7 @@ Allow: /
 User-agent: ChatGPT-User
 Allow: /
 
-# Anthropic (Claude)
+# Anthropic — Claude
 User-agent: ClaudeBot
 Allow: /
 User-agent: anthropic-ai
@@ -29,6 +57,8 @@ User-agent: Claude-User
 Allow: /
 User-agent: Claude-SearchBot
 Allow: /
+User-agent: Claude-Web
+Allow: /
 
 # Perplexity
 User-agent: PerplexityBot
@@ -36,30 +66,81 @@ Allow: /
 User-agent: Perplexity-User
 Allow: /
 
-# Google (Gemini / AI Overviews / Vertex)
+# Google — Gemini, AI Overviews / AI Mode, Vertex AI
 User-agent: Google-Extended
 Allow: /
-
-# Microsoft / Bing (Copilot)
-User-agent: bingbot
+User-agent: Google-CloudVertexBot
+Allow: /
+User-agent: GoogleOther
 Allow: /
 
-# Apple (Apple Intelligence / Siri)
+# Microsoft — Copilot
+User-agent: msnbot
+Allow: /
+
+# Apple — Apple Intelligence, Siri, Spotlight
 User-agent: Applebot
 Allow: /
 User-agent: Applebot-Extended
 Allow: /
 
-# Amazon, Meta, Mistral, DuckDuckGo, Common Crawl
-User-agent: Amazonbot
-Allow: /
+# Meta — Meta AI
 User-agent: meta-externalagent
 Allow: /
+User-agent: Meta-ExternalAgent
+Allow: /
+User-agent: Meta-ExternalFetcher
+Allow: /
+User-agent: FacebookBot
+Allow: /
+
+# Amazon — Alexa / Rufus
+User-agent: Amazonbot
+Allow: /
+
+# Mistral AI — Le Chat
 User-agent: MistralAI-User
 Allow: /
+
+# DuckDuckGo — DuckAssist
 User-agent: DuckAssistBot
+Allow: /
+
+# You.com
+User-agent: YouBot
+Allow: /
+
+# Cohere
+User-agent: cohere-ai
+Allow: /
+User-agent: cohere-training-data-crawler
+Allow: /
+
+# ByteDance — Doubao
+User-agent: Bytespider
+Allow: /
+
+# Huawei — Pangu / Petal
+User-agent: PetalBot
+Allow: /
+User-agent: PanguBot
+Allow: /
+
+# Allen Institute for AI
+User-agent: AI2Bot
+Allow: /
+
+# Diffbot, Timpi, Webz.io, Common Crawl (corpus alimentant de nombreux LLM)
+User-agent: Diffbot
+Allow: /
+User-agent: Timpibot
+Allow: /
+User-agent: omgili
+Allow: /
+User-agent: omgilibot
 Allow: /
 User-agent: CCBot
 Allow: /
 
+# ═══════════════════════════════════════════════════════════
 Sitemap: https://ig-avocat.com/sitemap.xml

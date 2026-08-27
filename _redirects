@@ -31,6 +31,7 @@
 /avocat-avignon               /avocat-avignon.html               200
 /avocat-montpellier           /avocat-montpellier.html           200
 /avocat-nimes                 /avocat-nimes.html                 200
+/avocat-ilan-guedj            /avocat-ilan-guedj.html            200
 
 # 1. Suppression des extensions .html — pages principales
 /accidents-route.html     /accidents-route     301!
@@ -51,6 +52,7 @@
 /avocat-avignon.html           /avocat-avignon           301!
 /avocat-montpellier.html       /avocat-montpellier       301!
 /avocat-nimes.html             /avocat-nimes             301!
+/avocat-ilan-guedj.html        /avocat-ilan-guedj        301!
 
 # Articles blog (.html → propre)
 /blog/erreur-medicale-droits-victime.html         /blog/erreur-medicale-droits-victime         301!
@@ -89,11 +91,12 @@
 /avocat-avignon/          /avocat-avignon      301!
 /avocat-montpellier/      /avocat-montpellier  301!
 /avocat-nimes/            /avocat-nimes        301!
+/avocat-ilan-guedj/       /avocat-ilan-guedj   301!
 
 # === 5. Redirections legacy WordPress (conservées) ===
 /accidents-de-la-vie/                 /accidents-vie         301
 /accidents-de-la-circulation/         /accidents-route       301
-/presentation/                        /                      301
+/presentation/                        /avocat-ilan-guedj     301
 /actualites/                          /blog/                 301
 
 # Anciens articles WordPress
