@@ -471,6 +471,9 @@ Combien pour un accident corporel ?
 Montants réels et postes de préjudice
 Refuser l'offre de son assurance ?
 Procédure et délais légaux pour contester
+Expertise
+Préparer son expertise médicale
+Les 15 jours qui décident de l'indemnisation
 Accidents graves
 ## Préjudices importants : les indemnisations à 6 et 7 chiffres
 Un accident grave (traumatisme crânien, paraplégie, polytraumatisme, amputation) ouvre droit à des postes d'indemnisation que la plupart des victimes — et même certains avocats généralistes — sous-estiment. Voici ce que nous faisons réellement valoir.
@@ -2009,6 +2012,8 @@ Oui, c'est vivement recommandé. Le médecin-conseil de victime est un praticien
 ### Qui paie les frais de l'expertise judiciaire ?
 Vous n'avez rien à payer ni à avancer. Dans le cadre d'un référé expertise-provision, le juge condamne le responsable ou son assureur à verser une provision qui couvre les frais d'expertise. C'est cette provision qui finance la consignation de l'expert. Les frais sont ensuite intégralement remboursés par la partie adverse au titre des dépens.
 ## Articles liés
+Expertise médicale
+Préparer son expertise médicale : les 15 jours qui décident de l'indemnisation
 Indemnisation
 Combien toucher après un accident corporel ?
 Erreur médicale
@@ -2387,7 +2392,7 @@ L’expertise dite « contradictoire » oppose le médecin désigné par l’ass
 - → L’évaluation ergothérapique : un ergothérapeute peut évaluer à domicile les besoins en aide humaine, matériel et aménagement. Son rapport est un outil décisif pour défendre la tierce personne et les frais futurs.
 ### Expertise amiable, CCI ou judiciaire ?
 Pour les accidents graves, on privilégie le plus souvent une expertise judiciaire ordonnée par le juge des référés. L’expert est alors désigné par le juge sur une liste officielle et présente une indépendance plus marquée que dans une expertise purement amiable conduite à l’initiative de l’assureur. Le caractère pluridisciplinaire (un expert orthopédiste, un expert neurologue, un médecin-conseil en évaluation du dommage corporel selon le cas) est presque toujours imposé pour les polytraumatismes.
-Pour aller plus loin, voir nos articles dédiés à l’expertise médicale judiciaire et au rôle du médecin-recours de victime.
+Pour aller plus loin, voir nos articles dédiés à la préparation de l’expertise médicale, à l’expertise médicale judiciaire et au rôle du médecin-recours de victime.
 ## 11. Indemnisations type observées (ordres de grandeur)
 Chaque dossier d’accident grave est unique. Les chiffres ci-dessous sont des ordres de grandeur indicatifs, issus de la jurisprudence des cours d’appel du Sud de la France (Aix-en-Provence, Nîmes, Montpellier) et de la pratique du cabinet. Ils ne valent qu’à titre de repère : l’indemnisation réellement obtenue dépend de l’âge, de la situation professionnelle, des séquelles précises, du besoin en tierce personne et du contexte familial.
 Tétraplégie complète (jeune adulte)
@@ -2622,6 +2627,8 @@ Les honoraires du médecin-recours sont remboursés par l'assureur du responsabl
 C'est légalement possible, mais fortement déconseillé. Sans médecin-recours, vous vous retrouvez seul face à l'expert et au médecin de l'assureur. Vous risquez de voir certains préjudices sous-évalués ou oubliés. C'est l'une des erreurs les plus coûteuses pour les victimes.
 ## Articles liés
 Expertise médicale
+Préparer son expertise médicale : les 15 jours qui décident de l'indemnisation
+Expertise médicale
 Expertise médicale : pourquoi l'expertise judiciaire protège mieux les victimes
 Indemnisation
 Combien toucher après un accident corporel ?
@@ -2636,6 +2643,142 @@ Ne vous rendez jamais seul
 Le cabinet ILAN GUEDJ vous met en relation avec un médecin-recours adapté à votre pathologie et vous accompagne à chaque étape de l'expertise.
 WhatsApp — Réponse immédiate 06 63 46 59 84
 Consultation 100% gratuite — Honoraires sur résultat uniquement
+
+---
+
+## Expertise médicale accident grave : préparer les 15 jours décisifs
+URL : https://ig-avocat.com/blog/preparer-expertise-medicale-accident-grave
+
+Expertise médicale
+# Expertise médicale après un accident grave : les 15 jours qui décident de votre indemnisation
+27 août 2026 12 min de lecture Maître Ilan Guedj
+L'assureur doit vous aviser au moins quinze jours avant l'examen médical (article R. 211-43 du code des assurances) et vous rappeler, dès sa première correspondance, que vous pouvez vous faire assister d'un avocat et d'un médecin de votre choix (article L. 211-10). Ces quinze jours décident de beaucoup : l'expertise fixe les postes de préjudice qui serviront de base à toute l'indemnisation, et ce qui n'y est ni constaté ni consigné devient très difficile à faire reconnaître ensuite. Dans un dossier grave — traumatisme crânien, lésion médullaire, polytraumatisme — la préparation porte sur trois choses : un dossier médical complet, une description précise de votre quotidien depuis l'accident, et l'assistance d'un médecin-recours indépendant.
+## 1. Ce qu'est réellement l'expertise médicale
+Après un accident de la circulation, l'assureur du responsable organise un examen médical. Ce rendez-vous porte un nom trompeur : on parle d'« expertise », mot qui évoque la neutralité. En réalité, tant que l'expertise n'est pas judiciaire, le médecin qui vous examine est mandaté et rémunéré par la compagnie d'assurance. Il n'est ni votre médecin traitant, ni un magistrat, ni un arbitre.
+Sa mission n'est pas de vous soigner : elle est de décrire vos séquelles et de les traduire en postes de préjudice, selon la nomenclature Dintilhac, la grille de référence utilisée par tous les acteurs de l'indemnisation depuis 2005. Chaque poste sera ensuite chiffré. Autrement dit : l'expertise ne fixe pas votre indemnisation, elle fixe ce qui pourra être indemnisé. C'est plus décisif encore.
+Un poste qui n'a pas été constaté ce jour-là ne disparaît pas juridiquement, mais il devient beaucoup plus difficile à faire admettre : il faut alors une contre-expertise, un dire circonstancié, parfois une expertise judiciaire. Dans un dossier grave, où les postes se comptent par dizaines et où la tierce personne ou les frais futurs représentent souvent l'essentiel du préjudice, cette matinée engage des années.
+Trois interlocuteurs, trois rôles
+Le médecin de l'assureur évalue pour celui qui paiera. Le médecin-recours — que vous choisissez — évalue pour vous et discute techniquement, poste par poste. L'expert judiciaire, lui, est désigné par un juge et travaille sous une mission écrite ; on y vient lorsque l'expertise amiable a échoué.
+Les deux premiers peuvent être présents le même jour. C'est même toute la logique du texte : l'examen doit être contradictoire.
+## 2. Les délais que l'assureur doit respecter
+Trois délais encadrent cette phase, et il est utile de les connaître avant d'ouvrir la convocation.
+Étape
+Délai
+Texte
+Convocation à l'examen médical
+15 jours au moins avant l'examen
+art. R. 211-43 c. assur.
+Envoi du rapport à la victime
+20 jours après l'examen
+art. R. 211-44 c. assur.
+Offre à la victime blessée
+8 mois au plus à compter de l'accident
+art. L. 211-9 c. assur.
+Offre définitive après consolidation
+5 mois à compter du jour où l'assureur en est informé
+art. L. 211-9 c. assur.
+Ces quinze jours sont un minimum légal, pas une injonction à s'y présenter. Si votre état n'est pas stabilisé, si une intervention reste programmée, si le bilan neuropsychologique n'est pas encore réalisé ou si le médecin que vous avez choisi n'est pas disponible, un report se demande et s'obtient couramment. Une expertise subie parce qu'on n'a pas osé demander trois semaines de plus coûte, en pratique, bien plus que ces trois semaines.
+## 3. Vos droits, que la convocation mentionne rarement en gras
+L'article L. 211-10 du code des assurances impose à l'assureur, dès sa première correspondance, de vous informer de trois choses : que vous pouvez obtenir sur simple demande une copie du procès-verbal d'enquête de police ou de gendarmerie, que vous pouvez vous faire assister d'un avocat, et qu'en cas d'examen médical vous pouvez vous faire assister d'un médecin de votre choix.
+Ce n'est pas une faculté théorique. Le texte assortit ce devoir d'information d'une sanction : la nullité relative de la transaction qui viendrait à être conclue sans que la victime en ait été avertie. Le législateur a considéré qu'une victime mal informée n'était pas en mesure de transiger valablement.
+La convocation elle-même, régie par l'article R. 211-43, doit préciser l'identité du médecin, la date, le lieu et l'objet de l'examen, ainsi que l'identité de l'assureur pour le compte duquel il intervient — et rappeler que vous pouvez vous faire assister. Si l'une de ces mentions manque, signalez-le par écrit : c'est déjà une pièce du dossier.
+## 4. Le dossier à réunir
+Le médecin de l'assureur travaillera sur ce que vous apportez. Ce qui n'est pas dans le dossier n'existe pas pour lui. Dans un dossier grave, réunissez :
+- → Le compte rendu d'hospitalisation complet, du service d'accueil des urgences à la sortie, y compris les passages en réanimation.
+- → Les comptes rendus opératoires et la liste des interventions déjà pratiquées ou programmées.
+- → L'imagerie et ses comptes rendus : scanner, IRM, radiographies, avec les dates.
+- → Les bilans de rééducation : kinésithérapie, ergothérapie, orthophonie, et les comptes rendus de séjour en centre.
+- → Le bilan neuropsychologique en cas de traumatisme crânien, même léger. C'est la pièce la plus souvent manquante et la plus décisive.
+- → Les arrêts de travail, ordonnances, et le suivi psychologique ou psychiatrique s'il existe.
+- → Les justificatifs de la vie d'avant : bulletins de salaire, contrat, projets professionnels en cours, licence sportive, photographies, inscriptions associatives.
+- → Les attestations de proches, décrivant concrètement ce qu'ils font pour vous depuis l'accident, avec les horaires.
+## 5. Les doléances : l'exercice que personne ne prépare
+À un moment de l'examen, le médecin vous demandera de décrire vos difficultés. C'est le passage le plus important, et celui que les victimes abordent le plus mal — pour une raison très humaine : on a été élevé à ne pas se plaindre. À la question « comment allez-vous ? », beaucoup répondent « ça va ». Cette réponse se retrouve, en substance, dans le rapport.
+L'exercice n'est pas de se plaindre : il est de décrire. Une description utile est datée, concrète et vérifiable. « J'ai mal au dos » ne dit rien. « Je ne peux plus rester assis au-delà de vingt minutes, je me relève quatre à cinq fois pendant un repas, et je dors avec deux oreillers depuis le mois de mars » décrit un retentissement.
+La méthode la plus efficace consiste à écrire, avant le rendez-vous, le récit d'une journée ordinaire, du réveil au coucher : lever, toilette, habillage, repas, déplacements, travail ou tentative de reprise, courses, tâches ménagères, enfants, loisirs, sommeil. Pour chaque étape : ce que vous faisiez avant, ce que vous faites aujourd'hui, ce que quelqu'un fait à votre place, et combien de temps cela prend.
+Ce document sert deux fois. Le jour de l'expertise, il vous évite d'oublier la moitié de ce que vous vouliez dire. Ensuite, il constitue la trame de l'évaluation de la tierce personne, poste qui, dans les dossiers lourds, dépasse fréquemment tous les autres réunis.
+## 6. Les postes qui se jouent ce jour-là
+La nomenclature Dintilhac distingue les préjudices patrimoniaux — ceux qui coûtent de l'argent — et les préjudices extrapatrimoniaux — ceux qui touchent à l'existence. Voici, pour les principaux, ce que l'expertise doit constater et ce qu'il faut lui donner pour cela.
+Déficit fonctionnel temporaire
+La gêne dans les actes de la vie courante avant la consolidation, en périodes totales et partielles. Elle se documente par les dates d'hospitalisation, d'immobilisation, de rééducation, et par le récit du quotidien. Les périodes intermédiaires — le retour à domicile avec un fauteuil, les mois de reprise partielle — sont celles qu'on oublie le plus.
+Souffrances endurées
+Cotées sur une échelle de 1 à 7, elles couvrent les douleurs physiques et la souffrance morale jusqu'à la consolidation : interventions, soins, pansements, rééducation, mais aussi angoisse, cauchemars, syndrome de stress post-traumatique. La composante psychique est très fréquemment sous-cotée faute d'un suivi documenté.
+Déficit fonctionnel permanent
+Le taux d'atteinte définitive, exprimé en pourcentage, qui intègre les douleurs persistantes et la perte de qualité de vie après consolidation. C'est le poste que les victimes surveillent le plus — souvent au détriment des autres, qui pèsent parfois davantage.
+Assistance par tierce personne
+Le besoin d'aide humaine, en nombre d'heures par jour et par type d'aide. Dans les dossiers graves, c'est le poste le plus lourd. Il se chiffre sur des heures décrites précisément — et le fait que l'aide soit aujourd'hui apportée gratuitement par un conjoint ou un parent ne la rend pas moins indemnisable.
+Incidence professionnelle et pertes de gains
+La dévalorisation sur le marché du travail, la pénibilité accrue, la renonciation à une évolution, l'abandon d'un métier — distincts de la seule perte de salaire. Apportez les preuves du parcours interrompu : promotion en cours, formation entamée, projet d'installation.
+Frais futurs, logement et véhicule adaptés
+Prothèses et leur renouvellement, fauteuil, matériel médical, soins à vie, aménagement du domicile, adaptation du véhicule. Ces besoins doivent être anticipés à l'expertise : c'est le rapport qui devra les mentionner pour qu'ils soient chiffrés ensuite.
+Préjudices esthétique, d'agrément, sexuel, d'établissement
+Cicatrices et boiterie, impossibilité de poursuivre une activité sportive ou de loisir précise, retentissement sur la vie intime, renoncement à un projet de vie familiale. Ce sont les postes que la pudeur fait taire. Ils ne sont pas accessoires : ils figurent dans la nomenclature au même titre que les autres.
+## 7. Traumatisme crânien : le piège du « il marche, il parle »
+Les séquelles d'un traumatisme crânien sont les plus mal évaluées de tout le dommage corporel, pour trois raisons qui se cumulent. Elles ne se voient pas lors d'un examen d'une heure. La victime les minimise, parce que l'anosognosie — la difficulté à percevoir ses propres troubles — fait partie du tableau clinique. Et l'entourage, lui, les constate tous les jours sans être invité à en parler.
+Fatigue cognitive en fin de journée, perte du fil d'une conversation, oublis de rendez-vous, irritabilité nouvelle, perte d'initiative, incapacité à mener deux tâches de front, lenteur : rien de tout cela n'apparaît si personne ne l'apporte. Trois pièces changent l'issue :
+- → Un bilan neuropsychologique complet, réalisé par un professionnel, qui objective les troubles attentionnels et mnésiques.
+- → Des attestations de l'entourage — conjoint, parents, collègues — décrivant des situations précises et datées, pas des appréciations générales.
+- → Les traces de la vie professionnelle : aménagement de poste, alertes du médecin du travail, baisse d'évaluation, reclassement.
+La présence d'un proche le jour de l'expertise a ici une valeur particulière : il décrit ce que la victime ne perçoit pas d'elle-même.
+## 8. La consolidation : une date, beaucoup de conséquences
+La consolidation est le moment où l'état est considéré comme stabilisé : il n'évolue plus de manière significative, même si des soins restent nécessaires. Ce n'est pas la guérison.
+Cette date sépare deux mondes. Avant elle, on indemnise le temporaire — déficit fonctionnel temporaire, souffrances endurées, pertes de gains actuelles. Après, le permanent. Elle déclenche aussi le délai de cinq mois dont dispose l'assureur pour présenter son offre définitive (article L. 211-9). Une consolidation fixée trop tôt, alors qu'une intervention reste programmée ou que la rééducation produit encore des effets, fige un état qui n'est pas stabilisé : elle se discute lors de l'examen, puis par un dire écrit, et le cas échéant devant le juge.
+## 9. Après l'expertise : lire le rapport, ne pas le subir
+Le rapport doit vous être adressé dans les vingt jours de l'examen (article R. 211-44), ainsi qu'au médecin qui vous a assisté. Vous n'avez ni à le réclamer, ni à attendre l'offre pour le lire.
+Relisez-le poste par poste, la nomenclature à côté, et posez-vous trois questions : un poste a-t-il été omis ? Un taux ou une cotation est-il manifestement bas au regard des pièces médicales ? La date de consolidation correspond-elle à la réalité de votre état ? Une omission se signale par un dire ; un désaccord de fond se règle par une contre-expertise ou par la voie judiciaire.
+Un point mérite d'être dit clairement : l'offre d'un assureur se construit sur ce rapport. Négocier une offre sans avoir corrigé le rapport qui la fonde revient à discuter le résultat d'un calcul dont on accepte les données.
+À faire dans les quinze jours
+- 1. Vérifier que la convocation comporte toutes les mentions de l'article R. 211-43, et demander par écrit ce qui manque.
+- 2. Demander à l'assureur la copie du procès-verbal d'enquête, à laquelle vous avez droit.
+- 3. Réunir le dossier médical complet, et réclamer les pièces manquantes aux établissements.
+- 4. Écrire le récit d'une journée ordinaire, étape par étape, avec les durées.
+- 5. Recueillir deux ou trois attestations de proches, concrètes et datées.
+- 6. Faire réaliser le bilan neuropsychologique s'il y a eu traumatisme crânien.
+- 7. Mandater un médecin-recours et, s'il ne peut être présent, demander le report de l'examen.
+## 10. Faut-il y aller accompagné ?
+La loi vous en donne le droit ; l'expérience en fait une nécessité dans les dossiers graves. Le médecin de l'assureur maîtrise un vocabulaire technique, une méthode d'évaluation et une pratique quotidienne de l'exercice. Une victime seule, fatiguée, souvent intimidée, ne dispose d'aucun de ces trois avantages, et découvre la portée d'une question après y avoir répondu.
+Le médecin-recours rétablit l'équilibre technique : il examine avec l'expert, discute les cotations sur place, fait consigner ce qui doit l'être et rédige ensuite les dires. L'avocat, lui, prépare l'examen en amont, veille au respect des délais et des mentions obligatoires, et transforme le rapport en évaluation chiffrée. Aucun des deux ne se substitue à l'autre.
+Sources
+- Code des assurances, article L. 211-9 — délais d'offre de l'assureur.
+- Code des assurances, article L. 211-10 — information de la victime, assistance d'un avocat et d'un médecin de son choix.
+- Code des assurances, articles R. 211-43 et R. 211-44 — délai de convocation et transmission du rapport.
+- Rapport Dintilhac (2005) — nomenclature des postes de préjudice corporel.
+Article à jour au 27 août 2026. Information générale : chaque dossier dépend de circonstances propres et aucune indemnisation ne peut être garantie à l'avance.
+## Questions fréquentes
+Puis-je me faire assister par mon propre médecin lors de l'expertise de l'assurance ?
+Oui, et c'est un droit exprès. L'article L. 211-10 du code des assurances impose à l'assureur de vous rappeler, dès sa première correspondance, que vous pouvez vous faire assister d'un avocat et, en cas d'examen médical, d'un médecin de votre choix. La convocation elle-même doit reprendre cette information (article R. 211-43). L'omission de cette information est sanctionnée : la transaction conclue ensuite encourt la nullité relative. Ce médecin — appelé médecin-recours ou médecin-conseil de victime — n'est pas votre médecin traitant : c'est un praticien formé à l'évaluation du dommage corporel, qui discute pied à pied avec le médecin de l'assureur.
+Combien de temps ai-je pour préparer l'expertise médicale ?
+Au minimum quinze jours. L'article R. 211-43 du code des assurances impose à l'assureur d'aviser la victime au moins quinze jours avant l'examen, en précisant l'identité du médecin, la date, le lieu et l'objet de l'examen. Ce délai est un minimum, pas une obligation d'accepter : si vous n'êtes pas prêt, si votre médecin-recours n'est pas disponible ou si des examens sont en cours, un report peut être demandé. Une expertise subie faute de temps coûte généralement plus cher qu'une expertise reportée de trois semaines.
+Que se passe-t-il si j'y vais seul ?
+L'examen se déroule quand même, mais il se déroule entre vous et un médecin mandaté et rémunéré par la compagnie d'assurance. Vous répondez à des questions techniques dont vous ne connaissez pas l'enjeu, sans personne pour signaler qu'un poste de préjudice a été oublié, qu'un taux est sous-évalué ou qu'un besoin d'aide humaine n'a pas été chiffré. Le rapport qui en sort devient la base de l'offre. Le contester ensuite suppose une contre-expertise ou une expertise judiciaire : c'est possible, mais plus long et plus incertain que d'être accompagné le jour même.
+Quels documents faut-il apporter à une expertise médicale ?
+L'intégralité du dossier médical depuis l'accident : compte rendu d'hospitalisation, comptes rendus opératoires, imagerie et comptes rendus de radiologie, comptes rendus de consultation, bilans de rééducation, bilan neuropsychologique en cas de traumatisme crânien, ordonnances et arrêts de travail. À cela s'ajoutent les pièces qui documentent la vie quotidienne : attestations de proches, factures d'aide à domicile ou d'aménagement, justificatifs professionnels, et les preuves des activités pratiquées avant l'accident — licence sportive, photographies, inscriptions — qui servent à établir le préjudice d'agrément.
+L'expert peut-il fixer une date de consolidation avec laquelle je ne suis pas d'accord ?
+Il la propose, et cette date a des conséquences directes : elle arrête le déficit fonctionnel temporaire, ouvre l'évaluation du déficit fonctionnel permanent et fait courir le délai de l'offre définitive de l'assureur, qui dispose de cinq mois à compter du jour où il en est informé (article L. 211-9 du code des assurances). Une consolidation fixée trop tôt, alors que l'état évolue encore ou qu'une intervention reste programmée, fige une situation qui n'est pas stabilisée. Elle se discute lors de l'expertise, puis par un dire, et le cas échéant devant le juge.
+Quand vais-je recevoir le rapport de l'expertise ?
+Dans les vingt jours de l'examen. L'article R. 211-44 du code des assurances impose au médecin d'adresser un exemplaire de son rapport à l'assureur, à la victime et, le cas échéant, au médecin qui l'a assistée. Vous n'avez pas à le réclamer et vous n'avez pas à attendre l'offre pour le lire. C'est ce document qu'il faut examiner poste par poste : c'est là que se voient les oublis, et c'est à partir de lui que se construit la contestation.
+Un traumatisme crânien sans séquelle visible peut-il être indemnisé ?
+Oui, mais il doit être documenté. Les séquelles d'un traumatisme crânien — fatigue cognitive, troubles de la mémoire de travail, de l'attention, irritabilité, perte d'initiative — ne se voient pas lors d'un examen d'une heure, et la victime les minimise souvent elle-même. Elles s'établissent par un bilan neuropsychologique réalisé par un professionnel, par les observations des proches et de l'employeur, et par la description concrète des difficultés rencontrées dans les tâches ordinaires. Sans ces éléments au dossier, l'expertise conclut fréquemment à des séquelles modérées, très en deçà du retentissement réel.
+## Articles liés
+Le médecin-recours : pourquoi il est indispensable
+Qui il est, ce qu'il fait, qui le paie.
+Expertise amiable ou judiciaire ?
+Quand demander une expertise devant le juge.
+Accident grave : indemnisation et gros postes
+Tierce personne, frais futurs, pertes de gains.
+Faut-il accepter l'offre de l'assurance ?
+Ce que vous perdez en signant trop tôt.
+### Expertise dans 15 jours ?
+Faites le point avant l'examen, pendant qu'il est encore temps de le préparer. Consultation gratuite, 0 € d'avance.
+WhatsApp 06 63 46 59 84
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+Ne vous présentez pas seul
+Une matinée décide
+## de plusieurs années
+Si vous avez reçu une convocation à une expertise médicale, parlons-en avant la date. Maître Ilan Guedj prépare l'examen avec vous et coordonne l'intervention d'un médecin-recours indépendant.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation gratuite — honoraires uniquement au résultat
 
 ---
 
@@ -2789,6 +2932,8 @@ Si l'assureur ne respecte pas les délais légaux imposés par la Loi Badinter, 
 ### L'assureur peut-il m'imposer un médecin expert de son choix ?
 Non. Si l'assureur organise une expertise médicale, vous avez le droit d'être assisté par le médecin expert de votre choix. Sans cette assistance, le rapport du médecin de l'assureur sera établi en votre absence et vous sera défavorable. Maître Ilan Guedj coordonne systématiquement l'intervention d'un médecin expert indépendant lors de toute expertise organisée par l'assurance adverse.
 ## Articles liés
+Expertise médicale
+Préparer son expertise médicale : les 15 jours qui décident de l'indemnisation
 Préjudices graves
 Accident grave : indemnisation maximale et préjudices importants
 Accident de la route
