@@ -1,5 +1,11 @@
 # Référencement dans les recommandations IA (GEO) — ig-avocat.com
 
+> **Note de mise à jour (août 2026).** Le site a été harmonisé autour d'une entité
+> unique, Maître Ilan Guedj. Les recommandations de ce document qui portent sur
+> l'identité collective du cabinet (dénomination Chiche Cohen, associés, effectif,
+> volumes d'activité, décisions Doctrine, page « Notre bilan ») sont caduques et ne
+> doivent plus être appliquées. Le reste du document reste valable.
+
 > GEO = *Generative Engine Optimization* : être lu, compris et **cité** par ChatGPT,
 > Claude, Perplexity, Google AI Overviews / AI Mode, Copilot, Le Chat, Apple Intelligence
 > quand quelqu'un demande « quel avocat en dommage corporel à Marseille ? ».

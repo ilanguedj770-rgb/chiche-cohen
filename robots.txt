@@ -1,6 +1,5 @@
 # robots.txt — ig-avocat.com
-# Cabinet Chiche Cohen & Associés — Maître Ilan Guedj
-# Avocat en dommage corporel, barreau de Marseille
+# Maître Ilan Guedj — Avocat en dommage corporel, barreau de Marseille
 #
 # Politique : accès TOTAL et explicite accordé aux robots d'indexation et aux
 # robots des moteurs de réponse génératifs (GEO). Nous voulons que le contenu

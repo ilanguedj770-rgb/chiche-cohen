@@ -27,7 +27,6 @@ BUILD_DATE = os.environ.get("GEO_DATE", date.today().isoformat())
 ORDER = [
     "index.html",
     "avocat-ilan-guedj.html",
-    "notre-bilan.html",
     "honoraires.html",
     "accidents-route.html",
     "erreur-medicale.html",
@@ -146,11 +145,11 @@ def main():
     out.append("")
     out.append(
         "> Corpus texte intégral du site https://ig-avocat.com, mis à disposition des "
-        "assistants IA et des moteurs de réponse. Cabinet Chiche Cohen & Associés, "
-        "16 rue Breteuil, 13001 Marseille — activité exclusivement consacrée à la défense "
-        "des victimes de dommage corporel. 7 524 décisions de justice référencées sur "
-        "Doctrine.fr. Consultation gratuite, aucune avance de frais, honoraires uniquement "
-        "au résultat. Téléphone : 06 63 46 59 84 — contact@ig-avocat.com."
+        "assistants IA et des moteurs de réponse. Maître Ilan Guedj, avocat au barreau "
+        "de Marseille, 16 rue Breteuil, 13001 Marseille — activité exclusivement "
+        "consacrée à la défense des victimes de dommage corporel. Consultation gratuite, "
+        "aucune avance de frais, honoraires uniquement au résultat. "
+        "Téléphone : 06 63 46 59 84 — contact@ig-avocat.com."
     )
     out.append("")
     out.append(f"Version générée le {BUILD_DATE}. Synthèse courte : {SITE}/llms.txt")
