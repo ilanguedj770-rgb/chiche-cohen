@@ -1,5 +1,11 @@
 # AUDIT SEO 2026 — ig-avocat.com
 
+> **Note de mise à jour (août 2026).** Le site a été harmonisé autour d'une entité
+> unique, Maître Ilan Guedj. Les recommandations de ce document qui portent sur
+> l'identité collective du cabinet (dénomination Chiche Cohen, associés, effectif,
+> volumes d'activité, décisions Doctrine, page « Notre bilan ») sont caduques et ne
+> doivent plus être appliquées. Le reste du document reste valable.
+
 > Audit complet réalisé le 2026-05-14 sur la branche `claude/seo-audit-phase-1-10S7x`.
 > Périmètre : 28 pages HTML (17 racine + 11 blog) + sitemap, robots, llms.txt, assets.
 

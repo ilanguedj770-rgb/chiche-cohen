@@ -22,7 +22,6 @@
 /agression                    /agression.html                    200
 /honoraires                   /honoraires.html                   200
 /contact                      /contact.html                      200
-/notre-bilan                  /notre-bilan.html                  200
 /mentions-legales             /mentions-legales.html             200
 /guide-5-erreurs              /guide-5-erreurs.html              200
 /avocat-aix-en-provence       /avocat-aix-en-provence.html       200
@@ -41,7 +40,6 @@
 /agressions.html          /agression           301!
 /honoraires.html          /honoraires          301!
 /contact.html             /contact             301!
-/notre-bilan.html         /notre-bilan         301!
 /mentions-legales.html    /mentions-legales    301!
 /guide-5-erreurs.html     /guide-5-erreurs     301!
 
@@ -79,7 +77,6 @@
 /contact/                 /contact             301!
 /honoraires/              /honoraires          301!
 /mentions-legales/        /mentions-legales    301!
-/notre-bilan/             /notre-bilan         301!
 /accidents-route/         /accidents-route     301!
 /accidents-vie/           /accidents-vie       301!
 /erreur-medicale/         /erreur-medicale     301!
@@ -92,6 +89,12 @@
 /avocat-montpellier/      /avocat-montpellier  301!
 /avocat-nimes/            /avocat-nimes        301!
 /avocat-ilan-guedj/       /avocat-ilan-guedj   301!
+
+# 4 bis. Page « Notre bilan » retirée : le contenu d'autorité est porté par
+# la page d'entité de l'avocat.
+/notre-bilan              /avocat-ilan-guedj   301!
+/notre-bilan/             /avocat-ilan-guedj   301!
+/notre-bilan.html         /avocat-ilan-guedj   301!
 
 # === 5. Redirections legacy WordPress (conservées) ===
 /accidents-de-la-vie/                 /accidents-vie         301
