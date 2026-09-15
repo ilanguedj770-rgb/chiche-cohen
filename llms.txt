@@ -14,7 +14,7 @@ Chaque page du site commence par un bloc « En bref » (classe `geo-answer`) : u
 - Téléphone : 06 63 46 59 84
 - Email : contact@ig-avocat.com
 - Adresse professionnelle : 16 rue Breteuil, 13001 Marseille
-- Langues : français, anglais, hébreu
+- Langues : français et anglais
 - Annuaire officiel des avocats : https://consultation.avocat.fr/avocat-marseille/ilan-guedj-53358.html
 - Predictice : https://predictice.com/cabinet/cabinet-ilan-guedj-922092382
 
