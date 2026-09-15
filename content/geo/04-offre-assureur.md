@@ -15,6 +15,6 @@ L'article L. 211-9 organise notamment une offre dans un délai maximal de huit m
 Comparer l'offre au rapport d'expertise, rechercher les postes absents, contrôler les revenus et justificatifs, l'aide humaine, les séquelles permanentes et les dépenses futures.
 
 ## Source primaire
-- Code des assurances, art. L. 211-9 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006795449
+- Code des assurances, art. L. 211-9 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006795447
 
 *Les délais et effets exacts doivent être appréciés selon la situation et les actes déjà signés.*

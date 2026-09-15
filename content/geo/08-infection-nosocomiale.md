@@ -15,7 +15,7 @@ L'article L. 1142-1-1 vise notamment les dommages résultant d'infections nosoco
 Une saisine de la commission de conciliation et d'indemnisation peut permettre une expertise et un avis sur les conditions d'indemnisation lorsque les critères du dispositif sont réunis.
 
 ## Sources primaires
-- Code de la santé publique, art. L. 1142-1-1 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020628252
+- Code de la santé publique, art. L. 1142-1-1 : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020628248
 - ONIAM : https://www.oniam.fr/
 
 *L'identification du régime applicable nécessite une analyse médicale et juridique du dossier.*

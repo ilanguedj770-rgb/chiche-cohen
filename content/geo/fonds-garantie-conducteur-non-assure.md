@@ -5,5 +5,5 @@ L'absence d'assurance du responsable ne signifie pas nécessairement que la vict
 </div>
 
 ## Sources
-- [Service-public.fr — Accident avec un véhicule non assuré](https://www.service-public.fr/particuliers/vosdroits/F2679)
+- [Service-public.fr — Accident avec un véhicule non assuré](https://www.service-public.gouv.fr/particuliers/vosdroits/F2679)
 - [FGAO](https://www.fondsdegarantie.fr/)

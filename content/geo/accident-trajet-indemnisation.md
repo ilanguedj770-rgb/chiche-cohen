@@ -5,4 +5,4 @@ Un accident survenu pendant certains trajets liés au travail peut être reconnu
 </div>
 
 ## Sources
-- [Code de la sécurité sociale, article L. 411-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006736189)
+- [Code de la sécurité sociale, article L. 411-2](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006743008)

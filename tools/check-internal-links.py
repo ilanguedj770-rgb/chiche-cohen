@@ -11,5 +11,6 @@ for p in list(ROOT.glob('*.html'))+list((ROOT/'blog').glob('*.html')):
   else:
    target=ROOT/(x+'.html')
    if not target.exists(): target=ROOT/x/'index.html'
+   if not target.exists() and (ROOT/x).is_file(): target=ROOT/x
   if not target.exists() and not x.startswith(('img/','css/','js/','fonts/','llms','sitemap','robots')): errors.append(f'{p.relative_to(ROOT)} -> {href}')
 print('\n'.join(errors) if errors else 'Liens internes: OK'); sys.exit(bool(errors))

@@ -10,7 +10,7 @@
 > Claude, Perplexity, Google AI Overviews / AI Mode, Copilot, Le Chat, Apple Intelligence
 > quand quelqu'un demande « quel avocat en dommage corporel à Marseille ? ».
 >
-> Dernière mise à jour : 27 août 2026.
+> Dernière mise à jour : 15 septembre 2026 (voir la section 5, qui prime sur le reste en cas de contradiction).
 
 Un moteur de réponse ne « classe » pas des pages : il construit une **entité** (une fiche
 mentale sur vous), la corrobore avec des **sources tierces**, puis reprend des **passages
@@ -219,3 +219,128 @@ Tout ce qui précède reste soumis au Règlement Intérieur National :
 
 Les formulations de la page `/avocat-ilan-guedj`, de `llms.txt` et du graphe schema.org
 n'affirment que des faits vérifiables par un tiers.
+
+
+---
+
+## 5. Mise à jour du 15 septembre 2026 — état de l'art et actions
+
+Sources consultées ce jour : guide officiel Google « Optimizing your website for generative AI features »
+(mai 2026), documentation des robots OpenAI, Anthropic, Perplexity, Mistral, Apple, Meta et Amazon,
+lignes directrices Bing (février 2026), étude Ahrefs sur la fraîcheur (17 M de citations), étude
+Ahrefs sur 1,4 M de requêtes ChatGPT, étude Ahrefs sur `llms.txt` (137 000 domaines), étude Semrush
+sur les domaines les plus cités, étude Steady Demand sur les citations locales d'AI Mode, article
+Princeton GEO (KDD 2024), Observatoire Seenby / Village de la Justice (mars 2026), vade-mecum
+communication du CNB (2023). Liens en fin de section.
+
+### 5.1 Ce que disent les données en 2026
+
+| Constat | Conséquence pour le site |
+|---|---|
+| ChatGPT Search et Copilot s'appuient sur l'index **Bing** ; Claude et Le Chat sur **Brave** ; Gemini, AI Overviews et AI Mode sur Google. | Être dans Google ne suffit pas. Bing Webmaster Tools + IndexNow sont indispensables. |
+| Bing : `noarchive` retire le contenu des réponses Copilot ; `nocache` limite Copilot à l'URL, au titre et à l'extrait. Amazon utilise `noarchive` comme refus d'entraînement. | Aucune de ces directives sur le site. Toutes les pages déclarent `max-snippet:-1`. L'audit l'impose. |
+| Les pages citées par les IA sont **plus récentes** que les résultats classiques (Ahrefs) ; ChatGPT est le plus sensible à la fraîcheur. Google avertit contre les dates changées sans contenu changé. | Dates réelles partout (git + JSON-LD), visibles sur les articles, jamais rafraîchies artificiellement. |
+| Statistiques sourcées, citations et références (+30 à 40 % de visibilité, Princeton GEO). Titre proche de la question posée ; une page par sous-question ; longueur sans effet. | Blocs « En bref » factuels avec articles de loi ; lexique une notion par entrée ; titres en forme de question. |
+| `llms.txt` : 97 % des fichiers ne reçoivent aucune requête ; Google l'ignore. | Conservé (aucun coût), mais aucun effort supplémentaire à y consacrer. |
+| Résultats enrichis FAQ supprimés par Google (mai 2026) ; `Speakable` limité à l'anglais américain ; `Attorney` déprécié par schema.org au profit de `LegalService`. | Type `LegalService` (avec `additionalType: Attorney`) ; pas de `speakable`. Les FAQ existantes restent (texte visible identique). |
+| Google : les avis auto-hébergés sont inéligibles aux étoiles ; le CNB interdit les témoignages sur le site de l'avocat. | Toujours pas d'`aggregateRating`. Les avis vivent sur la fiche Google. |
+| Pour les requêtes locales, AI Mode cite la **fiche Google (Maps)** dans 80 % des cas et le site de l'entreprise dans 13 % ; les sources tierces pèsent environ quatre fois plus que le site en droit (Semrush). 82 % des cabinets francophones sont invisibles pour ChatGPT / Perplexity / Gemini (Seenby). | Le gain principal reste hors site : voir 5.3. |
+
+### 5.2 Ce qui a été fait dans le dépôt (septembre 2026)
+
+- **Réponses citables** : les blocs `geo-answer` de l'accueil, des quatre pages de domaine et des honoraires
+  n'enveloppaient qu'un slogan. Chaque page porte désormais un encadré « En bref » : réponse autonome,
+  textes cités (loi Badinter art. 3 et 4, L. 211-9 et L. 211-10 du code des assurances, L. 1142-1, L. 1142-1-1,
+  D. 1142-1 et L. 1142-28 du code de la santé publique, 706-3 et 706-5 du code de procédure pénale…).
+- **Lexique** `/lexique-dommage-corporel` : 31 définitions (`DefinedTermSet` / `DefinedTerm`), chacune avec ses
+  sources et ses liens vers les guides. Généré par `tools/build-lexique.py` à partir de `content/geo/*.md`.
+  Lié depuis tous les pieds de page, l'index du blog, `llms.txt`, le sitemap et le corpus.
+- **Dates vraies** : `tools/sitedates.py` calcule la date de dernière modification du *contenu* (hors `<head>`
+  et hors balisage de date) à partir de l'historique git, ou reprend celle de l'Article JSON-LD. Elle alimente
+  le `lastmod` du sitemap, `dateModified` / `datePublished` du graphe et la date visible
+  `<time datetime>` des articles (`tools/blog-dates.py`).
+- **Bing / Copilot / ChatGPT Search** : clé IndexNow à la racine, `tools/indexnow.py` et un workflow GitHub
+  qui soumet les URL modifiées à chaque publication sur `main`.
+- **Flux RSS** `/feed.xml` (`tools/build-feed.py`), déclaré sur toutes les pages.
+- **En-têtes Netlify** `_headers` : cache long des polices, jeu de caractères explicite sur `llms.txt`,
+  `llms-full.txt`, `feed.xml`, `sitemap.xml` ; aucune directive restrictive.
+- **Meta robots** `index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1` sur toutes
+  les pages indexables (injectée par `tools/geo-inject.py`).
+- **robots.txt** : ajout de `MistralAI-Index`, `MistralAI-Training`, `Amzn-SearchBot`, `Amzn-User`,
+  `meta-externalfetcher`, `facebookexternalhit`, `DeepSeekBot`.
+- **Graphe** : type `LegalService` (+ `additionalType` Attorney), `description` de page, dates réelles.
+- **Liens sources corrigés** : dix-sept fichiers de `content/geo` pointaient vers de mauvais articles
+  Légifrance (identifiants renvoyant vers le code de l'environnement, le code civil ou un texte abrogé) ou
+  vers des pages Service-public disparues. Tous vérifiés et remplacés.
+- **Audit** `tools/geo-audit.py` étendu : directive d'extrait, absence de `noarchive`/`nocache`, type
+  `Attorney`, date visible cohérente avec le JSON-LD, sitemap, flux, clé IndexNow, `_headers`.
+
+Chaîne de build à relancer après toute modification :
+
+```bash
+python3 tools/build-lexique.py   # si content/geo ou les définitions changent
+python3 tools/footer-links.py    # si une nouvelle page d'entité est créée
+python3 tools/geo-build.py       # injection, dates, sitemap, flux, corpus, audit, liens
+npm run build:css                # si une classe Tailwind nouvelle est utilisée
+```
+
+### 5.3 À faire hors du dépôt, par ordre de rendement
+
+1. **Bing Webmaster Tools** (https://www.bing.com/webmasters) : importer la propriété depuis Search Console,
+   soumettre `https://ig-avocat.com/sitemap.xml`, vérifier que la clé IndexNow est reconnue, puis suivre le
+   rapport « AI Performance » (citations Copilot). C'est l'index de ChatGPT Search.
+2. **Bing Places** (https://www.bingplaces.com) : fiche identique à la fiche Google (nom, 16 rue Breteuil
+   13001, 06 63 46 59 84, site). Copilot s'en sert pour les requêtes locales.
+3. **Fiche d'établissement Google** : catégorie « Avocat spécialisé en dommages corporels », description
+   reprenant mot pour mot le « En bref » de `/avocat-ilan-guedj`, services, questions-réponses remplies,
+   lien vers `https://ig-avocat.com/`, photos, réponses aux avis. Aucune sollicitation personnalisée d'avis
+   (vade-mecum CNB), mais rien n'interdit d'indiquer où en laisser un.
+4. **Cohérence des annuaires** : annuaire officiel des avocats (avocat.fr), Barreau de Marseille, Justifit,
+   Doctrine, PagesJaunes — même nom, même adresse (13001, pas 13006), même téléphone, même formulation
+   d'activité que `llms.txt`.
+5. **Mentions tierces** : LinkedIn (profil de Maître Guedj avec le lien du site, puis ajout de l'URL dans
+   `SAME_AS` de `tools/geo-inject.py`), un article signé sur Village de la Justice, YouTube (courtes vidéos
+   « qu'est-ce que le DFP ? » reprenant les définitions du lexique). Les mentions de marque prédisent la
+   visibilité IA davantage que les liens.
+6. **Search Console** : rapport « Performances dans l'IA générative » (mondial depuis le 31 août 2026) — ne
+   pas activer le nouvel interrupteur d'exclusion. Les identifiants du compte de service ne sont pas dans
+   ce dépôt (voir `SETUP-GSC-MCP.md`).
+7. **Test mensuel** dans ChatGPT, Perplexity, Gemini, Claude, Le Chat et Copilot : « avocat dommage corporel
+   Marseille », « que sais-tu de Maître Ilan Guedj ? », « combien vaut 10 % de DFP ? ». Noter cité / non
+   cité, la source citée et la formulation retenue.
+
+### 5.4 À ne pas faire
+
+- `noarchive`, `nocache`, `noai`, `noimageai`, `nosnippet` : retirent le contenu de Copilot, Alexa, AI Overviews.
+- Changer les dates sans changer le contenu (Google l'ignore, puis se méfie).
+- `aggregateRating` ou témoignages sur le site (inéligible chez Google, interdit par le CNB).
+- Fragmenter les pages en miettes ou gonfler leur longueur : aucun effet mesuré.
+- Du temps supplémentaire sur `llms.txt` / fichiers Markdown : aucun moteur ne les lit en production.
+
+### 5.5 Sources
+
+- Google, Optimizing your website for generative AI features : https://developers.google.com/search/docs/fundamentals/ai-optimization-guide
+- Google, AI features and your website : https://developers.google.com/search/docs/appearance/ai-features
+- Google, robots meta (`max-snippet`, `nosnippet`) : https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag
+- Google, rapport « Generative AI performance » : https://developers.google.com/search/blog/2026/06/gen-ai-performance-reports
+- OpenAI, robots : https://developers.openai.com/api/docs/bots
+- Anthropic, robots : https://support.claude.com/en/articles/8896518-does-anthropic-crawl-data-from-the-web-and-how-can-site-owners-block-the-crawler
+- Perplexity, robots : https://docs.perplexity.ai/docs/resources/perplexity-crawlers
+- Mistral, robots : https://docs.mistral.ai/robots
+- Apple, Applebot : https://support.apple.com/en-us/119829
+- Meta, crawlers : https://developers.facebook.com/docs/sharing/webmasters/crawler
+- Amazon, Amazonbot : https://developer.amazon.com/amazonbot
+- Bing, lignes directrices (GEO, NOARCHIVE/NOCACHE) : https://www.searchenginejournal.com/bing-adds-geo-to-official-guidelines-expands-ai-abuse-definitions/568442/
+- Bing, AI Performance : https://blogs.bing.com/webmaster/february-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools
+- IndexNow : https://www.indexnow.org/documentation
+- schema.org, Attorney (déprécié) : https://schema.org/Attorney — LegalService : https://schema.org/LegalService
+- Google, review snippet (avis auto-hébergés) : https://developers.google.com/search/docs/appearance/structured-data/review-snippet
+- Ahrefs, fraîcheur des pages citées : https://ahrefs.com/blog/do-ai-assistants-prefer-to-cite-fresh-content
+- Ahrefs, pourquoi ChatGPT cite une page : https://ahrefs.com/blog/why-chatgpt-cites-pages/
+- Ahrefs, étude llms.txt : https://ahrefs.com/blog/llmstxt-study/
+- Semrush, domaines les plus cités : https://www.semrush.com/blog/most-cited-domains-ai/
+- Steady Demand, citations locales AI Overviews / AI Mode : https://www.steadydemand.com/ai-overviews-and-ai-mode-both-cite-local-businesses-in-almost-opposite-ways-ai-optimization-is-different-for-each/
+- Princeton, GEO (KDD 2024) : https://arxiv.org/abs/2311.09735
+- Vercel, The rise of the AI crawler (aucun robot IA n'exécute JavaScript) : https://vercel.com/blog/the-rise-of-the-ai-crawler
+- Village de la Justice / Seenby, invisibilité des cabinets : https://www.village-justice.com/articles/invisibilite-pourquoi-des-cabinets-avocats-existent-pas-pour-chatgptle-moteur,56773.html
+- CNB, vade-mecum communication des avocats (2023) : https://cnb.avocat.fr/medias/cnb-vademecum-communication-des-avocats-2023-68f7815619c912.87094910.pdf

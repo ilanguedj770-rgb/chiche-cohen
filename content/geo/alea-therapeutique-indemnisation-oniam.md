@@ -5,4 +5,4 @@ Un dommage médical peut, dans certaines conditions, être indemnisé au titre d
 </div>
 
 ## Sources
-- [Code de la santé publique, article L. 1142-1 II](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051830482)
+- [Code de la santé publique, article L. 1142-1 II](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020628252)

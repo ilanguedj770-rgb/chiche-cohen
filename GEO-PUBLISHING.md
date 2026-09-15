@@ -6,11 +6,12 @@ Les contenus validés sont conservés dans `content/geo/*.md`. Le script `tools/
 
 ```bash
 python tools/publish-geo-content.py
-python tools/geo-inject.py
-python tools/build-sitemap.py
-python tools/build-llms-full.py
-python tools/geo-audit.py
+python tools/build-lexique.py      # lexique généré à partir des définitions de content/geo
+python tools/footer-links.py       # liens de pied de page vers les pages d'entité
+python tools/geo-build.py          # injection, dates réelles, sitemap, feed.xml, corpus, audit, liens
 ```
+
+Les dates (`lastmod`, `dateModified`, date visible) sont calculées par `tools/sitedates.py` à partir de l'historique git ou de l'Article JSON-LD : ne jamais les forcer à la main. Après fusion sur `main`, le workflow IndexNow soumet les URL modifiées à Bing.
 
 Les pages générées doivent être relues avant déploiement. Ne jamais publier un montant, une jurisprudence ou une règle dont la source n'a pas été vérifiée. Le générateur ne remplace pas la validation juridique.
 

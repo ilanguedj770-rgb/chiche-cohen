@@ -5,5 +5,5 @@ La CCI et l'ONIAM n'ont pas la même fonction. La Commission de conciliation et 
 </div>
 
 ## Sources
-- [Code de la santé publique, article L. 1142-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051830482)
+- [Code de la santé publique, article L. 1142-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000020628252)
 - [ONIAM](https://www.oniam.fr/)

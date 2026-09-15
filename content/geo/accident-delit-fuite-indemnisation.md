@@ -5,4 +5,4 @@ Le fait que le responsable d'un accident prenne la fuite ou demeure inconnu n'em
 </div>
 
 ## Sources
-- [FGAO — victimes d'accidents de la circulation](https://www.fondsdegarantie.fr/victime-dun-accident-de-la-circulation/)
+- [FGAO — victimes d'accidents de la circulation](https://www.fondsdegarantie.fr/)

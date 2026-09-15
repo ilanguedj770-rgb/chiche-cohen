@@ -10,7 +10,9 @@ import json
 import os
 import re
 import sys
-from datetime import date
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from sitedates import page_dates  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SITE = "https://ig-avocat.com"
@@ -20,7 +22,12 @@ WEBSITE_ID = f"{SITE}/#website"
 START = "<!-- GEO:ENTITY-GRAPH:START -->"
 END = "<!-- GEO:ENTITY-GRAPH:END -->"
 LEGACY = re.compile(r"<!-- GEO:ENTITY-GRAPH:START.*?GEO:ENTITY-GRAPH:END -->\n?", re.S)
-LAST_MODIFIED = os.environ.get("GEO_DATE", date.today().isoformat())
+# Directives d'extrait : sans limite de longueur, les moteurs (Google AI
+# Overviews / AI Mode, Bing/Copilot) peuvent reprendre un passage complet.
+ROBOTS_META = ('<meta name="robots" content="index, follow, max-snippet:-1, '
+               'max-image-preview:large, max-video-preview:-1">')
+FEED_LINK = ('<link rel="alternate" type="application/rss+xml" '
+             'title="Guides de Maître Ilan Guedj — flux RSS" href="/feed.xml">')
 
 ADDRESS = {
     "@type": "PostalAddress",
@@ -124,7 +131,10 @@ def person():
 
 def practice():
     return {
-        "@type": ["Attorney", "LegalService"],
+        # schema.org marque Attorney comme déprécié au profit de LegalService ;
+        # l'ancien type reste déclaré en additionalType pour la continuité.
+        "@type": "LegalService",
+        "additionalType": "https://schema.org/Attorney",
         "@id": PRACTICE_ID,
         "name": "Maître Ilan Guedj — Avocat en dommage corporel",
         "alternateName": ["Cabinet Ilan Guedj", "Ilan Guedj Avocat"],
@@ -189,6 +199,7 @@ def process(path):
     canonical = get(r'<link[^>]+rel="canonical"[^>]+href="([^"]+)"', src)
     if not canonical:
         return False
+    published, modified = page_dates(path, src)
     page = {
         "@type": "WebPage",
         "@id": canonical + "#webpage",
@@ -199,10 +210,18 @@ def process(path):
         "publisher": {"@id": PERSON_ID},
         "reviewedBy": {"@id": PERSON_ID},
         "inLanguage": "fr-FR",
-        "dateModified": LAST_MODIFIED,
+        "dateModified": modified,
     }
+    description = get(r'<meta[^>]+name="description"[^>]+content="([^"]*)"', src)
+    if description:
+        page["description"] = description
     if rel.startswith("blog/"):
         page["author"] = {"@id": PERSON_ID}
+        page["datePublished"] = published
+    if 'name="robots"' not in src:
+        src = src.replace("</head>", ROBOTS_META + "\n</head>", 1)
+    if 'type="application/rss+xml"' not in src:
+        src = src.replace("</head>", FEED_LINK + "\n</head>", 1)
     graph = {"@context": "https://schema.org",
              "@graph": [website(), practice(), person(), page]}
     block = (f"{START}\n<script type=\"application/ld+json\">\n"

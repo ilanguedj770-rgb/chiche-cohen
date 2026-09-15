@@ -15,7 +15,7 @@ L'analyse porte sur les conditions légales du dispositif. Il ne faut donc pas a
 Rassembler plainte et procédure disponible, pièces médicales, justificatifs économiques et éléments permettant de chiffrer chaque préjudice.
 
 ## Sources primaires
-- Code de procédure pénale, art. 706-3 et suivants : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047052585
-- Service-Public, indemnisation d'une victime d'infraction : https://www.service-public.fr/particuliers/vosdroits/F2313
+- Code de procédure pénale, art. 706-3 et suivants : https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038312693
+- Service-Public, indemnisation d'une victime d'infraction : https://www.service-public.gouv.fr/particuliers/vosdroits/F2313
 
 *Les conditions et délais varient selon la nature du dommage et la situation procédurale.*

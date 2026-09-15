@@ -5,4 +5,4 @@ Lorsqu'un motard conduit sa moto au moment de l'accident, il est une victime con
 </div>
 
 ## Sources
-- [Loi n° 85-677 du 5 juillet 1985, article 4](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006839471)
+- [Loi n° 85-677 du 5 juillet 1985, article 4](https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006839431)

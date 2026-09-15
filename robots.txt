@@ -10,6 +10,8 @@
 #   https://ig-avocat.com/llms.txt        (synthèse structurée du cabinet)
 #   https://ig-avocat.com/llms-full.txt   (corpus complet du site en texte)
 #   https://ig-avocat.com/avocat-ilan-guedj (page d'identité de l'avocat)
+#   https://ig-avocat.com/lexique-dommage-corporel (définitions, une par notion)
+#   https://ig-avocat.com/feed.xml     (flux RSS des guides)
 
 # ═══════════════════════════════════════════════════════════
 # Règle générale
@@ -88,17 +90,29 @@ User-agent: meta-externalagent
 Allow: /
 User-agent: Meta-ExternalAgent
 Allow: /
+User-agent: meta-externalfetcher
+Allow: /
 User-agent: Meta-ExternalFetcher
+Allow: /
+User-agent: facebookexternalhit
 Allow: /
 User-agent: FacebookBot
 Allow: /
 
-# Amazon — Alexa / Rufus
+# Amazon — Alexa / Rufus (recherche, consultation à la demande, entraînement)
 User-agent: Amazonbot
 Allow: /
+User-agent: Amzn-SearchBot
+Allow: /
+User-agent: Amzn-User
+Allow: /
 
-# Mistral AI — Le Chat
+# Mistral AI — Le Chat (index de recherche, consultation à la demande, entraînement)
+User-agent: MistralAI-Index
+Allow: /
 User-agent: MistralAI-User
+Allow: /
+User-agent: MistralAI-Training
 Allow: /
 
 # DuckDuckGo — DuckAssist
@@ -125,6 +139,10 @@ Allow: /
 User-agent: PanguBot
 Allow: /
 
+# DeepSeek
+User-agent: DeepSeekBot
+Allow: /
+
 # Allen Institute for AI
 User-agent: AI2Bot
 Allow: /
@@ -141,5 +159,10 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+# ═══════════════════════════════════════════════════════════
+# Politique d'extrait : aucune directive noarchive / nocache / nosnippet
+# n'est posée sur le site (elles retirent le contenu des réponses Copilot,
+# Alexa et des AI Overviews). Les pages déclarent max-snippet:-1.
+# xAI (Grok) ne publie pas d'agent identifiable : rien à autoriser.
 # ═══════════════════════════════════════════════════════════
 Sitemap: https://ig-avocat.com/sitemap.xml
