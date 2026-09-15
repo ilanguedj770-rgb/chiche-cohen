@@ -31,6 +31,7 @@
 /avocat-montpellier           /avocat-montpellier.html           200
 /avocat-nimes                 /avocat-nimes.html                 200
 /avocat-ilan-guedj            /avocat-ilan-guedj.html            200
+/lexique-dommage-corporel     /lexique-dommage-corporel.html     200
 
 # 1. Suppression des extensions .html — pages principales
 /accidents-route.html     /accidents-route     301!
@@ -51,6 +52,7 @@
 /avocat-montpellier.html       /avocat-montpellier       301!
 /avocat-nimes.html             /avocat-nimes             301!
 /avocat-ilan-guedj.html        /avocat-ilan-guedj        301!
+/lexique-dommage-corporel.html /lexique-dommage-corporel 301!
 
 # Articles blog (.html → propre)
 /blog/erreur-medicale-droits-victime.html         /blog/erreur-medicale-droits-victime         301!

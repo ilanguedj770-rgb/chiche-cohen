@@ -15,6 +15,6 @@ L'article 4 prévoit que la faute commise par le conducteur du véhicule terrest
 Elle relève du contrat. Son existence et son étendue ne doivent jamais être supposées : les conditions particulières et générales doivent être lues.
 
 ## Source primaire
-- Loi n° 85-677 du 5 juillet 1985, art. 4 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006839401
+- Loi n° 85-677 du 5 juillet 1985, art. 4 : https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000006839431
 
 *La notion de responsabilité utilisée par l'assureur ne suffit pas toujours à déterminer à elle seule tous les droits à indemnisation.*

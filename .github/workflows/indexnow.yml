@@ -1,0 +1,40 @@
+name: IndexNow
+
+# Signale à Bing (et par lui à Copilot et ChatGPT Search, qui s'appuient sur
+# l'index Bing), Yandex, Naver et Seznam les URL modifiées à chaque mise en
+# production. Le protocole IndexNow est public : la clé n'est pas un secret.
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.html'
+      - 'sitemap.xml'
+      - 'llms.txt'
+      - 'llms-full.txt'
+      - 'feed.xml'
+  workflow_dispatch:
+    inputs:
+      all:
+        description: 'Soumettre toutes les URL du sitemap'
+        type: boolean
+        default: false
+
+jobs:
+  submit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Laisser le temps à Netlify de publier
+        run: sleep 120
+      - name: Soumettre les URL modifiées
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.all }}" = "true" ]; then
+            python tools/indexnow.py --all
+          else
+            python tools/indexnow.py --since "${{ github.event.before || 'HEAD~1' }}"
+          fi

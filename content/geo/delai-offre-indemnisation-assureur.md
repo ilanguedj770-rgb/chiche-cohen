@@ -5,4 +5,4 @@ En matière d'accident de la circulation relevant du régime légal, l'article L
 </div>
 
 ## Sources
-- [Code des assurances, article L. 211-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038310862)
+- [Code des assurances, article L. 211-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006795447)

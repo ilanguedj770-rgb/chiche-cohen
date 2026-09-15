@@ -5,4 +5,4 @@ L'expertise amiable est organisée hors décision judiciaire, souvent dans le ca
 </div>
 
 ## Sources
-- [Service-public.fr — Expertise judiciaire](https://www.service-public.fr/particuliers/vosdroits/F35256)
+- [Code de procédure civile, articles 263 à 284-1 (l'expertise)](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006070716/LEGISCTA000006165192/)

@@ -5,4 +5,4 @@ Oui. Une victime n'a pas nécessairement à attendre la consolidation et le règ
 </div>
 
 ## Sources
-- [Code des assurances, article L. 211-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038310862)
+- [Code des assurances, article L. 211-9](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006795447)

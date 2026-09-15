@@ -2,7 +2,7 @@
 
 > Corpus texte intégral du site https://ig-avocat.com, mis à disposition des assistants IA et des moteurs de réponse. Maître Ilan Guedj, avocat au barreau de Marseille, 16 rue Breteuil, 13001 Marseille — activité exclusivement consacrée à la défense des victimes de dommage corporel. Consultation gratuite, aucune avance de frais, honoraires uniquement au résultat. Téléphone : 06 63 46 59 84 — contact@ig-avocat.com.
 
-Version générée le 2026-08-27. Synthèse courte : https://ig-avocat.com/llms.txt
+Version générée le 2026-09-15. Synthèse courte : https://ig-avocat.com/llms.txt
 
 ---
 
@@ -16,7 +16,7 @@ URL : https://ig-avocat.com/
 Avocat inscrit au barreau de Marseille
 Votre préjudice.
 # Notre combat.
-Maître Ilan Guedj vous défend partout en France pour obtenir votre juste indemnisation. 0 € d'avance. Premier rendez-vous gratuit.
+Maître Ilan Guedj est avocat au barreau de Marseille, 16 rue Breteuil. Son activité est consacrée exclusivement à l'indemnisation des victimes de dommage corporel : accidents de la circulation (loi Badinter), erreurs médicales (CCI, ONIAM), agressions (CIVI, FGTI) et accidents de la vie (GAV). Il n'intervient jamais pour un assureur. Première consultation gratuite, 0 € d'avance, honoraires au résultat fixés par convention écrite. Il intervient à Marseille, Aix-en-Provence, Toulon, Nice, Avignon, Nîmes, Montpellier et partout en France.
 Estimer mon indemnisation 06 63 46 59 84
 Intervention Nationale — Déplacement à l'hôpital
 Maître Ilan Guedj
@@ -332,7 +332,7 @@ URL : https://ig-avocat.com/honoraires
 
 Une rémunération transparente,
 # liée à votre succès.
-Zéro avance d'honoraires grâce à votre protection juridique. Nous ne sommes payés que lorsque vous êtes indemnisé.
+Maître Ilan Guedj est rémunéré au résultat : un honoraire de 10 à 20 % HT des sommes obtenues, fixé par une convention d'honoraires écrite avant toute intervention. Aucune avance de frais : l'honoraire fixe de dossier est pris en charge par votre protection juridique lorsque vous en disposez, et limité à son plafond. La première consultation est gratuite. Si aucune indemnisation n'est obtenue, aucun honoraire de résultat n'est dû.
 ### Prise en charge immédiate
 Nous activons votre Protection Juridique pour couvrir l'honoraire fixe de dossier. Vous n'avez rien à avancer.
 ### Zéro reste à charge
@@ -392,6 +392,8 @@ Accident de la
 # Circulation.
 Motards, piétons, cyclistes, passagers, conducteurs. Polytraumatismes, traumatisme crânien, séquelles à vie. Nous défendons l'indemnisation maximale.
 Avocat au Barreau de Marseille — intervention dans toute la France (déplacement ou visioconférence). Maîtrise de la nomenclature Dintilhac et des grands postes : tierce personne, frais futurs, perte de gains professionnels futurs.
+En bref
+Toute victime d'un accident de la circulation impliquant un véhicule terrestre à moteur est indemnisée selon la loi Badinter du 5 juillet 1985. Les piétons, cyclistes et passagers sont indemnisés intégralement, sauf faute inexcusable ayant été la cause exclusive de l'accident (article 3) ; la faute du conducteur, que l'assureur doit prouver, ne peut que limiter ou exclure sa propre indemnisation (article 4). L'assureur doit présenter une offre dans les huit mois de l'accident et une offre définitive dans les cinq mois suivant la consolidation (article L. 211-9 du code des assurances), et la victime peut se faire assister d'un médecin de son choix à l'expertise (article L. 211-10). Maître Ilan Guedj, avocat au barreau de Marseille, assiste les victimes de l'expertise médicale jusqu'à la liquidation de chaque poste de la nomenclature Dintilhac, sans avance de frais.
 100%
 Exercice exclusif
 Uniquement le dommage corporel
@@ -563,6 +565,8 @@ Erreur
 # Médicale.
 Infections, aléas, fautes. La médecine a ses limites, vos droits non.
 Avocat au Barreau de Marseille — intervention dans toute la France (déplacement ou visioconférence)
+En bref
+Un accident médical ouvre droit à indemnisation dans deux cas. En présence d'une faute du professionnel ou de l'établissement de santé, la réparation est intégrale (article L. 1142-1, I du code de la santé publique). Sans faute, l'aléa thérapeutique est indemnisé par l'ONIAM au titre de la solidarité nationale lorsqu'il atteint un seuil de gravité : notamment un déficit fonctionnel permanent supérieur à 24 % ou un arrêt d'activité de six mois consécutifs (articles L. 1142-1, II et D. 1142-1). Les infections nosocomiales engagent la responsabilité de l'établissement sans faute à prouver, l'ONIAM prenant le relais au-delà de 25 % de déficit ou en cas de décès (article L. 1142-1-1). La victime peut saisir gratuitement la Commission de conciliation et d'indemnisation (CCI) ou le tribunal ; l'action se prescrit par dix ans à compter de la consolidation (article L. 1142-28). Maître Ilan Guedj, avocat au barreau de Marseille, accompagne les victimes d'accidents médicaux de l'accès au dossier médical jusqu'à l'indemnisation, sans avance de frais.
 ## Notre intervention
 ### Expertise Médicale
 Face aux experts des hôpitaux et cliniques, nous mandatons des médecins conseils indépendants pour prouver la faute ou l'aléa.
@@ -656,6 +660,8 @@ Agression &
 # Violence.
 Victime d'un acte volontaire ? Nous obtenons réparation, même sans auteur identifié.
 Avocat au Barreau de Marseille — intervention dans toute la France (déplacement ou visioconférence)
+En bref
+Une victime d'agression peut être indemnisée même si l'auteur est inconnu, insolvable ou non condamné, en saisissant la Commission d'indemnisation des victimes d'infractions (CIVI) du tribunal judiciaire ; l'indemnité est versée par le Fonds de garantie des victimes (FGTI). La réparation intégrale est ouverte lorsque les faits ont entraîné la mort, une incapacité permanente ou une incapacité totale de travail d'au moins un mois, ainsi que pour certaines infractions comme le viol ou les agressions sexuelles (article 706-3 du code de procédure pénale). La demande doit être présentée dans les trois ans de l'infraction, délai prolongé jusqu'à un an après la décision pénale définitive (article 706-5). Maître Ilan Guedj, avocat au barreau de Marseille, saisit la CIVI, assiste la victime à l'expertise médicale et chiffre chaque poste de préjudice, sans avance de frais.
 ## Notre intervention
 ### Fonds de Garantie (FGTI)
 Si l'agresseur est insolvable ou inconnu, c'est la solidarité nationale qui paie. Nous montons le dossier pour garantir votre indemnisation.
@@ -745,6 +751,8 @@ Accidents de
 # la Vie.
 Chute, sport, bricolage. Votre contrat GAV est souvent sous-évalué.
 Avocat au Barreau de Marseille — intervention dans toute la France (déplacement ou visioconférence)
+En bref
+Un accident de la vie courante (chute, accident domestique, de sport, de bricolage ou de loisir) survenu sans tiers responsable n'est indemnisé que si la victime dispose d'un contrat Garantie des accidents de la vie (GAV) ou d'une garantie individuelle accident. Ce contrat indemnise selon ses propres conditions : seuil de gravité, plafond de garantie et évaluation des préjudices par un médecin mandaté par l'assureur, que la victime peut contester en se faisant assister d'un médecin-recours et d'un avocat. Lorsqu'un tiers est responsable (propriétaire des lieux, organisateur, établissement, animal), la réparation intégrale est recherchée sur le fondement de la responsabilité civile (articles 1240 et suivants du code civil). Maître Ilan Guedj, avocat au barreau de Marseille, vérifie les garanties mobilisables, discute l'offre de l'assureur et chiffre chaque poste de préjudice, sans avance de frais.
 ## Notre intervention
 ### Analyse du Contrat GAV
 Nous décortiquons les clauses de votre Garantie Accidents de la Vie pour débloquer les plafonds d'indemnisation souvent cachés.
@@ -1437,6 +1445,226 @@ Le matériel de connexion et de navigation utilisée relève de la seule respons
 L’Editeur décline toute responsabilité résultant d’une intrusion frauduleuse d’un tiers ayant entrainé une modification des informations présentées sur le Site.
 WhatsApp Appeler
 
+---
+
+## Lexique du dommage corporel : DFP, DFT, consolidation, CIVI, ONIAM | Maître Ilan Guedj
+URL : https://ig-avocat.com/lexique-dommage-corporel
+
+# Lexique du dommage corporel
+Les notions que vous rencontrerez dans un rapport d'expertise, une offre d'assureur ou un jugement, définies une par une.
+En bref
+En droit français, le dommage corporel est réparé poste par poste selon la nomenclature Dintilhac : préjudices patrimoniaux et extrapatrimoniaux, temporaires (avant la consolidation) et permanents (après). Les principaux postes sont le déficit fonctionnel temporaire, les souffrances endurées, le déficit fonctionnel permanent, l'assistance par tierce personne, les pertes de gains professionnels et l'incidence professionnelle. Aucun barème n'a de valeur obligatoire : chaque poste se prouve et se chiffre à partir de l'expertise médicale et des pièces du dossier. Ce lexique est rédigé par Maître Ilan Guedj, avocat au barreau de Marseille dont l'activité est consacrée exclusivement à l'indemnisation des victimes.
+Accès direct
+- Nomenclature Dintilhac
+- Loi Badinter
+- Consolidation
+- Déficit fonctionnel temporaire (DFT)
+- Déficit fonctionnel permanent (DFP)
+- Souffrances endurées (pretium doloris)
+- Préjudice esthétique
+- Préjudice d'agrément
+- Préjudice sexuel
+- Préjudice d'établissement
+- Assistance par tierce personne
+- Pertes de gains professionnels actuels (PGPA)
+- Pertes de gains professionnels futurs (PGPF)
+- Incidence professionnelle
+- Préjudice scolaire, universitaire ou de formation
+- Frais de logement adapté
+- Frais de véhicule adapté
+- Préjudice d'affection
+- Expertise médicale
+- Médecin-recours (médecin-conseil de victime)
+- Expertise amiable et expertise judiciaire
+- Offre d'indemnisation de l'assureur
+- Provision
+- FGAO (Fonds de garantie des assurances obligatoires de dommages)
+- CIVI (Commission d'indemnisation des victimes d'infractions)
+- FGTI (Fonds de garantie des victimes)
+- CCI et ONIAM
+- Aléa thérapeutique
+- Infection nosocomiale
+- Garantie des accidents de la vie (GAV)
+- Faute inexcusable de l'employeur
+## Le cadre
+### Nomenclature Dintilhac
+La nomenclature dite Dintilhac est un outil de classification des préjudices corporels. Elle organise les différents postes en distinguant notamment préjudices patrimoniaux et extrapatrimoniaux, temporaires et permanents, ainsi que les préjudices de la victime directe et ceux des victimes par ricochet. Elle permet de raisonner poste par poste afin d'éviter qu'une indemnisation globale masque l'oubli d'une conséquence du dommage ou, inversement, qu'une même conséquence soit réparée deux fois. Il ne s'agit pas d'un barème fixant automatiquement la valeur financière d'une blessure : la nomenclature structure l'évaluation, tandis que le montant dépend des éléments du dossier, de l'expertise, des preuves et du cadre juridique applicable.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+Pour aller plus loin
+Comment calculer votre indemnisation
+### Loi Badinter
+La loi n° 85-677 du 5 juillet 1985, dite loi Badinter, organise l'indemnisation des victimes d'accidents de la circulation dans lesquels est impliqué un véhicule terrestre à moteur. Les victimes non conductrices (piétons, cyclistes, passagers) sont indemnisées de leurs dommages corporels sans que leur faute puisse leur être opposée, sauf faute inexcusable ayant été la cause exclusive de l'accident (article 3) ; la faute du conducteur peut limiter ou exclure sa propre indemnisation (article 4). La loi impose aussi à l'assureur une procédure d'offre encadrée par des délais (articles L. 211-9 et suivants du code des assurances).
+Sources
+Loi n° 85-677 du 5 juillet 1985, article 3
+Loi n° 85-677 du 5 juillet 1985, article 4
+Pour aller plus loin
+Accident de la circulation
+Conducteur en faute : quelle indemnisation ?
+### Consolidation
+La consolidation ne signifie pas nécessairement guérison. En pratique médico-légale, elle correspond au moment où l'état de la victime est considéré comme suffisamment stabilisé pour que les séquelles permanentes puissent être évaluées, même si des soins d'entretien ou une surveillance restent nécessaires. Cette date est essentielle car elle sépare notamment les préjudices temporaires des préjudices permanents. Une consolidation trop précoce peut conduire à évaluer les séquelles alors que l'état continue d'évoluer. À l'inverse, attendre inutilement peut retarder l'indemnisation définitive. La date doit donc être appréciée médicalement en fonction de l'évolution des lésions, des traitements et des perspectives d'amélioration.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+Pour aller plus loin
+Préparer l'expertise médicale
+## Les postes de préjudice
+### Déficit fonctionnel temporaire (DFT)
+Le déficit fonctionnel temporaire, ou DFT, concerne la période antérieure à la consolidation. Il vise les répercussions personnelles temporaires du dommage sur la vie de la victime pendant la phase de soins et de récupération. L'expertise peut distinguer des périodes de déficit temporaire total et des périodes partielles, avec différents niveaux selon l'autonomie et les limitations constatées. Le DFT ne doit pas être confondu avec la perte de revenus : les conséquences professionnelles relèvent de postes patrimoniaux distincts. Pour l'évaluer correctement, il faut reconstituer les périodes d'hospitalisation, d'immobilisation et de gêne fonctionnelle.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+Pour aller plus loin
+Les postes de préjudice temporaires
+### Déficit fonctionnel permanent (DFP)
+Le déficit fonctionnel permanent, souvent abrégé DFP, est un poste de préjudice extrapatrimonial permanent utilisé pour décrire les conséquences personnelles durables subsistant après la consolidation. Son évaluation médico-légale est généralement exprimée sous la forme d'un taux, mais ce taux ne constitue pas à lui seul le montant de l'indemnisation. L'âge de la victime, l'importance du taux et l'appréciation juridictionnelle ou amiable interviennent notamment dans la valorisation. Le DFP doit par ailleurs être distingué des pertes professionnelles et d'autres préjudices permanents qui peuvent faire l'objet d'une évaluation séparée. Une analyse sérieuse évite donc de réduire l'indemnisation globale à une simple multiplication du taux par une valeur unique.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+Pour aller plus loin
+Indemnisation d'un accident grave
+### Souffrances endurées (pretium doloris)
+Les souffrances endurées désignent les souffrances physiques et psychiques subies par la victime entre l'accident et la consolidation : douleurs liées aux lésions, aux interventions, aux soins et à la rééducation, ainsi que le retentissement psychologique de cette période. L'expert les cote habituellement sur une échelle de 1 à 7 ; cette cotation n'est pas un montant et doit être justifiée par les éléments du dossier (hospitalisations, opérations, traitements). Après consolidation, les douleurs permanentes relèvent du déficit fonctionnel permanent.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+Pour aller plus loin
+Comment est évalué le pretium doloris ?
+### Préjudice esthétique
+Le préjudice esthétique correspond à l'altération de l'apparence physique imputable au dommage : cicatrices, déformations, boiterie visible, appareillage ou autres modifications perceptibles. L'expertise médico-légale distingue habituellement les conséquences esthétiques temporaires avant consolidation et le préjudice esthétique permanent après consolidation. L'évaluation médicale peut utiliser une échelle graduée, mais la note retenue n'est pas à elle seule une somme d'argent. La localisation, la visibilité, l'âge de la victime et les caractéristiques concrètes de l'atteinte sont notamment susceptibles d'être discutés lors de la valorisation. Des photographies datées et de bonne qualité peuvent utilement documenter l'évolution de l'apparence.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+### Préjudice d'agrément
+Le préjudice d'agrément vise l'impossibilité ou la limitation, imputable au dommage, de pratiquer régulièrement une activité spécifique sportive ou de loisirs que la victime exerçait avant l'accident. Il ne suffit donc pas d'invoquer une diminution générale de la qualité de vie, déjà prise en compte par d'autres postes : il faut identifier une activité concrète et démontrer sa pratique antérieure ainsi que les limitations causées par les séquelles. La preuve peut résulter de licences, inscriptions, attestations, photographies, factures de matériel, historique de compétitions ou de tout élément cohérent avec la pratique invoquée. L'expertise médicale doit également préciser si les séquelles empêchent ou limitent effectivement cette activité.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+### Préjudice sexuel
+Le préjudice sexuel peut recouvrir plusieurs conséquences distinctes d'un dommage corporel sur la vie sexuelle : atteinte anatomique aux organes sexuels, altération de la fonction sexuelle ou de la libido, difficultés dans la réalisation de l'acte, et selon la situation atteinte à la possibilité de procréer. Son appréciation doit être individualisée et médicalement documentée. Il ne doit pas être écarté uniquement parce que le sujet est peu abordé spontanément pendant l'expertise. Lorsque l'accident a eu des conséquences de cette nature, elles doivent être exposées avec précision au médecin expert afin que celui-ci puisse les analyser dans le cadre de sa mission.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+### Préjudice d'établissement
+Le préjudice d'établissement concerne la perte d'espoir, de chance ou de possibilité de réaliser un projet de vie familiale normale en raison d'un handicap permanent : notamment former un couple ou fonder une famille lorsque les séquelles compromettent concrètement ces projets. Il ne doit pas être confondu avec le préjudice sexuel, même si certaines situations peuvent comporter plusieurs conséquences distinctes. Son existence dépend de la situation personnelle de la victime, de son âge, de ses projets et surtout de l'effet réel des séquelles. Il ne peut donc pas être déduit automatiquement d'un taux de déficit fonctionnel permanent.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+### Assistance par tierce personne
+L'assistance par tierce personne indemnise l'aide humaine rendue nécessaire par le handicap de la victime pour les actes de la vie quotidienne. Son calcul repose d'abord sur un besoin concret en heures : aide à la toilette, à l'habillage, aux déplacements, aux repas, à la surveillance ou à d'autres actes selon les séquelles. On distingue les besoins temporaires avant consolidation et les besoins permanents après consolidation. Le coût ne doit pas être écarté au seul motif que l'aide a été fournie gratuitement par un proche. Le chiffrage final dépend du nombre d'heures retenu, de la nature de l'aide, de sa durée et des modalités économiques applicables.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+Pour aller plus loin
+Tierce personne et accident grave
+### Pertes de gains professionnels actuels (PGPA)
+Les pertes de gains professionnels actuels concernent les revenus professionnels perdus pendant la période antérieure à la consolidation en raison du dommage corporel. L'objectif est de reconstituer la perte économique réellement imputable à l'accident, en tenant compte de la situation professionnelle de la victime et, le cas échéant, des revenus ou prestations reçus pendant l'arrêt. Le calcul peut être simple pour un salarié dont la rémunération est stable, mais demande une analyse plus poussée pour un indépendant, un dirigeant, une personne ayant des revenus variables ou une victime qui devait prochainement entrer dans la vie active. Les justificatifs fiscaux, comptables et professionnels doivent permettre de distinguer la perte causée par l'accident des autres variations de revenus.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+### Pertes de gains professionnels futurs (PGPF)
+Les pertes de gains professionnels futurs correspondent aux pertes de revenus professionnels subies après la consolidation lorsqu'elles résultent des séquelles de l'accident. Leur calcul ne doit pas être confondu avec l'incidence professionnelle : ici, il s'agit d'abord d'identifier une perte économique de revenus imputable au handicap. L'analyse nécessite de comparer la trajectoire professionnelle et les revenus qui auraient raisonnablement pu être obtenus sans le dommage avec la situation réellement constatée après celui-ci. Bulletins de salaire, avis d'imposition, contrats, carrière antérieure, arrêts de travail, licenciement, reclassement et capacités résiduelles de travail sont donc déterminants. Pour les pertes futures, les hypothèses retenues doivent être explicites et justifiées.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+### Incidence professionnelle
+L'incidence professionnelle correspond aux conséquences durables du handicap sur la vie professionnelle qui ne se réduisent pas à une simple perte arithmétique de revenus. Selon le dossier, elle peut notamment concerner une pénibilité accrue, une dévalorisation sur le marché du travail, une perte de chance professionnelle, la nécessité d'un changement de métier ou certains effets sur la carrière. Elle doit être démontrée concrètement à partir de la profession exercée, des contraintes du poste, du parcours antérieur, des séquelles et des possibilités de reclassement. Elle doit aussi être distinguée des pertes de gains professionnels futurs afin d'éviter d'indemniser deux fois la même conséquence.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+### Préjudice scolaire, universitaire ou de formation
+Un accident peut retarder ou perturber une scolarité, des études supérieures ou une formation professionnelle. Le préjudice doit être apprécié concrètement : interruption des cours, redoublement, report d'examens, abandon d'une formation, changement d'orientation ou perte de chance d'accéder à un parcours envisagé. Il faut distinguer les conséquences temporaires sur les études des répercussions professionnelles futures qui pourront relever d'autres postes. Certificats de scolarité, résultats antérieurs, attestations de l'établissement, calendrier des examens et éléments sur le projet de formation permettent de démontrer que la difficulté est imputable au dommage et d'en mesurer la portée.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+### Frais de logement adapté
+Lorsque les séquelles d'un accident rendent le logement antérieur inadapté, les dépenses nécessaires pour restaurer l'autonomie peuvent constituer un enjeu majeur de l'indemnisation. Il faut démontrer le besoin médical et fonctionnel, puis comparer les solutions réalistes : aménagement du logement existant, déménagement, acquisition ou construction adaptée selon la situation. L'évaluation doit rester liée au handicap et éviter à la fois de sous-estimer les besoins futurs et de présenter comme indemnisable une dépense sans lien avec les séquelles. Les avis médicaux, ergothérapiques, architecturaux et les devis permettent de construire un projet cohérent et chiffré.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+### Frais de véhicule adapté
+Un handicap permanent peut rendre nécessaires des aménagements spécifiques du véhicule ou, dans certaines situations, le recours à un véhicule différent. L'indemnisation doit être construite à partir du besoin fonctionnel réellement imputable aux séquelles : transfert, fauteuil roulant, conduite adaptée ou transport par un tiers, par exemple. Il faut distinguer le coût normal qu'aurait supporté la victime pour se déplacer du surcoût directement lié au handicap et examiner le renouvellement futur des équipements lorsqu'il est justifié. Une prescription ou évaluation fonctionnelle, des devis et une hypothèse de renouvellement explicite sont indispensables pour éviter un chiffrage abstrait.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+### Préjudice d'affection
+Le préjudice d'affection vise le préjudice moral personnel subi par certains proches en raison du décès de la victime directe. Son indemnisation ne correspond pas au dommage corporel de la personne décédée elle-même : il s'agit d'un préjudice propre de la victime par ricochet. L'existence et l'intensité du lien avec le défunt sont déterminantes. Les liens familiaux proches constituent naturellement des situations fréquentes, mais l'analyse ne doit pas être réduite à un simple tableau automatique de parenté. Les circonstances du décès et la réalité de la relation peuvent être pertinentes pour individualiser la demande.
+Sources
+Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+## L'expertise médicale
+### Expertise médicale
+L'expertise médicale est une étape déterminante de l'indemnisation : elle décrit les blessures, l'évolution, la consolidation et les conséquences temporaires ou permanentes qui serviront ensuite à chiffrer les préjudices. La préparation consiste à réunir un dossier médical chronologique complet, mais aussi les éléments concrets permettant de décrire les conséquences du dommage sur l'autonomie, le travail, les loisirs et la vie quotidienne. Il est utile de préparer à l'avance les difficultés qui risquent d'être oubliées pendant l'examen. L'expertise ne fixe généralement pas à elle seule le montant en euros : elle fournit les constatations médicales sur lesquelles la liquidation sera construite.
+Sources
+Code des assurances, article L. 211-10
+Pour aller plus loin
+Préparer l'expertise après un accident grave
+L'expertise médicale judiciaire
+### Médecin-recours (médecin-conseil de victime)
+Le médecin de recours assiste la victime sur le terrain médico-légal. Son rôle n'est pas de soigner à la place des médecins habituels, mais d'analyser le dossier médical, préparer l'expertise, examiner avec la victime les conséquences fonctionnelles de l'accident et discuter les conclusions médico-légales utiles à l'évaluation des préjudices. Cette assistance peut être particulièrement importante lorsque l'examen est organisé par le médecin mandaté par l'assureur ou lorsqu'une expertise judiciaire doit répondre à une mission détaillée. L'objectif est que les lésions, périodes d'incapacité, besoins d'aide humaine et séquelles pertinentes soient correctement documentés et débattus.
+Sources
+Code des assurances, article L. 211-10
+Pour aller plus loin
+Le médecin-recours, allié de la victime
+### Expertise amiable et expertise judiciaire
+L'expertise amiable est organisée hors décision judiciaire, souvent dans le cadre du traitement du dossier par un assureur ; elle peut être unilatérale ou contradictoire selon son organisation. L'expertise judiciaire est ordonnée par une juridiction et conduite par un expert désigné dans le cadre de la mission fixée par le juge et du principe du contradictoire. Une expertise judiciaire n'est pas automatiquement nécessaire pour obtenir une bonne indemnisation : une expertise amiable correctement préparée et contradictoire peut suffire. À l'inverse, un désaccord médical important, une causalité contestée ou des préjudices complexes peuvent justifier de demander une mesure judiciaire.
+Sources
+Code de procédure civile, articles 263 à 284-1 (l'expertise)
+Pour aller plus loin
+Pourquoi demander une expertise judiciaire
+## Procédures, organismes et régimes
+### Offre d'indemnisation de l'assureur
+Il n'existe aucune règle selon laquelle une victime devrait accepter la première offre d'indemnisation de l'assureur. Pour un accident de la circulation relevant de la loi du 5 juillet 1985, l'assureur est soumis à des obligations d'offre et de délai prévues notamment par l'article L. 211-9 du code des assurances. Avant d'accepter, il faut vérifier que l'état médical et la consolidation sont correctement pris en compte, que tous les postes de préjudice applicables figurent dans l'offre et que leur chiffrage repose sur des données cohérentes. Une offre peut être discutée. L'enjeu est particulièrement important lorsqu'une quittance ou transaction met fin à la discussion sur les préjudices concernés.
+Sources
+Code des assurances, article L. 211-9
+Pour aller plus loin
+Refuser l'offre de l'assurance
+### Provision
+Oui. Une victime n'a pas nécessairement à attendre la consolidation et le règlement définitif de tous ses préjudices pour recevoir une avance. En matière d'accident de la circulation, le mécanisme légal de l'offre peut conduire à une offre provisionnelle lorsque l'état de la victime n'est pas encore consolidé. Plus largement, selon le cadre amiable ou judiciaire du dossier, une provision peut être demandée afin de faire face aux conséquences immédiates de l'accident. Son montant dépend du droit à indemnisation déjà suffisamment établi et des éléments permettant d'évaluer les besoins et préjudices qui peuvent être provisionnés.
+Sources
+Code des assurances, article L. 211-9
+### FGAO (Fonds de garantie des assurances obligatoires de dommages)
+L'absence d'assurance du responsable ne signifie pas nécessairement que la victime restera sans indemnisation. Le Fonds de garantie des assurances obligatoires de dommages (FGAO) peut intervenir dans certaines conditions pour indemniser les victimes d'accidents de la circulation lorsque le responsable n'est pas assuré ou, dans certaines hypothèses, n'est pas identifié. Son intervention est encadrée : nature des dommages, circonstances de l'accident, situation du responsable, délais et démarches doivent être vérifiés. La victime doit donc éviter de conclure qu'il n'existe aucun recours simplement parce qu'elle découvre que le véhicule adverse n'était pas assuré. Les pièces établissant l'accident, l'identité des personnes impliquées et les dommages doivent être conservées.
+Sources
+Code des assurances, article L. 421-1
+Site du FGAO
+Pour aller plus loin
+Accident de la circulation
+### CIVI (Commission d'indemnisation des victimes d'infractions)
+La Commission d'indemnisation des victimes d'infractions (CIVI) permet, sous les conditions prévues par le code de procédure pénale, de demander réparation de certains dommages résultant d'une infraction. Pour les atteintes corporelles les plus graves visées par l'article 706-3, le mécanisme peut permettre une réparation intégrale des dommages résultant des atteintes à la personne lorsque les conditions légales sont réunies. La demande est examinée dans un cadre spécifique faisant intervenir le Fonds de garantie des victimes. Il faut vérifier rapidement l'éligibilité, les délais de saisine, les justificatifs de l'infraction et du dommage ainsi que l'évaluation médicale des séquelles.
+Sources
+Code de procédure pénale, article 706-3
+Code de procédure pénale, article 706-5
+Pour aller plus loin
+Victime d'agression
+Agression : droits et recours
+### FGTI (Fonds de garantie des victimes)
+Le Fonds de garantie des victimes des actes de terrorisme et d'autres infractions (FGTI) est l'organisme qui verse l'indemnité accordée par la CIVI, puis se retourne contre l'auteur de l'infraction. Il indemnise donc la victime même lorsque l'auteur est inconnu, insolvable ou n'a pas été condamné. Pour les infractions ne relevant pas de la CIVI, il gère aussi le service d'aide au recouvrement (SARVI), qui avance à la victime tout ou partie des dommages-intérêts alloués par la juridiction pénale.
+Sources
+Site du FGTI
+Code de procédure pénale, article 706-15-1 (SARVI)
+Pour aller plus loin
+Victime d'agression
+### CCI et ONIAM
+La CCI et l'ONIAM n'ont pas la même fonction. La Commission de conciliation et d'indemnisation examine certains accidents médicaux, affections iatrogènes et infections nosocomiales et rend un avis sur les circonstances et le régime d'indemnisation susceptible de s'appliquer. L'ONIAM est un organisme public qui peut intervenir dans l'indemnisation de certains dommages relevant de la solidarité nationale et dans d'autres hypothèses prévues par le Code de la santé publique. Une saisine de la CCI ne signifie donc pas automatiquement que l'ONIAM paiera l'indemnisation : il faut déterminer la cause du dommage, les seuils légaux et le régime applicable.
+Sources
+Code de la santé publique, article L. 1142-1
+Site de l'ONIAM
+Pour aller plus loin
+Erreur médicale
+Erreur médicale : vos droits
+### Aléa thérapeutique
+Un dommage médical peut, dans certaines conditions, être indemnisé au titre de la solidarité nationale même sans faute d'un professionnel ou établissement. Le Code de la santé publique vise les accidents médicaux, affections iatrogènes et infections nosocomiales directement imputables à des actes de prévention, diagnostic ou soins lorsqu'ils ont eu pour le patient des conséquences anormales au regard de son état de santé et de l'évolution prévisible de celui-ci et qu'ils présentent un caractère de gravité répondant aux critères légaux. Il ne suffit donc pas qu'un soin ait eu une conséquence indésirable : l'imputabilité, l'anormalité et la gravité doivent être examinées.
+Sources
+Code de la santé publique, article L. 1142-1
+Code de la santé publique, article D. 1142-1
+Pour aller plus loin
+Erreur médicale
+### Infection nosocomiale
+L'indemnisation d'une infection nosocomiale dépend notamment de sa gravité et du régime juridique applicable. Le code de la santé publique prévoit un mécanisme spécifique : certaines infections nosocomiales graves ouvrent droit à réparation au titre de la solidarité nationale par l'ONIAM, notamment lorsque les conditions de gravité prévues à l'article L. 1142-1-1 sont réunies. Dans d'autres situations, la responsabilité de l'établissement de santé peut être recherchée selon l'article L. 1142-1. Avant de chiffrer l'indemnisation, il faut établir le caractère nosocomial de l'infection, analyser le lien causal, déterminer les séquelles et identifier le débiteur juridiquement compétent.
+Sources
+Code de la santé publique, article L. 1142-1-1
+Pour aller plus loin
+Erreur médicale
+### Garantie des accidents de la vie (GAV)
+La garantie des accidents de la vie (GAV) est un contrat d'assurance facultatif qui indemnise l'assuré des dommages corporels subis lors d'un accident de la vie privée (accident domestique, de sport, de loisir, de bricolage, accident médical, agression, catastrophe naturelle), y compris lorsqu'aucun tiers n'est responsable. L'indemnisation obéit aux conditions du contrat : seuil de gravité, plafond, exclusions et évaluation par le médecin de l'assureur, que la victime peut discuter avec l'aide d'un médecin-recours et d'un avocat.
+Sources
+La finance pour tous (IEFP), la garantie des accidents de la vie
+Pour aller plus loin
+Accidents de la vie
+### Faute inexcusable de l'employeur
+Lorsqu'un accident du travail ou une maladie professionnelle est dû à la faute inexcusable de l'employeur, le Code de la sécurité sociale prévoit un régime d'indemnisation renforcé. La reconnaissance de cette faute peut notamment entraîner une majoration de la rente ou du capital versé à la victime et ouvrir droit à la réparation de préjudices dans les conditions prévues par les textes et la jurisprudence. La question de la faute inexcusable est distincte de la seule reconnaissance du caractère professionnel de l'accident : elle suppose d'examiner les obligations de l'employeur, le risque dont il avait ou aurait dû avoir conscience et les mesures de prévention prises. La procédure et l'évaluation doivent donc être traitées spécifiquement.
+Sources
+Code de la sécurité sociale, article L. 452-1
+Code de la sécurité sociale, article L. 452-3
+Lexique rédigé et tenu à jour par Maître Ilan Guedj, avocat au barreau de Marseille. Information générale : la qualification et le chiffrage de chaque poste dépendent des pièces de votre dossier. Première consultation gratuite, aucune avance de frais.
+Discuter sur WhatsApp
+WhatsApp Appeler
+
 # ARTICLES DU BLOG
 
 ---
@@ -1447,7 +1675,7 @@ URL : https://ig-avocat.com/blog/accident-trottinette-electrique-indemnisation
 Accident de la route · EDPM · Guide 2026
 # Accident de trottinette électrique : quels sont vos droits ?
 Piéton renversé, conducteur blessé, engin non assuré ou en libre-service : la loi Badinter protège les victimes d'accidents de trottinette, mais pas toutes de la même façon. Décryptage d'un régime souvent mal compris.
-1er juillet 2026 11 min de lecture Maître Ilan Guedj
+Publié le 1er juillet 2026 11 min de lecture Maître Ilan Guedj
 Les trottinettes électriques ont envahi nos villes — et les services d'urgence en constatent les conséquences chaque semaine. Fractures, traumatismes crâniens, polytraumatismes : les blessures peuvent être graves. Pourtant, une idée reçue persiste : « la trottinette, ce n'est pas un vrai véhicule, je ne suis pas concerné par les règles d'indemnisation des accidents de la route. » C'est faux, et cette confusion coûte cher aux victimes.
 ## 1. La trottinette électrique, un « véhicule terrestre à moteur » aux yeux de la loi
 Depuis le décret n° 2019-1082 du 23 octobre 2019, la trottinette électrique appartient à la catégorie des engins de déplacement personnel motorisés (EDPM), aux côtés des gyropodes, monoroues et hoverboards. Sur le plan juridique, elle est assimilée à un véhicule terrestre à moteur (VTM).
@@ -1548,7 +1776,7 @@ URL : https://ig-avocat.com/blog/agression-victime-droits-recours
 
 Agression
 # Victime d'agression : comment obtenir une indemnisation ?
-19 février 2026 10 min de lecture Maître Ilan Guedj
+Publié le 19 février 2026 10 min de lecture Maître Ilan Guedj
 Chaque année, des centaines de milliers de personnes sont victimes d'agressions en France. Beaucoup ignorent qu'un mécanisme d'indemnisation spécifique existe pour elles, même lorsque l'auteur est inconnu ou insolvable : la CIVI et le FGTI. Ce guide vous explique vos droits, les conditions à remplir et les démarches à suivre pour être indemnisé.
 ## 1. Qu'est-ce que la CIVI et le FGTI ?
 La Commission d'Indemnisation des Victimes d'Infractions (CIVI) est une juridiction civile spécialisée, rattachée à chaque tribunal judiciaire, qui permet aux victimes d'infractions pénales de demander une indemnisation sans avoir à prouver l'insolvabilité de l'auteur ni à attendre l'issue d'un procès pénal.
@@ -1622,7 +1850,7 @@ URL : https://ig-avocat.com/blog/delai-prescription-accident-corporel
 
 Prescription
 # Quels sont les délais pour agir après un accident corporel ?
-17 février 2026 9 min de lecture Maître Ilan Guedj
+Publié le 17 février 2026 9 min de lecture Maître Ilan Guedj
 Beaucoup de victimes d'accidents corporels pensent, à tort, qu'elles ont tout leur temps pour agir. D'autres, au contraire, renoncent à leurs droits en croyant que le délai est dépassé. La réalité est plus nuancée. Comprendre les délais de prescription est indispensable pour ne pas perdre définitivement vos droits à indemnisation.
 ## 1. Qu'est-ce que la prescription en droit du dommage corporel ?
 La prescription est le mécanisme juridique par lequel un droit d'action s'éteint si son titulaire ne l'exerce pas dans un délai déterminé par la loi. En matière civile, la prescription est régie par les articles 2224 et suivants du Code civil, mais le droit du dommage corporel obéit à des règles spécifiques dérogeant au régime général.
@@ -1737,7 +1965,7 @@ URL : https://ig-avocat.com/blog/erreur-medicale-droits-victime
 Erreur médicale
 # Erreur médicale : vos droits, délais, preuve et recours
 CCI, ONIAM, tribunal judiciaire ou administratif, plainte pénale : ce guide vous explique comment choisir, dans quel délai agir, comment prouver une faute et comment se déroule la première consultation. Cabinet de Maître Ilan Guedj, avocat en dommage corporel à Marseille — intervention devant les juridictions de Marseille, Aix-en-Provence et toute la région PACA.
-Mis à jour le 20 mai 2026 16 min de lecture Maître Ilan Guedj
+Publié le 17 février 2026 · Mis à jour le 20 mai 2026 16 min de lecture Maître Ilan Guedj
 Chaque année, des milliers de patients sont victimes d'erreurs médicales en France, dont une part significative dans les établissements de santé de Marseille et de la région PACA (AP-HM, hôpitaux publics et cliniques privées). Face au corps médical, aux assurances des établissements de santé et à la complexité des procédures, les victimes se retrouvent souvent seules et démunies. Ce guide vous explique vos droits, les procédures disponibles et comment un avocat en erreur médicale à Marseille peut faire la différence.
 ## 1. Qu'est-ce qu'une erreur médicale au sens juridique ?
 En droit médical français, une erreur médicale n'est pas simplement un acte qui a mal tourné. La notion juridique est précise : il s'agit d'un manquement à l'obligation de moyens du praticien, c'est-à-dire d'un acte ou d'une omission qui s'écarte des pratiques médicales reconnues et admises par la communauté scientifique au moment des faits.
@@ -1906,7 +2134,7 @@ URL : https://ig-avocat.com/blog/expertise-medicale-judiciaire
 
 Expertise médicale
 # Expertise médicale : pourquoi l'expertise judiciaire protège mieux les victimes
-24 février 2026 10 min de lecture Maître Ilan Guedj
+Publié le 24 février 2026 10 min de lecture Maître Ilan Guedj
 L'expertise médicale est le moment décisif de votre dossier d'indemnisation. C'est lors de cette étape que vos préjudices sont évalués, chiffrés, et traduits en postes d'indemnisation. Pourtant, toutes les expertises ne se valent pas. Chez Maître Ilan Guedj, nous recommandons systématiquement l'expertise judiciaire, car c'est la seule qui garantit véritablement l'impartialité et le respect de vos droits.
 ## 1. L'expertise médicale : une étape décisive pour votre indemnisation
 Que vous soyez victime d'un accident de la route, d'une erreur médicale, d'une agression ou d'un accident de la vie, l'expertise médicale est le pivot de votre dossier. C'est à partir du rapport d'expertise que sera calculée l'intégralité de votre indemnisation, poste par poste, selon la nomenclature Dintilhac.
@@ -2038,7 +2266,7 @@ URL : https://ig-avocat.com/blog/faute-conducteur-victime-indemnisation
 Accident de la route · Jurisprudence 2025
 # Conducteur en faute : pouvez-vous être indemnisé après un accident de la route ?
 L'arrêt rendu par la Cour de cassation le 19 juin 2025 renforce considérablement la protection des conducteurs victimes. Décryptage d'une jurisprudence qui change la donne face aux assureurs.
-13 mai 2026 10 min de lecture Maître Ilan Guedj
+Publié le 13 mai 2026 10 min de lecture Maître Ilan Guedj
 « Vous êtes en tort, l'assurance ne couvrira rien. » Combien de victimes d'accidents de la route entendent cette phrase après un sinistre ? Pourtant, en droit français, être à l'origine d'un accident n'éteint pas automatiquement votre droit à indemnisation corporelle. La Cour de cassation vient même de durcir, en 2025, les conditions dans lesquelles un assureur peut écarter votre indemnisation.
 ## 1. La loi Badinter : une protection à deux vitesses
 Depuis la loi n° 85-677 du 5 juillet 1985, dite loi Badinter, toute victime d'un accident de la circulation impliquant un véhicule terrestre à moteur (voiture, moto, scooter, camion, trottinette électrique...) bénéficie d'un régime spécial d'indemnisation, indépendamment de la responsabilité civile classique.
@@ -2137,7 +2365,7 @@ URL : https://ig-avocat.com/blog/indemnisation-accident-corporel
 
 Indemnisation
 # Comment calculer votre indemnisation après un accident corporel ?
-17 février 2026 10 min de lecture Maître Ilan Guedj
+Publié le 17 février 2026 10 min de lecture Maître Ilan Guedj
 L'indemnisation d'un accident corporel ne se résume pas à rembourser les frais médicaux. Le droit français reconnaît de nombreux postes de préjudice, souvent ignorés par les victimes et que les assurances s'efforcent de minorer. Ce guide vous explique comment est structurée une indemnisation complète et pourquoi les premières offres sont presque toujours insuffisantes.
 ## 1. Les 6 postes de préjudice reconnus par la loi
 Depuis le rapport Dintilhac de 2005, le droit français du dommage corporel s'organise autour d'une nomenclature structurée qui distingue les préjudices patrimoniaux (économiques) et les préjudices extrapatrimoniaux (personnels). Cette distinction est fondamentale car elle détermine quels postes sont soumis aux recours des tiers payeurs (Sécurité sociale, mutuelle) et lesquels vous reviennent intégralement.
@@ -2486,7 +2714,7 @@ URL : https://ig-avocat.com/blog/indemnisation-victime-passagere-accident
 
 Accident de la route
 # Victime passagère d'un accident : quels sont vos droits ?
-3 mars 2026 9 min de lecture Maître Ilan Guedj
+Publié le 3 mars 2026 9 min de lecture Maître Ilan Guedj
 En France, plus d'un tiers des victimes d'accidents de la route sont des passagers. Beaucoup ignorent que la loi Badinter leur accorde une protection quasi absolue — bien supérieure à celle du conducteur — indépendamment de la responsabilité de qui que ce soit. Ce guide vous explique vos droits, quelle assurance doit vous indemniser et comment obtenir la réparation intégrale de vos préjudices.
 ## 1. La loi Badinter : une protection quasi absolue pour les passagers
 La loi du 5 juillet 1985, dite loi Badinter, régit l'indemnisation des victimes d'accidents de la circulation impliquant un véhicule terrestre à moteur. Elle distingue deux catégories de victimes : les conducteurs d'un côté, les non-conducteurs de l'autre — parmi lesquels figurent les passagers, les piétons et les cyclistes.
@@ -2565,7 +2793,7 @@ URL : https://ig-avocat.com/blog/medecin-recours-victime
 
 Expertise médicale
 # Médecin-recours : pourquoi il est indispensable pour les victimes
-8 mars 2026 8 min de lecture Maître Ilan Guedj
+Publié le 8 mars 2026 8 min de lecture Maître Ilan Guedj
 Lors de l'expertise médicale, la victime se retrouve face à un expert et au médecin-conseil de l'assureur — deux professionnels qui maîtrisent parfaitement le vocabulaire médical et les grilles d'évaluation. Sans médecin-recours à vos côtés, vous êtes en position de faiblesse. Le médecin-recours est votre allié technique : il rétablit l'équilibre et veille à ce que vos préjudices soient évalués à leur juste mesure.
 ## 1. Qu'est-ce qu'un médecin-recours ?
 Le médecin-recours — aussi appelé médecin de victime ou médecin-conseil de victime — est un médecin indépendant, spécialisé en évaluation du dommage corporel. Il intervient exclusivement dans l'intérêt de la victime lors de l'expertise médicale, qu'elle soit amiable ou judiciaire.
@@ -2651,7 +2879,7 @@ URL : https://ig-avocat.com/blog/preparer-expertise-medicale-accident-grave
 
 Expertise médicale
 # Expertise médicale après un accident grave : les 15 jours qui décident de votre indemnisation
-27 août 2026 12 min de lecture Maître Ilan Guedj
+Publié le 27 août 2026 12 min de lecture Maître Ilan Guedj
 L'assureur doit vous aviser au moins quinze jours avant l'examen médical (article R. 211-43 du code des assurances) et vous rappeler, dès sa première correspondance, que vous pouvez vous faire assister d'un avocat et d'un médecin de votre choix (article L. 211-10). Ces quinze jours décident de beaucoup : l'expertise fixe les postes de préjudice qui serviront de base à toute l'indemnisation, et ce qui n'y est ni constaté ni consigné devient très difficile à faire reconnaître ensuite. Dans un dossier grave — traumatisme crânien, lésion médullaire, polytraumatisme — la préparation porte sur trois choses : un dossier médical complet, une description précise de votre quotidien depuis l'accident, et l'assistance d'un médecin-recours indépendant.
 ## 1. Ce qu'est réellement l'expertise médicale
 Après un accident de la circulation, l'assureur du responsable organise un examen médical. Ce rendez-vous porte un nom trompeur : on parle d'« expertise », mot qui évoque la neutralité. En réalité, tant que l'expertise n'est pas judiciaire, le médecin qui vous examine est mandaté et rémunéré par la compagnie d'assurance. Il n'est ni votre médecin traitant, ni un magistrat, ni un arbitre.
@@ -2787,7 +3015,7 @@ URL : https://ig-avocat.com/blog/que-faire-apres-accident-route
 
 Accident de la route
 # Que faire immédiatement après un accident de la route ?
-17 février 2026 8 min de lecture Maître Ilan Guedj
+Publié le 17 février 2026 8 min de lecture Maître Ilan Guedj
 Les premières heures après un accident de la route sont déterminantes pour la suite de votre dossier d'indemnisation. Chaque geste compte. Ce guide vous explique exactement quoi faire, dans quel ordre, et surtout quelles erreurs peuvent compromettre définitivement vos droits.
 ## 1. Les 10 premières minutes : les gestes qui sauvent votre dossier
 Dans les minutes qui suivent un accident de la route, la priorité absolue est la sécurité. Pourtant, ces mêmes minutes sont aussi cruciales pour la constitution de votre dossier juridique futur. Voici ce que vous devez faire immédiatement.
@@ -2868,7 +3096,7 @@ URL : https://ig-avocat.com/blog/refuser-offre-assurance-accident
 
 Assurance
 # Dois-je accepter l'offre d'indemnisation de mon assurance après un accident ?
-17 février 2026 9 min de lecture Maître Ilan Guedj
+Publié le 17 février 2026 9 min de lecture Maître Ilan Guedj
 La réponse courte est presque toujours : non, ne l'acceptez pas immédiatement. Les compagnies d'assurance sont des entreprises dont l'objectif est de verser le moins possible. Leurs premières offres sont conçues pour clore rapidement les dossiers à moindre coût. Ce guide vous explique vos droits, les délais légaux, et ce que vous risquez en acceptant trop vite.
 ## 1. Comprendre l'offre provisionnelle de l'assurance
 Après un accident de la route, l'assureur du responsable est légalement tenu de vous faire une proposition d'indemnisation. Mais cette proposition peut prendre deux formes très différentes, et il est essentiel de les distinguer.

@@ -49,7 +49,7 @@ Chaque nouvelle ressource doit avoir : title unique, canonical, H1 unique, repon
 - Traumatisme cranien
 
 ## Glossaire
-Creer un glossaire HTML indexable reliant DFP, DFT, SE, ATP/tierce personne, PGPF, incidence professionnelle, prejudice d'agrement, prejudice esthetique et autres postes Dintilhac aux guides approfondis.
+Fait (septembre 2026) : `/lexique-dommage-corporel`, 31 definitions generees par `tools/build-lexique.py` a partir de `content/geo`. Ajouter une notion = ajouter son fichier dans `content/geo` puis une entree dans `SECTIONS` du script.
 
 ## Observatoire de l'indemnisation
 Architecture cible : `/observatoire-indemnisation` puis pages d'etudes permanentes. Ne publier que des donnees dont le cabinet dispose licitement et dont la methodologie est reproductible.
@@ -62,9 +62,7 @@ Etudes candidates : DFP, souffrances endurees, taux de tierce personne, prejudic
 Executer apres chaque modification :
 
 ```bash
-python3 tools/geo-inject.py
-python3 tools/build-llms-full.py
-python3 tools/geo-audit.py
+python3 tools/geo-build.py
 python3 tools/geo-inject.py --check
 ```
 
