@@ -2,7 +2,7 @@
 
 > Corpus texte intégral du site https://ig-avocat.com, mis à disposition des assistants IA et des moteurs de réponse. Maître Ilan Guedj, avocat au barreau de Marseille, 16 rue Breteuil, 13001 Marseille — activité exclusivement consacrée à la défense des victimes de dommage corporel. Consultation gratuite, aucune avance de frais, honoraires uniquement au résultat. Téléphone : 06 63 46 59 84 — contact@ig-avocat.com.
 
-Version générée le 2026-09-15. Synthèse courte : https://ig-avocat.com/llms.txt
+Version générée le 2026-09-17. Synthèse courte : https://ig-avocat.com/llms.txt
 
 ---
 
@@ -464,6 +464,9 @@ Votre réponse à l'offre 15 jours de délai légal
 Prescription de l'action 10 ans (art. 2226)
 Délai versement provision Sous 3 mois possible
 Articles pour approfondir
+Nouveau
+Qui est indemnisé et dans quels délais ?
+Piéton, passager, cycliste, motard, conducteur : la loi Badinter profil par profil
 Préjudices graves
 Accident grave : indemnisation et gros postes Dintilhac
 TBI, paraplégie, tierce personne, frais futurs, PGPF
@@ -1669,8 +1672,136 @@ WhatsApp Appeler
 
 ---
 
+## Accident de la route : qui est indemnisé et dans quels délais ?
+URL : https://ig-avocat.com/blog\accident-route-indemnisation
+
+Accident de la route · Loi Badinter · Guide 2026
+# Accident de la route : qui est indemnisé et dans quels délais ?
+Après un accident de la circulation impliquant un véhicule terrestre à moteur, la loi du 5 juillet 1985 distingue deux situations. La victime qui n'était pas au volant — piéton, cycliste, passager — est indemnisée de son dommage corporel sans que sa propre imprudence puisse normalement lui être opposée : seule une faute inexcusable, cause exclusive de l'accident, peut la priver de son droit. La victime qui conduisait peut, elle, voir son indemnisation réduite ou supprimée si une faute de conduite lui est reprochée. L'assureur du véhicule impliqué doit présenter une offre dans les huit mois de l'accident, puis une offre définitive dans les cinq mois suivant la consolidation.
+Publié le 17 septembre 2026 10 min de lecture Maître Ilan Guedj
+Après un accident de la route, la première question n'est pas « combien ? » mais « à quel titre ? ». Selon que vous étiez piéton, passager, cycliste, motard ou au volant, ce ne sont pas les mêmes règles qui décident de votre droit à indemnisation — et l'écart entre ces situations est considérable.
+## 1. Quels accidents relèvent de la loi Badinter ?
+La loi n° 85-677 du 5 juillet 1985 s'applique aux accidents de la circulation dans lesquels un véhicule terrestre à moteur est impliqué, ainsi que ses remorques ou semi-remorques. Sont exclus les chemins de fer et les tramways circulant sur des voies qui leur sont propres.
+Le mot « impliqué » est plus large que « responsable ». Un véhicule à l'arrêt, un véhicule qui n'a pas touché la victime mais dont la manœuvre a provoqué sa chute, un véhicule intervenu à n'importe quel stade de l'accident : tous sont impliqués. C'est une des raisons pour lesquelles la discussion avec l'assureur porte rarement sur le principe du droit à indemnisation, et presque toujours sur son montant.
+Source : Loi n° 85-677 du 5 juillet 1985, article 1er
+## 2. Piéton, cycliste, passager : la protection de l'article 3
+L'article 3 de la loi pose un principe simple : les victimes autres que les conducteurs sont indemnisées de leurs dommages corporels sans que leur propre faute puisse leur être opposée. Deux exceptions seulement : la faute inexcusable, à condition qu'elle ait été la cause exclusive de l'accident, et le fait d'avoir volontairement recherché le dommage.
+La Cour de cassation définit la faute inexcusable de façon exigeante : une faute volontaire d'une exceptionnelle gravité, exposant son auteur sans raison valable à un danger dont il aurait dû avoir conscience. En pratique, elle est très rarement retenue. Traverser hors d'un passage piéton, marcher sur la chaussée, franchir un feu à vélo : ces imprudences ne suffisent pas.
+Le cycliste relève de l'article 3. Un vélo n'étant pas un véhicule terrestre à moteur, la personne qui en descend blessée après un choc avec une voiture est traitée comme une victime non conductrice.
+Source : Loi du 5 juillet 1985, article 3
+## 3. Enfants, personnes âgées, victimes gravement handicapées
+L'article 3 réserve une protection renforcée à trois catégories : les victimes âgées de moins de seize ans, celles âgées de plus de soixante-dix ans, et celles atteintes d'une incapacité permanente ou d'une invalidité au moins égale à 80 %.
+Pour ces victimes, la faute inexcusable n'est pas opposable. Seule la recherche volontaire du dommage peut faire obstacle à l'indemnisation. Un enfant de dix ans qui surgit entre deux voitures est intégralement indemnisé.
+## 4. Conducteur : la faute peut réduire ou supprimer l'indemnisation
+L'article 4 traite différemment celui qui était au volant : sa propre faute a pour effet de limiter ou d'exclure l'indemnisation de ses dommages corporels.
+Deux précisions comptent. D'abord, toute faute n'emporte pas exclusion : le juge apprécie sa gravité et son rôle dans la survenance du dommage, et une réduction partielle est plus fréquente qu'une exclusion totale.
+Ensuite, le droit à indemnisation et l'évaluation médicale sont deux questions distinctes. Qu'une faute soit discutée ne change rien à l'étendue des préjudices : ils doivent être évalués entièrement, puis affectés le cas échéant d'un pourcentage de réduction. Confondre les deux étapes conduit à sous-évaluer le dossier dès le départ.
+Source : Loi du 5 juillet 1985, article 4 — voir aussi notre article Conducteur en faute : pouvez-vous être indemnisé ?
+## 5. Motard, trottinette, vélo : conducteur ou non conducteur ?
+La question détermine le régime applicable, et elle surprend souvent.
+- → Le motard conduit un véhicule terrestre à moteur : il relève de l'article 4, une faute de conduite lui est opposable.
+- → La trottinette électrique est également un véhicule terrestre à moteur. Son utilisateur est donc un conducteur, et se trouve paradoxalement moins protégé qu'un piéton dans la même situation.
+- → Le cycliste et le piéton relèvent de l'article 3.
+C'est un point que les victimes découvrent souvent après coup, et qui justifie de faire examiner très tôt les circonstances exactes de l'accident : procès-verbal, témoignages, constatations matérielles.
+## 6. Qui verse l'indemnisation ?
+L'assureur du véhicule impliqué. Lorsque plusieurs véhicules le sont, la victime non conductrice peut demander réparation à l'assureur de n'importe lequel d'entre eux, les assureurs réglant ensuite leurs comptes entre eux.
+Il faut avoir en tête que cet assureur n'est pas neutre : il indemnise, mais il supporte aussi le coût. Le médecin qui réalise l'expertise est mandaté et rémunéré par lui. Ce n'est pas un procès d'intention, c'est un fait structurel dont la victime doit tenir compte.
+## 7. Conducteur non assuré, délit de fuite, véhicule non identifié
+Lorsque le responsable n'est pas assuré, ou qu'il a pris la fuite et n'a pas été identifié, la victime n'est pas sans recours : le Fonds de garantie des assurances obligatoires de dommages (FGAO) intervient.
+Deux points de vigilance : l'intervention du FGAO suppose une déclaration dans les délais et un dossier constitué ; et lorsque le véhicule n'a pas été identifié, l'indemnisation du dommage corporel reste due, mais la matérialité de l'accident doit être établie — d'où l'importance du dépôt de plainte et des témoignages.
+Sources : Service-public.fr — accident avec un véhicule non assuré · Fonds de garantie
+## 8. Accident sans tiers : que reste-t-il ?
+Si vous êtes seul en cause — sortie de route, perte de contrôle — la loi Badinter ne joue pas à votre profit : il n'y a pas d'autre véhicule impliqué.
+Restent deux voies contractuelles : la garantie du conducteur de votre contrat auto, et la garantie des accidents de la vie (GAV) si vous en avez souscrit une.
+Attention : ces garanties fonctionnent avec des plafonds, des seuils de déclenchement et parfois un barème contractuel qui n'est pas celui du droit commun. Il est fréquent qu'elles indemnisent sensiblement moins qu'une action contre un tiers responsable. La lecture des conditions générales est le premier réflexe.
+## 9. Les délais que l'assureur doit respecter
+Le code des assurances impose un calendrier précis.
+Étape
+Délai
+Première offre
+8 mois à compter de l'accident
+Offre définitive
+5 mois à compter du jour où l'assureur est informé de la consolidation
+Dénonciation de la transaction signée
+15 jours
+Si l'offre n'est pas faite dans les délais, l'indemnité produit intérêt au double du taux de l'intérêt légal. C'est une sanction réelle, souvent ignorée des victimes. L'assureur doit par ailleurs informer la victime qu'elle peut se faire assister d'un avocat et, lors de l'examen médical, du médecin de son choix.
+Sources : C. assur., art. L. 211-9 · art. L. 211-13 · art. L. 211-16
+## 10. La provision : ne pas attendre la fin pour être aidé
+Une indemnisation définitive suppose la consolidation, c'est-à-dire la stabilisation de l'état de santé. Pour des blessures sérieuses, cela peut prendre des années, pendant lesquelles les charges continuent : perte de salaire, aménagement du logement, aide à domicile.
+La provision existe pour cela. Elle peut être demandée à l'assureur dans le cadre de l'offre des huit mois, ou obtenue en référé devant le juge lorsque l'obligation d'indemniser n'est pas sérieusement contestable. Elle s'impute sur l'indemnisation finale, elle ne s'y ajoute pas.
+## 11. Faut-il accepter la première offre ?
+L'assureur a l'obligation de faire une offre. La victime n'a aucune obligation de l'accepter.
+Une première offre est presque toujours provisionnelle et repose sur une expertise réalisée par un médecin mandaté par l'assureur. Les postes les plus lourds — assistance par tierce personne définitive, incidence professionnelle, frais futurs, préjudice d'agrément — sont ceux qui sont le plus souvent minorés ou omis, parce qu'ils supposent une projection sur toute la vie de la victime.
+Une transaction signée ferme la discussion : elle a autorité de chose jugée entre les parties. Un délai de dénonciation de quinze jours existe ; il est court.
+Pour aller plus loin : Faut-il accepter l'offre d'indemnisation de son assurance ?
+## 12. L'expertise médicale : le moment qui fixe le montant
+Tout se joue là. Le rapport d'expertise chiffre le déficit fonctionnel, les souffrances endurées, le besoin en tierce personne, le retentissement professionnel. L'assureur indemnisera ensuite sur cette base, et ce qui n'a pas été relevé lors de l'expertise ne sera pas indemnisé.
+La victime peut se présenter assistée d'un médecin-recours, c'est-à-dire d'un médecin qu'elle choisit et qui intervient pour elle, en discussion contradictoire avec le médecin de l'assureur. Elle peut aussi demander une expertise judiciaire si le rapport amiable lui paraît incomplet.
+Pour aller plus loin : Le rôle du médecin-recours
+## 13. Décès de la victime : les droits des proches
+Les proches disposent de droits propres : préjudice d'affection, frais d'obsèques, perte de revenus du foyer, préjudice d'accompagnement lorsque le décès a suivi une période de souffrance.
+Un point technique important : la faute opposable à la victime directe l'est aussi aux ayants droit pour ce qu'ils réclament au titre du préjudice subi par elle. Leurs préjudices personnels obéissent en revanche à leur propre logique.
+## 14. Accident de trajet : deux régimes qui se superposent
+L'accident survenu sur le trajet entre le domicile et le lieu de travail est pris en charge par la Sécurité sociale au titre des accidents du travail. Cette prise en charge est forfaitaire : elle ne couvre pas l'intégralité du dommage corporel.
+Lorsque l'accident de trajet est aussi un accident de la circulation causé par un tiers, la victime conserve un recours de droit commun contre ce tiers, pour tout ce que la Sécurité sociale n'indemnise pas — souffrances endurées, préjudice esthétique, préjudice d'agrément, part non couverte des pertes de revenus. Les organismes sociaux exercent de leur côté un recours contre le responsable.
+Source : Code de la sécurité sociale, art. L. 411-2
+## 15. Dans quel délai faut-il agir ?
+L'action en réparation du dommage corporel se prescrit par dix ans à compter de la consolidation du dommage initial ou aggravé.
+Ce point de départ mérite attention : le délai ne court pas de l'accident, mais de la consolidation. Une victime dont l'état s'aggrave des années plus tard peut donc rouvrir son dossier, l'aggravation faisant courir un nouveau délai.
+Source : Code civil, art. 2226
+## 16. Ce qu'il faut retenir
+- ✓ Piéton, cycliste, passager : indemnisation du dommage corporel, sauf faute inexcusable cause exclusive de l'accident
+- ✓ Moins de 16 ans, plus de 70 ans, invalidité d'au moins 80 % : protection renforcée
+- ✓ Conducteur, motard, trottinette : la faute de conduite peut réduire ou exclure l'indemnisation
+- ✓ Responsable non assuré, en fuite ou non identifié : le FGAO prend le relais
+- ✓ Offre sous 8 mois, offre définitive sous 5 mois après consolidation, sanction au double du taux légal en cas de retard
+- ✓ Prescription : 10 ans à compter de la consolidation, pas de l'accident
+## Questions fréquentes
+### Un piéton qui traverse au rouge est-il indemnisé ?
+Oui, dans la très grande majorité des cas. Le piéton est une victime non conductrice au sens de l'article 3 de la loi du 5 juillet 1985 : sa propre imprudence ne lui est pas opposable. Seule une faute inexcusable, cause exclusive de l'accident, pourrait l'en priver, et la Cour de cassation en retient une définition très restrictive.
+### Mon assureur me dit que je suis responsable : dois-je renoncer ?
+Non. La question s'apprécie au regard de l'article 4 de la loi de 1985, et une faute de conduite n'entraîne pas nécessairement une exclusion totale : le juge apprécie sa gravité et son rôle dans le dommage. La position de l'assureur est celle d'une partie, pas une décision.
+### Combien de temps faut-il pour être indemnisé ?
+Cela dépend de la consolidation, c'est-à-dire de la stabilisation de l'état de santé. Un dossier simple se règle en quelques mois après celle-ci ; un dossier lourd peut prendre plusieurs années, pendant lesquelles des provisions peuvent être demandées.
+### Le responsable n'était pas assuré : puis-je être indemnisé ?
+Oui. Le Fonds de garantie des assurances obligatoires de dommages (FGAO) intervient lorsque le responsable n'est pas assuré, a pris la fuite ou n'a pas été identifié, sous conditions de délai et de constitution du dossier.
+### Faut-il un avocat ?
+Ce n'est pas une obligation légale. Mais le code des assurances impose à l'assureur de rappeler à la victime qu'elle peut se faire assister d'un avocat, et du médecin de son choix lors de l'examen médical : si le législateur a prévu ce rappel, c'est que le déséquilibre est réel. En face, l'assureur dispose de juristes qui traitent ce contentieux tous les jours, et le médecin qui vous examine est mandaté et rémunéré par lui. L'accompagnement pèse surtout à deux moments : l'expertise médicale, qui fixe les bases chiffrées sur lesquelles tout le reste sera calculé et dont ce qui n'est pas relevé ne sera pas indemnisé ; et la discussion des postes qui se projettent sur des décennies — assistance par tierce personne, incidence professionnelle, frais futurs, aménagement du logement ou du véhicule. Ce sont ceux qu'une victime seule ne pense pas à réclamer, et qu'une transaction signée referme définitivement. Être accompagné, et l'être avant la première expertise, est donc très important.
+## Articles liés
+Premiers réflexes
+Que faire immédiatement après un accident de la route ?
+Indemnisation
+Combien toucher après un accident corporel ?
+Blessures graves
+Accident grave : tierce personne, frais futurs, pertes de gains
+Passager
+Victime passagère d'un accident : quels sont vos droits ?
+Conducteur
+Conducteur en faute : pouvez-vous être indemnisé ?
+EDPM
+Accident de trottinette électrique : quels sont vos droits ?
+Délais
+Délais de prescription : quand agir ?
+Assurance
+Faut-il accepter l'offre d'indemnisation de son assurance ?
+### Blessé dans un accident de la route ?
+Avant tout accord avec un assureur, faites analyser votre dossier gratuitement.
+WhatsApp 06 63 46 59 84
+À retenir
+Piéton, cycliste et passager relèvent de l'article 3 : leur imprudence ne leur est pas opposable. Conducteur, motard et trottinette relèvent de l'article 4 : leur faute peut réduire l'indemnisation. L'assureur doit faire une offre dans les 8 mois.
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+Accident de la route — Agissez
+Victime d'un accident
+## de la circulation ?
+Piéton, passager, cycliste, motard ou conducteur : le cabinet identifie le régime applicable et chiffre l'ensemble de vos préjudices.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation 100 % gratuite — Honoraires sur résultat uniquement
+
+---
+
 ## Accident de trottinette électrique : quels sont vos droits ?
-URL : https://ig-avocat.com/blog/accident-trottinette-electrique-indemnisation
+URL : https://ig-avocat.com/blog\accident-trottinette-electrique-indemnisation
 
 Accident de la route · EDPM · Guide 2026
 # Accident de trottinette électrique : quels sont vos droits ?
@@ -1772,7 +1903,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Victime d'agression : vos droits, la CIVI et le FGTI en 2026
-URL : https://ig-avocat.com/blog/agression-victime-droits-recours
+URL : https://ig-avocat.com/blog\agression-victime-droits-recours
 
 Agression
 # Victime d'agression : comment obtenir une indemnisation ?
@@ -1846,7 +1977,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Délais de prescription accident corporel : quand agir ? 2026
-URL : https://ig-avocat.com/blog/delai-prescription-accident-corporel
+URL : https://ig-avocat.com/blog\delai-prescription-accident-corporel
 
 Prescription
 # Quels sont les délais pour agir après un accident corporel ?
@@ -1959,8 +2090,8 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 
 ---
 
-## Erreur Médicale : Droits, Délais, ONIAM/CCI | Ilan Guedj
-URL : https://ig-avocat.com/blog/erreur-medicale-droits-victime
+## Liste des erreurs médicales : types, droits et recours 2026
+URL : https://ig-avocat.com/blog\erreur-medicale-droits-victime
 
 Erreur médicale
 # Erreur médicale : vos droits, délais, preuve et recours
@@ -2130,7 +2261,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Expertise médicale : judiciaire vs amiable | Guide
-URL : https://ig-avocat.com/blog/expertise-medicale-judiciaire
+URL : https://ig-avocat.com/blog\expertise-medicale-judiciaire
 
 Expertise médicale
 # Expertise médicale : pourquoi l'expertise judiciaire protège mieux les victimes
@@ -2261,7 +2392,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Conducteur en faute : pouvez-vous être indemnisé ?
-URL : https://ig-avocat.com/blog/faute-conducteur-victime-indemnisation
+URL : https://ig-avocat.com/blog\faute-conducteur-victime-indemnisation
 
 Accident de la route · Jurisprudence 2025
 # Conducteur en faute : pouvez-vous être indemnisé après un accident de la route ?
@@ -2361,7 +2492,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Indemnisation accident corporel : combien toucher ? 2026
-URL : https://ig-avocat.com/blog/indemnisation-accident-corporel
+URL : https://ig-avocat.com/blog\indemnisation-accident-corporel
 
 Indemnisation
 # Comment calculer votre indemnisation après un accident corporel ?
@@ -2471,7 +2602,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Accident Grave : Indemnisation & Préjudices | Ilan Guedj
-URL : https://ig-avocat.com/blog/indemnisation-accident-grave
+URL : https://ig-avocat.com/blog\indemnisation-accident-grave
 
 Accident grave
 # Accident grave : indemnisation maximale et préjudices importants
@@ -2710,7 +2841,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Victime passagère d'un accident : vos droits (loi Badinter)
-URL : https://ig-avocat.com/blog/indemnisation-victime-passagere-accident
+URL : https://ig-avocat.com/blog\indemnisation-victime-passagere-accident
 
 Accident de la route
 # Victime passagère d'un accident : quels sont vos droits ?
@@ -2788,8 +2919,90 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 
 ---
 
+## Blog | Conseils Juridiques Victimes | Ilan Guedj
+URL : https://ig-avocat.com/blog\index
+
+Ressources juridiques
+Conseils pour
+# victimes d'accidents
+Guides pratiques rédigés par Maître Ilan Guedj, avocat au barreau de Marseille dont l'activité est consacrée exclusivement au dommage corporel. Chaque guide répond à une question précise de victime, cite les textes applicables et indique sa date de mise à jour.
+Vous cherchez la définition d'un terme (DFP, consolidation, tierce personne, CIVI…) ? Consultez le lexique du dommage corporel.
+Nouveau
+Accident de la route 10 min de lecture
+## Accident de la route : qui est indemnisé et dans quels délais ?
+Piéton, cycliste, passager, motard, conducteur : la loi Badinter ne protège pas tout le monde de la même façon. Qui verse l'indemnisation, sous quels délais, et que faire si le responsable n'est pas assuré.
+17 septembre 2026 Lire l'article →
+Nouveau
+Accident de la route 11 min de lecture
+## Accident de trottinette électrique : quels sont vos droits ?
+EDPM, loi Badinter, assurance obligatoire et FGAO : pourquoi le piéton renversé est mieux protégé que le conducteur de la trottinette, et comment obtenir votre juste indemnisation.
+1 juillet 2026 Lire l'article →
+Préjudices graves 18 min de lecture
+## Accident grave : indemnisation maximale et préjudices importants
+Tierce personne, frais futurs, perte de gains professionnels, paraplégie, traumatisme crânien : comment chaque poste Dintilhac se calcule et pourquoi l'accompagnement précoce change tout.
+14 mai 2026 Lire l'article →
+Accident de la route 10 min de lecture
+## Conducteur en faute : pouvez-vous être indemnisé ?
+L'arrêt Cass. 2e civ. 19 juin 2025 change la donne : la faute doit être prouvée et avoir contribué au dommage. Décryptage et conséquences pratiques.
+13 mai 2026 Lire l'article →
+Expertise médicale 8 min de lecture
+## Médecin-recours : pourquoi il est indispensable pour les victimes
+Qu'est-ce qu'un médecin-recours, comment il intervient lors de l'expertise médicale, et pourquoi il change tout pour votre indemnisation.
+8 mars 2026 Lire l'article →
+Accident de la route 9 min de lecture
+## Victime passagère d'un accident : quels sont vos droits ?
+La loi Badinter protège quasi intégralement les passagers, même si le conducteur est fautif. Quelle assurance intervient, comment est calculée l'indemnisation.
+3 mars 2026 Lire l'article →
+Expertise médicale 10 min de lecture
+## Expertise médicale : pourquoi l'expertise judiciaire protège mieux les victimes
+Expertise amiable ou judiciaire ? Pourquoi nous recommandons l'expertise judiciaire, comment l'obtenir, et comment bien s'y préparer.
+24 février 2026 Lire l'article →
+Agression 10 min de lecture
+## Victime d'agression : comment obtenir une indemnisation ?
+CIVI, FGTI, conditions d'accès, procédure et préjudices indemnisables : tout ce que vous devez savoir pour faire valoir vos droits après une agression.
+19 février 2026 Lire l'article →
+Expertise médicale 12 min de lecture
+## Expertise médicale après un accident grave : les 15 jours qui décident de votre indemnisation
+L'assureur doit vous prévenir quinze jours avant l'examen. Ce que vous devez préparer, poste par poste, pour que rien ne se perde en une matinée.
+27 août 2026 Lire l'article →
+Accident de la route 8 min de lecture
+## Que faire après un accident de la route ?
+Les gestes essentiels dans les premières minutes, comment remplir le constat, vos obligations légales et les erreurs à éviter absolument.
+17 février 2026 Lire l'article →
+Indemnisation 10 min de lecture
+## Combien toucher après un accident corporel ?
+Nomenclature Dintilhac, postes de préjudice, ITT, IPP, préjudice moral : comprendre comment est calculée votre indemnisation.
+17 février 2026 Lire l'article →
+Assurance 9 min de lecture
+## Faut-il accepter l'offre d'indemnisation de son assurance ?
+Pourquoi les premières offres sont sous-évaluées, comment contester et quels recours exercer si l'assurance refuse de négocier.
+17 février 2026 Lire l'article →
+Erreur médicale 11 min de lecture
+## Victime d'une erreur médicale : vos droits et recours
+CCI, ONIAM, aléa thérapeutique, preuves à réunir : tout ce que vous devez savoir pour faire valoir vos droits face au corps médical.
+17 février 2026 Lire l'article →
+Prescription 9 min de lecture
+## Délais de prescription accident corporel : quand agir ?
+Délai de 10 ans, délais spéciaux, notion de consolidation, actes interruptifs : ne laissez pas le temps jouer contre vous.
+17 février 2026 Lire l'article →
+Consultation gratuite
+### Votre dossier mérite une analyse personnalisée
+Chaque accident est unique. Le cabinet ILAN GUEDJ analyse votre situation et vous oriente gratuitement, sans engagement.
+Contacter par WhatsApp 06 63 46 59 84
+## Nos domaines d'intervention
+### Accident de la route
+Loi Badinter, indemnisation victimes
+### Accident de la vie
+GAV, chutes, sport, loisirs
+### Victime d'agression
+CIVI, FGTI, indemnisation
+### Erreur médicale
+CCI, ONIAM, faute médicale
+
+---
+
 ## Médecin-recours : pourquoi il est indispensable | Ilan Guedj
-URL : https://ig-avocat.com/blog/medecin-recours-victime
+URL : https://ig-avocat.com/blog\medecin-recours-victime
 
 Expertise médicale
 # Médecin-recours : pourquoi il est indispensable pour les victimes
@@ -2875,7 +3088,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Expertise médicale accident grave : préparer les 15 jours décisifs
-URL : https://ig-avocat.com/blog/preparer-expertise-medicale-accident-grave
+URL : https://ig-avocat.com/blog\preparer-expertise-medicale-accident-grave
 
 Expertise médicale
 # Expertise médicale après un accident grave : les 15 jours qui décident de votre indemnisation
@@ -3011,7 +3224,7 @@ Consultation gratuite — honoraires uniquement au résultat
 ---
 
 ## Que faire après un accident de la route ? Guide complet 2026
-URL : https://ig-avocat.com/blog/que-faire-apres-accident-route
+URL : https://ig-avocat.com/blog\que-faire-apres-accident-route
 
 Accident de la route
 # Que faire immédiatement après un accident de la route ?
@@ -3092,7 +3305,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Offre d'indemnisation assurance : faut-il l'accepter ? Guide
-URL : https://ig-avocat.com/blog/refuser-offre-assurance-accident
+URL : https://ig-avocat.com/blog\refuser-offre-assurance-accident
 
 Assurance
 # Dois-je accepter l'offre d'indemnisation de mon assurance après un accident ?

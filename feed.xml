@@ -6,9 +6,18 @@
     <atom:link href="https://ig-avocat.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Réponses juridiques sourcées pour les victimes d'accidents de la circulation, d'erreurs médicales, d'agressions et d'accidents de la vie, par Maître Ilan Guedj, avocat au barreau de Marseille.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Thu, 27 Aug 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 09:00:00 +0000</lastBuildDate>
     <managingEditor>contact@ig-avocat.com (Maître Ilan Guedj)</managingEditor>
     <image><url>https://ig-avocat.com/img/og-cover.jpg</url><title>Maître Ilan Guedj</title><link>https://ig-avocat.com/</link></image>
+    <item>
+      <title>Accident de la route : qui est indemnisé et dans quels délais ?</title>
+      <link>https://ig-avocat.com/blog/accident-route-indemnisation</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/accident-route-indemnisation</guid>
+      <description>Loi Badinter : piéton, cycliste, passager, motard, conducteur — qui est indemnisé après un accident de la route, par qui, et dans quels délais.</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Thu, 17 Sep 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-09-17</dc:date>
+    </item>
     <item>
       <title>Expertise médicale accident grave : préparer les 15 jours décisifs</title>
       <link>https://ig-avocat.com/blog/preparer-expertise-medicale-accident-grave</link>
@@ -109,10 +118,10 @@
       <dc:date>2026-02-17</dc:date>
     </item>
     <item>
-      <title>Erreur Médicale : Droits, Délais, ONIAM/CCI | Ilan Guedj</title>
+      <title>Liste des erreurs médicales : types, droits et recours 2026</title>
       <link>https://ig-avocat.com/blog/erreur-medicale-droits-victime</link>
       <guid isPermaLink="true">https://ig-avocat.com/blog/erreur-medicale-droits-victime</guid>
-      <description>Erreur médicale : vos droits, délais de prescription, comment prouver une faute, choisir entre CCI, ONIAM et tribunal. Guide complet 2026 par Maître Ilan Guedj.</description>
+      <description>La liste des erreurs médicales reconnues par la loi : erreur de diagnostic, faute technique, défaut d&#x27;information, infection nosocomiale. Vos droits, CCI et ONIAM.</description>
       <dc:creator>Maître Ilan Guedj</dc:creator>
       <pubDate>Tue, 17 Feb 2026 09:00:00 +0000</pubDate>
       <dc:date>2026-05-20</dc:date>
