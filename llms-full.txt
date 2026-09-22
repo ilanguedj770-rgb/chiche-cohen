@@ -2,7 +2,7 @@
 
 > Corpus texte intégral du site https://ig-avocat.com, mis à disposition des assistants IA et des moteurs de réponse. Maître Ilan Guedj, avocat au barreau de Marseille, 16 rue Breteuil, 13001 Marseille — activité exclusivement consacrée à la défense des victimes de dommage corporel. Consultation gratuite, aucune avance de frais, honoraires uniquement au résultat. Téléphone : 06 63 46 59 84 — contact@ig-avocat.com.
 
-Version générée le 2026-09-17. Synthèse courte : https://ig-avocat.com/llms.txt
+Version générée le 2026-09-22. Synthèse courte : https://ig-avocat.com/llms.txt
 
 ---
 
@@ -517,7 +517,7 @@ Statistiquement les plus gravement blessés. Le motard fautif conserve son droit
 ### Piétons renversés
 Protection maximale : seule la faute « inexcusable et cause exclusive » est opposable (très rare). Pour les piétons gravement blessés ou mineurs/seniors, indemnisation intégrale même en cas de faute simple.
 ### Cyclistes et EDPM
-Même protection que le piéton sous la loi Badinter (non-conducteur d'un véhicule terrestre à moteur). Pour les trottinettes électriques (EDPM), le régime applicable depuis 2019 protège l'utilisateur comme un cycliste.
+Même protection que le piéton sous la loi Badinter (non-conducteur d'un véhicule terrestre à moteur). Attention : l'utilisateur d'une trottinette électrique (EDPM) est, lui, un conducteur de véhicule terrestre à moteur — il relève de l'article 4 et sa faute peut lui être opposée, contrairement au cycliste.
 ### Conducteur de voiture
 La faute du conducteur peut limiter ou exclure son indemnisation. Mais la jurisprudence Cass. 2e civ. 19 juin 2025 a renforcé sa protection : la simple constatation d'un excès de vitesse ne suffit plus à exclure l'indemnisation.
 ### Passager (avant ou arrière)
@@ -1711,8 +1711,17 @@ Le dernier point est celui qu'on oublie. Les images de vidéoprotection urbaine 
 La distinction est importante. L'intervention du Fonds n'obéit pas aux mêmes conditions selon qu'il s'agit de réparer vos blessures ou vos biens — véhicule, vêtements, équipement.
 La prise en charge des dommages matériels est plus restrictive, en particulier lorsque le véhicule responsable n'a pas été identifié. Il ne faut donc pas déduire du sort réservé à votre véhicule celui qui sera réservé à vos blessures.
 ## 6. Ne pas attendre l'identification du conducteur
-C'est l'erreur la plus fréquente : espérer que l'enquête aboutisse, et ne rien faire en attendant. Les conditions et délais de saisine du Fonds varient selon la nature des dommages et la situation ; ils sont précis et ils courent.
-Le dossier doit donc être vérifié dès maintenant, plutôt que reporté à une identification qui peut ne jamais intervenir. Les conditions exactes applicables à votre situation figurent sur le site du Fonds de garantie des assurances obligatoires de dommages.
+C'est l'erreur la plus fréquente : espérer que l'enquête aboutisse, et ne rien faire en attendant. Les délais de saisine du Fonds sont stricts, et leur non-respect fait perdre le droit à indemnisation.
+Situation
+Délai pour saisir le Fonds
+Responsable inconnu, dommages corporels
+3 ans après l'accident
+Responsable connu mais non assuré ou insolvable
+1 an à compter de la décision de justice définitive constatant l'impossibilité d'être indemnisé, ou de la transaction signée
+Dommages matériels uniquement
+1 an à compter de l'accident
+Source : Service-public.fr — indemnisation par le Fonds de garantie (fiche vérifiée le 6 février 2026).
+Le dossier doit donc être constitué dès maintenant, plutôt que reporté à une identification qui peut ne jamais intervenir. Les conditions détaillées figurent sur le site du Fonds de garantie des assurances obligatoires de dommages.
 ## 7. Après l'indemnisation : le recours du Fonds
 Lorsque le responsable est retrouvé par la suite, le Fonds exerce contre lui un recours pour récupérer les sommes versées. Cela ne concerne pas la victime, qui reste indemnisée : c'est une affaire entre le Fonds et le responsable.
 ## 8. Ce qu'il faut retenir
@@ -1732,7 +1741,7 @@ Le dossier est plus difficile, mais pas nécessairement perdu. Les constatations
 ### Mon véhicule est détruit : sera-t-il indemnisé aussi ?
 Pas dans les mêmes conditions. La prise en charge des dommages matériels par le Fonds est plus restrictive que celle du dommage corporel, en particulier lorsque le véhicule responsable n'a pas été identifié. Les deux volets doivent être examinés séparément.
 ### Faut-il attendre que la police retrouve le conducteur ?
-Non. Les conditions et délais de saisine du Fonds sont précis et ils courent. Le dossier doit être vérifié et constitué immédiatement, indépendamment d'une enquête qui peut ne jamais aboutir.
+Non. Lorsque le responsable reste inconnu, le Fonds de garantie doit être saisi dans les trois ans suivant l'accident, et le non-respect de ce délai fait perdre le droit à indemnisation. Le dossier doit être constitué immédiatement, indépendamment d'une enquête qui peut ne jamais aboutir.
 ## Articles liés
 Page pivot
 Accident de la route : qui est indemnisé et dans quels délais ?
@@ -1872,7 +1881,7 @@ La Cour de cassation définit la faute inexcusable de façon exigeante : une fau
 Le cycliste relève de l'article 3. Un vélo n'étant pas un véhicule terrestre à moteur, la personne qui en descend blessée après un choc avec une voiture est traitée comme une victime non conductrice.
 Source : Loi du 5 juillet 1985, article 3
 ## 3. Enfants, personnes âgées, victimes gravement handicapées
-L'article 3 réserve une protection renforcée à trois catégories : les victimes âgées de moins de seize ans, celles âgées de plus de soixante-dix ans, et celles atteintes d'une incapacité permanente ou d'une invalidité au moins égale à 80 %.
+L'article 3 réserve une protection renforcée à trois catégories : les victimes âgées de moins de seize ans, celles âgées de plus de soixante-dix ans, et celles titulaires, au moment de l'accident, d'un titre leur reconnaissant un taux d'incapacité permanente ou d'invalidité d'au moins 80 %.
 Pour ces victimes, la faute inexcusable n'est pas opposable. Seule la recherche volontaire du dommage peut faire obstacle à l'indemnisation. Un enfant de dix ans qui surgit entre deux voitures est intégralement indemnisé.
 ## 4. Conducteur : la faute peut réduire ou supprimer l'indemnisation
 L'article 4 traite différemment celui qui était au volant : sa propre faute a pour effet de limiter ou d'exclure l'indemnisation de ses dommages corporels.
@@ -1933,7 +1942,7 @@ Ce point de départ mérite attention : le délai ne court pas de l'accident, ma
 Source : Code civil, art. 2226
 ## 16. Ce qu'il faut retenir
 - ✓ Piéton, cycliste, passager : indemnisation du dommage corporel, sauf faute inexcusable cause exclusive de l'accident
-- ✓ Moins de 16 ans, plus de 70 ans, invalidité d'au moins 80 % : protection renforcée
+- ✓ Moins de 16 ans, plus de 70 ans, titre d'invalidité d'au moins 80 % détenu avant l'accident : protection renforcée
 - ✓ Conducteur, motard, trottinette : la faute de conduite peut réduire ou exclure l'indemnisation
 - ✓ Responsable non assuré, en fuite ou non identifié : le FGAO prend le relais
 - ✓ Offre sous 8 mois, offre définitive sous 5 mois après consolidation, sanction au double du taux légal en cas de retard
@@ -2099,7 +2108,7 @@ URL : https://ig-avocat.com/blog\accident-velo-indemnisation
 
 Accident de la route · Cycliste · Guide 2026
 # Cycliste renversé : quelle indemnisation après l'accident ?
-Le cycliste blessé dans un accident impliquant un véhicule terrestre à moteur est une victime non conductrice au sens de la loi du 5 juillet 1985. Pour ses dommages corporels, sa propre imprudence ne lui est pas opposable : seule une faute inexcusable, cause exclusive de l'accident, pourrait l'en priver, avec une protection renforcée pour les moins de 16 ans, les plus de 70 ans et les personnes présentant une invalidité d'au moins 80 %. Les dommages au vélo obéissent, eux, à des règles distinctes.
+Le cycliste blessé dans un accident impliquant un véhicule terrestre à moteur est une victime non conductrice au sens de la loi du 5 juillet 1985. Pour ses dommages corporels, sa propre imprudence ne lui est pas opposable : seule une faute inexcusable, cause exclusive de l'accident, pourrait l'en priver, avec une protection renforcée pour les moins de 16 ans, les plus de 70 ans et les personnes déjà titulaires, au moment de l'accident, d'un titre d'invalidité d'au moins 80 %. Les dommages au vélo obéissent, eux, à des règles distinctes.
 Publié le 17 septembre 2026 8 min de lecture Maître Ilan Guedj
 Un cycliste renversé par une voiture n'est pas dans la situation d'un automobiliste ou d'un motard. La loi le range parmi les victimes qu'elle protège le plus : son imprudence ne lui est, en principe, pas opposée. Encore faut-il le savoir au moment où l'assureur explique le contraire.
 ## 1. Le cycliste est une victime non conductrice
@@ -2113,7 +2122,7 @@ Autrement dit : rouler sans casque, avoir grillé un feu, circuler sur une porti
 La Cour de cassation en retient une définition exigeante : une faute volontaire d'une exceptionnelle gravité, exposant son auteur sans raison valable à un danger dont il aurait dû avoir conscience. Et il faut encore qu'elle ait été la cause exclusive de l'accident.
 En pratique, elle est très rarement retenue. Si un assureur vous l'oppose, c'est une position de négociation avant d'être une analyse juridique — elle se discute.
 ## 4. Enfants, seniors, victimes lourdement handicapées
-La loi réserve une protection renforcée à trois catégories : les victimes de moins de seize ans, celles de plus de soixante-dix ans, et celles atteintes d'une incapacité permanente ou d'une invalidité au moins égale à 80 %.
+La loi réserve une protection renforcée à trois catégories : les victimes de moins de seize ans, celles de plus de soixante-dix ans, et celles titulaires, au moment de l'accident, d'un titre leur reconnaissant un taux d'incapacité permanente ou d'invalidité d'au moins 80 %.
 Pour elles, même la faute inexcusable n'est pas opposable : seule la recherche volontaire du dommage peut faire obstacle à l'indemnisation. Un enfant à vélo qui débouche sans regarder est intégralement indemnisé.
 ## 5. Le vélo à assistance électrique : attention à la catégorie
 Un vélo à assistance électrique dont l'assistance se coupe à 25 km/h et dont le moteur n'excède pas 250 watts reste juridiquement un cycle : son utilisateur conserve le régime protecteur de l'article 3.
@@ -2129,7 +2138,7 @@ Sources : C. assur., art. L. 211-9 · Fonds de garantie
 ## 8. Ce qu'il faut retenir
 - ✓ Le cycliste relève de l'article 3 : son imprudence ne lui est pas opposable pour ses blessures
 - ✓ Seule la faute inexcusable, cause exclusive de l'accident peut l'en priver — hypothèse rare
-- ✓ Moins de 16 ans, plus de 70 ans, invalidité d'au moins 80 % : protection renforcée
+- ✓ Moins de 16 ans, plus de 70 ans, titre d'invalidité d'au moins 80 % détenu avant l'accident : protection renforcée
 - ✓ Un VAE bridé à 25 km/h reste un cycle ; au-delà, l'utilisateur devient un conducteur
 - ✓ Le vélo endommagé obéit à d'autres règles que le dommage corporel
 ## Questions fréquentes
@@ -2788,6 +2797,16 @@ Il ne faut donc pas déduire du sort de votre véhicule celui qui sera réservé
 - → le certificat médical initial et l'ensemble des pièces médicales ;
 - → les justificatifs de pertes : arrêts de travail, bulletins de salaire, frais restés à charge ;
 - → les témoignages, lorsque les circonstances sont discutées.
+Les délais sont stricts : leur non-respect fait perdre le droit à indemnisation.
+Situation
+Délai pour saisir le Fonds
+Responsable inconnu, dommages corporels
+3 ans après l'accident
+Responsable connu mais non assuré ou insolvable
+1 an à compter de la décision de justice définitive constatant l'impossibilité d'être indemnisé, ou de la transaction signée
+Dommages matériels uniquement
+1 an à compter de l'accident
+Source : Service-public.fr — indemnisation par le Fonds de garantie (fiche vérifiée le 6 février 2026).
 ## 6. Le recours du Fonds contre le responsable
 Une fois la victime indemnisée, le Fonds se retourne contre le conducteur non assuré pour récupérer les sommes versées. Cette phase ne concerne pas la victime : son indemnisation n'est pas suspendue à la solvabilité du responsable.
 ## 7. Vos propres garanties peuvent aussi jouer
@@ -2986,7 +3005,7 @@ La loi du 5 juillet 1985, dite « loi Badinter » (articles 1 à 6), constitue l
 ### Pour quels accidents la loi Badinter s’applique-t-elle ?
 La loi Badinter s’applique à tout accident de la circulation impliquant un véhicule terrestre à moteur (VTM) — voiture, camion, moto, scooter, quad, engin de chantier — sur la voie publique ou dans un lieu privé accessible à la circulation. Elle couvre aussi bien les collisions entre véhicules que les accidents avec un piéton, un cycliste, un utilisateur d’EDPM (trottinette électrique, gyropode) ou un cavalier, dès lors qu’un VTM est impliqué dans l’accident.
 ### Une protection renforcée pour les usagers vulnérables
-La loi distingue deux catégories de victimes. Les usagers vulnérables — piétons, cyclistes, utilisateurs d’EDPM, passagers d’un véhicule, enfants, personnes de plus de 70 ans, victimes ayant un taux d’incapacité supérieur ou égal à 80 % — bénéficient d’une protection quasi absolue : leur indemnisation ne peut être limitée ou exclue qu’en cas de faute inexcusable cause exclusive de l’accident, ou en cas de recherche volontaire du dommage. Dans la pratique judiciaire, la qualification de faute inexcusable est extrêmement rare : il faut une témérité d’une exceptionnelle gravité, exposant la victime à un danger dont elle aurait dû avoir conscience.
+La loi distingue deux catégories de victimes. Les usagers vulnérables — piétons, cyclistes, passagers d’un véhicule, et plus encore enfants de moins de 16 ans, personnes de plus de 70 ans et victimes déjà titulaires, au moment de l’accident, d’un titre d’incapacité ou d’invalidité d’au moins 80 % — bénéficient d’une protection quasi absolue : leur indemnisation ne peut être limitée ou exclue qu’en cas de faute inexcusable cause exclusive de l’accident, ou en cas de recherche volontaire du dommage. Dans la pratique judiciaire, la qualification de faute inexcusable est extrêmement rare : il faut une témérité d’une exceptionnelle gravité, exposant la victime à un danger dont elle aurait dû avoir conscience.
 ### La protection du conducteur : un régime qui s’est renforcé
 Le conducteur du véhicule, en revanche, peut voir son indemnisation réduite ou exclue en raison de sa propre faute. C’est sur ce terrain que la jurisprudence a profondément évolué, notamment avec l’arrêt rendu par la 2e chambre civile de la Cour de cassation le 19 juin 2025, qui durcit les conditions dans lesquelles une faute du conducteur peut lui être opposée. Voir notre analyse détaillée dans faute du conducteur et indemnisation.
 En substance, la faute du conducteur ne peut désormais limiter son indemnisation que si elle présente un lien de causalité direct et exclusif avec son propre dommage. Conséquence concrète : un motard fautif gravement blessé conserve son droit à indemnisation pour la majeure partie des postes, et notamment pour les postes qui ne sont pas strictement liés à la conduite — tierce personne, frais futurs, préjudices extra-patrimoniaux. La réduction éventuelle ne porte que sur certains postes patrimoniaux, et dans des proportions limitées.
@@ -3465,7 +3484,7 @@ URL : https://ig-avocat.com/blog\pieton-indemnisation-accident
 
 Accident de la route · Piéton · Guide 2026
 # Piéton renversé : quelle indemnisation après l'accident ?
-Le piéton blessé dans un accident impliquant un véhicule terrestre à moteur bénéficie de la protection la plus forte de la loi du 5 juillet 1985. Pour son dommage corporel, sa propre faute ne lui est opposable que dans l'hypothèse très restrictive d'une faute inexcusable constituant la cause exclusive de l'accident. Les moins de 16 ans, les plus de 70 ans et les personnes présentant une invalidité d'au moins 80 % bénéficient d'une protection renforcée : même cette faute leur est inopposable.
+Le piéton blessé dans un accident impliquant un véhicule terrestre à moteur bénéficie de la protection la plus forte de la loi du 5 juillet 1985. Pour son dommage corporel, sa propre faute ne lui est opposable que dans l'hypothèse très restrictive d'une faute inexcusable constituant la cause exclusive de l'accident. Les moins de 16 ans, les plus de 70 ans et les personnes déjà titulaires, au moment de l'accident, d'un titre d'invalidité d'au moins 80 % bénéficient d'une protection renforcée : même cette faute leur est inopposable.
 Publié le 17 septembre 2026 8 min de lecture Maître Ilan Guedj
 « J'ai traversé en dehors du passage piéton, donc je n'aurai rien. » C'est la phrase que les victimes prononcent le plus souvent, et elle est fausse. Le piéton est précisément celui que la loi de 1985 a voulu protéger le plus fortement — au point que son imprudence ne lui est, en principe, pas opposée.
 ## 1. La protection la plus forte du droit de l'indemnisation
@@ -3479,8 +3498,8 @@ Traverser en dehors d'un passage protégé, s'engager au feu vert des véhicules
 La Cour de cassation en donne une définition volontairement étroite : une faute volontaire d'une exceptionnelle gravité, exposant son auteur sans raison valable à un danger dont il aurait dû avoir conscience.
 Trois conditions cumulatives, donc : le caractère volontaire, l'exceptionnelle gravité, l'absence de raison valable. Et il faut encore que cette faute ait été la cause exclusive de l'accident — ce qui suppose qu'aucun comportement du conducteur n'y ait contribué.
 Lorsqu'un assureur oppose la faute inexcusable à un piéton, c'est une position de négociation avant d'être une analyse juridique. Elle se conteste, et elle tombe souvent.
-## 4. Enfants, plus de 70 ans, invalidité d'au moins 80 %
-Pour trois catégories de victimes, la loi va plus loin encore. Les personnes âgées de moins de seize ans, celles âgées de plus de soixante-dix ans, et celles atteintes d'une incapacité permanente ou d'une invalidité au moins égale à 80 % ne peuvent se voir opposer que la recherche volontaire du dommage.
+## 4. Enfants, plus de 70 ans, personnes déjà invalides à 80 %
+Pour trois catégories de victimes, la loi va plus loin encore. Les personnes âgées de moins de seize ans, celles âgées de plus de soixante-dix ans, et celles titulaires, au moment de l'accident, d'un titre leur reconnaissant un taux d'incapacité permanente ou d'invalidité d'au moins 80 % ne peuvent se voir opposer que la recherche volontaire du dommage.
 Même une faute inexcusable ne leur est pas opposable. Un enfant qui traverse en courant derrière un ballon, une personne âgée qui s'engage hors d'un passage : l'indemnisation est due intégralement.
 ## 5. Qui indemnise le piéton renversé
 L'assureur du véhicule impliqué. Lorsque plusieurs véhicules le sont, le piéton peut s'adresser à l'assureur de n'importe lequel d'entre eux, les assureurs réglant ensuite leurs comptes entre eux.
@@ -3495,7 +3514,7 @@ Sources : C. assur., art. L. 211-9 · C. civ., art. 2226
 ## 8. Ce qu'il faut retenir
 - ✓ Le piéton relève de l'article 3 : son imprudence ne lui est pas opposable
 - ✓ Traverser hors d'un passage protégé n'est pas une faute inexcusable
-- ✓ Moins de 16 ans, plus de 70 ans, invalidité d'au moins 80 % : même la faute inexcusable est écartée
+- ✓ Moins de 16 ans, plus de 70 ans, titre d'invalidité d'au moins 80 % détenu avant l'accident : même la faute inexcusable est écartée
 - ✓ Conducteur non assuré, en fuite ou inconnu : le Fonds de garantie intervient
 - ✓ Le principe étant acquis, tout se joue à l'expertise médicale
 ## Questions fréquentes
@@ -3526,7 +3545,7 @@ Combien toucher après un accident corporel ?
 Si l'on vous oppose votre propre imprudence, faites vérifier votre dossier gratuitement.
 WhatsApp 06 63 46 59 84
 À retenir
-Le piéton relève de l'article 3. Traverser hors d'un passage protégé n'est pas une faute inexcusable. Moins de 16 ans, plus de 70 ans, invalidité d'au moins 80 % : la protection est encore renforcée.
+Le piéton relève de l'article 3. Traverser hors d'un passage protégé n'est pas une faute inexcusable. Moins de 16 ans, plus de 70 ans, titre d'invalidité d'au moins 80 % détenu avant l'accident : la protection est encore renforcée.
 Nos domaines
 Accident de la route Erreur médicale Agression Accident de la vie
 Piéton renversé — Agissez
