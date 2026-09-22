@@ -58,7 +58,7 @@ SECTIONS = [
   ("dft", "Déficit fonctionnel temporaire (DFT)", "dft-definition.md", None, [DINTILHAC],
    [("blog/indemnisation-accident-corporel", "Les postes de préjudice temporaires")], []),
   ("dfp", "Déficit fonctionnel permanent (DFP)", "dfp-definition.md", None, [DINTILHAC],
-   [("blog/indemnisation-accident-grave", "Indemnisation d'un accident grave")], []),
+   [("blog/deficit-fonctionnel-permanent-dfp", "DFP : comment est-il indemnisé ?"), ("blog/indemnisation-accident-grave", "Indemnisation d'un accident grave")], []),
   ("souffrances-endurees", "Souffrances endurées (pretium doloris)", None,
    "Les souffrances endurées désignent les souffrances physiques et psychiques subies par la victime "
    "entre l'accident et la consolidation : douleurs liées aux lésions, aux interventions, aux soins et "
@@ -66,16 +66,16 @@ SECTIONS = [
    "habituellement sur une échelle de 1 à 7 ; cette cotation n'est pas un montant et doit être justifiée "
    "par les éléments du dossier (hospitalisations, opérations, traitements). Après consolidation, les "
    "douleurs permanentes relèvent du déficit fonctionnel permanent.",
-   [DINTILHAC], [("blog/indemnisation-accident-corporel", "Comment est évalué le pretium doloris ?")], []),
+   [DINTILHAC], [("blog/souffrances-endurees", "Souffrances endurées : la cotation sur 7"), ("blog/indemnisation-accident-corporel", "Les postes de préjudice")], []),
   ("prejudice-esthetique", "Préjudice esthétique", "prejudice-esthetique-definition.md", None, [DINTILHAC], [], []),
   ("prejudice-agrement", "Préjudice d'agrément", "prejudice-agrement-definition.md", None, [DINTILHAC], [], []),
   ("prejudice-sexuel", "Préjudice sexuel", "prejudice-sexuel-definition.md", None, [DINTILHAC], [], []),
   ("prejudice-etablissement", "Préjudice d'établissement", "prejudice-etablissement-definition.md", None, [DINTILHAC], [], []),
   ("tierce-personne", "Assistance par tierce personne", "03-tierce-personne.md", None, [DINTILHAC],
-   [("blog/indemnisation-accident-grave", "Tierce personne et accident grave")], []),
+   [("blog/tierce-personne-indemnisation", "Tierce personne : comment l'aide humaine est indemnisée"), ("blog/indemnisation-accident-grave", "Tierce personne et accident grave")], []),
   ("pgpa", "Pertes de gains professionnels actuels (PGPA)", "pertes-gains-professionnels-actuels.md", None, [DINTILHAC], [], []),
-  ("pgpf", "Pertes de gains professionnels futurs (PGPF)", "pertes-gains-professionnels-futurs.md", None, [DINTILHAC], [], []),
-  ("incidence-professionnelle", "Incidence professionnelle", "incidence-professionnelle-definition.md", None, [DINTILHAC], [], []),
+  ("pgpf", "Pertes de gains professionnels futurs (PGPF)", "pertes-gains-professionnels-futurs.md", None, [DINTILHAC], [("blog/capitalisation-prejudice-euro-de-rente", "Capitaliser un préjudice futur : l'euro de rente")], []),
+  ("incidence-professionnelle", "Incidence professionnelle", "incidence-professionnelle-definition.md", None, [DINTILHAC], [("blog/incidence-professionnelle", "Incidence professionnelle : ce qu'elle indemnise")], []),
   ("prejudice-scolaire", "Préjudice scolaire, universitaire ou de formation", "prejudice-scolaire-universitaire-formation.md", None, [DINTILHAC], [], []),
   ("logement-adapte", "Frais de logement adapté", "frais-logement-adapte-indemnisation.md", None, [DINTILHAC], [], []),
   ("vehicule-adapte", "Frais de véhicule adapté", "vehicule-adapte-indemnisation.md", None, [DINTILHAC], [], []),

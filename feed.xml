@@ -6,9 +6,54 @@
     <atom:link href="https://ig-avocat.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Réponses juridiques sourcées pour les victimes d'accidents de la circulation, d'erreurs médicales, d'agressions et d'accidents de la vie, par Maître Ilan Guedj, avocat au barreau de Marseille.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Thu, 17 Sep 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 09:00:00 +0000</lastBuildDate>
     <managingEditor>contact@ig-avocat.com (Maître Ilan Guedj)</managingEditor>
     <image><url>https://ig-avocat.com/img/og-cover.jpg</url><title>Maître Ilan Guedj</title><link>https://ig-avocat.com/</link></image>
+    <item>
+      <title>Tierce personne : comment l&#x27;aide humaine est indemnisée</title>
+      <link>https://ig-avocat.com/blog/tierce-personne-indemnisation</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/tierce-personne-indemnisation</guid>
+      <description>Assistance par tierce personne : aide temporaire et permanente, aide familiale gratuite indemnisée, volume horaire, coût horaire et capitalisation du besoin futur.</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-09-22</dc:date>
+    </item>
+    <item>
+      <title>Souffrances endurées : comment la cotation sur 7 est indemnisée</title>
+      <link>https://ig-avocat.com/blog/souffrances-endurees</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/souffrances-endurees</guid>
+      <description>Souffrances endurées : ce que couvre le poste, l&#x27;échelle de 1 à 7, ce que l&#x27;expert doit prendre en compte, et pourquoi 4/7 ne vaut pas un montant fixe.</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-09-22</dc:date>
+    </item>
+    <item>
+      <title>Incidence professionnelle : ce qu&#x27;elle indemnise vraiment</title>
+      <link>https://ig-avocat.com/blog/incidence-professionnelle</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/incidence-professionnelle</guid>
+      <description>Incidence professionnelle : pénibilité, dévalorisation, perte de chance, reclassement. Ce qui la distingue de la perte de revenus, et comment la prouver.</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-09-22</dc:date>
+    </item>
+    <item>
+      <title>DFP : comment est indemnisé le déficit fonctionnel permanent ?</title>
+      <link>https://ig-avocat.com/blog/deficit-fonctionnel-permanent-dfp</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/deficit-fonctionnel-permanent-dfp</guid>
+      <description>Déficit fonctionnel permanent : ce que mesure le taux, qui le fixe, pourquoi 10 % de DFP ne vaut pas une somme fixe, et ce que le DFP ne couvre pas.</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-09-22</dc:date>
+    </item>
+    <item>
+      <title>Euro de rente : comment est capitalisé un préjudice futur ?</title>
+      <link>https://ig-avocat.com/blog/capitalisation-prejudice-euro-de-rente</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/capitalisation-prejudice-euro-de-rente</guid>
+      <description>Capitalisation d&#x27;un préjudice futur : la formule montant annuel × prix de l&#x27;euro de rente, le rôle de l&#x27;âge, du sexe, des tables et du taux, et le choix du barème.</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Tue, 22 Sep 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-09-22</dc:date>
+    </item>
     <item>
       <title>Piéton renversé : quelle indemnisation après l&#x27;accident ?</title>
       <link>https://ig-avocat.com/blog/pieton-indemnisation-accident</link>
@@ -151,22 +196,22 @@
       <description>Que faire après un accident de la route ? Constat, obligations, déclaration assurance, erreurs à éviter : le guide complet de l&#x27;avocat Ilan Guedj.</description>
       <dc:creator>Maître Ilan Guedj</dc:creator>
       <pubDate>Tue, 17 Feb 2026 09:00:00 +0000</pubDate>
-      <dc:date>2026-02-17</dc:date>
+      <dc:date>2026-09-22</dc:date>
     </item>
     <item>
       <title>Indemnisation accident corporel : combien toucher ? 2026</title>
       <link>https://ig-avocat.com/blog/indemnisation-accident-corporel</link>
       <guid isPermaLink="true">https://ig-avocat.com/blog/indemnisation-accident-corporel</guid>
-      <description>Indemnisation accident corporel : montants, postes de préjudice, nomenclature Dintilhac. Calculez votre indemnisation avec l&#x27;avocat Ilan Guedj à Marseille.</description>
+      <description>Indemnisation d&#x27;un accident corporel : les postes de préjudice Dintilhac, comment chacun s&#x27;évalue, et pourquoi aucun barème ne donne un montant fixe.</description>
       <dc:creator>Maître Ilan Guedj</dc:creator>
       <pubDate>Tue, 17 Feb 2026 09:00:00 +0000</pubDate>
-      <dc:date>2026-02-17</dc:date>
+      <dc:date>2026-09-22</dc:date>
     </item>
     <item>
       <title>Liste des erreurs médicales : types, droits et recours 2026</title>
       <link>https://ig-avocat.com/blog/erreur-medicale-droits-victime</link>
       <guid isPermaLink="true">https://ig-avocat.com/blog/erreur-medicale-droits-victime</guid>
-      <description>La liste des erreurs médicales reconnues par la loi : erreur de diagnostic, faute technique, défaut d&#x27;information, infection nosocomiale. Vos droits, CCI et ONIAM.</description>
+      <description>Types d&#x27;erreurs médicales, délai pour agir contre un hôpital ou un médecin (10 ans après consolidation), plainte pénale, CCI et ONIAM : les droits de la victime.</description>
       <dc:creator>Maître Ilan Guedj</dc:creator>
       <pubDate>Tue, 17 Feb 2026 09:00:00 +0000</pubDate>
       <dc:date>2026-05-20</dc:date>
@@ -175,10 +220,10 @@
       <title>Délais de prescription accident corporel : quand agir ? 2026</title>
       <link>https://ig-avocat.com/blog/delai-prescription-accident-corporel</link>
       <guid isPermaLink="true">https://ig-avocat.com/blog/delai-prescription-accident-corporel</guid>
-      <description>Délai de prescription accident corporel : règle des 10 ans, délais spéciaux, consolidation, actes interruptifs. Ne laissez pas le temps jouer contre vous.</description>
+      <description>Délai de prescription accident corporel : règle des 10 ans, délais courts (CIVI, Fonds de garantie, produit défectueux), consolidation, ce qui interrompt vraiment le délai.</description>
       <dc:creator>Maître Ilan Guedj</dc:creator>
       <pubDate>Tue, 17 Feb 2026 09:00:00 +0000</pubDate>
-      <dc:date>2026-02-17</dc:date>
+      <dc:date>2026-09-22</dc:date>
     </item>
   </channel>
 </rss>

@@ -77,7 +77,9 @@ SOURCES = [
      "name": "Fiche Cabinet Ilan Guedj sur Predictice",
      "url": "https://predictice.com/cabinet/cabinet-ilan-guedj-922092382"},
 ]
-SAME_AS = [s["url"] for s in SOURCES]
+# Profils publics tenus par l'avocat lui-même (identité), en tête de sameAs.
+PROFILES = ["https://www.linkedin.com/in/ilan-guedj/", "https://x.com/Guedj_"]
+SAME_AS = PROFILES + [s["url"] for s in SOURCES]
 
 
 def person():
@@ -122,7 +124,6 @@ def person():
         "knowsLanguage": [
             {"@type": "Language", "name": "Français", "alternateName": "fr"},
             {"@type": "Language", "name": "Anglais", "alternateName": "en"},
-            {"@type": "Language", "name": "Hébreu", "alternateName": "he"},
         ],
         "sameAs": SAME_AS,
         "subjectOf": SOURCES,
@@ -151,8 +152,8 @@ def practice():
         "currenciesAccepted": "EUR",
         "areaServed": AREAS,
         "knowsAbout": KNOWS,
-        "knowsLanguage": ["fr-FR", "en", "he"],
-        "availableLanguage": ["fr", "en", "he"],
+        "knowsLanguage": ["fr-FR", "en"],
+        "availableLanguage": ["fr", "en"],
         "memberOf": BARREAU,
         "publishingPrinciples": f"{SITE}/mentions-legales",
         "openingHoursSpecification": [{
@@ -166,7 +167,7 @@ def practice():
             "contactType": "Prise de contact — victimes",
             "telephone": "+33663465984",
             "email": "contact@ig-avocat.com",
-            "availableLanguage": ["fr", "en", "he"],
+            "availableLanguage": ["fr", "en"],
             "areaServed": "FR",
             "url": f"{SITE}/contact",
         }],

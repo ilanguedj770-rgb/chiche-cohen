@@ -1532,13 +1532,15 @@ Le déficit fonctionnel permanent, souvent abrégé DFP, est un poste de préjud
 Sources
 Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
 Pour aller plus loin
+DFP : comment est-il indemnisé ?
 Indemnisation d'un accident grave
 ### Souffrances endurées (pretium doloris)
 Les souffrances endurées désignent les souffrances physiques et psychiques subies par la victime entre l'accident et la consolidation : douleurs liées aux lésions, aux interventions, aux soins et à la rééducation, ainsi que le retentissement psychologique de cette période. L'expert les cote habituellement sur une échelle de 1 à 7 ; cette cotation n'est pas un montant et doit être justifiée par les éléments du dossier (hospitalisations, opérations, traitements). Après consolidation, les douleurs permanentes relèvent du déficit fonctionnel permanent.
 Sources
 Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
 Pour aller plus loin
-Comment est évalué le pretium doloris ?
+Souffrances endurées : la cotation sur 7
+Les postes de préjudice
 ### Préjudice esthétique
 Le préjudice esthétique correspond à l'altération de l'apparence physique imputable au dommage : cicatrices, déformations, boiterie visible, appareillage ou autres modifications perceptibles. L'expertise médico-légale distingue habituellement les conséquences esthétiques temporaires avant consolidation et le préjudice esthétique permanent après consolidation. L'évaluation médicale peut utiliser une échelle graduée, mais la note retenue n'est pas à elle seule une somme d'argent. La localisation, la visibilité, l'âge de la victime et les caractéristiques concrètes de l'atteinte sont notamment susceptibles d'être discutés lors de la valorisation. Des photographies datées et de bonne qualité peuvent utilement documenter l'évolution de l'apparence.
 Sources
@@ -1560,6 +1562,7 @@ L'assistance par tierce personne indemnise l'aide humaine rendue nécessaire par
 Sources
 Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
 Pour aller plus loin
+Tierce personne : comment l'aide humaine est indemnisée
 Tierce personne et accident grave
 ### Pertes de gains professionnels actuels (PGPA)
 Les pertes de gains professionnels actuels concernent les revenus professionnels perdus pendant la période antérieure à la consolidation en raison du dommage corporel. L'objectif est de reconstituer la perte économique réellement imputable à l'accident, en tenant compte de la situation professionnelle de la victime et, le cas échéant, des revenus ou prestations reçus pendant l'arrêt. Le calcul peut être simple pour un salarié dont la rémunération est stable, mais demande une analyse plus poussée pour un indépendant, un dirigeant, une personne ayant des revenus variables ou une victime qui devait prochainement entrer dans la vie active. Les justificatifs fiscaux, comptables et professionnels doivent permettre de distinguer la perte causée par l'accident des autres variations de revenus.
@@ -1569,10 +1572,14 @@ Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudice
 Les pertes de gains professionnels futurs correspondent aux pertes de revenus professionnels subies après la consolidation lorsqu'elles résultent des séquelles de l'accident. Leur calcul ne doit pas être confondu avec l'incidence professionnelle : ici, il s'agit d'abord d'identifier une perte économique de revenus imputable au handicap. L'analyse nécessite de comparer la trajectoire professionnelle et les revenus qui auraient raisonnablement pu être obtenus sans le dommage avec la situation réellement constatée après celui-ci. Bulletins de salaire, avis d'imposition, contrats, carrière antérieure, arrêts de travail, licenciement, reclassement et capacités résiduelles de travail sont donc déterminants. Pour les pertes futures, les hypothèses retenues doivent être explicites et justifiées.
 Sources
 Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+Pour aller plus loin
+Capitaliser un préjudice futur : l'euro de rente
 ### Incidence professionnelle
 L'incidence professionnelle correspond aux conséquences durables du handicap sur la vie professionnelle qui ne se réduisent pas à une simple perte arithmétique de revenus. Selon le dossier, elle peut notamment concerner une pénibilité accrue, une dévalorisation sur le marché du travail, une perte de chance professionnelle, la nécessité d'un changement de métier ou certains effets sur la carrière. Elle doit être démontrée concrètement à partir de la profession exercée, des contraintes du poste, du parcours antérieur, des séquelles et des possibilités de reclassement. Elle doit aussi être distinguée des pertes de gains professionnels futurs afin d'éviter d'indemniser deux fois la même conséquence.
 Sources
 Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+Pour aller plus loin
+Incidence professionnelle : ce qu'elle indemnise
 ### Préjudice scolaire, universitaire ou de formation
 Un accident peut retarder ou perturber une scolarité, des études supérieures ou une formation professionnelle. Le préjudice doit être apprécié concrètement : interruption des cours, redoublement, report d'examens, abandon d'une formation, changement d'orientation ou perte de chance d'accéder à un parcours envisagé. Il faut distinguer les conséquences temporaires sur les études des répercussions professionnelles futures qui pourront relever d'autres postes. Certificats de scolarité, résultats antérieurs, attestations de l'établissement, calendrier des examens et éléments sur le projet de formation permettent de démontrer que la difficulté est imputable au dommage et d'en mesurer la portée.
 Sources
@@ -2255,82 +2262,280 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 
 ---
 
+## Euro de rente : comment est capitalisé un préjudice futur ?
+URL : https://ig-avocat.com/blog\capitalisation-prejudice-euro-de-rente
+
+Préjudices · Calcul · Guide 2026
+# Capitaliser un préjudice futur : le prix de l'euro de rente
+Lorsqu'un préjudice se répète chaque année dans l'avenir (perte de revenus, tierce personne, frais de santé futurs), son indemnisation en capital se calcule en multipliant le montant annuel par le prix de l'euro de rente lu dans un barème de capitalisation, selon l'âge et le sexe de la victime et la durée de la rente. Ce prix dépend de la table de mortalité et du taux d'actualisation : plus le taux est bas, plus le capital est élevé. Aucun barème n'étant imposé par la loi, son choix se discute.
+Publié le 22 septembre 2026 7 min de lecture Maître Ilan Guedj
+Une perte de revenus jusqu'à la retraite, une aide humaine à vie, des frais qui reviennent chaque année : ces préjudices se mesurent en euros par an, mais s'indemnisent le plus souvent en une seule fois. Le passage de l'un à l'autre repose sur un outil technique, le prix de l'euro de rente, dont les paramètres pèsent lourd sur le résultat.
+## 1. Pourquoi capitaliser un préjudice futur
+Certains préjudices ne s'arrêtent pas à la date du jugement ou de la transaction : une perte de revenus qui durera jusqu'à la retraite, une aide humaine nécessaire à vie, des frais de santé qui se renouvelleront chaque année. Ils se mesurent en montant par an.
+Or l'indemnisation est le plus souvent versée en une seule fois, sous forme de capital. Il faut donc convertir une suite de sommes annuelles futures en un capital payé aujourd'hui. C'est l'objet de la capitalisation.
+La période déjà écoulée se calcule autrement : les pertes subies entre l'accident et la date de l'évaluation (les « arrérages échus ») se chiffrent sur justificatifs. Seule la période à venir (les « arrérages à échoir ») est capitalisée.
+## 2. La formule : montant annuel × prix de l'euro de rente
+Le calcul tient en une multiplication :
+Capital = montant annuel du préjudice × prix de l'euro de rente
+Le prix de l'euro de rente est le capital qu'il faut verser aujourd'hui pour servir 1 € par an pendant la durée considérée.
+Ce prix se lit dans un barème de capitalisation. La ligne correspond à l'âge de la victime à la date à laquelle la rente est attribuée (en pratique, la date de l'évaluation). La colonne correspond à la durée de la rente : à vie (rente « viagère ») ou jusqu'à un âge donné (rente « temporaire », par exemple jusqu'à l'âge de la retraite).
+L'exemple publié avec le barème de la Gazette du Palais 2025 : pour une femme de 32 ans et une rente viagère de 1 000 € par an, le prix de l'euro de rente est de 46,424 avec les tables de mortalité stationnaires, soit un capital de 46 424 € ; il est de 49,883 avec les tables prospectives, soit 49 883 €.
+Source : Gazette du Palais, barème de capitalisation publié le 14 janvier 2025 (réf. GPL471y4), taux d'actualisation 0,5 %, tables INSEE.
+## 3. Les quatre paramètres qui font varier le résultat
+Le même préjudice annuel peut conduire à des capitaux sensiblement différents selon les paramètres retenus :
+- → L'âge de la victime à la date d'attribution de la rente : plus la victime est jeune, plus la durée est longue et plus le prix est élevé ;
+- → Le sexe : les barèmes distinguent les hommes et les femmes, dont l'espérance de vie diffère. Il faut toujours lire la colonne qui correspond à la victime ;
+- → La table de mortalité : une table « stationnaire » photographie la mortalité observée sur une période donnée ; une table « prospective » anticipe les gains futurs d'espérance de vie et conduit à un prix plus élevé, surtout pour les rentes viagères ;
+- → Le taux d'actualisation : c'est le rendement supposé du capital placé. Plus il est bas, plus le capital nécessaire est élevé.
+L'écart entre tables stationnaires et prospectives est plus marqué pour une rente viagère que pour une rente temporaire qui s'arrête à l'âge de la retraite, puisque les tables divergent surtout aux âges élevés.
+## 4. Viagère ou temporaire : quel préjudice, quelle rente
+Le choix de la colonne dépend du poste de préjudice et de la situation de la victime :
+- → une assistance par tierce personne nécessaire à vie appelle en principe une rente viagère ;
+- → une perte de gains professionnels futurs se capitalise en général jusqu'à l'âge prévisible de la retraite, par une rente temporaire ; la perte de droits à la retraite qui en découle s'évalue ensuite séparément ;
+- → des frais de santé ou d'appareillage renouvelables se capitalisent selon leur périodicité et leur durée prévisible.
+Retenir la mauvaise colonne, ou la table du mauvais sexe, suffit à fausser l'ensemble du calcul.
+## 5. Plusieurs barèmes coexistent
+Aucun barème de capitalisation n'est imposé par la loi. Plusieurs coexistent, qui ne reposent pas sur les mêmes tables de mortalité ni sur le même taux d'actualisation. Pour une même victime et un même préjudice annuel, ils peuvent donner des capitaux différents.
+Le barème retenu est donc un point de discussion, dans une négociation avec l'assureur comme devant le juge. Le cabinet se réfère au barème publié par la Gazette du Palais en 2025, construit avec un taux d'actualisation de 0,5 % et les tables INSEE les plus récentes, stationnaires (2020-2022) et prospectives (2021-2121).
+Référence : Gazette du Palais, barème de capitalisation publié le 14 janvier 2025 (réf. GPL471y4).
+## 6. Capital ou rente ?
+Pour certains postes, notamment l'assistance par tierce personne, l'indemnisation peut prendre la forme d'une rente versée périodiquement plutôt que d'un capital. La rente suit la vie de la victime ; le capital lui donne immédiatement la maîtrise des fonds. Le choix dépend de chaque situation et mérite d'être discuté avant d'accepter une offre.
+## 7. Ce qu'il faut retenir
+- ✓ Un préjudice futur et répétitif se chiffre en montant annuel × prix de l'euro de rente
+- ✓ Les pertes déjà subies se calculent sur justificatifs ; seules les pertes à venir sont capitalisées
+- ✓ Âge, sexe, table de mortalité et taux d'actualisation font varier le prix
+- ✓ Rente viagère pour un besoin à vie, temporaire pour une perte qui s'arrête à un âge donné
+- ✓ Aucun barème n'est imposé : le choix du barème se discute
+## Questions fréquentes
+### Qu'est-ce que le prix de l'euro de rente ?
+C'est le capital qu'il faut verser aujourd'hui pour servir 1 € par an pendant une durée donnée, à vie ou jusqu'à un certain âge. Multiplié par le montant annuel du préjudice, il donne le capital d'indemnisation. Il se lit dans un barème de capitalisation selon l'âge et le sexe de la victime.
+### Comment calcule-t-on un préjudice futur en capital ?
+En multipliant le montant annuel du préjudice par le prix de l'euro de rente correspondant. Exemple publié avec le barème de la Gazette du Palais 2025 : pour une femme de 32 ans et une rente viagère de 1 000 € par an, le capital est de 46 424 € avec les tables stationnaires et de 49 883 € avec les tables prospectives.
+### Tables stationnaires ou prospectives : quelle différence ?
+Une table stationnaire reflète la mortalité observée sur une période donnée ; une table prospective anticipe les gains futurs d'espérance de vie. Les tables prospectives conduisent à un prix de l'euro de rente plus élevé, l'écart étant plus marqué pour une rente viagère que pour une rente temporaire.
+### Quel barème de capitalisation utiliser ?
+Aucun barème n'est imposé par la loi et plusieurs coexistent, avec des tables et des taux d'actualisation différents. Le choix du barème se discute avec l'assureur ou devant le juge. Le cabinet se réfère au barème publié par la Gazette du Palais en 2025 (taux d'actualisation de 0,5 %, tables INSEE récentes).
+### Les pertes déjà subies sont-elles capitalisées ?
+Non. Les pertes subies entre l'accident et la date de l'évaluation se chiffrent sur justificatifs. Seules les pertes à venir sont capitalisées.
+## Articles liés
+Page pivot
+Les postes de préjudice : ce que vous pouvez faire indemniser
+Préjudices
+Tierce personne : comment l'aide humaine est indemnisée
+Préjudices
+Incidence professionnelle : ce qu'elle indemnise
+Blessures graves
+Accident grave : tierce personne, frais futurs, pertes de gains
+Offre
+Refuser une offre d'assurance : quand et comment
+Lexique
+Lexique du dommage corporel
+### Une offre avec un capital futur ?
+Barème, table, taux, colonne : faites vérifier gratuitement le calcul de votre offre.
+WhatsApp 06 63 46 59 84
+À retenir
+Capital = montant annuel × prix de l'euro de rente. Âge, sexe, table de mortalité et taux d'actualisation font varier le prix, et le choix du barème se discute.
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+Capitalisation — Faites vérifier
+Votre offre capitalise
+## un préjudice futur ?
+Un paramètre mal choisi suffit à fausser tout le calcul. Le cabinet n'intervient que pour les victimes.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation 100 % gratuite — Honoraires sur résultat uniquement
+
+---
+
+## DFP : comment est indemnisé le déficit fonctionnel permanent ?
+URL : https://ig-avocat.com/blog\deficit-fonctionnel-permanent-dfp
+
+Préjudices · Nomenclature Dintilhac · Guide 2026
+# Déficit fonctionnel permanent (DFP) : comment est-il indemnisé ?
+Le déficit fonctionnel permanent (DFP) indemnise les séquelles définitives qui subsistent après la consolidation : atteinte aux fonctions, douleurs persistantes et perte de qualité de vie. Son taux, proposé par le médecin expert, ne correspond à aucune somme fixe : dans les référentiels indicatifs, la valeur du point augmente avec le taux et diminue avec l'âge de la victime. Le DFP n'est en outre qu'un poste parmi d'autres : pertes de revenus, incidence professionnelle ou tierce personne s'évaluent séparément.
+Publié le 22 septembre 2026 7 min de lecture Maître Ilan Guedj
+« Combien vaut 10 % de DFP ? » C'est la question que posent presque toutes les victimes après leur expertise. Elle est légitime, mais elle part d'une idée fausse : qu'un taux se convertirait en une somme, et que cette somme résumerait l'indemnisation. Ni l'un ni l'autre n'est vrai.
+## 1. Ce que mesure le déficit fonctionnel permanent
+Le DFP est un poste de préjudice extrapatrimonial permanent : il décrit ce qui reste une fois l'état de santé stabilisé. Dans la nomenclature Dintilhac, qui sert de référence aux juridictions et aux assureurs, il recouvre l'atteinte définitive aux fonctions physiques, psychiques ou intellectuelles, mais aussi les douleurs qui persistent et la perte de qualité de vie qui en découle.
+C'est donc un poste qui ne s'évalue qu'après la consolidation. Avant elle, la gêne subie relève d'un autre poste, le déficit fonctionnel temporaire.
+## 2. Qui fixe le taux, et comment
+Le taux est proposé par le médecin expert, amiable ou judiciaire, à partir de l'examen de la victime et de son dossier médical. Il s'aide de barèmes médico-légaux indicatifs qui associent chaque type de séquelle à une fourchette de taux.
+Le taux n'est pas une vérité scientifique : c'est une appréciation. Deux experts peuvent retenir des taux différents pour les mêmes séquelles, et l'écart de quelques points se répercute sur toute l'indemnisation. D'où l'importance de se présenter à l'expertise assisté d'un médecin-recours, qui discute le taux pour la victime.
+Référence : Code de procédure civile, articles 263 à 284-1 (l'expertise)
+## 3. Combien vaut 10 % de DFP ?
+C'est la question la plus posée, et la réponse honnête est qu'il n'existe pas de somme fixe.
+En pratique, le DFP est le plus souvent chiffré en multipliant le taux par une valeur du point. Dans les référentiels indicatifs utilisés par les juridictions, cette valeur varie selon deux paramètres : elle augmente avec le taux — le dixième point de déficit vaut plus que le premier — et elle diminue avec l'âge de la victime à la consolidation, puisque le préjudice sera vécu moins longtemps.
+Deux victimes à 10 % de DFP, l'une de 25 ans et l'autre de 70 ans, ne recevront donc pas la même somme au titre de ce poste. Et surtout, le DFP n'est qu'un poste parmi d'autres : un chiffre isolé, présenté comme « le prix » de 10 %, ne dit rien de l'indemnisation totale.
+Les référentiels sont des outils d'aide à la décision. Ils ne lient pas le juge, qui doit assurer la réparation intégrale du préjudice de chaque victime.
+## 4. Ce que le DFP ne couvre pas
+L'erreur classique consiste à croire que le taux de DFP résume tout le dossier. Il ne couvre notamment pas :
+- → les pertes de revenus, passées et futures ;
+- → l'incidence professionnelle : pénibilité, dévalorisation, reconversion ;
+- → l'assistance par tierce personne ;
+- → le préjudice esthétique et le préjudice d'agrément ;
+- → les souffrances endurées avant consolidation.
+Chacun de ces postes s'évalue séparément, lorsqu'il est caractérisé. Une victime à 10 % de DFP peut avoir des pertes professionnelles bien plus lourdes que son déficit lui-même.
+## 5. Contester un taux jugé trop bas
+Un taux se discute d'abord pendant l'expertise, en contradictoire, pièces médicales à l'appui. C'est le moment où l'écart se corrige le plus facilement.
+Après le dépôt du rapport, il reste possible de solliciter une contre-expertise ou, en justice, une expertise judiciaire. Mais un taux accepté sans discussion devient difficile à remettre en cause.
+## 6. Consolidation, aggravation et délai pour agir
+Le DFP se fixe à la consolidation. Si l'état de la victime s'aggrave ensuite, l'aggravation ouvre droit à une nouvelle évaluation.
+L'action en réparation du dommage corporel se prescrit par dix ans à compter de la consolidation du dommage initial ou aggravé.
+Source : C. civ., art. 2226
+## 7. Ce qu'il faut retenir
+- ✓ Le DFP mesure les séquelles définitives après consolidation
+- ✓ Le taux est une appréciation médicale : il se discute, idéalement pendant l'expertise
+- ✓ 10 % de DFP ne correspond à aucune somme fixe : la valeur du point dépend du taux et de l'âge
+- ✓ Le DFP n'est qu'un poste parmi d'autres : revenus, tierce personne, incidence professionnelle se chiffrent à part
+- ✓ Aggravation : nouvelle évaluation, nouveau délai de dix ans
+## Questions fréquentes
+### Combien vaut 10 % de DFP ?
+Il n'existe pas de somme fixe. Le DFP est généralement chiffré en multipliant le taux par une valeur du point qui, dans les référentiels indicatifs utilisés par les juridictions, augmente avec le taux et diminue avec l'âge de la victime à la consolidation. Deux victimes à 10 % de DFP d'âges différents ne reçoivent donc pas la même somme, et ce poste ne représente qu'une partie de l'indemnisation totale.
+### Qui fixe le taux de DFP ?
+Le médecin expert, amiable ou judiciaire, le propose après examen de la victime, en s'aidant de barèmes médico-légaux indicatifs. Ce taux est une appréciation qui se discute, idéalement pendant l'expertise, avec l'assistance d'un médecin-recours.
+### Le DFP couvre-t-il la perte de salaire ?
+Non. Le DFP est un préjudice personnel. Les pertes de revenus, l'incidence professionnelle, l'assistance par tierce personne, le préjudice esthétique ou d'agrément sont des postes distincts, évalués séparément lorsqu'ils sont caractérisés.
+### Peut-on contester un taux de DFP ?
+Oui. Pendant l'expertise, en contradictoire et pièces médicales à l'appui ; après le rapport, par une contre-expertise ou une expertise judiciaire. Un taux accepté sans discussion devient toutefois difficile à remettre en cause.
+### Que se passe-t-il si mon état s'aggrave ?
+L'aggravation ouvre droit à une nouvelle évaluation. L'action en réparation se prescrit par dix ans à compter de la consolidation du dommage initial ou aggravé (code civil, article 2226).
+## Articles liés
+Page pivot
+Les postes de préjudice : ce que vous pouvez faire indemniser
+Préjudices
+Souffrances endurées : la cotation sur 7
+Préjudices
+Incidence professionnelle : ce qu'elle indemnise
+Expertise
+Le rôle du médecin-recours
+Lexique
+Lexique du dommage corporel
+Délais
+Délais pour agir en dommage corporel
+### Un taux vous a été proposé ?
+Avant d'accepter une offre fondée sur un taux de DFP, faites analyser votre dossier gratuitement.
+WhatsApp 06 63 46 59 84
+À retenir
+Le DFP mesure les séquelles après consolidation. 10 % de DFP ne vaut aucune somme fixe : la valeur du point dépend du taux et de l'âge. Et le DFP n'est qu'un poste parmi d'autres.
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+DFP — Faites vérifier
+Un taux de DFP
+## vous a été proposé ?
+Le taux se discute, et il n'est qu'une partie du dossier. Le cabinet n'intervient que pour les victimes.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation 100 % gratuite — Honoraires sur résultat uniquement
+
+---
+
 ## Délais de prescription accident corporel : quand agir ? 2026
 URL : https://ig-avocat.com/blog\delai-prescription-accident-corporel
 
 Prescription
 # Quels sont les délais pour agir après un accident corporel ?
-Publié le 17 février 2026 9 min de lecture Maître Ilan Guedj
-Beaucoup de victimes d'accidents corporels pensent, à tort, qu'elles ont tout leur temps pour agir. D'autres, au contraire, renoncent à leurs droits en croyant que le délai est dépassé. La réalité est plus nuancée. Comprendre les délais de prescription est indispensable pour ne pas perdre définitivement vos droits à indemnisation.
+Publié le 17 février 2026 · Mis à jour le 22 septembre 2026 9 min de lecture Maître Ilan Guedj
+En règle générale, la victime d'un dommage corporel dispose de 10 ans à compter de la consolidation de son dommage, initial ou aggravé, pour agir en responsabilité (article 2226 du code civil) ; ce délai est porté à 20 ans pour les tortures et actes de barbarie et pour les violences ou agressions sexuelles commises contre un mineur. Certains recours ont des délais plus courts : 3 ans pour saisir la CIVI, 3 ans ou 1 an pour le Fonds de garantie automobile, 3 ans pour un produit défectueux. Contre un mineur, la prescription ne court pas avant sa majorité.
 ## 1. Qu'est-ce que la prescription en droit du dommage corporel ?
 La prescription est le mécanisme juridique par lequel un droit d'action s'éteint si son titulaire ne l'exerce pas dans un délai déterminé par la loi. En matière civile, la prescription est régie par les articles 2224 et suivants du Code civil, mais le droit du dommage corporel obéit à des règles spécifiques dérogeant au régime général.
 La justification de la prescription est double : d'un côté, la nécessité de sécuriser les situations juridiques et de ne pas exposer indéfiniment un responsable ou son assureur à des demandes ; de l'autre, la protection de la victime qui bénéficie d'un délai long pour évaluer ses préjudices et constituer son dossier.
 Attention : la prescription n'est pas automatique. Elle doit être soulevée par la partie adverse devant le juge. Mais une prescription acquise constitue une fin de non-recevoir que le juge ne peut ignorer si elle est invoquée. Le risque est réel et irrémédiable.
 ## 2. Le délai de 10 ans : la règle générale pour les accidents
-En matière de dommage corporel, la règle générale est fixée par l'article 2226 du Code civil : l'action en responsabilité née d'un accident corporel se prescrit par 10 ans à compter de la consolidation du dommage.
-Ce délai de 10 ans est une dérogation favorable à la victime par rapport au droit commun (qui prévoit une prescription de 5 ans pour les actions personnelles mobilières). Le législateur a en effet reconnu que les victimes de dommages corporels ont besoin de temps pour évaluer l'étendue définitive de leurs préjudices, notamment lorsque les séquelles apparaissent progressivement.
-Ce délai s'applique à l'action civile en responsabilité (devant le tribunal judiciaire) et à l'action directe contre l'assureur du responsable. Il couvre les accidents de la route, les accidents du travail (pour la faute inexcusable), les accidents domestiques, et les accidents de sport.
-Le point de départ de ce délai est la date de consolidation, et non la date de l'accident. Cette distinction est fondamentale : une victime dont l'état de santé n'est pas encore stabilisé n'est pas prescrite, même si l'accident remonte à plusieurs années.
-## 3. Les délais spéciaux selon le type d'accident
-Certains régimes d'indemnisation obéissent à des délais de prescription spécifiques qui dérogent à la règle générale des 10 ans. Il est essentiel de connaître ces délais selon la nature de votre accident.
-Type d'accident
+En matière de dommage corporel, la règle générale est fixée par l'article 2226 du code civil : l'action en responsabilité née d'un événement ayant entraîné un dommage corporel, engagée par la victime directe ou par ses proches (victimes indirectes), se prescrit par dix ans à compter de la date de la consolidation du dommage initial ou aggravé.
+Ce délai est plus long que le délai de droit commun de cinq ans applicable aux actions personnelles ou mobilières. Il tient compte du temps nécessaire pour connaître l'étendue définitive des séquelles.
+Il s'applique notamment aux accidents de la circulation, aux accidents de la vie (chute, accident domestique, accident de sport), aux agressions et, par un texte propre, aux accidents médicaux. Le même article porte le délai à vingt ans en cas de préjudice causé par des tortures ou des actes de barbarie, ou par des violences ou des agressions sexuelles commises contre un mineur.
+Le point de départ est la date de consolidation, et non la date de l'accident. Une victime dont l'état de santé n'est pas encore stabilisé n'est donc pas prescrite, même si l'accident remonte à plusieurs années.
+## 3. Les délais selon le type de dommage
+Certains régimes ont leurs propres délais, parfois bien plus courts que la règle des dix ans. Ce sont souvent ceux-là que l'on laisse passer.
+Situation
 Délai
 Point de départ
 Texte
-Accident corporel (droit commun)
+Dommage corporel : accident de la route, accident de la vie, agression (action en responsabilité)
 10 ans
-Consolidation
-Art. 2226 C. civ.
-Accident de la route (Loi Badinter)
+Consolidation du dommage initial ou aggravé
+art. 2226 C. civ.
+Tortures ou actes de barbarie ; violences ou agressions sexuelles commises contre un mineur
+20 ans
+Le texte fixe la durée ; le point de départ est à faire vérifier au cas par cas
+art. 2226 C. civ., al. 2
+Accident médical, erreur médicale, infection nosocomiale (professionnels, établissements de santé, ONIAM)
 10 ans
-Consolidation
-Art. 2226 C. civ.
-Faute inexcusable de l'employeur (AT)
-2 ans
-Accident ou décision de prise en charge
-Art. L431-2 CSS
-Erreur médicale
-10 ans
-Consolidation
-Art. L1142-28 CSP
-Agression (infraction pénale)
-6 ans
-Connaissance des faits
-Art. 8 CPP
-FGTI (victimes d'infractions)
+Consolidation du dommage
+art. L1142-28 CSP
+Produit défectueux (action contre le producteur)
 3 ans
-Décision judiciaire définitive
-Art. 706-5 CPP
-Accident produit défectueux
+Connaissance du dommage, du défaut et de l'identité du producteur
+art. 1245-16 C. civ.
+Victime d'infraction : saisine de la CIVI
 3 ans
-Connaissance du dommage et du responsable
-Art. 1245-16 C. civ.
+Date de l'infraction ; en cas de poursuites, prorogé jusqu'à 1 an après la décision définitive. Relevé de forclusion possible
+art. 706-5 CPP
+Fonds de garantie automobile (FGAO) : responsable inconnu
+3 ans
+Date de l'accident
+Service-public.fr, fiche F2679
+FGAO : responsable connu mais non assuré ou insolvable
+1 an
+Décision de justice définitive ou transaction signée
+Service-public.fr, fiche F2679
+Attention : ne pas respecter les délais du Fonds de garantie automobile fait perdre le droit à indemnisation par le Fonds. Voir aussi l'indemnisation par le FGAO et le délit de fuite.
+À ces délais pour agir s'ajoutent des délais qui s'imposent aux payeurs, et non à la victime :
+Qui
+Délai
+Pour quoi faire
+Texte
+Assureur, accident de la circulation
+3 mois / 8 mois
+Offre dans les 3 mois de la demande si la responsabilité n'est pas contestée et le dommage quantifié, et en tout état de cause dans les 8 mois de l'accident ; le délai le plus favorable à la victime s'applique
+art. L211-9 C. assur.
+Assureur, accident de la circulation
+5 mois
+Offre définitive dans les 5 mois suivant la date à laquelle l'assureur a été informé de la consolidation (l'offre peut d'abord être provisionnelle)
+art. L211-9 C. assur.
+Assureur en retard
+Intérêts de plein droit au double du taux de l'intérêt légal sur le montant de l'offre ou de l'indemnité allouée par le juge
+art. L211-13 C. assur.
+Victime qui a transigé
+15 jours
+Droit de dénoncer la transaction
+art. L211-16 C. assur.
+Commission de conciliation et d'indemnisation (CCI)
+6 mois
+Avis à compter de la saisine
+art. L1142-8 CSP
+Assureur du responsable, après avis de la CCI
+4 mois + 1 mois
+Offre dans les 4 mois de l'avis, paiement dans le mois de l'acceptation
+art. L1142-14 CSP
+ONIAM
+4 mois + 1 mois
+Offre dans les 4 mois, paiement dans le mois de l'acceptation
+art. L1142-17 CSP
+Textes vérifiés sur Légifrance et Service-public.fr le 22 septembre 2026.
 ## 4. À partir de quand court le délai ? La notion de consolidation
 La consolidation est le moment où l'état de santé de la victime est considéré comme stabilisé : les lésions ont pris un caractère permanent et n'évoluent plus. La date de consolidation est fixée par le médecin expert lors de l'expertise médicale. C'est à partir de cette date que le délai de 10 ans commence à courir.
 Cette notion est cruciale parce qu'elle peut retarder significativement le point de départ de la prescription. Un accident survenu en 2016 dont les séquelles ne se sont stabilisées qu'en 2022 ouvre un délai d'action jusqu'en 2032. Une victime qui n'a jamais fait l'objet d'une expertise formelle peut techniquement ne pas encore être prescrite.
-Attention aux aggravations : si votre état de santé s'aggrave après une première consolidation, une nouvelle consolidation peut être constatée, ouvrant un nouveau délai pour les préjudices nés de cette aggravation. L'article 2226 alinéa 2 du Code civil précise que les actions en réparation d'un dommage corporel sont prescrites par dix ans à compter de la date de la consolidation du dommage initial ou aggravé.
+Attention aux aggravations : si votre état de santé s'aggrave après une première consolidation, une nouvelle consolidation peut être constatée, ouvrant un nouveau délai pour les préjudices nés de cette aggravation. L'article 2226 du code civil précise que les actions en réparation d'un dommage corporel sont prescrites par dix ans à compter de la date de la consolidation du dommage initial ou aggravé.
 Il n'existe pas de définition légale unique de la consolidation. C'est une notion médicale que les experts apprécient au cas par cas. En cas de contestation de la date de consolidation, votre médecin expert peut formuler des réserves et demander un délai supplémentaire d'observation.
-## 5. Les actes qui interrompent la prescription
-L'interruption de la prescription remet le délai à zéro. Un nouvel acte interruptif peut toujours être accompli, même si le délai est déjà entamé. Connaître ces actes vous permet de gérer stratégiquement votre dossier.
+## 5. Ce qui interrompt ou suspend la prescription
+L'interruption efface le délai déjà écoulé et en fait courir un nouveau. La suspension arrête le délai sans effacer le temps déjà couru. Les causes d'interruption sont limitativement prévues par les articles 2240 à 2246 du code civil.
 01
-La reconnaissance de responsabilité
-Tout acte par lequel le débiteur (le responsable ou son assureur) reconnaît le droit de la victime interrompt la prescription. Conservez précieusement tout courrier de l'assurance qui reconnaît, même partiellement, votre préjudice ou sa responsabilité.
+La reconnaissance du droit de la victime
+La reconnaissance, par le responsable ou son assureur, du droit de la victime interrompt la prescription (art. 2240 C. civ.). Conservez tout courrier de l'assureur qui reconnaît, même partiellement, ce droit.
 02
-L'assignation en justice
-L'acte de saisine du tribunal (assignation) interrompt définitivement la prescription. À partir de ce moment, la prescription ne court plus tant que la procédure judiciaire est en cours.
+La demande en justice, même en référé
+Elle interrompt la prescription, y compris devant une juridiction incompétente, et cet effet dure jusqu'à la fin de l'instance (art. 2241 et 2242 C. civ.). L'interruption est toutefois non avenue en cas de désistement, de péremption de l'instance ou de rejet définitif de la demande (art. 2243 C. civ.).
 03
-La saisine d'une CCI
-La saisine d'une Commission de Conciliation et d'Indemnisation (CCI) interrompt la prescription pendant toute la durée de la procédure. Elle reprend après la fin de la procédure.
+La saisine de la CCI (accident médical)
+Elle suspend les délais de prescription et de recours contentieux jusqu'au terme de la procédure devant la commission (art. L1142-7 CSP).
 04
-La mise en demeure par acte extrajudiciaire
-L'envoi d'un acte d'huissier (mise en demeure) à l'assureur ou au responsable interrompt la prescription. C'est une solution simple et peu coûteuse pour gagner du temps si une expertise est en cours.
-05
-La constitution de partie civile
-Si l'accident a donné lieu à des poursuites pénales (délit de blessures involontaires, homicide involontaire), votre constitution de partie civile dans la procédure pénale interrompt la prescription civile.
+La minorité de la victime
+La prescription ne court pas contre les mineurs non émancipés (art. 2235 C. civ.) : le délai ne commence qu'à la majorité.
+Ce qui n'interrompt pas la prescription
+Une lettre, même recommandée, ou une mise en demeure adressée à l'assureur ou au responsable ne figure pas parmi les causes d'interruption prévues par le code civil. Ne comptez pas sur un simple courrier pour « arrêter » le délai.
 ## 6. Les pièges à éviter : ne pas confondre délai d'action et délai d'offre de l'assureur
-Une confusion fréquente chez les victimes consiste à croire que le délai dont dispose l'assureur pour formuler son offre (3 mois pour l'offre provisionnelle, 5 mois après consolidation pour l'offre définitive selon la Loi Badinter) est aussi le délai dans lequel elles doivent agir. C'est une erreur grave.
-Ces délais sont des obligations imposées à l'assureur, non à la victime. Leur non-respect par l'assureur entraîne des pénalités (intérêts de retard doublés), mais ne fait pas courir un délai de prescription pour la victime. Vous conservez votre droit d'action pendant 10 ans à compter de la consolidation, même si l'assureur n'a pas respecté ses propres délais.
-Autre piège : ne pas confondre délai de prescription (pour saisir un juge) et délai de déclaration à l'assurance (5 jours ouvrés). Le non-respect du délai de déclaration peut entraîner une déchéance contractuelle de votre garantie propre assureur, mais n'affecte pas votre droit à indemnisation contre l'assureur du responsable.
+Une confusion fréquente consiste à croire que les délais dont dispose l'assureur pour formuler son offre, après un accident de la circulation (3 mois à compter de la demande, 8 mois à compter de l'accident, 5 mois après l'information sur la consolidation pour l'offre définitive), sont aussi des délais imposés à la victime. Ce n'est pas le cas.
+Ces délais sont des obligations de l'assureur. Leur non-respect est sanctionné par des intérêts au double du taux légal (art. L211-13 C. assur.), mais il ne fait pas courir de délai contre la victime : son propre délai pour agir reste celui du tableau ci-dessus.
+Autre piège : ne pas confondre le délai de prescription (pour saisir le juge) avec le délai de déclaration du sinistre prévu par votre propre contrat d'assurance. Ce dernier concerne vos garanties personnelles, pas votre droit à indemnisation contre l'assureur du responsable.
 ## 7. Agissez maintenant : pourquoi ne pas attendre ?
 Même si le délai de 10 ans paraît long, attendre est rarement dans votre intérêt. Plus le temps passe, plus la constitution de votre dossier devient difficile.
 Les preuves disparaissent. Les témoins oublient, les enregistrements de vidéosurveillance sont effacés, les traces physiques s'estompent. Un accident de la route survenu en 2024 dont les preuves ne sont pas sécurisées peut devenir très difficile à documenter en 2030.
@@ -2339,7 +2544,7 @@ La mémoire s'altère. Votre propre récit des faits, des circonstances de l'acc
 Maître Ilan Guedj vous encourage à consulter rapidement, même si vous pensez avoir du temps. Une analyse gratuite de votre situation par un avocat en dommage corporel intervenant en accidents de la route, erreurs médicales, agressions ou accidents de la vie vous permettra d'évaluer vos droits et de décider en toute connaissance de cause.
 ## Questions fréquentes
 ### Mon accident remonte à plusieurs années : est-il trop tard pour agir ?
-Pas nécessairement. La prescription court à compter de la consolidation, non de la date de l'accident. Si votre état de santé n'est pas encore stabilisé, ou si des actes interruptifs ont été accomplis (courrier recommandé à l'assureur, saisine d'une CCI), le délai peut ne pas être écoulé. Consultez un avocat avant de conclure qu'il est trop tard.
+Pas nécessairement. La prescription court à compter de la consolidation, non de la date de l'accident. Si votre état de santé n'est pas encore stabilisé, ou si le délai a été interrompu (reconnaissance de votre droit par l'assureur, demande en justice) ou suspendu (saisine d'une CCI), il peut ne pas être écoulé. Une simple lettre, même recommandée, ne suffit pas à l'interrompre. Consultez un avocat avant de conclure qu'il est trop tard.
 ### La prescription est-elle la même pour les accidents impliquant un mineur ?
 Non. Pour les victimes mineures au moment de l'accident, la prescription est suspendue jusqu'à leur majorité. Le délai de 10 ans ne commence à courir qu'à compter de la date à laquelle la victime atteint 18 ans. Un enfant victime d'un accident grave à 5 ans dispose donc théoriquement jusqu'à ses 28 ans pour agir, sous réserve que l'état de santé soit par ailleurs consolidé.
 ### Qu'est-ce que la consolidation et qui la fixe ?
@@ -2858,15 +3063,89 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 
 ---
 
+## Incidence professionnelle : ce qu'elle indemnise vraiment
+URL : https://ig-avocat.com/blog\incidence-professionnelle
+
+Préjudices · Nomenclature Dintilhac · Guide 2026
+# Incidence professionnelle : que peut-elle indemniser ?
+L'incidence professionnelle indemnise les conséquences durables du dommage sur la vie professionnelle qui ne se réduisent pas à une perte de salaire : pénibilité accrue, dévalorisation sur le marché du travail, perte de chance, reclassement, abandon de la profession ou conséquences sur la retraite. Elle doit être démontrée à partir du métier, du parcours et des séquelles de la victime, et distinguée des pertes de gains professionnels futurs pour ne pas indemniser deux fois la même conséquence.
+Publié le 22 septembre 2026 6 min de lecture Maître Ilan Guedj
+Une victime qui reprend son travail au même salaire, mais en souffrant, n'a pas de perte de revenus. Elle a pourtant perdu quelque chose, et la nomenclature lui donne un nom : l'incidence professionnelle. C'est l'un des postes les plus souvent oubliés.
+## 1. Ce que recouvre l'incidence professionnelle
+L'incidence professionnelle indemnise les conséquences durables du dommage sur la vie professionnelle qui ne se réduisent pas à une perte de salaire. Dans la nomenclature Dintilhac, elle vise notamment :
+- → la pénibilité accrue du travail, lorsque la victime continue son métier au prix d'efforts supplémentaires ;
+- → la dévalorisation sur le marché du travail ;
+- → la perte de chance professionnelle, d'une promotion ou d'une évolution ;
+- → la nécessité d'un reclassement ou l'abandon de la profession exercée ;
+- → certaines conséquences sur les droits à la retraite.
+## 2. Ce qui la distingue de la perte de revenus
+Les pertes de gains professionnels futurs indemnisent la différence arithmétique entre ce que la victime aurait gagné et ce qu'elle gagnera. L'incidence professionnelle indemnise tout le reste : ce que le travail coûte désormais, ce qu'il ne permet plus d'espérer.
+Les deux postes coexistent souvent, mais ils ne doivent pas indemniser deux fois la même conséquence. Une victime qui garde son salaire mais travaille dans la douleur n'a pas de perte de revenus — elle a une incidence professionnelle.
+## 3. Sans emploi, étudiant, retraité : l'incidence existe aussi
+L'incidence professionnelle n'est pas réservée aux salariés en poste. Un étudiant dont le projet professionnel devient impossible, une personne en recherche d'emploi dont les chances diminuent, un jeune apprenti contraint de changer de voie : tous peuvent subir une incidence professionnelle.
+Pour un enfant ou un étudiant, la question rejoint souvent celle du préjudice scolaire, universitaire ou de formation, qui est un poste distinct.
+## 4. Comment la prouver
+L'incidence professionnelle se démontre concrètement, à partir de la situation propre à la victime :
+- → la profession exercée et les contraintes réelles du poste ;
+- → le parcours antérieur, les perspectives d'évolution, les diplômes ;
+- → les séquelles décrites par l'expert et leur retentissement sur ces contraintes ;
+- → l'avis du médecin du travail, les aménagements de poste, un éventuel licenciement pour inaptitude ;
+- → les possibilités réelles de reclassement.
+## 5. L'imputation des prestations sociales
+Lorsque la victime perçoit une rente ou une pension d'un organisme social, ces prestations peuvent venir en déduction de certains postes de préjudice. Cette imputation s'opère poste par poste, et il faut vérifier sur quel poste elle porte : une imputation mal ventilée réduit indûment ce qui revient à la victime.
+## 6. Ce qu'il faut retenir
+- ✓ L'incidence professionnelle couvre ce qui n'est pas une simple perte de salaire
+- ✓ Pénibilité, dévalorisation, perte de chance, reclassement, retraite
+- ✓ Elle concerne aussi les étudiants, demandeurs d'emploi et apprentis
+- ✓ Elle se prouve concrètement, à partir du métier et du parcours de la victime
+- ✓ L'imputation des prestations sociales se vérifie poste par poste
+## Questions fréquentes
+### Je garde mon salaire mais je travaille dans la douleur : suis-je indemnisé ?
+Oui, potentiellement. La pénibilité accrue du travail relève de l'incidence professionnelle, qui ne suppose pas de perte de revenus. Elle doit être démontrée à partir de votre poste et de vos séquelles.
+### Quelle différence avec la perte de gains professionnels futurs ?
+Les pertes de gains professionnels futurs indemnisent la différence de revenus. L'incidence professionnelle indemnise les autres conséquences : pénibilité, dévalorisation, perte de chance, reclassement. Les deux postes peuvent coexister sans indemniser deux fois la même chose.
+### Un étudiant peut-il obtenir une incidence professionnelle ?
+Oui. Lorsque le dommage compromet un projet professionnel ou oblige à changer de voie, une incidence professionnelle peut être caractérisée, à côté du préjudice scolaire, universitaire ou de formation.
+### Ma rente vient-elle en déduction ?
+Les prestations versées par les organismes sociaux peuvent s'imputer sur certains postes, poste par poste. Il faut vérifier sur quel poste l'imputation est opérée : une ventilation erronée réduit indûment l'indemnisation.
+## Articles liés
+Page pivot
+Les postes de préjudice : ce que vous pouvez faire indemniser
+Préjudices
+DFP : comment est-il indemnisé ?
+Blessures graves
+Accident grave : tierce personne, frais futurs, pertes de gains
+Préjudices
+Tierce personne : l'aide humaine indemnisée
+Calcul
+Capitaliser un préjudice futur : l'euro de rente
+Lexique
+Lexique du dommage corporel
+### Votre travail en pâtit ?
+L'incidence professionnelle est souvent oubliée. Faites analyser votre dossier gratuitement.
+WhatsApp 06 63 46 59 84
+À retenir
+L'incidence professionnelle couvre ce qui n'est pas une perte de salaire : pénibilité, dévalorisation, perte de chance, reclassement. Elle se prouve concrètement.
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+Incidence professionnelle — Faites vérifier
+Votre vie professionnelle
+## a changé ?
+Ce poste se démontre dossier en main. Le cabinet n'intervient que pour les victimes.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation 100 % gratuite — Honoraires sur résultat uniquement
+
+---
+
 ## Indemnisation accident corporel : combien toucher ? 2026
 URL : https://ig-avocat.com/blog\indemnisation-accident-corporel
 
 Indemnisation
 # Comment calculer votre indemnisation après un accident corporel ?
-Publié le 17 février 2026 10 min de lecture Maître Ilan Guedj
-L'indemnisation d'un accident corporel ne se résume pas à rembourser les frais médicaux. Le droit français reconnaît de nombreux postes de préjudice, souvent ignorés par les victimes et que les assurances s'efforcent de minorer. Ce guide vous explique comment est structurée une indemnisation complète et pourquoi les premières offres sont presque toujours insuffisantes.
-## 1. Les 6 postes de préjudice reconnus par la loi
-Depuis le rapport Dintilhac de 2005, le droit français du dommage corporel s'organise autour d'une nomenclature structurée qui distingue les préjudices patrimoniaux (économiques) et les préjudices extrapatrimoniaux (personnels). Cette distinction est fondamentale car elle détermine quels postes sont soumis aux recours des tiers payeurs (Sécurité sociale, mutuelle) et lesquels vous reviennent intégralement.
+Publié le 17 février 2026 · Mis à jour le 22 septembre 2026 10 min de lecture Maître Ilan Guedj
+L'indemnisation d'un accident corporel ne se résume pas à une somme unique ni au remboursement des frais médicaux. Elle se construit poste par poste, selon la nomenclature Dintilhac : dépenses de santé, pertes de revenus, incidence professionnelle, tierce personne, déficit fonctionnel, souffrances endurées, préjudices esthétique et d'agrément, notamment. Chaque poste s'évalue séparément, à partir de l'expertise médicale et des justificatifs ; aucun barème ne donne à l'avance le montant total.
+## 1. Les postes de préjudice de la nomenclature Dintilhac
+Depuis le rapport Dintilhac de 2005, l'indemnisation du dommage corporel s'organise autour d'une nomenclature qui distingue les préjudices patrimoniaux (économiques) et extrapatrimoniaux (personnels), temporaires (avant la consolidation) ou permanents (après). Cette nomenclature n'a pas valeur de loi, mais elle est utilisée en pratique par les juridictions et les assureurs. Le découpage compte aussi pour le recours des organismes sociaux, qui s'exerce poste par poste.
 ### Préjudices patrimoniaux temporaires
 - → Dépenses de santé actuelles (DSA)
 - → Frais divers
@@ -2888,68 +3167,66 @@ Depuis le rapport Dintilhac de 2005, le droit français du dommage corporel s'or
 - → Préjudice esthétique permanent (PEP)
 - → Préjudice sexuel
 - → Préjudice d'établissement
-## 2. Préjudices temporaires : ITT, gêne fonctionnelle, soins
-Les préjudices temporaires sont ceux qui existaient entre le jour de l'accident et la date de consolidation — c'est-à-dire le moment où l'état de santé de la victime est considéré comme stabilisé. Ils couvrent plusieurs réalités distinctes.
-Le déficit fonctionnel temporaire (DFT) correspond à la réduction de la capacité fonctionnelle de la victime durant la période de soins. Il est évalué en pourcentage d'incapacité (total ou partiel selon les phases de soins) et indemnisé sur une base journalière qui varie selon les juridictions (généralement entre 20 € et 35 € par jour d'ITT totale, multiplié par le taux d'incapacité pour les ITT partielles).
-Les frais médicaux, pharmaceutiques et d'hospitalisation non remboursés par la Sécurité sociale (dépassements d'honoraires, soins dentaires, lunettes, kinésithérapie non pris en charge) sont intégralement indemnisables. Conservez l'intégralité de vos justificatifs.
-L'assistance par tierce personne temporaire (aide à domicile, aide aux actes essentiels de la vie) est valorisée sur la base du coût horaire d'aide à domicile, même si c'est un proche qui a assuré cette aide bénévolement.
-## 3. Préjudices permanents : IPP, préjudice esthétique, d'agrément
-Après la consolidation, les séquelles définitives ouvrent droit à une indemnisation permanente. Le poste le plus important est généralement le déficit fonctionnel permanent (DFP), anciennement appelé IPP.
-Le DFP est évalué par le médecin expert en pourcentage (de 1% à 100%). Ce taux est ensuite converti en indemnisation selon le barème du prix du point en vigueur. Ce prix du point varie selon l'âge de la victime et le taux : pour un adulte de 40 ans avec un taux de 20%, l'indemnisation peut représenter entre 50 000 € et 80 000 € selon la juridiction saisie.
-Le préjudice esthétique permanent est évalué sur une échelle de 1 à 7 et indemnisé par un forfait variant de quelques milliers à plusieurs dizaines de milliers d'euros selon la gravité des séquelles visibles (cicatrices, déformation, handicap visible).
-Le préjudice d'agrément compense l'impossibilité ou la réduction de la capacité à pratiquer des activités sportives, culturelles ou de loisirs qui faisaient partie de la vie de la victime avant l'accident. Il n'est accordé que si la victime peut justifier de la pratique antérieure de ces activités.
-## 4. Le pretium doloris (souffrances endurées) : comment est-il évalué ?
-Les souffrances endurées (SE), parfois appelées pretium doloris, désignent l'ensemble des souffrances physiques et psychiques éprouvées par la victime depuis l'accident jusqu'à la consolidation. Ce poste est évalué par le médecin expert sur une échelle de 1 à 7.
-Niveau
-Qualification
-Fourchette indicative
+## 2. Préjudices temporaires : de l'accident à la consolidation
+Les préjudices temporaires sont ceux subis entre l'accident et la consolidation, c'est-à-dire le moment où l'état de santé est considéré comme stabilisé.
+Le déficit fonctionnel temporaire (DFT) indemnise la gêne dans la vie courante pendant cette période : hospitalisation, immobilisation, limitations. L'expert en fixe les périodes et les taux (total, puis partiel). Il est ensuite chiffré sur une base journalière, que les référentiels indicatifs et les juridictions apprécient différemment.
+Les dépenses de santé restées à la charge de la victime (dépassements d'honoraires, soins non remboursés, appareillage) et les frais divers (transports, frais de garde, assistance d'un médecin-recours) sont indemnisables sur justificatifs. Conservez-les tous.
+L'assistance temporaire par tierce personne est due dès lors que le besoin est établi, même si l'aide a été apportée bénévolement par un proche. La perte de gains professionnels actuels compense les revenus perdus pendant l'arrêt, déduction faite des indemnités perçues.
+## 3. Préjudices permanents : les séquelles après consolidation
+Après la consolidation, les séquelles définitives ouvrent droit à l'indemnisation de préjudices permanents. Le déficit fonctionnel permanent (DFP), que l'on appelait autrefois IPP, est exprimé en pourcentage par le médecin expert. Il ne correspond à aucune somme fixe : dans les référentiels indicatifs, la valeur du point augmente avec le taux et diminue avec l'âge de la victime.
+Le préjudice esthétique permanent est coté par l'expert sur une échelle de 1 à 7. Le préjudice d'agrément compense l'impossibilité ou la limitation de pratiquer une activité sportive ou de loisir ; en pratique, il suppose de justifier de cette activité avant l'accident. Le préjudice sexuel et le préjudice d'établissement sont des postes distincts.
+Côté patrimonial, les dépenses de santé futures, l'aménagement du logement et du véhicule, et l'assistance par tierce personne définitive sont souvent les postes les plus lourds des dossiers graves. Lorsqu'ils se répètent dans l'avenir, ils sont convertis en capital à l'aide du prix de l'euro de rente.
+## 4. Les souffrances endurées : comment sont-elles évaluées ?
+Les souffrances endurées (anciennement pretium doloris) désignent les souffrances physiques et psychiques éprouvées depuis l'accident jusqu'à la consolidation. L'expert les cote sur une échelle usuellement graduée de 1 à 7 :
+Cotation
+Qualification usuelle
 1/7
 Très léger
-500 € – 2 000 €
 2/7
 Léger
-2 000 € – 5 000 €
 3/7
 Modéré
-5 000 € – 10 000 €
 4/7
 Moyen
-10 000 € – 20 000 €
 5/7
 Assez important
-20 000 € – 35 000 €
 6/7
 Important
-35 000 € – 50 000 €
 7/7
-Exceptionnel
-50 000 € et plus
-La qualification du niveau de souffrances est un point de friction majeur entre les experts désignés par les assurances et les experts indépendants. Un médecin-conseil mandaté par l'assureur sera toujours enclin à minorer ce taux. Faire appel à votre propre médecin expert est indispensable pour défendre vos intérêts.
+Très important
+La cotation n'est pas convertie en somme par un barème obligatoire. Elle se discute pendant l'expertise : le médecin-conseil de l'assureur est mandaté par l'assureur, et la victime peut se faire assister de son propre médecin-recours.
 ## 5. Préjudice professionnel : perte de revenus et incidence professionnelle
-Le préjudice professionnel recouvre deux réalités distinctes que les victimes confondent souvent, au détriment de leur indemnisation.
-La perte de gains professionnels actuels (PGPA) correspond aux salaires, traitements, ou revenus professionnels non perçus pendant la période d'incapacité temporaire. Elle est calculée sur la différence entre les revenus habituels (avant accident) et les revenus effectivement perçus pendant la même période (indemnités journalières de Sécurité sociale, maintien de salaire par l'employeur). Ce poste fait l'objet d'un recours des tiers payeurs.
-L'incidence professionnelle (IP) est un poste souvent sous-évalué par les assureurs. Elle indemnise les conséquences définitives de l'accident sur la carrière professionnelle : déclassement, pénibilité accrue, impossibilité de poursuivre une formation, obligation de changer de métier, perte de chances de promotion. Ce poste ne fait pas l'objet d'un recours des tiers payeurs et vous revient intégralement.
-Pour les travailleurs indépendants, les artisans, les professions libérales et les commerçants, le calcul de la perte de revenus est plus complexe et nécessite souvent l'intervention d'un expert-comptable mandaté par votre avocat.
-## 6. La nomenclature Dintilhac : la référence pour chiffrer votre dossier
-La nomenclature Dintilhac, établie par le groupe de travail présidé par Jean-Pierre Dintilhac en 2005, est le référentiel incontournable en matière d'indemnisation du dommage corporel en France. Elle liste et définit l'ensemble des postes de préjudice indemnisables, et sert de base à toutes les négociations avec les assureurs et aux décisions judiciaires.
-La maîtrise de cette nomenclature est ce qui distingue un avocat en dommage corporel d'un avocat généraliste. Connaître les postes de préjudice, savoir les argumenter, choisir les bons médecins experts, et articuler chaque poste de façon à maximiser l'indemnisation tout en tenant compte des recours des tiers payeurs : c'est un savoir-faire qui s'acquiert uniquement par la pratique quotidienne du dommage corporel.
+Le préjudice professionnel recouvre plusieurs postes que les victimes confondent souvent.
+La perte de gains professionnels actuels (PGPA) correspond aux revenus non perçus pendant l'incapacité temporaire, déduction faite des indemnités journalières et du salaire maintenu. La perte de gains professionnels futurs (PGPF) vise les revenus perdus après la consolidation, lorsque la victime ne peut pas reprendre son activité ou doit la réduire ; elle est le plus souvent capitalisée jusqu'à l'âge prévisible de la retraite.
+L'incidence professionnelle (IP) indemnise les autres conséquences durables sur la vie professionnelle : pénibilité accrue, dévalorisation sur le marché du travail, reconversion, perte de chance d'évolution. C'est un poste souvent oublié dans les premières offres.
+Pour les travailleurs indépendants, artisans, commerçants et professions libérales, le calcul de la perte de revenus est plus complexe et nécessite souvent l'analyse d'un expert-comptable.
+## 6. La nomenclature Dintilhac : la grille de lecture de votre dossier
+La nomenclature Dintilhac, établie en 2005 par un groupe de travail présidé par Jean-Pierre Dintilhac, liste et définit les postes de préjudice indemnisables. Elle sert de trame aux rapports d'expertise, aux offres des assureurs et aux décisions de justice.
+L'enjeu, dans un dossier, est de n'oublier aucun poste, de justifier chacun d'eux et de tenir compte du recours des tiers payeurs, qui s'impute poste par poste.
 Maître Ilan Guedj, qui intervient dans l'indemnisation des accidents de la route et dans les accidents de la vie courante à Marseille, applique systématiquement cette nomenclature pour construire des dossiers complets qui prennent en compte chaque poste de préjudice sans en oublier un seul.
-## 7. Pourquoi l'offre de l'assurance est-elle toujours insuffisante ?
-Les assurances ont des objectifs financiers. Leur modèle économique repose sur la minimisation des indemnisations versées. Pour y parvenir, elles utilisent plusieurs stratégies systématiques.
-Proposer une offre rapide avant consolidation. Une victime qui accepte une offre alors que son état de santé n'est pas stabilisé renonce définitivement à tout complément, même si ses séquelles s'avèrent plus graves que prévu. Les assureurs savent qu'une victime dans le besoin (arrêt de travail, frais médicaux) sera tentée d'accepter.
-Minorer les souffrances endurées et le DFP. Le médecin-conseil de l'assureur, rémunéré par elle, a tendance à retenir des taux plus faibles. La différence entre un taux de 5% et 10% de DFP peut représenter des dizaines de milliers d'euros d'indemnisation.
-Omettre certains postes de préjudice. L'incidence professionnelle, le préjudice d'agrément, le préjudice sexuel, le préjudice d'établissement sont régulièrement absents des premières offres. Leur ajout peut faire varier l'indemnisation de manière très significative.
-Dans notre expérience, l'indemnisation obtenue après intervention d'un avocat en dommage corporel est en moyenne 2 à 4 fois supérieure à la première offre de l'assurance. Le coût de l'avocat — souvent prélevé sur l'indemnisation au titre des honoraires de résultat — est donc amplement amorti par le gain obtenu.
+## 7. Pourquoi la première offre de l'assureur mérite d'être vérifiée
+L'assureur n'est pas l'avocat de la victime : il indemnise un dommage dont il supporte la charge. Trois points méritent une attention particulière.
+Une offre faite avant la consolidation est provisionnelle. Après un accident de la circulation, l'offre définitive doit intervenir dans les cinq mois suivant la date à laquelle l'assureur a été informé de la consolidation. Une transaction acceptée peut être dénoncée dans les quinze jours ; au-delà, elle règle définitivement les préjudices qu'elle indemnise, sous réserve d'une aggravation ultérieure.
+Les taux retenus par l'expertise conditionnent tout le calcul. Quelques points de DFP ou un degré de souffrances endurées changent le montant de plusieurs postes. D'où l'intérêt d'être assisté pendant l'expertise.
+Certains postes peuvent manquer. Incidence professionnelle, préjudice d'agrément, préjudice sexuel ou d'établissement, tierce personne : une offre se vérifie poste par poste, avant toute signature. Voir aussi faut-il accepter l'offre de l'assurance ?.
 ## Questions fréquentes
 ### Qu'est-ce que le taux d'IPP et comment influe-t-il sur mon indemnisation ?
-L'IPP (Incapacité Permanente Partielle) est un taux, exprimé en pourcentage, qui mesure la réduction définitive des capacités physiques ou psychiques d'une victime après consolidation. Ce taux est fixé par le médecin expert selon le barème médical en usage. Plus ce taux est élevé, plus l'indemnisation du déficit fonctionnel permanent (DFP) sera importante. Un taux de 10% chez un adulte de 40 ans peut valoir entre 25 000 € et 40 000 € selon les juridictions.
+L'IPP est l'ancien nom de ce que la nomenclature Dintilhac appelle le déficit fonctionnel permanent (DFP) : un taux, fixé par le médecin expert, qui mesure les séquelles définitives après consolidation. Il ne correspond à aucune somme fixe : dans les référentiels indicatifs, la valeur du point augmente avec le taux et diminue avec l'âge de la victime. Et il n'indemnise qu'un poste parmi d'autres.
 ### Mon employeur peut-il récupérer une partie de mon indemnisation ?
-Oui, en partie. Les tiers payeurs (Sécurité sociale, mutuelle, employeur) qui ont versé des prestations bénéficient d'un droit de recours sur certains postes de préjudice. C'est pourquoi le travail de l'avocat est essentiel pour s'assurer que les postes de préjudice personnel sont correctement valorisés et intégralement versés à la victime.
+Les tiers payeurs qui ont versé des prestations du fait de l'accident (organismes sociaux, et l'employeur pour le salaire maintenu) peuvent exercer un recours contre le responsable. Ce recours s'impute poste par poste, sur les postes que ces prestations ont indemnisés. C'est pourquoi chaque poste doit être correctement évalué.
 ### Quelle est la différence entre l'ITT et l'IPP ?
-L'ITT (Incapacité Temporaire de Travail) correspond à la période durant laquelle la victime ne peut pas exercer son activité professionnelle habituelle suite à l'accident, avant la consolidation. L'IPP (Incapacité Permanente Partielle) désigne les séquelles définitives subsistant après la consolidation. L'ITT génère une indemnisation temporaire, tandis que l'IPP génère une indemnisation permanente et capitalisée du déficit fonctionnel.
+L'ITT désigne couramment la période d'incapacité qui suit l'accident, avant la consolidation ; l'IPP, les séquelles définitives qui subsistent après. La nomenclature Dintilhac parle plutôt de déficit fonctionnel temporaire (DFT) et de déficit fonctionnel permanent (DFP), qui s'indemnisent séparément.
+### Existe-t-il un barème qui donne le montant de mon indemnisation ?
+Non. Des référentiels indicatifs existent pour certains postes, mais ils ne lient pas le juge, qui doit réparer intégralement le préjudice de chaque victime. L'indemnisation se calcule poste par poste, à partir de l'expertise médicale, des justificatifs et, pour les préjudices futurs, d'un barème de capitalisation dont le choix se discute.
 ## Articles liés
 Préjudices graves
 Accident grave : indemnisation maximale et préjudices importants
+Préjudices
+Déficit fonctionnel permanent (DFP) : comment est-il indemnisé ?
+Préjudices
+Souffrances endurées : la cotation sur 7
+Calcul
+Capitaliser un préjudice futur : l'euro de rente
 Accident de la route
 Que faire après un accident de la route ?
 Assurance
@@ -3294,6 +3571,31 @@ Conseils pour
 # victimes d'accidents
 Guides pratiques rédigés par Maître Ilan Guedj, avocat au barreau de Marseille dont l'activité est consacrée exclusivement au dommage corporel. Chaque guide répond à une question précise de victime, cite les textes applicables et indique sa date de mise à jour.
 Vous cherchez la définition d'un terme (DFP, consolidation, tierce personne, CIVI…) ? Consultez le lexique du dommage corporel.
+Nouveau
+Préjudices 7 min de lecture
+## Déficit fonctionnel permanent (DFP) : comment est-il indemnisé ?
+Ce que mesure le taux, qui le fixe, pourquoi 10 % de DFP ne vaut aucune somme fixe, et ce que le DFP ne couvre pas.
+22 septembre 2026 Lire l'article →
+Nouveau
+Préjudices 6 min de lecture
+## Souffrances endurées : comment est évaluée la cotation sur 7 ?
+Ce que recouvre le poste, l'échelle de 1 à 7, et pourquoi une cotation se justifie et se discute pendant l'expertise.
+22 septembre 2026 Lire l'article →
+Nouveau
+Préjudices 7 min de lecture
+## Tierce personne : comment l'aide humaine est-elle indemnisée ?
+Besoin d'aide avant et après consolidation, aide apportée par un proche, heures, taux horaire et capitalisation.
+22 septembre 2026 Lire l'article →
+Nouveau
+Préjudices 6 min de lecture
+## Incidence professionnelle : que couvre ce poste de préjudice ?
+Pénibilité, dévalorisation, reconversion, perte de chance : un poste distinct des pertes de revenus, souvent oublié.
+22 septembre 2026 Lire l'article →
+Nouveau
+Préjudices 7 min de lecture
+## Euro de rente : comment est capitalisé un préjudice futur ?
+Montant annuel × prix de l'euro de rente : âge, sexe, tables de mortalité, taux d'actualisation et choix du barème.
+22 septembre 2026 Lire l'article →
 Nouveau
 Accident de la route 8 min de lecture
 ## Accident de moto : quelle indemnisation pour le motard ?
@@ -3698,7 +4000,7 @@ URL : https://ig-avocat.com/blog\que-faire-apres-accident-route
 
 Accident de la route
 # Que faire immédiatement après un accident de la route ?
-Publié le 17 février 2026 8 min de lecture Maître Ilan Guedj
+Publié le 17 février 2026 · Mis à jour le 22 septembre 2026 8 min de lecture Maître Ilan Guedj
 Les premières heures après un accident de la route sont déterminantes pour la suite de votre dossier d'indemnisation. Chaque geste compte. Ce guide vous explique exactement quoi faire, dans quel ordre, et surtout quelles erreurs peuvent compromettre définitivement vos droits.
 ## 1. Les 10 premières minutes : les gestes qui sauvent votre dossier
 Dans les minutes qui suivent un accident de la route, la priorité absolue est la sécurité. Pourtant, ces mêmes minutes sont aussi cruciales pour la constitution de votre dossier juridique futur. Voici ce que vous devez faire immédiatement.
@@ -3743,7 +4045,7 @@ Un avocat en dommage corporel intervient à votre côté pour :
 - → Négocier avec l'assurance adverse pour obtenir une indemnisation juste
 - → Saisir les tribunaux si nécessaire pour faire valoir vos droits
 - → Travailler dans la majorité des cas sans honoraires d'avance (honoraires prélevés sur l'indemnisation)
-Dans notre pratique, il n'est pas rare que l'indemnisation obtenue avec l'aide d'un avocat soit 2 à 5 fois supérieure à la première offre de l'assurance. Maître Ilan Guedj, qui intervient en accidents de la route à Marseille, vous propose une première consultation gratuite pour analyser votre situation.
+Une offre se vérifie poste par poste avant toute signature : une fois le délai de dénonciation de quinze jours écoulé, la transaction acceptée règle définitivement les préjudices qu'elle indemnise. Maître Ilan Guedj, qui intervient en accidents de la route à Marseille, vous propose une première consultation gratuite pour analyser votre situation.
 ## Questions fréquentes
 ### Que faire si l'autre conducteur refuse de signer le constat amiable ?
 Si l'autre conducteur refuse de signer le constat, notez sa plaque d'immatriculation, l'heure et le lieu de l'accident, et faites appel à des témoins. Prenez des photos du véhicule adverse et de la scène. Remplissez le constat de votre côté en mentionnant le refus de signer, puis déclarez l'accident à votre assurance dans les 5 jours ouvrés. Contactez rapidement un avocat en dommage corporel.
@@ -3864,3 +4166,163 @@ L'offre de l'assurance
 Avant d'accepter quoi que ce soit, faites analyser votre dossier gratuitement par le cabinet ILAN GUEDJ. Cette consultation peut changer radicalement votre indemnisation.
 WhatsApp — Réponse immédiate 06 63 46 59 84
 Consultation 100% gratuite — Honoraires sur résultat uniquement
+
+---
+
+## Souffrances endurées : comment la cotation sur 7 est indemnisée
+URL : https://ig-avocat.com/blog\souffrances-endurees
+
+Préjudices · Nomenclature Dintilhac · Guide 2026
+# Souffrances endurées : comment la cotation sur 7 est-elle indemnisée ?
+Les souffrances endurées indemnisent les douleurs physiques et psychiques subies entre l'accident et la consolidation. L'expert les cote sur une échelle usuellement graduée de 1 à 7, en tenant compte des hospitalisations, interventions, rééducation, traitements et du retentissement psychologique. Aucune cotation ne donne droit à un montant automatique : les référentiels proposent des fourchettes, mais l'évaluation reste individualisée et distincte du déficit fonctionnel permanent.
+Publié le 22 septembre 2026 7 min de lecture Maître Ilan Guedj
+Un chiffre sur 7, inscrit au détour d'un rapport d'expertise, résume des mois de douleur. Encore faut-il que tout ce qui les a causées y figure : une intervention oubliée, un suivi psychologique non mentionné, et la cotation baisse d'un cran.
+## 1. Ce que recouvre le poste
+Les souffrances endurées indemnisent les douleurs physiques et psychiques subies par la victime depuis l'accident jusqu'à la consolidation : la douleur des blessures elles-mêmes, celle des interventions et des soins, de la rééducation, mais aussi l'angoisse, le choc, les troubles psychologiques de cette période.
+Les douleurs qui persistent après la consolidation relèvent en principe du déficit fonctionnel permanent. La frontière entre les deux postes se situe à la date de consolidation.
+## 2. L'échelle de 1 à 7
+L'expert cote ces souffrances sur une échelle usuellement graduée de 1 à 7 :
+Cotation
+Qualification usuelle
+1/7
+Très léger
+2/7
+Léger
+3/7
+Modéré
+4/7
+Moyen
+5/7
+Assez important
+6/7
+Important
+7/7
+Très important
+Le rapport d'expertise doit permettre de comprendre pourquoi telle cotation a été retenue. Une cotation sans justification se discute.
+## 3. Ce que l'expert doit prendre en compte
+- → le nombre et la durée des hospitalisations ;
+- → les interventions chirurgicales, y compris celles à venir avant consolidation ;
+- → la durée et la pénibilité de la rééducation ;
+- → les traitements antalgiques et leurs effets ;
+- → le retentissement psychologique : choc, angoisse, troubles du sommeil, stress post-traumatique.
+Le retentissement psychique est le plus souvent oublié. Il doit être documenté : certificat du médecin traitant, suivi psychologique, traitements. Ce qui n'est pas dans le dossier n'est pas coté.
+## 4. Pourquoi 4/7 ne vaut pas un montant fixe
+Une cotation ne se convertit pas automatiquement en euros. Des référentiels indicatifs proposent des fourchettes par degré, et les décisions rendues donnent des repères ; mais aucun barème ne s'impose au juge, qui apprécie les circonstances propres à chaque victime.
+Deux souffrances cotées 4/7 peuvent donc être indemnisées différemment selon ce que le dossier démontre : durée, intensité, nombre d'opérations, jeune âge de la victime, retentissement psychique.
+## 5. Ne pas confondre avec d'autres postes
+Les souffrances endurées sont distinctes du déficit fonctionnel temporaire — la gêne dans les activités de la vie courante avant consolidation — du préjudice esthétique temporaire ou permanent, et du DFP après consolidation. Chacun s'évalue séparément ; l'absorption d'un poste par un autre est une cause fréquente de sous-indemnisation.
+## 6. Contester une cotation
+Comme pour le DFP, la discussion se mène d'abord pendant l'expertise, avec l'assistance d'un médecin-recours et les pièces qui documentent la réalité des souffrances. Après le rapport, une contre-expertise ou une expertise judiciaire reste possible.
+## 7. Ce qu'il faut retenir
+- ✓ Le poste couvre les souffrances physiques et psychiques jusqu'à la consolidation
+- ✓ Cotation de 1 à 7, qui doit être justifiée dans le rapport
+- ✓ Le retentissement psychologique doit être documenté pour être coté
+- ✓ Aucune cotation ne vaut un montant automatique
+- ✓ Ne pas laisser un poste en absorber un autre : DFT, esthétique, DFP sont distincts
+## Questions fréquentes
+### Combien vaut une cotation de 4/7 ?
+Il n'existe pas de montant automatique. Des référentiels indicatifs proposent des fourchettes par degré, mais aucun barème ne s'impose au juge : l'indemnisation dépend de ce que le dossier démontre (durée, intensité, interventions, retentissement psychique, âge).
+### Les souffrances psychologiques sont-elles prises en compte ?
+Oui, le poste couvre les souffrances physiques et psychiques. Encore faut-il qu'elles soient documentées : certificats, suivi psychologique, traitements. Ce qui ne figure pas au dossier n'est pas coté.
+### Et les douleurs qui persistent après la consolidation ?
+Elles relèvent en principe du déficit fonctionnel permanent, qui couvre notamment les douleurs permanentes après consolidation. Les souffrances endurées s'arrêtent à la date de consolidation.
+### Peut-on contester la cotation de l'expert ?
+Oui, d'abord pendant l'expertise, avec l'assistance d'un médecin-recours et les pièces utiles ; ensuite par une contre-expertise ou une expertise judiciaire.
+## Articles liés
+Page pivot
+Les postes de préjudice : ce que vous pouvez faire indemniser
+Préjudices
+DFP : comment est-il indemnisé ?
+Préjudices
+Tierce personne : l'aide humaine indemnisée
+Expertise
+Le rôle du médecin-recours
+Expertise
+Préparer son expertise médicale
+Lexique
+Lexique du dommage corporel
+### Cotation contestable ?
+Avant d'accepter une offre fondée sur le rapport d'expertise, faites-le analyser gratuitement.
+WhatsApp 06 63 46 59 84
+À retenir
+Les souffrances endurées couvrent la douleur jusqu'à la consolidation, cotée de 1 à 7. Aucune cotation ne vaut un montant automatique, et le retentissement psychique doit être documenté pour être pris en compte.
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+Souffrances endurées — Faites vérifier
+Une cotation
+## qui vous paraît basse ?
+Elle se discute, d'abord pendant l'expertise. Le cabinet n'intervient que pour les victimes.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation 100 % gratuite — Honoraires sur résultat uniquement
+
+---
+
+## Tierce personne : comment l'aide humaine est indemnisée
+URL : https://ig-avocat.com/blog\tierce-personne-indemnisation
+
+Préjudices · Nomenclature Dintilhac · Guide 2026
+# Assistance par tierce personne : comment l'aide humaine est-elle indemnisée ?
+L'assistance par tierce personne indemnise l'aide humaine rendue nécessaire par le handicap pour les actes de la vie quotidienne, et la surveillance lorsque l'état de la victime l'exige. Le calcul repose d'abord sur un volume horaire fixé par l'expert, pour la période avant et après consolidation, multiplié par un coût horaire. L'aide fournie gratuitement par un proche reste indemnisée : le besoin ne disparaît pas faute de facture.
+Publié le 22 septembre 2026 7 min de lecture Maître Ilan Guedj
+Dans les dossiers graves, c'est souvent le poste qui pèse le plus. Et c'est aussi celui qui se perd le plus facilement : une aide familiale qu'on ne pense pas à réclamer, un rapport d'expertise qui parle d'« aide ponctuelle » sans chiffrer les heures.
+## 1. Ce que couvre le poste
+L'assistance par tierce personne indemnise l'aide humaine rendue nécessaire par le handicap pour les actes de la vie quotidienne : toilette, habillage, repas, déplacements, entretien du logement, mais aussi surveillance lorsque l'état de la victime l'exige, notamment après un traumatisme crânien.
+C'est souvent le poste le plus lourd des dossiers graves, parce qu'il se répète chaque jour et se projette parfois sur toute une vie.
+## 2. Temporaire et permanente
+On distingue l'aide nécessaire avant la consolidation — pendant l'immobilisation, la convalescence, la rééducation — et l'aide nécessaire après, lorsque le handicap est définitif. Les deux périodes s'évaluent séparément.
+L'aide temporaire est fréquemment oubliée dans les dossiers de gravité moyenne : quelques semaines d'aide pour une fracture, pourtant bien réelles, qui ne sont jamais réclamées.
+## 3. L'aide apportée gratuitement par la famille est indemnisée
+C'est le point le plus mal compris. Le besoin d'assistance s'évalue en fonction de l'aide rendue nécessaire par le handicap, et non de l'existence de factures. Qu'un conjoint, un parent ou un enfant apporte cette aide sans être rémunéré ne fait pas disparaître le besoin, ni son indemnisation.
+L'enjeu est alors de démontrer la nature des tâches, leur durée et leur fréquence : un simple « ma femme m'aide » ne suffit pas, un décompte précis des besoins, oui.
+## 4. Tout se joue en heures
+Le montant final découle d'abord d'un volume horaire, qui doit être fixé par l'expert. Un rapport utile précise :
+- → le nombre d'heures par jour ou par semaine, pour chaque période ;
+- → la nature de l'aide : active (gestes concrets) ou passive (présence, surveillance) ;
+- → le besoin éventuel d'une aide qualifiée, plutôt que d'une aide non spécialisée ;
+- → la durée du besoin : temporaire, ou viagère.
+Une formule vague — « aide ponctuelle », « quelques heures » — conduit à une sous-évaluation qui, répétée sur des années, se chiffre considérablement.
+## 5. Le coût horaire
+Le volume horaire est ensuite multiplié par un coût horaire, fixé selon la nature de l'aide et ses modalités : emploi direct, recours à un prestataire, charges sociales, congés. Le fait que l'aide soit familiale n'autorise pas à retenir un coût dérisoire.
+## 6. Projeter le besoin dans l'avenir
+Pour un besoin permanent, l'indemnisation future se calcule en capitalisant le coût annuel à l'aide d'un barème de prix de l'euro de rente, qui tient compte de l'âge et de l'espérance de vie de la victime. La méthode est détaillée dans notre article Capitaliser un préjudice futur.
+## 7. Ce qu'il faut retenir
+- ✓ Le poste couvre l'aide humaine et la surveillance rendues nécessaires par le handicap
+- ✓ Aide temporaire et aide permanente s'évaluent séparément
+- ✓ L'aide familiale gratuite est indemnisée : le besoin ne disparaît pas faute de facture
+- ✓ Le montant dépend d'abord du volume horaire fixé par l'expert
+- ✓ Un besoin viager se capitalise sur l'espérance de vie de la victime
+## Questions fréquentes
+### Mon conjoint m'aide gratuitement : puis-je être indemnisé ?
+Oui. Le besoin d'assistance s'évalue en fonction de l'aide rendue nécessaire par le handicap, et non de l'existence de factures. Qu'un proche aide sans être rémunéré ne fait pas disparaître ce besoin ni son indemnisation. Il faut en revanche démontrer la nature, la durée et la fréquence des tâches.
+### Comment se calcule l'indemnité de tierce personne ?
+À partir d'un volume horaire fixé par l'expert, pour chaque période, multiplié par un coût horaire adapté à la nature de l'aide. Pour un besoin permanent, le coût annuel est capitalisé à l'aide d'un barème de prix de l'euro de rente.
+### La surveillance compte-t-elle comme une aide ?
+Oui. Lorsque l'état de la victime nécessite une présence ou une surveillance, notamment après un traumatisme crânien, ce besoin relève de l'assistance par tierce personne, même en l'absence de gestes actifs.
+### L'aide pendant la convalescence est-elle indemnisée ?
+Oui. L'assistance temporaire, avant la consolidation, est un poste à part entière. Elle est souvent oubliée dans les dossiers de gravité moyenne, alors qu'elle doit être réclamée.
+## Articles liés
+Page pivot
+Les postes de préjudice : ce que vous pouvez faire indemniser
+Calcul
+Capitaliser un préjudice futur : l'euro de rente
+Blessures graves
+Accident grave : tierce personne, frais futurs, pertes de gains
+Préjudices
+Souffrances endurées : la cotation sur 7
+Expertise
+Le rôle du médecin-recours
+Lexique
+Lexique du dommage corporel
+### Un proche vous aide au quotidien ?
+Cette aide s'indemnise. Faites analyser votre dossier gratuitement.
+WhatsApp 06 63 46 59 84
+À retenir
+La tierce personne couvre l'aide humaine et la surveillance. L'aide familiale gratuite est indemnisée. Tout se joue sur le volume horaire fixé par l'expert.
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+Tierce personne — Faites vérifier
+Besoin d'aide
+## au quotidien ?
+Un besoin mal chiffré se perd pour des années. Le cabinet n'intervient que pour les victimes.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation 100 % gratuite — Honoraires sur résultat uniquement
