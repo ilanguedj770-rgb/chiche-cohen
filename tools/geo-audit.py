@@ -15,7 +15,7 @@ Contrôles (état de l'art 2026 des moteurs de réponse) :
 - sitemap : lastmod réels (pas tous identiques), feed.xml, clé IndexNow, _headers.
 """
 from pathlib import Path
-import re, sys, json
+import re, sys, json, html
 
 ROOT = Path(__file__).resolve().parents[1]
 HTML = sorted(ROOT.glob("*.html")) + sorted((ROOT / "blog").glob("*.html"))
@@ -52,7 +52,7 @@ for p in HTML:
     if not noindex and 'class="geo-answer' not in s: warnings.append(f"{rel}: pas de bloc geo-answer")
     desc=one(r'<meta\s+name="description"\s+content="([^"]*)"',s)
     if not desc: errors.append(f"{rel}: meta description manquante")
-    elif len(" ".join(desc.split()))>160: warnings.append(f"{rel}: meta description de {len(' '.join(desc.split()))} caractères (tronquée au-delà de ~160)")
+    elif len(" ".join(html.unescape(desc).split()))>160: warnings.append(f"{rel}: meta description de {len(' '.join(html.unescape(desc).split()))} caractères (tronquée au-delà de ~160)")
     for lid in sorted(set(re.findall(r'legifrance\.gouv\.fr/[^"\s<>]*?((?:LEGIARTI|LEGISCTA|JORFTEXT|JURITEXT)\d+)',s))):
         if lid not in VERIFIED: errors.append(f"{rel}: identifiant Légifrance {lid} absent de SOURCES-JURIDIQUES-VERIFIEES.md")
     if title:

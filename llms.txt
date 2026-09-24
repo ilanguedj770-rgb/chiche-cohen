@@ -27,19 +27,43 @@ Chaque page du site commence par un bloc « En bref » (classe `geo-answer`) : u
 - [Lexique du dommage corporel](https://ig-avocat.com/lexique-dommage-corporel): 31 définitions sourcées (nomenclature Dintilhac, DFP, DFT, consolidation, souffrances endurées, tierce personne, PGPA, PGPF, incidence professionnelle, CIVI, FGTI, FGAO, CCI, ONIAM, GAV…)
 
 ## Guides
+
+### Accidents de la circulation
+- [Accident de la route : qui est indemnisé et dans quels délais ?](https://ig-avocat.com/blog/accident-route-indemnisation): Loi Badinter : piéton, cycliste, passager, motard, conducteur — qui est indemnisé après un accident de la route, par qui, et dans quels délais.
 - [Que faire après un accident de la route ?](https://ig-avocat.com/blog/que-faire-apres-accident-route): constat, obligations, déclaration à l'assurance, erreurs à éviter
+- [Conducteur en faute : pouvez-vous être indemnisé ?](https://ig-avocat.com/blog/faute-conducteur-victime-indemnisation): article 4 de la loi Badinter, arrêt Cass. 2e civ. 19 juin 2025
+- [Victime passagère d'un accident : vos droits](https://ig-avocat.com/blog/indemnisation-victime-passagere-accident): indemnisation intégrale du passager, même si le conducteur est fautif
+- [Piéton renversé : quelle indemnisation après l'accident ?](https://ig-avocat.com/blog/pieton-indemnisation-accident): Piéton blessé par un véhicule : la loi Badinter l'indemnise même s'il a traversé hors d'un passage. Faute inexcusable, protections renforcées, délais d'offre.
+- [Cycliste renversé : quelle indemnisation après l'accident ?](https://ig-avocat.com/blog/accident-velo-indemnisation): Cycliste blessé par une voiture : la loi Badinter le protège comme un piéton. Faute inexcusable, VAE, dommages au vélo, délais d'offre et Fonds de garantie.
+- [Accident de moto : quelle indemnisation pour le motard ?](https://ig-avocat.com/blog/accident-moto-indemnisation): Motard blessé : la loi Badinter le traite en conducteur, sa faute peut réduire l'indemnisation. Droit à réparation, preuves, postes de préjudice et délais.
+- [Accident de trottinette électrique : quels sont vos droits ?](https://ig-avocat.com/blog/accident-trottinette-electrique-indemnisation): EDPM, loi Badinter, assurance obligatoire, FGAO
+- [Délit de fuite : comment être indemnisé si le responsable n'est pas retrouvé ?](https://ig-avocat.com/blog/accident-delit-fuite-indemnisation): Le responsable a pris la fuite ou reste inconnu : le Fonds de garantie peut intervenir. Preuves à réunir, matérialité de l'accident, corporel et matériel.
+- [Accident avec un conducteur non assuré : qui indemnise la victime ?](https://ig-avocat.com/blog/fonds-garantie-conducteur-non-assure): Le responsable n'était pas assuré : le Fonds de garantie peut indemniser la victime. Conditions, pièces à réunir, corporel et matériel, garanties personnelles.
+- [Faut-il accepter l'offre d'indemnisation de l'assurance ?](https://ig-avocat.com/blog/refuser-offre-assurance-accident): délais de la loi Badinter, contestation, transaction
+
+### Postes de préjudice et calcul
 - [Indemnisation d'un accident corporel : combien toucher ?](https://ig-avocat.com/blog/indemnisation-accident-corporel): postes de préjudice, nomenclature Dintilhac, méthode de calcul
 - [Accident grave : indemnisation des préjudices importants](https://ig-avocat.com/blog/indemnisation-accident-grave): tierce personne, frais futurs, paraplégie, traumatisme crânien
+- [Déficit fonctionnel permanent (DFP) : comment est-il indemnisé ?](https://ig-avocat.com/blog/deficit-fonctionnel-permanent-dfp): Déficit fonctionnel permanent : ce que mesure le taux, qui le fixe, pourquoi 10 % de DFP ne vaut pas une somme fixe, et ce que le DFP ne couvre pas.
+- [Souffrances endurées : comment la cotation sur 7 est-elle indemnisée ?](https://ig-avocat.com/blog/souffrances-endurees): Souffrances endurées : ce que couvre le poste, l'échelle de 1 à 7, ce que l'expert doit prendre en compte, et pourquoi 4/7 ne vaut pas un montant fixe.
+- [Assistance par tierce personne : comment l'aide humaine est-elle indemnisée ?](https://ig-avocat.com/blog/tierce-personne-indemnisation): Tierce personne : aide temporaire et permanente, aide d'un proche indemnisée même gratuite, volume horaire, coût horaire et capitalisation.
+- [Incidence professionnelle : que peut-elle indemniser ?](https://ig-avocat.com/blog/incidence-professionnelle): Incidence professionnelle : pénibilité, dévalorisation, perte de chance, reclassement. Ce qui la distingue de la perte de revenus, et comment la prouver.
+- [Capitaliser un préjudice futur : le prix de l'euro de rente](https://ig-avocat.com/blog/capitalisation-prejudice-euro-de-rente): Capitaliser un préjudice futur : montant annuel × prix de l'euro de rente, rôle de l'âge, du sexe, des tables et du taux, choix du barème.
+- [Décès d'un proche dans un accident : quels droits pour la famille ?](https://ig-avocat.com/blog/deces-accident-indemnisation-proches): Proche décédé dans un accident : préjudice d'affection, frais d'obsèques, perte de revenus du foyer, préjudice d'accompagnement. Qui peut agir, et quand.
+
+### Expertise médicale
 - [Expertise médicale après un accident grave : les 15 jours décisifs](https://ig-avocat.com/blog/preparer-expertise-medicale-accident-grave): convocation (R. 211-43), assistance d'un médecin (L. 211-10), rapport sous vingt jours
 - [Expertise médicale judiciaire ou amiable ?](https://ig-avocat.com/blog/expertise-medicale-judiciaire): différences, cadre contradictoire, quand demander une expertise judiciaire
 - [Le médecin-recours, allié de la victime](https://ig-avocat.com/blog/medecin-recours-victime): rôle, différence avec le médecin de l'assureur
-- [Faut-il accepter l'offre d'indemnisation de l'assurance ?](https://ig-avocat.com/blog/refuser-offre-assurance-accident): délais de la loi Badinter, contestation, transaction
-- [Conducteur en faute : pouvez-vous être indemnisé ?](https://ig-avocat.com/blog/faute-conducteur-victime-indemnisation): article 4 de la loi Badinter, arrêt Cass. 2e civ. 19 juin 2025
-- [Victime passagère d'un accident : vos droits](https://ig-avocat.com/blog/indemnisation-victime-passagere-accident): indemnisation intégrale du passager, même si le conducteur est fautif
-- [Accident de trottinette électrique : quels sont vos droits ?](https://ig-avocat.com/blog/accident-trottinette-electrique-indemnisation): EDPM, loi Badinter, assurance obligatoire, FGAO
-- [Délais de prescription en dommage corporel](https://ig-avocat.com/blog/delai-prescription-accident-corporel): règle des dix ans, délais spéciaux, consolidation, actes interruptifs
+
+### Erreur médicale, agression, travail
 - [Erreur médicale : droits, délais, ONIAM et CCI](https://ig-avocat.com/blog/erreur-medicale-droits-victime): prouver la faute, choisir entre CCI, ONIAM et tribunal
+- [Infection nosocomiale : qui vous indemnise, et comment ?](https://ig-avocat.com/blog/infection-nosocomiale-indemnisation): Infection contractée à l'hôpital : responsabilité de l'établissement sans faute à prouver, ONIAM au-delà de 25 %, saisine de la CCI, délai de 10 ans.
 - [Victime d'agression : droits, CIVI et FGTI](https://ig-avocat.com/blog/agression-victime-droits-recours): conditions d'indemnisation, procédure, rôle de l'avocat
+- [Accident du travail : quand la faute inexcusable change l'indemnisation](https://ig-avocat.com/blog/accident-travail-faute-inexcusable): Accident du travail : ce que la Sécurité sociale ne paie pas, la faute inexcusable de l'employeur, les préjudices en plus et la réforme de novembre 2026.
+
+### Délais
+- [Délais de prescription en dommage corporel](https://ig-avocat.com/blog/delai-prescription-accident-corporel): règle des dix ans, délais spéciaux, consolidation, actes interruptifs
 
 ## Villes
 - [Aix-en-Provence](https://ig-avocat.com/avocat-aix-en-provence): TJ d'Aix-en-Provence, cour d'appel d'Aix-en-Provence

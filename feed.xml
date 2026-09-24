@@ -6,9 +6,36 @@
     <atom:link href="https://ig-avocat.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Réponses juridiques sourcées pour les victimes d'accidents de la circulation, d'erreurs médicales, d'agressions et d'accidents de la vie, par Maître Ilan Guedj, avocat au barreau de Marseille.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Tue, 22 Sep 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 09:00:00 +0000</lastBuildDate>
     <managingEditor>contact@ig-avocat.com (Maître Ilan Guedj)</managingEditor>
     <image><url>https://ig-avocat.com/img/og-cover.jpg</url><title>Maître Ilan Guedj</title><link>https://ig-avocat.com/</link></image>
+    <item>
+      <title>Infection nosocomiale : indemnisation, ONIAM et CCI</title>
+      <link>https://ig-avocat.com/blog/infection-nosocomiale-indemnisation</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/infection-nosocomiale-indemnisation</guid>
+      <description>Infection contractée à l&#x27;hôpital : responsabilité de l&#x27;établissement sans faute à prouver, ONIAM au-delà de 25 %, saisine de la CCI, délai de 10 ans.</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-09-24</dc:date>
+    </item>
+    <item>
+      <title>Décès dans un accident : l&#x27;indemnisation des proches</title>
+      <link>https://ig-avocat.com/blog/deces-accident-indemnisation-proches</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/deces-accident-indemnisation-proches</guid>
+      <description>Proche décédé dans un accident : préjudice d&#x27;affection, frais d&#x27;obsèques, perte de revenus du foyer, préjudice d&#x27;accompagnement. Qui peut agir, et quand.</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-09-24</dc:date>
+    </item>
+    <item>
+      <title>Accident du travail : faute inexcusable et indemnisation</title>
+      <link>https://ig-avocat.com/blog/accident-travail-faute-inexcusable</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/accident-travail-faute-inexcusable</guid>
+      <description>Accident du travail : ce que la Sécurité sociale ne paie pas, la faute inexcusable de l&#x27;employeur, les préjudices en plus et la réforme de novembre 2026.</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Thu, 24 Sep 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-09-24</dc:date>
+    </item>
     <item>
       <title>Tierce personne : comment l&#x27;aide humaine est indemnisée</title>
       <link>https://ig-avocat.com/blog/tierce-personne-indemnisation</link>
@@ -214,7 +241,7 @@
       <description>Erreur médicale : délai pour agir contre un hôpital ou un médecin (10 ans après consolidation), plainte pénale, CCI et ONIAM. Les droits de la victime.</description>
       <dc:creator>Maître Ilan Guedj</dc:creator>
       <pubDate>Tue, 17 Feb 2026 09:00:00 +0000</pubDate>
-      <dc:date>2026-05-20</dc:date>
+      <dc:date>2026-09-24</dc:date>
     </item>
     <item>
       <title>Délais de prescription accident corporel : quand agir ? 2026</title>

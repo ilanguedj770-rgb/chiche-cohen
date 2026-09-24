@@ -79,7 +79,8 @@ SECTIONS = [
   ("prejudice-scolaire", "Préjudice scolaire, universitaire ou de formation", "prejudice-scolaire-universitaire-formation.md", None, [DINTILHAC], [], []),
   ("logement-adapte", "Frais de logement adapté", "frais-logement-adapte-indemnisation.md", None, [DINTILHAC], [], []),
   ("vehicule-adapte", "Frais de véhicule adapté", "vehicule-adapte-indemnisation.md", None, [DINTILHAC], [], []),
-  ("prejudice-affection", "Préjudice d'affection", "prejudice-affection-definition.md", None, [DINTILHAC], [], []),
+  ("prejudice-affection", "Préjudice d'affection", "prejudice-affection-definition.md", None, [DINTILHAC],
+   [("blog/deces-accident-indemnisation-proches", "Décès d'un proche : les droits de la famille")], []),
  ]),
  ("L'expertise médicale", [
   ("expertise-medicale", "Expertise médicale", "05-expertise-medicale.md", None,
@@ -126,8 +127,10 @@ SECTIONS = [
     ("Code de la santé publique, article D. 1142-1", LEGI + "LEGIARTI000023458773")],
    [("erreur-medicale", "Erreur médicale")], []),
   ("infection-nosocomiale", "Infection nosocomiale", "08-infection-nosocomiale.md", None,
-   [("Code de la santé publique, article L. 1142-1-1", LEGI + "LEGIARTI000020628248")],
-   [("erreur-medicale", "Erreur médicale")], []),
+   [("Code de la santé publique, article L. 1142-1", LEGI + "LEGIARTI000020628252"),
+    ("Code de la santé publique, article L. 1142-1-1", LEGI + "LEGIARTI000020628248")],
+   [("erreur-medicale", "Erreur médicale"),
+    ("blog/infection-nosocomiale-indemnisation", "Infection nosocomiale : qui indemnise ?")], []),
   ("gav", "Garantie des accidents de la vie (GAV)", None,
    "La garantie des accidents de la vie (GAV) est un contrat d'assurance facultatif qui indemnise "
    "l'assuré des dommages corporels subis lors d'un accident de la vie privée (accident domestique, de "
@@ -138,7 +141,8 @@ SECTIONS = [
    [("La finance pour tous (IEFP), la garantie des accidents de la vie", "https://www.lafinancepourtous.com/pratique/assurance/assurances-famille-loisirs/la-garantie-des-accidents-de-la-vie/")],
    [("accidents-vie", "Accidents de la vie")], ["https://fr.wikipedia.org/wiki/Garantie_des_accidents_de_la_vie"]),
   ("faute-inexcusable", "Faute inexcusable de l'employeur", "faute-inexcusable-employeur.md", None,
-   [("Code de la sécurité sociale, articles L. 452-1 à L. 452-5", "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000006156141/")], [], []),
+   [("Code de la sécurité sociale, articles L. 452-1 à L. 452-5", "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000006156141/")],
+   [("blog/accident-travail-faute-inexcusable", "Accident du travail et faute inexcusable")], []),
  ]),
 ]
 
