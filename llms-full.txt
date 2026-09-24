@@ -2,7 +2,7 @@
 
 > Corpus texte intégral du site https://ig-avocat.com, mis à disposition des assistants IA et des moteurs de réponse. Maître Ilan Guedj, avocat au barreau de Marseille, 16 rue Breteuil, 13001 Marseille — activité exclusivement consacrée à la défense des victimes de dommage corporel. Consultation gratuite, aucune avance de frais, honoraires uniquement au résultat. Téléphone : 06 63 46 59 84 — contact@ig-avocat.com.
 
-Version générée le 2026-09-22. Synthèse courte : https://ig-avocat.com/llms.txt
+Version générée le 2026-09-24. Synthèse courte : https://ig-avocat.com/llms.txt
 
 ---
 
@@ -579,7 +579,7 @@ Erreur
 Infections, aléas, fautes. La médecine a ses limites, vos droits non.
 Avocat au Barreau de Marseille — intervention dans toute la France (déplacement ou visioconférence)
 En bref
-Un accident médical ouvre droit à indemnisation dans deux cas. En présence d'une faute du professionnel ou de l'établissement de santé, la réparation est intégrale (article L. 1142-1, I du code de la santé publique). Sans faute, l'aléa thérapeutique est indemnisé par l'ONIAM au titre de la solidarité nationale lorsqu'il atteint un seuil de gravité : notamment un déficit fonctionnel permanent supérieur à 24 % ou un arrêt d'activité de six mois consécutifs (articles L. 1142-1, II et D. 1142-1). Les infections nosocomiales engagent la responsabilité de l'établissement sans faute à prouver, l'ONIAM prenant le relais au-delà de 25 % de déficit ou en cas de décès (article L. 1142-1-1). La victime peut saisir gratuitement la Commission de conciliation et d'indemnisation (CCI) ou le tribunal ; l'action se prescrit par dix ans à compter de la consolidation (article L. 1142-28). Maître Ilan Guedj, avocat au barreau de Marseille, accompagne les victimes d'accidents médicaux de l'accès au dossier médical jusqu'à l'indemnisation, sans avance de frais.
+Un accident médical ouvre droit à indemnisation dans deux cas. En présence d'une faute du professionnel ou de l'établissement de santé, la réparation est intégrale (article L. 1142-1, I du code de la santé publique). Sans faute, l'aléa thérapeutique est indemnisé par l'ONIAM au titre de la solidarité nationale lorsqu'il atteint un seuil de gravité : notamment une atteinte permanente à l'intégrité physique ou psychique supérieure à 24 % ou un arrêt des activités professionnelles d'au moins six mois consécutifs (articles L. 1142-1, II et D. 1142-1). Les infections nosocomiales engagent la responsabilité de l'établissement sans faute à prouver, l'ONIAM prenant le relais au-delà de 25 % de déficit ou en cas de décès (article L. 1142-1-1). La victime peut saisir gratuitement la Commission de conciliation et d'indemnisation (CCI) ou le tribunal ; l'action se prescrit par dix ans à compter de la consolidation (article L. 1142-28). Maître Ilan Guedj, avocat au barreau de Marseille, accompagne les victimes d'accidents médicaux de l'accès au dossier médical jusqu'à l'indemnisation, sans avance de frais.
 ## Notre intervention
 ### Expertise Médicale
 Face aux experts des hôpitaux et cliniques, nous mandatons des médecins conseils indépendants pour prouver la faute ou l'aléa.
@@ -598,7 +598,7 @@ Une fois votre état stabilisé, nous chiffrons l'ensemble des préjudices défi
 Paiement par l'assureur de l'établissement ou par l'ONIAM (Solidarité Nationale).
 ## Questions fréquentes
 Qu'est-ce qu'un aléa thérapeutique ?
-C'est un accident médical non fautif, mais grave. Si les conséquences dépassent un certain seuil de gravité (24% d'AIPP ou arrêt de travail long), l'ONIAM vous indemnise au titre de la solidarité nationale.
+C'est un accident médical non fautif, mais grave. Si les conséquences dépassent un certain seuil de gravité (atteinte permanente supérieure à 24 % ou arrêt d'activité d'au moins 6 mois), l'ONIAM vous indemnise au titre de la solidarité nationale.
 Comment récupérer mon dossier médical ?
 C'est un droit absolu. L'établissement a 8 jours pour vous le transmettre (ou 2 mois si les soins datent de plus de 5 ans).
 Combien de temps pour être indemnisé ?
@@ -1365,6 +1365,7 @@ URL : https://ig-avocat.com/contact
 
 # Contactez-nous
 Choisissez le moyen le plus adapté à votre situation.
+Maître Ilan Guedj, avocat en dommage corporel au barreau de Marseille, se joint au 06 63 46 59 84 (appel ou WhatsApp) ou par courriel à contact@ig-avocat.com. Le cabinet est situé 16 rue Breteuil, 13001 Marseille, et reçoit du lundi au vendredi de 9 h à 19 h. Le premier échange sur le dossier est gratuit et aucune avance de frais n'est demandée.
 ## Décrire ma situation
 Réponse sous 24h
 Gratuit
@@ -1460,7 +1461,7 @@ WhatsApp Appeler
 
 ---
 
-## Lexique du dommage corporel : DFP, DFT, consolidation, CIVI, ONIAM | Maître Ilan Guedj
+## Lexique du dommage corporel : définitions | Ilan Guedj
 URL : https://ig-avocat.com/lexique-dommage-corporel
 
 # Lexique du dommage corporel
@@ -1679,8 +1680,7 @@ Accidents de la vie
 ### Faute inexcusable de l'employeur
 Lorsqu'un accident du travail ou une maladie professionnelle est dû à la faute inexcusable de l'employeur, le Code de la sécurité sociale prévoit un régime d'indemnisation renforcé. La reconnaissance de cette faute peut notamment entraîner une majoration de la rente ou du capital versé à la victime et ouvrir droit à la réparation de préjudices dans les conditions prévues par les textes et la jurisprudence. La question de la faute inexcusable est distincte de la seule reconnaissance du caractère professionnel de l'accident : elle suppose d'examiner les obligations de l'employeur, le risque dont il avait ou aurait dû avoir conscience et les mesures de prévention prises. La procédure et l'évaluation doivent donc être traitées spécifiquement.
 Sources
-Code de la sécurité sociale, article L. 452-1
-Code de la sécurité sociale, article L. 452-3
+Code de la sécurité sociale, articles L. 452-1 à L. 452-5
 Lexique rédigé et tenu à jour par Maître Ilan Guedj, avocat au barreau de Marseille. Information générale : la qualification et le chiffrage de chaque poste dépendent des pièces de votre dossier. Première consultation gratuite, aucune avance de frais.
 Discuter sur WhatsApp
 WhatsApp Appeler
@@ -1690,7 +1690,7 @@ WhatsApp Appeler
 ---
 
 ## Délit de fuite : être indemnisé sans responsable identifié
-URL : https://ig-avocat.com/blog\accident-delit-fuite-indemnisation
+URL : https://ig-avocat.com/blog/accident-delit-fuite-indemnisation
 
 Accident de la route · Fonds de garantie · Guide 2026
 # Délit de fuite : comment être indemnisé si le responsable n'est pas retrouvé ?
@@ -1779,7 +1779,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Accident de moto : quelle indemnisation pour le motard ?
-URL : https://ig-avocat.com/blog\accident-moto-indemnisation
+URL : https://ig-avocat.com/blog/accident-moto-indemnisation
 
 Accident de la route · Deux-roues · Guide 2026
 # Accident de moto : quelle indemnisation pour le motard ?
@@ -1871,7 +1871,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Accident de la route : qui est indemnisé et dans quels délais ?
-URL : https://ig-avocat.com/blog\accident-route-indemnisation
+URL : https://ig-avocat.com/blog/accident-route-indemnisation
 
 Accident de la route · Loi Badinter · Guide 2026
 # Accident de la route : qui est indemnisé et dans quels délais ?
@@ -2009,7 +2009,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Accident de trottinette électrique : quels sont vos droits ?
-URL : https://ig-avocat.com/blog\accident-trottinette-electrique-indemnisation
+URL : https://ig-avocat.com/blog/accident-trottinette-electrique-indemnisation
 
 Accident de la route · EDPM · Guide 2026
 # Accident de trottinette électrique : quels sont vos droits ?
@@ -2111,7 +2111,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Cycliste renversé : quelle indemnisation après l'accident ?
-URL : https://ig-avocat.com/blog\accident-velo-indemnisation
+URL : https://ig-avocat.com/blog/accident-velo-indemnisation
 
 Accident de la route · Cycliste · Guide 2026
 # Cycliste renversé : quelle indemnisation après l'accident ?
@@ -2189,7 +2189,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Victime d'agression : vos droits, la CIVI et le FGTI en 2026
-URL : https://ig-avocat.com/blog\agression-victime-droits-recours
+URL : https://ig-avocat.com/blog/agression-victime-droits-recours
 
 Agression
 # Victime d'agression : comment obtenir une indemnisation ?
@@ -2263,7 +2263,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Euro de rente : comment est capitalisé un préjudice futur ?
-URL : https://ig-avocat.com/blog\capitalisation-prejudice-euro-de-rente
+URL : https://ig-avocat.com/blog/capitalisation-prejudice-euro-de-rente
 
 Préjudices · Calcul · Guide 2026
 # Capitaliser un préjudice futur : le prix de l'euro de rente
@@ -2347,7 +2347,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## DFP : comment est indemnisé le déficit fonctionnel permanent ?
-URL : https://ig-avocat.com/blog\deficit-fonctionnel-permanent-dfp
+URL : https://ig-avocat.com/blog/deficit-fonctionnel-permanent-dfp
 
 Préjudices · Nomenclature Dintilhac · Guide 2026
 # Déficit fonctionnel permanent (DFP) : comment est-il indemnisé ?
@@ -2428,7 +2428,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Délais de prescription accident corporel : quand agir ? 2026
-URL : https://ig-avocat.com/blog\delai-prescription-accident-corporel
+URL : https://ig-avocat.com/blog/delai-prescription-accident-corporel
 
 Prescription
 # Quels sont les délais pour agir après un accident corporel ?
@@ -2575,7 +2575,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Liste des erreurs médicales : types, droits et recours 2026
-URL : https://ig-avocat.com/blog\erreur-medicale-droits-victime
+URL : https://ig-avocat.com/blog/erreur-medicale-droits-victime
 
 Erreur médicale
 # Erreur médicale : vos droits, délais, preuve et recours
@@ -2605,8 +2605,8 @@ La procédure CCI présente plusieurs avantages : elle est gratuite, plus rapide
 ## 4. Tribunal judiciaire vs CCI : quelle voie choisir ?
 Face à une erreur médicale, deux grandes voies s'offrent à la victime : la CCI (règlement amiable) ou la voie judiciaire. Le choix entre les deux a un impact réel sur la durée, le coût et l'issue du dossier.
 ### Quand privilégier la CCI ?
-- ✓ Quand les séquelles franchissent le seuil de gravité (IPP ≥ 24%, ITT ≥ 6 mois consécutifs, ou troubles graves dans les conditions d'existence)
-- ✓ Quand vous recherchez une procédure gratuite et rapide (4 à 12 mois)
+- ✓ Quand les séquelles franchissent le seuil de gravité (atteinte permanente supérieure à 24 %, arrêt des activités professionnelles d'au moins 6 mois consécutifs (ou 6 mois non consécutifs sur 12 mois), ou, à titre exceptionnel, troubles particulièrement graves dans les conditions d'existence)
+- ✓ Quand vous recherchez une procédure gratuite, avec un avis attendu dans les 6 mois du dossier complet
 - ✓ Quand vous voulez obtenir une expertise médicale financée par l'ONIAM sans avancer de frais
 - ✓ Quand l'affaire est techniquement complexe et qu'une analyse médicale neutre est utile en amont
 ### Quand saisir directement le tribunal ?
@@ -2623,7 +2623,7 @@ Les deux voies ne sont pas exclusives : il est tout à fait possible de saisir l
 ## 5. L'ONIAM : quand et comment saisir le fonds national
 L'Office National d'Indemnisation des Accidents Médicaux (ONIAM) est un établissement public chargé d'indemniser les victimes d'accidents médicaux non fautifs (aléas thérapeutiques) et, dans certains cas, de se substituer aux assureurs défaillants.
 L'ONIAM intervient dans trois situations principales :
-- 1.L'aléa thérapeutique : accident médical non fautif présentant des conséquences anormales et graves (seuil de gravité requis : IPP ≥ 24%, ou ITT ≥ 6 mois consécutifs, ou troubles graves dans les conditions d'existence).
+- 1.L'aléa thérapeutique : accident médical non fautif présentant des conséquences anormales et graves (seuil de gravité requis : atteinte permanente supérieure à 24 %, ou arrêt des activités professionnelles d'au moins 6 mois consécutifs (ou 6 mois non consécutifs sur 12 mois), ou, à titre exceptionnel, troubles particulièrement graves dans les conditions d'existence).
 - 2.La défaillance de l'assureur : si l'assureur du praticien ne fait pas d'offre dans les délais, l'ONIAM se substitue à lui.
 - 3.Les cas spéciaux : contaminations liées aux produits sanguins, vaccinations obligatoires, mesothéliomes.
 ### Vous êtes victime d'une erreur médicale à Marseille ou en PACA ?
@@ -2635,7 +2635,7 @@ Pour être indemnisable au titre de l'aléa thérapeutique, l'accident doit réu
 - ✓ Être directement imputable à un acte de prévention, de diagnostic ou de soin
 - ✓ Avoir des conséquences anormales au regard de l'état de santé du patient
 - ✓ Ne pas être imputable à une faute du praticien
-- ✓ Atteindre un seuil de gravité : IPP ≥ 24%, ou ITT ≥ 6 mois, ou troubles graves dans les conditions d'existence
+- ✓ Atteindre un seuil de gravité : atteinte permanente supérieure à 24 %, ou arrêt d'activité d'au moins 6 mois, ou troubles particulièrement graves dans les conditions d'existence
 L'indemnisation est alors prise en charge par l'ONIAM sur fonds publics. Un avocat en dommage corporel est particulièrement utile pour distinguer ce qui relève de la faute médicale (plus favorable pour la victime, car la réparation est intégrale) de ce qui relève de l'aléa thérapeutique (soumis au seuil de gravité).
 ## 7. Quels sont les délais pour porter plainte et agir en indemnisation ?
 Une erreur médicale peut donner lieu à deux types d'action, soumis à des délais distincts. Ils peuvent se cumuler ou se succéder, mais chacun a sa propre logique procédurale et son propre compteur de prescription.
@@ -2707,13 +2707,13 @@ En matière de responsabilité médicale, le délai de prescription est de 10 an
 ### Combien de temps pour porter plainte après une erreur médicale ?
 Pour l'action pénale (plainte pour blessures involontaires ou homicide involontaire), le délai est de 6 ans pour les délits et de 20 ans pour les crimes. Pour l'action civile en indemnisation, le délai est de 10 ans à compter de la consolidation du dommage. Les deux actions peuvent être menées en parallèle. Pour les patients mineurs, la prescription est suspendue jusqu'à la majorité.
 ### Tribunal judiciaire ou CCI : que choisir pour une erreur médicale ?
-La CCI est gratuite et rapide (4 à 12 mois) mais réservée aux séquelles graves (IPP ≥ 24 % ou ITT ≥ 6 mois). En dessous du seuil, ou si vous voulez une condamnation contraignante (l'avis CCI est seulement consultatif), saisissez directement le tribunal : tribunal judiciaire pour un praticien libéral ou un établissement privé, tribunal administratif pour un hôpital public. Les deux voies sont compatibles : on peut saisir le tribunal après un avis CCI insatisfaisant.
+La CCI est gratuite ; elle doit rendre son avis dans les 6 mois du dossier complet, mais elle est réservée aux dommages graves (atteinte permanente supérieure à 24 %, ou arrêt des activités professionnelles d'au moins 6 mois consécutifs (ou 6 mois non consécutifs sur 12 mois)). En dessous du seuil, ou si vous voulez une condamnation contraignante (l'avis CCI est seulement consultatif), saisissez directement le tribunal : tribunal judiciaire pour un praticien libéral ou un établissement privé, tribunal administratif pour un hôpital public. Les deux voies sont compatibles : on peut saisir le tribunal après un avis CCI insatisfaisant.
 ### Comment prouver une erreur de diagnostic ?
 Trois éléments sont nécessaires : (1) un écart par rapport aux données acquises de la science (examens complémentaires non prescrits, signes cliniques ignorés) ; (2) le caractère évitable de l'erreur (la présentation n'était pas atypique) ; (3) un lien de causalité avec un préjudice, généralement chiffré comme une perte de chance de guérison ou de survie. Le dossier repose sur les comptes rendus médicaux successifs et un avis de médecin-recours indépendant.
 ### La CCI peut-elle me forcer à accepter une indemnisation ?
 Non. La procédure devant la CCI est entièrement facultative et les avis rendus n'ont aucun caractère contraignant. Si vous refusez l'offre formulée à la suite d'un avis CCI, vous conservez l'intégralité de vos droits pour saisir la juridiction compétente.
 ### Peut-on être indemnisé même si le médecin n'a pas commis de faute ?
-Oui, grâce au mécanisme de l'aléa thérapeutique. Depuis la loi Kouchner du 4 mars 2002, l'ONIAM peut indemniser les accidents médicaux non fautifs qui ont entraîné des conséquences anormales, à condition que les séquelles soient supérieures à un seuil de gravité (24 % d'IPP ou 6 mois d'ITT consécutifs). Cette procédure est distincte de l'action en responsabilité médicale.
+Oui, grâce au mécanisme de l'aléa thérapeutique. Depuis la loi Kouchner du 4 mars 2002, l'ONIAM peut indemniser les accidents médicaux non fautifs qui ont entraîné des conséquences anormales, à condition que les séquelles soient supérieures à un seuil de gravité (atteinte permanente supérieure à 24 %, ou arrêt des activités professionnelles d'au moins 6 mois consécutifs (ou 6 mois non consécutifs sur 12 mois)). Cette procédure est distincte de l'action en responsabilité médicale.
 ### Comment se passe la consultation gratuite avec un avocat en erreur médicale ?
 La première consultation est entièrement gratuite et sans engagement. Vous apportez votre dossier médical et le récit des faits. Le cabinet analyse la situation, indique la voie à privilégier (CCI, ONIAM, tribunal, plainte pénale), estime les chances de succès et explique le fonctionnement des honoraires (0 € d'avance, rémunération uniquement sur le résultat). La consultation reste gratuite même si vous décidez de ne pas confier le dossier au cabinet.
 ## Pour aller plus loin
@@ -2745,7 +2745,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Expertise médicale : judiciaire vs amiable | Guide
-URL : https://ig-avocat.com/blog\expertise-medicale-judiciaire
+URL : https://ig-avocat.com/blog/expertise-medicale-judiciaire
 
 Expertise médicale
 # Expertise médicale : pourquoi l'expertise judiciaire protège mieux les victimes
@@ -2876,7 +2876,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Conducteur en faute : pouvez-vous être indemnisé ?
-URL : https://ig-avocat.com/blog\faute-conducteur-victime-indemnisation
+URL : https://ig-avocat.com/blog/faute-conducteur-victime-indemnisation
 
 Accident de la route · Jurisprudence 2025
 # Conducteur en faute : pouvez-vous être indemnisé après un accident de la route ?
@@ -2976,7 +2976,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Conducteur non assuré : qui indemnise la victime ?
-URL : https://ig-avocat.com/blog\fonds-garantie-conducteur-non-assure
+URL : https://ig-avocat.com/blog/fonds-garantie-conducteur-non-assure
 
 Accident de la route · Fonds de garantie · Guide 2026
 # Accident avec un conducteur non assuré : qui indemnise la victime ?
@@ -3064,7 +3064,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Incidence professionnelle : ce qu'elle indemnise vraiment
-URL : https://ig-avocat.com/blog\incidence-professionnelle
+URL : https://ig-avocat.com/blog/incidence-professionnelle
 
 Préjudices · Nomenclature Dintilhac · Guide 2026
 # Incidence professionnelle : que peut-elle indemniser ?
@@ -3138,7 +3138,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Indemnisation accident corporel : combien toucher ? 2026
-URL : https://ig-avocat.com/blog\indemnisation-accident-corporel
+URL : https://ig-avocat.com/blog/indemnisation-accident-corporel
 
 Indemnisation
 # Comment calculer votre indemnisation après un accident corporel ?
@@ -3246,7 +3246,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Accident Grave : Indemnisation & Préjudices | Ilan Guedj
-URL : https://ig-avocat.com/blog\indemnisation-accident-grave
+URL : https://ig-avocat.com/blog/indemnisation-accident-grave
 
 Accident grave
 # Accident grave : indemnisation maximale et préjudices importants
@@ -3485,7 +3485,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Victime passagère d'un accident : vos droits (loi Badinter)
-URL : https://ig-avocat.com/blog\indemnisation-victime-passagere-accident
+URL : https://ig-avocat.com/blog/indemnisation-victime-passagere-accident
 
 Accident de la route
 # Victime passagère d'un accident : quels sont vos droits ?
@@ -3563,140 +3563,8 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 
 ---
 
-## Blog | Conseils Juridiques Victimes | Ilan Guedj
-URL : https://ig-avocat.com/blog\index
-
-Ressources juridiques
-Conseils pour
-# victimes d'accidents
-Guides pratiques rédigés par Maître Ilan Guedj, avocat au barreau de Marseille dont l'activité est consacrée exclusivement au dommage corporel. Chaque guide répond à une question précise de victime, cite les textes applicables et indique sa date de mise à jour.
-Vous cherchez la définition d'un terme (DFP, consolidation, tierce personne, CIVI…) ? Consultez le lexique du dommage corporel.
-Nouveau
-Préjudices 7 min de lecture
-## Déficit fonctionnel permanent (DFP) : comment est-il indemnisé ?
-Ce que mesure le taux, qui le fixe, pourquoi 10 % de DFP ne vaut aucune somme fixe, et ce que le DFP ne couvre pas.
-22 septembre 2026 Lire l'article →
-Nouveau
-Préjudices 6 min de lecture
-## Souffrances endurées : comment est évaluée la cotation sur 7 ?
-Ce que recouvre le poste, l'échelle de 1 à 7, et pourquoi une cotation se justifie et se discute pendant l'expertise.
-22 septembre 2026 Lire l'article →
-Nouveau
-Préjudices 7 min de lecture
-## Tierce personne : comment l'aide humaine est-elle indemnisée ?
-Besoin d'aide avant et après consolidation, aide apportée par un proche, heures, taux horaire et capitalisation.
-22 septembre 2026 Lire l'article →
-Nouveau
-Préjudices 6 min de lecture
-## Incidence professionnelle : que couvre ce poste de préjudice ?
-Pénibilité, dévalorisation, reconversion, perte de chance : un poste distinct des pertes de revenus, souvent oublié.
-22 septembre 2026 Lire l'article →
-Nouveau
-Préjudices 7 min de lecture
-## Euro de rente : comment est capitalisé un préjudice futur ?
-Montant annuel × prix de l'euro de rente : âge, sexe, tables de mortalité, taux d'actualisation et choix du barème.
-22 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 8 min de lecture
-## Accident de moto : quelle indemnisation pour le motard ?
-Le motard est un conducteur au sens de la loi Badinter : sa faute peut réduire l'indemnisation. Ce que l'assureur doit prouver, et ce qui se joue dans les premiers jours.
-17 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 8 min de lecture
-## Cycliste renversé : quelle indemnisation après l'accident ?
-Un vélo n'est pas un véhicule à moteur : le cycliste est protégé comme un piéton. Faute inexcusable, VAE, dommages au vélo.
-17 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 8 min de lecture
-## Piéton renversé : quelle indemnisation après l'accident ?
-Traverser hors d'un passage protégé n'est pas une faute inexcusable. La protection la plus forte du droit de l'indemnisation, et ses trois catégories renforcées.
-17 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 8 min de lecture
-## Délit de fuite : être indemnisé sans responsable identifié
-Le Fonds de garantie prend le relais, mais la matérialité de l'accident doit être établie. Les preuves qui disparaissent en quelques jours.
-17 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 7 min de lecture
-## Conducteur non assuré : qui indemnise la victime ?
-Le défaut d'assurance du responsable ne vous prive pas d'indemnisation. Conditions d'intervention du Fonds, pièces à réunir, garanties personnelles.
-17 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 10 min de lecture
-## Accident de la route : qui est indemnisé et dans quels délais ?
-Piéton, cycliste, passager, motard, conducteur : la loi Badinter ne protège pas tout le monde de la même façon. Qui verse l'indemnisation, sous quels délais, et que faire si le responsable n'est pas assuré.
-17 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 11 min de lecture
-## Accident de trottinette électrique : quels sont vos droits ?
-EDPM, loi Badinter, assurance obligatoire et FGAO : pourquoi le piéton renversé est mieux protégé que le conducteur de la trottinette, et comment obtenir votre juste indemnisation.
-1 juillet 2026 Lire l'article →
-Préjudices graves 18 min de lecture
-## Accident grave : indemnisation maximale et préjudices importants
-Tierce personne, frais futurs, perte de gains professionnels, paraplégie, traumatisme crânien : comment chaque poste Dintilhac se calcule et pourquoi l'accompagnement précoce change tout.
-14 mai 2026 Lire l'article →
-Accident de la route 10 min de lecture
-## Conducteur en faute : pouvez-vous être indemnisé ?
-L'arrêt Cass. 2e civ. 19 juin 2025 change la donne : la faute doit être prouvée et avoir contribué au dommage. Décryptage et conséquences pratiques.
-13 mai 2026 Lire l'article →
-Expertise médicale 8 min de lecture
-## Médecin-recours : pourquoi il est indispensable pour les victimes
-Qu'est-ce qu'un médecin-recours, comment il intervient lors de l'expertise médicale, et pourquoi il change tout pour votre indemnisation.
-8 mars 2026 Lire l'article →
-Accident de la route 9 min de lecture
-## Victime passagère d'un accident : quels sont vos droits ?
-La loi Badinter protège quasi intégralement les passagers, même si le conducteur est fautif. Quelle assurance intervient, comment est calculée l'indemnisation.
-3 mars 2026 Lire l'article →
-Expertise médicale 10 min de lecture
-## Expertise médicale : pourquoi l'expertise judiciaire protège mieux les victimes
-Expertise amiable ou judiciaire ? Pourquoi nous recommandons l'expertise judiciaire, comment l'obtenir, et comment bien s'y préparer.
-24 février 2026 Lire l'article →
-Agression 10 min de lecture
-## Victime d'agression : comment obtenir une indemnisation ?
-CIVI, FGTI, conditions d'accès, procédure et préjudices indemnisables : tout ce que vous devez savoir pour faire valoir vos droits après une agression.
-19 février 2026 Lire l'article →
-Expertise médicale 12 min de lecture
-## Expertise médicale après un accident grave : les 15 jours qui décident de votre indemnisation
-L'assureur doit vous prévenir quinze jours avant l'examen. Ce que vous devez préparer, poste par poste, pour que rien ne se perde en une matinée.
-27 août 2026 Lire l'article →
-Accident de la route 8 min de lecture
-## Que faire après un accident de la route ?
-Les gestes essentiels dans les premières minutes, comment remplir le constat, vos obligations légales et les erreurs à éviter absolument.
-17 février 2026 Lire l'article →
-Indemnisation 10 min de lecture
-## Combien toucher après un accident corporel ?
-Nomenclature Dintilhac, postes de préjudice, ITT, IPP, préjudice moral : comprendre comment est calculée votre indemnisation.
-17 février 2026 Lire l'article →
-Assurance 9 min de lecture
-## Faut-il accepter l'offre d'indemnisation de son assurance ?
-Pourquoi les premières offres sont sous-évaluées, comment contester et quels recours exercer si l'assurance refuse de négocier.
-17 février 2026 Lire l'article →
-Erreur médicale 11 min de lecture
-## Victime d'une erreur médicale : vos droits et recours
-CCI, ONIAM, aléa thérapeutique, preuves à réunir : tout ce que vous devez savoir pour faire valoir vos droits face au corps médical.
-17 février 2026 Lire l'article →
-Prescription 9 min de lecture
-## Délais de prescription accident corporel : quand agir ?
-Délai de 10 ans, délais spéciaux, notion de consolidation, actes interruptifs : ne laissez pas le temps jouer contre vous.
-17 février 2026 Lire l'article →
-Consultation gratuite
-### Votre dossier mérite une analyse personnalisée
-Chaque accident est unique. Le cabinet ILAN GUEDJ analyse votre situation et vous oriente gratuitement, sans engagement.
-Contacter par WhatsApp 06 63 46 59 84
-## Nos domaines d'intervention
-### Accident de la route
-Loi Badinter, indemnisation victimes
-### Accident de la vie
-GAV, chutes, sport, loisirs
-### Victime d'agression
-CIVI, FGTI, indemnisation
-### Erreur médicale
-CCI, ONIAM, faute médicale
-
----
-
 ## Médecin-recours : pourquoi il est indispensable | Ilan Guedj
-URL : https://ig-avocat.com/blog\medecin-recours-victime
+URL : https://ig-avocat.com/blog/medecin-recours-victime
 
 Expertise médicale
 # Médecin-recours : pourquoi il est indispensable pour les victimes
@@ -3782,7 +3650,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Piéton renversé : quelle indemnisation après l'accident ?
-URL : https://ig-avocat.com/blog\pieton-indemnisation-accident
+URL : https://ig-avocat.com/blog/pieton-indemnisation-accident
 
 Accident de la route · Piéton · Guide 2026
 # Piéton renversé : quelle indemnisation après l'accident ?
@@ -3860,7 +3728,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Expertise médicale accident grave : préparer les 15 jours décisifs
-URL : https://ig-avocat.com/blog\preparer-expertise-medicale-accident-grave
+URL : https://ig-avocat.com/blog/preparer-expertise-medicale-accident-grave
 
 Expertise médicale
 # Expertise médicale après un accident grave : les 15 jours qui décident de votre indemnisation
@@ -3996,7 +3864,7 @@ Consultation gratuite — honoraires uniquement au résultat
 ---
 
 ## Que faire après un accident de la route ? Guide complet 2026
-URL : https://ig-avocat.com/blog\que-faire-apres-accident-route
+URL : https://ig-avocat.com/blog/que-faire-apres-accident-route
 
 Accident de la route
 # Que faire immédiatement après un accident de la route ?
@@ -4077,7 +3945,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Offre d'indemnisation assurance : faut-il l'accepter ? Guide
-URL : https://ig-avocat.com/blog\refuser-offre-assurance-accident
+URL : https://ig-avocat.com/blog/refuser-offre-assurance-accident
 
 Assurance
 # Dois-je accepter l'offre d'indemnisation de mon assurance après un accident ?
@@ -4170,7 +4038,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Souffrances endurées : comment la cotation sur 7 est indemnisée
-URL : https://ig-avocat.com/blog\souffrances-endurees
+URL : https://ig-avocat.com/blog/souffrances-endurees
 
 Préjudices · Nomenclature Dintilhac · Guide 2026
 # Souffrances endurées : comment la cotation sur 7 est-elle indemnisée ?
@@ -4258,7 +4126,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Tierce personne : comment l'aide humaine est indemnisée
-URL : https://ig-avocat.com/blog\tierce-personne-indemnisation
+URL : https://ig-avocat.com/blog/tierce-personne-indemnisation
 
 Préjudices · Nomenclature Dintilhac · Guide 2026
 # Assistance par tierce personne : comment l'aide humaine est-elle indemnisée ?

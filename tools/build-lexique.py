@@ -105,7 +105,7 @@ SECTIONS = [
    [("accidents-route", "Accident de la circulation")], []),
   ("civi", "CIVI (Commission d'indemnisation des victimes d'infractions)", "07-civi.md", None,
    [("Code de procédure pénale, article 706-3", LEGI + "LEGIARTI000038312693"),
-    ("Code de procédure pénale, article 706-5", LEGI + "LEGIARTI000042077405")],
+    ("Code de procédure pénale, article 706-5", LEGI + "LEGIARTI000048442334")],
    [("agression", "Victime d'agression"), ("blog/agression-victime-droits-recours", "Agression : droits et recours")], []),
   ("fgti", "FGTI (Fonds de garantie des victimes)", None,
    "Le Fonds de garantie des victimes des actes de terrorisme et d'autres infractions (FGTI) est "
@@ -138,8 +138,7 @@ SECTIONS = [
    [("La finance pour tous (IEFP), la garantie des accidents de la vie", "https://www.lafinancepourtous.com/pratique/assurance/assurances-famille-loisirs/la-garantie-des-accidents-de-la-vie/")],
    [("accidents-vie", "Accidents de la vie")], ["https://fr.wikipedia.org/wiki/Garantie_des_accidents_de_la_vie"]),
   ("faute-inexcusable", "Faute inexcusable de l'employeur", "faute-inexcusable-employeur.md", None,
-   [("Code de la sécurité sociale, article L. 452-1", LEGI + "LEGIARTI000006743112"),
-    ("Code de la sécurité sociale, article L. 452-3", LEGI + "LEGIARTI000006743113")], [], []),
+   [("Code de la sécurité sociale, articles L. 452-1 à L. 452-5", "https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000006156141/")], [], []),
  ]),
 ]
 
@@ -191,8 +190,7 @@ def build():
     ]}
 
     description = ("Lexique du dommage corporel : DFP, DFT, consolidation, souffrances endurées, tierce "
-                   "personne, CIVI, ONIAM, loi Badinter… Définitions sourcées par Maître Ilan Guedj, "
-                   "avocat à Marseille.")
+                   "personne, CIVI, ONIAM, loi Badinter. Définitions sourcées.")
     nav, foot = chrome()
     E = html.escape
 
@@ -274,7 +272,7 @@ def build():
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="{E(description)}">
-    <title>Lexique du dommage corporel : DFP, DFT, consolidation, CIVI, ONIAM | Maître Ilan Guedj</title>
+    <title>Lexique du dommage corporel : définitions | Ilan Guedj</title>
     <link rel="alternate" type="text/markdown" href="/llms.txt" title="Version texte structurée pour les assistants IA">
     <link rel="author" href="{SITE}/avocat-ilan-guedj">
     <link rel="canonical" href="{URL}">

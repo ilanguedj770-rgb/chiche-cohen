@@ -5,5 +5,5 @@ La saisine de la Commission d'indemnisation des victimes d'infractions est enfer
 </div>
 
 ## Sources
-- [Code de procédure pénale, article 706-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042077405)
+- [Code de procédure pénale, article 706-5](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000048442334)
 - [Service-public.fr — CIVI](https://www.service-public.gouv.fr/particuliers/vosdroits/F2313)
