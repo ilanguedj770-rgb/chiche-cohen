@@ -66,12 +66,13 @@ Préfixe : `https://www.legifrance.gouv.fr/`
 | CPP 706-3 à 706-15 | section `LEGISCTA000006138122` | Section CIVI (référencée par Service-public F2313) |
 | CPP 706-5 | `codes/article_lc/LEGIARTI000048442334` | 3 ans à compter de l'infraction ; prorogé jusqu'à 1 an après la décision définitive ; relevé de forclusion possible ; pour un mineur, le délai court à sa majorité |
 | CPP 706-15-1 | `codes/article_lc/LEGIARTI000038313645` | — |
-| Service-public F2313 | `https://www.service-public.gouv.fr/particuliers/vosdroits/F2313` | CIVI / FGTI ; les ayants droit d'une victime décédée peuvent être indemnisés de leur préjudice personnel ; le FGTI n'intervient pas pour les accidents de la circulation |
+| Service-public F2313 | `https://www.service-public.gouv.fr/particuliers/vosdroits/F2313` | CIVI / FGTI (vérifié par Service-public le 14 août 2026) ; ITT < 1 mois : ressources < plafond AJ partielle (19 433 € pour une personne seule), troubles graves, pas d'autre indemnisation, plafond 4 857 € ; violences sur mineur ou par conjoint/partenaire/concubin avec ITT de 8 à 29 jours : plafond 5 000 € ; les ayants droit d'une victime décédée peuvent être indemnisés de leur préjudice personnel ; le FGTI n'intervient pas pour les accidents de la circulation |
 
 ## Divers
 
 | Texte | Lien |
 |---|---|
+| CPC 835 | `codes/article_lc/LEGIARTI000042597284` | Al. 2 : référé-provision lorsque l'existence de l'obligation n'est pas sérieusement contestable (vérifié le 25 septembre 2026) |
 | CPC 263 à 284-1 (expertise) | `codes/section_lc/LEGITEXT000006070716/LEGISCTA000006165192/` |
 | CSS L411-2 (accident de trajet) | `codes/article_lc/LEGIARTI000006743008` |
 | CSS L411-1 et L411-2 | section `LEGISCTA000006156122` (Service-public F31881) |
