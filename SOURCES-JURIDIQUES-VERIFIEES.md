@@ -87,6 +87,10 @@ Vérifiés le 25 septembre 2026.
 | Service-public F10424 | `https://www.service-public.gouv.fr/particuliers/vosdroits/F10424` | Sauvegarde de justice, curatelle, tutelle : différences (vérifié par Service-public le 22 juillet 2026) |
 | Service-public F2094 | `https://www.service-public.gouv.fr/particuliers/vosdroits/F2094` | Curatelle : demandée au juge des tutelles par la personne, son conjoint ou concubin, un parent, un proche, le procureur (vérifié par Service-public le 29 juillet 2026) |
 
+| C. civ. 382 à 387-6 | section `codes/section_lc/LEGITEXT000006070721/LEGISCTA000006136220/` | Art. 382 : l'administration légale appartient aux parents. Art. 387-1, 4° : l'administrateur légal ne peut, sans l'autorisation préalable du juge des tutelles, « renoncer pour le mineur à un droit, transiger ou compromettre en son nom » (vérifié le 25 septembre 2026) |
+
+Loi 85-677, art. 3, al. 2 (texte relu le 25 septembre 2026) : les victimes non conductrices de moins de seize ans ou de plus de soixante-dix ans, ou titulaires au moment de l'accident d'un titre d'incapacité ou d'invalidité d'au moins 80 %, « sont, dans tous les cas, indemnisées » ; al. 3 : sauf si elles ont volontairement recherché le dommage.
+
 Ne pas deviner d'identifiant : `LEGIARTI000006428543`, supposé être l'article 425, renvoie à un arrêté de 1984.
 
 ## Accidents du travail — faute inexcusable
