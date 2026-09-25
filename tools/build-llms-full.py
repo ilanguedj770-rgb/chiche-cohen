@@ -138,7 +138,10 @@ def main():
     root_pages = [f for f in sorted(glob.glob("*.html")) if f not in SKIP]
     ordered = [f for f in ORDER if f in root_pages]
     ordered += [f for f in root_pages if f not in ordered]
-    blog_pages = [f for f in sorted(glob.glob("blog/*.html")) if f not in SKIP]
+    # glob renvoie « blog\\x.html » sous Windows : on normalise, sinon les URL du
+    # corpus prennent un antislash et blog/index.html échappe à SKIP.
+    blog_pages = [f for f in sorted(g.replace("\\", "/") for g in glob.glob("blog/*.html"))
+                  if f not in SKIP]
 
     out = []
     out.append("# Maître Ilan Guedj — Avocat dommage corporel, barreau de Marseille")

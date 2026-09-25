@@ -5,5 +5,4 @@ Lorsqu'un accident du travail ou une maladie professionnelle est dû à la faute
 </div>
 
 ## Sources
-- [Code de la sécurité sociale, article L. 452-1](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006743112)
-- [Code de la sécurité sociale, article L. 452-3](https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000006743113)
+- [Code de la sécurité sociale, articles L. 452-1 à L. 452-5](https://www.legifrance.gouv.fr/codes/section_lc/LEGITEXT000006073189/LEGISCTA000006156141/)

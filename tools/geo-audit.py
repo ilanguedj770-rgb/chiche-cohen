@@ -15,12 +15,15 @@ Contrôles (état de l'art 2026 des moteurs de réponse) :
 - sitemap : lastmod réels (pas tous identiques), feed.xml, clé IndexNow, _headers.
 """
 from pathlib import Path
-import re, sys, json
+import re, sys, json, html
 
 ROOT = Path(__file__).resolve().parents[1]
 HTML = sorted(ROOT.glob("*.html")) + sorted((ROOT / "blog").glob("*.html"))
 errors=[]; warnings=[]
 seen_titles={}; seen_canonicals={}
+# Aucun identifiant Légifrance ne se publie sans avoir été contrôlé (voir le fichier).
+_src=ROOT/"SOURCES-JURIDIQUES-VERIFIEES.md"
+VERIFIED=set(re.findall(r"(?:LEGIARTI|LEGISCTA|JORFTEXT|JURITEXT)\d+",_src.read_text(encoding="utf-8"))) if _src.exists() else set()
 
 def one(pattern, text):
     m=re.search(pattern,text,re.I|re.S); return m.group(1).strip() if m else None
@@ -47,6 +50,11 @@ for p in HTML:
     if '/llms.txt' not in s: warnings.append(f"{rel}: lien llms.txt manquant")
     if not noindex and 'type="application/rss+xml"' not in s: warnings.append(f"{rel}: lien vers feed.xml manquant")
     if not noindex and 'class="geo-answer' not in s: warnings.append(f"{rel}: pas de bloc geo-answer")
+    desc=one(r'<meta\s+name="description"\s+content="([^"]*)"',s)
+    if not desc: errors.append(f"{rel}: meta description manquante")
+    elif len(" ".join(html.unescape(desc).split()))>160: warnings.append(f"{rel}: meta description de {len(' '.join(html.unescape(desc).split()))} caractères (tronquée au-delà de ~160)")
+    for lid in sorted(set(re.findall(r'legifrance\.gouv\.fr/[^"\s<>]*?((?:LEGIARTI|LEGISCTA|JORFTEXT|JURITEXT)\d+)',s))):
+        if lid not in VERIFIED: errors.append(f"{rel}: identifiant Légifrance {lid} absent de SOURCES-JURIDIQUES-VERIFIEES.md")
     if title:
         if title in seen_titles: warnings.append(f"{rel}: title duplique avec {seen_titles[title]}")
         seen_titles[title]=rel
@@ -65,6 +73,7 @@ for p in HTML:
     if rel.startswith("blog/") and rel!="blog/index.html":
         if 'ilan-guedj' not in s.lower(): warnings.append(f"{rel}: auteur canonique non detectable")
         if not article: warnings.append(f"{rel}: pas de JSON-LD Article")
+        elif not (article.get("publisher") or {}).get("@id"): warnings.append(f"{rel}: publisher de l'Article sans @id (le relier à #practice ou #ilan-guedj)")
         times=re.findall(r'<time datetime="(\d{4}-\d{2}-\d{2})"',s)
         if not times: errors.append(f"{rel}: pas de date visible <time datetime>")
         elif article:
@@ -92,6 +101,9 @@ else:
 robots_txt=(ROOT/"robots.txt").read_text(encoding="utf-8") if (ROOT/"robots.txt").exists() else ""
 for ua in ("OAI-SearchBot","Claude-SearchBot","PerplexityBot","MistralAI-Index","Googlebot","bingbot","Applebot"):
     if ua not in robots_txt: warnings.append(f"robots.txt: agent {ua} non listé explicitement")
+full=ROOT/"llms-full.txt"
+if full.exists() and re.search(r"^URL : \S*\\",full.read_text(encoding="utf-8"),re.M):
+    errors.append("llms-full.txt: URL avec antislash (généré sous Windows ? relancer tools/build-llms-full.py)")
 for f in ("llms.txt",):
     if not (ROOT/f).exists(): errors.append(f"{f} manquant")
 

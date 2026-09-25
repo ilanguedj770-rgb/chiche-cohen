@@ -2,7 +2,7 @@
 
 > Corpus texte intégral du site https://ig-avocat.com, mis à disposition des assistants IA et des moteurs de réponse. Maître Ilan Guedj, avocat au barreau de Marseille, 16 rue Breteuil, 13001 Marseille — activité exclusivement consacrée à la défense des victimes de dommage corporel. Consultation gratuite, aucune avance de frais, honoraires uniquement au résultat. Téléphone : 06 63 46 59 84 — contact@ig-avocat.com.
 
-Version générée le 2026-09-22. Synthèse courte : https://ig-avocat.com/llms.txt
+Version générée le 2026-09-24. Synthèse courte : https://ig-avocat.com/llms.txt
 
 ---
 
@@ -579,7 +579,7 @@ Erreur
 Infections, aléas, fautes. La médecine a ses limites, vos droits non.
 Avocat au Barreau de Marseille — intervention dans toute la France (déplacement ou visioconférence)
 En bref
-Un accident médical ouvre droit à indemnisation dans deux cas. En présence d'une faute du professionnel ou de l'établissement de santé, la réparation est intégrale (article L. 1142-1, I du code de la santé publique). Sans faute, l'aléa thérapeutique est indemnisé par l'ONIAM au titre de la solidarité nationale lorsqu'il atteint un seuil de gravité : notamment un déficit fonctionnel permanent supérieur à 24 % ou un arrêt d'activité de six mois consécutifs (articles L. 1142-1, II et D. 1142-1). Les infections nosocomiales engagent la responsabilité de l'établissement sans faute à prouver, l'ONIAM prenant le relais au-delà de 25 % de déficit ou en cas de décès (article L. 1142-1-1). La victime peut saisir gratuitement la Commission de conciliation et d'indemnisation (CCI) ou le tribunal ; l'action se prescrit par dix ans à compter de la consolidation (article L. 1142-28). Maître Ilan Guedj, avocat au barreau de Marseille, accompagne les victimes d'accidents médicaux de l'accès au dossier médical jusqu'à l'indemnisation, sans avance de frais.
+Un accident médical ouvre droit à indemnisation dans deux cas. En présence d'une faute du professionnel ou de l'établissement de santé, la réparation est intégrale (article L. 1142-1, I du code de la santé publique). Sans faute, l'aléa thérapeutique est indemnisé par l'ONIAM au titre de la solidarité nationale lorsqu'il atteint un seuil de gravité : notamment une atteinte permanente à l'intégrité physique ou psychique supérieure à 24 % ou un arrêt des activités professionnelles d'au moins six mois consécutifs (articles L. 1142-1, II et D. 1142-1). Les infections nosocomiales engagent la responsabilité de l'établissement sans faute à prouver, l'ONIAM prenant le relais au-delà de 25 % de déficit ou en cas de décès (article L. 1142-1-1). La victime peut saisir gratuitement la Commission de conciliation et d'indemnisation (CCI) ou le tribunal ; l'action se prescrit par dix ans à compter de la consolidation (article L. 1142-28). Maître Ilan Guedj, avocat au barreau de Marseille, accompagne les victimes d'accidents médicaux de l'accès au dossier médical jusqu'à l'indemnisation, sans avance de frais.
 ## Notre intervention
 ### Expertise Médicale
 Face aux experts des hôpitaux et cliniques, nous mandatons des médecins conseils indépendants pour prouver la faute ou l'aléa.
@@ -598,7 +598,7 @@ Une fois votre état stabilisé, nous chiffrons l'ensemble des préjudices défi
 Paiement par l'assureur de l'établissement ou par l'ONIAM (Solidarité Nationale).
 ## Questions fréquentes
 Qu'est-ce qu'un aléa thérapeutique ?
-C'est un accident médical non fautif, mais grave. Si les conséquences dépassent un certain seuil de gravité (24% d'AIPP ou arrêt de travail long), l'ONIAM vous indemnise au titre de la solidarité nationale.
+C'est un accident médical non fautif, mais grave. Si les conséquences dépassent un certain seuil de gravité (atteinte permanente supérieure à 24 % ou arrêt d'activité d'au moins 6 mois), l'ONIAM vous indemnise au titre de la solidarité nationale.
 Comment récupérer mon dossier médical ?
 C'est un droit absolu. L'établissement a 8 jours pour vous le transmettre (ou 2 mois si les soins datent de plus de 5 ans).
 Combien de temps pour être indemnisé ?
@@ -1365,6 +1365,7 @@ URL : https://ig-avocat.com/contact
 
 # Contactez-nous
 Choisissez le moyen le plus adapté à votre situation.
+Maître Ilan Guedj, avocat en dommage corporel au barreau de Marseille, se joint au 06 63 46 59 84 (appel ou WhatsApp) ou par courriel à contact@ig-avocat.com. Le cabinet est situé 16 rue Breteuil, 13001 Marseille, et reçoit du lundi au vendredi de 9 h à 19 h. Le premier échange sur le dossier est gratuit et aucune avance de frais n'est demandée.
 ## Décrire ma situation
 Réponse sous 24h
 Gratuit
@@ -1460,7 +1461,7 @@ WhatsApp Appeler
 
 ---
 
-## Lexique du dommage corporel : DFP, DFT, consolidation, CIVI, ONIAM | Maître Ilan Guedj
+## Lexique du dommage corporel : définitions | Ilan Guedj
 URL : https://ig-avocat.com/lexique-dommage-corporel
 
 # Lexique du dommage corporel
@@ -1596,6 +1597,8 @@ Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudice
 Le préjudice d'affection vise le préjudice moral personnel subi par certains proches en raison du décès de la victime directe. Son indemnisation ne correspond pas au dommage corporel de la personne décédée elle-même : il s'agit d'un préjudice propre de la victime par ricochet. L'existence et l'intensité du lien avec le défunt sont déterminantes. Les liens familiaux proches constituent naturellement des situations fréquentes, mais l'analyse ne doit pas être réduite à un simple tableau automatique de parenté. Les circonstances du décès et la réalité de la relation peuvent être pertinentes pour individualiser la demande.
 Sources
 Rapport du groupe de travail chargé d'élaborer une nomenclature des préjudices corporels (rapport Dintilhac, 2005)
+Pour aller plus loin
+Décès d'un proche : les droits de la famille
 ## L'expertise médicale
 ### Expertise médicale
 L'expertise médicale est une étape déterminante de l'indemnisation : elle décrit les blessures, l'évolution, la consolidation et les conséquences temporaires ou permanentes qui serviront ensuite à chiffrer les préjudices. La préparation consiste à réunir un dossier médical chronologique complet, mais aussi les éléments concrets permettant de décrire les conséquences du dommage sur l'autonomie, le travail, les loisirs et la vie quotidienne. Il est utile de préparer à l'avance les difficultés qui risquent d'être oubliées pendant l'examen. L'expertise ne fixe généralement pas à elle seule le montant en euros : elle fournit les constatations médicales sur lesquelles la liquidation sera construite.
@@ -1667,9 +1670,11 @@ Erreur médicale
 ### Infection nosocomiale
 L'indemnisation d'une infection nosocomiale dépend notamment de sa gravité et du régime juridique applicable. Le code de la santé publique prévoit un mécanisme spécifique : certaines infections nosocomiales graves ouvrent droit à réparation au titre de la solidarité nationale par l'ONIAM, notamment lorsque les conditions de gravité prévues à l'article L. 1142-1-1 sont réunies. Dans d'autres situations, la responsabilité de l'établissement de santé peut être recherchée selon l'article L. 1142-1. Avant de chiffrer l'indemnisation, il faut établir le caractère nosocomial de l'infection, analyser le lien causal, déterminer les séquelles et identifier le débiteur juridiquement compétent.
 Sources
+Code de la santé publique, article L. 1142-1
 Code de la santé publique, article L. 1142-1-1
 Pour aller plus loin
 Erreur médicale
+Infection nosocomiale : qui indemnise ?
 ### Garantie des accidents de la vie (GAV)
 La garantie des accidents de la vie (GAV) est un contrat d'assurance facultatif qui indemnise l'assuré des dommages corporels subis lors d'un accident de la vie privée (accident domestique, de sport, de loisir, de bricolage, accident médical, agression, catastrophe naturelle), y compris lorsqu'aucun tiers n'est responsable. L'indemnisation obéit aux conditions du contrat : seuil de gravité, plafond, exclusions et évaluation par le médecin de l'assureur, que la victime peut discuter avec l'aide d'un médecin-recours et d'un avocat.
 Sources
@@ -1679,8 +1684,9 @@ Accidents de la vie
 ### Faute inexcusable de l'employeur
 Lorsqu'un accident du travail ou une maladie professionnelle est dû à la faute inexcusable de l'employeur, le Code de la sécurité sociale prévoit un régime d'indemnisation renforcé. La reconnaissance de cette faute peut notamment entraîner une majoration de la rente ou du capital versé à la victime et ouvrir droit à la réparation de préjudices dans les conditions prévues par les textes et la jurisprudence. La question de la faute inexcusable est distincte de la seule reconnaissance du caractère professionnel de l'accident : elle suppose d'examiner les obligations de l'employeur, le risque dont il avait ou aurait dû avoir conscience et les mesures de prévention prises. La procédure et l'évaluation doivent donc être traitées spécifiquement.
 Sources
-Code de la sécurité sociale, article L. 452-1
-Code de la sécurité sociale, article L. 452-3
+Code de la sécurité sociale, articles L. 452-1 à L. 452-5
+Pour aller plus loin
+Accident du travail et faute inexcusable
 Lexique rédigé et tenu à jour par Maître Ilan Guedj, avocat au barreau de Marseille. Information générale : la qualification et le chiffrage de chaque poste dépendent des pièces de votre dossier. Première consultation gratuite, aucune avance de frais.
 Discuter sur WhatsApp
 WhatsApp Appeler
@@ -1690,7 +1696,7 @@ WhatsApp Appeler
 ---
 
 ## Délit de fuite : être indemnisé sans responsable identifié
-URL : https://ig-avocat.com/blog\accident-delit-fuite-indemnisation
+URL : https://ig-avocat.com/blog/accident-delit-fuite-indemnisation
 
 Accident de la route · Fonds de garantie · Guide 2026
 # Délit de fuite : comment être indemnisé si le responsable n'est pas retrouvé ?
@@ -1779,7 +1785,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Accident de moto : quelle indemnisation pour le motard ?
-URL : https://ig-avocat.com/blog\accident-moto-indemnisation
+URL : https://ig-avocat.com/blog/accident-moto-indemnisation
 
 Accident de la route · Deux-roues · Guide 2026
 # Accident de moto : quelle indemnisation pour le motard ?
@@ -1871,7 +1877,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Accident de la route : qui est indemnisé et dans quels délais ?
-URL : https://ig-avocat.com/blog\accident-route-indemnisation
+URL : https://ig-avocat.com/blog/accident-route-indemnisation
 
 Accident de la route · Loi Badinter · Guide 2026
 # Accident de la route : qui est indemnisé et dans quels délais ?
@@ -1968,6 +1974,8 @@ Ce n'est pas une obligation légale. Mais le code des assurances impose à l'ass
 ## Articles liés
 Moto
 Accident de moto : quelle indemnisation pour le motard ?
+Décès
+Décès d'un proche dans un accident de la route
 Vélo
 Cycliste renversé : quelle indemnisation ?
 Piéton
@@ -2008,8 +2016,98 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 
 ---
 
+## Accident du travail : faute inexcusable et indemnisation
+URL : https://ig-avocat.com/blog/accident-travail-faute-inexcusable
+
+Accident du travail · Faute inexcusable · Mise à jour 2026
+# Accident du travail : quand la faute inexcusable change l'indemnisation
+Après un accident du travail, la Sécurité sociale verse des prestations forfaitaires qui ne réparent pas intégralement le dommage. Si l'accident est dû à la faute inexcusable de l'employeur, c'est-à-dire s'il avait ou aurait dû avoir conscience du danger et n'a pas pris les mesures nécessaires pour en préserver le salarié, la victime ou ses ayants droit ont droit à une indemnisation complémentaire (article L. 452-1 du code de la sécurité sociale) : majoration de la rente et réparation de préjudices personnels. Depuis deux arrêts d'assemblée plénière du 20 janvier 2023, la rente ne répare plus le déficit fonctionnel permanent, qui peut donc être demandé en plus.
+Publié le 24 septembre 2026 7 min de lecture Maître Ilan Guedj
+Chute de hauteur, machine sans protection, charge mal arrimée : après un accident du travail, beaucoup de victimes s'en tiennent à la rente de la caisse. Or la reconnaissance de la faute inexcusable de l'employeur ouvre une indemnisation bien plus complète, et le délai pour la demander est court.
+## 1. Accident du travail, accident de trajet
+Le code de la sécurité sociale distingue l'accident du travail, survenu par le fait ou à l'occasion du travail, et l'accident de trajet, survenu notamment entre la résidence et le lieu de travail, ou entre le lieu de travail et le lieu où le salarié prend habituellement ses repas (art. L. 411-1 et L. 411-2 CSS, Service-public).
+Les deux ouvrent la prise en charge par la caisse primaire. Mais la faute inexcusable, qui fait l'objet de ce guide, se recherche contre l'employeur à la suite d'un accident du travail ou d'une maladie professionnelle.
+Accident de trajet et accident de la route se cumulent souvent. Si un véhicule terrestre à moteur est impliqué, la victime peut en outre demander réparation à l'assureur de ce véhicule sur le fondement de la loi Badinter, qui vise une réparation intégrale.
+## 2. Ce que paie la Sécurité sociale, et ce qu'elle ne paie pas
+La caisse prend en charge les soins, verse des indemnités journalières pendant l'arrêt, puis une rente ou un capital selon le taux d'incapacité permanente. Ces prestations sont forfaitaires : elles ne couvrent ni les souffrances endurées, ni le préjudice esthétique, ni le préjudice d'agrément, et elles réparent imparfaitement la perte de revenus.
+C'est ce déficit de réparation que la faute inexcusable permet de combler.
+## 3. Qu'est-ce que la faute inexcusable ?
+La Cour de cassation retient que l'employeur commet une faute inexcusable dès lors qu'il avait ou aurait dû avoir conscience du danger auquel était exposé le salarié et qu'il n'a pas pris les mesures nécessaires pour l'en préserver. Deux exemples récents, présentés par Service-public :
+- → faute inexcusable retenue : un salarié chute d'une échelle en accédant à une terrasse, alors que le plan de sécurité ne prévoyait ni modalités d'accès ni mesures contre les risques liés au travail en hauteur (Cass. 2e civ., 9 janv. 2025, n° 22-24.167) ;
+- → faute inexcusable écartée : la porte métallique en cause n'avait jamais connu de dysfonctionnement et l'enquête n'avait révélé aucun défaut, de sorte que l'employeur ne pouvait avoir conscience du risque (Cass. 2e civ., 9 déc. 2021, n° 20-13.857).
+La preuve repose sur les faits : document unique d'évaluation des risques, formation reçue, équipements fournis, alertes antérieures, enquête de l'inspection du travail, témoignages des collègues. Ces pièces se réunissent tôt.
+## 4. Ce que la faute inexcusable ajoute
+Lorsque l'accident est dû à la faute inexcusable de l'employeur, « la victime ou ses ayants droit ont droit à une indemnisation complémentaire » (art. L. 452-1 CSS) :
+- → une majoration de la rente ou du capital versé par la caisse ;
+- → la réparation des souffrances physiques et morales, des préjudices esthétique et d'agrément et de la perte ou diminution des possibilités de promotion professionnelle (art. L. 452-3 CSS, dans sa version en vigueur jusqu'au 31 octobre 2026) ;
+- → le déficit fonctionnel permanent : la Cour de cassation juge désormais que « la rente ne répare pas le déficit fonctionnel permanent » (Ass. plén., 20 janv. 2023, n° 20-23.673 et n° 21-23.947) ;
+- → d'autres préjudices non couverts par les prestations de sécurité sociale, que la jurisprudence admet poste par poste ;
+- → en cas de décès, le préjudice moral des ayants droit.
+La caisse avance les sommes à la victime puis les récupère auprès de l'employeur. L'employeur répond de sa faute inexcusable et peut s'assurer contre ses conséquences financières (art. L. 452-4 CSS).
+## 5. Ce qui change au 1er novembre 2026
+La loi n° 2025-199 du 28 février 2025 de financement de la sécurité sociale (article 90) modifie les articles L. 452-2 et L. 452-3 du code de la sécurité sociale à compter du 1er novembre 2026, dans le cadre d'une réforme de la rente. Selon la version publiée sur Légifrance, le nouvel article L. 452-3 ouvre à la victime la réparation « de l'ensemble des préjudices ne faisant pas l'objet d'une réparation forfaitaire ».
+Quelle version s'applique à votre dossier dépend des dispositions transitoires de la réforme et de la date de consolidation. C'est un point à faire vérifier avant toute demande chiffrée, en particulier pour les accidents survenus avant la réforme et consolidés après.
+## 6. La procédure, et un délai de deux ans
+La victime (ou ses ayants droit) saisit d'abord la caisse primaire, qui recherche un accord amiable avec l'employeur. À défaut d'accord sur l'existence de la faute, la majoration et les indemnités, la juridiction de sécurité sociale (pôle social du tribunal judiciaire) tranche (art. L. 452-4 CSS). L'expertise médicale ordonnée à cette occasion fixe les préjudices.
+Le délai est court : les droits aux prestations et indemnités se prescrivent par deux ans, à compter notamment du jour de l'accident ou de la cessation du paiement des indemnités journalières. Pour la faute inexcusable, ce délai est interrompu par l'action pénale engagée pour les mêmes faits ou par l'action en reconnaissance du caractère professionnel de l'accident (art. L. 431-2 CSS).
+## 7. Ce qu'il faut retenir
+- ✓ Les prestations de la caisse sont forfaitaires : elles ne réparent pas tout
+- ✓ Faute inexcusable : conscience du danger + absence de mesures de protection
+- ✓ Elle ouvre une majoration de rente et la réparation de préjudices personnels, dont le DFP depuis 2023
+- ✓ Réforme au 1er novembre 2026 : la version applicable se vérifie dossier par dossier
+- ✓ Délai de deux ans, interrompu par l'action pénale ou la reconnaissance du caractère professionnel
+## Textes et sources
+- § Code de la sécurité sociale, art. L. 411-1 et L. 411-2 — accident du travail, accident de trajet
+- § Code de la sécurité sociale, art. L. 452-1 à L. 452-5 — faute inexcusable (section)
+- § art. L. 452-1, art. L. 452-3 (version en vigueur jusqu'au 31 octobre 2026), art. L. 452-4 CSS
+- § Code de la sécurité sociale, art. L. 431-2 — prescription de deux ans
+- § Cass. 2e civ., 9 décembre 2021, n° 20-13.857 · Cass. 2e civ., 9 janvier 2025, n° 22-24.167
+- § Cass. ass. plén., 20 janvier 2023, n° 20-23.673 · n° 21-23.947 (Juricaf)
+- § Loi n° 2025-199 du 28 février 2025 de financement de la sécurité sociale pour 2025, art. 90
+- § Service-public.fr, Qu'est-ce qu'un accident de trajet ? (F31881)
+Textes consultés le 24 septembre 2026. Information générale : chaque indemnisation dépend du dossier.
+## Questions fréquentes
+### Qu'est-ce que la faute inexcusable de l'employeur ?
+C'est la faute de l'employeur qui avait ou aurait dû avoir conscience du danger auquel le salarié était exposé et qui n'a pas pris les mesures nécessaires pour l'en préserver. Elle s'apprécie à partir des faits : évaluation des risques, formation, équipements, alertes antérieures.
+### Que peut-on obtenir en plus de la rente accident du travail ?
+Une majoration de la rente et la réparation de préjudices personnels : souffrances endurées, préjudices esthétique et d'agrément, perte de possibilités de promotion professionnelle, et, depuis les arrêts d'assemblée plénière du 20 janvier 2023, le déficit fonctionnel permanent, que la rente ne répare pas.
+### Quel est le délai pour demander la reconnaissance de la faute inexcusable ?
+Deux ans, à compter notamment du jour de l'accident ou de la fin du versement des indemnités journalières. Ce délai est interrompu par l'action pénale engagée pour les mêmes faits ou par l'action en reconnaissance du caractère professionnel de l'accident (article L. 431-2 du code de la sécurité sociale).
+### Qu'est-ce qui change au 1er novembre 2026 ?
+La loi de financement de la sécurité sociale pour 2025 (article 90) modifie les articles L. 452-2 et L. 452-3 à compter du 1er novembre 2026. La version applicable à un dossier dépend des dispositions transitoires et doit être vérifiée au cas par cas.
+### Un accident de trajet en voiture relève-t-il aussi de la loi Badinter ?
+Si un véhicule terrestre à moteur est impliqué, la victime peut, en plus de la prise en charge au titre du trajet, demander réparation à l'assureur du véhicule sur le fondement de la loi du 5 juillet 1985.
+## Articles liés
+Page pivot
+Les postes de préjudice : ce que vous pouvez faire indemniser
+Préjudices
+DFP : comment est-il indemnisé ?
+Préjudices
+Incidence professionnelle : ce qu'elle indemnise
+Circulation
+Accident de la route : l'indemnisation
+Expertise
+Expertise médicale judiciaire ou amiable ?
+Lexique
+Faute inexcusable : définition
+### Blessé au travail ?
+Le délai est de deux ans. Faites vérifier gratuitement si la faute inexcusable peut être recherchée.
+WhatsApp 06 63 46 59 84
+À retenir
+Rente = réparation forfaitaire. Faute inexcusable = majoration + préjudices personnels, dont le DFP. Délai : 2 ans.
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+Accident du travail — Faites vérifier
+La rente ne répare
+## pas tout.
+Le cabinet n'intervient que pour les victimes et leurs familles, jamais pour les employeurs ou leurs assureurs.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation 100 % gratuite — Honoraires sur résultat uniquement
+
+---
+
 ## Accident de trottinette électrique : quels sont vos droits ?
-URL : https://ig-avocat.com/blog\accident-trottinette-electrique-indemnisation
+URL : https://ig-avocat.com/blog/accident-trottinette-electrique-indemnisation
 
 Accident de la route · EDPM · Guide 2026
 # Accident de trottinette électrique : quels sont vos droits ?
@@ -2111,7 +2209,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Cycliste renversé : quelle indemnisation après l'accident ?
-URL : https://ig-avocat.com/blog\accident-velo-indemnisation
+URL : https://ig-avocat.com/blog/accident-velo-indemnisation
 
 Accident de la route · Cycliste · Guide 2026
 # Cycliste renversé : quelle indemnisation après l'accident ?
@@ -2189,7 +2287,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Victime d'agression : vos droits, la CIVI et le FGTI en 2026
-URL : https://ig-avocat.com/blog\agression-victime-droits-recours
+URL : https://ig-avocat.com/blog/agression-victime-droits-recours
 
 Agression
 # Victime d'agression : comment obtenir une indemnisation ?
@@ -2246,6 +2344,8 @@ L'indemnisation versée par le FGTI est subsidiaire : elle est diminuée des som
 ## Articles liés
 Indemnisation
 Combien toucher après un accident corporel ?
+Décès
+Décès d'un proche : les droits de la famille
 Assurance
 Faut-il accepter l'offre d'indemnisation de son assurance ?
 ### Consultation gratuite
@@ -2263,7 +2363,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Euro de rente : comment est capitalisé un préjudice futur ?
-URL : https://ig-avocat.com/blog\capitalisation-prejudice-euro-de-rente
+URL : https://ig-avocat.com/blog/capitalisation-prejudice-euro-de-rente
 
 Préjudices · Calcul · Guide 2026
 # Capitaliser un préjudice futur : le prix de l'euro de rente
@@ -2346,8 +2446,113 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 
 ---
 
+## Décès dans un accident : l'indemnisation des proches
+URL : https://ig-avocat.com/blog/deces-accident-indemnisation-proches
+
+Victimes par ricochet · Nomenclature Dintilhac · Guide 2026
+# Décès d'un proche dans un accident : quels droits pour la famille ?
+Lorsqu'une personne meurt des suites d'un accident, ses proches peuvent obtenir réparation de leurs propres préjudices, dits « par ricochet » : préjudice d'affection, frais d'obsèques, perte des revenus que le défunt apportait au foyer et, lorsque le décès n'a pas été immédiat, préjudice d'accompagnement. Les droits nés dans le patrimoine du défunt avant son décès passent en outre à ses héritiers. Dans un accident de la circulation, l'assureur doit présenter son offre aux héritiers et, s'il y a lieu, au conjoint (article L. 211-9 du code des assurances). L'action de la victime indirecte relève de la prescription de dix ans de l'article 2226 du code civil.
+Publié le 24 septembre 2026 6 min de lecture Maître Ilan Guedj
+Au deuil s'ajoutent, très vite, les courriers de l'assureur, les frais, parfois la disparition du principal revenu du foyer. Le droit reconnaît aux proches des préjudices qui leur sont propres : encore faut-il les identifier tous, et ne rien signer trop tôt.
+## 1. Deux choses différentes : les préjudices des proches et ceux du défunt
+Deux catégories de demandes coexistent et ne doivent pas être confondues :
+- → les préjudices personnels des proches (victimes indirectes, ou « par ricochet ») : chacun les invoque en son nom propre ;
+- → les préjudices subis par le défunt lui-même entre l'accident et le décès (souffrances endurées, par exemple) : le droit à réparation né dans son patrimoine est transmis à ses héritiers, qui l'exercent au titre de la succession.
+La distinction a des effets concrets : les bénéficiaires ne sont pas forcément les mêmes, et un proche qui n'est pas héritier peut malgré tout être indemnisé de son propre préjudice.
+## 2. Les préjudices économiques des proches
+La nomenclature Dintilhac, qui sert de référence aux juridictions et aux assureurs, distingue notamment :
+- → les frais d'obsèques et de sépulture ;
+- → les pertes de revenus des proches : la part des revenus du défunt qui profitait au foyer (conjoint, enfants à charge), calculée à partir de ses revenus réels et de la composition du foyer, puis capitalisée pour l'avenir ;
+- → les frais divers des proches : déplacements à l'hôpital, hébergement, pertes de revenus d'un proche resté au chevet de la victime avant le décès.
+La perte de revenus du foyer est souvent le poste le plus important, et le plus technique : il suppose de reconstituer les revenus du défunt, sa part d'autoconsommation, la durée de la charge des enfants, puis d'appliquer un prix de l'euro de rente.
+## 3. Les préjudices moraux des proches
+- → le préjudice d'affection : la douleur morale causée par la perte d'un être cher ;
+- → le préjudice d'accompagnement : lorsque le décès n'est pas immédiat, le bouleversement de la vie des proches qui ont accompagné la victime jusqu'à sa mort.
+Le préjudice d'affection n'est pas réservé aux héritiers ni à une liste fermée de parents : conjoint, partenaire de Pacs, concubin, enfants, parents, frères et sœurs, grands-parents peuvent l'invoquer, et un proche sans lien de parenté peut le faire s'il démontre une relation affective réelle. Son évaluation tient compte de l'intensité du lien, de la cohabitation et des circonstances du décès.
+## 4. Les règles changent selon l'accident
+Type d'accident
+Ce qu'il faut savoir
+Texte
+Accident de la circulation
+Le préjudice des proches est réparé en tenant compte des limitations ou exclusions applicables à la victime directe : une faute du défunt conducteur peut donc leur être opposée. L'assureur fait son offre aux héritiers et, s'il y a lieu, au conjoint.
+art. 6, loi du 5 juillet 1985
+art. L. 211-9 C. assur.
+Infraction (homicide, violences)
+Les ayants droit d'une victime décédée peuvent être indemnisés de leur préjudice personnel par la CIVI, qui fait intervenir le Fonds de garantie (FGTI). Délai de principe : trois ans à compter de l'infraction, prorogé en cas de poursuites pénales.
+art. 706-3 CPP
+art. 706-5 CPP
+Accident médical
+Les ayants droit peuvent saisir la CCI. Sans consolidation de l'état de la victime avant son décès, le délai de dix ans court à compter du décès.
+Service-public F13318
+Accident du travail
+En cas de faute inexcusable de l'employeur, les ayants droit ont droit à une indemnisation complémentaire.
+art. L. 452-1 CSS
+Dans un accident de la route, la loi prévoit aussi que la première correspondance de l'assureur informe du droit d'être assisté par un avocat et un médecin (art. L. 211-10 C. assur.).
+## 5. Dans quel délai agir ?
+L'article 2226 du code civil soumet à la prescription de dix ans l'action en responsabilité née d'un dommage corporel, « engagée par la victime directe ou indirecte » (art. 2226 C. civ.). Son point de départ, ainsi que les délais propres à certains régimes (CIVI, Fonds de garantie), se vérifient au cas par cas : voir notre guide des délais.
+## 6. Les premiers réflexes
+- → Ne signer aucune quittance ni transaction avant d'avoir fait chiffrer l'ensemble des postes, pour chaque proche.
+- → Rassembler l'acte de décès, le livret de famille, les justificatifs de vie commune et, pour les pertes de revenus, les avis d'imposition et bulletins de salaire du défunt.
+- → Conserver les factures d'obsèques et tous les frais engagés (déplacements, hébergement).
+- → Obtenir le procès-verbal ou le dossier de la procédure pénale lorsqu'il en existe une.
+## 7. Ce qu'il faut retenir
+- ✓ Les proches ont des préjudices propres, distincts de ceux du défunt transmis aux héritiers
+- ✓ Frais d'obsèques, pertes de revenus du foyer, frais divers, préjudice d'affection, préjudice d'accompagnement
+- ✓ Le préjudice d'affection n'est pas réservé aux héritiers : la réalité du lien compte
+- ✓ En accident de la route, la faute du défunt conducteur peut être opposée aux proches (art. 6 de la loi Badinter)
+- ✓ Prescription de dix ans pour la victime indirecte (art. 2226 C. civ.), délais spéciaux à vérifier
+## Textes et sources
+- § Loi n° 85-677 du 5 juillet 1985 (loi Badinter), art. 6 — préjudice des tiers
+- § Code des assurances, art. L. 211-9 — offre aux héritiers et au conjoint, délais
+- § Code des assurances, art. L. 211-10 — information sur l'assistance d'un avocat et d'un médecin
+- § Code civil, art. 2226 — prescription de dix ans, victime directe ou indirecte
+- § Code de procédure pénale, art. 706-3 et 706-5 — CIVI
+- § Code de la sécurité sociale, art. L. 452-1 — faute inexcusable, ayants droit
+- § Service-public.fr, indemnisation par le FGTI (F2313) · Saisir la CCI (F13318)
+- § Rapport du groupe de travail présidé par Jean-Pierre Dintilhac (2005) — nomenclature des préjudices des victimes indirectes
+Textes consultés le 24 septembre 2026. Information générale : chaque indemnisation dépend du dossier.
+## Questions fréquentes
+### Qui peut être indemnisé après le décès d'un proche dans un accident ?
+Les proches qui subissent un préjudice personnel : conjoint, partenaire de Pacs, concubin, enfants, parents, frères et sœurs, grands-parents, et plus largement toute personne qui démontre un lien affectif réel avec le défunt. Les préjudices économiques supposent en outre une dépendance économique ou des frais réellement exposés.
+### Qu'est-ce que le préjudice d'affection ?
+C'est le préjudice moral personnel d'un proche causé par le décès de la victime directe. Il s'évalue selon l'intensité du lien, la cohabitation et les circonstances du décès, et non d'après un simple tableau de parenté.
+### Le conducteur décédé était en faute : sa famille peut-elle être indemnisée ?
+Dans un accident de la circulation, le préjudice des proches est réparé en tenant compte des limitations ou exclusions applicables à la victime directe (article 6 de la loi du 5 juillet 1985). La faute du conducteur décédé peut donc réduire ou exclure l'indemnisation de ses proches ; son existence et sa portée se discutent au cas par cas.
+### À qui l'assureur doit-il faire son offre en cas de décès ?
+À la suite d'un accident de la circulation, l'offre est faite aux héritiers et, s'il y a lieu, au conjoint de la victime décédée (article L. 211-9 du code des assurances).
+### Quel est le délai pour agir ?
+L'action en responsabilité de la victime indirecte relève de la prescription de dix ans de l'article 2226 du code civil. Des délais plus courts existent pour certains régimes, comme la CIVI : ils doivent être vérifiés dès le début.
+## Articles liés
+Page pivot
+Les postes de préjudice : ce que vous pouvez faire indemniser
+Blessures graves
+Accident grave : les préjudices importants
+Calcul
+Capitaliser un préjudice futur : l'euro de rente
+Circulation
+Conducteur en faute : pouvez-vous être indemnisé ?
+Agression
+Victime d'agression : CIVI et FGTI
+Lexique
+Préjudice d'affection : définition
+### Vous avez perdu un proche ?
+Avant de répondre à l'assureur, faites vérifier gratuitement les droits de chaque membre de la famille.
+WhatsApp 06 63 46 59 84
+À retenir
+Préjudices propres des proches + droits du défunt transmis aux héritiers. Ne rien signer avant un chiffrage complet, poste par poste et proche par proche.
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+Décès d'un proche — Vos droits
+Chaque proche
+## a ses propres droits.
+Le cabinet accompagne les familles endeuillées face aux assureurs et aux fonds de garantie, sans avance de frais.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation 100 % gratuite — Honoraires sur résultat uniquement
+
+---
+
 ## DFP : comment est indemnisé le déficit fonctionnel permanent ?
-URL : https://ig-avocat.com/blog\deficit-fonctionnel-permanent-dfp
+URL : https://ig-avocat.com/blog/deficit-fonctionnel-permanent-dfp
 
 Préjudices · Nomenclature Dintilhac · Guide 2026
 # Déficit fonctionnel permanent (DFP) : comment est-il indemnisé ?
@@ -2401,6 +2606,8 @@ L'aggravation ouvre droit à une nouvelle évaluation. L'action en réparation s
 ## Articles liés
 Page pivot
 Les postes de préjudice : ce que vous pouvez faire indemniser
+Accident du travail
+Accident du travail : la rente ne répare pas le DFP
 Préjudices
 Souffrances endurées : la cotation sur 7
 Préjudices
@@ -2428,7 +2635,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Délais de prescription accident corporel : quand agir ? 2026
-URL : https://ig-avocat.com/blog\delai-prescription-accident-corporel
+URL : https://ig-avocat.com/blog/delai-prescription-accident-corporel
 
 Prescription
 # Quels sont les délais pour agir après un accident corporel ?
@@ -2575,12 +2782,12 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Liste des erreurs médicales : types, droits et recours 2026
-URL : https://ig-avocat.com/blog\erreur-medicale-droits-victime
+URL : https://ig-avocat.com/blog/erreur-medicale-droits-victime
 
 Erreur médicale
 # Erreur médicale : vos droits, délais, preuve et recours
 CCI, ONIAM, tribunal judiciaire ou administratif, plainte pénale : ce guide vous explique comment choisir, dans quel délai agir, comment prouver une faute et comment se déroule la première consultation. Cabinet de Maître Ilan Guedj, avocat en dommage corporel à Marseille — intervention devant les juridictions de Marseille, Aix-en-Provence et toute la région PACA.
-Publié le 17 février 2026 · Mis à jour le 20 mai 2026 16 min de lecture Maître Ilan Guedj
+Publié le 17 février 2026 · Mis à jour le 24 septembre 2026 16 min de lecture Maître Ilan Guedj
 Chaque année, des milliers de patients sont victimes d'erreurs médicales en France, dont une part significative dans les établissements de santé de Marseille et de la région PACA (AP-HM, hôpitaux publics et cliniques privées). Face au corps médical, aux assurances des établissements de santé et à la complexité des procédures, les victimes se retrouvent souvent seules et démunies. Ce guide vous explique vos droits, les procédures disponibles et comment un avocat en erreur médicale à Marseille peut faire la différence.
 ## 1. Qu'est-ce qu'une erreur médicale au sens juridique ?
 En droit médical français, une erreur médicale n'est pas simplement un acte qui a mal tourné. La notion juridique est précise : il s'agit d'un manquement à l'obligation de moyens du praticien, c'est-à-dire d'un acte ou d'une omission qui s'écarte des pratiques médicales reconnues et admises par la communauté scientifique au moment des faits.
@@ -2605,8 +2812,8 @@ La procédure CCI présente plusieurs avantages : elle est gratuite, plus rapide
 ## 4. Tribunal judiciaire vs CCI : quelle voie choisir ?
 Face à une erreur médicale, deux grandes voies s'offrent à la victime : la CCI (règlement amiable) ou la voie judiciaire. Le choix entre les deux a un impact réel sur la durée, le coût et l'issue du dossier.
 ### Quand privilégier la CCI ?
-- ✓ Quand les séquelles franchissent le seuil de gravité (IPP ≥ 24%, ITT ≥ 6 mois consécutifs, ou troubles graves dans les conditions d'existence)
-- ✓ Quand vous recherchez une procédure gratuite et rapide (4 à 12 mois)
+- ✓ Quand les séquelles franchissent le seuil de gravité (atteinte permanente supérieure à 24 %, arrêt des activités professionnelles d'au moins 6 mois consécutifs (ou 6 mois non consécutifs sur 12 mois), ou, à titre exceptionnel, troubles particulièrement graves dans les conditions d'existence)
+- ✓ Quand vous recherchez une procédure gratuite, avec un avis attendu dans les 6 mois du dossier complet
 - ✓ Quand vous voulez obtenir une expertise médicale financée par l'ONIAM sans avancer de frais
 - ✓ Quand l'affaire est techniquement complexe et qu'une analyse médicale neutre est utile en amont
 ### Quand saisir directement le tribunal ?
@@ -2623,7 +2830,7 @@ Les deux voies ne sont pas exclusives : il est tout à fait possible de saisir l
 ## 5. L'ONIAM : quand et comment saisir le fonds national
 L'Office National d'Indemnisation des Accidents Médicaux (ONIAM) est un établissement public chargé d'indemniser les victimes d'accidents médicaux non fautifs (aléas thérapeutiques) et, dans certains cas, de se substituer aux assureurs défaillants.
 L'ONIAM intervient dans trois situations principales :
-- 1.L'aléa thérapeutique : accident médical non fautif présentant des conséquences anormales et graves (seuil de gravité requis : IPP ≥ 24%, ou ITT ≥ 6 mois consécutifs, ou troubles graves dans les conditions d'existence).
+- 1.L'aléa thérapeutique : accident médical non fautif présentant des conséquences anormales et graves (seuil de gravité requis : atteinte permanente supérieure à 24 %, ou arrêt des activités professionnelles d'au moins 6 mois consécutifs (ou 6 mois non consécutifs sur 12 mois), ou, à titre exceptionnel, troubles particulièrement graves dans les conditions d'existence).
 - 2.La défaillance de l'assureur : si l'assureur du praticien ne fait pas d'offre dans les délais, l'ONIAM se substitue à lui.
 - 3.Les cas spéciaux : contaminations liées aux produits sanguins, vaccinations obligatoires, mesothéliomes.
 ### Vous êtes victime d'une erreur médicale à Marseille ou en PACA ?
@@ -2635,7 +2842,7 @@ Pour être indemnisable au titre de l'aléa thérapeutique, l'accident doit réu
 - ✓ Être directement imputable à un acte de prévention, de diagnostic ou de soin
 - ✓ Avoir des conséquences anormales au regard de l'état de santé du patient
 - ✓ Ne pas être imputable à une faute du praticien
-- ✓ Atteindre un seuil de gravité : IPP ≥ 24%, ou ITT ≥ 6 mois, ou troubles graves dans les conditions d'existence
+- ✓ Atteindre un seuil de gravité : atteinte permanente supérieure à 24 %, ou arrêt d'activité d'au moins 6 mois, ou troubles particulièrement graves dans les conditions d'existence
 L'indemnisation est alors prise en charge par l'ONIAM sur fonds publics. Un avocat en dommage corporel est particulièrement utile pour distinguer ce qui relève de la faute médicale (plus favorable pour la victime, car la réparation est intégrale) de ce qui relève de l'aléa thérapeutique (soumis au seuil de gravité).
 ## 7. Quels sont les délais pour porter plainte et agir en indemnisation ?
 Une erreur médicale peut donner lieu à deux types d'action, soumis à des délais distincts. Ils peuvent se cumuler ou se succéder, mais chacun a sa propre logique procédurale et son propre compteur de prescription.
@@ -2707,19 +2914,21 @@ En matière de responsabilité médicale, le délai de prescription est de 10 an
 ### Combien de temps pour porter plainte après une erreur médicale ?
 Pour l'action pénale (plainte pour blessures involontaires ou homicide involontaire), le délai est de 6 ans pour les délits et de 20 ans pour les crimes. Pour l'action civile en indemnisation, le délai est de 10 ans à compter de la consolidation du dommage. Les deux actions peuvent être menées en parallèle. Pour les patients mineurs, la prescription est suspendue jusqu'à la majorité.
 ### Tribunal judiciaire ou CCI : que choisir pour une erreur médicale ?
-La CCI est gratuite et rapide (4 à 12 mois) mais réservée aux séquelles graves (IPP ≥ 24 % ou ITT ≥ 6 mois). En dessous du seuil, ou si vous voulez une condamnation contraignante (l'avis CCI est seulement consultatif), saisissez directement le tribunal : tribunal judiciaire pour un praticien libéral ou un établissement privé, tribunal administratif pour un hôpital public. Les deux voies sont compatibles : on peut saisir le tribunal après un avis CCI insatisfaisant.
+La CCI est gratuite ; elle doit rendre son avis dans les 6 mois du dossier complet, mais elle est réservée aux dommages graves (atteinte permanente supérieure à 24 %, ou arrêt des activités professionnelles d'au moins 6 mois consécutifs (ou 6 mois non consécutifs sur 12 mois)). En dessous du seuil, ou si vous voulez une condamnation contraignante (l'avis CCI est seulement consultatif), saisissez directement le tribunal : tribunal judiciaire pour un praticien libéral ou un établissement privé, tribunal administratif pour un hôpital public. Les deux voies sont compatibles : on peut saisir le tribunal après un avis CCI insatisfaisant.
 ### Comment prouver une erreur de diagnostic ?
 Trois éléments sont nécessaires : (1) un écart par rapport aux données acquises de la science (examens complémentaires non prescrits, signes cliniques ignorés) ; (2) le caractère évitable de l'erreur (la présentation n'était pas atypique) ; (3) un lien de causalité avec un préjudice, généralement chiffré comme une perte de chance de guérison ou de survie. Le dossier repose sur les comptes rendus médicaux successifs et un avis de médecin-recours indépendant.
 ### La CCI peut-elle me forcer à accepter une indemnisation ?
 Non. La procédure devant la CCI est entièrement facultative et les avis rendus n'ont aucun caractère contraignant. Si vous refusez l'offre formulée à la suite d'un avis CCI, vous conservez l'intégralité de vos droits pour saisir la juridiction compétente.
 ### Peut-on être indemnisé même si le médecin n'a pas commis de faute ?
-Oui, grâce au mécanisme de l'aléa thérapeutique. Depuis la loi Kouchner du 4 mars 2002, l'ONIAM peut indemniser les accidents médicaux non fautifs qui ont entraîné des conséquences anormales, à condition que les séquelles soient supérieures à un seuil de gravité (24 % d'IPP ou 6 mois d'ITT consécutifs). Cette procédure est distincte de l'action en responsabilité médicale.
+Oui, grâce au mécanisme de l'aléa thérapeutique. Depuis la loi Kouchner du 4 mars 2002, l'ONIAM peut indemniser les accidents médicaux non fautifs qui ont entraîné des conséquences anormales, à condition que les séquelles soient supérieures à un seuil de gravité (atteinte permanente supérieure à 24 %, ou arrêt des activités professionnelles d'au moins 6 mois consécutifs (ou 6 mois non consécutifs sur 12 mois)). Cette procédure est distincte de l'action en responsabilité médicale.
 ### Comment se passe la consultation gratuite avec un avocat en erreur médicale ?
 La première consultation est entièrement gratuite et sans engagement. Vous apportez votre dossier médical et le récit des faits. Le cabinet analyse la situation, indique la voie à privilégier (CCI, ONIAM, tribunal, plainte pénale), estime les chances de succès et explique le fonctionnement des honoraires (0 € d'avance, rémunération uniquement sur le résultat). La consultation reste gratuite même si vous décidez de ne pas confier le dossier au cabinet.
 ## Pour aller plus loin
 Page service
 Avocat erreur médicale à Marseille
 Notre intervention, les 4 étapes du dossier, un cas obtenu
+Infection nosocomiale
+Infection nosocomiale : qui vous indemnise, et comment ?
 Expertise
 Expertise médicale judiciaire : comment se préparer
 Médecin-recours
@@ -2745,7 +2954,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Expertise médicale : judiciaire vs amiable | Guide
-URL : https://ig-avocat.com/blog\expertise-medicale-judiciaire
+URL : https://ig-avocat.com/blog/expertise-medicale-judiciaire
 
 Expertise médicale
 # Expertise médicale : pourquoi l'expertise judiciaire protège mieux les victimes
@@ -2876,7 +3085,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Conducteur en faute : pouvez-vous être indemnisé ?
-URL : https://ig-avocat.com/blog\faute-conducteur-victime-indemnisation
+URL : https://ig-avocat.com/blog/faute-conducteur-victime-indemnisation
 
 Accident de la route · Jurisprudence 2025
 # Conducteur en faute : pouvez-vous être indemnisé après un accident de la route ?
@@ -2976,7 +3185,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Conducteur non assuré : qui indemnise la victime ?
-URL : https://ig-avocat.com/blog\fonds-garantie-conducteur-non-assure
+URL : https://ig-avocat.com/blog/fonds-garantie-conducteur-non-assure
 
 Accident de la route · Fonds de garantie · Guide 2026
 # Accident avec un conducteur non assuré : qui indemnise la victime ?
@@ -3064,7 +3273,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Incidence professionnelle : ce qu'elle indemnise vraiment
-URL : https://ig-avocat.com/blog\incidence-professionnelle
+URL : https://ig-avocat.com/blog/incidence-professionnelle
 
 Préjudices · Nomenclature Dintilhac · Guide 2026
 # Incidence professionnelle : que peut-elle indemniser ?
@@ -3117,6 +3326,8 @@ Blessures graves
 Accident grave : tierce personne, frais futurs, pertes de gains
 Préjudices
 Tierce personne : l'aide humaine indemnisée
+Accident du travail
+Accident du travail et faute inexcusable
 Calcul
 Capitaliser un préjudice futur : l'euro de rente
 Lexique
@@ -3138,7 +3349,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Indemnisation accident corporel : combien toucher ? 2026
-URL : https://ig-avocat.com/blog\indemnisation-accident-corporel
+URL : https://ig-avocat.com/blog/indemnisation-accident-corporel
 
 Indemnisation
 # Comment calculer votre indemnisation après un accident corporel ?
@@ -3221,6 +3432,8 @@ Non. Des référentiels indicatifs existent pour certains postes, mais ils ne li
 ## Articles liés
 Préjudices graves
 Accident grave : indemnisation maximale et préjudices importants
+Victimes par ricochet
+Décès d'un proche : les préjudices de la famille
 Préjudices
 Déficit fonctionnel permanent (DFP) : comment est-il indemnisé ?
 Préjudices
@@ -3246,7 +3459,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Accident Grave : Indemnisation & Préjudices | Ilan Guedj
-URL : https://ig-avocat.com/blog\indemnisation-accident-grave
+URL : https://ig-avocat.com/blog/indemnisation-accident-grave
 
 Accident grave
 # Accident grave : indemnisation maximale et préjudices importants
@@ -3372,7 +3585,7 @@ Les indemnisations pour les enfants gravement blessés figurent parmi les plus �
 ### Consolidation tardive : un point crucial
 Pour un enfant, la consolidation médicale est généralement repoussée jusqu’à la fin de la croissance, voire à l’âge adulte, pour permettre une évaluation stable des séquelles. Cela rend la procédure plus longue (souvent 8 à 12 ans après l’accident), mais essentielle : l’expertise prématurée d’un enfant aboutit presque toujours à une sous-évaluation des séquelles définitives. Des provisions sont versées tout au long de la procédure pour couvrir les frais courants.
 ## 9. Cas particulier : décès de la victime et indemnisation des ayants droit
-Lorsqu’un accident grave entraîne le décès de la victime, deux ensembles de droits coexistent : ceux de la victime elle-même (transmis à ses héritiers) et ceux des proches en leur qualité de victimes par ricochet.
+Lorsqu’un accident grave entraîne le décès de la victime, deux ensembles de droits coexistent : ceux de la victime elle-même (transmis à ses héritiers) et ceux des proches en leur qualité de victimes par ricochet. Le détail des postes, des règles propres à chaque type d'accident et des délais figure dans notre guide Décès d'un proche dans un accident : les droits de la famille.
 ### Qui est ayant droit ?
 La notion d’ayant droit, en matière de préjudice par ricochet, est large : elle couvre le conjoint (marié, pacsé ou concubin notoire), les enfants (mineurs et majeurs), les parents, et plus loin les frères et sœurs, les grands-parents, voire les beaux-parents et certains proches non parents en cas de relation affective avérée. La proximité affective et la communauté de vie sont des éléments déterminants : un concubin de longue date est indemnisé au même titre qu’un conjoint marié.
 ### Les postes des ayants droit
@@ -3485,7 +3698,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Victime passagère d'un accident : vos droits (loi Badinter)
-URL : https://ig-avocat.com/blog\indemnisation-victime-passagere-accident
+URL : https://ig-avocat.com/blog/indemnisation-victime-passagere-accident
 
 Accident de la route
 # Victime passagère d'un accident : quels sont vos droits ?
@@ -3563,140 +3776,112 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 
 ---
 
-## Blog | Conseils Juridiques Victimes | Ilan Guedj
-URL : https://ig-avocat.com/blog\index
+## Infection nosocomiale : indemnisation, ONIAM et CCI
+URL : https://ig-avocat.com/blog/infection-nosocomiale-indemnisation
 
-Ressources juridiques
-Conseils pour
-# victimes d'accidents
-Guides pratiques rédigés par Maître Ilan Guedj, avocat au barreau de Marseille dont l'activité est consacrée exclusivement au dommage corporel. Chaque guide répond à une question précise de victime, cite les textes applicables et indique sa date de mise à jour.
-Vous cherchez la définition d'un terme (DFP, consolidation, tierce personne, CIVI…) ? Consultez le lexique du dommage corporel.
-Nouveau
-Préjudices 7 min de lecture
-## Déficit fonctionnel permanent (DFP) : comment est-il indemnisé ?
-Ce que mesure le taux, qui le fixe, pourquoi 10 % de DFP ne vaut aucune somme fixe, et ce que le DFP ne couvre pas.
-22 septembre 2026 Lire l'article →
-Nouveau
-Préjudices 6 min de lecture
-## Souffrances endurées : comment est évaluée la cotation sur 7 ?
-Ce que recouvre le poste, l'échelle de 1 à 7, et pourquoi une cotation se justifie et se discute pendant l'expertise.
-22 septembre 2026 Lire l'article →
-Nouveau
-Préjudices 7 min de lecture
-## Tierce personne : comment l'aide humaine est-elle indemnisée ?
-Besoin d'aide avant et après consolidation, aide apportée par un proche, heures, taux horaire et capitalisation.
-22 septembre 2026 Lire l'article →
-Nouveau
-Préjudices 6 min de lecture
-## Incidence professionnelle : que couvre ce poste de préjudice ?
-Pénibilité, dévalorisation, reconversion, perte de chance : un poste distinct des pertes de revenus, souvent oublié.
-22 septembre 2026 Lire l'article →
-Nouveau
-Préjudices 7 min de lecture
-## Euro de rente : comment est capitalisé un préjudice futur ?
-Montant annuel × prix de l'euro de rente : âge, sexe, tables de mortalité, taux d'actualisation et choix du barème.
-22 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 8 min de lecture
-## Accident de moto : quelle indemnisation pour le motard ?
-Le motard est un conducteur au sens de la loi Badinter : sa faute peut réduire l'indemnisation. Ce que l'assureur doit prouver, et ce qui se joue dans les premiers jours.
-17 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 8 min de lecture
-## Cycliste renversé : quelle indemnisation après l'accident ?
-Un vélo n'est pas un véhicule à moteur : le cycliste est protégé comme un piéton. Faute inexcusable, VAE, dommages au vélo.
-17 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 8 min de lecture
-## Piéton renversé : quelle indemnisation après l'accident ?
-Traverser hors d'un passage protégé n'est pas une faute inexcusable. La protection la plus forte du droit de l'indemnisation, et ses trois catégories renforcées.
-17 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 8 min de lecture
-## Délit de fuite : être indemnisé sans responsable identifié
-Le Fonds de garantie prend le relais, mais la matérialité de l'accident doit être établie. Les preuves qui disparaissent en quelques jours.
-17 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 7 min de lecture
-## Conducteur non assuré : qui indemnise la victime ?
-Le défaut d'assurance du responsable ne vous prive pas d'indemnisation. Conditions d'intervention du Fonds, pièces à réunir, garanties personnelles.
-17 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 10 min de lecture
-## Accident de la route : qui est indemnisé et dans quels délais ?
-Piéton, cycliste, passager, motard, conducteur : la loi Badinter ne protège pas tout le monde de la même façon. Qui verse l'indemnisation, sous quels délais, et que faire si le responsable n'est pas assuré.
-17 septembre 2026 Lire l'article →
-Nouveau
-Accident de la route 11 min de lecture
-## Accident de trottinette électrique : quels sont vos droits ?
-EDPM, loi Badinter, assurance obligatoire et FGAO : pourquoi le piéton renversé est mieux protégé que le conducteur de la trottinette, et comment obtenir votre juste indemnisation.
-1 juillet 2026 Lire l'article →
-Préjudices graves 18 min de lecture
-## Accident grave : indemnisation maximale et préjudices importants
-Tierce personne, frais futurs, perte de gains professionnels, paraplégie, traumatisme crânien : comment chaque poste Dintilhac se calcule et pourquoi l'accompagnement précoce change tout.
-14 mai 2026 Lire l'article →
-Accident de la route 10 min de lecture
-## Conducteur en faute : pouvez-vous être indemnisé ?
-L'arrêt Cass. 2e civ. 19 juin 2025 change la donne : la faute doit être prouvée et avoir contribué au dommage. Décryptage et conséquences pratiques.
-13 mai 2026 Lire l'article →
-Expertise médicale 8 min de lecture
-## Médecin-recours : pourquoi il est indispensable pour les victimes
-Qu'est-ce qu'un médecin-recours, comment il intervient lors de l'expertise médicale, et pourquoi il change tout pour votre indemnisation.
-8 mars 2026 Lire l'article →
-Accident de la route 9 min de lecture
-## Victime passagère d'un accident : quels sont vos droits ?
-La loi Badinter protège quasi intégralement les passagers, même si le conducteur est fautif. Quelle assurance intervient, comment est calculée l'indemnisation.
-3 mars 2026 Lire l'article →
-Expertise médicale 10 min de lecture
-## Expertise médicale : pourquoi l'expertise judiciaire protège mieux les victimes
-Expertise amiable ou judiciaire ? Pourquoi nous recommandons l'expertise judiciaire, comment l'obtenir, et comment bien s'y préparer.
-24 février 2026 Lire l'article →
-Agression 10 min de lecture
-## Victime d'agression : comment obtenir une indemnisation ?
-CIVI, FGTI, conditions d'accès, procédure et préjudices indemnisables : tout ce que vous devez savoir pour faire valoir vos droits après une agression.
-19 février 2026 Lire l'article →
-Expertise médicale 12 min de lecture
-## Expertise médicale après un accident grave : les 15 jours qui décident de votre indemnisation
-L'assureur doit vous prévenir quinze jours avant l'examen. Ce que vous devez préparer, poste par poste, pour que rien ne se perde en une matinée.
-27 août 2026 Lire l'article →
-Accident de la route 8 min de lecture
-## Que faire après un accident de la route ?
-Les gestes essentiels dans les premières minutes, comment remplir le constat, vos obligations légales et les erreurs à éviter absolument.
-17 février 2026 Lire l'article →
-Indemnisation 10 min de lecture
-## Combien toucher après un accident corporel ?
-Nomenclature Dintilhac, postes de préjudice, ITT, IPP, préjudice moral : comprendre comment est calculée votre indemnisation.
-17 février 2026 Lire l'article →
-Assurance 9 min de lecture
-## Faut-il accepter l'offre d'indemnisation de son assurance ?
-Pourquoi les premières offres sont sous-évaluées, comment contester et quels recours exercer si l'assurance refuse de négocier.
-17 février 2026 Lire l'article →
-Erreur médicale 11 min de lecture
-## Victime d'une erreur médicale : vos droits et recours
-CCI, ONIAM, aléa thérapeutique, preuves à réunir : tout ce que vous devez savoir pour faire valoir vos droits face au corps médical.
-17 février 2026 Lire l'article →
-Prescription 9 min de lecture
-## Délais de prescription accident corporel : quand agir ?
-Délai de 10 ans, délais spéciaux, notion de consolidation, actes interruptifs : ne laissez pas le temps jouer contre vous.
-17 février 2026 Lire l'article →
-Consultation gratuite
-### Votre dossier mérite une analyse personnalisée
-Chaque accident est unique. Le cabinet ILAN GUEDJ analyse votre situation et vous oriente gratuitement, sans engagement.
-Contacter par WhatsApp 06 63 46 59 84
-## Nos domaines d'intervention
-### Accident de la route
-Loi Badinter, indemnisation victimes
-### Accident de la vie
-GAV, chutes, sport, loisirs
-### Victime d'agression
-CIVI, FGTI, indemnisation
-### Erreur médicale
-CCI, ONIAM, faute médicale
+Erreur médicale · Infection nosocomiale · Guide 2026
+# Infection nosocomiale : qui vous indemnise, et comment ?
+Une infection nosocomiale contractée dans un établissement de santé engage la responsabilité de cet établissement sans que la victime ait à prouver une faute : il ne peut s'exonérer qu'en prouvant une cause étrangère (article L. 1142-1, I, du code de la santé publique). Lorsque l'infection entraîne une atteinte permanente à l'intégrité physique ou psychique supérieure à 25 % ou le décès, la réparation relève de l'ONIAM au titre de la solidarité nationale (article L. 1142-1-1). La victime peut saisir gratuitement la commission de conciliation et d'indemnisation (CCI) ou agir en justice, dans les dix ans de la consolidation.
+Publié le 24 septembre 2026 7 min de lecture Maître Ilan Guedj
+Une opération réussie, puis une fièvre, un germe, une reprise chirurgicale. L'infection nosocomiale est l'un des rares cas où la loi dispense la victime de prouver une faute. Encore faut-il savoir qui doit payer : l'établissement, son assureur ou l'ONIAM.
+## 1. Qu'est-ce qu'une infection nosocomiale ?
+On appelle nosocomiale une infection contractée au cours ou au décours d'une prise en charge dans un établissement de santé, alors qu'elle n'était ni présente ni en incubation à l'admission. Le code de la santé publique ne la définit pas lui-même : c'est l'expertise médicale qui établit, à partir du dossier, le caractère nosocomial de l'infection et son lien avec les séquelles.
+Les situations typiques sont une infection du site opératoire, une infection sur prothèse, une septicémie sur cathéter ou une infection contractée en réanimation.
+## 2. Une responsabilité sans faute pour l'établissement
+En principe, les professionnels et établissements de santé ne répondent des conséquences de leurs actes qu'en cas de faute. Les infections nosocomiales font exception : les établissements, services et organismes de santé « sont responsables des dommages résultant d'infections nosocomiales, sauf s'ils rapportent la preuve d'une cause étrangère » (art. L. 1142-1, I, al. 2 CSP).
+- → La victime n'a pas à démontrer un manquement à l'hygiène ou une erreur du personnel.
+- → Elle doit en revanche établir que l'infection est nosocomiale et qu'elle a causé son dommage.
+- → L'établissement ne s'exonère qu'en prouvant une cause étrangère, ce que la seule origine endogène du germe ne suffit pas, en pratique, à établir.
+Attention au lieu de l'infection : la règle vise les établissements, services et organismes de santé. Pour une infection contractée au cabinet d'un professionnel libéral, la responsabilité reste en principe fondée sur la faute, qu'il faut alors démontrer.
+## 3. Établissement ou ONIAM : qui paie ?
+Le débiteur dépend de la gravité des séquelles, mesurée par le taux d'atteinte permanente à l'intégrité physique ou psychique (AIPP) fixé par l'expert.
+Gravité
+Qui indemnise
+Texte
+AIPP jusqu'à 25 %
+L'établissement de santé (en pratique, son assureur)
+art. L. 1142-1, I CSP
+AIPP supérieure à 25 %, ou décès
+L'ONIAM, au titre de la solidarité nationale
+art. L. 1142-1-1, 1° CSP
+Cette répartition compte dès le départ du dossier : elle détermine contre qui la demande est dirigée et, devant la CCI, qui recevra l'avis et devra formuler l'offre.
+## 4. Deux voies : la CCI ou le tribunal
+### La commission de conciliation et d'indemnisation (CCI)
+La procédure devant la CCI est gratuite. Pour ouvrir la voie du règlement amiable, le dommage doit atteindre un seuil de gravité (art. D. 1142-1 CSP, Service-public) :
+- → une atteinte permanente à l'intégrité physique ou psychique supérieure à 24 % ;
+- → ou un arrêt des activités professionnelles d'au moins 6 mois consécutifs (ou 6 mois non consécutifs sur 12 mois) ;
+- → ou un déficit fonctionnel temporaire d'au moins 50 % pendant la même durée ;
+- → à titre exceptionnel, une inaptitude définitive à l'activité professionnelle ou des troubles particulièrement graves dans les conditions d'existence.
+Sous ce seuil, la CCI ne peut proposer qu'une conciliation. Au-dessus, elle désigne un expert et rend un avis dans les six mois du dossier complet (art. L. 1142-8 CSP). L'assureur de l'établissement doit ensuite faire une offre dans les quatre mois de l'avis (art. L. 1142-14), l'ONIAM dans le même délai lorsqu'il est débiteur (art. L. 1142-17).
+### Le tribunal
+La victime peut aussi agir directement en justice, ou le faire si l'offre est insuffisante : devant le tribunal administratif pour un hôpital public, devant le tribunal judiciaire pour une clinique privée. Le juge ordonne alors une expertise judiciaire, menée contradictoirement.
+L'avis de la CCI ne lie pas le juge et une offre peut être refusée. Accepter une offre sans l'avoir fait chiffrer poste par poste, c'est souvent renoncer à des préjudices que l'expertise n'avait pas isolés (tierce personne, incidence professionnelle, frais futurs).
+## 5. Constituer le dossier
+Tout se joue sur la preuve du caractère nosocomial et sur l'étendue des séquelles. Il faut réunir sans attendre :
+- → le dossier médical complet de l'hospitalisation, que vous pouvez demander à l'établissement (comptes rendus opératoires, résultats de prélèvements, antibiogrammes, feuilles de soins) ;
+- → la chronologie précise : date d'admission, date de l'acte, premiers signes, identification du germe, reprises chirurgicales ;
+- → l'état de santé antérieur, pour éviter qu'une séquelle soit à tort attribuée à une pathologie préexistante ;
+- → les justificatifs des conséquences : arrêts de travail, pertes de revenus, aide d'un proche, frais restés à charge.
+À l'expertise, être assisté d'un médecin-conseil de victimes et d'un avocat permet de discuter le caractère nosocomial, la date de consolidation et chaque taux retenu : c'est là que se fixe l'essentiel de l'indemnisation.
+## 6. Dans quel délai agir ?
+L'action se prescrit par dix ans à compter de la consolidation du dommage (art. L. 1142-28 CSP). La saisine de la CCI suspend les délais de prescription et de recours contentieux jusqu'au terme de la procédure (art. L. 1142-7). Ce délai long ne justifie pas d'attendre : les prélèvements et les souvenirs s'effacent plus vite que la prescription.
+## 7. Ce qu'il faut retenir
+- ✓ Dans un établissement de santé, pas de faute à prouver : seule une cause étrangère exonère l'établissement
+- ✓ Au-delà de 25 % d'atteinte permanente, ou en cas de décès, c'est l'ONIAM qui indemnise
+- ✓ La CCI est gratuite mais suppose un seuil de gravité ; son avis ne lie pas le juge
+- ✓ Délai de dix ans à compter de la consolidation, suspendu par la saisine de la CCI
+- ✓ Le dossier médical complet et l'assistance à l'expertise sont décisifs
+## Textes et sources
+- § Code de la santé publique, art. L. 1142-1 — responsabilité pour faute, infections nosocomiales, aléa thérapeutique
+- § Code de la santé publique, art. L. 1142-1-1 — solidarité nationale au-delà de 25 % ou en cas de décès
+- § Code de la santé publique, art. L. 1142-4 à L. 1142-8 — procédure devant la CCI
+- § Code de la santé publique, art. D. 1142-1 — seuils de gravité
+- § Code de la santé publique, art. L. 1142-14 et L. 1142-17 — délais d'offre
+- § Code de la santé publique, art. L. 1142-28 — prescription de dix ans
+- § Service-public.fr, Saisir la CCI en cas d'accident médical ou d'infection nosocomiale (F13318)
+Textes consultés le 24 septembre 2026. Information générale : chaque indemnisation dépend du dossier.
+## Questions fréquentes
+### Dois-je prouver une faute de l'hôpital ou de la clinique ?
+Non. L'établissement est responsable des infections nosocomiales sauf s'il prouve une cause étrangère (article L. 1142-1 du code de la santé publique). Vous devez en revanche établir, par l'expertise, le caractère nosocomial de l'infection et son lien avec vos séquelles.
+### Quand l'ONIAM indemnise-t-il une infection nosocomiale ?
+Lorsque l'infection contractée dans un établissement entraîne une atteinte permanente à l'intégrité physique ou psychique supérieure à 25 %, ou le décès (article L. 1142-1-1). En dessous, c'est l'établissement, par son assureur, qui indemnise.
+### Puis-je saisir la CCI pour une infection nosocomiale ?
+Oui, gratuitement. Le règlement amiable suppose un seuil de gravité : atteinte permanente supérieure à 24 %, ou arrêt d'activité d'au moins six mois, notamment. La CCI rend son avis dans les six mois du dossier complet ; en dessous du seuil, elle ne peut proposer qu'une conciliation.
+### Quel est le délai pour agir après une infection nosocomiale ?
+Dix ans à compter de la consolidation du dommage (article L. 1142-28). La saisine de la CCI suspend ce délai jusqu'à la fin de la procédure.
+### L'infection a été contractée au cabinet d'un médecin libéral : est-ce pareil ?
+Non. La responsabilité sans faute vise les établissements, services et organismes de santé. Pour un professionnel libéral exerçant en cabinet, il faut en principe démontrer une faute.
+## Articles liés
+Page pivot
+Erreur médicale : droits, délais, CCI et ONIAM
+Domaine
+Avocat erreur médicale à Marseille
+Expertise
+Le médecin-recours, allié de la victime
+Expertise
+Expertise médicale judiciaire ou amiable ?
+Délais
+Délais de prescription en dommage corporel
+Lexique
+Lexique du dommage corporel
+### Infection après une hospitalisation ?
+Le caractère nosocomial se prouve dossier en main. Faites analyser le vôtre gratuitement.
+WhatsApp 06 63 46 59 84
+À retenir
+Dans un établissement, pas de faute à prouver. Au-delà de 25 % d'atteinte permanente ou en cas de décès : ONIAM. Délai : 10 ans après consolidation.
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+Infection nosocomiale — Faites vérifier
+Une infection contractée
+## à l'hôpital ?
+Le cabinet n'intervient que pour les victimes, jamais pour les établissements ou leurs assureurs.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation 100 % gratuite — Honoraires sur résultat uniquement
 
 ---
 
 ## Médecin-recours : pourquoi il est indispensable | Ilan Guedj
-URL : https://ig-avocat.com/blog\medecin-recours-victime
+URL : https://ig-avocat.com/blog/medecin-recours-victime
 
 Expertise médicale
 # Médecin-recours : pourquoi il est indispensable pour les victimes
@@ -3782,7 +3967,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Piéton renversé : quelle indemnisation après l'accident ?
-URL : https://ig-avocat.com/blog\pieton-indemnisation-accident
+URL : https://ig-avocat.com/blog/pieton-indemnisation-accident
 
 Accident de la route · Piéton · Guide 2026
 # Piéton renversé : quelle indemnisation après l'accident ?
@@ -3860,7 +4045,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Expertise médicale accident grave : préparer les 15 jours décisifs
-URL : https://ig-avocat.com/blog\preparer-expertise-medicale-accident-grave
+URL : https://ig-avocat.com/blog/preparer-expertise-medicale-accident-grave
 
 Expertise médicale
 # Expertise médicale après un accident grave : les 15 jours qui décident de votre indemnisation
@@ -3996,7 +4181,7 @@ Consultation gratuite — honoraires uniquement au résultat
 ---
 
 ## Que faire après un accident de la route ? Guide complet 2026
-URL : https://ig-avocat.com/blog\que-faire-apres-accident-route
+URL : https://ig-avocat.com/blog/que-faire-apres-accident-route
 
 Accident de la route
 # Que faire immédiatement après un accident de la route ?
@@ -4077,7 +4262,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Offre d'indemnisation assurance : faut-il l'accepter ? Guide
-URL : https://ig-avocat.com/blog\refuser-offre-assurance-accident
+URL : https://ig-avocat.com/blog/refuser-offre-assurance-accident
 
 Assurance
 # Dois-je accepter l'offre d'indemnisation de mon assurance après un accident ?
@@ -4170,7 +4355,7 @@ Consultation 100% gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Souffrances endurées : comment la cotation sur 7 est indemnisée
-URL : https://ig-avocat.com/blog\souffrances-endurees
+URL : https://ig-avocat.com/blog/souffrances-endurees
 
 Préjudices · Nomenclature Dintilhac · Guide 2026
 # Souffrances endurées : comment la cotation sur 7 est-elle indemnisée ?
@@ -4258,7 +4443,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 ---
 
 ## Tierce personne : comment l'aide humaine est indemnisée
-URL : https://ig-avocat.com/blog\tierce-personne-indemnisation
+URL : https://ig-avocat.com/blog/tierce-personne-indemnisation
 
 Préjudices · Nomenclature Dintilhac · Guide 2026
 # Assistance par tierce personne : comment l'aide humaine est-elle indemnisée ?
