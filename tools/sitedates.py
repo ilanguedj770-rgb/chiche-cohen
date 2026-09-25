@@ -41,6 +41,8 @@ def _git(*args):
 _TIME = re.compile(r"<time\b[^>]*>.*?</time>", re.S)
 _HEAD = re.compile(r"<head\b.*?</head>", re.S | re.I)
 _WS = re.compile(r"\s+")
+_SCRIPT = re.compile(r"<(script|style|svg)\b.*?</\1>", re.S | re.I)
+_TAG = re.compile(r"<[^>]+>")
 
 
 def _body_fingerprint(src):
@@ -49,6 +51,11 @@ def _body_fingerprint(src):
     passer pour une mise à jour éditoriale."""
     src = _HEAD.sub("", src)
     src = _TIME.sub("", src)
+    # Seul le texte visible compte : une classe CSS ou un changement de
+    # balisage (retour à la ligne mobile, <span> d'habillage) n'est pas une
+    # mise à jour du contenu.
+    src = _SCRIPT.sub(" ", src)
+    src = _TAG.sub(" ", src)
     return _WS.sub(" ", src).strip()
 
 

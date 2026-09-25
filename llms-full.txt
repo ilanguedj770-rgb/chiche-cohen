@@ -419,11 +419,11 @@ Versement des fonds sur votre compte CARPA puis virement immédiat.
 Combien d'indemnisation pour un accident grave ?
 Pour un accident grave avec séquelles permanentes, l'indemnisation peut atteindre plusieurs centaines de milliers d'euros, voire plusieurs millions pour les cas les plus lourds (tétraplégie, traumatisme crânien sévère). Les postes les plus importants : DFP, tierce personne, frais futurs, perte de gains professionnels futurs, incidence professionnelle. Voir notre guide dédié aux préjudices graves.
 Combien de temps dure la procédure ?
-2 à 3 ans pour un accident corporel classique, 4 à 6 ans pour un accident grave avec séquelles importantes (le temps d'attendre la consolidation médicale). Des provisions sont versées dès les premiers mois pour faire face aux frais immédiats.
+Elle dépend surtout de la consolidation médicale, plus tardive après des blessures graves. L'assureur doit présenter une offre, provisionnelle si besoin, dans les huit mois de l'accident, et des provisions peuvent couvrir les frais immédiats.
 Dois-je accepter l'offre de mon assurance ?
-Jamais sans l'avis d'un avocat en dommage corporel. Les premières offres sont systématiquement inférieures de 30 à 90 % à ce que vous pourriez obtenir. Sur les préjudices graves (tierce personne, frais futurs), l'écart est encore plus important.
+Jamais sans l'avis d'un avocat en dommage corporel. Une offre doit être vérifiée poste par poste : les préjudices oubliés ou sous-évalués (tierce personne, frais futurs, incidence professionnelle) sont les plus coûteux. Une transaction peut être dénoncée dans les quinze jours de sa conclusion.
 Quel avocat pour un accident de moto avec séquelles graves ?
-Les motards subissent statistiquement les blessures les plus graves (traumatisme crânien, fractures complexes, paraplégie, amputation). Le cabinet défend régulièrement des motards devant les juridictions du Sud. Et même la faute du motard n'efface pas son droit à indemnisation des séquelles importantes (Cass. 2e civ. 19 juin 2025).
+Les motards subissent statistiquement les blessures les plus graves (traumatisme crânien, fractures complexes, paraplégie, amputation). Le cabinet défend régulièrement des motards devant les juridictions du Sud. Et la faute du motard ne supprime pas automatiquement son droit à indemnisation : elle doit être prouvée et avoir contribué à son préjudice (Cass. 2e civ. 19 juin 2025).
 Qu'est-ce que la tierce personne dans une indemnisation ?
 La tierce personne (ou aide humaine) est le poste le plus lourd pour les victimes graves : heures d'aide fixées par l'expertise × coût horaire adapté à l'aide nécessaire, capitalisé sur la vie de la victime. L'aide d'un proche, même gratuite, est indemnisable.
 Indemnisation d'un piéton renversé : quels sont vos droits ?
@@ -448,7 +448,7 @@ Dès notre premier échange, nous évaluons la recevabilité de votre dossier : 
 ### Expertise médicale contradictoire
 L'assureur missionne son propre médecin-expert. Nous vous accompagnons avec notre médecin conseil pour défendre vos intérêts lors de cette expertise. Sans avocat, les taux d'AIPP (Atteinte à l'Intégrité Physique et Psychique) sont systématiquement sous-évalués, ce qui réduit drastiquement votre indemnisation.
 ### Évaluation de tous vos préjudices (Nomenclature Dintilhac)
-Nous chiffrons chaque poste de préjudice prévu par la Nomenclature Dintilhac : Déficit Fonctionnel Temporaire (DFT), Déficit Fonctionnel Permanent (DFP), Préjudice d'Agrément, Préjudice Esthétique, Préjudice Sexuel, Préjudice d'Établissement, perte de revenus actuels et futurs, frais divers, frais de logement/véhicule adaptés. La plupart des victimes non assistées oublient 60% de ces postes.
+Nous chiffrons chaque poste de préjudice prévu par la Nomenclature Dintilhac : Déficit Fonctionnel Temporaire (DFT), Déficit Fonctionnel Permanent (DFP), Préjudice d'Agrément, Préjudice Esthétique, Préjudice Sexuel, Préjudice d'Établissement, perte de revenus actuels et futurs, frais divers, frais de logement/véhicule adaptés. Chaque poste oublié est un préjudice non indemnisé.
 ### Négociation ou procédure judiciaire
 Nous tentons d'abord une transaction amiable avec l'assureur. Si l'offre reste insuffisante, nous saisissons le tribunal judiciaire pour obtenir une indemnisation judiciaire. La loi Badinter oblige l'assureur à faire une offre dans les 8 mois suivant l'accident, mais rien ne vous oblige à l'accepter.
 ### Ce que les assureurs ne vous disent pas
@@ -460,9 +460,9 @@ Nous tentons d'abord une transaction amiable avec l'assureur. Si l'offre reste i
 - ✓Votre protection juridique prend souvent en charge les frais d'avocat
 ### Délais à connaître
 Offre amiable par l'assureur 8 mois après l'accident
-Votre réponse à l'offre 15 jours de délai légal
-Prescription de l'action 10 ans (art. 2226)
-Délai versement provision Sous 3 mois possible
+Dénonciation d'une transaction acceptée 15 jours (art. L211-16)
+Prescription de l'action 10 ans après consolidation (art. 2226)
+Offre définitive 5 mois après information sur la consolidation
 Articles pour approfondir
 Accident de moto : quelle indemnisation pour le motard ?
 Moto
@@ -496,30 +496,30 @@ Un accident grave (traumatisme crânien, paraplégie, polytraumatisme, amputatio
 Le poste le plus lourd pour les victimes graves. Heures d'aide fixées par l'expertise × coût horaire adapté à l'aide nécessaire, capitalisé sur toute la vie de la victime. La surveillance et l'aide d'un proche, même gratuite, sont indemnisables.
 Avant ET après consolidation. Inclut le besoin futur sur toute la vie.
 ### Frais futurs (logement et véhicule adaptés)
-Adaptation du domicile (rampes, ascenseur, salle de bain PMR, élargissement des portes), véhicule adapté, prothèses, fauteuil roulant. Ces frais représentent 50 000 à 500 000 € selon les besoins, et sont renouvelés tous les 5-10 ans.
-Le réfèrentiel Mornet donne des fourchettes par chambre de cour d'appel.
+Adaptation du domicile (rampes, ascenseur, salle de bain PMR, élargissement des portes), véhicule adapté, prothèses, fauteuil roulant. Ces frais sont chiffrés sur devis, selon les besoins, et leur renouvellement est capitalisé sur la vie de la victime.
+Le référentiel indicatif des cours d'appel (dit « Mornet ») propose des repères, sans valeur contraignante.
 ### Perte de gains professionnels futurs (PGPF)
-Pour les victimes en âge actif : capitalisation de la perte de revenus jusqu'à la retraite, puis perte de droits à la retraite. Pour un jeune cadre paraplégié, ce poste seul peut dépasser 800 000 €.
+Pour les victimes en âge actif : capitalisation de la perte de revenus jusqu'à la retraite, puis perte de droits à la retraite. Plus la victime est jeune, plus la perte capitalisée est importante.
 Calcul actuariel selon la Gazette du Palais.
 ### Incidence professionnelle
-Pénibilité accrue, reconversion forcée, perte de chance d'évolution de carrière, dévalorisation sur le marché du travail. Souvent 50 000 à 200 000 €, distinct de la PGPF.
+Pénibilité accrue, reconversion forcée, perte de chance d'évolution de carrière, dévalorisation sur le marché du travail. Un poste distinct de la PGPF, souvent oublié.
 Plus la victime est jeune et qualifiée, plus l'incidence est lourde.
 ### DFP, souffrances, préjudice d'agrément et esthétique
-Pour un DFP de 50 % chez un adulte : 100 000 à 200 000 €. Souffrances endurées 6/7 : 40 000-70 000 €. Préjudice d'agrément (perte des activités de loisir/sport) : 10 000-50 000 €. Préjudice sexuel et d'établissement souvent oubliés par les assureurs.
+Déficit fonctionnel permanent, souffrances endurées, préjudice d'agrément (perte des activités de loisir ou de sport), préjudice esthétique : chacun s'évalue selon le taux ou la cotation retenus par l'expert et la situation de la victime. Préjudice sexuel et d'établissement souvent oubliés par les assureurs.
 Fourchettes selon le référentiel Mornet.
 ### Préjudice par ricochet (en cas de décès)
-Conjoint, enfants, parents : chacun a droit à son préjudice moral et économique. Cumulés, les préjudices des ayants droit peuvent atteindre 300 000 à 700 000 € pour une famille avec enfants mineurs.
+Conjoint, enfants, parents : chacun a droit à son préjudice moral et économique. La perte de revenus du foyer, capitalisée, est souvent le poste le plus lourd pour une famille avec enfants.
 Inclut la perte de revenus, le préjudice d'affection, le préjudice d'accompagnement.
 ## Spécificités selon votre profil
 La loi Badinter protège différemment chaque usager. Voici les points à connaître par catégorie.
 ### Motards et scootéristes
-Statistiquement les plus gravement blessés. Le motard fautif conserve son droit à indemnisation pour les séquelles importantes (Cass. 2e civ., 19 juin 2025). Le casque ou les équipements ne sont jamais opposables.
+Statistiquement les plus gravement blessés. Sa faute ne supprime pas automatiquement son droit à indemnisation : elle doit être prouvée et avoir contribué à son préjudice (Cass. 2e civ., 19 juin 2025). L'absence de casque peut être retenue si elle a causé ou aggravé les lésions.
 ### Piétons renversés
 Protection maximale : seule la faute « inexcusable et cause exclusive » est opposable (très rare). Pour les piétons gravement blessés ou mineurs/seniors, indemnisation intégrale même en cas de faute simple.
 ### Cyclistes et EDPM
 Même protection que le piéton sous la loi Badinter (non-conducteur d'un véhicule terrestre à moteur). Attention : l'utilisateur d'une trottinette électrique (EDPM) est, lui, un conducteur de véhicule terrestre à moteur — il relève de l'article 4 et sa faute peut lui être opposée, contrairement au cycliste.
 ### Conducteur de voiture
-La faute du conducteur peut limiter ou exclure son indemnisation. Mais la jurisprudence Cass. 2e civ. 19 juin 2025 a renforcé sa protection : la simple constatation d'un excès de vitesse ne suffit plus à exclure l'indemnisation.
+La faute du conducteur peut limiter ou exclure son indemnisation. Mais cette faute doit être prouvée et avoir contribué à la réalisation de son préjudice : sa seule gravité ne suffit pas à exclure l'indemnisation (Cass. 2e civ. 19 juin 2025).
 ### Passager (avant ou arrière)
 Protection maximale : même si le conducteur est fautif (alcool, vitesse, endormissement), le passager est indemnisé intégralement. C'est l'assureur du véhicule dans lequel il se trouvait qui prend en charge.
 ### Enfant victime
@@ -617,7 +617,7 @@ La loi du 4 mars 2002 (dite loi Kouchner) a mis en place un dispositif spécifiq
 ### Obtention et analyse du dossier médical
 Vous avez le droit absolu d'obtenir votre dossier médical complet dans les 8 jours (art. L. 1111-7 CSP). Nous l'analysons avec nos médecins experts pour identifier les manquements : non-respect des données acquises de la science, défaut d'information, retard de diagnostic, faute chirurgicale, infection nosocomiale.
 ### Saisine de la CCI (procédure amiable)
-La Commission de Conciliation et d'Indemnisation (CCI) offre une procédure gratuite et rapide (4 à 6 mois). Elle désigne un collège d'experts médicaux neutres qui rendent un avis. Si la CCI reconnaît la faute ou l'aléa thérapeutique grave, l'assureur du médecin ou l'ONIAM formule une offre d'indemnisation.
+La Commission de Conciliation et d'Indemnisation (CCI) offre une procédure gratuite ; elle doit rendre son avis dans les six mois du dossier complet (article L. 1142-8 CSP). Elle désigne un collège d'experts médicaux neutres qui rendent un avis. Si la CCI reconnaît la faute ou l'aléa thérapeutique grave, l'assureur du médecin ou l'ONIAM formule une offre d'indemnisation.
 ### Expertise médicale et évaluation des préjudices
 L'expertise médicale évalue tous vos préjudices selon la Nomenclature Dintilhac : Déficit Fonctionnel Temporaire, Déficit Fonctionnel Permanent, souffrances endurées, préjudice esthétique, perte de gains professionnels, frais de tierce personne. Nous intervenons lors de l'expertise pour défendre vos intérêts face à l'expert.
 ### Action judiciaire si nécessaire
@@ -631,7 +631,7 @@ Si la CCI refuse, si l'avis est défavorable ou si l'offre est insuffisante, nou
 • Maternité et accouchement (hypoxie, lésions)
 • Erreur de médicament ou de dosage
 ### CCI vs Tribunal : comparatif
-Durée de procédure 4-6 mois vs 2-4 ans
+Durée de procédure Avis en 6 mois (légal) vs plusieurs années
 Coût Gratuit vs honoraires
 Contraignant Non vs Oui (jugement)
 Si aléa thérapeutique grave ONIAM indemnise
@@ -697,7 +697,7 @@ C'est le cas le plus fréquent. Heureusement, la loi française protège les vic
 Dois-je aller au procès ?
 Votre présence est recommandée mais pas toujours obligatoire si vous êtes représenté par un avocat. Nous pouvons vous représenter à l'audience pour porter votre voix.
 Quels sont les délais ?
-La procédure devant la CIVI est plus rapide que le procès pénal. Une provision peut être obtenue sous 3 à 6 mois. L'indemnisation finale dépend de votre consolidation.
+La procédure devant la CIVI est indépendante du procès pénal, et une provision peut être demandée en cours de procédure. L'indemnisation finale dépend de votre consolidation.
 ### Victime d'agression ?
 Nous saisissons le Fonds de Garantie pour vous.
 Premier avis
@@ -716,7 +716,7 @@ La CIVI (Commission d'Indemnisation des Victimes d'Infractions) est une juridict
 ### Expertise médicale devant la CIVI
 La CIVI ordonne souvent une expertise médicale pour évaluer l'ensemble de vos préjudices selon la Nomenclature Dintilhac (ITT, DFP, souffrances endurées, préjudice esthétique, préjudice d'agrément, préjudice sexuel). Nous vous accompagnons lors de cet examen capital.
 ### Indemnisation par le FGTI
-Sur décision de la CIVI, le FGTI verse l'indemnisation dans le délai d'un mois suivant la décision. Une provision peut être demandée dès la saisine, ce qui permet d'obtenir des fonds en attente du jugement définitif. Le FGTI se retourne ensuite contre l'auteur des faits pour se faire rembourser.
+Sur décision de la CIVI, le FGTI verse l'indemnisation. Une provision peut être demandée dès la saisine, ce qui permet d'obtenir des fonds en attente du jugement définitif. Le FGTI se retourne ensuite contre l'auteur des faits pour se faire rembourser.
 ### Infractions ouvrant droit à indemnisation
 • Coups et blessures volontaires (CBV)
 • Violences conjugales et intrafamiliales
@@ -770,7 +770,7 @@ Un accident de la vie courante (chute, accident domestique, de sport, de bricola
 ### Analyse du Contrat GAV
 Nous décortiquons les clauses de votre Garantie Accidents de la Vie pour débloquer les plafonds d'indemnisation souvent cachés.
 ### Seuils d'Intervention
-Nous nous battons pour atteindre le seuil d'AIPP (souvent 5% ou 10%) déclenchant l'indemnisation.
+Nous vérifions le seuil d'AIPP fixé par votre contrat, qui conditionne l'indemnisation, et discutons l'évaluation de l'expert.
 ### Contre-Expertise
 Ne laissez pas le médecin de l'assurance évaluer seul vos séquelles.
 ## Les 4 étapes de votre dossier
@@ -786,7 +786,7 @@ Discussion serrée avec l'assureur pour obtenir l'application la plus favorable 
 Je me suis blessé seul, suis-je couvert ?
 Oui, si vous avez souscrit une Garantie Accidents de la Vie (GAV). Contrairement à la responsabilité civile, ce contrat vous couvre même sans tiers responsable.
 Qu'est-ce que le seuil d'intervention ?
-C'est le taux d'incapacité (AIPP) minimum pour être indemnisé. Il est souvent fixé à 5% ou 10%. Si l'expert de l'assurance vous évalue en dessous, vous ne touchez rien. D'où l'importance de notre contre-expertise.
+C'est le taux d'incapacité (AIPP) minimum prévu par le contrat pour être indemnisé. Il varie selon les contrats. Si l'expert de l'assurance vous évalue en dessous, vous ne touchez rien. D'où l'importance de notre contre-expertise.
 L'assurance refuse de payer, que faire ?
 Les refus pour "exclusion de garantie" ou "fausse déclaration" sont fréquents. Nous analysons juridiquement ces refus pour les contester et forcer l'application du contrat.
 ### Accident de la vie ?
@@ -801,7 +801,7 @@ Obtenir l'indemnisation de votre
 ## Garantie Accidents de la Vie (GAV)
 La GAV est un contrat d'assurance privé. Contrairement à la responsabilité civile, elle vous couvre même seul, sans tiers responsable. Mais les assureurs appliquent des barèmes minimalistes. Notre rôle : obtenir la réparation intégrale de votre préjudice.
 ### Vérification de votre contrat GAV
-Nous analysons votre contrat pour identifier le seuil de déclenchement (taux d'AIPP minimum, souvent 5% à 10%), les exclusions, les délais de déclaration, et le plafond de garantie. Certaines GAV sont incluses dans les contrats multirisque habitation sans que les assurés le sachent.
+Nous analysons votre contrat pour identifier le seuil de déclenchement (taux d'AIPP minimum prévu par le contrat), les exclusions, les délais de déclaration, et le plafond de garantie. Certaines GAV sont incluses dans les contrats multirisque habitation sans que les assurés le sachent.
 ### Déclaration et constitution du dossier
 Nous déclarons l'accident auprès de l'assureur dans les délais contractuels et constituons un dossier médical complet : certificat médical initial, compte-rendus hospitaliers, bilan de consolidation. Un dossier incomplet conduit systématiquement à un refus ou une sous-indemnisation.
 ### Contre-expertise médicale indépendante
@@ -831,14 +831,14 @@ Ne laissez pas vos droits s'éteindre — les délais légaux
 Résultat concret
 ## Ce que nous avons obtenu.
 Accident de la vie · Chute domestique
-Notre cliente a chuté dans un escalier, entraînant une fracture du col du fémur et 30% d'IPP permanente. Son assureur GAV proposait un règlement basé sur un barème forfaitaire nettement sous-évalué. Nos avocats ont mandaté un médecin conseil et obtenu une contre-expertise favorable.
+Notre cliente a chuté dans un escalier, entraînant une fracture du col du fémur et 30% d'IPP permanente. Son assureur GAV proposait un règlement basé sur un barème forfaitaire nettement sous-évalué. Maître Ilan Guedj a mandaté un médecin conseil et obtenu une contre-expertise favorable.
 Offre initiale GAV
 8 500 €
 Obtenu
 74 000 €
 × 8.7 l'offre initiale
-4.9/5
-Note Google
+100 %
+dommage corporel, côté victimes
 0€
 d'avance
 Les résultats passés ne garantissent pas les résultats futurs. Chaque dossier est unique.
@@ -852,7 +852,7 @@ URL : https://ig-avocat.com/avocat-aix-en-provence
 
 Intervention locale · Aix-en-Provence
 # Avocat dommage corporel à Aix-en-Provence.
-Cabinet basé à Marseille, à 30 km d'Aix-en-Provence, intervenant devant le TJ Aix-en-Provence et la Cour d'appel d'Aix qui couvre toute la PACA. Accidents, erreurs médicales, agressions, accidents de la vie.
+Cabinet basé à Marseille, à 30 km d'Aix-en-Provence, intervenant devant le TJ Aix-en-Provence et la Cour d'appel d'Aix-en-Provence (Bouches-du-Rhône, Var, Alpes-Maritimes, Alpes-de-Haute-Provence). Accidents, erreurs médicales, agressions, accidents de la vie.
 Maître Ilan Guedj — Avocat au Barreau de Marseille. Déplacements physiques systématiques à Aix pour les expertises médicales, audiences et plaidoiries. Visioconférence possible pour les rendez-vous courants.
 100%
 Exercice exclusif
@@ -901,8 +901,8 @@ Ensuite la connaissance fine des juridictions du Sud : magistrats, médecins-exp
 Enfin l'exercice exclusif du dommage corporel : le cabinet n'intervient ni en droit pénal général, ni en droit de la famille, ni en droit des affaires. Tout notre temps est consacré au dommage corporel — ce qui se traduit par une maîtrise précise de la nomenclature Dintilhac, de la jurisprudence Cass. 2e civ. en matière de loi Badinter, du référentiel Mornet pour les fourchettes d'indemnisation, et des outils de capitalisation actuarielle (Gazette du Palais) pour les postes futurs.
 Préjudices graves
 ## Préjudices importants : nous défendons les indemnisations maximales
-Pour les dossiers les plus lourds — paraplégie, traumatisme crânien sévère, polytraumatisme, amputation, décès — l'indemnisation peut représenter plusieurs centaines de milliers d'euros, voire plusieurs millions. Les postes qui font la différence sont la tierce personne (aide humaine), les frais futurs (logement et véhicule adaptés), la perte de gains professionnels futurs (PGPF) et l'incidence professionnelle. Or ce sont précisément ces postes que les assureurs sous-évaluent systématiquement, parfois jusqu'à 90 % de leur valeur réelle.
-Le profil aixois — cadres, professions libérales, jeunes diplômés, professeurs — rend la PGPF et l'incidence professionnelle particulièrement sensibles : la perte de chance de promotion, la pénibilité accrue et la dévalorisation sur le marché du travail peuvent à elles seules représenter 200 000 à 800 000 €. Ces postes sont systématiquement valorisés au maximum dans nos dossiers.
+Pour les dossiers les plus lourds — paraplégie, traumatisme crânien sévère, polytraumatisme, amputation, décès — l'indemnisation peut représenter plusieurs centaines de milliers d'euros, voire plusieurs millions. Les postes qui font la différence sont la tierce personne (aide humaine), les frais futurs (logement et véhicule adaptés), la perte de gains professionnels futurs (PGPF) et l'incidence professionnelle. Or ce sont précisément ces postes que les premières offres évaluent le plus souvent à la baisse, ou oublient.
+Le profil aixois — cadres, professions libérales, jeunes diplômés, professeurs — rend la PGPF et l'incidence professionnelle particulièrement sensibles : la perte de chance de promotion, la pénibilité accrue et la dévalorisation sur le marché du travail pèsent lourd, parce qu'elles sont appréciées sur toute la carrière restante. Ces postes sont chiffrés un par un, pièces à l'appui.
 Guide complet
 ### Accident grave : indemnisation et gros postes Dintilhac
 TBI, paraplégie, tierce personne, frais futurs, PGPF — montants réels et stratégie.
@@ -920,7 +920,7 @@ FAQ
 Le cabinet se déplace-t-il à Aix-en-Provence pour les rendez-vous ?
 Oui. Le cabinet est basé à Marseille (16 rue Breteuil, 13001), à 30 km d'Aix-en-Provence. Les déplacements à l'hôpital, au domicile de la victime, ainsi qu'aux expertises médicales et audiences au TJ et à la Cour d'appel d'Aix sont systématiques pour les dossiers aixois. Pour les rendez-vous courants, la visioconférence est également proposée.
 Combien de temps pour aller de Marseille à Aix-en-Provence ?
-Environ 30 minutes par l'A51, soit 30 km. Cette proximité permet au cabinet d'assurer une présence physique régulière à Aix-en-Provence pour l'ensemble des étapes d'un dossier de dommage corporel : expertise médicale, audiences au TJ Aix-en-Provence, plaidoiries devant la Cour d'appel d'Aix-en-Provence (qui couvre toute la région PACA).
+Environ 30 minutes par l'A51, soit 30 km. Cette proximité permet au cabinet d'assurer une présence physique régulière à Aix-en-Provence pour l'ensemble des étapes d'un dossier de dommage corporel : expertise médicale, audiences au TJ Aix-en-Provence, plaidoiries devant la Cour d'appel d'Aix-en-Provence (dont le ressort couvre les Bouches-du-Rhône, le Var, les Alpes-Maritimes et les Alpes-de-Haute-Provence).
 De quelle Cour d'appel dépend le TJ Aix-en-Provence ?
 Le Tribunal Judiciaire d'Aix-en-Provence relève de la Cour d'appel d'Aix-en-Provence, qui siège dans la même ville. Cette Cour d'appel a une compétence territoriale très large : elle couvre l'ensemble de la région PACA (Bouches-du-Rhône, Var, Alpes-de-Haute-Provence, Hautes-Alpes, Alpes-Maritimes — donc également les TJ de Marseille, Toulon, Nice, Draguignan, Grasse, Tarascon, Digne).
 Comment obtenir une consultation gratuite pour un dossier à Aix-en-Provence ?
@@ -971,7 +971,7 @@ Voici les tribunaux et commissions susceptibles d'intervenir dans un dossier de 
 Le TJ Toulon (Palais de Justice, place Gabriel Péri, 83000 Toulon) est compétent pour l'ensemble du contentieux civil et pénal sur le ressort de Toulon et sa couronne. En matière de dommage corporel : responsabilité civile contre l'auteur d'un accident, responsabilité médicale d'un praticien ou d'une clinique privée, constitution de partie civile pour une victime d'agression.
 Le TJ Toulon dispose de chambres civiles spécifiques compétentes pour le contentieux d'indemnisation selon la nomenclature Dintilhac.
 ### Cour d'appel d'Aix-en-Provence
-Le TJ Toulon n'a pas de Cour d'appel propre : il relève de la Cour d'appel d'Aix-en-Provence (Place de Verdun, Aix-en-Provence), qui couvre toute la PACA. Toute décision rendue en première instance par le TJ Toulon en matière de dommage corporel peut être portée en appel à Aix.
+Le TJ Toulon n'a pas de Cour d'appel propre : il relève de la Cour d'appel d'Aix-en-Provence (Place de Verdun, Aix-en-Provence), dont le ressort couvre les Bouches-du-Rhône, le Var, les Alpes-Maritimes et les Alpes-de-Haute-Provence. Toute décision rendue en première instance par le TJ Toulon en matière de dommage corporel peut être portée en appel à Aix.
 Pour les victimes toulonnaises, l'audience d'appel implique donc un déplacement à Aix-en-Provence — que le cabinet assure intégralement.
 ### Tribunal Administratif de Toulon
 Pour les fautes commises par un établissement public de santé du Var (Centre Hospitalier Intercommunal Toulon-La Seyne, HIA Sainte-Anne pour certains contentieux), la juridiction administrative est compétente. Le TA de Toulon (5 rue Racine, 83000 Toulon) instruit ces dossiers.
@@ -1007,7 +1007,7 @@ Oui. Le cabinet est basé à Marseille (16 rue Breteuil, 13001), à 65 km de Tou
 Combien de temps pour aller de Marseille à Toulon ?
 Environ 1 heure par l'A50, soit 65 km. Pour les dossiers toulonnais, le cabinet planifie les déplacements de façon à grouper plusieurs étapes (expertise, audience, visite à la victime) sur la même journée, sans répercussion sur les honoraires du justiciable.
 De quelle Cour d'appel dépend le TJ Toulon ?
-Le Tribunal Judiciaire de Toulon relève de la Cour d'appel d'Aix-en-Provence, qui couvre toute la région PACA. C'est donc à Aix-en-Provence que se déroulent les procédures d'appel pour les décisions du TJ Toulon — y compris en matière d'indemnisation du dommage corporel.
+Le Tribunal Judiciaire de Toulon relève de la Cour d'appel d'Aix-en-Provence, dont le ressort couvre les Bouches-du-Rhône, le Var, les Alpes-Maritimes et les Alpes-de-Haute-Provence. C'est donc à Aix-en-Provence que se déroulent les procédures d'appel pour les décisions du TJ Toulon — y compris en matière d'indemnisation du dommage corporel.
 Militaires de la base navale de Toulon : quelles spécificités d'indemnisation ?
 Les militaires bénéficient d'un régime particulier : la solde est maintenue pendant l'arrêt, et une Pension Militaire d'Invalidité (PMI) peut être accordée pour les séquelles. Mais ce régime ne se substitue pas à l'indemnisation de droit commun : la victime militaire peut cumuler la PMI et l'indemnisation des préjudices personnels (DFP, souffrances endurées, préjudice d'agrément, préjudice esthétique) au titre des préjudices non couverts. Le cabinet maîtrise cette articulation.
 ## Une victime à Toulon ? Le cabinet vous accompagne.
@@ -1022,7 +1022,7 @@ URL : https://ig-avocat.com/avocat-nice
 
 Intervention locale · Nice
 # Avocat dommage corporel à Nice.
-Cabinet basé à Marseille, à 200 km de Nice, intervenant devant le TJ Nice, la chambre détachée à Nice et la Cour d'appel d'Aix-en-Provence. Accidents moto en montagne, erreurs médicales, agressions, victimes touristes.
+Cabinet basé à Marseille, à 200 km de Nice, intervenant devant le TJ Nice et la Cour d'appel d'Aix-en-Provence. Accidents moto en montagne, erreurs médicales, agressions, victimes touristes.
 Maître Ilan Guedj — Avocat au Barreau de Marseille. Déplacements à Nice pour les expertises (CHU Pasteur, CHU L'Archet, cliniques privées) et les audiences. Visioconférence pour les rendez-vous courants.
 100%
 Exercice exclusif
@@ -1055,9 +1055,9 @@ Voici les tribunaux et commissions susceptibles d'intervenir dans un dossier de 
 ### Tribunal Judiciaire de Nice
 Le TJ Nice (Place du Palais, 06300 Nice) est compétent pour l'ensemble du contentieux civil et pénal de Nice et de son ressort. En matière de dommage corporel : responsabilité civile médicale d'un praticien privé, action en indemnisation contre l'auteur d'un accident de la route, constitution de partie civile pour une victime d'agression, contentieux d'assurance.
 Le TJ Nice est l'un des plus chargés de France en matière d'indemnisation du préjudice corporel — corollaire de la densité urbaine et touristique.
-### Cour d'appel d'Aix-en-Provence (et chambre détachée à Nice)
-Le TJ Nice relève de la Cour d'appel d'Aix-en-Provence. Toutefois, une chambre détachée de cette Cour d'appel siège à Nice, ce qui permet, pour une partie du contentieux, d'éviter le déplacement des justiciables azuréens jusqu'à Aix.
-Le cabinet assure indifféremment les plaidoiries d'appel à Aix ou à Nice selon l'affectation du dossier.
+### Cour d'appel d'Aix-en-Provence
+Le TJ Nice relève de la Cour d'appel d'Aix-en-Provence, dont le ressort couvre les Bouches-du-Rhône, le Var, les Alpes-Maritimes et les Alpes-de-Haute-Provence. Les appels des décisions niçoises sont plaidés à Aix-en-Provence.
+Maître Ilan Guedj assure les plaidoiries d'appel à Aix-en-Provence, à 30 minutes du cabinet marseillais.
 ### Tribunal Administratif de Nice
 Pour les fautes commises par un établissement public de santé (CHU de Nice — Pasteur, L'Archet ; centres hospitaliers de l'arrière-pays), c'est la juridiction administrative qui est compétente. Le TA de Nice (33 boulevard Franck Pilatte) instruit ces dossiers.
 La saisine préalable de la CCI PACA permet d'évaluer si la solidarité nationale via l'ONIAM peut être engagée (aléa thérapeutique, infection nosocomiale).
@@ -1072,7 +1072,7 @@ Enfin l'exercice exclusif du dommage corporel et la maîtrise des dossiers à co
 Préjudices graves
 ## Préjudices importants : nous défendons les indemnisations maximales
 Pour les dossiers les plus lourds — paraplégie d'un motard accidenté en montagne, traumatisme crânien sévère, polytraumatisme, amputation, décès — l'indemnisation peut représenter plusieurs centaines de milliers d'euros, voire plusieurs millions. Les postes qui font la différence sont la tierce personne, les frais futurs (logement et véhicule adaptés), la perte de gains professionnels futurs et l'incidence professionnelle. Or ce sont précisément ces postes que les assureurs sous-évaluent.
-Pour les motards accidentés sur les routes de montagne du ressort niçois — où la sur-représentation statistique des polytraumatismes graves est attestée — la rigueur dans l'évaluation des postes futurs fait souvent la différence entre une offre amiable à 100 000 € et une indemnisation effective à 700 000 € ou plus. Ces postes sont systématiquement valorisés au maximum dans nos dossiers.
+Pour les motards accidentés sur les routes de montagne du ressort niçois — où les accidents de deux-roues entraînent souvent des polytraumatismes graves — la rigueur dans l'évaluation des postes futurs (aide humaine, frais futurs, pertes de revenus) est décisive. Ces postes sont chiffrés un par un, pièces à l'appui.
 Guide complet
 ### Accident grave : indemnisation et gros postes Dintilhac
 TBI, paraplégie, tierce personne, frais futurs, PGPF — montants réels et stratégie.
@@ -1088,13 +1088,13 @@ Interlocuteur unique
 FAQ
 ## Questions fréquentes — Nice
 Le cabinet se déplace-t-il à Nice pour les rendez-vous ?
-Oui. Le cabinet est basé à Marseille (16 rue Breteuil, 13001), à 200 km de Nice. Les déplacements à Nice — expertise médicale au CHU Pasteur ou en clinique privée, audiences au TJ Nice et plaidoiries devant la chambre détachée de la Cour d'appel à Nice — sont systématiques. Les journées sont organisées pour grouper plusieurs étapes. Pour les rendez-vous courants, la visioconférence est proposée.
+Oui. Le cabinet est basé à Marseille (16 rue Breteuil, 13001), à 200 km de Nice. Les déplacements à Nice — expertise médicale au CHU Pasteur ou en clinique privée, audiences au TJ Nice et plaidoiries devant la Cour d'appel d'Aix-en-Provence — sont systématiques. Les journées sont organisées pour grouper plusieurs étapes. Pour les rendez-vous courants, la visioconférence est proposée.
 Combien de temps pour aller de Marseille à Nice ?
 Environ 2 h par l'A8 (200 km). Pour les dossiers niçois et de l'arrière-pays (Cagnes, Antibes, Cannes, Grasse, Menton), le cabinet organise systématiquement le déplacement de manière à regrouper les étapes — expertise médicale, audience, visite à la victime — sur la même journée. Sans surcharge sur les honoraires du justiciable.
 Pourquoi tant d'accidents moto dans l'arrière-pays niçois ?
-Les routes des Alpes-Maritimes — Moyenne Corniche, Grande Corniche, vallée du Var, route de Sospel, lacets en direction de Peille ou de Levens — sont à la fois techniques, étroites et très empruntées par les motards. La conjugaison du relief montagneux, des virages aveugles et du tourisme moto en saison explique la sur-représentation des accidents de deux-roues sur ce ressort, souvent avec des séquelles graves (polytraumatisme, traumatisme crânien, paraplégie). La loi Badinter protège le motard victime — même fautif sur certains points — pour les séquelles importantes (Cass. 2e civ. 19 juin 2025).
+Les routes des Alpes-Maritimes — Moyenne Corniche, Grande Corniche, vallée du Var, route de Sospel, lacets en direction de Peille ou de Levens — sont à la fois techniques, étroites et très empruntées par les motards. La conjugaison du relief montagneux, des virages aveugles et du tourisme moto en saison explique la sur-représentation des accidents de deux-roues sur ce ressort, souvent avec des séquelles graves (polytraumatisme, traumatisme crânien, paraplégie). La faute du motard ne supprime pas automatiquement son indemnisation : elle doit être prouvée et avoir contribué à son préjudice (Cass. 2e civ. 19 juin 2025).
 De quelle Cour d'appel dépend le TJ Nice ?
-Le Tribunal Judiciaire de Nice relève de la Cour d'appel d'Aix-en-Provence, qui couvre toute la PACA. Une chambre détachée de la Cour d'appel siège toutefois à Nice pour une partie du contentieux, ce qui facilite les audiences pour les justiciables niçois. Pour la procédure de cassation, le pourvoi est porté devant la Cour de cassation à Paris.
+Le Tribunal Judiciaire de Nice relève de la Cour d'appel d'Aix-en-Provence, dont le ressort couvre les Bouches-du-Rhône, le Var, les Alpes-Maritimes et les Alpes-de-Haute-Provence. Les appels des décisions du TJ Nice sont donc plaidés à Aix-en-Provence. Pour la procédure de cassation, le pourvoi est porté devant la Cour de cassation à Paris.
 ## Une victime à Nice ? Le cabinet vous accompagne.
 Premier échange gratuit. Réponse rapide par téléphone, WhatsApp ou rendez-vous Calendly. Honoraires uniquement au résultat — vous ne payez rien tant que vous n'êtes pas indemnisé.
 Parler à un avocat (WhatsApp) 06 63 46 59 84 Réserver une consultation
@@ -1144,7 +1144,7 @@ Voici les tribunaux et commissions susceptibles d'intervenir dans un dossier de 
 Le TJ Avignon (2 boulevard Limbert, 84000 Avignon) est compétent pour l'ensemble du contentieux civil et pénal du Vaucluse. En matière de dommage corporel : responsabilité civile médicale d'un praticien ou d'une clinique privée, action en indemnisation contre l'auteur d'un accident de la route, constitution de partie civile pour une victime d'agression.
 Le TJ Avignon dispose de chambres civiles compétentes pour l'évaluation du préjudice corporel selon la nomenclature Dintilhac.
 ### Cour d'appel de Nîmes (et non Aix-en-Provence)
-Point essentiel : la Cour d'appel compétente pour les décisions du TJ Avignon est la Cour d'appel de Nîmes, située 1 rue Sainte-Marguerite à Nîmes (à environ 50 km au nord-ouest d'Avignon). Cette particularité tient au découpage des ressorts de cour d'appel, qui ne suit pas strictement les régions administratives.
+Point essentiel : la Cour d'appel compétente pour les décisions du TJ Avignon est la Cour d'appel de Nîmes, située boulevard de la Libération à Nîmes (à environ 50 km au nord-ouest d'Avignon). Cette particularité tient au découpage des ressorts de cour d'appel, qui ne suit pas strictement les régions administratives.
 Concrètement : toute décision du TJ Avignon défavorable peut être contestée à Nîmes — pas à Aix. Le cabinet plaide indifféremment à Nîmes et dans le ressort PACA.
 ### Tribunal Administratif de Nîmes
 Pour les fautes commises par un établissement public de santé (Centre Hospitalier d'Avignon notamment), c'est la juridiction administrative qui est compétente. Le TA de Nîmes (16 avenue Feuchères) couvre l'ensemble du ressort de la Cour d'appel de Nîmes, y compris Avignon et le Vaucluse.
@@ -1245,7 +1245,7 @@ Enfin l'exercice exclusif du dommage corporel et la maîtrise des dossiers spéc
 Préjudices graves
 ## Préjudices importants : nous défendons les indemnisations maximales
 Pour les dossiers les plus lourds — paraplégie, traumatisme crânien sévère, polytraumatisme, amputation, décès — l'indemnisation peut représenter plusieurs centaines de milliers d'euros, voire plusieurs millions. Les postes qui font la différence sont la tierce personne, les frais futurs (logement et véhicule adaptés), la perte de gains professionnels futurs et l'incidence professionnelle. Ce sont précisément les postes que les assureurs sous-évaluent.
-Pour les jeunes victimes montpelliéraines — étudiants, jeunes diplômés — la PGPF doit être projetée sur l'ensemble de la carrière à construire. Cette projection actuarielle, qui mobilise les outils de la Gazette du Palais, peut représenter à elle seule 500 000 à 1 000 000 € pour un cas grave chez un étudiant en école d'ingénieur ou en médecine. Ces postes sont systématiquement valorisés au maximum dans nos dossiers.
+Pour les jeunes victimes montpelliéraines — étudiants, jeunes diplômés — la PGPF doit être projetée sur l'ensemble de la carrière à construire. Cette projection actuarielle, qui mobilise les outils de la Gazette du Palais, pèse d'autant plus lourd que la victime est jeune et que la carrière perdue était qualifiée. Ces postes sont chiffrés un par un, pièces à l'appui.
 Guide complet
 ### Accident grave : indemnisation et gros postes Dintilhac
 TBI, paraplégie, tierce personne, frais futurs, PGPF — montants réels et stratégie.
@@ -1314,7 +1314,7 @@ Voici les tribunaux et commissions susceptibles d'intervenir dans un dossier de 
 Le TJ Nîmes (Boulevard des Arènes, 30000 Nîmes) est compétent pour l'ensemble du contentieux civil et pénal du Gard. En matière de dommage corporel : responsabilité civile médicale d'un praticien ou d'une clinique privée, action en indemnisation contre l'auteur d'un accident de la route ou autoroutier, constitution de partie civile pour une victime d'agression.
 Le TJ Nîmes dispose de chambres civiles compétentes pour l'évaluation du préjudice corporel selon la nomenclature Dintilhac.
 ### Cour d'appel de Nîmes
-La Cour d'appel de Nîmes (1 rue Sainte-Marguerite, Nîmes) est la juridiction du second degré pour le TJ Nîmes, ainsi que pour les TJ d'Avignon, d'Alès, de Carpentras, de Privas et de Mende. Son ressort couvre le Gard, le Vaucluse, l'Ardèche et la Lozère.
+La Cour d'appel de Nîmes (boulevard de la Libération, Nîmes) est la juridiction du second degré pour le TJ Nîmes, ainsi que pour les TJ d'Avignon, d'Alès, de Carpentras, de Privas et de Mende. Son ressort couvre le Gard, le Vaucluse, l'Ardèche et la Lozère.
 Le cabinet plaide régulièrement devant cette Cour d'appel — tant pour des dossiers nîmois que pour des dossiers avignonnais.
 ### Tribunal Administratif de Nîmes
 Pour les fautes commises par un établissement public de santé (CHU Carémeau de Nîmes notamment), c'est la juridiction administrative qui est compétente. Le TA de Nîmes (16 avenue Feuchères) instruit ces dossiers. Son ressort couvre le Gard, le Vaucluse, l'Ardèche et la Lozère.
@@ -1352,7 +1352,7 @@ Environ 1 h 30 par l'A7 puis l'A54, soit 120 km. Pour les dossiers nîmois, le c
 Pourquoi tant d'accidents autoroutiers dans le ressort nîmois ?
 Nîmes est un carrefour autoroutier majeur — croisement de l'A9 (axe Nord-Sud entre Espagne/Italie et France), de l'A54 (vers Arles et Marseille) et de la N106. Les axes très chargés en poids lourds, les trafics transfrontaliers et les conditions météorologiques (vents forts, épisodes cévenols) contribuent à une fréquence élevée d'accidents autoroutiers — souvent avec polytraumatismes ou pluri-victimes. Les indemnisations peuvent atteindre plusieurs centaines de milliers d'euros.
 Quelle est la Cour d'appel compétente pour Nîmes ?
-La Cour d'appel compétente pour les décisions du TJ Nîmes est la Cour d'appel de Nîmes elle-même, située au Palais de Justice de la ville (1 rue Sainte-Marguerite). Le ressort de cette Cour d'appel couvre principalement le Gard, le Vaucluse, l'Ardèche et la Lozère — ce qui en fait l'une des Cours d'appel structurantes du Sud-Est.
+La Cour d'appel compétente pour les décisions du TJ Nîmes est la Cour d'appel de Nîmes elle-même, située au Palais de Justice de la ville (boulevard de la Libération). Le ressort de cette Cour d'appel couvre principalement le Gard, le Vaucluse, l'Ardèche et la Lozère — ce qui en fait l'une des Cours d'appel structurantes du Sud-Est.
 ## Une victime à Nîmes ? Le cabinet vous accompagne.
 Premier échange gratuit. Réponse rapide par téléphone, WhatsApp ou rendez-vous Calendly. Honoraires uniquement au résultat — vous ne payez rien tant que vous n'êtes pas indemnisé.
 Parler à un avocat (WhatsApp) 06 63 46 59 84 Réserver une consultation
@@ -2199,7 +2199,7 @@ URL : https://ig-avocat.com/blog/accident-trottinette-electrique-indemnisation
 Accident de la route · EDPM · Guide 2026
 # Accident de trottinette électrique : quels sont vos droits ?
 Piéton renversé, conducteur blessé, engin non assuré ou en libre-service : la loi Badinter protège les victimes d'accidents de trottinette, mais pas toutes de la même façon. Décryptage d'un régime souvent mal compris.
-Publié le 1er juillet 2026 11 min de lecture Maître Ilan Guedj
+Publié le 1er juillet 2026 · Mis à jour le 25 septembre 2026 11 min de lecture Maître Ilan Guedj
 Les trottinettes électriques ont envahi nos villes — et les services d'urgence en constatent les conséquences chaque semaine. Fractures, traumatismes crâniens, polytraumatismes : les blessures peuvent être graves. Pourtant, une idée reçue persiste : « la trottinette, ce n'est pas un vrai véhicule, je ne suis pas concerné par les règles d'indemnisation des accidents de la route. » C'est faux, et cette confusion coûte cher aux victimes.
 ## 1. La trottinette électrique, un « véhicule terrestre à moteur » aux yeux de la loi
 Depuis le décret n° 2019-1082 du 23 octobre 2019, la trottinette électrique appartient à la catégorie des engins de déplacement personnel motorisés (EDPM), aux côtés des gyropodes, monoroues et hoverboards. Sur le plan juridique, elle est assimilée à un véhicule terrestre à moteur (VTM).
@@ -2221,7 +2221,7 @@ Autrement dit : le jour où vous montez sur une trottinette électrique, vous qu
 ### ① Vous êtes piéton et une trottinette vous renverse
 Vous êtes une victime non-conductrice : votre indemnisation est intégrale, quel que soit votre comportement, sauf faute inexcusable ayant été la cause exclusive de l'accident (hypothèse quasi théorique). L'indemnisation est due par l'assureur de la trottinette, ou par le FGAO si l'engin n'était pas assuré ou si son conducteur a pris la fuite.
 ### ② Vous êtes sur la trottinette et une voiture vous percute
-Vous êtes conducteur au sens de l'article 4. Vous avez droit à indemnisation par l'assureur du véhicule impliqué, mais votre propre faute (rouler sur le trottoir, absence de feux la nuit, deux personnes sur l'engin, franchissement d'un feu rouge) peut réduire votre indemnisation. Bonne nouvelle : depuis l'arrêt Cass. 2e civ. 19 juin 2025, cette faute doit être prouvée et avoir contribué à votre dommage corporel, pas seulement à l'accident.
+Vous êtes conducteur au sens de l'article 4. Vous avez droit à indemnisation par l'assureur du véhicule impliqué, mais votre propre faute (rouler sur le trottoir, absence de feux la nuit, deux personnes sur l'engin, franchissement d'un feu rouge) peut réduire votre indemnisation. Mais cette faute doit être prouvée et avoir contribué à la réalisation de votre préjudice ; sa seule gravité ne suffit pas (Cass. 2e civ. 19 juin 2025).
 ### ③ Vous chutez seul (nid-de-poule, défaut de l'engin, obstacle)
 C'est le cas le plus délicat, car il n'y a pas d'autre véhicule impliqué. Plusieurs voies existent : la responsabilité de la collectivité en cas de défaut d'entretien de la voirie, celle du fabricant ou du loueur en cas de défaut de l'engin (freins, batterie, direction), ou votre propre garantie accident de la vie (GAV) si vous en avez souscrit une. Chaque piste doit être expertisée.
 ## 4. Ce que vous pouvez faire indemniser
@@ -2242,7 +2242,7 @@ Depuis leur entrée dans le code de la route, les EDPM obéissent à des règles
 - • Vitesse limitée à 25 km/h sur la voie publique
 - • Un seul utilisateur par engin ; circulation sur les pistes cyclables et la chaussée (jamais sur le trottoir, sauf autorisation locale)
 - • Assurance responsabilité civile obligatoire
-- • Casque non obligatoire pour les adultes en agglomération, mais fortement recommandé ; éclairage et avertisseur sonore exigés
+- • Casque fortement recommandé, et obligatoire selon le lieu (règles nationales, arrêtés préfectoraux ou municipaux) : vérifiez la règle applicable ; éclairage et avertisseur sonore exigés
 Ces règles ne sont pas de simples formalités : en cas d'accident, l'assureur cherchera à démontrer une infraction pour réduire votre indemnisation. Mais rappelez-vous le principe posé en 2025 : la faute reprochée doit avoir contribué à votre dommage corporel. Rouler sans avoir déclaré son assurance, par exemple, n'a aucun lien causal avec la gravité d'une fracture provoquée par une voiture : cette circonstance ne peut donc pas, à elle seule, amputer votre réparation.
 ## 7. Les bons réflexes juste après un accident de trottinette
 - ✓ Appelez les secours et faites constater vos blessures dès le premier jour (certificat médical initial)
@@ -2263,11 +2263,11 @@ Oui. Depuis le décret n° 2019-1082 du 23 octobre 2019, la trottinette électri
 ### Piéton renversé par une trottinette électrique : comment être indemnisé ?
 Le piéton est une victime non-conductrice au sens de l'article 3 de la loi Badinter : il a droit à la réparation intégrale de ses préjudices corporels, sauf faute inexcusable ayant été la cause exclusive de l'accident (hypothèse extrêmement rare). L'indemnisation est due par l'assureur de la trottinette, ou par le FGAO si l'engin n'est pas assuré ou si son conducteur a pris la fuite.
 ### Conducteur de trottinette blessé par une voiture : suis-je indemnisé ?
-Oui, mais avec une réserve importante : en tant que conducteur d'un EDPM, vous relevez de l'article 4 de la loi Badinter, comme un automobiliste ou un motard. Votre propre faute (rouler sur le trottoir, absence d'éclairage la nuit, circulation à deux, franchissement d'un feu rouge) peut limiter, voire exclure votre indemnisation. Toutefois, depuis l'arrêt Cass. 2e civ. 19 juin 2025, cette faute doit être prouvée et avoir contribué à votre dommage corporel, et non seulement à l'accident.
+Oui, mais avec une réserve importante : en tant que conducteur d'un EDPM, vous relevez de l'article 4 de la loi Badinter, comme un automobiliste ou un motard. Votre propre faute (rouler sur le trottoir, absence d'éclairage la nuit, circulation à deux, franchissement d'un feu rouge) peut limiter, voire exclure votre indemnisation. Toutefois, cette faute doit être prouvée et avoir contribué à la réalisation de votre préjudice ; sa seule gravité ne suffit pas (Cass. 2e civ. 19 juin 2025).
 ### Que se passe-t-il si la trottinette n'était pas assurée ou en libre-service ?
 Si le responsable n'est pas assuré, a pris la fuite ou reste inconnu, la victime peut saisir le Fonds de garantie des assurances obligatoires de dommages (FGAO), qui indemnise les préjudices corporels avant de se retourner contre le responsable. Pour les trottinettes en libre-service, l'opérateur souscrit en principe une assurance couvrant l'utilisateur ; les conditions et exclusions doivent être vérifiées au cas par cas.
 ### Le défaut de casque ou d'assurance réduit-il mon indemnisation ?
-Le port du casque n'est pas obligatoire pour un adulte en agglomération : son absence ne peut donc, à elle seule, réduire l'indemnisation, sauf à démontrer qu'elle a aggravé les blessures. Le défaut d'assurance vous expose à une amende et à un recours du FGAO, mais ne vous prive pas de votre droit à réparation en tant que victime blessée. Chaque faute reprochée doit avoir un lien causal démontré avec le dommage corporel.
+L'obligation de porter un casque dépend du lieu : des règles nationales et, de plus en plus, des arrêtés préfectoraux ou municipaux l'imposent. Dans tous les cas, son absence ne peut réduire l'indemnisation que si elle a contribué au préjudice, par exemple en aggravant les blessures. Le défaut d'assurance vous expose à une amende et à un recours du FGAO, mais ne vous prive pas de votre droit à réparation en tant que victime blessée. Chaque faute reprochée doit avoir un lien causal démontré avec le dommage corporel.
 ## Articles liés
 Jurisprudence 2025
 Conducteur en faute : pouvez-vous être indemnisé ?
@@ -3162,7 +3162,7 @@ URL : https://ig-avocat.com/blog/erreur-medicale-droits-victime
 Erreur médicale
 # Erreur médicale : vos droits, délais, preuve et recours
 CCI, ONIAM, tribunal judiciaire ou administratif, plainte pénale : ce guide vous explique comment choisir, dans quel délai agir, comment prouver une faute et comment se déroule la première consultation. Cabinet de Maître Ilan Guedj, avocat en dommage corporel à Marseille — intervention devant les juridictions de Marseille, Aix-en-Provence et toute la région PACA.
-Publié le 17 février 2026 · Mis à jour le 24 septembre 2026 16 min de lecture Maître Ilan Guedj
+Publié le 17 février 2026 · Mis à jour le 25 septembre 2026 16 min de lecture Maître Ilan Guedj
 Chaque année, des milliers de patients sont victimes d'erreurs médicales en France, dont une part significative dans les établissements de santé de Marseille et de la région PACA (AP-HM, hôpitaux publics et cliniques privées). Face au corps médical, aux assurances des établissements de santé et à la complexité des procédures, les victimes se retrouvent souvent seules et démunies. Ce guide vous explique vos droits, les procédures disponibles et comment un avocat en erreur médicale à Marseille peut faire la différence.
 ## 1. Qu'est-ce qu'une erreur médicale au sens juridique ?
 En droit médical français, une erreur médicale n'est pas simplement un acte qui a mal tourné. La notion juridique est précise : il s'agit d'un manquement à l'obligation de moyens du praticien, c'est-à-dire d'un acte ou d'une omission qui s'écarte des pratiques médicales reconnues et admises par la communauté scientifique au moment des faits.
@@ -3183,7 +3183,7 @@ Les infections contractées lors d'une hospitalisation ou d'un acte médical amb
 Les Commissions de Conciliation et d'Indemnisation (CCI) sont des instances régionales créées par la loi Kouchner de 2002. Elles constituent une voie de règlement amiable préalable à toute action en justice, gratuite pour la victime, et permettent d'obtenir une expertise médicale financée par l'ONIAM.
 Comment saisir la CCI ? La saisine se fait par courrier recommandé adressé à la CCI compétente (celle de la région où a eu lieu l'acte médical litigieux). Le dossier doit contenir la description des faits, le dossier médical complet, et les justificatifs du préjudice subi.
 Le déroulement : La CCI désigne un collège d'experts médicaux qui rend un rapport dans un délai de 6 mois. Sur la base de ce rapport, la commission émet un avis sur les circonstances, les causes et la nature du dommage, et le cas échéant sur la responsabilité. Si une faute médicale est reconnue, l'assureur du praticien dispose de 4 mois pour faire une offre d'indemnisation.
-La procédure CCI présente plusieurs avantages : elle est gratuite, plus rapide que la voie judiciaire (12 à 18 mois au lieu de 3 à 5 ans), et l'expertise est de bonne qualité. Ses limites : l'avis est consultatif, et si l'assureur propose une indemnisation insuffisante, vous devrez tout de même saisir les tribunaux.
+La procédure CCI présente plusieurs avantages : elle est gratuite, généralement plus rapide que la voie judiciaire (la commission doit rendre son avis dans les six mois du dossier complet), et l'expertise est de bonne qualité. Ses limites : l'avis est consultatif, et si l'assureur propose une indemnisation insuffisante, vous devrez tout de même saisir les tribunaux.
 ## 4. Tribunal judiciaire vs CCI : quelle voie choisir ?
 Face à une erreur médicale, deux grandes voies s'offrent à la victime : la CCI (règlement amiable) ou la voie judiciaire. Le choix entre les deux a un impact réel sur la durée, le coût et l'issue du dossier.
 ### Quand privilégier la CCI ?
@@ -3464,8 +3464,8 @@ URL : https://ig-avocat.com/blog/faute-conducteur-victime-indemnisation
 
 Accident de la route · Jurisprudence 2025
 # Conducteur en faute : pouvez-vous être indemnisé après un accident de la route ?
-L'arrêt rendu par la Cour de cassation le 19 juin 2025 renforce considérablement la protection des conducteurs victimes. Décryptage d'une jurisprudence qui change la donne face aux assureurs.
-Publié le 13 mai 2026 10 min de lecture Maître Ilan Guedj
+Oui, souvent. La faute du conducteur peut limiter ou exclure son indemnisation (article 4 de la loi du 5 juillet 1985), mais seulement si elle est prouvée et si elle a contribué à la réalisation de son préjudice. Le 19 juin 2025, la Cour de cassation a cassé un arrêt d'Aix-en-Provence qui avait privé un motard de toute indemnisation en se fondant sur un procès-verbal rédigé par un agent absent lors de l'accident et sur la seule gravité de la faute.
+Publié le 13 mai 2026 · Mis à jour le 25 septembre 2026 10 min de lecture Maître Ilan Guedj
 « Vous êtes en tort, l'assurance ne couvrira rien. » Combien de victimes d'accidents de la route entendent cette phrase après un sinistre ? Pourtant, en droit français, être à l'origine d'un accident n'éteint pas automatiquement votre droit à indemnisation corporelle. La Cour de cassation vient même de durcir, en 2025, les conditions dans lesquelles un assureur peut écarter votre indemnisation.
 ## 1. La loi Badinter : une protection à deux vitesses
 Depuis la loi n° 85-677 du 5 juillet 1985, dite loi Badinter, toute victime d'un accident de la circulation impliquant un véhicule terrestre à moteur (voiture, moto, scooter, camion, trottinette électrique...) bénéficie d'un régime spécial d'indemnisation, indépendamment de la responsabilité civile classique.
@@ -3483,55 +3483,47 @@ Cette distinction explique pourquoi un piéton renversé sur un passage protég�
 ## 2. Que dit exactement l'article 4 de la loi Badinter ?
 L'article 4 est court mais redoutable :
 « La faute commise par le conducteur du véhicule terrestre à moteur a pour effet de limiter ou d'exclure l'indemnisation des dommages qu'il a subis. »
-Pendant longtemps, les juridictions du fond se sont contentées de constater une infraction au code de la route (excès de vitesse, refus de priorité, franchissement de ligne, alcool...) pour amputer l'indemnisation de 50 %, 75 % voire 100 %.
-Cette pratique vient d'être frontalement remise en cause par la Cour de cassation.
-## 3. L'arrêt qui change tout : Cass. 2e civ., 19 juin 2025, n° 23-22.911
+La faute n'a pas à être la cause exclusive de l'accident, mais elle ne joue pas automatiquement. La Cour de cassation juge depuis longtemps que, lorsque plusieurs véhicules sont impliqués, « chaque conducteur a droit à l'indemnisation des dommages qu'il a subis, directement ou par ricochet, sauf s'il a commis une faute ayant contribué à la réalisation de son préjudice », le juge appréciant souverainement si cette faute limite ou exclut l'indemnisation (Cass. ch. mixte, 28 mars 1997, n° 93-11.078).
+Trois questions décident donc du sort du conducteur victime : la faute est-elle prouvée ? a-t-elle contribué à la réalisation de son préjudice ? et, si oui, justifie-t-elle une limitation ou une exclusion ?
+## 3. Ce que juge l'arrêt du 19 juin 2025 (Cass. 2e civ., n° 23-22.911)
 Les faits
-Le 19 avril 2014, un motard percute un véhicule circulant en sens inverse et présente des lésions importantes. Après échec des discussions amiables, il assigne l'assureur du véhicule adverse. La Cour d'appel d'Aix-en-Provence (arrêt du 28 septembre 2023) rejette sa demande d'indemnisation au motif qu'il aurait franchi la ligne médiane — élément déduit des procès-verbaux établis par les enquêteurs. Le motard se pourvoit en cassation.
-La deuxième chambre civile casse l'arrêt d'appel et pose deux principes essentiels pour tous les conducteurs victimes.
-### Principe n° 1 : la faute doit être établie, pas supposée
-La Cour rappelle qu'il ne suffit pas de se référer à un procès-verbal de gendarmerie rédigé après les faits par des enquêteurs qui n'étaient pas présents sur les lieux. Le juge doit caractériser la faute par des éléments matériels concrets : témoignages, expertise technique, traces relevées, vidéosurveillance, données du véhicule, etc.
-Cette exigence change la donne : dans la moitié des dossiers, le « franchissement de ligne » ou la « perte de contrôle » reposent sur la seule interprétation des forces de l'ordre, sans preuve directe.
-### Principe n° 2 : la faute doit avoir contribué au dommage, pas seulement à l'accident
-C'est l'apport le plus puissant de l'arrêt. La Cour de cassation distingue désormais clairement :
-- → La faute causale de l'accident : celle qui a provoqué la collision (ex. : griller un stop)
-- → La faute causale du dommage : celle qui a aggravé les blessures subies par le conducteur (ex. : ne pas porter sa ceinture)
-Seule la seconde peut limiter ou exclure l'indemnisation corporelle. Autrement dit : même responsable de l'accident, le conducteur a droit à l'indemnisation de ses préjudices corporels, sauf si l'assureur démontre que sa faute a aussi causé ou aggravé ses propres blessures.
-En clair : la gravité de la faute ne suffit plus. L'assureur qui veut réduire votre indemnisation doit prouver que sans cette faute, vous n'auriez pas été blessé ou auriez été moins blessé. C'est une preuve souvent difficile à apporter.
-## 4. Quelques exemples concrets après l'arrêt du 19 juin 2025
-### ✓ Faute qui ne réduit pas l'indemnisation
-Excès de vitesse modéré ayant causé l'accident, mais sans rapport direct avec la nature ou la gravité des blessures (par exemple un piéton qui surgit alors que vous rouliez 10 km/h au-dessus de la limite) : la faute a causé l'accident, pas le dommage corporel.
-### ~ Faute discutable
-Conduite sous l'emprise d'alcool : l'assureur soutiendra que l'alcoolémie a allongé le temps de réaction et aggravé le choc. La défense consistera à démontrer que l'accident se serait produit de la même manière à jeun, ou que la même blessure aurait été subie.
-### ✗ Faute qui réduit l'indemnisation
-Non-port de la ceinture de sécurité ou du casque : typiquement, la faute n'a pas causé l'accident, mais elle a aggravé les blessures (traumatisme crânien, éjection du véhicule). Le lien causal avec le dommage est ici direct : l'indemnisation peut être réduite, généralement de 10 à 30 %.
-## 5. Une jurisprudence dans la continuité d'une protection croissante
-L'arrêt du 19 juin 2025 ne tombe pas du ciel. Il s'inscrit dans un mouvement jurisprudentiel constant :
-- • Cass. ch. mixte, 28 mars 1997 : la faute du conducteur s'apprécie indépendamment du comportement de l'autre conducteur impliqué
-- • Cass. 2e civ., 6 avril 1987 : pose l'exigence d'un lien causal entre la faute et le dommage
-- • Cass. 2e civ., 19 juin 2025, n° 23-22.911 : verrouille cette exigence et impose une preuve rigoureuse de la faute
-Le législateur et la jurisprudence convergent vers une idée simple : l'indemnisation corporelle ne doit pas être traitée comme une sanction. Elle a pour seul objet de réparer un préjudice, indépendamment de la moralité du comportement de la victime.
+Le 19 avril 2014, un motard entre en collision avec une voiture venant en sens inverse. La cour d'appel d'Aix-en-Provence (28 septembre 2023) le prive de toute indemnisation de son préjudice corporel : il aurait franchi la ligne médiane, ce qu'elle déduit notamment du procès-verbal et du plan établis par la police, et elle juge que « la particulière gravité » de sa faute justifie la suppression totale de son droit. La Cour de cassation casse l'arrêt en toutes ses dispositions (texte de l'arrêt).
+### Premier enseignement : un procès-verbal ne prouve pas ce que l'agent n'a pas vu
+Les procès-verbaux des officiers et agents de police judiciaire font foi jusqu'à preuve contraire des contraventions qu'ils constatent (article 537 du code de procédure pénale). Mais l'agent n'était pas présent lors de l'accident : son procès-verbal ne faisait donc pas foi jusqu'à preuve contraire du franchissement de ligne, et la cour d'appel ne pouvait pas s'en tenir à cette force probante. En pratique, la faute alléguée par l'assureur doit être établie par des éléments précis, et ces éléments se discutent.
+### Second enseignement : la gravité de la faute ne suffit pas
+La cour d'appel s'était fondée sur la seule gravité de la faute. La Cour de cassation rappelle que chaque conducteur a droit à l'indemnisation de ses dommages « sauf s'il a commis une faute ayant contribué à la réalisation de son préjudice » et censure l'arrêt faute d'avoir caractérisé une telle faute (art. 4 de la loi du 5 juillet 1985).
+En clair : il ne suffit pas de qualifier une faute de « grave » pour supprimer l'indemnisation. Le juge doit établir la faute et expliquer en quoi elle a contribué au préjudice du conducteur. L'arrêt ne pose pas, en revanche, de règle selon laquelle une faute ayant causé l'accident serait sans effet : une telle faute contribue en principe à la réalisation du dommage.
+## 4. Quelques situations concrètes
+### Faute non prouvée ou sans lien avec le préjudice
+Une faute qui repose sur une simple hypothèse, ou dont on ne peut pas dire qu'elle a contribué au préjudice, ne peut ni limiter ni exclure l'indemnisation. L'Assemblée plénière a ainsi approuvé une cour d'appel qui, après examen des circonstances, avait écarté tout lien de causalité entre l'état d'alcoolémie du conducteur et la réalisation de son préjudice, et refusé toute réduction (Cass. ass. plén., 6 avril 2007, n° 05-15.950, arrêt venant d'Aix-en-Provence).
+### Faute qui a contribué à l'accident
+Un excès de vitesse, un refus de priorité ou un franchissement de ligne qui ont joué un rôle dans la survenance de l'accident peuvent limiter, voire exclure, l'indemnisation. Tout se discute alors : la réalité de la faute, son rôle exact, et l'ampleur de la réduction, que le juge fixe souverainement au regard de la gravité de la faute.
+### Faute qui a aggravé les blessures
+Le non-port de la ceinture ou du casque n'a souvent pas causé l'accident, mais il peut avoir contribué à la gravité des blessures, donc au préjudice. Il peut alors réduire l'indemnisation.
+## 5. Les repères de jurisprudence
+- • Cass. ch. mixte, 28 mars 1997, n° 93-11.078 : chaque conducteur est indemnisé sauf faute ayant contribué à la réalisation de son préjudice ; le juge apprécie souverainement si elle limite ou exclut l'indemnisation.
+- • Cass. ass. plén., 6 avril 2007, n° 05-15.950 : l'alcoolémie du conducteur ne réduit pas son indemnisation lorsqu'aucun lien de causalité avec la réalisation de son préjudice n'est établi.
+- • Cass. 2e civ., 19 juin 2025, n° 23-22.911 : un procès-verbal ne fait pas foi de ce que l'agent n'a pas constaté, et la gravité de la faute ne dispense pas de caractériser sa contribution au préjudice.
 ## 6. Pourquoi consulter un avocat avant tout accord avec l'assureur
-Dans notre pratique quotidienne, nous voyons régulièrement des conducteurs accepter une réduction de 50 % ou plus de leur indemnisation, simplement parce que l'assureur a invoqué leur faute sans en apporter la preuve, ou sans démontrer son lien causal avec le dommage.
-Or, depuis l'arrêt du 19 juin 2025, ces réductions sont souvent juridiquement contestables. La charge de la preuve pèse sur l'assureur, et non sur la victime.
-Notre pratique au cabinet : nous analysons systématiquement les procès-verbaux, les rapports d'expertise et les conditions de l'accident pour identifier si la faute reprochée à notre client a réellement contribué à son dommage corporel. Dans une majorité de dossiers, l'argument de l'assureur ne résiste pas à l'examen — et nous obtenons une indemnisation intégrale ou bien supérieure à la première proposition.
+Lorsque l'assureur invoque votre faute pour réduire ou refuser l'indemnisation, sa position se discute point par point : la faute est-elle réellement établie, par quels éléments, et quel rôle a-t-elle joué ? Accepter sans discussion une réduction, c'est renoncer à ce débat.
+Notre méthode : nous analysons les procès-verbaux (et ce que leurs auteurs ont réellement constaté), les témoignages, les rapports d'expertise et les données de l'accident pour vérifier si la faute reprochée est prouvée et si elle a contribué au préjudice.
 ## 7. Ce qu'il faut retenir
 - ✓ Être responsable d'un accident ne supprime pas automatiquement votre droit à indemnisation corporelle
-- ✓ L'assureur doit prouver votre faute par des éléments concrets (pas de simple PV interprété)
-- ✓ Cette faute doit avoir contribué à votre dommage corporel et non seulement à l'accident
+- ✓ La faute doit être prouvée : un procès-verbal ne fait pas foi de ce que l'agent n'a pas vu
+- ✓ Elle doit avoir contribué à la réalisation de votre préjudice ; sa seule gravité ne suffit pas
+- ✓ Le juge décide souverainement si elle limite ou exclut l'indemnisation
 - ✓ Ne signez aucun protocole transactionnel sans avoir consulté un avocat en dommage corporel
-- ✓ Conservez tous les éléments : PV, photos, témoignages, certificats médicaux initiaux
 ## Questions fréquentes
 ### Un conducteur responsable d'un accident peut-il être indemnisé de ses blessures ?
-Oui, dans la plupart des cas. La loi Badinter n'exclut le droit à indemnisation du conducteur que si sa faute a contribué à la réalisation de son propre dommage corporel. Une faute qui a seulement causé l'accident, sans aggraver le dommage subi par le conducteur, ne suffit pas. C'est ce qu'a confirmé la Cour de cassation dans son arrêt du 19 juin 2025 (n° 23-22.911).
+Souvent, oui. Selon l'article 4 de la loi du 5 juillet 1985, la faute du conducteur peut limiter ou exclure son indemnisation. Mais elle doit être prouvée et avoir contribué à la réalisation de son préjudice ; sa seule gravité ne suffit pas (Cass. 2e civ., 19 juin 2025, n° 23-22.911). Le juge apprécie souverainement si elle limite ou exclut l'indemnisation.
 ### Que dit l'article 4 de la loi Badinter ?
 L'article 4 de la loi du 5 juillet 1985 prévoit que la faute commise par le conducteur d'un véhicule terrestre à moteur peut limiter ou exclure l'indemnisation des dommages qu'il a subis. Cette règle est plus stricte que pour les piétons, passagers ou cyclistes, qui bénéficient d'une protection quasi-absolue (article 3).
 ### Le non-port de la ceinture de sécurité peut-il réduire mon indemnisation ?
-Oui, parce que cette faute a typiquement contribué à l'aggravation des blessures (le lien causal avec le dommage est établi). En revanche, un excès de vitesse qui aurait simplement causé l'accident, sans aggraver les lésions, ne devrait pas réduire l'indemnisation depuis l'arrêt du 19 juin 2025. Chaque situation s'apprécie au cas par cas.
+Il le peut, lorsque l'absence de ceinture a contribué à la gravité des blessures, donc au préjudice. Une faute ayant joué un rôle dans la survenance de l'accident, comme un excès de vitesse, peut aussi réduire l'indemnisation. Dans tous les cas, la faute doit être prouvée et son rôle établi, et le juge fixe souverainement l'ampleur de la réduction.
 ### L'alcoolémie au volant exclut-elle toute indemnisation ?
-Non, pas automatiquement. La Cour de cassation exige que l'assureur démontre en quoi l'alcoolémie a contribué au dommage du conducteur (et non simplement à l'accident). Dans de nombreux dossiers, le lien causal entre l'alcoolémie et la gravité des blessures n'est pas établi : une réduction proportionnelle, plutôt qu'une exclusion totale, est alors envisageable.
+Non, pas automatiquement. L'état d'alcoolémie ne réduit l'indemnisation que s'il a un lien de causalité avec la réalisation du préjudice du conducteur : l'Assemblée plénière a approuvé le refus de toute réduction lorsque ce lien n'était pas établi (Cass. ass. plén., 6 avril 2007, n° 05-15.950). Lorsque le lien est établi, le juge décide souverainement d'une limitation ou d'une exclusion.
 ### Que faire si l'assureur invoque ma faute pour réduire l'indemnisation ?
-Ne signez rien et consultez immédiatement un avocat en dommage corporel. Les assureurs invoquent fréquemment la faute du conducteur pour réduire de 50 %, 75 % voire 100 % l'indemnisation. Or, depuis 2025, cette faute doit être prouvée et son lien causal avec le dommage démontré. Un avocat saura contester ces arguments et obtenir la juste indemnisation.
+Ne signez rien et faites analyser le dossier par un avocat en dommage corporel. La faute invoquée doit être prouvée par des éléments précis, et son rôle dans la réalisation de votre préjudice doit être établi ; un procès-verbal ne fait pas foi de ce que son auteur n'a pas constaté.
 ## Articles liés
 Préjudices graves
 Accident grave : indemnisation maximale et préjudices importants
@@ -3874,8 +3866,8 @@ La loi Badinter s’applique à tout accident de la circulation impliquant un v�
 ### Une protection renforcée pour les usagers vulnérables
 La loi distingue deux catégories de victimes. Les usagers vulnérables — piétons, cyclistes, passagers d’un véhicule, et plus encore enfants de moins de 16 ans, personnes de plus de 70 ans et victimes déjà titulaires, au moment de l’accident, d’un titre d’incapacité ou d’invalidité d’au moins 80 % — bénéficient d’une protection quasi absolue : leur indemnisation ne peut être limitée ou exclue qu’en cas de faute inexcusable cause exclusive de l’accident, ou en cas de recherche volontaire du dommage. Dans la pratique judiciaire, la qualification de faute inexcusable est extrêmement rare : il faut une témérité d’une exceptionnelle gravité, exposant la victime à un danger dont elle aurait dû avoir conscience.
 ### La protection du conducteur : un régime qui s’est renforcé
-Le conducteur du véhicule, en revanche, peut voir son indemnisation réduite ou exclue en raison de sa propre faute. C’est sur ce terrain que la jurisprudence a profondément évolué, notamment avec l’arrêt rendu par la 2e chambre civile de la Cour de cassation le 19 juin 2025, qui durcit les conditions dans lesquelles une faute du conducteur peut lui être opposée. Voir notre analyse détaillée dans faute du conducteur et indemnisation.
-En substance, la faute du conducteur ne peut limiter ou exclure son indemnisation que si elle a contribué à la réalisation de son propre dommage : une faute qui a seulement causé l’accident ne suffit pas. Conséquence concrète : un motard fautif gravement blessé conserve souvent son droit à indemnisation, et la discussion porte sur le lien entre sa faute et ses blessures.
+Le conducteur du véhicule, en revanche, peut voir son indemnisation réduite ou exclue en raison de sa propre faute. C’est sur ce terrain que la jurisprudence est précise, comme le rappelle l’arrêt rendu par la 2e chambre civile de la Cour de cassation le 19 juin 2025, qui rappelle les conditions dans lesquelles une faute du conducteur peut lui être opposée. Voir notre analyse détaillée dans faute du conducteur et indemnisation.
+En substance, la faute du conducteur ne peut limiter ou exclure son indemnisation que si elle est prouvée et a contribué à la réalisation de son préjudice ; sa seule gravité ne suffit pas. Conséquence concrète : un motard fautif gravement blessé ne perd pas automatiquement son droit à indemnisation, et la discussion porte sur la preuve de la faute et son rôle.
 ### La protection automatique des ayants droit
 En cas de décès de la victime, les ayants droit (conjoint, enfants, parents, frères et sœurs selon la proximité) sont indemnisés automatiquement, sans avoir à démontrer la faute du conducteur adverse. Leur préjudice est toutefois réparé en tenant compte des limitations ou exclusions applicables à la victime directe (article 6 de la loi du 5 juillet 1985) : la faute du conducteur décédé peut donc leur être opposée dans la mesure où elle l’aurait été à lui-même.
 ### Le délai pour agir : 10 ans après la consolidation
@@ -4014,7 +4006,7 @@ En cas de décès, les proches (conjoint, partenaire, concubin, enfants, parents
 ### Combien de temps prend la procédure pour un accident grave ?
 La durée dépend surtout du temps nécessaire à la consolidation, souvent long après des blessures graves, puis de la discussion de l’expertise et, si besoin, de la procédure judiciaire. En attendant, l’assureur doit présenter une offre, provisionnelle si la consolidation n’est pas acquise, dans les huit mois de l’accident, et des provisions peuvent être obtenues, au besoin devant le juge des référés. La prescription est de dix ans à compter de la consolidation.
 ### Un motard fautif peut-il être indemnisé après un accident grave ?
-Souvent, oui. La faute du conducteur, motard compris, peut limiter ou exclure son indemnisation (article 4 de la loi du 5 juillet 1985). Mais depuis l’arrêt de la 2e chambre civile du 19 juin 2025 (n° 23-22.911), elle ne produit cet effet que si elle a contribué à la réalisation de son propre dommage : une faute qui a seulement causé l’accident ne suffit pas. Chaque situation s’apprécie au cas par cas.
+Souvent, oui. La faute du conducteur, motard compris, peut limiter ou exclure son indemnisation (article 4 de la loi du 5 juillet 1985). Mais depuis l’arrêt de la 2e chambre civile du 19 juin 2025 (n° 23-22.911), elle ne produit cet effet que si elle est prouvée et a contribué à la réalisation de son préjudice, sa seule gravité ne suffisant pas. Le juge apprécie souverainement si elle limite ou exclut l’indemnisation.
 ## Pour aller plus loin
 Page service
 Avocat accident de la route à Marseille
@@ -4050,7 +4042,7 @@ URL : https://ig-avocat.com/blog/indemnisation-victime-passagere-accident
 
 Accident de la route
 # Victime passagère d'un accident : quels sont vos droits ?
-Publié le 3 mars 2026 9 min de lecture Maître Ilan Guedj
+Publié le 3 mars 2026 · Mis à jour le 25 septembre 2026 9 min de lecture Maître Ilan Guedj
 En France, plus d'un tiers des victimes d'accidents de la route sont des passagers. Beaucoup ignorent que la loi Badinter leur accorde une protection quasi absolue — bien supérieure à celle du conducteur — indépendamment de la responsabilité de qui que ce soit. Ce guide vous explique vos droits, quelle assurance doit vous indemniser et comment obtenir la réparation intégrale de vos préjudices.
 ## 1. La loi Badinter : une protection quasi absolue pour les passagers
 La loi du 5 juillet 1985, dite loi Badinter, régit l'indemnisation des victimes d'accidents de la circulation impliquant un véhicule terrestre à moteur. Elle distingue deux catégories de victimes : les conducteurs d'un côté, les non-conducteurs de l'autre — parmi lesquels figurent les passagers, les piétons et les cyclistes.
@@ -4085,8 +4077,8 @@ Déficit fonctionnel permanent (IPP/AIPP — séquelles définitives réduisant 
 La valeur de chaque poste est déterminée par un expert médical lors d'une expertise organisée par l'assureur. Cette étape est décisive : une évaluation incomplète ou sous-évaluée par le médecin mandaté par l'assurance peut réduire drastiquement votre indemnisation finale. C'est pourquoi l'assistance d'un avocat et d'un médecin-conseil de victime est indispensable lors de l'expertise.
 ## 6. Les délais imposés par la loi Badinter
 La loi Badinter impose à l'assureur responsable des délais stricts pour vous faire une offre d'indemnisation :
-- →8 mois à compter de l'accident pour faire une offre d'indemnisation provisionnelle, si votre état de santé n'est pas encore consolidé.
-- →3 mois à compter de votre demande d'indemnisation pour formuler une offre, une fois votre état consolidé.
+- →8 mois au plus à compter de l'accident pour présenter une offre, provisionnelle si votre état n'est pas encore consolidé (ou 3 mois après votre demande si la responsabilité n'est pas contestée et le dommage entièrement quantifié).
+- →5 mois à compter du jour où l'assureur est informé de votre consolidation pour présenter l'offre définitive.
 - →En cas de manquement à ces délais, des pénalités automatiques s'appliquent en faveur de la victime.
 De votre côté, le délai pour agir en justice est de 10 ans à compter de la date de consolidation de vos blessures. La consolidation est la date à laquelle votre état de santé est stabilisé et ne devrait plus évoluer. Elle est déterminée par l'expert médical et constitue le point de départ du calcul de vos préjudices permanents.
 N'attendez pas d'être proche de ce délai pour agir : les preuves médicales, les témoignages et les éléments de preuve se conservent mieux dans les mois qui suivent l'accident.
@@ -4098,7 +4090,7 @@ Maître Ilan Guedj, dont l'activité est consacrée à l'indemnisation des victi
 ### En tant que passager, suis-je indemnisé même si le conducteur de mon véhicule est responsable de l'accident ?
 Oui, dans la quasi-totalité des cas. La loi Badinter protège les passagers de manière quasi absolue : votre indemnisation ne peut être réduite ou exclue qu'en cas de faute inexcusable de votre part ayant été la cause exclusive de l'accident, ou si vous avez volontairement recherché le dommage que vous avez subi. Ces situations sont extrêmement rares. La responsabilité du conducteur à votre égard est donc sans incidence sur votre droit à indemnisation.
 ### Puis-je être indemnisé si le véhicule qui m'a blessé a pris la fuite ou n'était pas assuré ?
-Oui, dans tous les cas. Si le véhicule que vous occupiez est assuré, vous agissez directement contre son assureur — peu importe que l'autre véhicule soit non identifié ou non assuré. Vous n'avez pas besoin du FGAO. Le FGAO n'intervient que lorsqu'aucun des véhicules impliqués n'est assuré (situation rare) : dans ce seul cas, il se substitue aux assureurs défaillants et vous indemnise dans les mêmes conditions.
+Oui, dans tous les cas. Si le véhicule que vous occupiez est assuré, vous agissez directement contre son assureur — peu importe que l'autre véhicule soit non identifié ou non assuré. Vous n'avez pas besoin du FGAO. Le FGAO n'intervient que si aucun assureur n'est tenu de vous indemniser, notamment lorsque le responsable n'est pas assuré ou n'est pas identifié : il se substitue alors à l'assureur défaillant.
 ### Puis-je réclamer une indemnisation à l'assurance d'un proche qui conduisait le véhicule au moment de l'accident ?
 Oui. C'est l'assureur du conducteur — et non le conducteur lui-même — qui supporte la charge de l'indemnisation. Agir contre l'assurance d'un proche ne lui cause aucun préjudice financier direct : l'assurance est précisément prévue pour couvrir ce risque. Ne renoncez pas à vos droits par solidarité mal comprise. Un avocat peut gérer l'ensemble des échanges avec l'assureur pour vous éviter tout contact conflictuel avec votre proche.
 ## Articles liés
@@ -4235,7 +4227,7 @@ URL : https://ig-avocat.com/blog/medecin-recours-victime
 
 Expertise médicale
 # Médecin-recours : pourquoi il est indispensable pour les victimes
-Publié le 8 mars 2026 8 min de lecture Maître Ilan Guedj
+Publié le 8 mars 2026 · Mis à jour le 25 septembre 2026 8 min de lecture Maître Ilan Guedj
 Lors de l'expertise médicale, la victime se retrouve face à un expert et au médecin-conseil de l'assureur — deux professionnels qui maîtrisent parfaitement le vocabulaire médical et les grilles d'évaluation. Sans médecin-recours à vos côtés, vous êtes en position de faiblesse. Le médecin-recours est votre allié technique : il rétablit l'équilibre et veille à ce que vos préjudices soient évalués à leur juste mesure.
 ## 1. Qu'est-ce qu'un médecin-recours ?
 Le médecin-recours — aussi appelé médecin de victime ou médecin-conseil de victime — est un médecin indépendant, spécialisé en évaluation du dommage corporel. Il intervient exclusivement dans l'intérêt de la victime lors de l'expertise médicale, qu'elle soit amiable ou judiciaire.
@@ -4274,7 +4266,7 @@ Le médecin-recours agit sur plusieurs leviers décisifs :
 - → Il identifie les besoins en tierce personne (aide humaine) que l'expert pourrait minimiser
 - → Il fait valoir le préjudice d'agrément, le préjudice sexuel, l'incidence professionnelle — des postes souvent oubliés sans assistance spécialisée
 - → Il conteste une date de consolidation fixée trop tôt, qui réduirait vos indemnités temporaires
-Exemple concret : une victime d'accident de la route présentant des séquelles au genou pourrait voir son DFP évalué à 5 % sans médecin-recours, contre 10 % avec un médecin-recours qui met en évidence l'instabilité résiduelle et la limitation fonctionnelle. Sur un barème d'indemnisation, cette différence peut représenter plus de 20 000 € sur le seul poste du DFP.
+Exemple concret : une victime d'accident de la route présentant des séquelles au genou pourrait voir son DFP évalué à 5 % sans médecin-recours, contre 10 % avec un médecin-recours qui met en évidence l'instabilité résiduelle et la limitation fonctionnelle. Cet écart se répercute directement sur l'indemnisation du déficit fonctionnel permanent, et souvent sur d'autres postes.
 ## 5. Comment choisir son médecin-recours
 Tous les médecins ne sont pas médecins-recours. C'est une spécialité à part entière qui requiert des compétences précises en évaluation du dommage corporel. Voici les critères essentiels :
 - ✓ Formation spécialisée : diplôme universitaire de réparation juridique du dommage corporel ou capacité en médecine légale
@@ -4626,7 +4618,7 @@ URL : https://ig-avocat.com/blog/refuser-offre-assurance-accident
 
 Assurance
 # Dois-je accepter l'offre d'indemnisation de mon assurance après un accident ?
-Publié le 17 février 2026 9 min de lecture Maître Ilan Guedj
+Publié le 17 février 2026 · Mis à jour le 25 septembre 2026 9 min de lecture Maître Ilan Guedj
 La réponse courte est presque toujours : non, ne l'acceptez pas immédiatement. Les compagnies d'assurance sont des entreprises dont l'objectif est de verser le moins possible. Leurs premières offres sont conçues pour clore rapidement les dossiers à moindre coût. Ce guide vous explique vos droits, les délais légaux, et ce que vous risquez en acceptant trop vite.
 ## 1. Comprendre l'offre provisionnelle de l'assurance
 Après un accident de la route, l'assureur du responsable est légalement tenu de vous faire une proposition d'indemnisation. Mais cette proposition peut prendre deux formes très différentes, et il est essentiel de les distinguer.
@@ -4637,13 +4629,13 @@ L'assureur joue souvent sur la confusion entre ces deux types d'offres. Un docum
 La Loi Badinter du 5 juillet 1985 (loi n°85-677) est le texte fondateur de l'indemnisation des victimes d'accidents de la circulation. Elle impose à l'assureur du responsable des délais stricts.
 3M
 Offre provisionnelle d'indemnisation
-Dans les 3 mois suivant la demande de la victime ou à compter de la date de l'accident. L'absence d'offre dans ce délai entraîne des pénalités.
+Dans les 3 mois de la demande si la responsabilité n'est pas contestée et le dommage entièrement quantifié, et en tout état de cause dans les 8 mois de l'accident (art. L. 211-9 C. assur.). L'absence d'offre dans ce délai entraîne des pénalités.
 5M
 Offre définitive d'indemnisation
 Dans les 5 mois suivant la date à laquelle l'assureur a été informé de la consolidation de l'état de santé de la victime.
 15J
 Délai de rétractation après acceptation
-La victime dispose de 15 jours à compter de l'envoi de sa lettre d'acceptation pour revenir sur sa décision.
+La victime peut dénoncer la transaction dans les 15 jours de sa conclusion, par lettre recommandée avec avis de réception.
 En cas de non-respect de ces délais, l'assureur est tenu de payer des intérêts de retard au double du taux légal. Ces pénalités s'appliquent de plein droit, sans qu'il soit nécessaire de saisir le juge. Votre avocat peut les facturer et les inclure dans la négociation.
 ## 3. Pourquoi les premières offres sont-elles systématiquement sous-évaluées ?
 Comprendrons d'abord pourquoi les assureurs sont structurellement incités à vous proposer le minimum. Une compagnie d'assurance gère des milliers de dossiers par an. Chaque économie sur une indemnisation se répercute directement sur ses résultats financiers. Ce n'est pas une question de mauvaise foi individuelle, c'est un modèle systémique.
@@ -4667,7 +4659,7 @@ En cas de désaccord persistant, votre avocat peut demander au juge la désignat
 ## 6. Les recours judiciaires si l'assurance refuse de négocier
 Lorsque la négociation amiable est épuisée sans aboutir à un accord satisfaisant, le recours judiciaire devient nécessaire. Cette perspective, souvent redoutée par les victimes, est en réalité favorable dans la majorité des cas, car les tribunaux appliquent des barèmes d'indemnisation généralement plus élevés que ceux proposés par les assureurs.
 La procédure judiciaire en matière de dommage corporel lié à un accident de la route commence par une assignation devant le tribunal judiciaire. Le juge peut ordonner une expertise judiciaire et, à l'issue de la procédure, fixer l'indemnisation de chaque poste de préjudice.
-Les délais judiciaires varient selon les juridictions (18 à 36 mois en moyenne devant le tribunal judiciaire), mais la procédure peut être accélérée par une demande en référé pour obtenir une provision en urgence si votre situation financière l'exige.
+Les délais judiciaires varient selon les juridictions, mais la procédure peut être accélérée par une demande en référé pour obtenir une provision en urgence si votre situation financière l'exige.
 ## 7. Cas concrets : les écarts entre offre et indemnisation réelle
 Pour illustrer l'importance de ne pas accepter la première offre, voici des exemples représentatifs de situations rencontrées en pratique, avec les ordres de grandeur observés.
 ### Accident de moto — Fracture du fémur — 35 ans
@@ -4684,7 +4676,7 @@ Indemnisation obtenue
 Souffrances endurées majorées de 2/7 à 4/7, DFP réévalué, prise en compte des séquelles cognitives.
 ## Questions fréquentes
 ### Puis-je revenir sur mon acceptation d'une offre d'indemnisation ?
-Oui, mais dans un délai très court. Selon la Loi Badinter (article L211-16 du Code des assurances), vous disposez de 15 jours à compter de l'envoi de votre lettre d'acceptation pour revenir sur votre décision. Passé ce délai, la transaction est définitive. C'est pourquoi il est impératif de consulter un avocat AVANT d'accepter.
+Oui, mais dans un délai très court. Selon la Loi Badinter (article L211-16 du Code des assurances), vous pouvez dénoncer la transaction dans les 15 jours de sa conclusion, par lettre recommandée avec avis de réception. Passé ce délai, elle règle définitivement les préjudices qu'elle indemnise, sous réserve d'une aggravation ultérieure. C'est pourquoi il est impératif de consulter un avocat AVANT d'accepter.
 ### Que se passe-t-il si l'assurance ne fait pas d'offre dans les délais légaux ?
 Si l'assureur ne respecte pas les délais légaux imposés par la Loi Badinter, vous pouvez réclamer des intérêts de retard au double du taux légal. Ces pénalités sont automatiques. Un avocat peut les faire valoir lors de la négociation ou devant le juge.
 ### L'assureur peut-il m'imposer un médecin expert de son choix ?
