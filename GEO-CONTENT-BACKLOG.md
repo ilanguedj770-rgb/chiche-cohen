@@ -48,7 +48,7 @@ Chaque nouvelle ressource doit avoir : title unique, canonical, H1 unique, repon
 - Faute inexcusable
 - Traumatisme cranien
 
-Fait (24 septembre 2026) : `/blog/infection-nosocomiale-indemnisation`, `/blog/accident-travail-faute-inexcusable` (accident de trajet inclus, reforme du 1er novembre 2026 signalee), `/blog/deces-accident-indemnisation-proches` (victimes par ricochet). CIVI : deja traitee par `/blog/agression-victime-droits-recours`, pas de page dediee pour eviter la cannibalisation. Fait (25 septembre 2026) : `/blog/traumatisme-cranien-indemnisation`. Restent : alea therapeutique, refus CIVI.
+Fait (24 septembre 2026) : `/blog/infection-nosocomiale-indemnisation`, `/blog/accident-travail-faute-inexcusable` (accident de trajet inclus, reforme du 1er novembre 2026 signalee), `/blog/deces-accident-indemnisation-proches` (victimes par ricochet). CIVI : deja traitee par `/blog/agression-victime-droits-recours`, pas de page dediee pour eviter la cannibalisation. Fait (25 septembre 2026) : `/blog/traumatisme-cranien-indemnisation`. Fait (25 septembre 2026) : carambolage, coup du lapin, bus et tramway. Restent : alea therapeutique, refus CIVI, enfant victime, accident a l etranger.
 
 ## Glossaire
 Fait (septembre 2026) : `/lexique-dommage-corporel`, 31 definitions generees par `tools/build-lexique.py` a partir de `content/geo`. Ajouter une notion = ajouter son fichier dans `content/geo` puis une entree dans `SECTIONS` du script.

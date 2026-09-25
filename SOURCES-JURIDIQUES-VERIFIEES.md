@@ -14,6 +14,8 @@ Préfixe : `https://www.legifrance.gouv.fr/`
 | Texte | Lien | Teneur vérifiée |
 |---|---|---|
 | Loi n° 85-677 (texte intégral) | `loda/id/JORFTEXT000000693454/` | — |
+| Loi 85-677, art. 1 | `loda/article_lc/LEGIARTI000006839396` | Victimes d'un accident de la circulation impliquant un VTM, « même lorsqu'elles sont transportées en vertu d'un contrat » ; exclusion des chemins de fer et des tramways circulant sur des voies qui leur sont propres |
+| Loi 85-677, art. 2 | `loda/article_lc/LEGIARTI000006839413` | Force majeure et fait d'un tiers inopposables aux victimes, y compris les conducteurs |
 | Loi 85-677, art. 3 | `loda/article_lc/LEGIARTI000006839422` | Victimes non conductrices ; protection renforcée pour les victimes de moins de 16 ans, de plus de 70 ans, ou titulaires *au moment de l'accident* d'un titre d'incapacité ou d'invalidité d'au moins 80 % |
 | Loi 85-677, art. 6 | `loda/article_lc/LEGIARTI000006839449` | Préjudice des tiers (victimes par ricochet) réparé en tenant compte des limitations ou exclusions applicables à la victime directe |
 | Loi 85-677, art. 4 | `loda/article_lc/LEGIARTI000006839431` | Faute du conducteur. Un utilisateur d'EDPM (trottinette électrique) est conducteur |
@@ -25,6 +27,9 @@ Préfixe : `https://www.legifrance.gouv.fr/`
 | C. assur. L421-1 | `codes/article_lc/LEGIARTI000033460248` | FGAO |
 | C. assur. R211-29 à R211-44 | section `LEGISCTA000006175449` | Procédure d'offre |
 | Service-public F2679 | `https://www.service-public.gouv.fr/particuliers/vosdroits/F2679` | FGAO : 3 ans après l'accident si responsable inconnu ; 1 an à compter de la décision définitive ou de la transaction si connu ; 1 an si dommages matériels seuls ; délai manqué = perte du droit |
+| Cass. crim., 3 mai 2017, n° 16-84.485 (Bull.) | `https://juricaf.org/arret/FRANCE-COURDECASSATION-20170503-1684485` | Carambolage : « La qualité de conducteur perdure lors des différentes phases d'un accident complexe au cours duquel des collisions se succèdent dans un enchaînement continu et dans un même laps de temps, le tout constituant un accident unique » ; arrêt de la CA d'Aix-en-Provence cassé ; même sens : 2e civ., 1er juill. 2010, n° 09-67.627 |
+| Cass. 2e civ., 25 janv. 2001, n° 99-12.506 (Bull. II n° 14) | `https://juricaf.org/arret/FRANCE-COURDECASSATION-20010125-9912506` | Loi applicable à tout accident dans la survenance duquel un VTM est intervenu « à quelque titre que ce soit » ; un autobus même en arrêt prolongé est en circulation ; chute d'une passagère à l'intérieur = accident de la circulation |
+| Cass. 2e civ., 5 mars 2020, n° 19-11.411 (Bull.) | `https://juricaf.org/arret/FRANCE-COURDECASSATION-20200305-1911411` | Piéton heurté par un tramway sur une portion de voie réservée exclusivement au tramway (bordure, barrières, point de choc après le passage piétons) : loi de 1985 exclue |
 
 ## Prescription
 
