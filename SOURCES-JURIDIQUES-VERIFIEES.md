@@ -30,6 +30,10 @@ Préfixe : `https://www.legifrance.gouv.fr/`
 | Cass. crim., 3 mai 2017, n° 16-84.485 (Bull.) | `https://juricaf.org/arret/FRANCE-COURDECASSATION-20170503-1684485` | Carambolage : « La qualité de conducteur perdure lors des différentes phases d'un accident complexe au cours duquel des collisions se succèdent dans un enchaînement continu et dans un même laps de temps, le tout constituant un accident unique » ; arrêt de la CA d'Aix-en-Provence cassé ; même sens : 2e civ., 1er juill. 2010, n° 09-67.627 |
 | Cass. 2e civ., 25 janv. 2001, n° 99-12.506 (Bull. II n° 14) | `https://juricaf.org/arret/FRANCE-COURDECASSATION-20010125-9912506` | Loi applicable à tout accident dans la survenance duquel un VTM est intervenu « à quelque titre que ce soit » ; un autobus même en arrêt prolongé est en circulation ; chute d'une passagère à l'intérieur = accident de la circulation |
 | Cass. 2e civ., 5 mars 2020, n° 19-11.411 (Bull.) | `https://juricaf.org/arret/FRANCE-COURDECASSATION-20200305-1911411` | Piéton heurté par un tramway sur une portion de voie réservée exclusivement au tramway (bordure, barrières, point de choc après le passage piétons) : loi de 1985 exclue |
+| Cass. ch. mixte, 28 mars 1997, n° 93-11.078 | `https://juricaf.org/arret/FRANCE-COURDECASSATION-19970328-9311078` | Faute du conducteur victime (art. 4) : appréciée en faisant abstraction du comportement de l'autre conducteur (relu le 25 septembre 2026) |
+| Cass. ass. plén., 6 avr. 2007, n° 05-15.950 | `https://juricaf.org/arret/FRANCE-COURDECASSATION-20070406-0515950` | Faute du conducteur victime : limite ou exclut l'indemnisation si elle a joué un « rôle causal dans la survenance de l'accident » ; arrêt attaqué : CA d'Aix-en-Provence (relu le 25 septembre 2026) |
+| Cass. 2e civ., 19 juin 2025, n° 23-22.911 | `https://juricaf.org/arret/FRANCE-COURDECASSATION-20250619-2322911` | Cassation de CA Aix-en-Provence, 28 sept. 2023. Visa art. 537 CPP : un procès-verbal ne fait pas foi de ce que l'agent n'a pas personnellement constaté. Visa art. 4 : la faute doit être caractérisée comme ayant contribué au dommage ; sa seule gravité ne suffit pas. **Ne pas écrire** que l'arrêt écarte toute faute « qui a seulement causé l'accident » (relu le 25 septembre 2026) |
+| C. route L324-2 | `codes/article_lc/LEGIARTI000033460260` | Circulation sans assurance : 3 750 € d'amende (vérifié le 25 septembre 2026) |
 
 ## Prescription
 
@@ -69,6 +73,8 @@ Préfixe : `https://www.legifrance.gouv.fr/`
 | Service-public F2313 | `https://www.service-public.gouv.fr/particuliers/vosdroits/F2313` | CIVI / FGTI (vérifié par Service-public le 14 août 2026) ; ITT < 1 mois : ressources < plafond AJ partielle (19 433 € pour une personne seule), troubles graves, pas d'autre indemnisation, plafond 4 857 € ; violences sur mineur ou par conjoint/partenaire/concubin avec ITT de 8 à 29 jours : plafond 5 000 € ; les ayants droit d'une victime décédée peuvent être indemnisés de leur préjudice personnel ; le FGTI n'intervient pas pour les accidents de la circulation |
 
 ## Divers
+
+Juridictions (annuaire Service-public relu le 25 septembre 2026) : Cour d'appel de Nîmes, boulevard de la Libération, 30000 Nîmes. Cour d'appel d'Aix-en-Provence : ressort Bouches-du-Rhône, Var, Alpes-Maritimes, Alpes-de-Haute-Provence (le Vaucluse relève de Nîmes, les Hautes-Alpes de Grenoble). Pas de chambre détachée à Nice.
 
 | Texte | Lien |
 |---|---|
