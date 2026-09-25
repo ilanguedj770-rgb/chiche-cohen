@@ -6,9 +6,18 @@
     <atom:link href="https://ig-avocat.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Réponses juridiques sourcées pour les victimes d'accidents de la circulation, d'erreurs médicales, d'agressions et d'accidents de la vie, par Maître Ilan Guedj, avocat au barreau de Marseille.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Thu, 24 Sep 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 09:00:00 +0000</lastBuildDate>
     <managingEditor>contact@ig-avocat.com (Maître Ilan Guedj)</managingEditor>
     <image><url>https://ig-avocat.com/img/og-cover.jpg</url><title>Maître Ilan Guedj</title><link>https://ig-avocat.com/</link></image>
+    <item>
+      <title>Traumatisme crânien : indemnisation et séquelles invisibles</title>
+      <link>https://ig-avocat.com/blog/traumatisme-cranien-indemnisation</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/traumatisme-cranien-indemnisation</guid>
+      <description>Traumatisme crânien après un accident : séquelles cognitives invisibles, expertise, tierce personne de surveillance, tutelle ou curatelle, aggravation.</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Fri, 25 Sep 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-09-25</dc:date>
+    </item>
     <item>
       <title>Infection nosocomiale : indemnisation, ONIAM et CCI</title>
       <link>https://ig-avocat.com/blog/infection-nosocomiale-indemnisation</link>

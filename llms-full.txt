@@ -2,7 +2,7 @@
 
 > Corpus texte intégral du site https://ig-avocat.com, mis à disposition des assistants IA et des moteurs de réponse. Maître Ilan Guedj, avocat au barreau de Marseille, 16 rue Breteuil, 13001 Marseille — activité exclusivement consacrée à la défense des victimes de dommage corporel. Consultation gratuite, aucune avance de frais, honoraires uniquement au résultat. Téléphone : 06 63 46 59 84 — contact@ig-avocat.com.
 
-Version générée le 2026-09-24. Synthèse courte : https://ig-avocat.com/llms.txt
+Version générée le 2026-09-25. Synthèse courte : https://ig-avocat.com/llms.txt
 
 ---
 
@@ -3948,6 +3948,8 @@ C'est légalement possible, mais fortement déconseillé. Sans médecin-recours,
 ## Articles liés
 Expertise médicale
 Préparer son expertise médicale : les 15 jours qui décident de l'indemnisation
+Blessures graves
+Traumatisme crânien : les séquelles invisibles
 Expertise médicale
 Expertise médicale : pourquoi l'expertise judiciaire protège mieux les victimes
 Indemnisation
@@ -4160,6 +4162,8 @@ Oui, mais il doit être documenté. Les séquelles d'un traumatisme crânien —
 ## Articles liés
 Le médecin-recours : pourquoi il est indispensable
 Qui il est, ce qu'il fait, qui le paie.
+Blessures graves
+Traumatisme crânien : les séquelles invisibles
 Expertise amiable ou judiciaire ?
 Quand demander une expertise devant le juge.
 Accident grave : indemnisation et gros postes
@@ -4488,6 +4492,8 @@ Oui. L'assistance temporaire, avant la consolidation, est un poste à part enti�
 ## Articles liés
 Page pivot
 Les postes de préjudice : ce que vous pouvez faire indemniser
+Blessures graves
+Traumatisme crânien : les séquelles invisibles
 Calcul
 Capitaliser un préjudice futur : l'euro de rente
 Blessures graves
@@ -4509,5 +4515,112 @@ Tierce personne — Faites vérifier
 Besoin d'aide
 ## au quotidien ?
 Un besoin mal chiffré se perd pour des années. Le cabinet n'intervient que pour les victimes.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation 100 % gratuite — Honoraires sur résultat uniquement
+
+---
+
+## Traumatisme crânien : indemnisation et séquelles invisibles
+URL : https://ig-avocat.com/blog/traumatisme-cranien-indemnisation
+
+Blessures graves · Traumatisme crânien · Guide 2026
+# Traumatisme crânien : comment faire indemniser des séquelles qui ne se voient pas ?
+L'indemnisation d'un traumatisme crânien se joue sur la reconnaissance de séquelles souvent invisibles : troubles de la mémoire, de l'attention, fatigabilité, irritabilité, perte d'initiative. Une victime qui marche et parle normalement peut avoir besoin d'une surveillance quotidienne et ne plus pouvoir travailler. L'expertise doit donc s'appuyer sur un bilan neuropsychologique et sur le témoignage des proches, et pas seulement sur un examen de quelques minutes. Si la victime ne peut plus défendre seule ses intérêts, une mesure de protection peut être ouverte ; toute transaction avec une victime sous tutelle doit alors être autorisée par le juge (article L. 211-15 du code des assurances).
+Publié le 25 septembre 2026 7 min de lecture Maître Ilan Guedj
+« Il a l'air d'aller bien. » C'est la phrase que les familles de traumatisés crâniens entendent le plus, et celle qui coûte le plus cher à l'indemnisation. Le handicap cognitif ne se voit ni sur une radio ni en consultation : il se voit à la maison, au travail, dans la durée.
+## 1. Un handicap souvent invisible
+Le traumatisme crânien peut laisser des séquelles physiques (épilepsie, troubles de l'équilibre, céphalées), mais ce sont surtout les séquelles cognitives et comportementales qui pèsent sur la vie de la victime et de sa famille :
+- → troubles de la mémoire, de l'attention et de la concentration ;
+- → fatigabilité importante, ralentissement ;
+- → difficultés à planifier, à s'organiser, à prendre des initiatives (troubles dits « exécutifs ») ;
+- → irritabilité, impulsivité, désinhibition, repli sur soi, troubles de l'humeur ;
+- → méconnaissance par la victime elle-même de ses propres difficultés.
+Ces troubles échappent à un examen clinique bref, et la victime peut les minimiser de bonne foi. Le risque est alors une évaluation très en dessous de la réalité, qui se répercute sur tous les postes de préjudice.
+Un traumatisme crânien dit « léger » n'exclut pas des séquelles durables. Des plaintes persistantes (maux de tête, fatigue, troubles de la concentration) doivent être documentées tôt, par des consultations et des examens datés, plutôt que banalisées.
+## 2. L'expertise : là où tout se décide
+L'expert fixe le déficit fonctionnel, les besoins d'aide humaine, l'incidence professionnelle et la date de consolidation. Pour un traumatisme crânien, une expertise de qualité suppose :
+- → un bilan neuropsychologique complet, réalisé par un professionnel indépendant de l'assureur ;
+- → l'avis d'un spécialiste (neurologue, et selon le cas psychiatre ou médecin de rééducation) ;
+- → l'audition des proches, qui seuls peuvent comparer la personnalité et l'autonomie d'avant et d'après l'accident ;
+- → si nécessaire, une évaluation en situation de vie réelle, au domicile, pour mesurer le besoin de surveillance et de stimulation.
+Après un accident de la circulation, la première correspondance de l'assureur doit informer la victime de son droit d'être assistée par un avocat et par le médecin de son choix (art. L. 211-10 C. assur.). Venir à l'expertise avec un médecin-conseil de victimes est ici indispensable. Si l'expertise amiable est insuffisante, une expertise judiciaire peut être demandée (art. 263 et s. CPC).
+## 3. Les postes de préjudice à ne pas oublier
+Poste
+Ce qu'il faut démontrer
+Tierce personne
+Pas seulement l'aide aux gestes physiques : la surveillance, la stimulation, l'aide à l'organisation de la journée et à la gestion administrative, y compris lorsqu'elles sont assurées par un proche.
+Déficit fonctionnel permanent
+Les troubles cognitifs et comportementaux, et leurs répercussions dans la vie quotidienne, pas seulement les séquelles neurologiques visibles.
+Incidence professionnelle et pertes de gains
+La fatigabilité, la lenteur, les troubles de l'attention rendent souvent impossible le retour au poste antérieur, même lorsque la victime « semble » apte.
+Préjudice d'établissement
+La perte de chance de réaliser un projet de vie familiale, lorsque les troubles compromettent la vie de couple ou le projet d'avoir des enfants.
+Préjudices des proches
+Même en cas de survie, les proches peuvent subir un préjudice propre : bouleversement de la vie familiale, rôle d'aidant, changement de personnalité de la victime.
+Les besoins futurs (aide humaine, frais de santé non remboursés, adaptation du logement) sont capitalisés : une sous-évaluation du nombre d'heures d'aide se répercute ainsi sur toute la vie de la victime.
+## 4. Protéger la victime qui ne peut plus défendre seule ses intérêts
+Lorsqu'une personne est dans l'impossibilité de pourvoir seule à ses intérêts en raison d'une altération, médicalement constatée, de ses facultés, elle peut bénéficier d'une mesure de protection juridique (art. 425 C. civ.) : sauvegarde de justice, curatelle ou tutelle, selon le degré d'assistance nécessaire (Service-public). La curatelle est demandée au juge des tutelles, notamment par la personne elle-même, son conjoint ou concubin, un parent ou un proche (Service-public).
+Pour l'indemnisation, la conséquence est directe : l'assureur doit soumettre au juge des tutelles ou au conseil de famille tout projet de transaction concernant un majeur en tutelle, et une transaction non autorisée peut être annulée (art. L. 211-15 C. assur.). La mesure protège aussi les fonds versés, qui doivent financer l'aide dont la victime aura besoin toute sa vie.
+Une victime qui signe seule une transaction alors que ses facultés sont altérées s'expose à un accord très défavorable. Si un proche a un doute, il faut en parler avant toute signature.
+## 5. Consolidation tardive, provision et aggravation
+L'état d'un traumatisé crânien évolue souvent pendant plusieurs années avant d'être consolidé. Il ne faut pas se laisser presser : une consolidation fixée trop tôt fige des séquelles qui n'ont pas fini de se révéler. En attendant, la victime peut obtenir des provisions ; après un accident de la circulation, l'offre de l'assureur est provisionnelle tant qu'il n'a pas été informé de la consolidation (art. L. 211-9 C. assur.).
+Si l'état de la victime s'aggrave après l'indemnisation, une nouvelle demande est possible au titre de l'aggravation : le délai de dix ans court à compter de la consolidation du dommage « initial ou aggravé » (art. 2226 C. civ.).
+## 6. Ce que peuvent faire les proches dès maintenant
+- → Tenir un journal daté des difficultés du quotidien : oublis, colères, fatigue, aide apportée et temps passé.
+- → Rassembler des attestations sur la personne d'avant : collègues, amis, enseignants, employeur.
+- → Conserver tous les comptes rendus : hospitalisation, rééducation, bilans neuropsychologiques, suivi psychologique.
+- → Ne laisser la victime ni signer seule une offre, ni se rendre seule à une expertise.
+## 7. Ce qu'il faut retenir
+- ✓ Les séquelles d'un traumatisme crânien sont souvent cognitives et invisibles : elles doivent être démontrées
+- ✓ L'expertise doit reposer sur un bilan neuropsychologique et le témoignage des proches
+- ✓ La tierce personne inclut la surveillance et la stimulation, pas seulement l'aide physique
+- ✓ Victime sous tutelle : toute transaction doit être autorisée par le juge (L. 211-15 C. assur.)
+- ✓ Ne pas consolider trop tôt ; l'aggravation reste indemnisable
+## Textes et sources
+- § Loi n° 85-677 du 5 juillet 1985 (loi Badinter) — accidents de la circulation
+- § Code des assurances, art. L. 211-9 — offre provisionnelle avant consolidation
+- § Code des assurances, art. L. 211-10 — assistance d'un avocat et d'un médecin
+- § Code des assurances, art. L. 211-15 — transaction concernant un mineur ou un majeur en tutelle
+- § Code civil, art. 2226 — prescription de dix ans, dommage initial ou aggravé
+- § Code civil, art. 425 à 427 — mesures de protection juridique des majeurs
+- § Code de procédure civile, art. 263 à 284-1 — expertise judiciaire
+- § Service-public.fr, tutelle, curatelle, sauvegarde de justice : quelles différences ? (F10424) · Curatelle (F2094)
+- § Rapport du groupe de travail présidé par Jean-Pierre Dintilhac (2005) — nomenclature des postes de préjudice
+Textes consultés le 25 septembre 2026. Information générale : chaque indemnisation dépend du dossier.
+## Questions fréquentes
+### Comment faire reconnaître des séquelles invisibles après un traumatisme crânien ?
+Par un bilan neuropsychologique complet, l'avis d'un spécialiste et le témoignage des proches, qui peuvent comparer la personne avant et après l'accident. Un examen clinique bref ne suffit pas à mesurer les troubles de la mémoire, de l'attention ou du comportement.
+### Un traumatisme crânien léger peut-il être indemnisé ?
+Oui, lorsque des séquelles persistent. Maux de tête, fatigue, troubles de la concentration doivent être documentés tôt par des consultations et des examens datés, pour être discutés à l'expertise.
+### La tierce personne couvre-t-elle la surveillance d'un traumatisé crânien ?
+Oui. L'aide humaine ne se limite pas aux gestes physiques : la surveillance, la stimulation et l'aide à l'organisation de la vie quotidienne font partie du besoin à évaluer, y compris lorsqu'elles sont assurées par un proche.
+### La victime est sous tutelle : l'assureur peut-il transiger directement ?
+Non. L'assureur doit soumettre tout projet de transaction concernant un majeur en tutelle au juge des tutelles ou au conseil de famille ; une transaction non autorisée peut être annulée (article L. 211-15 du code des assurances).
+### Et si l'état de la victime s'aggrave après l'indemnisation ?
+Une nouvelle demande est possible au titre de l'aggravation. Le délai de dix ans de l'article 2226 du code civil court à compter de la consolidation du dommage initial ou aggravé.
+## Articles liés
+Page pivot
+Accident grave : les préjudices importants
+Préjudices
+Tierce personne : l'aide humaine indemnisée
+Expertise
+Expertise après un accident grave : les 15 jours décisifs
+Expertise
+Le médecin-recours, allié de la victime
+Préjudices
+Incidence professionnelle : ce qu'elle indemnise
+Lexique
+Lexique du dommage corporel
+### Un proche traumatisé crânien ?
+Avant l'expertise ou toute offre, faites analyser gratuitement le dossier.
+WhatsApp 06 63 46 59 84
+À retenir
+Séquelles invisibles à démontrer : bilan neuropsychologique + témoignage des proches. Sous tutelle, toute transaction doit être autorisée par le juge.
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+Traumatisme crânien — Faites vérifier
+Il a l'air d'aller bien.
+## Ce n'est pas le cas.
+Le cabinet accompagne les victimes de traumatisme crânien et leurs familles, jamais les assureurs.
 WhatsApp — Réponse immédiate 06 63 46 59 84
 Consultation 100 % gratuite — Honoraires sur résultat uniquement

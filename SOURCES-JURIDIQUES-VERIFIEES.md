@@ -20,6 +20,7 @@ Préfixe : `https://www.legifrance.gouv.fr/`
 | C. assur. L211-9 | `codes/article_lc/LEGIARTI000006795447` | En cas de décès, l'offre est faite aux héritiers et, s'il y a lieu, au conjoint. Offre : 3 mois après la demande (responsabilité non contestée, dommage quantifié) ; 8 mois après l'accident ; offre provisionnelle si consolidation inconnue à 3 mois ; offre définitive 5 mois après l'information sur la consolidation ; le délai le plus favorable s'applique |
 | C. assur. L211-10 | `codes/article_lc/LEGIARTI000006795457` | Première correspondance : droit à l'avocat et au médecin |
 | C. assur. L211-13 | `codes/article_lc/LEGIARTI000006795491` | Intérêts au double du taux légal |
+| C. assur. L211-15 | `codes/article_lc/LEGIARTI000006795514` | Tout projet de transaction concernant un mineur ou un majeur en tutelle est soumis à l'autorisation du juge des tutelles ou du conseil de famille ; avis au juge 15 jours avant le premier paiement au représentant légal ; à défaut, annulation possible à la demande de tout intéressé ou du ministère public, sauf l'assureur |
 | C. assur. L211-16 | `codes/article_lc/LEGIARTI000035731353` | Dénonciation de la transaction dans les 15 jours |
 | C. assur. L421-1 | `codes/article_lc/LEGIARTI000033460248` | FGAO |
 | C. assur. R211-29 à R211-44 | section `LEGISCTA000006175449` | Procédure d'offre |
@@ -70,6 +71,18 @@ Préfixe : `https://www.legifrance.gouv.fr/`
 | CSS L411-2 (accident de trajet) | `codes/article_lc/LEGIARTI000006743008` |
 | CSS L411-1 et L411-2 | section `LEGISCTA000006156122` (Service-public F31881) |
 | Code de la route | `identifiant LEGITEXT000006074228` |
+
+## Protection juridique des majeurs
+
+Vérifiés le 25 septembre 2026.
+
+| Texte | Lien | Teneur vérifiée |
+|---|---|---|
+| C. civ. 425 à 427 | section `codes/id/LEGISCTA000006150531` | Art. 425 : mesure de protection pour la personne dans l'impossibilité de pourvoir seule à ses intérêts en raison d'une altération, médicalement constatée, de ses facultés mentales ou corporelles de nature à empêcher l'expression de sa volonté |
+| Service-public F10424 | `https://www.service-public.gouv.fr/particuliers/vosdroits/F10424` | Sauvegarde de justice, curatelle, tutelle : différences (vérifié par Service-public le 22 juillet 2026) |
+| Service-public F2094 | `https://www.service-public.gouv.fr/particuliers/vosdroits/F2094` | Curatelle : demandée au juge des tutelles par la personne, son conjoint ou concubin, un parent, un proche, le procureur (vérifié par Service-public le 29 juillet 2026) |
+
+Ne pas deviner d'identifiant : `LEGIARTI000006428543`, supposé être l'article 425, renvoie à un arrêté de 1984.
 
 ## Accidents du travail — faute inexcusable
 
