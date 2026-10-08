@@ -2,7 +2,7 @@
 
 > Corpus texte intégral du site https://ig-avocat.com, mis à disposition des assistants IA et des moteurs de réponse. Maître Ilan Guedj, avocat au barreau de Marseille, 16 rue Breteuil, 13001 Marseille — activité exclusivement consacrée à la défense des victimes de dommage corporel. Consultation gratuite, aucune avance de frais, honoraires uniquement au résultat. Téléphone : 06 63 46 59 84 — contact@ig-avocat.com.
 
-Version générée le 2026-09-25. Synthèse courte : https://ig-avocat.com/llms.txt
+Version générée le 2026-10-08. Synthèse courte : https://ig-avocat.com/llms.txt
 
 ---
 
@@ -14,7 +14,7 @@ Version générée le 2026-09-25. Synthèse courte : https://ig-avocat.com/llms.
 URL : https://ig-avocat.com/
 
 Avocat inscrit au barreau de Marseille
-Votre préjudice.
+Avocat en dommage corporel à Marseille Votre préjudice.
 # Notre combat.
 Maître Ilan Guedj est avocat au barreau de Marseille, 16 rue Breteuil. Son activité est consacrée exclusivement à l'indemnisation des victimes de dommage corporel : accidents de la circulation (loi Badinter), erreurs médicales (CCI, ONIAM), agressions (CIVI, FGTI) et accidents de la vie (GAV). Il n'intervient jamais pour un assureur. Première consultation gratuite, 0 € d'avance, honoraires au résultat fixés par convention écrite. Il intervient à Marseille, Aix-en-Provence, Toulon, Nice, Avignon, Nîmes, Montpellier et partout en France.
 Estimer mon indemnisation 06 63 46 59 84
@@ -241,6 +241,7 @@ Nîmes
 CA Nîmes · 120 km
 Toute la France
 Déplacements et visio
+Cabinet : 16 rue Breteuil, 13001 Marseille · 06 63 46 59 84
 Attention avant de partir
 Votre assurance sous-évalue
 ## votre préjudice.
@@ -2193,7 +2194,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 
 ---
 
-## Accident de trottinette électrique : quels sont vos droits ?
+## Accident de trottinette électrique : quelle indemnisation ? (2026)
 URL : https://ig-avocat.com/blog/accident-trottinette-electrique-indemnisation
 
 Accident de la route · EDPM · Guide 2026
@@ -2487,6 +2488,7 @@ Retenir la mauvaise colonne, ou la table du mauvais sexe, suffit à fausser l'en
 Aucun barème de capitalisation n'est imposé par la loi. Plusieurs coexistent, qui ne reposent pas sur les mêmes tables de mortalité ni sur le même taux d'actualisation. Pour une même victime et un même préjudice annuel, ils peuvent donner des capitaux différents.
 Le barème retenu est donc un point de discussion, dans une négociation avec l'assureur comme devant le juge. Le cabinet se réfère au barème publié par la Gazette du Palais en 2025, construit avec un taux d'actualisation de 0,5 % et les tables INSEE les plus récentes, stationnaires (2020-2022) et prospectives (2021-2121).
 Référence : Gazette du Palais, barème de capitalisation publié le 14 janvier 2025 (réf. GPL471y4).
+Pour appliquer ce barème à votre situation (âge, sexe, durée, table), utilisez notre simulateur de capitalisation.
 ## 6. Capital ou rente ?
 Pour certains postes, notamment l'assistance par tierce personne, l'indemnisation peut prendre la forme d'une rente versée périodiquement plutôt que d'un capital. La rente suit la vie de la victime ; le capital lui donne immédiatement la maîtrise des fonds. Le choix dépend de chaque situation et mérite d'être discuté avant d'accepter une offre.
 ## 7. Ce qu'il faut retenir
@@ -2812,7 +2814,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 
 ---
 
-## DFP : comment est indemnisé le déficit fonctionnel permanent ?
+## DFP (déficit fonctionnel permanent) : définition, taux, indemnisation
 URL : https://ig-avocat.com/blog/deficit-fonctionnel-permanent-dfp
 
 Préjudices · Nomenclature Dintilhac · Guide 2026
@@ -2830,6 +2832,7 @@ Référence : Code de procédure civile, articles 263 à 284-1 (l'expertise)
 ## 3. Combien vaut 10 % de DFP ?
 C'est la question la plus posée, et la réponse honnête est qu'il n'existe pas de somme fixe.
 En pratique, le DFP est le plus souvent chiffré en multipliant le taux par une valeur du point. Dans les référentiels indicatifs utilisés par les juridictions, cette valeur varie selon deux paramètres : elle augmente avec le taux — le dixième point de déficit vaut plus que le premier — et elle diminue avec l'âge de la victime à la consolidation, puisque le préjudice sera vécu moins longtemps.
+Pour obtenir un ordre de grandeur à partir de votre âge et de votre taux, avec la grille du référentiel Mornet (septembre 2025), utilisez notre simulateur de DFP : il affiche la valeur du point retenue et le calcul.
 Deux victimes à 10 % de DFP, l'une de 25 ans et l'autre de 70 ans, ne recevront donc pas la même somme au titre de ce poste. Et surtout, le DFP n'est qu'un poste parmi d'autres : un chiffre isolé, présenté comme « le prix » de 10 %, ne dit rien de l'indemnisation totale.
 Les référentiels sont des outils d'aide à la décision. Ils ne lient pas le juge, qui doit assurer la réparation intégrale du préjudice de chaque victime.
 ## 4. Ce que le DFP ne couvre pas
@@ -3156,7 +3159,7 @@ Consultation 100 % gratuite — Honoraires sur résultat uniquement
 
 ---
 
-## Liste des erreurs médicales : types, droits et recours 2026
+## Erreur médicale : que faire ? Délais, plainte et recours (2026)
 URL : https://ig-avocat.com/blog/erreur-medicale-droits-victime
 
 Erreur médicale
@@ -4703,6 +4706,281 @@ L'offre de l'assurance
 Avant d'accepter quoi que ce soit, faites analyser votre dossier gratuitement par le cabinet ILAN GUEDJ. Cette consultation peut changer radicalement votre indemnisation.
 WhatsApp — Réponse immédiate 06 63 46 59 84
 Consultation 100% gratuite — Honoraires sur résultat uniquement
+
+---
+
+## Simulateur DFP et capitalisation : calcul indicatif 2026
+URL : https://ig-avocat.com/blog/simulateur-dfp-capitalisation
+
+Outil gratuit · Préjudices · Référentiels 2025
+# Simulateur : valeur du point de DFP et capitalisation d'un préjudice futur
+Le déficit fonctionnel permanent s'indemnise en multipliant le taux fixé par l'expert par une valeur du point qui dépend de ce taux et de l'âge à la consolidation : le référentiel indicatif Mornet (septembre 2025) en propose une grille. Un préjudice qui se répète chaque année se capitalise en multipliant son montant annuel par le prix de l'euro de rente du barème de la Gazette du Palais 2025. Ces simulateurs donnent un ordre de grandeur, pas un montant garanti : aucun référentiel ne lie le juge.
+Publié le 8 octobre 2026 2 min Maître Ilan Guedj
+Un taux de DFP à 12 %, une aide humaine de trois heures par jour, une perte de salaire jusqu'à la retraite : combien cela représente-t-il ? Ces deux simulateurs appliquent les référentiels publics que les praticiens utilisent pour se faire une première idée, et montrent d'où vient chaque chiffre.
+## 1. Simulateur du déficit fonctionnel permanent
+Indiquez l'âge de la victime à la date de consolidation et le taux de déficit fonctionnel permanent retenu (ou envisagé) par l'expert.
+Âge à la consolidation Taux de DFP (%)
+D'où vient le chiffre. La valeur du point est lue dans la grille du référentiel indicatif de l'indemnisation du préjudice corporel de Benoît Mornet (édition de septembre 2025), à la ligne du taux et à la colonne de l'âge. Elle est multipliée par le taux : 10 % × 2 035 € = 20 350 € pour une victime de 35 ans, par exemple.
+Le taux lui-même se décide à l'expertise médicale : quelques points de différence pèsent souvent davantage que la valeur du point. C'est là que l'assistance d'un médecin-recours se justifie.
+Voir la grille complète de la valeur du point (référentiel Mornet, septembre 2025)
+Taux
+0 à 10 ans
+11 à 20 ans
+21 à 30 ans
+31 à 40 ans
+41 à 50 ans
+51 à 60 ans
+61 à 70 ans
+71 à 80 ans
+81 ans et plus
+1 à 5 %
+2 310 €
+2 150 €
+1 960 €
+1 770 €
+1 580 €
+1 400 €
+1 210 €
+1 050 €
+880 €
+6 à 10 %
+2 670 €
+2 475 €
+2 255 €
+2 035 €
+1 800 €
+1 560 €
+1 320 €
+1 130 €
+935 €
+11 à 15 %
+3 025 €
+2 800 €
+2 550 €
+2 300 €
+2 025 €
+1 730 €
+1 430 €
+1 210 €
+990 €
+16 à 20 %
+3 380 €
+3 135 €
+2 850 €
+2 560 €
+2 245 €
+1 890 €
+1 540 €
+1 290 €
+1 045 €
+21 à 25 %
+3 740 €
+3 465 €
+3 145 €
+2 830 €
+2 465 €
+2 060 €
+1 650 €
+1 375 €
+1 100 €
+26 à 30 %
+4 100 €
+3 795 €
+3 445 €
+3 090 €
+2 685 €
+2 220 €
+1 760 €
+1 455 €
+1 155 €
+31 à 35 %
+4 455 €
+4 125 €
+3 740 €
+3 355 €
+2 905 €
+2 390 €
+1 870 €
+1 540 €
+1 210 €
+36 à 40 %
+4 810 €
+4 455 €
+4 035 €
+3 620 €
+3 125 €
+2 550 €
+1 980 €
+1 620 €
+1 265 €
+41 à 45 %
+5 170 €
+4 785 €
+4 335 €
+3 885 €
+3 345 €
+2 715 €
+2 090 €
+1 705 €
+1 320 €
+46 à 50 %
+5 530 €
+5 115 €
+4 630 €
+4 150 €
+3 565 €
+2 880 €
+2 200 €
+1 790 €
+1 375 €
+51 à 55 %
+5 885 €
+5 445 €
+4 930 €
+4 410 €
+3 785 €
+3 045 €
+2 310 €
+1 870 €
+1 430 €
+56 à 60 %
+6 240 €
+5 775 €
+5 225 €
+4 675 €
+4 005 €
+3 210 €
+2 420 €
+1 950 €
+1 485 €
+61 à 65 %
+6 600 €
+6 105 €
+5 520 €
+4 940 €
+4 225 €
+3 375 €
+2 530 €
+2 035 €
+1 540 €
+66 à 70 %
+6 955 €
+6 435 €
+5 820 €
+5 205 €
+4 445 €
+3 540 €
+2 640 €
+2 115 €
+1 595 €
+71 à 75 %
+7 315 €
+6 765 €
+6 115 €
+5 470 €
+4 665 €
+3 705 €
+2 750 €
+2 200 €
+1 650 €
+76 à 80 %
+7 670 €
+7 095 €
+6 415 €
+5 730 €
+4 885 €
+3 870 €
+2 860 €
+2 280 €
+1 705 €
+81 à 85 %
+8 030 €
+7 425 €
+6 710 €
+5 995 €
+5 105 €
+4 035 €
+2 970 €
+2 365 €
+1 760 €
+86 à 90 %
+8 385 €
+7 755 €
+7 005 €
+6 260 €
+5 325 €
+4 200 €
+3 080 €
+2 445 €
+1 815 €
+91 à 95 %
+8 745 €
+8 085 €
+7 305 €
+6 525 €
+5 545 €
+4 365 €
+3 190 €
+2 530 €
+1 870 €
+96 % et plus
+9 020 €
+8 415 €
+7 600 €
+6 785 €
+5 765 €
+4 530 €
+3 300 €
+2 610 €
+1 925 €
+Source : B. Mornet, L'indemnisation des préjudices en cas de blessures ou de décès, référentiel indicatif, septembre 2025. Valeurs indicatives, sans caractère obligatoire pour le juge.
+## 2. Simulateur de capitalisation d'un préjudice futur
+Pour un préjudice qui se répète chaque année dans l'avenir (aide humaine, perte de revenus, frais renouvelables), indiquez son montant annuel, le sexe et l'âge de la victime à la date du calcul, et la durée de la rente.
+Montant annuel du préjudice (€) Âge à la date du calcul Sexe de la victime FemmeHomme Durée de la rente À vie (rente viagère)Jusqu'à 67 ansJusqu'à 65 ansJusqu'à 64 ansJusqu'à 62 ansJusqu'à 60 ans
+Tables de mortalité Prospectives INSEE 2021-2121Stationnaires INSEE 2020-2022
+D'où vient le chiffre. Le capital est égal au montant annuel multiplié par le prix de l'euro de rente du barème de capitalisation publié par la Gazette du Palais le 14 janvier 2025 (réf. GPL471y4), au taux d'actualisation de 0,5 %. La ligne est l'âge de la victime au jour du calcul, la colonne la durée de la rente. Le détail de la méthode est expliqué dans notre page sur la capitalisation et l'euro de rente.
+Les tables prospectives, qui tiennent compte des gains futurs d'espérance de vie, conduisent à un capital plus élevé, surtout pour une rente viagère. Le barème de la Gazette du Palais 2025 ne publie ces tables que pour la rente viagère et les rentes jusqu'à 65 ou 67 ans ; pour les autres durées, le simulateur applique les tables stationnaires et le signale.
+## 3. Ce que ces simulateurs ne font pas
+- → Ils ne fixent pas le taux : c'est l'expert qui le propose, et il se discute.
+- → Ils ne lient personne : le référentiel Mornet et les barèmes de capitalisation sont des repères, que le juge peut écarter selon la situation de la victime.
+- → Ils ne couvrent que deux calculs : les souffrances endurées, le déficit fonctionnel temporaire, le préjudice esthétique, d'agrément, les pertes de revenus et les frais s'ajoutent et se chiffrent séparément (voir les postes de préjudice).
+- → Ils ne tiennent pas compte d'un éventuel partage de responsabilité ni des sommes déjà versées par les organismes sociaux.
+Avant d'accepter une offre, comparez-la poste par poste avec ces repères : un DFP sous-évalué ou une capitalisation calculée avec la mauvaise table se voient vite. La première consultation au cabinet est gratuite.
+## Questions fréquentes
+### Comment est calculée l'indemnisation du déficit fonctionnel permanent ?
+Le taux de DFP fixé par l'expert est multiplié par une valeur du point, qui dépend de ce taux et de l'âge de la victime à la consolidation. Le référentiel indicatif Mornet (édition de septembre 2025) propose une grille de valeurs du point par tranches de taux et d'âge. Ce n'est qu'un repère : le juge apprécie librement chaque situation.
+### Le résultat du simulateur correspond-il à ce que je vais percevoir ?
+Non. Le simulateur donne un ordre de grandeur à partir de référentiels publics. Le montant réel dépend du rapport d'expertise, de la discussion avec l'assureur ou de la décision du juge, d'un éventuel partage de responsabilité et des autres postes de préjudice, qui s'ajoutent au DFP.
+### Qu'est-ce que le prix de l'euro de rente ?
+C'est le capital qu'il faut verser aujourd'hui pour servir 1 € par an pendant une durée donnée, à vie ou jusqu'à un certain âge. Multiplié par le montant annuel d'un préjudice futur, il donne le capital d'indemnisation. Le simulateur utilise le barème publié par la Gazette du Palais le 14 janvier 2025 (taux d'actualisation de 0,5 %).
+### Tables stationnaires ou prospectives : laquelle choisir ?
+Les tables prospectives anticipent les gains futurs d'espérance de vie et donnent un capital plus élevé, surtout pour une rente viagère. Aucun barème ni aucune table n'est imposé par la loi : le choix se discute avec l'assureur ou devant le juge.
+## Articles liés
+Page pivot
+DFP : comment est-il indemnisé ?
+Préjudices
+Capitalisation : le prix de l'euro de rente expliqué
+Préjudices
+Les postes de préjudice : ce que vous pouvez faire indemniser
+Préjudices
+Tierce personne : comment l'aide humaine est indemnisée
+Expertise
+L'expertise médicale : là où se fixe le taux
+Offre
+Refuser une offre d'assurance : quand et comment
+### Un chiffre à vérifier ?
+Un simulateur donne un ordre de grandeur. Faites analyser gratuitement votre rapport d'expertise ou l'offre reçue.
+WhatsApp 06 63 46 59 84
+À retenir
+DFP = taux × valeur du point (selon l'âge et le taux). Préjudice futur = montant annuel × prix de l'euro de rente. Ce sont des repères indicatifs : ils ne lient pas le juge.
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+Capitalisation — Faites vérifier
+Votre offre capitalise
+## un préjudice futur ?
+Un paramètre mal choisi suffit à fausser tout le calcul. Le cabinet n'intervient que pour les victimes.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation 100 % gratuite — Honoraires sur résultat uniquement
 
 ---
 

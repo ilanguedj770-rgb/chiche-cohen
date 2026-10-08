@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simulateur DFP et capitalisation : calcul indicatif 2026</title>
+  <meta name="description" content="Calculez un ordre de grandeur de votre DFP (référentiel Mornet 2025) et capitalisez un préjudice futur (barème Gazette du Palais 2025)." />
+  <link rel="alternate" type="text/markdown" href="/llms.txt" title="Version texte structurée pour les assistants IA">
+    <link rel="author" href="https://ig-avocat.com/avocat-ilan-guedj">
+    <link rel="canonical" href="https://ig-avocat.com/blog/simulateur-dfp-capitalisation" />
+    <!-- Open Graph -->
+    <meta property="og:title" content="Simulateur DFP et capitalisation : calcul indicatif 2026">
+    <meta property="og:description" content="Calculez un ordre de grandeur de votre DFP (référentiel Mornet 2025) et capitalisez un préjudice futur (barème Gazette du Palais 2025).">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://ig-avocat.com/blog/simulateur-dfp-capitalisation">
+    <meta property="og:image" content="https://ig-avocat.com/img/og-cover.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Maître Ilan Guedj — Avocat dommage corporel à Marseille">
+    <meta property="og:locale" content="fr_FR">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Simulateur DFP et capitalisation : calcul indicatif 2026">
+    <meta name="twitter:description" content="Calculez un ordre de grandeur de votre DFP (référentiel Mornet 2025) et capitalisez un préjudice futur (barème Gazette du Palais 2025).">
+    <meta name="twitter:image" content="https://ig-avocat.com/img/og-cover.jpg">
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WP82S37T');</script>
+  <!-- End Google Tag Manager -->
+
+    <link rel="preload" href="../fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="../fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../css/tailwind.css">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Simulateur DFP et capitalisation : calcul indicatif 2026",
+  "description": "Calculez un ordre de grandeur de votre DFP (référentiel Mornet 2025) et capitalisez un préjudice futur (barème Gazette du Palais 2025).",
+  "datePublished": "2026-10-08",
+  "dateModified": "2026-10-08",
+  "author": {
+    "@type": "Person",
+    "@id": "https://ig-avocat.com/#ilan-guedj",
+    "name": "Maître Ilan Guedj",
+    "url": "https://ig-avocat.com/avocat-ilan-guedj"
+  },
+  "publisher": {
+    "@id": "https://ig-avocat.com/#practice",
+    "@type": "Organization",
+    "name": "Maître Ilan Guedj — Avocat dommage corporel",
+    "url": "https://ig-avocat.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://ig-avocat.com/img/og-cover.jpg"
+    }
+  },
+  "image": "https://ig-avocat.com/img/og-cover.jpg",
+  "mainEntityOfPage": "https://ig-avocat.com/blog/simulateur-dfp-capitalisation",
+  "keywords": "simulateur DFP, calcul DFP, valeur du point DFP, référentiel Mornet 2025, simulateur indemnisation, prix de l'euro de rente, barème de capitalisation Gazette du Palais 2025, calcul capitalisation préjudice",
+  "articleSection": "Préjudices"
+}
+</script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "Simulateur DFP et capitalisation",
+  "url": "https://ig-avocat.com/blog/simulateur-dfp-capitalisation",
+  "applicationCategory": "UtilitiesApplication",
+  "operatingSystem": "Tous navigateurs",
+  "inLanguage": "fr-FR",
+  "isAccessibleForFree": true,
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "EUR"
+  },
+  "creator": {
+    "@id": "https://ig-avocat.com/#ilan-guedj"
+  }
+}
+</script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Accueil",
+      "item": "https://ig-avocat.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Blog",
+      "item": "https://ig-avocat.com/blog/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Simulateur DFP et capitalisation",
+      "item": "https://ig-avocat.com/blog/simulateur-dfp-capitalisation"
+    }
+  ]
+}
+</script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Comment est calculée l'indemnisation du déficit fonctionnel permanent ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Le taux de DFP fixé par l'expert est multiplié par une valeur du point, qui dépend de ce taux et de l'âge de la victime à la consolidation. Le référentiel indicatif Mornet (édition de septembre 2025) propose une grille de valeurs du point par tranches de taux et d'âge. Ce n'est qu'un repère : le juge apprécie librement chaque situation."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Le résultat du simulateur correspond-il à ce que je vais percevoir ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Non. Le simulateur donne un ordre de grandeur à partir de référentiels publics. Le montant réel dépend du rapport d'expertise, de la discussion avec l'assureur ou de la décision du juge, d'un éventuel partage de responsabilité et des autres postes de préjudice, qui s'ajoutent au DFP."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Qu'est-ce que le prix de l'euro de rente ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C'est le capital qu'il faut verser aujourd'hui pour servir 1 € par an pendant une durée donnée, à vie ou jusqu'à un certain âge. Multiplié par le montant annuel d'un préjudice futur, il donne le capital d'indemnisation. Le simulateur utilise le barème publié par la Gazette du Palais le 14 janvier 2025 (taux d'actualisation de 0,5 %)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Tables stationnaires ou prospectives : laquelle choisir ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Les tables prospectives anticipent les gains futurs d'espérance de vie et donnent un capital plus élevé, surtout pour une rente viagère. Aucun barème ni aucune table n'est imposé par la loi : le choix se discute avec l'assureur ou devant le juge."
+      }
+    }
+  ]
+}
+</script>
+
+  <style>body { font-family: 'Inter', sans-serif; }</style>
+  <link rel="icon" type="image/svg+xml" href="../img/favicon.svg">
+    <!-- GEO:ENTITY-GRAPH:START -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://ig-avocat.com/#website",
+      "url": "https://ig-avocat.com/",
+      "name": "Maître Ilan Guedj — Avocat dommage corporel Marseille",
+      "inLanguage": "fr-FR",
+      "publisher": {
+        "@id": "https://ig-avocat.com/#ilan-guedj"
+      },
+      "about": {
+        "@id": "https://ig-avocat.com/#ilan-guedj"
+      },
+      "copyrightHolder": {
+        "@id": "https://ig-avocat.com/#ilan-guedj"
+      },
+      "license": "https://ig-avocat.com/mentions-legales"
+    },
+    {
+      "@type": "LegalService",
+      "additionalType": "https://schema.org/Attorney",
+      "@id": "https://ig-avocat.com/#practice",
+      "name": "Maître Ilan Guedj — Avocat en dommage corporel",
+      "alternateName": [
+        "Cabinet Ilan Guedj",
+        "Ilan Guedj Avocat"
+      ],
+      "url": "https://ig-avocat.com/",
+      "founder": {
+        "@id": "https://ig-avocat.com/#ilan-guedj"
+      },
+      "employee": [
+        {
+          "@id": "https://ig-avocat.com/#ilan-guedj"
+        }
+      ],
+      "telephone": "+33663465984",
+      "email": "contact@ig-avocat.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "16 rue Breteuil",
+        "addressLocality": "Marseille",
+        "postalCode": "13001",
+        "addressRegion": "Provence-Alpes-Côte d'Azur",
+        "addressCountry": "FR"
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=16+Rue+Breteuil+13001+Marseille",
+      "isicV4": "6910",
+      "priceRange": "Consultation initiale gratuite — honoraires uniquement au résultat",
+      "paymentAccepted": "Honoraires de résultat, aucune avance de frais",
+      "currenciesAccepted": "EUR",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Marseille"
+        },
+        {
+          "@type": "City",
+          "name": "Aix-en-Provence"
+        },
+        {
+          "@type": "City",
+          "name": "Toulon"
+        },
+        {
+          "@type": "City",
+          "name": "Nice"
+        },
+        {
+          "@type": "City",
+          "name": "Avignon"
+        },
+        {
+          "@type": "City",
+          "name": "Montpellier"
+        },
+        {
+          "@type": "City",
+          "name": "Nîmes"
+        },
+        {
+          "@type": "City",
+          "name": "Cannes"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Provence-Alpes-Côte d'Azur"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Occitanie"
+        },
+        {
+          "@type": "Country",
+          "name": "France"
+        }
+      ],
+      "knowsAbout": [
+        "Droit du dommage corporel",
+        "Indemnisation des victimes",
+        "Accident de la circulation",
+        "Loi Badinter du 5 juillet 1985",
+        "Accident de moto",
+        "Accident de trottinette électrique (EDPM)",
+        "Victime piéton",
+        "Victime passager",
+        "Erreur médicale",
+        "Infection nosocomiale",
+        "Aléa thérapeutique",
+        "ONIAM",
+        "CCI",
+        "Agression",
+        "CIVI",
+        "FGTI",
+        "Accident de la vie",
+        "Garantie GAV",
+        "Nomenclature Dintilhac",
+        "Référentiel Mornet",
+        "Médecin-recours",
+        "Expertise médicale judiciaire",
+        "Déficit fonctionnel permanent",
+        "Déficit fonctionnel temporaire",
+        "Souffrances endurées",
+        "Préjudice esthétique",
+        "Préjudice d'agrément",
+        "Tierce personne",
+        "Incidence professionnelle",
+        "Préjudice d'angoisse de mort imminente",
+        "Recours des tiers payeurs",
+        "Provision ad litem"
+      ],
+      "knowsLanguage": [
+        "fr-FR",
+        "en"
+      ],
+      "availableLanguage": [
+        "fr",
+        "en"
+      ],
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Barreau de Marseille",
+        "alternateName": "Ordre des avocats du barreau de Marseille",
+        "url": "https://www.barreau-marseille.avocat.fr/"
+      },
+      "publishingPrinciples": "https://ig-avocat.com/mentions-legales",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "19:00"
+        }
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "Prise de contact — victimes",
+          "telephone": "+33663465984",
+          "email": "contact@ig-avocat.com",
+          "availableLanguage": [
+            "fr",
+            "en"
+          ],
+          "areaServed": "FR",
+          "url": "https://ig-avocat.com/contact"
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://ig-avocat.com/#ilan-guedj",
+      "name": "Ilan Guedj",
+      "alternateName": [
+        "Maître Ilan Guedj",
+        "Me Ilan Guedj",
+        "Ilan GUEDJ"
+      ],
+      "honorificPrefix": "Maître",
+      "givenName": "Ilan",
+      "familyName": "Guedj",
+      "jobTitle": "Avocat au barreau de Marseille",
+      "description": "Maître Ilan Guedj est avocat au barreau de Marseille (16 rue Breteuil, 13001 Marseille). Son activité est consacrée exclusivement au droit du dommage corporel : indemnisation des victimes d'accidents de la circulation (loi Badinter), d'erreurs médicales (CCI, ONIAM), d'agressions (CIVI, FGTI) et d'accidents de la vie. Il n'intervient jamais pour une compagnie d'assurance. Consultation initiale gratuite, aucune avance de frais, honoraires uniquement au résultat.",
+      "url": "https://ig-avocat.com/avocat-ilan-guedj",
+      "mainEntityOfPage": {
+        "@id": "https://ig-avocat.com/avocat-ilan-guedj#webpage"
+      },
+      "image": {
+        "@type": "ImageObject",
+        "url": "https://ig-avocat.com/img/associe-guedj.jpg",
+        "caption": "Maître Ilan Guedj, avocat en dommage corporel à Marseille"
+      },
+      "worksFor": {
+        "@id": "https://ig-avocat.com/#practice"
+      },
+      "memberOf": {
+        "@type": "Organization",
+        "name": "Barreau de Marseille",
+        "alternateName": "Ordre des avocats du barreau de Marseille",
+        "url": "https://www.barreau-marseille.avocat.fr/"
+      },
+      "hasOccupation": {
+        "@type": "Occupation",
+        "name": "Avocat",
+        "occupationalCategory": "K1903 — Défense et conseil juridique",
+        "occupationLocation": {
+          "@type": "City",
+          "name": "Marseille"
+        }
+      },
+      "workLocation": {
+        "@type": "Place",
+        "name": "Marseille",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "16 rue Breteuil",
+          "addressLocality": "Marseille",
+          "postalCode": "13001",
+          "addressRegion": "Provence-Alpes-Côte d'Azur",
+          "addressCountry": "FR"
+        }
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "16 rue Breteuil",
+        "addressLocality": "Marseille",
+        "postalCode": "13001",
+        "addressRegion": "Provence-Alpes-Côte d'Azur",
+        "addressCountry": "FR"
+      },
+      "telephone": "+33663465984",
+      "email": "contact@ig-avocat.com",
+      "knowsAbout": [
+        "Droit du dommage corporel",
+        "Indemnisation des victimes",
+        "Accident de la circulation",
+        "Loi Badinter du 5 juillet 1985",
+        "Accident de moto",
+        "Accident de trottinette électrique (EDPM)",
+        "Victime piéton",
+        "Victime passager",
+        "Erreur médicale",
+        "Infection nosocomiale",
+        "Aléa thérapeutique",
+        "ONIAM",
+        "CCI",
+        "Agression",
+        "CIVI",
+        "FGTI",
+        "Accident de la vie",
+        "Garantie GAV",
+        "Nomenclature Dintilhac",
+        "Référentiel Mornet",
+        "Médecin-recours",
+        "Expertise médicale judiciaire",
+        "Déficit fonctionnel permanent",
+        "Déficit fonctionnel temporaire",
+        "Souffrances endurées",
+        "Préjudice esthétique",
+        "Préjudice d'agrément",
+        "Tierce personne",
+        "Incidence professionnelle",
+        "Préjudice d'angoisse de mort imminente",
+        "Recours des tiers payeurs",
+        "Provision ad litem"
+      ],
+      "knowsLanguage": [
+        {
+          "@type": "Language",
+          "name": "Français",
+          "alternateName": "fr"
+        },
+        {
+          "@type": "Language",
+          "name": "Anglais",
+          "alternateName": "en"
+        }
+      ],
+      "sameAs": [
+        "https://www.linkedin.com/in/ilan-guedj/",
+        "https://x.com/Guedj_",
+        "https://consultation.avocat.fr/avocat-marseille/ilan-guedj-53358.html",
+        "https://predictice.com/cabinet/cabinet-ilan-guedj-922092382"
+      ],
+      "subjectOf": [
+        {
+          "@type": "WebPage",
+          "name": "Profil de Maître Ilan Guedj sur l'annuaire officiel des avocats (avocat.fr)",
+          "url": "https://consultation.avocat.fr/avocat-marseille/ilan-guedj-53358.html"
+        },
+        {
+          "@type": "WebPage",
+          "name": "Fiche Cabinet Ilan Guedj sur Predictice",
+          "url": "https://predictice.com/cabinet/cabinet-ilan-guedj-922092382"
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ig-avocat.com/blog/simulateur-dfp-capitalisation#webpage",
+      "url": "https://ig-avocat.com/blog/simulateur-dfp-capitalisation",
+      "name": "Simulateur DFP et capitalisation : calcul indicatif 2026",
+      "isPartOf": {
+        "@id": "https://ig-avocat.com/#website"
+      },
+      "about": {
+        "@id": "https://ig-avocat.com/#ilan-guedj"
+      },
+      "publisher": {
+        "@id": "https://ig-avocat.com/#ilan-guedj"
+      },
+      "reviewedBy": {
+        "@id": "https://ig-avocat.com/#ilan-guedj"
+      },
+      "inLanguage": "fr-FR",
+      "dateModified": "2026-10-08",
+      "description": "Calculez un ordre de grandeur de votre DFP (référentiel Mornet 2025) et capitalisez un préjudice futur (barème Gazette du Palais 2025).",
+      "author": {
+        "@id": "https://ig-avocat.com/#ilan-guedj"
+      },
+      "datePublished": "2026-10-08"
+    }
+  ]
+}
+</script>
+<!-- GEO:ENTITY-GRAPH:END -->
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<link rel="alternate" type="application/rss+xml" title="Guides de Maître Ilan Guedj — flux RSS" href="/feed.xml">
+</head>
+<body class="bg-white text-gray-900 antialiased">
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP82S37T"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- NAVBAR -->
+  <nav id="navbar" class="fixed w-full z-50 bg-white/90 backdrop-blur-xl border-b border-gray-100 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+        <div class="flex justify-between items-center h-24">
+            <a href="../" class="flex-shrink-0 cursor-pointer group">
+                <span class="font-display text-2xl font-bold tracking-tight uppercase group-hover:opacity-80 transition">
+                    ILAN GUEDJ<span class="text-blue-600">.</span>
+                </span>
+            </a>
+
+            <div class="hidden md:flex space-x-10 items-center">
+                <a href="../avocat-ilan-guedj" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">L'Avocat</a>
+                <a href="../#expertises" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Domaines</a>
+                <a href="../honoraires" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Honoraires</a>
+                <a href="../blog/" class="text-sm font-bold text-gray-900 transition duration-300">Blog</a>
+                <a href="../contact" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Contact</a>
+
+                <div class="h-6 w-px bg-gray-200"></div>
+
+                <a href="tel:+33663465984" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition duration-300">
+                    06 63 46 59 84
+                </a>
+
+                <a href="https://wa.me/33663465984"
+                    class="bg-gray-900 text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
+                    <svg class="w-4 h-4 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                    </svg>
+                    WhatsApp
+                </a>
+            </div>
+
+            <div class="md:hidden flex items-center">
+                <button id="mobile-menu-btn" class="text-gray-900 focus:outline-none p-3 -mr-3">
+                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id="mobile-menu"
+        class="hidden md:hidden bg-white/95 backdrop-blur-xl border-b border-gray-100 absolute w-full p-6 shadow-2xl">
+        <a href="../avocat-ilan-guedj" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">L'Avocat</a>
+        <a href="../#expertises" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Domaines</a>
+        <a href="../honoraires" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Honoraires</a>
+        <a href="../blog/" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Blog</a>
+        <a href="../contact" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Contact</a>
+        <a href="tel:+33663465984" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">06 63 46 59 84</a>
+        <a href="https://wa.me/33663465984" class="block py-4 text-lg text-[#25D366] font-bold">WhatsApp</a>
+    </div>
+</nav>
+  <script>
+    (function() {
+      var btn = document.getElementById('mobile-menu-btn');
+      var menu = document.getElementById('mobile-menu');
+      if (btn && menu) {
+        btn.addEventListener('click', function() { menu.classList.toggle('hidden'); });
+      }
+    })();
+  </script>
+
+  <!-- HERO -->
+  <section class="pt-32 pb-12 bg-gradient-to-br from-blue-50 to-paper">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <nav class="flex items-center gap-2 text-sm text-gray-500 mb-8">
+        <a href="../" class="hover:text-gray-900 transition">Accueil</a>
+        <span>/</span>
+        <a href="../blog/" class="hover:text-gray-900 transition">Blog</a>
+        <span>/</span>
+        <span class="text-gray-900 font-medium">Simulateur DFP et capitalisation</span>
+      </nav>
+      <div class="max-w-3xl">
+        <span class="inline-block bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">Outil gratuit · Préjudices · Référentiels 2025</span>
+        <h1 class="text-4xl lg:text-5xl font-black tracking-tighter mb-6 leading-tight">Simulateur&nbsp;: valeur du point de DFP et capitalisation d'un préjudice futur</h1>
+        <!-- GEO:ANSWER:START -->
+<div class="geo-answer" aria-label="Reponse essentielle"><p class="text-lg text-gray-600 leading-relaxed mb-6">Le déficit fonctionnel permanent s'indemnise en multipliant le <strong>taux fixé par l'expert</strong> par une <strong>valeur du point</strong> qui dépend de ce taux et de l'âge à la consolidation&nbsp;: le référentiel indicatif Mornet (septembre 2025) en propose une grille. Un préjudice qui se répète chaque année se capitalise en multipliant son montant annuel par le <strong>prix de l'euro de rente</strong> du barème de la Gazette du Palais 2025. Ces simulateurs donnent un ordre de grandeur, pas un montant garanti&nbsp;: aucun référentiel ne lie le juge.</p></div>
+<!-- GEO:ANSWER:END -->
+        <div class="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-gray-500">
+          <span class="flex items-center gap-2"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg> <time datetime="2026-10-08">Publié le 8 octobre 2026</time></span>
+          <span class="flex items-center gap-2"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg> 2 min</span>
+          <span class="flex items-center gap-2"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg> Maître Ilan Guedj</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENT -->
+  <section class="py-16">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8">
+      <div class="grid lg:grid-cols-3 gap-12">
+
+        <!-- ARTICLE -->
+        <div class="lg:col-span-2">
+          <div class="bg-blue-50 border-l-4 border-blue-500 p-6 rounded-r-xl mb-10">
+            <p class="text-blue-900 font-semibold text-sm">Un taux de DFP à 12&nbsp;%, une aide humaine de trois heures par jour, une perte de salaire jusqu'à la retraite&nbsp;: combien cela représente-t-il&nbsp;? Ces deux simulateurs appliquent les référentiels publics que les praticiens utilisent pour se faire une première idée, et montrent d'où vient chaque chiffre.</p>
+          </div>
+
+          <h2 class="text-2xl font-black mb-4 mt-10" id="dfp">1. Simulateur du déficit fonctionnel permanent</h2>
+          <p class="text-gray-700 leading-relaxed mb-6">Indiquez l'âge de la victime à la date de consolidation et le taux de <a href="deficit-fonctionnel-permanent-dfp" class="text-blue-600 hover:underline">déficit fonctionnel permanent</a> retenu (ou envisagé) par l'expert.</p>
+          <form id="sim-dfp" class="bg-gray-50 border border-gray-100 rounded-2xl p-6 mb-6" onsubmit="return false">
+            <div class="grid sm:grid-cols-2 gap-4 mb-2">
+              <label class="block"><span class="block text-sm font-semibold text-gray-900 mb-2">Âge à la consolidation</span>
+                <input id="dfp-age" type="number" inputmode="numeric" min="0" max="110" value="35" class="w-full border border-gray-300 rounded-xl px-4 py-3 text-base bg-white focus:outline-none focus:border-blue-500"></label>
+              <label class="block"><span class="block text-sm font-semibold text-gray-900 mb-2">Taux de DFP (%)</span>
+                <input id="dfp-taux" type="number" inputmode="numeric" min="1" max="100" value="10" class="w-full border border-gray-300 rounded-xl px-4 py-3 text-base bg-white focus:outline-none focus:border-blue-500"></label>
+            </div>
+            <div id="dfp-out" class="mt-4 bg-white border border-blue-100 rounded-xl p-5" aria-live="polite"></div>
+          </form>
+          <p class="text-gray-700 leading-relaxed mb-4"><strong>D'où vient le chiffre.</strong> La valeur du point est lue dans la grille du référentiel indicatif de l'indemnisation du préjudice corporel de Benoît Mornet (édition de septembre 2025), à la ligne du taux et à la colonne de l'âge. Elle est multipliée par le taux&nbsp;: 10&nbsp;% × 2&nbsp;035&nbsp;€ = 20&nbsp;350&nbsp;€ pour une victime de 35&nbsp;ans, par exemple.</p>
+          <p class="text-gray-700 leading-relaxed mb-8">Le taux lui-même se décide à l'<a href="expertise-medicale-judiciaire" class="text-blue-600 hover:underline">expertise médicale</a>&nbsp;: quelques points de différence pèsent souvent davantage que la valeur du point. C'est là que l'assistance d'un <a href="medecin-recours-victime" class="text-blue-600 hover:underline">médecin-recours</a> se justifie.</p>
+
+          <details class="mb-10 bg-white border border-gray-200 rounded-xl">
+            <summary class="cursor-pointer p-4 font-semibold text-gray-900">Voir la grille complète de la valeur du point (référentiel Mornet, septembre 2025)</summary>
+            <div class="overflow-x-auto px-4 pb-4">
+              <table class="w-full text-xs border border-gray-200 rounded-xl overflow-hidden">
+                <thead class="bg-gray-50"><tr><th class="text-left font-bold p-2 border-b border-gray-200">Taux</th><th class="text-right font-bold p-2 border-b border-gray-200 whitespace-nowrap">0 à 10 ans</th><th class="text-right font-bold p-2 border-b border-gray-200 whitespace-nowrap">11 à 20 ans</th><th class="text-right font-bold p-2 border-b border-gray-200 whitespace-nowrap">21 à 30 ans</th><th class="text-right font-bold p-2 border-b border-gray-200 whitespace-nowrap">31 à 40 ans</th><th class="text-right font-bold p-2 border-b border-gray-200 whitespace-nowrap">41 à 50 ans</th><th class="text-right font-bold p-2 border-b border-gray-200 whitespace-nowrap">51 à 60 ans</th><th class="text-right font-bold p-2 border-b border-gray-200 whitespace-nowrap">61 à 70 ans</th><th class="text-right font-bold p-2 border-b border-gray-200 whitespace-nowrap">71 à 80 ans</th><th class="text-right font-bold p-2 border-b border-gray-200 whitespace-nowrap">81 ans et plus</th></tr></thead>
+                <tbody><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">1 à 5&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;310&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;150&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;960&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;770&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;580&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;400&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;210&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;050&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">880&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">6 à 10&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;670&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;475&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;255&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;035&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;800&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;560&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;320&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;130&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">935&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">11 à 15&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;025&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;800&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;550&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;300&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;025&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;730&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;430&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;210&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">990&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">16 à 20&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;380&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;135&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;850&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;560&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;245&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;890&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;540&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;290&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;045&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">21 à 25&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;740&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;465&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;145&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;830&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;465&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;060&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;650&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;375&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;100&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">26 à 30&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;100&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;795&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;445&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;090&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;685&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;220&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;760&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;455&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;155&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">31 à 35&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;455&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;125&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;740&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;355&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;905&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;390&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;870&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;540&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;210&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">36 à 40&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;810&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;455&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;035&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;620&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;125&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;550&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;980&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;620&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;265&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">41 à 45&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;170&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;785&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;335&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;885&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;345&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;715&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;090&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;705&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;320&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">46 à 50&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;530&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;115&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;630&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;150&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;565&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;880&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;200&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;790&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;375&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">51 à 55&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;885&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;445&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;930&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;410&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;785&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;045&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;310&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;870&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;430&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">56 à 60&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">6&nbsp;240&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;775&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;225&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;675&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;005&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;210&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;420&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;950&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;485&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">61 à 65&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">6&nbsp;600&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">6&nbsp;105&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;520&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;940&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;225&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;375&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;530&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;035&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;540&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">66 à 70&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">6&nbsp;955&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">6&nbsp;435&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;820&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;205&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;445&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;540&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;640&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;115&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;595&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">71 à 75&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">7&nbsp;315&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">6&nbsp;765&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">6&nbsp;115&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;470&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;665&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;705&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;750&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;200&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;650&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">76 à 80&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">7&nbsp;670&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">7&nbsp;095&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">6&nbsp;415&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;730&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;885&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;870&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;860&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;280&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;705&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">81 à 85&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">8&nbsp;030&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">7&nbsp;425&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">6&nbsp;710&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;995&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;105&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;035&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;970&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;365&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;760&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">86 à 90&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">8&nbsp;385&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">7&nbsp;755&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">7&nbsp;005&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">6&nbsp;260&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;325&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;200&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;080&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;445&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;815&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">91 à 95&nbsp;%</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">8&nbsp;745&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">8&nbsp;085&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">7&nbsp;305&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">6&nbsp;525&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;545&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;365&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;190&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;530&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;870&nbsp;€</td></tr><tr><td class="p-2 border-b border-gray-100 font-semibold text-gray-900 whitespace-nowrap">96&nbsp;% et plus</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">9&nbsp;020&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">8&nbsp;415&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">7&nbsp;600&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">6&nbsp;785&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">5&nbsp;765&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">4&nbsp;530&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">3&nbsp;300&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">2&nbsp;610&nbsp;€</td><td class="p-2 border-b border-gray-100 text-gray-700 text-right whitespace-nowrap">1&nbsp;925&nbsp;€</td></tr></tbody>
+              </table>
+              <p class="text-xs text-gray-500 mt-3">Source&nbsp;: B. Mornet, <em>L'indemnisation des préjudices en cas de blessures ou de décès</em>, référentiel indicatif, septembre 2025. Valeurs indicatives, sans caractère obligatoire pour le juge.</p>
+            </div>
+          </details>
+
+          <h2 class="text-2xl font-black mb-4 mt-10" id="capitalisation">2. Simulateur de capitalisation d'un préjudice futur</h2>
+          <p class="text-gray-700 leading-relaxed mb-6">Pour un préjudice qui se répète chaque année dans l'avenir (aide humaine, perte de revenus, frais renouvelables), indiquez son montant annuel, le sexe et l'âge de la victime à la date du calcul, et la durée de la rente.</p>
+          <form id="sim-cap" class="bg-gray-50 border border-gray-100 rounded-2xl p-6 mb-6" onsubmit="return false">
+            <div class="grid sm:grid-cols-2 gap-4 mb-4">
+              <label class="block"><span class="block text-sm font-semibold text-gray-900 mb-2">Montant annuel du préjudice (€)</span>
+                <input id="cap-montant" type="number" inputmode="decimal" min="0" step="100" value="10000" class="w-full border border-gray-300 rounded-xl px-4 py-3 text-base bg-white focus:outline-none focus:border-blue-500"></label>
+              <label class="block"><span class="block text-sm font-semibold text-gray-900 mb-2">Âge à la date du calcul</span>
+                <input id="cap-age" type="number" inputmode="numeric" min="0" max="103" value="40" class="w-full border border-gray-300 rounded-xl px-4 py-3 text-base bg-white focus:outline-none focus:border-blue-500"></label>
+              <label class="block"><span class="block text-sm font-semibold text-gray-900 mb-2">Sexe de la victime</span>
+                <select id="cap-sexe" class="w-full border border-gray-300 rounded-xl px-4 py-3 text-base bg-white focus:outline-none focus:border-blue-500"><option value="F">Femme</option><option value="H">Homme</option></select></label>
+              <label class="block"><span class="block text-sm font-semibold text-gray-900 mb-2">Durée de la rente</span>
+                <select id="cap-duree" class="w-full border border-gray-300 rounded-xl px-4 py-3 text-base bg-white focus:outline-none focus:border-blue-500"><option value="viagere">À vie (rente viagère)</option><option value="67">Jusqu'à 67 ans</option><option value="65">Jusqu'à 65 ans</option><option value="64">Jusqu'à 64 ans</option><option value="62">Jusqu'à 62 ans</option><option value="60">Jusqu'à 60 ans</option></select></label>
+            </div>
+            <label class="block"><span class="block text-sm font-semibold text-gray-900 mb-2">Tables de mortalité</span>
+              <select id="cap-table" class="w-full border border-gray-300 rounded-xl px-4 py-3 text-base bg-white focus:outline-none focus:border-blue-500"><option value="pros">Prospectives INSEE 2021-2121</option><option value="stat">Stationnaires INSEE 2020-2022</option></select></label>
+            <div id="cap-out" class="mt-4 bg-white border border-blue-100 rounded-xl p-5" aria-live="polite"></div>
+          </form>
+          <p class="text-gray-700 leading-relaxed mb-4"><strong>D'où vient le chiffre.</strong> Le capital est égal au montant annuel multiplié par le prix de l'euro de rente du barème de capitalisation publié par la Gazette du Palais le 14&nbsp;janvier 2025 (réf. GPL471y4), au taux d'actualisation de 0,5&nbsp;%. La ligne est l'âge de la victime au jour du calcul, la colonne la durée de la rente. Le détail de la méthode est expliqué dans notre page sur la <a href="capitalisation-prejudice-euro-de-rente" class="text-blue-600 hover:underline">capitalisation et l'euro de rente</a>.</p>
+          <p class="text-gray-700 leading-relaxed mb-8">Les tables prospectives, qui tiennent compte des gains futurs d'espérance de vie, conduisent à un capital plus élevé, surtout pour une rente viagère. Le barème de la Gazette du Palais 2025 ne publie ces tables que pour la rente viagère et les rentes jusqu'à 65 ou 67&nbsp;ans&nbsp;; pour les autres durées, le simulateur applique les tables stationnaires et le signale.</p>
+
+          <h2 class="text-2xl font-black mb-4 mt-10">3. Ce que ces simulateurs ne font pas</h2>
+          <ul class="list-none space-y-2 mb-8">
+            <li class="flex gap-3 text-gray-700"><span class="text-blue-500 font-bold flex-shrink-0">→</span> <span>Ils <strong>ne fixent pas le taux</strong>&nbsp;: c'est l'expert qui le propose, et il se discute.</span></li>
+            <li class="flex gap-3 text-gray-700"><span class="text-blue-500 font-bold flex-shrink-0">→</span> <span>Ils <strong>ne lient personne</strong>&nbsp;: le référentiel Mornet et les barèmes de capitalisation sont des repères, que le juge peut écarter selon la situation de la victime.</span></li>
+            <li class="flex gap-3 text-gray-700"><span class="text-blue-500 font-bold flex-shrink-0">→</span> <span>Ils <strong>ne couvrent que deux calculs</strong>&nbsp;: les souffrances endurées, le déficit fonctionnel temporaire, le préjudice esthétique, d'agrément, les pertes de revenus et les frais s'ajoutent et se chiffrent séparément (voir les <a href="indemnisation-accident-corporel" class="text-blue-600 hover:underline">postes de préjudice</a>).</span></li>
+            <li class="flex gap-3 text-gray-700"><span class="text-blue-500 font-bold flex-shrink-0">→</span> <span>Ils <strong>ne tiennent pas compte</strong> d'un éventuel partage de responsabilité ni des sommes déjà versées par les organismes sociaux.</span></li>
+          </ul>
+          <div class="bg-amber-50 border border-amber-200 rounded-xl p-5 mb-8">
+            <p class="text-amber-900 text-sm leading-relaxed">Avant d'accepter une offre, comparez-la poste par poste avec ces repères&nbsp;: un DFP sous-évalué ou une capitalisation calculée avec la mauvaise table se voient vite. La première consultation au cabinet est gratuite.</p>
+          </div>
+
+          <!-- FAQ -->
+          <div class="mt-12 bg-gray-50 rounded-2xl p-8 border border-gray-100">
+            <h2 class="text-2xl font-black mb-8">Questions fréquentes</h2>
+            <div class="space-y-6">
+              <div class="border-b border-gray-200 pb-6">
+                <h3 class="font-bold text-lg mb-3">Comment est calculée l'indemnisation du déficit fonctionnel permanent ?</h3>
+                <p class="text-gray-600 leading-relaxed">Le taux de DFP fixé par l'expert est multiplié par une valeur du point, qui dépend de ce taux et de l'âge de la victime à la consolidation. Le référentiel indicatif Mornet (édition de septembre 2025) propose une grille de valeurs du point par tranches de taux et d'âge. Ce n'est qu'un repère : le juge apprécie librement chaque situation.</p>
+              </div>
+              <div class="border-b border-gray-200 pb-6">
+                <h3 class="font-bold text-lg mb-3">Le résultat du simulateur correspond-il à ce que je vais percevoir ?</h3>
+                <p class="text-gray-600 leading-relaxed">Non. Le simulateur donne un ordre de grandeur à partir de référentiels publics. Le montant réel dépend du rapport d'expertise, de la discussion avec l'assureur ou de la décision du juge, d'un éventuel partage de responsabilité et des autres postes de préjudice, qui s'ajoutent au DFP.</p>
+              </div>
+              <div class="border-b border-gray-200 pb-6">
+                <h3 class="font-bold text-lg mb-3">Qu'est-ce que le prix de l'euro de rente ?</h3>
+                <p class="text-gray-600 leading-relaxed">C'est le capital qu'il faut verser aujourd'hui pour servir 1 € par an pendant une durée donnée, à vie ou jusqu'à un certain âge. Multiplié par le montant annuel d'un préjudice futur, il donne le capital d'indemnisation. Le simulateur utilise le barème publié par la Gazette du Palais le 14 janvier 2025 (taux d'actualisation de 0,5 %).</p>
+              </div>
+              <div class="">
+                <h3 class="font-bold text-lg mb-3">Tables stationnaires ou prospectives : laquelle choisir ?</h3>
+                <p class="text-gray-600 leading-relaxed">Les tables prospectives anticipent les gains futurs d'espérance de vie et donnent un capital plus élevé, surtout pour une rente viagère. Aucun barème ni aucune table n'est imposé par la loi : le choix se discute avec l'assureur ou devant le juge.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Related articles -->
+          <div class="mt-12">
+            <h2 class="text-xl font-black mb-6">Articles liés</h2>
+            <div class="grid sm:grid-cols-2 gap-4">
+              <a href="deficit-fonctionnel-permanent-dfp" class="block p-5 bg-blue-50 border border-blue-200 rounded-xl hover:shadow-md hover:border-blue-300 transition">
+                <span class="text-xs font-bold text-white bg-blue-600 px-2 py-1 rounded-full">Page pivot</span>
+                <p class="font-bold mt-3 text-sm">DFP&nbsp;: comment est-il indemnisé&nbsp;?</p>
+              </a>
+              <a href="capitalisation-prejudice-euro-de-rente" class="block p-5 bg-white border border-gray-100 rounded-xl hover:shadow-md hover:border-blue-300 transition">
+                <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">Préjudices</span>
+                <p class="font-bold mt-3 text-sm">Capitalisation&nbsp;: le prix de l'euro de rente expliqué</p>
+              </a>
+              <a href="indemnisation-accident-corporel" class="block p-5 bg-white border border-gray-100 rounded-xl hover:shadow-md hover:border-blue-300 transition">
+                <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">Préjudices</span>
+                <p class="font-bold mt-3 text-sm">Les postes de préjudice&nbsp;: ce que vous pouvez faire indemniser</p>
+              </a>
+              <a href="tierce-personne-indemnisation" class="block p-5 bg-white border border-gray-100 rounded-xl hover:shadow-md hover:border-blue-300 transition">
+                <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">Préjudices</span>
+                <p class="font-bold mt-3 text-sm">Tierce personne&nbsp;: comment l'aide humaine est indemnisée</p>
+              </a>
+              <a href="expertise-medicale-judiciaire" class="block p-5 bg-white border border-gray-100 rounded-xl hover:shadow-md hover:border-blue-300 transition">
+                <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">Expertise</span>
+                <p class="font-bold mt-3 text-sm">L'expertise médicale&nbsp;: là où se fixe le taux</p>
+              </a>
+              <a href="refuser-offre-assurance-accident" class="block p-5 bg-white border border-gray-100 rounded-xl hover:shadow-md hover:border-blue-300 transition">
+                <span class="text-xs font-bold text-blue-600 bg-blue-50 px-2 py-1 rounded-full">Offre</span>
+                <p class="font-bold mt-3 text-sm">Refuser une offre d'assurance&nbsp;: quand et comment</p>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- SIDEBAR -->
+        <div class="lg:col-span-1">
+          <div class="sticky top-28 space-y-4">
+            <div class="bg-gray-900 text-white p-6 rounded-2xl">
+              <h3 class="text-xl font-bold mb-2">Un chiffre à vérifier ?</h3>
+              <p class="text-gray-400 text-sm mb-6">Un simulateur donne un ordre de grandeur. Faites analyser gratuitement votre rapport d'expertise ou l'offre reçue.</p>
+              <a href="https://wa.me/33663465984" class="block w-full py-3 bg-[#25D366] text-white rounded-xl font-bold text-center mb-3 hover:bg-green-500 transition">WhatsApp</a>
+              <a href="tel:+33663465984" class="block w-full py-3 bg-white/10 text-white rounded-xl font-bold text-center hover:bg-white/20 transition">06 63 46 59 84</a>
+            </div>
+            <div class="bg-blue-50 border border-blue-100 p-6 rounded-2xl">
+              <p class="font-bold text-sm mb-2 text-blue-900"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M12 17v5"/><path d="M9 10.76a2 2 0 0 1-1.11 1.79l-1.78.9A2 2 0 0 0 5 15.24V16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-.76a2 2 0 0 0-1.11-1.79l-1.78-.9A2 2 0 0 1 15 10.76V7a1 1 0 0 1 1-1 2 2 0 0 0 0-4H8a2 2 0 0 0 0 4 1 1 0 0 1 1 1z"/></svg> À retenir</p>
+              <p class="text-blue-900 text-xs leading-relaxed">DFP = <strong>taux × valeur du point</strong> (selon l'âge et le taux). Préjudice futur = <strong>montant annuel × prix de l'euro de rente</strong>. Ce sont des <strong>repères indicatifs</strong>&nbsp;: ils ne lient pas le juge.</p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100">
+              <p class="font-bold text-sm mb-3">Nos domaines</p>
+              <div class="space-y-2">
+                <a href="../accidents-route" class="block text-sm text-blue-600 hover:underline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"/><circle cx="7" cy="17" r="2"/><path d="M9 17h6"/><circle cx="17" cy="17" r="2"/></svg> Accident de la route</a>
+                <a href="../erreur-medicale" class="block text-sm text-blue-600 hover:underline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M4.8 2.3A.3.3 0 1 0 5 2H4a2 2 0 0 0-2 2v5a6 6 0 0 0 6 6a6 6 0 0 0 6-6V4a2 2 0 0 0-2-2h-1a.2.2 0 1 0 .3.3"/><path d="M8 15v1a6 6 0 0 0 6 6a6 6 0 0 0 6-6v-4"/><circle cx="20" cy="10" r="2"/></svg> Erreur médicale</a>
+                <a href="../agression" class="block text-sm text-blue-600 hover:underline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z"/><path d="M7 21h10"/><path d="M12 3v18"/><path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2"/></svg> Agression</a>
+                <a href="../accidents-vie" class="block text-sm text-blue-600 hover:underline"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"/><path d="M12 9v4"/><path d="M12 17h.01"/></svg> Accident de la vie</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="py-20 bg-ink text-white">
+    <div class="max-w-4xl mx-auto px-6 lg:px-8 text-center">
+      <span class="inline-block bg-blue-600 text-white text-xs font-bold px-4 py-2 rounded-full mb-6 uppercase tracking-widest">Capitalisation — Faites vérifier</span>
+      <h2 class="text-4xl lg:text-5xl font-black tracking-tighter mb-6">Votre offre capitalise<br><span class="text-blue-400">un préjudice futur ?</span></h2>
+      <p class="text-gray-400 text-xl mb-10 max-w-2xl mx-auto">Un paramètre mal choisi suffit à fausser tout le calcul. Le cabinet n'intervient que pour les victimes.</p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a href="https://wa.me/33663465984" class="inline-flex items-center justify-center gap-3 bg-[#25D366] text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-green-500 transition">
+          WhatsApp — Réponse immédiate
+        </a>
+        <a href="tel:+33663465984" class="inline-flex items-center justify-center gap-3 bg-white/10 text-white px-8 py-4 rounded-full text-lg font-bold hover:bg-white/20 transition">
+          06 63 46 59 84
+        </a>
+      </div>
+      <p class="text-gray-500 text-sm mt-6">Consultation 100 % gratuite — Honoraires sur résultat uniquement</p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-ink text-white py-16 border-t border-gray-900">
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between gap-12">
+      <div>
+        <p class="font-display font-bold text-3xl mb-6 tracking-tight">ILAN GUEDJ<span class="text-blue-600">.</span></p>
+        <div class="space-y-3">
+          <a href="tel:+33663465984" class="flex items-center gap-3 text-white hover:text-blue-400 font-bold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 06 63 46 59 84</a>
+          <a href="mailto:contact@ig-avocat.com" class="flex items-center gap-3 text-white hover:text-blue-400 font-bold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg> contact@ig-avocat.com</a>
+          <p class="text-gray-400"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> 16 Rue Breteuil, 13001 Marseille</p>
+        </div>
+      </div>
+      <div class="text-gray-500 flex flex-col gap-2">
+        <a href="../accidents-route" class="hover:text-white transition">Accident de la Route</a>
+        <a href="../erreur-medicale" class="hover:text-white transition">Erreur Médicale</a>
+        <a href="../agression" class="hover:text-white transition">Agression</a>
+        <a href="../accidents-vie" class="hover:text-white transition">Accident de la Vie</a>
+        <a href="../avocat-ilan-guedj" class="hover:text-white transition">Maître Ilan Guedj</a>
+        <a href="../lexique-dommage-corporel" class="hover:text-white transition">Lexique</a>
+        <a href="../mentions-legales" class="hover:text-white transition">Mentions Légales</a>
+        <p class="text-gray-600 text-sm mt-4">© 2026 Maître Ilan Guedj. Tous droits réservés.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+  (function () {
+    var MORNET = [[2310,2150,1960,1770,1580,1400,1210,1050,880],[2670,2475,2255,2035,1800,1560,1320,1130,935],[3025,2800,2550,2300,2025,1730,1430,1210,990],[3380,3135,2850,2560,2245,1890,1540,1290,1045],[3740,3465,3145,2830,2465,2060,1650,1375,1100],[4100,3795,3445,3090,2685,2220,1760,1455,1155],[4455,4125,3740,3355,2905,2390,1870,1540,1210],[4810,4455,4035,3620,3125,2550,1980,1620,1265],[5170,4785,4335,3885,3345,2715,2090,1705,1320],[5530,5115,4630,4150,3565,2880,2200,1790,1375],[5885,5445,4930,4410,3785,3045,2310,1870,1430],[6240,5775,5225,4675,4005,3210,2420,1950,1485],[6600,6105,5520,4940,4225,3375,2530,2035,1540],[6955,6435,5820,5205,4445,3540,2640,2115,1595],[7315,6765,6115,5470,4665,3705,2750,2200,1650],[7670,7095,6415,5730,4885,3870,2860,2280,1705],[8030,7425,6710,5995,5105,4035,2970,2365,1760],[8385,7755,7005,6260,5325,4200,3080,2445,1815],[8745,8085,7305,6525,5545,4365,3190,2530,1870],[9020,8415,7600,6785,5765,4530,3300,2610,1925]];
+    var GP = {"stat":{"H":{"viagere":[64.581,64.16,63.497,62.826,62.147,61.464,60.777,60.086,59.391,58.693,57.991,57.285,56.576,55.864,55.15,54.433,53.715,52.996,52.275,51.556,50.84,50.12,49.4,48.676,47.947,47.216,46.48,45.744,45.002,44.259,43.513,42.763,42.011,41.256,40.499,39.741,38.982,38.22,37.457,36.693,35.928,35.161,34.393,33.626,32.86,32.091,31.325,30.559,29.795,29.035,28.276,27.521,26.771,26.025,25.283,24.543,23.808,23.08,22.357,21.639,20.927,20.224,19.53,18.844,18.167,17.494,16.827,16.173,15.517,14.867,14.22,13.575,12.936,12.3,11.672,11.05,10.435,9.835,9.24,8.657,8.09,7.532,6.987,6.459,5.952,5.469,5.007,4.57,4.164,3.786,3.435,3.111,2.814,2.553,2.311,2.099,1.902,1.734,1.578,1.418,1.252,1.093,0.921,0.592],"67":[54.98,54.473,53.759,53.037,52.309,51.576,50.838,50.097,49.351,48.602,47.849,47.092,46.331,45.567,44.8,44.03,43.258,42.484,41.708,40.932,40.157,39.379,38.599,37.814,37.025,36.232,35.435,34.636,33.832,33.025,32.214,31.399,30.582,29.76,28.935,28.108,27.278,26.445,25.609,24.77,23.929,23.084,22.237,21.387,20.536,19.68,18.824,17.964,17.103,16.241,15.376,14.509,13.641,12.77,11.897,11.019,10.138,9.254,8.365,7.471,6.57,5.663,4.749,3.825,2.891,1.943,0.98,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"65":[53.781,53.263,52.542,51.815,51.079,50.341,49.597,48.849,48.097,47.341,46.582,45.818,45.051,44.28,43.507,42.73,41.951,41.17,40.387,39.605,38.823,38.037,37.249,36.457,35.66,34.86,34.055,33.248,32.436,31.621,30.802,29.98,29.154,28.323,27.491,26.655,25.816,24.974,24.129,23.281,22.43,21.576,20.718,19.858,18.996,18.13,17.262,16.391,15.518,14.643,13.764,12.883,12.0,11.114,10.224,9.33,8.43,7.527,6.617,5.701,4.776,3.844,2.902,1.949,0.982,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"64":[53.164,52.64,51.916,51.185,50.447,49.705,48.958,48.206,47.451,46.692,45.93,45.163,44.392,43.618,42.841,42.061,41.279,40.494,39.708,38.922,38.136,37.346,36.555,35.759,34.958,34.154,33.345,32.534,31.718,30.899,30.076,29.249,28.419,27.584,26.747,25.907,25.064,24.217,23.367,22.514,21.659,20.799,19.936,19.071,18.204,17.332,16.458,15.581,14.702,13.82,12.934,12.047,11.156,10.262,9.364,8.46,7.551,6.638,5.717,4.789,3.853,2.908,1.952,0.983,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"62":[51.896,51.361,50.63,49.893,49.148,48.399,47.645,46.887,46.126,45.36,44.59,43.817,43.039,42.258,41.475,40.688,39.898,39.106,38.313,37.519,36.725,35.928,35.128,34.325,33.516,32.703,31.887,31.067,30.243,29.415,28.584,27.748,26.91,26.066,25.22,24.371,23.518,22.662,21.802,20.94,20.074,19.204,18.331,17.455,16.576,15.693,14.808,13.918,13.026,12.131,11.231,10.329,9.422,8.512,7.596,6.674,5.746,4.812,3.87,2.919,1.957,0.985,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"60":[50.587,50.041,49.303,48.558,47.806,47.051,46.29,45.526,44.757,43.984,43.208,42.427,41.642,40.854,40.064,39.269,38.472,37.673,36.872,36.07,35.269,34.463,33.656,32.844,32.027,31.206,30.381,29.553,28.72,27.884,27.044,26.199,25.351,24.499,23.644,22.785,21.923,21.057,20.187,19.314,18.438,17.558,16.674,15.787,14.896,14.001,13.103,12.201,11.295,10.386,9.472,8.555,7.632,6.705,5.771,4.831,3.883,2.927,1.962,0.987,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]},"F":{"viagere":[68.606,68.175,67.532,66.88,66.221,65.557,64.89,64.219,63.544,62.865,62.183,61.497,60.808,60.117,59.423,58.726,58.026,57.323,56.616,55.911,55.201,54.488,53.772,53.053,52.33,51.603,50.873,50.138,49.4,48.661,47.919,47.173,46.424,45.672,44.918,44.162,43.403,42.64,41.875,41.108,40.341,39.57,38.799,38.027,37.252,36.477,35.701,34.923,34.146,33.368,32.594,31.819,31.047,30.274,29.502,28.73,27.959,27.186,26.417,25.648,24.881,24.116,23.353,22.592,21.834,21.078,20.325,19.573,18.819,18.067,17.317,16.572,15.829,15.086,14.348,13.619,12.897,12.185,11.482,10.787,10.104,9.439,8.792,8.163,7.554,6.968,6.403,5.865,5.358,4.877,4.427,4.013,3.64,3.292,2.973,2.681,2.41,2.166,1.935,1.721,1.491,1.255,0.973,0.588],"67":[55.826,55.289,54.578,53.86,53.135,52.404,51.67,50.932,50.19,49.444,48.693,47.94,47.182,46.422,45.658,44.891,44.12,43.346,42.568,41.789,41.006,40.219,39.429,38.635,37.836,37.034,36.228,35.416,34.602,33.784,32.964,32.138,31.309,30.477,29.641,28.801,27.959,27.111,26.261,25.407,24.551,23.69,22.828,21.961,21.092,20.219,19.343,18.464,17.581,16.696,15.809,14.918,14.025,13.127,12.226,11.321,10.411,9.496,8.576,7.651,6.721,5.784,4.841,3.891,2.932,1.965,0.988,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"65":[54.512,53.964,53.247,52.521,51.789,51.052,50.311,49.566,48.817,48.064,47.307,46.546,45.781,45.014,44.243,43.468,42.69,41.909,41.123,40.337,39.547,38.753,37.954,37.153,36.346,35.536,34.722,33.903,33.081,32.255,31.426,30.593,29.756,28.915,28.07,27.222,26.371,25.515,24.656,23.793,22.928,22.058,21.186,20.31,19.43,18.547,17.661,16.771,15.878,14.982,14.083,13.18,12.275,11.364,10.45,9.531,8.607,7.677,6.742,5.801,4.854,3.899,2.938,1.968,0.989,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"64":[53.843,53.29,52.569,51.84,51.105,50.364,49.62,48.871,48.119,47.362,46.601,45.837,45.069,44.297,43.523,42.745,41.963,41.178,40.388,39.599,38.804,38.006,37.204,36.398,35.588,34.774,33.956,33.133,32.306,31.477,30.644,29.806,28.965,28.12,27.271,26.419,25.563,24.702,23.839,22.972,22.102,21.227,20.35,19.469,18.585,17.697,16.806,15.91,15.012,14.11,13.205,12.296,11.384,10.467,9.546,8.62,7.689,6.751,5.808,4.859,3.904,2.94,1.969,0.989,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"62":[52.484,51.919,51.191,50.455,49.713,48.965,48.213,47.458,46.698,45.934,45.166,44.394,43.619,42.84,42.059,41.273,40.483,39.691,38.894,38.096,37.294,36.488,35.678,34.865,34.046,33.224,32.398,31.567,30.732,29.894,29.053,28.207,27.357,26.503,25.646,24.785,23.92,23.051,22.178,21.302,20.422,19.538,18.651,17.76,16.866,15.967,15.066,14.159,13.25,12.336,11.419,10.498,9.573,8.643,7.709,6.768,5.822,4.869,3.911,2.945,1.972,0.99,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null],"60":[51.096,50.52,49.785,49.042,48.292,47.537,46.778,46.015,45.248,44.477,43.701,42.922,42.14,41.353,40.564,39.771,38.974,38.173,37.369,36.563,35.753,34.939,34.121,33.299,32.473,31.642,30.808,29.968,29.125,28.279,27.429,26.574,25.716,24.853,23.987,23.117,22.243,21.365,20.483,19.597,18.708,17.814,16.917,16.016,15.111,14.202,13.29,12.372,11.451,10.526,9.597,8.663,7.725,6.782,5.833,4.878,3.917,2.949,1.974,0.991,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null]}},"pros":{"H":{"viagere":[71.799,71.469,70.852,70.222,69.506,68.783,68.053,67.316,66.574,65.826,65.072,64.314,63.55,62.781,62.008,61.231,60.452,59.67,58.886,58.103,57.318,56.529,55.737,54.938,54.134,53.327,52.516,51.704,50.884,50.06,49.232,48.398,47.562,46.722,45.877,45.028,44.174,43.317,42.458,41.594,40.728,39.857,38.983,38.107,37.232,36.355,35.481,34.604,33.73,32.857,31.986,31.119,30.253,29.39,28.53,27.673,26.82,25.974,25.131,24.296,23.467,22.647,21.836,21.031,20.233,19.438,18.648,17.868,17.094,16.33,15.575],"67":[55.878,55.4,54.696,53.982,53.247,52.506,51.759,51.008,50.253,49.493,48.728,47.96,47.187,46.411,45.63,44.847,44.061,43.274,42.485,41.695,40.904,40.109,39.312,38.51,37.704,36.894,36.082,35.268,34.448,33.625,32.798,31.967,31.133,30.296,29.454,28.61,27.761,26.909,26.055,25.196,24.335,23.47,22.602,21.731,20.859,19.984,19.108,18.23,17.351,16.469,15.586,14.702,13.815,12.927,12.035,11.141,10.244,9.345,8.441,7.533,6.621,5.703,4.779,3.846,2.904,1.95,0.982,null,null,null,null],"65":[54.525,54.034,53.323,52.602,51.861,51.115,50.363,49.606,48.845,48.08,47.31,46.536,45.758,44.977,44.191,43.402,42.611,41.818,41.024,40.229,39.432,38.631,37.828,37.02,36.208,35.393,34.575,33.754,32.929,32.1,31.267,30.429,29.59,28.746,27.899,27.048,26.193,25.334,24.473,23.608,22.741,21.869,20.993,20.115,19.236,18.353,17.469,16.582,15.694,14.803,13.91,13.015,12.118,11.217,10.313,9.405,8.494,7.579,6.658,5.732,4.8,3.861,2.913,1.955,0.984,null,null,null,null,null,null]},"F":{"viagere":[73.181,72.797,72.179,71.55,70.864,70.171,69.473,68.77,68.061,67.348,66.63,65.909,65.183,64.454,63.721,62.984,62.245,61.502,60.754,60.005,59.25,58.492,57.73,56.964,56.193,55.417,54.638,53.855,53.069,52.278,51.484,50.685,49.883,49.076,48.266,47.453,46.637,45.818,44.997,44.172,43.344,42.514,41.682,40.845,40.008,39.169,38.329,37.489,36.65,35.809,34.968,34.129,33.29,32.451,31.611,30.769,29.927,29.084,28.244,27.402,26.565,25.73,24.894,24.058,23.222,22.386,21.551,20.717,19.889,19.063,18.24],"67":[56.147,55.619,54.911,54.193,53.465,52.731,51.993,51.25,50.504,49.753,48.998,48.24,47.478,46.712,45.943,45.171,44.396,43.617,42.834,42.049,41.259,40.466,39.669,38.868,38.063,37.254,36.441,35.624,34.805,33.981,33.154,32.322,31.486,30.647,29.804,28.958,28.108,27.255,26.4,25.54,24.677,23.811,22.941,22.068,21.192,20.312,19.43,18.545,17.659,16.768,15.875,14.98,14.081,13.179,12.273,11.362,10.446,9.526,8.602,7.673,6.739,5.799,4.853,3.899,2.938,1.968,0.989,null,null,null,null],"65":[54.774,54.235,53.52,52.795,52.06,51.32,50.575,49.826,49.073,48.316,47.555,46.79,46.022,45.249,44.474,43.695,42.913,42.128,41.338,40.546,39.749,38.949,38.146,37.338,36.526,35.71,34.89,34.066,33.239,32.408,31.574,30.734,29.892,29.045,28.195,27.341,26.484,25.623,24.759,23.892,23.021,22.146,21.268,20.386,19.502,18.613,17.722,16.828,15.931,15.031,14.128,13.221,12.311,11.397,10.479,9.555,8.627,7.694,6.755,5.811,4.862,3.905,2.942,1.97,0.99,null,null,null,null,null,null]}}};
+    var AGES = ['0 à 10 ans','11 à 20 ans','21 à 30 ans','31 à 40 ans','41 à 50 ans','51 à 60 ans','61 à 70 ans','71 à 80 ans','81 ans et plus'];
+    function eur(x) { return Math.round(x).toLocaleString('fr-FR') + '\u00a0€'; }
+    function num(x, d) { return x.toLocaleString('fr-FR', {minimumFractionDigits: d, maximumFractionDigits: d}); }
+    function line(label, value, strong) {
+      return '<div class="flex justify-between gap-4 py-1"><span class="text-gray-600 text-sm">' + label + '</span><span class="' + (strong ? 'text-xl font-black text-gray-900' : 'font-semibold text-gray-900') + ' text-right">' + value + '</span></div>';
+    }
+    function warn(t) { return '<p class="text-sm text-amber-900">' + t + '</p>'; }
+    function dfp() {
+      var age = parseInt(document.getElementById('dfp-age').value, 10);
+      var taux = parseInt(document.getElementById('dfp-taux').value, 10);
+      var out = document.getElementById('dfp-out');
+      if (isNaN(age) || age < 0 || age > 120 || isNaN(taux) || taux < 1 || taux > 100) { out.innerHTML = warn('Indiquez un âge et un taux compris entre 1 et 100\u00a0%.'); return; }
+      var col = age <= 10 ? 0 : Math.min(8, Math.floor((age - 1) / 10));
+      var row = taux >= 96 ? 19 : Math.floor((taux - 1) / 5);
+      var point = MORNET[row][col];
+      out.innerHTML = line('Tranche d\'âge', AGES[col]) + line('Valeur du point (taux ' + taux + '\u00a0%)', eur(point)) +
+        '<div class="border-t border-gray-100 my-2"></div>' + line('Ordre de grandeur du DFP', eur(point * taux), true) +
+        '<p class="text-xs text-gray-500 mt-2">' + taux + ' × ' + eur(point) + ' — référentiel indicatif Mornet, septembre 2025. Repère non contraignant pour le juge.</p>';
+    }
+    function cap() {
+      var m = parseFloat(document.getElementById('cap-montant').value);
+      var age = parseInt(document.getElementById('cap-age').value, 10);
+      var sx = document.getElementById('cap-sexe').value;
+      var du = document.getElementById('cap-duree').value;
+      var tb = document.getElementById('cap-table').value;
+      var out = document.getElementById('cap-out');
+      if (isNaN(m) || m < 0 || isNaN(age) || age < 0) { out.innerHTML = warn('Indiquez un montant annuel et un âge.'); return; }
+      var note = '';
+      var col = GP[tb] && GP[tb][sx] ? GP[tb][sx][du] : null;
+      if (tb === 'pros' && (!col || col[age] == null)) {
+        note = 'Tables prospectives non publiées pour ce cas dans le barème\u00a0: tables stationnaires appliquées.';
+        tb = 'stat'; col = GP.stat[sx][du];
+      }
+      var prix = col ? col[age] : null;
+      if (prix == null) {
+        out.innerHTML = warn(du === 'viagere' ? 'Âge hors du barème publié.' : 'La victime a déjà atteint ou dépassé l\'âge de fin de la rente\u00a0: choisissez une autre durée.');
+        return;
+      }
+      out.innerHTML = line('Prix de l\'euro de rente', num(prix, 3)) + line('Montant annuel', eur(m)) +
+        '<div class="border-t border-gray-100 my-2"></div>' + line('Capital indicatif', eur(m * prix), true) +
+        '<p class="text-xs text-gray-500 mt-2">' + eur(m) + ' × ' + num(prix, 3) + ' — barème Gazette du Palais 2025, taux 0,5\u00a0%, tables ' + (tb === 'pros' ? 'prospectives INSEE 2021-2121' : 'stationnaires INSEE 2020-2022') + ', ' + (sx === 'F' ? 'femme' : 'homme') + '.</p>' +
+        (note ? '<p class="text-xs text-amber-800 mt-1">' + note + '</p>' : '');
+    }
+    ['dfp-age','dfp-taux'].forEach(function (id) { document.getElementById(id).addEventListener('input', dfp); });
+    ['cap-montant','cap-age','cap-sexe','cap-duree','cap-table'].forEach(function (id) {
+      var el = document.getElementById(id); el.addEventListener('input', cap); el.addEventListener('change', cap);
+    });
+    dfp(); cap();
+  })();
+  </script>
+</body>
+</html>

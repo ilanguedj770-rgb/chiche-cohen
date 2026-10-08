@@ -6,9 +6,18 @@
     <atom:link href="https://ig-avocat.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Réponses juridiques sourcées pour les victimes d'accidents de la circulation, d'erreurs médicales, d'agressions et d'accidents de la vie, par Maître Ilan Guedj, avocat au barreau de Marseille.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Fri, 25 Sep 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 09:00:00 +0000</lastBuildDate>
     <managingEditor>contact@ig-avocat.com (Maître Ilan Guedj)</managingEditor>
     <image><url>https://ig-avocat.com/img/og-cover.jpg</url><title>Maître Ilan Guedj</title><link>https://ig-avocat.com/</link></image>
+    <item>
+      <title>Simulateur DFP et capitalisation : calcul indicatif 2026</title>
+      <link>https://ig-avocat.com/blog/simulateur-dfp-capitalisation</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/simulateur-dfp-capitalisation</guid>
+      <description>Calculez un ordre de grandeur de votre DFP (référentiel Mornet 2025) et capitalisez un préjudice futur (barème Gazette du Palais 2025).</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Thu, 08 Oct 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-10-08</dc:date>
+    </item>
     <item>
       <title>Traumatisme crânien : indemnisation et séquelles invisibles</title>
       <link>https://ig-avocat.com/blog/traumatisme-cranien-indemnisation</link>
@@ -109,10 +118,10 @@
       <dc:date>2026-09-22</dc:date>
     </item>
     <item>
-      <title>DFP : comment est indemnisé le déficit fonctionnel permanent ?</title>
+      <title>DFP (déficit fonctionnel permanent) : définition, taux, indemnisation</title>
       <link>https://ig-avocat.com/blog/deficit-fonctionnel-permanent-dfp</link>
       <guid isPermaLink="true">https://ig-avocat.com/blog/deficit-fonctionnel-permanent-dfp</guid>
-      <description>Déficit fonctionnel permanent : ce que mesure le taux, qui le fixe, pourquoi 10 % de DFP ne vaut pas une somme fixe, et ce que le DFP ne couvre pas.</description>
+      <description>DFP : le déficit fonctionnel permanent mesure en % les séquelles définitives. Qui fixe le taux, comment il est chiffré (point, âge), ce qu&#x27;il ne couvre pas.</description>
       <dc:creator>Maître Ilan Guedj</dc:creator>
       <pubDate>Tue, 22 Sep 2026 09:00:00 +0000</pubDate>
       <dc:date>2026-09-22</dc:date>
@@ -190,10 +199,10 @@
       <dc:date>2026-08-27</dc:date>
     </item>
     <item>
-      <title>Accident de trottinette électrique : quels sont vos droits ?</title>
+      <title>Accident de trottinette électrique : quelle indemnisation ? (2026)</title>
       <link>https://ig-avocat.com/blog/accident-trottinette-electrique-indemnisation</link>
       <guid isPermaLink="true">https://ig-avocat.com/blog/accident-trottinette-electrique-indemnisation</guid>
-      <description>Accident de trottinette électrique (EDPM) : loi Badinter, indemnisation de l&#x27;utilisateur et du piéton, assurance obligatoire et rôle du FGAO.</description>
+      <description>Piéton percuté, utilisateur blessé, trottinette sans assurance : qui vous indemnise (loi Badinter, assureur, FGAO) et comment obtenir réparation.</description>
       <dc:creator>Maître Ilan Guedj</dc:creator>
       <pubDate>Wed, 01 Jul 2026 09:00:00 +0000</pubDate>
       <dc:date>2026-09-25</dc:date>
@@ -280,10 +289,10 @@
       <dc:date>2026-09-22</dc:date>
     </item>
     <item>
-      <title>Liste des erreurs médicales : types, droits et recours 2026</title>
+      <title>Erreur médicale : que faire ? Délais, plainte et recours (2026)</title>
       <link>https://ig-avocat.com/blog/erreur-medicale-droits-victime</link>
       <guid isPermaLink="true">https://ig-avocat.com/blog/erreur-medicale-droits-victime</guid>
-      <description>Erreur médicale : délai pour agir contre un hôpital ou un médecin (10 ans après consolidation), plainte pénale, CCI et ONIAM. Les droits de la victime.</description>
+      <description>Erreur médicale : erreurs fréquentes, délai pour agir contre un hôpital (10 ans après consolidation), plainte, CCI, ONIAM. Que faire, étape par étape.</description>
       <dc:creator>Maître Ilan Guedj</dc:creator>
       <pubDate>Tue, 17 Feb 2026 09:00:00 +0000</pubDate>
       <dc:date>2026-09-25</dc:date>
