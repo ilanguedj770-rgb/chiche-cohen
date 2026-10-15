@@ -6,9 +6,18 @@
     <atom:link href="https://ig-avocat.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Réponses juridiques sourcées pour les victimes d'accidents de la circulation, d'erreurs médicales, d'agressions et d'accidents de la vie, par Maître Ilan Guedj, avocat au barreau de Marseille.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Thu, 08 Oct 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 09:00:00 +0000</lastBuildDate>
     <managingEditor>contact@ig-avocat.com (Maître Ilan Guedj)</managingEditor>
     <image><url>https://ig-avocat.com/img/og-cover.jpg</url><title>Maître Ilan Guedj</title><link>https://ig-avocat.com/</link></image>
+    <item>
+      <title>ONIAM : son barème ne s&#x27;impose pas au juge (jugement 2026)</title>
+      <link>https://ig-avocat.com/blog/oniam-referentiel-tribunal-alea-therapeutique</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/oniam-referentiel-tribunal-alea-therapeutique</guid>
+      <description>Le barème de l&#x27;ONIAM ne s&#x27;impose pas au juge : TJ Marseille, 24 sept. 2026, 73 420 € accordés contre 56 490 € proposés après une cataracte compliquée.</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Thu, 15 Oct 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-10-15</dc:date>
+    </item>
     <item>
       <title>Simulateur DFP et capitalisation : calcul indicatif 2026</title>
       <link>https://ig-avocat.com/blog/simulateur-dfp-capitalisation</link>

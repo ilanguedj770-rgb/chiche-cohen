@@ -59,6 +59,7 @@ Préfixe : `https://www.legifrance.gouv.fr/`
 | CSP L1142-8 | `codes/article_lc/LEGIARTI000021940570` | Avis de la CCI dans les 6 mois de la saisine |
 | CSP L1142-14 | `codes/article_lc/LEGIARTI000025076528` | Offre de l'assureur 4 mois après l'avis ; paiement 1 mois après acceptation ; sinon intérêts doublés |
 | CSP L1142-17 | `codes/article_lc/LEGIARTI000006686023` | Offre de l'ONIAM 4 mois ; paiement 1 mois |
+| CSP L1142-20 | `codes/article_lc/LEGIARTI000006686029` | Action en justice de la victime contre l'ONIAM si aucune offre ou offre non acceptée ; juridiction compétente selon le fait générateur (vérifié le 15 octobre 2026) |
 | CSP L1142-28 | `codes/article_lc/LEGIARTI000033810165` | 10 ans à compter de la consolidation |
 | CSP D1142-1 | `codes/article_lc/LEGIARTI000023458773` | Seuils de gravité (Service-public F13318, vérifié le 13 mars 2026) : AIPP **supérieure à 24 %** ; ou arrêt temporaire des activités professionnelles d'au moins 6 mois consécutifs (ou 6 mois non consécutifs sur 12 mois) ; ou DFT d'au moins 50 % pendant la même durée ; à titre exceptionnel, inaptitude définitive à l'activité professionnelle ou troubles particulièrement graves dans les conditions d'existence |
 
