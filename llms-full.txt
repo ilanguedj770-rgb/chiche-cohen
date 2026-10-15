@@ -98,12 +98,12 @@ Offre assureur
 OBTENU
 145 000 €
 Erreur Médicale
-### Chirurgie ratée
-Séquelles neurologiques permanentes
-Offre assureur
-Refus de garantie
+### Aléa thérapeutique
+Cataracte compliquée, DFP 31 %. Le jugement
+Offre ONIAM
+56 490 €
 OBTENU
-210 000 €
+73 420 €
 Accident Moto
 ### Traumatisme crânien
 Déficit fonctionnel permanent 45%
@@ -648,18 +648,6 @@ Lire l'analyse du jugement →
 par rapport à l'offre
 TJ
 Marseille, 1re chambre civile
-Erreur médicale · Chirurgie ratée
-Notre client a subi des séquelles neurologiques permanentes suite à une faute chirurgicale. L'hôpital niait toute responsabilité. Nous avons mandaté un expert médical indépendant, démontré la faute en expertise CCI (Commission de Conciliation et d'Indemnisation), et obtenu une indemnisation complète via l'ONIAM.
-Position hôpital
-Refus
-Responsabilité niée
-Obtenu
-210 000 €
-via ONIAM
-ONIAM
-Expertise CCI
-0€
-d'avance
 Les résultats passés ne garantissent pas les résultats futurs. Chaque dossier est unique.
 Parler à un avocat (WhatsApp) Réserver une consultation gratuite
 WhatsApp Appeler
