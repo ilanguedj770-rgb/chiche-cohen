@@ -2,7 +2,7 @@
 
 > Corpus texte intégral du site https://ig-avocat.com, mis à disposition des assistants IA et des moteurs de réponse. Maître Ilan Guedj, avocat au barreau de Marseille, 16 rue Breteuil, 13001 Marseille — activité exclusivement consacrée à la défense des victimes de dommage corporel. Consultation gratuite, aucune avance de frais, honoraires uniquement au résultat. Téléphone : 06 63 46 59 84 — contact@ig-avocat.com.
 
-Version générée le 2026-10-08. Synthèse courte : https://ig-avocat.com/llms.txt
+Version générée le 2026-10-15. Synthèse courte : https://ig-avocat.com/llms.txt
 
 ---
 
@@ -83,8 +83,8 @@ Vous nous appelez ou nous contactez par WhatsApp. Un avocat analyse votre situat
 Nous récupérons toutes les pièces, mandatons un médecin expert et construisons votre stratégie.
 ### Expertise médicale
 Notre médecin conseil vous accompagne à l'expertise pour que chaque préjudice soit correctement évalué.
-### Indemnisation maximale
-Négociation ou tribunal : nous obtenons le montant maximum. Vous êtes payé, puis nous sommes payés.
+### Chiffrage poste par poste
+Négociation ou tribunal : chaque poste de préjudice est chiffré et défendu. Vous êtes payé, puis nous sommes payés.
 Vérifier mon éligibilité gratuitement
 Dossiers réels anonymisés
 La différence s'appelle
@@ -177,7 +177,7 @@ Oui, nous intervenons partout en France. Nous nous déplaçons chez vous, à l'h
 Puis-je changer d'avocat en cours de procédure ?
 Absolument. Vous êtes libre de changer d'avocat à tout moment, même en cours de procédure. Nous reprenons régulièrement des dossiers commencés par d'autres confrères et nous assurons une transition fluide de votre dossier.
 Combien vais-je obtenir en indemnisation ?
-Le montant dépend de la gravité de vos blessures, de votre situation professionnelle et personnelle. En pratique, nous obtenons bien davantage que l'offre initiale de l'assureur. Contactez-nous pour une estimation gratuite et confidentielle.
+Le montant dépend de la gravité de vos blessures, de votre situation professionnelle et personnelle. L'offre initiale de l'assureur ne couvre pas toujours l'ensemble des postes de préjudice : elle mérite d'être vérifiée poste par poste. Contactez-nous pour une estimation gratuite et confidentielle.
 ## Obtenez un premier avis gratuit.
 Nous vous recontactons sous 24h pour analyser votre situation.
 ### WhatsApp
@@ -245,7 +245,7 @@ Cabinet : 16 rue Breteuil, 13001 Marseille · 06 63 46 59 84
 Attention avant de partir
 Votre assurance sous-évalue
 ## votre préjudice.
-En pratique, nous obtenons bien davantage que l'offre initiale de l'assureur. Une consultation gratuite de 15 minutes peut changer le montant de votre indemnisation.
+L'offre initiale de l'assureur mérite d'être vérifiée, poste par poste. Une consultation gratuite de 15 minutes permet de faire le point sur votre dossier.
 0 € d'avance 15 min de consultation
 Parler à un avocat maintenant (WhatsApp) Choisir un créneau gratuit (Calendly)
 Secret professionnel · Premier avis toujours gratuit
@@ -672,7 +672,7 @@ URL : https://ig-avocat.com/agression
 Expertise
 Agression &
 # Violence.
-Victime d'un acte volontaire ? Nous obtenons réparation, même sans auteur identifié.
+Victime d'un acte volontaire ? Une réparation reste possible, même sans auteur identifié.
 Avocat au Barreau de Marseille — intervention dans toute la France (déplacement ou visioconférence)
 En bref
 Une victime d'agression peut être indemnisée même si l'auteur est inconnu, insolvable ou non condamné, en saisissant la Commission d'indemnisation des victimes d'infractions (CIVI) du tribunal judiciaire ; l'indemnité est versée par le Fonds de garantie des victimes (FGTI). La réparation intégrale est ouverte lorsque les faits ont entraîné la mort, une incapacité permanente ou une incapacité totale de travail d'au moins un mois, ainsi que pour certaines infractions comme le viol ou les agressions sexuelles (article 706-3 du code de procédure pénale). La demande doit être présentée dans les trois ans de l'infraction, délai prolongé jusqu'à un an après la décision pénale définitive (article 706-5). Maître Ilan Guedj, avocat au barreau de Marseille, saisit la CIVI, assiste la victime à l'expertise médicale et chiffre chaque poste de préjudice, sans avance de frais.
@@ -694,7 +694,7 @@ Nous saisissons la commission d'indemnisation sans attendre le procès pénal.
 Le Fonds de Garantie vous verse l'indemnité, puis se retourne contre l'agresseur.
 ## Questions fréquentes
 L'agresseur est inconnu ou insolvable, que faire ?
-C'est le cas le plus fréquent. Heureusement, la loi française protège les victimes via le FGTI. Nous obtenons votre indemnisation auprès de ce fonds, peu importe la situation de l'agresseur.
+C'est le cas le plus fréquent. Heureusement, la loi française protège les victimes via le FGTI. Nous saisissons ce fonds pour vous, peu importe la situation de l'agresseur.
 Dois-je aller au procès ?
 Votre présence est recommandée mais pas toujours obligatoire si vous êtes représenté par un avocat. Nous pouvons vous représenter à l'audience pour porter votre voix.
 Quels sont les délais ?
