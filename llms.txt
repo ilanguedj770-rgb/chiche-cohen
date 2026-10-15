@@ -64,6 +64,7 @@ Chaque page du site commence par un bloc « En bref » (classe `geo-answer`) : u
 
 ### Erreur médicale, agression, travail
 - [Erreur médicale : droits, délais, ONIAM et CCI](https://ig-avocat.com/blog/erreur-medicale-droits-victime): prouver la faute, choisir entre CCI, ONIAM et tribunal
+- [Aléa thérapeutique : le tribunal écarte le barème de l'ONIAM](https://ig-avocat.com/blog/oniam-referentiel-tribunal-alea-therapeutique): jugement du TJ de Marseille du 24 septembre 2026 ; le référentiel de l'ONIAM ne s'impose pas au juge ; 73 420,50 € accordés contre 56 490,28 € proposés ; action contre l'ONIAM après refus de l'offre (L. 1142-20)
 - [Infection nosocomiale : qui vous indemnise, et comment ?](https://ig-avocat.com/blog/infection-nosocomiale-indemnisation): Infection contractée à l'hôpital : responsabilité de l'établissement sans faute à prouver, ONIAM au-delà de 25 %, saisine de la CCI, délai de 10 ans.
 - [Victime d'agression : droits, CIVI et FGTI](https://ig-avocat.com/blog/agression-victime-droits-recours): conditions d'indemnisation, procédure, rôle de l'avocat
 - [Accident du travail : quand la faute inexcusable change l'indemnisation](https://ig-avocat.com/blog/accident-travail-faute-inexcusable): Accident du travail : ce que la Sécurité sociale ne paie pas, la faute inexcusable de l'employeur, les préjudices en plus et la réforme de novembre 2026.

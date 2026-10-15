@@ -98,12 +98,12 @@ Offre assureur
 OBTENU
 145 000 €
 Erreur Médicale
-### Chirurgie ratée
-Séquelles neurologiques permanentes
-Offre assureur
-Refus de garantie
+### Aléa thérapeutique
+Cataracte compliquée, DFP 31 %. Le jugement
+Offre ONIAM
+56 490 €
 OBTENU
-210 000 €
+73 420 €
 Accident Moto
 ### Traumatisme crânien
 Déficit fonctionnel permanent 45%
@@ -144,22 +144,9 @@ Votre protection juridique couvre les honoraires fixes. Vous ne payez rien d'ava
 ### Partout en France
 Nous nous déplaçons chez vous, à l'hôpital, partout en France. Aucune distance ne nous arrête pour défendre vos droits.
 ## La voix de nos clients
-"Excellente prestation des services ILAN GUEDJ & ASSOCIÉS. En tant que client nous avons eu pratiquement rien à faire. Je recommande à toute personne qui auront besoin de leur service."
-Michael S.
-Accident de la route
-"Un mot à dire.. faite leur confiance ! Ce sont des professionnels dans le domaine. Très réputé à Marseille. Connu pour être les meilleurs !"
-Nekka K.
-Erreur Médicale
-"Le meilleur cabinet de Marseille. On me l'avait recommandé. Je conseille vivement."
-Julie C.
-Agression
-"Après mon accident, j'étais complètement perdu. Le cabinet m'a pris en charge de A à Z. L'indemnisation obtenue a changé ma vie. Merci infiniment."
-Thomas R.
-Accident Moto
-"Professionnalisme et humanité. Ils ont su se battre contre l'hôpital et obtenir une indemnisation à la hauteur de mon préjudice. Je recommande sans hésitation."
-Sarah M.
-Erreur Médicale
-Témoignages de clients publiés avec leur accord. Les avis reflètent des expériences individuelles et ne préjugent pas du résultat de votre dossier : chaque situation est unique et aucun engagement de résultat n'est pris.
+sur Google
+Lire tous les avis sur Google Laisser un avis
+Avis publiés par des clients sur Google et affichés automatiquement, sans tri ni modification. Ils reflètent des expériences individuelles et ne préjugent pas du résultat de votre dossier : chaque situation est unique et aucun engagement de résultat n'est pris.
 ## Questions fréquentes
 Tout ce que vous devez savoir avant de nous contacter.
 Quel avocat consulter en dommage corporel à Marseille ?
@@ -648,18 +635,19 @@ Combien pour un accident corporel ?
 Les postes d'indemnisation que vous pouvez réclamer
 Résultat concret
 ## Ce que nous avons obtenu.
-Erreur médicale · Chirurgie ratée
-Notre client a subi des séquelles neurologiques permanentes suite à une faute chirurgicale. L'hôpital niait toute responsabilité. Nous avons mandaté un expert médical indépendant, démontré la faute en expertise CCI (Commission de Conciliation et d'Indemnisation), et obtenu une indemnisation complète via l'ONIAM.
-Position hôpital
-Refus
-Responsabilité niée
-Obtenu
-210 000 €
-via ONIAM
-ONIAM
-Expertise CCI
-0€
-d'avance
+Aléa thérapeutique · Jugement du 24 septembre 2026
+Une patiente opérée de la cataracte développe une infection grave de l'œil. Pendant l'expertise judiciaire, l'ONIAM conteste et adresse des dires à l'expert. Devant le tribunal, il reconnaît devoir indemniser, mais selon son propre barème. Le tribunal judiciaire de Marseille juge que ce barème « ne s'impose pas au tribunal » et applique la réparation intégrale.
+Proposé par l'ONIAM
+56 490 €
+selon son référentiel
+Accordé par le tribunal
+73 420 €
++ 2 500 € (art. 700) et dépens
+Lire l'analyse du jugement →
++30 %
+par rapport à l'offre
+TJ
+Marseille, 1re chambre civile
 Les résultats passés ne garantissent pas les résultats futurs. Chaque dossier est unique.
 Parler à un avocat (WhatsApp) Réserver une consultation gratuite
 WhatsApp Appeler
@@ -2835,6 +2823,8 @@ En pratique, le DFP est le plus souvent chiffré en multipliant le taux par une 
 Pour obtenir un ordre de grandeur à partir de votre âge et de votre taux, avec la grille du référentiel Mornet (septembre 2025), utilisez notre simulateur de DFP : il affiche la valeur du point retenue et le calcul.
 Deux victimes à 10 % de DFP, l'une de 25 ans et l'autre de 70 ans, ne recevront donc pas la même somme au titre de ce poste. Et surtout, le DFP n'est qu'un poste parmi d'autres : un chiffre isolé, présenté comme « le prix » de 10 %, ne dit rien de l'indemnisation totale.
 Les référentiels sont des outils d'aide à la décision. Ils ne lient pas le juge, qui doit assurer la réparation intégrale du préjudice de chaque victime.
+Exemple jugé — TJ Marseille, 24 septembre 2026
+Pour un DFP de 31 % chez une victime de 74 ans, l'ONIAM proposait environ 1 344 € le point selon son barème. Le tribunal a retenu 1 540 € le point, soit 47 740 €. Voir le jugement →
 ## 4. Ce que le DFP ne couvre pas
 L'erreur classique consiste à croire que le taux de DFP résume tout le dossier. Il ne couvre notamment pas :
 - → les pertes de revenus, passées et futures ;
@@ -3211,6 +3201,9 @@ L'ONIAM intervient dans trois situations principales :
 - 1.L'aléa thérapeutique : accident médical non fautif présentant des conséquences anormales et graves (seuil de gravité requis : atteinte permanente supérieure à 24 %, ou arrêt des activités professionnelles d'au moins 6 mois consécutifs (ou 6 mois non consécutifs sur 12 mois), ou, à titre exceptionnel, troubles particulièrement graves dans les conditions d'existence).
 - 2.La défaillance de l'assureur : si l'assureur du praticien ne fait pas d'offre dans les délais, l'ONIAM se substitue à lui.
 - 3.Les cas spéciaux : contaminations liées aux produits sanguins, vaccinations obligatoires, mesothéliomes.
+Décision obtenue — 24 septembre 2026
+L'offre de l'ONIAM n'est pas un plafond. Après une chirurgie de la cataracte compliquée d'une infection de l'œil, l'ONIAM, qui avait contesté pendant l'expertise, proposait 56 490,28 € selon son propre barème. Le tribunal judiciaire de Marseille a jugé que ce référentiel « ne s'impose pas au tribunal » et a accordé 73 420,50 €, soit près de 30 % de plus.
+Lire l'analyse du jugement →
 ### Vous êtes victime d'une erreur médicale à Marseille ou en PACA ?
 Découvrez en détail la procédure complète (CCI, ONIAM, expertise, indemnisation) sur notre page dédiée et bénéficiez d'une analyse gratuite de votre dossier.
 Voir la page erreur médicale
@@ -3221,7 +3214,7 @@ Pour être indemnisable au titre de l'aléa thérapeutique, l'accident doit réu
 - ✓ Avoir des conséquences anormales au regard de l'état de santé du patient
 - ✓ Ne pas être imputable à une faute du praticien
 - ✓ Atteindre un seuil de gravité : atteinte permanente supérieure à 24 %, ou arrêt d'activité d'au moins 6 mois, ou troubles particulièrement graves dans les conditions d'existence
-L'indemnisation est alors prise en charge par l'ONIAM sur fonds publics. Un avocat en dommage corporel est particulièrement utile pour distinguer ce qui relève de la faute médicale (plus favorable pour la victime, car la réparation est intégrale) de ce qui relève de l'aléa thérapeutique (soumis au seuil de gravité).
+L'indemnisation est alors prise en charge par l'ONIAM sur fonds publics. Un avocat en dommage corporel est particulièrement utile pour distinguer ce qui relève de la faute médicale (aucun seuil de gravité n'est exigé) de ce qui relève de l'aléa thérapeutique (soumis au seuil de gravité). Dans les deux cas, la victime a droit à la réparation intégrale de ses préjudices : le barème interne de l'ONIAM ne s'impose pas au juge (voir le jugement du 24 septembre 2026).
 ## 7. Quels sont les délais pour porter plainte et agir en indemnisation ?
 Une erreur médicale peut donner lieu à deux types d'action, soumis à des délais distincts. Ils peuvent se cumuler ou se succéder, mais chacun a sa propre logique procédurale et son propre compteur de prescription.
 ### Action civile (indemnisation)
@@ -4150,6 +4143,8 @@ AIPP supérieure à 25 %, ou décès
 L'ONIAM, au titre de la solidarité nationale
 art. L. 1142-1-1, 1° CSP
 Cette répartition compte dès le départ du dossier : elle détermine contre qui la demande est dirigée et, devant la CCI, qui recevra l'avis et devra formuler l'offre.
+Exemple jugé — TJ Marseille, 24 septembre 2026
+Après une chirurgie de la cataracte compliquée d'une infection de l'œil, l'ONIAM proposait 56 490,28 € selon son barème. Le tribunal a jugé que ce référentiel ne s'impose pas à lui et a accordé 73 420,50 €. Voir le jugement →
 ## 4. Deux voies : la CCI ou le tribunal
 ### La commission de conciliation et d'indemnisation (CCI)
 La procédure devant la CCI est gratuite. Pour ouvrir la voie du règlement amiable, le dommage doit atteindre un seuil de gravité (art. D. 1142-1 CSP, Service-public) :
@@ -4310,6 +4305,108 @@ Ne vous rendez jamais seul
 Le cabinet ILAN GUEDJ vous met en relation avec un médecin-recours adapté à votre pathologie et vous accompagne à chaque étape de l'expertise.
 WhatsApp — Réponse immédiate 06 63 46 59 84
 Consultation 100% gratuite — Honoraires sur résultat uniquement
+
+---
+
+## ONIAM : son barème ne s'impose pas au juge (jugement 2026)
+URL : https://ig-avocat.com/blog/oniam-referentiel-tribunal-alea-therapeutique
+
+Erreur médicale · ONIAM · Jugement du 24 septembre 2026
+# Aléa thérapeutique : le tribunal écarte le barème de l'ONIAM et accorde 30 % de plus
+Le référentiel d'indemnisation de l'ONIAM ne lie pas le juge. Par un jugement du 24 septembre 2026, le tribunal judiciaire de Marseille l'a écarté au profit de la réparation intégrale et a accordé 73 420,50 € à une victime d'aléa thérapeutique après une chirurgie de la cataracte, là où l'ONIAM proposait 56 490,28 €, soit près de 30 % de plus. La victime qui n'accepte pas l'offre de l'ONIAM peut agir en justice contre lui (article L. 1142-20 du Code de la santé publique).
+Publié le 15 octobre 2026 7 min de lecture Maître Ilan Guedj
+Pendant l'expertise, l'ONIAM contestait. Devant le tribunal, il reconnaissait devoir indemniser, mais selon son propre barème. Le juge a répondu que ce barème ne s'imposait pas à lui. Retour sur un dossier plaidé par Maître Ilan Guedj, présenté sans aucun élément permettant d'identifier la victime.
+## 1. Le dossier : une cataracte, puis une infection de l'œil
+La patiente est opérée de la cataracte de l'œil droit au début de l'année 2023. Quelques jours plus tard, elle souffre de vives douleurs : une endophtalmie, infection grave de l'œil, impose une hospitalisation en urgence puis une vitrectomie. S'y ajoute une occlusion de la veine centrale de la rétine.
+L'expert judiciaire retient un aléa thérapeutique : une complication survenant dans moins de 1 % des chirurgies de la cataracte, sans négligence ni erreur du praticien, mais avec des conséquences anormales. Consolidation fin 2024, à 74 ans, avec un déficit fonctionnel permanent de 31 %. Ce taux dépasse le seuil de gravité de 24 % qui ouvre l'indemnisation par la solidarité nationale.
+## 2. Un ONIAM qui contestait, puis qui voulait payer selon son barème
+L'expertise a été ordonnée en référé, au contradictoire de l'ONIAM. Pendant les opérations, l'Office a contesté et adressé des dires à l'expert. L'expert a maintenu ses conclusions : accident médical non fautif, conséquences anormales, gravité suffisante.
+Assigné ensuite au fond, l'ONIAM a changé de terrain. Il a reconnu son obligation d'indemniser, mais en demandant au tribunal d'appliquer son propre référentiel, au motif qu'il intervient au titre de la solidarité nationale et non comme un assureur.
+## 3. Ce que proposait l'ONIAM, ce qu'a accordé le tribunal
+Poste
+Proposé par l'ONIAM
+Accordé par le tribunal
+Déficit fonctionnel permanent (31 %)
+41 676 €
+47 740 €
+Souffrances endurées (3/7)
+4 162 €
+8 000 €
+Déficit fonctionnel temporaire
+4 469,60 €
+8 350,50 €
+Tierce personne temporaire
+5 882,68 €
+7 330 €
+Préjudice esthétique temporaire
+300 €
+500 €
+Frais de médecin-conseil
+s'en remettait au tribunal
+1 500 €
+Total
+56 490,28 €
+73 420,50 €
+Source : dispositif et motifs du jugement du tribunal judiciaire de Marseille, 1re chambre civile, 24 septembre 2026, et conclusions de l'ONIAM qui y sont reproduites. Écart : 16 930,22 €, soit +30 %. S'y ajoutent 2 500 € au titre de l'article 700 du code de procédure civile et les dépens, intérêts au taux légal à compter du jugement.
+## 4. Pourquoi le juge n'est pas lié par le barème de l'ONIAM
+Le tribunal répond en une phrase :
+« L'ONIAM invoque son propre référentiel d'indemnisation. Toutefois, un tel référentiel ne s'impose pas au tribunal, qui dispose d'un pouvoir souverain d'appréciation des préjudices invoqués par la demanderesse, et de leur évaluation, la victime ayant droit à la réparation intégrale de ses préjudices. »
+Concrètement, poste par poste :
+- → DFP : 1 540 € le point, contre environ 1 344 € dans l'offre de l'ONIAM ;
+- → souffrances endurées 3/7 : 8 000 €, presque le double de la proposition (comment se chiffre la cotation sur 7) ;
+- → déficit fonctionnel temporaire : base de 30 € par jour, proratisée selon chaque période (30 %, 50 %, 35 %) ;
+- → tierce personne : 366,5 heures à 20 €. Le tribunal rappelle que l'indemnité « ne saurait être subordonnée à la production de justifications de dépenses effectives » et que son montant « ne peut être réduit en cas d'assistance bénévole par un membre de la famille » (la tierce personne expliquée).
+## 5. Le chemin suivi : expertise judiciaire, puis tribunal
+Ce dossier n'est pas passé par la CCI. Il a suivi la voie judiciaire :
+- Référé-expertise : une expertise judiciaire menée au contradictoire de l'ONIAM, avec l'assistance d'un médecin-conseil de victime ;
+- Réponse aux dires de l'ONIAM pendant l'expertise, pour que l'aléa thérapeutique, l'anormalité et la gravité soient fermement établis dans le rapport ;
+- Assignation au fond de l'ONIAM et de la caisse primaire d'assurance maladie, avec une demande chiffrée poste par poste ;
+- Justificatif de la caisse : un courriel de la CPAM indiquant qu'elle n'avait aucune créance, ce qui a permis d'écarter toute déduction.
+La voie amiable reste ouverte dans d'autres dossiers : saisine de la CCI, puis offre de l'ONIAM dans les quatre mois de l'avis (article L. 1142-17 du Code de la santé publique). Mais si l'offre est insuffisante, la victime n'est pas tenue de l'accepter : elle peut agir en justice contre l'ONIAM (article L. 1142-20). Pour choisir entre les deux voies, voir erreur médicale : CCI, ONIAM ou tribunal.
+## 6. Ce qu'il faut retenir si l'ONIAM vous fait une offre
+- ✓ Le barème de l'ONIAM est son barème : il ne lie pas le juge
+- ✓ Comparez l'offre poste par poste avant de signer : c'est là que se cache l'écart
+- ✓ L'expertise se prépare et se défend : les dires de l'ONIAM appellent une réponse argumentée
+- ✓ L'aide d'un proche s'indemnise, même sans facture
+- ✓ Préparez les justificatifs des autres indemnités perçues (CPAM, mutuelle, garantie accidents de la vie) : l'ONIAM les réclame et les déduit
+Chaque dossier est différent : ce jugement de première instance illustre une méthode et des montants retenus dans un cas précis. Il ne permet pas de prédire le résultat d'un autre dossier, qui dépend du rapport d'expertise, de l'âge, des séquelles et des pièces produites.
+## Sources
+- Tribunal judiciaire de Marseille, 1re chambre civile, jugement du 24 septembre 2026 (décision obtenue par Maître Ilan Guedj, présentée sous forme anonymisée)
+- Code de la santé publique, article L. 1142-1 (aléa thérapeutique, II)
+- Code de la santé publique, article D. 1142-1 (seuils de gravité)
+- Code de la santé publique, article L. 1142-17 (offre de l'ONIAM)
+- Code de la santé publique, article L. 1142-20 (action en justice contre l'ONIAM)
+## Questions fréquentes
+### L'ONIAM peut-il imposer son propre barème d'indemnisation ?
+Non devant le juge. Dans un jugement du 24 septembre 2026, le tribunal judiciaire de Marseille a jugé que le référentiel de l'ONIAM « ne s'impose pas au tribunal », qui apprécie souverainement les préjudices, la victime ayant droit à la réparation intégrale. Le barème de l'ONIAM reste un outil interne qu'il applique à ses propres offres.
+### Peut-on refuser l'offre de l'ONIAM ?
+Oui. L'article L. 1142-20 du Code de la santé publique ouvre à la victime une action en justice contre l'ONIAM si aucune offre ne lui a été présentée ou si elle n'a pas accepté l'offre faite. Avant de refuser, il faut comparer poste par poste l'offre aux montants habituellement retenus par les juridictions.
+### Faut-il obligatoirement passer par la CCI pour être indemnisé par l'ONIAM ?
+Non. La CCI est une voie amiable, gratuite et utile dans de nombreux dossiers. La victime peut aussi obtenir une expertise judiciaire en référé, au contradictoire de l'ONIAM, puis assigner l'ONIAM devant le tribunal, comme dans le dossier présenté sur cette page.
+### L'aide apportée par un proche est-elle indemnisée ?
+Oui. Dans ce jugement, le tribunal rappelle que l'indemnité de tierce personne n'est pas subordonnée à la production de justificatifs de dépenses et que son montant ne peut être réduit lorsque l'aide est apportée bénévolement par un membre de la famille. Il a retenu un coût horaire de 20 euros.
+## Articles liés
+Page pivot
+Erreur médicale : droits, délais, CCI, ONIAM et tribunal
+Erreur médicale
+Infection nosocomiale : qui vous indemnise ?
+Expertise
+Expertise judiciaire ou amiable ?
+Préjudices
+DFP : comment est-il indemnisé ?
+### Une offre de l'ONIAM ?
+Avant de l'accepter, faites-la comparer gratuitement aux montants retenus par les tribunaux.
+WhatsApp 06 63 46 59 84
+À retenir
+Le barème de l'ONIAM ne s'impose pas au juge. Dans ce dossier : 73 420,50 € accordés contre 56 490,28 € proposés.
+Nos domaines
+Accident de la route Erreur médicale Agression Accident de la vie
+Offre de l'ONIAM — Faites-la comparer
+Une offre de l'ONIAM
+## qui vous paraît basse ?
+Vous n'êtes pas tenu de l'accepter. Le cabinet n'intervient que pour les victimes.
+WhatsApp — Réponse immédiate 06 63 46 59 84
+Consultation 100 % gratuite — Honoraires sur résultat uniquement
 
 ---
 
@@ -5024,6 +5121,8 @@ Le retentissement psychique est le plus souvent oublié. Il doit être document�
 ## 4. Pourquoi 4/7 ne vaut pas un montant fixe
 Une cotation ne se convertit pas automatiquement en euros. Des référentiels indicatifs proposent des fourchettes par degré, et les décisions rendues donnent des repères ; mais aucun barème ne s'impose au juge, qui apprécie les circonstances propres à chaque victime.
 Deux souffrances cotées 4/7 peuvent donc être indemnisées différemment selon ce que le dossier démontre : durée, intensité, nombre d'opérations, jeune âge de la victime, retentissement psychique.
+Exemple jugé — TJ Marseille, 24 septembre 2026
+Des souffrances endurées cotées 3/7 ont été indemnisées 8 000 €, quand l'ONIAM en proposait 4 162 € selon son barème. Voir le jugement →
 ## 5. Ne pas confondre avec d'autres postes
 Les souffrances endurées sont distinctes du déficit fonctionnel temporaire — la gêne dans les activités de la vie courante avant consolidation — du préjudice esthétique temporaire ou permanent, et du DFP après consolidation. Chacun s'évalue séparément ; l'absorption d'un poste par un autre est une cause fréquente de sous-indemnisation.
 ## 6. Contester une cotation
@@ -5089,6 +5188,8 @@ L'aide temporaire est fréquemment oubliée dans les dossiers de gravité moyenn
 ## 3. L'aide apportée gratuitement par la famille est indemnisée
 C'est le point le plus mal compris. Le besoin d'assistance s'évalue en fonction de l'aide rendue nécessaire par le handicap, et non de l'existence de factures. Qu'un conjoint, un parent ou un enfant apporte cette aide sans être rémunéré ne fait pas disparaître le besoin, ni son indemnisation.
 L'enjeu est alors de démontrer la nature des tâches, leur durée et leur fréquence : un simple « ma femme m'aide » ne suffit pas, un décompte précis des besoins, oui.
+Exemple jugé — TJ Marseille, 24 septembre 2026
+Le tribunal a indemnisé 366,5 heures d'aide à 20 € de l'heure, en rappelant que l'indemnité n'est pas subordonnée à des justificatifs de dépenses et ne peut être réduite lorsque l'aide est apportée bénévolement par un membre de la famille. Voir le jugement →
 ## 4. Tout se joue en heures
 Le montant final découle d'abord d'un volume horaire, qui doit être fixé par l'expert. Un rapport utile précise :
 - → le nombre d'heures par jour ou par semaine, pour chaque période ;
