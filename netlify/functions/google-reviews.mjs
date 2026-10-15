@@ -18,8 +18,10 @@ const json = (body, { status = 200, cdnMaxAge = 86400 } = {}) =>
     status,
     headers: {
       "Content-Type": "application/json; charset=utf-8",
-      "Cache-Control": "public, max-age=3600",
-      "Netlify-CDN-Cache-Control": `public, durable, s-maxage=${cdnMaxAge}, stale-while-revalidate=86400`,
+      // Une erreur n'est jamais mise en cache : la page réessaie à la visite suivante.
+      "Cache-Control": status === 200 ? "public, max-age=3600" : "no-store",
+      "Netlify-CDN-Cache-Control":
+        status === 200 ? `public, durable, s-maxage=${cdnMaxAge}, stale-while-revalidate=86400` : "no-store",
       "X-Robots-Tag": "noindex",
     },
   });
@@ -56,7 +58,7 @@ export default async () => {
   const placeId = Netlify.env.get("GOOGLE_PLACE_ID") || DEFAULT_PLACE_ID;
 
   if (!apiKey) {
-    return json({ error: "missing_api_key" }, { status: 503, cdnMaxAge: 300 });
+    return json({ error: "missing_api_key" }, { status: 503 });
   }
 
   try {
@@ -66,12 +68,12 @@ export default async () => {
     );
     if (!res.ok) {
       console.error("Places API", res.status, await res.text());
-      return json({ error: "upstream_error" }, { status: 502, cdnMaxAge: 300 });
+      return json({ error: "upstream_error" }, { status: 502 });
     }
     return json(toPayload(await res.json(), placeId));
   } catch (err) {
     console.error("Places API", err);
-    return json({ error: "upstream_unreachable" }, { status: 502, cdnMaxAge: 300 });
+    return json({ error: "upstream_unreachable" }, { status: 502 });
   }
 };
 
