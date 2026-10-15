@@ -1430,82 +1430,109 @@
         </div>
     </section>
 
-    <!-- ===== TESTIMONIALS ===== -->
-    <section class="py-24 bg-white border-t border-gray-100">
+    <!-- ===== AVIS GOOGLE =====
+         Avis réels de la fiche Google, chargés par /api/avis-google
+         (netlify/functions/google-reviews.mjs). Aucun avis n'est écrit en dur :
+         sans réponse de l'API, seuls les liens vers la fiche restent affichés. -->
+    <section id="avis" class="py-24 bg-white border-t border-gray-100">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
-            <div class="text-center mb-16">
+            <div class="text-center mb-12">
                 <h2 class="text-4xl font-black tracking-tight mb-4">La voix de nos clients</h2>
                 <div class="w-24 h-1 bg-blue-600 mx-auto rounded-full"></div>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Testimonial 1 -->
-                <div class="bg-gray-50 p-8 rounded-2xl animate-on-scroll opacity-0 translate-y-10 transition duration-700">
-                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
-                    <p class="text-gray-600 italic mb-6 leading-relaxed">"Excellente prestation des services ILAN GUEDJ &amp; ASSOCIÉS. En tant que client nous avons eu pratiquement rien à faire. Je recommande à toute personne qui auront besoin de leur service."</p>
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center font-bold text-blue-600">M</div>
-                        <div>
-                            <p class="font-bold text-sm">Michael S.</p>
-                            <p class="text-xs text-gray-400">Accident de la route</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 2 -->
-                <div class="bg-gray-50 p-8 rounded-2xl animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-100">
-                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
-                    <p class="text-gray-600 italic mb-6 leading-relaxed">"Un mot à dire.. faite leur confiance ! Ce sont des professionnels dans le domaine. Très réputé à Marseille. Connu pour être les meilleurs !"</p>
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 bg-purple-100 rounded-full flex items-center justify-center font-bold text-purple-600">N</div>
-                        <div>
-                            <p class="font-bold text-sm">Nekka K.</p>
-                            <p class="text-xs text-gray-400">Erreur Médicale</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 3 -->
-                <div class="bg-gray-50 p-8 rounded-2xl animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-200">
-                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
-                    <p class="text-gray-600 italic mb-6 leading-relaxed">"Le meilleur cabinet de Marseille. On me l'avait recommandé. Je conseille vivement."</p>
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center font-bold text-green-600">J</div>
-                        <div>
-                            <p class="font-bold text-sm">Julie C.</p>
-                            <p class="text-xs text-gray-400">Agression</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 4 -->
-                <div class="bg-gray-50 p-8 rounded-2xl animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-300">
-                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
-                    <p class="text-gray-600 italic mb-6 leading-relaxed">"Après mon accident, j'étais complètement perdu. Le cabinet m'a pris en charge de A à Z. L'indemnisation obtenue a changé ma vie. Merci infiniment."</p>
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 bg-orange-100 rounded-full flex items-center justify-center font-bold text-orange-600">T</div>
-                        <div>
-                            <p class="font-bold text-sm">Thomas R.</p>
-                            <p class="text-xs text-gray-400">Accident Moto</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Testimonial 5 -->
-                <div class="bg-gray-50 p-8 rounded-2xl animate-on-scroll opacity-0 translate-y-10 transition duration-700 delay-[400ms]">
-                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-4"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></div>
-                    <p class="text-gray-600 italic mb-6 leading-relaxed">"Professionnalisme et humanité. Ils ont su se battre contre l'hôpital et obtenir une indemnisation à la hauteur de mon préjudice. Je recommande sans hésitation."</p>
-                    <div class="flex items-center gap-3">
-                        <div class="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center font-bold text-pink-600">S</div>
-                        <div>
-                            <p class="font-bold text-sm">Sarah M.</p>
-                            <p class="text-xs text-gray-400">Erreur Médicale</p>
-                        </div>
-                    </div>
+                <div id="google-reviews-summary" class="hidden mt-8 flex flex-wrap items-center justify-center gap-3 text-gray-700">
+                    <span data-rating class="text-3xl font-black"></span>
+                    <span data-stars class="flex items-center gap-1 text-yellow-400 text-lg" aria-hidden="true"></span>
+                    <span class="text-sm text-gray-500"><span data-count></span> sur <span class="font-semibold">Google</span></span>
                 </div>
             </div>
-            <p class="text-xs text-gray-400 text-center mt-10 max-w-3xl mx-auto leading-relaxed">Témoignages de clients publiés avec leur accord. Les avis reflètent des expériences individuelles et ne préjugent pas du résultat de votre dossier&nbsp;: chaque situation est unique et aucun engagement de résultat n'est pris.</p>
+
+            <div id="google-reviews" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" aria-live="polite"></div>
+
+            <div class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
+                <a id="google-reviews-all" href="https://www.google.com/maps/place/?q=place_id:ChIJ7_fUSMPByRIR7Nq6quN5q9M" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-full border-2 border-gray-200 font-semibold text-gray-700 hover:border-blue-600 hover:text-blue-600 transition">Lire tous les avis sur Google</a>
+                <a href="https://search.google.com/local/writereview?placeid=ChIJ7_fUSMPByRIR7Nq6quN5q9M" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-blue-600 text-white font-semibold hover:bg-blue-700 transition">Laisser un avis</a>
+            </div>
+
+            <p class="text-xs text-gray-400 text-center mt-10 max-w-3xl mx-auto leading-relaxed">Avis publiés par des clients sur Google et affichés automatiquement, sans tri ni modification. Ils reflètent des expériences individuelles et ne préjugent pas du résultat de votre dossier&nbsp;: chaque situation est unique et aucun engagement de résultat n'est pris.</p>
         </div>
+
+        <template id="google-review-tpl">
+            <article class="bg-gray-50 p-8 rounded-2xl flex flex-col">
+                <div data-stars class="flex items-center gap-1 text-yellow-400 text-sm mb-4"></div>
+                <p data-text class="text-gray-600 italic mb-2 leading-relaxed line-clamp-6"></p>
+                <p data-translated class="hidden text-xs text-gray-400 mb-2">Traduit par Google</p>
+                <a data-more class="hidden text-sm font-semibold text-blue-600 hover:underline mb-4" target="_blank" rel="noopener">Lire l'avis sur Google</a>
+                <div class="flex items-center gap-3 mt-auto pt-4">
+                    <img data-photo class="hidden w-10 h-10 rounded-full object-cover" alt="" width="40" height="40" loading="lazy" referrerpolicy="no-referrer">
+                    <div data-initial class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center font-bold text-blue-600"></div>
+                    <div>
+                        <a data-author class="font-bold text-sm hover:underline" target="_blank" rel="noopener"></a>
+                        <p data-when class="text-xs text-gray-400"></p>
+                    </div>
+                </div>
+            </article>
+        </template>
+        <template id="google-star-tpl"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em]"><path d="m12 2 3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg></template>
+        <script>
+        (function () {
+            var grid = document.getElementById('google-reviews');
+            var cardTpl = document.getElementById('google-review-tpl');
+            var starTpl = document.getElementById('google-star-tpl');
+            if (!grid || !cardTpl || !starTpl || !window.fetch) return;
+
+            function stars(box, rating) {
+                var n = Math.round(rating || 0);
+                for (var i = 1; i <= 5; i++) {
+                    var s = starTpl.content.firstElementChild.cloneNode(true);
+                    if (i > n) s.classList.add('text-gray-300');
+                    box.appendChild(s);
+                }
+                box.setAttribute('aria-label', (rating || 0).toString().replace('.', ',') + ' sur 5');
+                box.setAttribute('role', 'img');
+            }
+
+            fetch('/api/avis-google', { headers: { 'Accept': 'application/json' } })
+                .then(function (r) { return r.ok ? r.json() : null; })
+                .then(function (data) {
+                    if (!data || !data.reviews) return;
+
+                    if (data.mapsUri) document.getElementById('google-reviews-all').href = data.mapsUri;
+
+                    if (data.rating) {
+                        var sum = document.getElementById('google-reviews-summary');
+                        sum.querySelector('[data-rating]').textContent = data.rating.toFixed(1).replace('.', ',');
+                        stars(sum.querySelector('[data-stars]'), data.rating);
+                        sum.querySelector('[data-count]').textContent = data.count + ' avis';
+                        sum.classList.remove('hidden');
+                    }
+
+                    data.reviews.forEach(function (rv) {
+                        var card = cardTpl.content.firstElementChild.cloneNode(true);
+                        stars(card.querySelector('[data-stars]'), rv.rating);
+                        card.querySelector('[data-text]').textContent = '“' + rv.text + '”';
+                        if (rv.translated) card.querySelector('[data-translated]').classList.remove('hidden');
+                        if (rv.reviewUri && rv.text.length > 280) {
+                            var more = card.querySelector('[data-more]');
+                            more.href = rv.reviewUri;
+                            more.classList.remove('hidden');
+                        }
+                        var author = card.querySelector('[data-author]');
+                        author.textContent = rv.author;
+                        if (rv.authorUri) author.href = rv.authorUri; else author.removeAttribute('target');
+                        card.querySelector('[data-when]').textContent = rv.when ? rv.when + ' · Google' : 'Google';
+                        var initial = card.querySelector('[data-initial]');
+                        initial.textContent = (rv.author || '?').trim().charAt(0).toUpperCase();
+                        if (rv.photo) {
+                            var img = card.querySelector('[data-photo]');
+                            img.onload = function () { img.classList.remove('hidden'); initial.classList.add('hidden'); };
+                            img.src = rv.photo;
+                        }
+                        grid.appendChild(card);
+                    });
+                })
+                .catch(function () {});
+        })();
+        </script>
     </section>
 
     <!-- ===== FAQ ===== -->
