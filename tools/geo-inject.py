@@ -156,11 +156,18 @@ def practice():
         "availableLanguage": ["fr", "en"],
         "memberOf": BARREAU,
         "publishingPrinciples": f"{SITE}/mentions-legales",
+        # Horaires du cabinet : 9 h-19 h du lundi au jeudi, 9 h-17 h le vendredi.
+        "openingHours": ["Mo-Th 09:00-19:00", "Fr 09:00-17:00"],
         "openingHoursSpecification": [{
             "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
             "opens": "09:00",
             "closes": "19:00",
+        }, {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Friday",
+            "opens": "09:00",
+            "closes": "17:00",
         }],
         "contactPoint": [{
             "@type": "ContactPoint",
