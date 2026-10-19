@@ -23,6 +23,8 @@
 /honoraires                   /honoraires.html                   200
 /contact                      /contact.html                      200
 /mentions-legales             /mentions-legales.html             200
+/politique-confidentialite   /politique-confidentialite.html   200
+/cookies                     /cookies.html                     200
 /guide-5-erreurs              /guide-5-erreurs.html              200
 /avocat-aix-en-provence       /avocat-aix-en-provence.html       200
 /avocat-toulon                /avocat-toulon.html                200
@@ -42,6 +44,8 @@
 /honoraires.html          /honoraires          301!
 /contact.html             /contact             301!
 /mentions-legales.html    /mentions-legales    301!
+/politique-confidentialite.html /politique-confidentialite 301!
+/cookies.html             /cookies             301!
 /guide-5-erreurs.html     /guide-5-erreurs     301!
 
 # Pages locales par ville (.html → propre)
@@ -80,6 +84,8 @@
 /contact/                 /contact             301!
 /honoraires/              /honoraires          301!
 /mentions-legales/        /mentions-legales    301!
+/politique-confidentialite/ /politique-confidentialite 301!
+/cookies/                 /cookies             301!
 /accidents-route/         /accidents-route     301!
 /accidents-vie/           /accidents-vie       301!
 /erreur-medicale/         /erreur-medicale     301!

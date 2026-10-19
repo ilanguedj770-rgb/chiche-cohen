@@ -2,13 +2,7 @@
 <html lang="fr" class="scroll-smooth bg-sand">
 
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WP82S37T');</script>
-    <!-- End Google Tag Manager -->
+    <script src="/js/consent.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
@@ -363,7 +357,7 @@
         "@id": "https://ig-avocat.com/#ilan-guedj"
       },
       "inLanguage": "fr-FR",
-      "dateModified": "2026-09-15",
+      "dateModified": "2026-10-19",
       "description": "Mentions légales du cabinet de Maître Ilan Guedj, avocat en dommage corporel au barreau de Marseille — éditeur, hébergement et informations réglementaires."
     }
   ]
@@ -374,10 +368,6 @@
 </head>
 
 <body class="antialiased bg-white flex flex-col min-h-screen">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP82S37T"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
     <nav id="navbar" class="fixed w-full z-50 bg-white/90 backdrop-blur-xl border-b border-gray-100 transition-all duration-300">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
@@ -435,7 +425,8 @@
     <main class="flex-1 pt-40 pb-32 px-6">
         <div class="max-w-4xl mx-auto">
 
-            <h1 class="text-4xl md:text-5xl font-black tracking-tight mb-12">Mentions Légales</h1>
+            <h1 class="text-4xl md:text-5xl font-black tracking-tight mb-4">Mentions Légales</h1>
+            <p class="text-sm text-gray-400 mb-12">Mis à jour le 19 octobre 2026</p>
 
             <section class="mb-16 border-b border-gray-100 pb-12">
                 <h2 class="text-2xl font-bold mb-6">1. Éditeur du Site</h2>
@@ -447,7 +438,7 @@
                     </div>
                     <div>
                         <p><strong class="text-gray-900">Siège social :</strong><br>16 Rue Breteuil, 13001 Marseille</p>
-                        <p class="mt-2"><strong class="text-gray-900">SIRET :</strong> 481 038 321 00024</p>
+                        <p class="mt-2"><strong class="text-gray-900">SIRET :</strong> 922 092 382 00014</p>
                         <p><strong class="text-gray-900">Contact :</strong> <a
                                 href="mailto:contact@ig-avocat.com"
                                 class="underline hover:text-blue-600">contact@ig-avocat.com</a></p>
@@ -471,14 +462,17 @@
 
             <section class="mb-16 border-b border-gray-100 pb-12">
                 <h2 class="text-2xl font-bold mb-6">3. Hébergement</h2>
+                <!-- Adresse retenue d'après les conditions d'utilisation du site Netlify
+                     (mise à jour du 14 octobre 2026) et la politique de confidentialité
+                     Netlify : Netlify, Inc., 101 2nd Street, San Francisco, CA 94105.
+                     Le DPA Netlify du 9 juin 2026 indique une autre adresse
+                     (512 2nd Street, Suite 200, San Francisco, CA 94107) : non retenue ici. -->
                 <div class="bg-gray-50 p-6 rounded-2xl border border-gray-100 text-gray-600 text-sm">
-                    <p><strong class="text-gray-900 text-lg block mb-2">OVH SAS</strong></p>
-                    <p>2 rue Kellermann – 59100 Roubaix – France</p>
-                    <p>SAS au capital de 10 069 020 €</p>
-                    <p>RCS Lille Métropole 424 761 419 00045</p>
-                    <p>Code APE 2620Z</p>
-                    <p>N° TVA : FR 22 424 761 419</p>
-                    <p class="mt-2"><strong class="text-gray-900">Tél :</strong> 1007</p>
+                    <p><strong class="text-gray-900 text-lg block mb-2">Netlify, Inc.</strong></p>
+                    <p>101 2nd Street</p>
+                    <p>San Francisco, CA 94105</p>
+                    <p>États-Unis</p>
+                    <p class="mt-2">Site : <a href="https://www.netlify.com" target="_blank" rel="noopener" class="underline hover:text-blue-600">netlify.com</a></p>
                 </div>
             </section>
 
@@ -547,6 +541,13 @@
                 <p>
                     Vous avez la faculté de former une réclamation auprès de la CNIL, dans l’hypothèse où vous
                     considérez que vos données n’ont pas été protégées.
+                </p>
+                <p>
+                    Le détail des traitements réalisés par l’intermédiaire de ce site (formulaires, prise de
+                    rendez-vous, mesure d’audience, hébergement) est décrit dans la
+                    <a href="politique-confidentialite" class="underline hover:text-blue-600">politique de confidentialité</a>.
+                    Les traceurs et la façon de modifier votre choix sont décrits sur la page
+                    <a href="cookies" class="underline hover:text-blue-600">Cookies</a>.
                 </p>
             </section>
 
@@ -640,7 +641,7 @@
                     <a href="lexique-dommage-corporel"
                         class="text-white hover:text-blue-600 transition border-b border-white">Lexique</a>
                     <a href="mentions-legales"
-                        class="text-white hover:text-blue-600 transition border-b border-white">Mentions Légales</a>
+                        class="text-white hover:text-blue-600 transition border-b border-white">Mentions Légales</a><a href="politique-confidentialite" class="hover:text-white transition">Politique de confidentialité</a><a href="cookies" class="hover:text-white transition">Cookies</a><button type="button" data-consent-manage class="hover:text-white transition bg-transparent border-0 p-0 cursor-pointer text-left" style="font:inherit;font-weight:700;color:inherit">Gérer les cookies</button>
                     <a href="honoraires" class="hover:text-white transition">Honoraires</a>
                     <a href="contact" class="hover:text-white transition">Contact</a>
                 </div>

@@ -90,4 +90,6 @@ Le site, ses guides et ses contenus ont pour entité éditoriale principale Maî
 
 ## Optional
 - [Mentions légales](https://ig-avocat.com/mentions-legales)
+- [Politique de confidentialité](https://ig-avocat.com/politique-confidentialite)
+- [Cookies](https://ig-avocat.com/cookies)
 - [Le contact](https://ig-avocat.com/contact)

@@ -1,13 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WP82S37T');</script>
-    <!-- End Google Tag Manager -->
+    <script src="/js/consent.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Maître Ilan Guedj, avocat en dommage corporel à Marseille. Accidents, erreurs médicales, agressions. 0 € d'avance, au résultat.">
@@ -51,8 +45,8 @@
     <!-- Lucide Icons -->
 
     <!-- Calendly -->
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" defer></script>
+    <link rel="stylesheet" data-requires-consent="calendly" data-href="https://assets.calendly.com/assets/external/widget.css">
+    <script type="text/plain" data-requires-consent="calendly" data-src="https://assets.calendly.com/assets/external/widget.js"></script>
 
     <!-- Tailwind Config -->
 
@@ -645,10 +639,6 @@
 </head>
 
 <body class="font-sans antialiased text-gray-900 bg-white">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP82S37T"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
     <!-- ============================================ -->
     <!-- NAVIGATION                                   -->
@@ -1463,7 +1453,7 @@
                 <p data-translated class="hidden text-xs text-gray-400 mb-2">Traduit par Google</p>
                 <a data-more class="hidden text-sm font-semibold text-blue-600 hover:underline mb-4" target="_blank" rel="noopener">Lire l'avis sur Google</a>
                 <div class="flex items-center gap-3 mt-auto pt-4">
-                    <img data-photo class="hidden w-10 h-10 rounded-full object-cover" alt="" width="40" height="40" loading="lazy" referrerpolicy="no-referrer">
+                    <img data-photo class="hidden w-10 h-10 rounded-full object-cover" alt="Photo de profil de l’auteur de l’avis Google" width="40" height="40" loading="lazy" referrerpolicy="no-referrer">
                     <div data-initial class="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center font-bold text-blue-600"></div>
                     <div>
                         <a data-author class="font-bold text-sm hover:underline" target="_blank" rel="noopener"></a>
@@ -1522,8 +1512,9 @@
                         card.querySelector('[data-when]').textContent = rv.when ? rv.when + ' · Google' : 'Google';
                         var initial = card.querySelector('[data-initial]');
                         initial.textContent = (rv.author || '?').trim().charAt(0).toUpperCase();
-                        if (rv.photo) {
+                        if (rv.photo && window.igConsent && window.igConsent.granted().analytics) {
                             var img = card.querySelector('[data-photo]');
+                            img.alt = 'Photo de profil de ' + (rv.author || 'l’auteur') + ' sur Google';
                             img.onload = function () { img.classList.remove('hidden'); initial.classList.add('hidden'); };
                             img.src = rv.photo;
                         }
@@ -1786,7 +1777,7 @@
                             <a href="guide-5-erreurs" target="_blank" class="inline-block bg-blue-600 text-white text-xs font-bold px-4 py-2 rounded-lg hover:bg-blue-700 transition"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v4a2 2 0 0 0 2 2h4"/><path d="M16 13H8"/><path d="M16 17H8"/><path d="M10 9H8"/></svg> Ouvrir le guide →
                             </a>
                         </div>
-                        <p class="text-center text-xs text-gray-400">Vos données sont protégées. Aucun spam garanti.</p>
+                        <p class="text-center text-xs text-gray-400">Vos données sont utilisées pour vous envoyer le guide. <a href="politique-confidentialite" class="underline hover:text-blue-600">Politique de confidentialité</a> · <a href="cookies" class="underline hover:text-blue-600">Cookies</a>.</p>
                     </form>
                 </div>
             </div>
@@ -1836,7 +1827,8 @@
                 </div>
             </div>
             <div class="mt-10 max-w-5xl mx-auto rounded-2xl overflow-hidden border border-gray-100">
-                <iframe title="Plan d'accès au cabinet de Maître Ilan Guedj, 16 rue Breteuil, 13001 Marseille" src="https://www.google.com/maps?q=16+rue+Breteuil,+13001+Marseille&amp;hl=fr&amp;z=16&amp;output=embed" class="w-full h-80 border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+                <iframe title="Plan d'accès au cabinet de Maître Ilan Guedj, 16 rue Breteuil, 13001 Marseille" data-map-src="https://www.google.com/maps?q=16+rue+Breteuil,+13001+Marseille&amp;hl=fr&amp;z=16&amp;output=embed" class="w-full h-80 border-0" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+<noscript><p><a href="https://www.google.com/maps/search/?api=1&query=16+Rue+Breteuil+13001+Marseille">Voir le plan du cabinet</a></p></noscript>
             </div>
             <p class="text-center text-sm text-gray-500 mt-4">Cabinet&nbsp;: 16 rue Breteuil, 13001 Marseille · <a href="tel:+33663465984" class="text-blue-600 hover:underline">06 63 46 59 84</a></p>
         </div>
@@ -1882,7 +1874,7 @@
                 <div class="flex flex-wrap gap-x-8 gap-y-3 font-bold mb-6">
                     <a href="avocat-ilan-guedj" class="hover:text-white transition">Maître Ilan Guedj</a>
                     <a href="lexique-dommage-corporel" class="hover:text-white transition">Lexique</a>
-                    <a href="mentions-legales" class="hover:text-white transition">Mentions Légales</a>
+                    <a href="mentions-legales" class="hover:text-white transition">Mentions Légales</a><a href="politique-confidentialite" class="hover:text-white transition">Politique de confidentialité</a><a href="cookies" class="hover:text-white transition">Cookies</a><button type="button" data-consent-manage class="hover:text-white transition bg-transparent border-0 p-0 cursor-pointer text-left" style="font:inherit;font-weight:700;color:inherit">Gérer les cookies</button>
                     <a href="honoraires" class="hover:text-white transition">Honoraires</a>
                     <a href="contact" class="hover:text-white transition">Contact</a>
                     <a href="guide-5-erreurs" class="hover:text-white transition">Guide Gratuit</a>

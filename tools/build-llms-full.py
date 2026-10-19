@@ -40,6 +40,8 @@ ORDER = [
     "avocat-nimes.html",
     "contact.html",
     "mentions-legales.html",
+    "politique-confidentialite.html",
+    "cookies.html",
 ]
 SKIP = {"guide-5-erreurs.html", "blog/index.html"}
 

@@ -2,17 +2,11 @@
 <html lang="fr" class="scroll-smooth bg-sand">
 
 <head>
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-WP82S37T');</script>
-    <!-- End Google Tag Manager -->
+    <script src="/js/consent.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Contactez Maître Ilan Guedj. Prise de rendez-vous en ligne, chat WhatsApp ou visite au cabinet à Marseille.">
+        content="Contactez Maître Ilan Guedj, avocat en dommage corporel à Marseille : formulaire, WhatsApp, rendez-vous ou cabinet au 16 rue Breteuil, 13001.">
     <title>Contacter Maître Ilan Guedj | Avocat Marseille</title>
 
     <link rel="alternate" type="text/markdown" href="/llms.txt" title="Version texte structurée pour les assistants IA">
@@ -20,7 +14,7 @@
     <link rel="canonical" href="https://ig-avocat.com/contact">
     <!-- Open Graph -->
     <meta property="og:title" content="Contacter Maître Ilan Guedj | Avocat Marseille">
-    <meta property="og:description" content="Contactez Maître Ilan Guedj. Prise de rendez-vous en ligne, chat WhatsApp ou visite au cabinet à Marseille.">
+    <meta property="og:description" content="Contactez Maître Ilan Guedj, avocat en dommage corporel à Marseille : formulaire, WhatsApp, rendez-vous ou cabinet au 16 rue Breteuil, 13001.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://ig-avocat.com/contact">
     <meta property="og:image" content="https://ig-avocat.com/img/og-cover.jpg">
@@ -32,15 +26,15 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Contacter Maître Ilan Guedj | Avocat Marseille">
-    <meta name="twitter:description" content="Contactez Maître Ilan Guedj. Prise de rendez-vous en ligne, chat WhatsApp ou visite au cabinet à Marseille.">
+    <meta name="twitter:description" content="Contactez Maître Ilan Guedj, avocat en dommage corporel à Marseille : formulaire, WhatsApp, rendez-vous ou cabinet au 16 rue Breteuil, 13001.">
     <meta name="twitter:image" content="https://ig-avocat.com/img/og-cover.jpg">
     <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
     <link rel="stylesheet" href="css/tailwind.css">
     <link rel="preload" href="fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
-    <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-    <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+    <link rel="stylesheet" data-requires-consent="calendly" data-href="https://assets.calendly.com/assets/external/widget.css">
+    <script type="text/plain" data-requires-consent="calendly" data-src="https://assets.calendly.com/assets/external/widget.js"></script>
 
     <style>
         .grayscale-map {
@@ -438,7 +432,7 @@
       },
       "inLanguage": "fr-FR",
       "dateModified": "2026-09-24",
-      "description": "Contactez Maître Ilan Guedj. Prise de rendez-vous en ligne, chat WhatsApp ou visite au cabinet à Marseille."
+      "description": "Contactez Maître Ilan Guedj, avocat en dommage corporel à Marseille : formulaire, WhatsApp, rendez-vous ou cabinet au 16 rue Breteuil, 13001."
     }
   ]
 }
@@ -449,10 +443,6 @@
 </head>
 
 <body class="antialiased bg-white flex flex-col min-h-screen">
-    <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WP82S37T"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-    <!-- End Google Tag Manager (noscript) -->
 
     <nav id="navbar" class="fixed w-full z-50 bg-white/90 backdrop-blur-xl border-b border-gray-100 transition-all duration-300">
     <div class="max-w-7xl mx-auto px-6 lg:px-8">
@@ -579,6 +569,7 @@
                             <input type="checkbox" name="consentement" id="consentement" required class="mt-0.5 rounded border-gray-300 text-blue-600 focus:ring-blue-500">
                             <label for="consentement" class="text-[11px] text-gray-500 leading-tight">J'accepte que mes données soient utilisées pour traiter ma demande. Secret professionnel garanti.</label>
                         </div>
+                        <p class="text-[11px] text-gray-500 leading-tight">Ce message peut contenir des données de santé. <a href="politique-confidentialite" class="underline hover:text-blue-600">Politique de confidentialité</a> · <a href="cookies" class="underline hover:text-blue-600">Cookies</a>.</p>
                         <button type="submit" id="submit-btn"
                             class="w-full py-3 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition flex items-center justify-center gap-2 active:scale-95">
                             <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 2-7 20-4-9-9-4Z"/><path d="M22 2 11 13"/></svg>
@@ -605,7 +596,7 @@
                     </div>
                     <!-- Calendly inline widget -->
                     <div class="calendly-inline-widget rounded-xl overflow-hidden border border-gray-100"
-                        data-url="https://calendly.com/guedj-chiche-cohen?hide_event_type_details=1&hide_gdpr_banner=1&primary_color=2563EB"
+                        data-url="https://calendly.com/guedj-chiche-cohen?hide_event_type_details=1&primary_color=2563EB"
                         style="min-width:280px;height:500px;"></div>
                 </div>
 
@@ -685,11 +676,12 @@
 
         <div class="relative h-[50vh] lg:h-full bg-gray-200 animate-fade-in-up lg:animate-none"
             style="animation-delay: 0.4s;">
-            <iframe src="https://maps.google.com/maps?q=16+Rue+Breteuil,+13001+Marseille&hl=fr&z=15&output=embed"
+            <iframe data-map-src="https://maps.google.com/maps?q=16+Rue+Breteuil,+13001+Marseille&hl=fr&z=15&output=embed"
                 width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                class="grayscale-map absolute inset-0 w-full h-full object-cover">
+                class="grayscale-map absolute inset-0 w-full h-full object-cover" title="Plan du cabinet, 16 rue Breteuil, 13001 Marseille">
             </iframe>
+<noscript><p><a href="https://www.google.com/maps/search/?api=1&query=16+Rue+Breteuil+13001+Marseille">Voir le plan du cabinet</a></p></noscript>
 
             <div class="absolute bottom-8 left-8 right-8 lg:left-12 lg:right-auto lg:w-80 bg-white p-6 rounded-2xl shadow-2xl border border-gray-100 animate-fade-in-up"
                 style="animation-delay: 0.5s;">
@@ -749,7 +741,7 @@
                     <div class="flex flex-wrap gap-x-8 gap-y-2 font-bold mb-6">
                         <a href="avocat-ilan-guedj" class="hover:text-white transition">Maître Ilan Guedj</a>
                         <a href="lexique-dommage-corporel" class="hover:text-white transition">Lexique</a>
-                        <a href="mentions-legales" class="hover:text-white transition">Mentions Légales</a>
+                        <a href="mentions-legales" class="hover:text-white transition">Mentions Légales</a><a href="politique-confidentialite" class="hover:text-white transition">Politique de confidentialité</a><a href="cookies" class="hover:text-white transition">Cookies</a><button type="button" data-consent-manage class="hover:text-white transition bg-transparent border-0 p-0 cursor-pointer text-left" style="font:inherit;font-weight:700;color:inherit">Gérer les cookies</button>
                         <a href="honoraires" class="hover:text-white transition">Honoraires</a>
                         <a href="contact" class="hover:text-white transition">Contact</a>
                     </div>
