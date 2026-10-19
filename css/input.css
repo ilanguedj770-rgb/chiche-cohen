@@ -215,3 +215,15 @@
 /* Le bleu profond n'est pas lisible sur l'encre : on remonte d'un cran. */
 :is(section, div, footer, header, aside, article).bg-ink .text-blue-600,
 :is(section, div, footer, header, aside, article).bg-gray-900 .text-blue-600 { color: theme('colors.blue.300'); }
+
+/* Barre mobile du blog (Appeler / WhatsApp). Le formulaire de fin d'article
+   reste accessible : on peut faire défiler ses boutons au-dessus de la barre,
+   et le pied de page dégage la même hauteur. */
+@media (max-width: 767px) {
+  body:has(.js-mobile-bar) footer.bg-ink {
+    padding-bottom: 8.5rem;
+  }
+  body:has(.js-mobile-bar) .article-lead-end :is(a, button, input, select, textarea) {
+    scroll-margin-bottom: 7rem;
+  }
+}

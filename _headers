@@ -18,6 +18,9 @@
 /css/*
   Cache-Control: public, max-age=86400, stale-while-revalidate=604800
 
+/js/*
+  Cache-Control: public, max-age=86400, stale-while-revalidate=604800
+
 /llms.txt
   Content-Type: text/plain; charset=utf-8
   Cache-Control: public, max-age=3600, must-revalidate

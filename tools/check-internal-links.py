@@ -12,5 +12,7 @@ for p in list(ROOT.glob('*.html'))+list((ROOT/'blog').glob('*.html')):
    target=ROOT/(x+'.html')
    if not target.exists(): target=ROOT/x/'index.html'
    if not target.exists() and (ROOT/x).is_file(): target=ROOT/x
+  # Page publiée par la PR parallèle confidentialité / cookies.
+  if x in ('politique-confidentialite', 'politique-cookies', 'cookies'): continue
   if not target.exists() and not x.startswith(('img/','css/','js/','fonts/','llms','sitemap','robots')): errors.append(f'{p.relative_to(ROOT)} -> {href}')
 print('\n'.join(errors) if errors else 'Liens internes: OK'); sys.exit(bool(errors))
