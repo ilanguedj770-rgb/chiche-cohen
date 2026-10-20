@@ -18,6 +18,9 @@
 # ═══════════════════════════════════════════════════════════════════
 /accidents-route              /accidents-route.html              200
 /accidents-vie                /accidents-vie.html                200
+/accident-moto-marseille      /accident-moto-marseille.html      200
+/pieton-cycliste-marseille    /pieton-cycliste-marseille.html    200
+/avocat-dommage-corporel-bouches-du-rhone /avocat-dommage-corporel-bouches-du-rhone.html 200
 /erreur-medicale              /erreur-medicale.html              200
 /agression                    /agression.html                    200
 /honoraires                   /honoraires.html                   200
@@ -36,6 +39,9 @@
 # 1. Suppression des extensions .html — pages principales
 /accidents-route.html     /accidents-route     301!
 /accidents-vie.html       /accidents-vie       301!
+/accident-moto-marseille.html /accident-moto-marseille 301!
+/pieton-cycliste-marseille.html /pieton-cycliste-marseille 301!
+/avocat-dommage-corporel-bouches-du-rhone.html /avocat-dommage-corporel-bouches-du-rhone 301!
 /erreur-medicale.html     /erreur-medicale     301!
 /agression.html           /agression           301!
 /agressions.html          /agression           301!
@@ -82,6 +88,9 @@
 /mentions-legales/        /mentions-legales    301!
 /accidents-route/         /accidents-route     301!
 /accidents-vie/           /accidents-vie       301!
+/accident-moto-marseille/ /accident-moto-marseille 301!
+/pieton-cycliste-marseille/ /pieton-cycliste-marseille 301!
+/avocat-dommage-corporel-bouches-du-rhone/ /avocat-dommage-corporel-bouches-du-rhone 301!
 /erreur-medicale/         /erreur-medicale     301!
 /agression/               /agression           301!
 /guide-5-erreurs/         /guide-5-erreurs     301!

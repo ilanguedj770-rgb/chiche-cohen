@@ -129,70 +129,6 @@
 </script>
 
     <!-- LegalService Schema.org -->
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LegalService",
-  "@id": "https://ig-avocat.com/#practice",
-  "name": "Maître Ilan Guedj — Avocat dommage corporel à Toulon",
-  "description": "Avocat en dommage corporel intervenant à Toulon et dans le Var : accidents de la route (loi Badinter), erreurs médicales (CCI/ONIAM), agressions (CIVI/FGTI), accidents de la vie. Régime spécifique pour les militaires (solde, PMI, préjudices non couverts). Cabinet basé à Marseille (16 rue Breteuil), à 65 km. Honoraires au résultat.",
-  "url": "https://ig-avocat.com/avocat-toulon",
-  "telephone": "+33663465984",
-  "email": "contact@ig-avocat.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "16 Rue Breteuil",
-    "addressLocality": "Marseille",
-    "postalCode": "13001",
-    "addressCountry": "FR"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 43.2937,
-    "longitude": 5.3795
-  },
-  "areaServed": [
-    {
-      "@type": "City",
-      "name": "Toulon"
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "Var"
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "Provence-Alpes-Côte d'Azur"
-    }
-  ],
-  "knowsAbout": [
-    "Dommage corporel",
-    "Loi Badinter",
-    "Accident de la circulation",
-    "Erreur médicale",
-    "CCI",
-    "ONIAM",
-    "Agression",
-    "CIVI",
-    "FGTI",
-    "Accident de la vie",
-    "Pension Militaire d'Invalidité",
-    "PMI",
-    "Hôpital d'Instruction des Armées",
-    "Nomenclature Dintilhac",
-    "Tierce personne",
-    "Frais futurs",
-    "Perte de gains professionnels futurs",
-    "Incidence professionnelle",
-    "DFP",
-    "AIPP",
-    "TJ Toulon",
-    "Cour d'appel d'Aix-en-Provence"
-  ],
-  "serviceType": "Indemnisation des victimes de dommage corporel à Toulon",
-  "priceRange": "Honoraires au résultat"
-}
-</script>
     <!-- GEO:ENTITY-GRAPH:START -->
 <script type="application/ld+json">
 {
@@ -221,6 +157,7 @@
       "@id": "https://ig-avocat.com/#practice",
       "name": "Maître Ilan Guedj — Avocat en dommage corporel",
       "alternateName": [
+        "Maître Ilan GUEDJ - Avocat dommage corporel",
         "Cabinet Ilan Guedj",
         "Ilan Guedj Avocat"
       ],
@@ -235,6 +172,8 @@
       ],
       "telephone": "+33663465984",
       "email": "contact@ig-avocat.com",
+      "image": "https://ig-avocat.com/img/og-cover.jpg",
+      "logo": "https://ig-avocat.com/img/favicon.svg",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "16 rue Breteuil",
@@ -243,6 +182,12 @@
         "addressRegion": "Provence-Alpes-Côte d'Azur",
         "addressCountry": "FR"
       },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.291994,
+        "longitude": 5.375058
+      },
+      "foundingDate": "2023-01-06",
       "hasMap": "https://www.google.com/maps/search/?api=1&query=16+Rue+Breteuil+13001+Marseille",
       "isicV4": "6910",
       "priceRange": "Consultation initiale gratuite — honoraires uniquement au résultat",
@@ -280,6 +225,14 @@
         {
           "@type": "City",
           "name": "Cannes"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bouches-du-Rhône"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Var"
         },
         {
           "@type": "AdministrativeArea",
@@ -343,6 +296,40 @@
         "url": "https://www.barreau-marseille.avocat.fr/"
       },
       "publishingPrinciples": "https://ig-avocat.com/mentions-legales",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services juridiques en dommage corporel",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Indemnisation accident de la route"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Indemnisation accident de la vie (GAV)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Indemnisation victime d'agression (CIVI/FGTI)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Recours pour erreur médicale (CCI/ONIAM)"
+            }
+          }
+        ]
+      },
       "openingHours": [
         "Mo-Th 09:00-19:00",
         "Fr 09:00-17:00"
@@ -364,6 +351,18 @@
           "dayOfWeek": "Friday",
           "opens": "09:00",
           "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "00:00",
+          "closes": "00:00"
         }
       ],
       "contactPoint": [
@@ -518,7 +517,7 @@
         "@id": "https://ig-avocat.com/#website"
       },
       "about": {
-        "@id": "https://ig-avocat.com/#ilan-guedj"
+        "@id": "https://ig-avocat.com/avocat-toulon#service"
       },
       "publisher": {
         "@id": "https://ig-avocat.com/#ilan-guedj"
@@ -528,7 +527,59 @@
       },
       "inLanguage": "fr-FR",
       "dateModified": "2026-10-20",
-      "description": "Avocat en dommage corporel à Toulon : accidents (loi Badinter), erreurs médicales, agressions, militaires (PMI). Maître Ilan Guedj, cabinet à Marseille."
+      "description": "Avocat en dommage corporel à Toulon : accidents (loi Badinter), erreurs médicales, agressions, militaires (PMI). Maître Ilan Guedj, cabinet à Marseille.",
+      "mainEntity": {
+        "@id": "https://ig-avocat.com/avocat-toulon#service"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://ig-avocat.com/avocat-toulon#service",
+      "name": "Maître Ilan Guedj — Avocat dommage corporel à Toulon",
+      "serviceType": "Indemnisation des victimes de dommage corporel à Toulon",
+      "provider": {
+        "@id": "https://ig-avocat.com/#practice"
+      },
+      "url": "https://ig-avocat.com/avocat-toulon",
+      "description": "Avocat en dommage corporel intervenant à Toulon et dans le Var : accidents de la route (loi Badinter), erreurs médicales (CCI/ONIAM), agressions (CIVI/FGTI), accidents de la vie. Régime spécifique pour les militaires (solde, PMI, préjudices non couverts). Cabinet basé à Marseille (16 rue Breteuil), à 65 km. Honoraires au résultat.",
+      "areaServed": [
+        {
+          "@type": "City",
+          "name": "Toulon"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Var"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Provence-Alpes-Côte d'Azur"
+        }
+      ],
+      "knowsAbout": [
+        "Dommage corporel",
+        "Loi Badinter",
+        "Accident de la circulation",
+        "Erreur médicale",
+        "CCI",
+        "ONIAM",
+        "Agression",
+        "CIVI",
+        "FGTI",
+        "Accident de la vie",
+        "Pension Militaire d'Invalidité",
+        "PMI",
+        "Hôpital d'Instruction des Armées",
+        "Nomenclature Dintilhac",
+        "Tierce personne",
+        "Frais futurs",
+        "Perte de gains professionnels futurs",
+        "Incidence professionnelle",
+        "DFP",
+        "AIPP",
+        "TJ Toulon",
+        "Cour d'appel d'Aix-en-Provence"
+      ]
     }
   ]
 }

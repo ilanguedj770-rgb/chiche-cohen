@@ -58,61 +58,6 @@
     </style>
 
     <!-- LegalService + ContactPoint Schema.org -->
-    <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LegalService",
-  "@id": "https://ig-avocat.com/#practice",
-  "name": "Maître Ilan Guedj — Contact",
-  "url": "https://ig-avocat.com/contact",
-  "telephone": "+33663465984",
-  "email": "contact@ig-avocat.com",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "16 Rue Breteuil",
-    "addressLocality": "Marseille",
-    "postalCode": "13001",
-    "addressCountry": "FR"
-  },
-  "geo": {
-    "@type": "GeoCoordinates",
-    "latitude": 43.2937,
-    "longitude": 5.3795
-  },
-  "areaServed": [
-    {
-      "@type": "City",
-      "name": "Marseille"
-    },
-    {
-      "@type": "AdministrativeArea",
-      "name": "Bouches-du-Rhône"
-    },
-    {
-      "@type": "Country",
-      "name": "France"
-    }
-  ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "telephone": "+33663465984",
-    "contactType": "customer support",
-    "availableLanguage": "French",
-    "hoursAvailable": {
-      "@type": "OpeningHoursSpecification",
-      "dayOfWeek": [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday"
-      ],
-      "opens": "09:00",
-      "closes": "19:00"
-    }
-  }
-}
-</script>
     <!-- GEO:ENTITY-GRAPH:START -->
 <script type="application/ld+json">
 {
@@ -141,6 +86,7 @@
       "@id": "https://ig-avocat.com/#practice",
       "name": "Maître Ilan Guedj — Avocat en dommage corporel",
       "alternateName": [
+        "Maître Ilan GUEDJ - Avocat dommage corporel",
         "Cabinet Ilan Guedj",
         "Ilan Guedj Avocat"
       ],
@@ -155,6 +101,8 @@
       ],
       "telephone": "+33663465984",
       "email": "contact@ig-avocat.com",
+      "image": "https://ig-avocat.com/img/og-cover.jpg",
+      "logo": "https://ig-avocat.com/img/favicon.svg",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "16 rue Breteuil",
@@ -163,6 +111,12 @@
         "addressRegion": "Provence-Alpes-Côte d'Azur",
         "addressCountry": "FR"
       },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 43.291994,
+        "longitude": 5.375058
+      },
+      "foundingDate": "2023-01-06",
       "hasMap": "https://www.google.com/maps/search/?api=1&query=16+Rue+Breteuil+13001+Marseille",
       "isicV4": "6910",
       "priceRange": "Consultation initiale gratuite — honoraires uniquement au résultat",
@@ -200,6 +154,14 @@
         {
           "@type": "City",
           "name": "Cannes"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Bouches-du-Rhône"
+        },
+        {
+          "@type": "AdministrativeArea",
+          "name": "Var"
         },
         {
           "@type": "AdministrativeArea",
@@ -263,6 +225,40 @@
         "url": "https://www.barreau-marseille.avocat.fr/"
       },
       "publishingPrinciples": "https://ig-avocat.com/mentions-legales",
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services juridiques en dommage corporel",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Indemnisation accident de la route"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Indemnisation accident de la vie (GAV)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Indemnisation victime d'agression (CIVI/FGTI)"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Recours pour erreur médicale (CCI/ONIAM)"
+            }
+          }
+        ]
+      },
       "openingHours": [
         "Mo-Th 09:00-19:00",
         "Fr 09:00-17:00"
@@ -284,6 +280,18 @@
           "dayOfWeek": "Friday",
           "opens": "09:00",
           "closes": "17:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "00:00",
+          "closes": "00:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Sunday",
+          "opens": "00:00",
+          "closes": "00:00"
         }
       ],
       "contactPoint": [
@@ -447,7 +455,7 @@
         "@id": "https://ig-avocat.com/#ilan-guedj"
       },
       "inLanguage": "fr-FR",
-      "dateModified": "2026-09-24",
+      "dateModified": "2026-10-20",
       "description": "Contactez Maître Ilan Guedj. Prise de rendez-vous en ligne, chat WhatsApp ou visite au cabinet à Marseille."
     }
   ]
@@ -533,7 +541,7 @@
                     <h1 class="text-4xl font-black mb-2 tracking-tight">Contactez-nous</h1>
                     <p class="text-gray-500 text-lg">Choisissez le moyen le plus adapté à votre situation.</p>
                     <!-- GEO:ANSWER:START -->
-<div class="geo-answer" aria-label="Reponse essentielle"><p class="text-gray-600 text-sm leading-relaxed mt-4">Maître Ilan Guedj, avocat en dommage corporel au barreau de Marseille, se joint au 06&nbsp;63&nbsp;46&nbsp;59&nbsp;84 (appel ou WhatsApp) ou par courriel à contact@ig-avocat.com. Le cabinet est situé 16 rue Breteuil, 13001 Marseille, et reçoit du lundi au vendredi de 9&nbsp;h à 19&nbsp;h. Le premier échange sur le dossier est gratuit et aucune avance de frais n'est demandée.</p></div>
+<div class="geo-answer" aria-label="Reponse essentielle"><p class="text-gray-600 text-sm leading-relaxed mt-4">Maître Ilan Guedj, avocat en dommage corporel au barreau de Marseille, se joint au 06&nbsp;63&nbsp;46&nbsp;59&nbsp;84 (appel ou WhatsApp) ou par courriel à contact@ig-avocat.com. Le cabinet est situé 16 rue Breteuil, 13001 Marseille, et reçoit du lundi au jeudi de 9&nbsp;h à 19&nbsp;h, le vendredi de 9&nbsp;h à 17&nbsp;h, et reste fermé le samedi et le dimanche. Le premier échange sur le dossier est gratuit et aucune avance de frais n'est demandée.</p></div>
 <!-- GEO:ANSWER:END -->
                 </div>
 
