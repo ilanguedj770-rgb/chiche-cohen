@@ -2195,10 +2195,17 @@
             var shown = false;
             var dismissed = false;
 
+            var lastContact = 0;
+            function contacted() {
+                try { return !!sessionStorage.getItem('cc_popup_dismissed'); } catch (e) { return false; }
+            }
+
             function showPopup() {
-                if (shown || dismissed) return;
-                // Don't show if user already booked (sessionStorage flag)
-                if (sessionStorage.getItem('cc_popup_dismissed')) return;
+                if (shown || dismissed || contacted()) return;
+                // Jamais pendant ou juste après une prise de contact (appel, WhatsApp, RDV) :
+                // l'ouverture de l'application d'appel fait sortir la souris de la page ou masque l'onglet.
+                if (Date.now() - lastContact < 10000) return;
+                if (document.visibilityState !== 'visible' || !document.hasFocus()) return;
                 shown = true;
                 popup.classList.remove('hidden');
                 document.body.style.overflow = 'hidden';
@@ -2209,20 +2216,40 @@
                 dismissed = true;
                 popup.classList.add('hidden');
                 document.body.style.overflow = '';
-                sessionStorage.setItem('cc_popup_dismissed', '1');
+                try { sessionStorage.setItem('cc_popup_dismissed', '1'); } catch (e) {}
             }
 
-            // Desktop: detect mouse leaving viewport toward top
+            // Un visiteur qui prend contact ne doit plus voir la fenêtre (ni maintenant, ni plus tard).
+            document.addEventListener('click', function(e) {
+                var a = e.target.closest && e.target.closest('a[href^="tel:"], a[href*="wa.me"], [data-calendly], [onclick*="initPopupWidget"]');
+                if (!a) return;
+                lastContact = Date.now();
+                if (!a.closest('#exit-popup')) {
+                    dismissed = true;
+                    try { sessionStorage.setItem('cc_popup_dismissed', '1'); } catch (err) {}
+                }
+                if (a.closest('#exit-popup') || !popup.classList.contains('hidden')) hidePopup();
+            }, true);
+            document.addEventListener('submit', function() { lastContact = Date.now(); dismissed = true; }, true);
+
+            // Ordinateur : la souris quitte la page par le haut.
             document.addEventListener('mouseleave', function(e) {
                 if (e.clientY <= 5) showPopup();
             });
 
-            // Mobile: show after 45s of inactivity if user has scrolled
+            // Mobile : après 45 s sans aucune interaction, si la page a été parcourue et reste affichée.
             var scrolled = false;
-            window.addEventListener('scroll', function() { scrolled = true; }, { once: true });
-            setTimeout(function() {
-                if (scrolled && !shown && !dismissed) showPopup();
-            }, 45000);
+            var idleTimer = null;
+            function armIdle() {
+                clearTimeout(idleTimer);
+                idleTimer = setTimeout(function() { if (scrolled) showPopup(); }, 45000);
+            }
+            window.addEventListener('scroll', function() { scrolled = true; armIdle(); }, { passive: true });
+            ['touchstart', 'keydown', 'click'].forEach(function(t) { document.addEventListener(t, armIdle, { passive: true }); });
+            document.addEventListener('visibilitychange', function() {
+                if (document.visibilityState === 'hidden') clearTimeout(idleTimer); else armIdle();
+            });
+            armIdle();
 
             if (closeBtn) closeBtn.addEventListener('click', hidePopup);
             if (overlay) overlay.addEventListener('click', hidePopup);

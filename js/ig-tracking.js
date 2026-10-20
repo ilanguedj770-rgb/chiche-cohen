@@ -118,6 +118,8 @@
     var kind = kindOf(el);
     if (!kind) return;
     var place = placeOf(el);
+    // Un visiteur qui prend contact ne doit plus voir la fenêtre « Attention avant de partir ».
+    try { sessionStorage.setItem('cc_popup_dismissed', '1'); } catch (err) {}
     if (kind === 'tel') push('clic_telephone', { emplacement: place });
     else if (kind === 'whatsapp') push('clic_whatsapp', { emplacement: place });
     else if (kind === 'calendly') {
