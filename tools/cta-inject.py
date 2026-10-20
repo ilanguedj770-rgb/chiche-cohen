@@ -25,6 +25,21 @@ TEL_LABEL = "06 63 46 59 84"
 WA = "https://wa.me/33663465984"
 CAL = "https://calendly.com/guedj-chiche-cohen"
 TRACKING_TAG = '<script src="/js/ig-tracking.js" defer></script>'
+CONSENT_TAG = '<script src="/js/ig-consent.js" defer></script>'
+# Consent Mode v2 : valeurs par défaut posées AVANT le chargement de GTM.
+CONSENT_DEFAULT = (
+    "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
+    "(function(){var c=null;try{c=JSON.parse(localStorage.getItem('ig_consent')||'null');"
+    "if(c&&(c.v!==1||Date.now()-c.t>15724800000))c=null;}catch(e){}"
+    "function s(b){return b?'granted':'denied';}"
+    "gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',"
+    "analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});"
+    "gtag('set','ads_data_redaction',true);gtag('set','url_passthrough',true);gtag('set','cookie_expires',34128000);"
+    "if(c){gtag('consent','update',{analytics_storage:s(c.a),ad_storage:s(c.m),ad_user_data:s(c.m),ad_personalization:s(c.p)});}"
+    "})();</script>"
+)
+FOOTER_COOKIES = ('<p class="mt-10 text-center text-xs text-gray-500"><a href="/mentions-legales#cookies" '
+                  'data-consent-open class="underline hover:text-white">Gestion des cookies</a></p>')
 GTM_HEAD = ("  <!-- Google Tag Manager -->\n  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\n"
             "  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\n"
             "  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n"
@@ -496,6 +511,24 @@ def do_lexique(src):
     return put(src, "FIN", endband, src.index("</main>"))
 
 
+def consent(src):
+    """Consent Mode v2 + bandeau + lien « Gestion des cookies » dans le pied de page."""
+    if "GTM-WP82S37T" in src and not has_block(src, "CONSENT-DEFAULT"):
+        i = src.index("<!-- Google Tag Manager -->")
+        src = src[:i] + marked("CONSENT-DEFAULT", CONSENT_DEFAULT) + "\n    " + src[i:]
+    elif has_block(src, "CONSENT-DEFAULT"):
+        src = replace_block(src, "CONSENT-DEFAULT", CONSENT_DEFAULT)
+    if CONSENT_TAG not in src:
+        src = src.replace("</head>", f"    {CONSENT_TAG}\n</head>", 1)
+    if "<footer" in src:
+        if has_block(src, "FOOTER-COOKIES"):
+            src = replace_block(src, "FOOTER-COOKIES", FOOTER_COOKIES)
+        else:
+            f = src.index("</footer>", src.index("<footer"))
+            src = src[:f] + marked("FOOTER-COOKIES", FOOTER_COOKIES) + src[f:]
+    return src
+
+
 def main():
     os.chdir(ROOT)
     changed = []
@@ -526,6 +559,7 @@ def main():
             src = do_lexique(common(src, False))
         else:  # contact, mentions légales : suivi + barre mobile seulement
             src = common(src, add_mobile_bar=True)
+        src = consent(src)
         if src != orig:
             open(path, "w", encoding="utf-8", newline="\n").write(src)
             changed.append(path)

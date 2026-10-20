@@ -2,6 +2,7 @@
 <html lang="fr" class="scroll-smooth bg-sand">
 
 <head>
+    <!-- CTA:CONSENT-DEFAULT:START --><script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}(function(){var c=null;try{c=JSON.parse(localStorage.getItem('ig_consent')||'null');if(c&&(c.v!==1||Date.now()-c.t>15724800000))c=null;}catch(e){}function s(b){return b?'granted':'denied';}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',functionality_storage:'granted',security_storage:'granted',wait_for_update:500});gtag('set','ads_data_redaction',true);gtag('set','url_passthrough',true);gtag('set','cookie_expires',34128000);if(c){gtag('consent','update',{analytics_storage:s(c.a),ad_storage:s(c.m),ad_user_data:s(c.m),ad_personalization:s(c.p)});}})();</script><!-- CTA:CONSENT-DEFAULT:END -->
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
     new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -381,6 +382,7 @@
 <!-- GEO:ENTITY-GRAPH:END -->
 <link rel="alternate" type="application/rss+xml" title="Guides de Maître Ilan Guedj — flux RSS" href="/feed.xml">
     <script src="/js/ig-tracking.js" defer></script>
+    <script src="/js/ig-consent.js" defer></script>
 </head>
 
 <body class="antialiased bg-white flex flex-col min-h-screen">
@@ -560,8 +562,20 @@
                 </p>
             </section>
 
+            <!-- CTA:COOKIES-LEGAL:START --><section id="cookies" class="scroll-mt-32 mb-16 border-b border-gray-100 pb-12 text-gray-600 space-y-4 leading-relaxed">
+                <h2 class="text-2xl font-bold mb-6 text-gray-900">7. Cookies et mesure d'audience</h2>
+                <p>Lors de votre première visite, un bandeau vous permet d'accepter, de refuser ou de choisir les cookies déposés sur ce site. Refuser est aussi simple qu'accepter, et le site fonctionne de la même façon dans les deux cas. Aucun cookie de mesure ou publicitaire n'est déposé avant votre choix.</p>
+                <ul class="list-disc pl-5 space-y-2">
+                    <li><strong>Mémorisation de votre choix</strong> (stockage local du navigateur, « ig_consent ») : nécessaire au fonctionnement du bandeau, conservé 6 mois, après quoi votre choix vous est redemandé.</li>
+                    <li><strong>Mesure d'audience — Google Analytics</strong> (cookies « _ga » et « _ga_* ») : statistiques de fréquentation et de prises de contact. Déposés uniquement avec votre accord, durée maximale de 13 mois.</li>
+                    <li><strong>Mesure des annonces — Google Ads</strong> (cookies « _gcl_* ») : savoir si une annonce du cabinet a conduit à une prise de contact. Déposés uniquement avec votre accord, durée de 90 jours.</li>
+                    <li><strong>Personnalisation publicitaire — Google Ads</strong> : permettre l'affichage d'annonces du cabinet aux personnes ayant visité le site. Activée uniquement avec votre accord.</li>
+                </ul>
+                <p>Ces services sont fournis par Google Ireland Limited ; des données peuvent être transférées aux États-Unis dans le cadre du Data Privacy Framework. La prise de rendez-vous en ligne s'ouvre dans le module de Calendly, qui applique sa propre politique de cookies.</p>
+                <p>Vous pouvez modifier votre choix à tout moment : <a href="#cookies" data-consent-open class="text-blue-700 underline font-semibold">gérer mes cookies</a>.</p>
+            </section><!-- CTA:COOKIES-LEGAL:END -->
             <section class="mb-16 border-b border-gray-100 pb-12 text-gray-600 space-y-4 leading-relaxed">
-                <h2 class="text-2xl font-bold mb-6 text-gray-900">7. Propriété Intellectuelle</h2>
+                <h2 class="text-2xl font-bold mb-6 text-gray-900">8. Propriété Intellectuelle</h2>
                 <p>
                     Les marques et les logotypes figurant sur le site constituent des signes déposés par l’Editeur ou
                     par des tiers/partenaires et protégés au titre du droit des marques. Toute reproduction, imitation
@@ -595,7 +609,7 @@
             </section>
 
             <section class="mb-12 text-gray-600 space-y-4 leading-relaxed">
-                <h2 class="text-2xl font-bold mb-6 text-gray-900">8. Responsabilité</h2>
+                <h2 class="text-2xl font-bold mb-6 text-gray-900">9. Responsabilité</h2>
                 <p>
                     La responsabilité de l’Editeur ne peut être engagée en cas de défaillance, panne ou interruption
                     empêchant l’accès au Site ou limitant son usage.
@@ -656,7 +670,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    <!-- CTA:FOOTER-COOKIES:START --><p class="mt-10 text-center text-xs text-gray-500"><a href="/mentions-legales#cookies" data-consent-open class="underline hover:text-white">Gestion des cookies</a></p><!-- CTA:FOOTER-COOKIES:END --></footer>
 
     <!-- WhatsApp FAB Desktop -->
     <a data-cta="bouton_flottant" href="https://wa.me/33663465984" target="_blank" class="fixed bottom-8 right-8 z-50 hidden md:flex items-center justify-center w-12 h-12 bg-gray-900/90 backdrop-blur ring-1 ring-white/10 rounded-full shadow-lg hover:bg-gray-900 hover:scale-105 transition duration-300 group cursor-pointer">

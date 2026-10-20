@@ -43,3 +43,10 @@ Un bloc peut forcer sa valeur avec l'attribut `data-cta="…"` ; sinon elle est 
 ## Calendly
 Les boutons `[data-calendly]` chargent le widget Calendly à la demande et l'ouvrent en popup.
 Si le widget ne charge pas, le visiteur est envoyé sur la page Calendly (le RDV n'est alors pas mesuré).
+
+## Consentement (Consent Mode v2)
+- `js/ig-consent.js` affiche le bandeau (Tout refuser / Tout accepter / Personnaliser) et mémorise le choix 6 mois (`localStorage` « ig_consent »).
+- Un script inline placé avant GTM (marqueur `CONSENT-DEFAULT`) pose par défaut `ad_storage`, `ad_user_data`, `ad_personalization` et `analytics_storage` à `denied`, puis rejoue le choix déjà enregistré. Il fixe aussi `ads_data_redaction`, `url_passthrough` et `cookie_expires` (13 mois).
+- Les balises Google de GTM respectent ces signaux d'elles-mêmes : sans accord, elles envoient des pings sans cookie et Google modélise les conversions.
+- Événement `consent_update` (consent_analytics, consent_ads, consent_personalization) à chaque choix.
+- Lien « Gestion des cookies » dans chaque pied de page (`[data-consent-open]`) ; rubrique 7 des mentions légales (`/mentions-legales#cookies`).
