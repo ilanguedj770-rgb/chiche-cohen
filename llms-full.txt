@@ -288,14 +288,14 @@ Barreau de Marseille
 Annuaire officiel des avocats (avocat.fr)
 Adresse du cabinet
 16 rue Breteuil, 13001 Marseille
-Google Maps
-Fiche cabinet (jurisprudence)
-Cabinet Ilan Guedj
-Predictice
+Google Business Profile
+Annuaire du barreau
+Barreau de Marseille, nom Guedj
+Annuaire du barreau de Marseille
 Domaine d'exercice
 Dommage corporel exclusivement, côté victimes
 Honoraires et méthode
-L'annuaire officiel des avocats et la fiche Predictice sont alimentés par des tiers : leurs données ne peuvent être ni saisies, ni corrigées, ni augmentées par le cabinet.
+L'annuaire officiel des avocats et l'annuaire du barreau de Marseille sont alimentés par des tiers : leurs données ne peuvent être ni saisies, ni corrigées, ni augmentées par le cabinet.
 ## Un exercice exclusif : uniquement des victimes
 Le cabinet ne traite ni droit des affaires, ni droit de la famille, ni droit pénal général. Il n'intervient pas non plus pour le compte des compagnies d'assurance. Il se consacre à un seul contentieux — la réparation du dommage corporel — et toujours du même côté : celui de la personne blessée et de ses proches.
 ### Accidents de la circulation
@@ -338,7 +338,7 @@ Quatre domaines, tous en dommage corporel : accidents de la circulation (loi Bad
 ### Où exerce-t-il et dans quelles villes intervient-il ?
 Le cabinet est situé 16 rue Breteuil, 13001 Marseille. Maître Ilan Guedj intervient devant les juridictions du Sud de la France — Marseille, Aix-en-Provence, Toulon, Nice, Avignon, Nîmes, Montpellier — ainsi que partout en France lorsque le dossier le justifie.
 ### Comment vérifier son expérience de façon indépendante ?
-Deux sources publiques extérieures au cabinet : le profil sur l'annuaire officiel des avocats, qui confirme l'inscription au barreau de Marseille, et la fiche Predictice du cabinet. Ces données sont alimentées par des tiers et ne peuvent pas être modifiées par le cabinet.
+Deux sources publiques extérieures au cabinet : le profil sur l'annuaire officiel des avocats, qui confirme l'inscription au barreau de Marseille, et la fiche de l'annuaire du barreau de Marseille. Ces données sont alimentées par des tiers et ne peuvent pas être modifiées par le cabinet.
 ### Quelles langues sont pratiquées au cabinet ?
 Français et anglais.
 ### Combien coûte une consultation ?
@@ -440,6 +440,7 @@ Loi Badinter · Préjudices graves
 Avocat accident
 de la route
 # à Marseille.
+Rédigé par Maître Ilan Guedj, avocat au barreau de Marseille depuis 2023 · mis à jour le 20 octobre 2026
 Motards, piétons, cyclistes, passagers, conducteurs. Polytraumatismes, traumatisme crânien, séquelles à vie. Nous défendons l'indemnisation maximale.
 Premier échange gratuit et confidentiel avec Maître Ilan Guedj.
 Appeler le 06 63 46 59 84 WhatsApp Prendre rendez-vous
@@ -450,6 +451,8 @@ Appeler le 06 63 46 59 84 WhatsApp Prendre rendez-vous
 Avocat au Barreau de Marseille — intervention dans toute la France (déplacement ou visioconférence). Maîtrise de la nomenclature Dintilhac et des grands postes : tierce personne, frais futurs, perte de gains professionnels futurs.
 En bref
 Toute victime d'un accident de la circulation impliquant un véhicule terrestre à moteur est indemnisée selon la loi Badinter du 5 juillet 1985. Les piétons, cyclistes et passagers sont indemnisés intégralement, sauf faute inexcusable ayant été la cause exclusive de l'accident (article 3) ; la faute du conducteur, que l'assureur doit prouver, ne peut que limiter ou exclure sa propre indemnisation (article 4). L'assureur doit présenter une offre dans les huit mois de l'accident et une offre définitive dans les cinq mois suivant la consolidation (article L. 211-9 du code des assurances), et la victime peut se faire assister d'un médecin de son choix à l'expertise (article L. 211-10). Maître Ilan Guedj, avocat au barreau de Marseille, assiste les victimes de l'expertise médicale jusqu'à la liquidation de chaque poste de la nomenclature Dintilhac, sans avance de frais.
+## À Marseille
+Un accident de la circulation se porte, selon le défendeur et le lieu des faits, devant le tribunal judiciaire de Marseille, avec un appel devant la cour d'appel d'Aix-en-Provence. Le tribunal administratif de Marseille est la juridiction des hôpitaux publics, par exemple l'AP-HM. La commission d'indemnisation des victimes d'infractions (CIVI) siège au tribunal judiciaire de Marseille pour les agressions. Les accidents médicaux de la région relèvent de la Commission de conciliation et d'indemnisation des accidents médicaux de Provence-Alpes-Côte d'Azur. L'ONIAM précise que les services administratifs de cette commission sont à Lyon, 235 cours Lafayette, 69451 Lyon Cedex 6.
 100%
 Exercice exclusif
 Uniquement le dommage corporel
@@ -652,6 +655,7 @@ Expertise
 Avocat erreur
 médicale
 # à Marseille.
+Rédigé par Maître Ilan Guedj, avocat au barreau de Marseille depuis 2023 · mis à jour le 20 octobre 2026
 Infections, aléas, fautes. La médecine a ses limites, vos droits non.
 Premier échange gratuit et confidentiel avec Maître Ilan Guedj.
 Appeler le 06 63 46 59 84 WhatsApp Prendre rendez-vous
@@ -662,6 +666,8 @@ Appeler le 06 63 46 59 84 WhatsApp Prendre rendez-vous
 Avocat au Barreau de Marseille — intervention dans toute la France (déplacement ou visioconférence)
 En bref
 Un accident médical ouvre droit à indemnisation dans deux cas. En présence d'une faute du professionnel ou de l'établissement de santé, la réparation est intégrale (article L. 1142-1, I du code de la santé publique). Sans faute, l'aléa thérapeutique est indemnisé par l'ONIAM au titre de la solidarité nationale lorsqu'il atteint un seuil de gravité : notamment une atteinte permanente à l'intégrité physique ou psychique supérieure à 24 % ou un arrêt des activités professionnelles d'au moins six mois consécutifs (articles L. 1142-1, II et D. 1142-1). Les infections nosocomiales engagent la responsabilité de l'établissement sans faute à prouver, l'ONIAM prenant le relais au-delà de 25 % de déficit ou en cas de décès (article L. 1142-1-1). La victime peut saisir gratuitement la Commission de conciliation et d'indemnisation (CCI) ou le tribunal ; l'action se prescrit par dix ans à compter de la consolidation (article L. 1142-28). Maître Ilan Guedj, avocat au barreau de Marseille, accompagne les victimes d'accidents médicaux de l'accès au dossier médical jusqu'à l'indemnisation, sans avance de frais.
+## À Marseille
+Un accident médical peut être soumis à la Commission de conciliation et d'indemnisation des accidents médicaux de Provence-Alpes-Côte d'Azur. L'ONIAM précise que les services administratifs de cette commission sont à Lyon, 235 cours Lafayette, 69451 Lyon Cedex 6. Le contentieux d'un hôpital public, par exemple l'AP-HM, relève du tribunal administratif de Marseille. Celui d'un praticien libéral ou d'une clinique privée relève, selon les faits, du tribunal judiciaire de Marseille, avec appel devant la cour d'appel d'Aix-en-Provence. La CIVI du tribunal judiciaire de Marseille est, elle, la commission des victimes d'agression.
 ## Notre intervention
 ### Expertise Médicale
 Face aux experts des hôpitaux et cliniques, nous mandatons des médecins conseils indépendants pour prouver la faute ou l'aléa.
@@ -669,6 +675,9 @@ Face aux experts des hôpitaux et cliniques, nous mandatons des médecins consei
 Maîtrise des procédures amiables devant la Commission de Conciliation.
 ### Dossier Médical
 Nous vous mettons en relation avec des médecins conseils afin de constituer l'intégralité de votre dossier médical.
+## Infection nosocomiale à Marseille
+Dans un établissement, un service ou un organisme de santé — hôpital public, par exemple l'AP-HM, ou clinique privée — l'infection nosocomiale n'est pas soumise à la preuve d'une faute. L'article L. 1142-1, I, alinéa 2, du code de la santé publique rend ces structures responsables des dommages qui en résultent, sauf si elles rapportent la preuve d'une cause étrangère.
+Lorsque l'infection correspond à un taux d'atteinte permanente à l'intégrité physique ou psychique supérieur à 25 %, ou lorsqu'elle provoque le décès, la réparation est ouverte au titre de la solidarité nationale (article L. 1142-1-1, 1°, du code de la santé publique). C'est alors l'ONIAM qui est débiteur. En deçà de ce seuil, l'établissement reste le débiteur. La demande peut être examinée par la Commission de conciliation et d'indemnisation des accidents médicaux de Provence-Alpes-Côte d'Azur, dont l'ONIAM situe les services administratifs à Lyon. Le détail du régime est dans le guide infection nosocomiale.
 ## Les 4 étapes de votre dossier
 ### Saisie du Dossier
 Analyse des pièces médicales et saisine de la CCI ou du Tribunal Judiciaire.
@@ -767,6 +776,7 @@ URL : https://ig-avocat.com/agression
 Expertise
 Avocat agression
 # à Marseille.
+Rédigé par Maître Ilan Guedj, avocat au barreau de Marseille depuis 2023 · mis à jour le 20 octobre 2026
 Victime d'un acte volontaire ? Une réparation reste possible, même sans auteur identifié.
 Premier échange gratuit et confidentiel avec Maître Ilan Guedj.
 Appeler le 06 63 46 59 84 WhatsApp Prendre rendez-vous
@@ -777,6 +787,8 @@ Appeler le 06 63 46 59 84 WhatsApp Prendre rendez-vous
 Avocat au Barreau de Marseille — intervention dans toute la France (déplacement ou visioconférence)
 En bref
 Une victime d'agression peut être indemnisée même si l'auteur est inconnu, insolvable ou non condamné, en saisissant la Commission d'indemnisation des victimes d'infractions (CIVI) du tribunal judiciaire ; l'indemnité est versée par le Fonds de garantie des victimes (FGTI). La réparation intégrale est ouverte lorsque les faits ont entraîné la mort, une incapacité permanente ou une incapacité totale de travail d'au moins un mois, ainsi que pour certaines infractions comme le viol ou les agressions sexuelles (article 706-3 du code de procédure pénale). La demande doit être présentée dans les trois ans de l'infraction, délai prolongé jusqu'à un an après la décision pénale définitive (article 706-5). Maître Ilan Guedj, avocat au barreau de Marseille, saisit la CIVI, assiste la victime à l'expertise médicale et chiffre chaque poste de préjudice, sans avance de frais.
+## À Marseille
+La commission d'indemnisation des victimes d'infractions (CIVI) compétente siège au tribunal judiciaire de Marseille. L'appel se forme devant la cour d'appel d'Aix-en-Provence. Le tribunal administratif de Marseille connaît les hôpitaux publics, par exemple l'AP-HM. Les accidents médicaux de la région sont examinés par la Commission de conciliation et d'indemnisation des accidents médicaux de Provence-Alpes-Côte d'Azur. L'ONIAM précise que les services administratifs de cette commission sont à Lyon, 235 cours Lafayette, 69451 Lyon Cedex 6.
 ## Notre intervention
 ### Fonds de Garantie (FGTI)
 Si l'agresseur est insolvable ou inconnu, c'est la solidarité nationale qui paie. Nous montons le dossier pour garantir votre indemnisation.
@@ -878,6 +890,7 @@ Expertise
 Avocat accidents
 de la vie
 # à Marseille.
+Rédigé par Maître Ilan Guedj, avocat au barreau de Marseille depuis 2023 · mis à jour le 20 octobre 2026
 Chute, sport, bricolage. Votre contrat GAV est souvent sous-évalué.
 Premier échange gratuit et confidentiel avec Maître Ilan Guedj.
 Appeler le 06 63 46 59 84 WhatsApp Prendre rendez-vous
@@ -888,6 +901,8 @@ Appeler le 06 63 46 59 84 WhatsApp Prendre rendez-vous
 Avocat au Barreau de Marseille — intervention dans toute la France (déplacement ou visioconférence)
 En bref
 Un accident de la vie courante (chute, accident domestique, de sport, de bricolage ou de loisir) survenu sans tiers responsable n'est indemnisé que si la victime dispose d'un contrat Garantie des accidents de la vie (GAV) ou d'une garantie individuelle accident. Ce contrat indemnise selon ses propres conditions : seuil de gravité, plafond de garantie et évaluation des préjudices par un médecin mandaté par l'assureur, que la victime peut contester en se faisant assister d'un médecin-recours et d'un avocat. Lorsqu'un tiers est responsable (propriétaire des lieux, organisateur, établissement, animal), la réparation intégrale est recherchée sur le fondement de la responsabilité civile (articles 1240 et suivants du code civil). Maître Ilan Guedj, avocat au barreau de Marseille, vérifie les garanties mobilisables, discute l'offre de l'assureur et chiffre chaque poste de préjudice, sans avance de frais.
+## À Marseille
+Lorsqu'un accident de la vie débouche sur une action en responsabilité civile, elle se porte, selon les faits, devant le tribunal judiciaire de Marseille, avec appel devant la cour d'appel d'Aix-en-Provence. La CIVI du tribunal judiciaire de Marseille est la voie des agressions. Le tribunal administratif de Marseille est celui des hôpitaux publics, par exemple l'AP-HM. Les accidents médicaux relèvent de la Commission de conciliation et d'indemnisation des accidents médicaux de Provence-Alpes-Côte d'Azur. L'ONIAM précise que les services administratifs de cette commission sont à Lyon, 235 cours Lafayette, 69451 Lyon Cedex 6.
 ## Notre intervention
 ### Analyse du Contrat GAV
 Nous décortiquons les clauses de votre Garantie Accidents de la Vie pour débloquer les plafonds d'indemnisation souvent cachés.
@@ -989,7 +1004,7 @@ Loi Badinter · Conducteur
 # Avocat accident de moto à Marseille
 En bref
 Le motard qui conduisait au moment de l'accident est une victime conductrice : sa faute peut limiter ou exclure l'indemnisation de son dommage corporel si elle a contribué au dommage (article 4 de la loi du 5 juillet 1985). Le passager de la moto relève, lui, de l'article 3. L'assureur doit présenter une offre dans les délais de l'article L. 211-9 du code des assurances. Maître Ilan Guedj exerce 16 rue Breteuil, 13001 Marseille.
-Page rédigée sous la responsabilité de Maître Ilan Guedj, avocat au barreau de Marseille. Mise à jour le 20 octobre 2026. Le cabinet reçoit au 16 rue Breteuil, 13001 Marseille, du lundi au jeudi de 9 h à 19 h et le vendredi de 9 h à 17 h. Fermé le samedi et le dimanche. Téléphone : 06 63 46 59 84.
+Rédigé par Maître Ilan Guedj, avocat au barreau de Marseille depuis 2023 · mis à jour le 20 octobre 2026. Le cabinet reçoit au 16 rue Breteuil, 13001 Marseille, du lundi au jeudi de 9 h à 19 h et le vendredi de 9 h à 17 h. Fermé le samedi et le dimanche. Téléphone : 06 63 46 59 84.
 Appeler le 06 63 46 59 84 WhatsApp Écrire au cabinet
 ## Le motard qui conduisait est une victime conductrice
 Une moto est un véhicule terrestre à moteur. La loi du 5 juillet 1985, article 1 s'applique aux victimes d'un accident de la circulation dans lequel un tel véhicule est impliqué, y compris lorsqu'elles sont transportées en vertu d'un contrat. Le article 2 rend inopposables à la victime la force majeure et le fait d'un tiers.
@@ -1010,6 +1025,8 @@ Le lexique du cabinet précise ces notions : déficit fonctionnel permanent, sou
 ## Les délais, et ce que la loi ne couvre pas
 L'action de la victime directe ou indirecte se prescrit par dix ans à compter de la consolidation du dommage initial ou aggravé (article 2226 du code civil). La prescription ne court pas contre le mineur non émancipé (article 2235).
 Limite utile : l'utilisateur d'un engin de déplacement personnel motorisé, comme une trottinette électrique, est un conducteur au sens de l'article 4, et non un cycliste. Un guide distinct traite l'accident de trottinette. Si aucun véhicule terrestre à moteur n'est impliqué, la loi de 1985 ne s'applique pas : d'autres régimes, notamment la garantie des accidents de la vie, peuvent être en cause.
+## À Marseille
+Le dossier d'un motard ou d'un passager blessé se discute, selon les faits, devant le tribunal judiciaire de Marseille, puis, en appel, devant la cour d'appel d'Aix-en-Provence. Le tribunal administratif de Marseille connaît les litiges des hôpitaux publics, par exemple l'AP-HM. La CIVI du tribunal judiciaire de Marseille est celle des agressions. Pour un accident médical, la commission compétente pour la région est la Commission de conciliation et d'indemnisation des accidents médicaux de Provence-Alpes-Côte d'Azur. L'ONIAM précise que les services administratifs de cette commission sont à Lyon, 235 cours Lafayette, 69451 Lyon Cedex 6.
 ## Questions fréquentes
 Un motard blessé à Marseille est-il indemnisé s'il a commis une faute ?
 Pas automatiquement, et pas jamais. L'article 4 de la loi du 5 juillet 1985 permet de limiter ou d'exclure l'indemnisation du conducteur en raison de sa faute. Cette faute doit avoir contribué au dommage : sa seule gravité ne suffit pas (Cass. 2e civ., 19 juin 2025, n° 23-22.911). Le passager de la moto n'est pas soumis à la même règle.
@@ -1049,7 +1066,7 @@ Loi Badinter · Article 3
 # Avocat piéton et cycliste renversé à Marseille
 En bref
 Le piéton ou le cycliste renversé par un véhicule terrestre à moteur est une victime non conductrice. Son imprudence ne lui est opposable que si elle constitue une faute inexcusable, cause exclusive de l'accident (article 3 de la loi du 5 juillet 1985). Les moins de 16 ans, les plus de 70 ans et les personnes titulaires, au moment de l'accident, d'une invalidité d'au moins 80 % sont indemnisées dans tous les cas, sauf recherche volontaire du dommage. Maître Ilan Guedj exerce 16 rue Breteuil, 13001 Marseille.
-Page rédigée sous la responsabilité de Maître Ilan Guedj, avocat au barreau de Marseille. Mise à jour le 20 octobre 2026. Le cabinet reçoit au 16 rue Breteuil, 13001 Marseille, du lundi au jeudi de 9 h à 19 h et le vendredi de 9 h à 17 h. Fermé le samedi et le dimanche. Téléphone : 06 63 46 59 84.
+Rédigé par Maître Ilan Guedj, avocat au barreau de Marseille depuis 2023 · mis à jour le 20 octobre 2026. Le cabinet reçoit au 16 rue Breteuil, 13001 Marseille, du lundi au jeudi de 9 h à 19 h et le vendredi de 9 h à 17 h. Fermé le samedi et le dimanche. Téléphone : 06 63 46 59 84.
 Appeler le 06 63 46 59 84 WhatsApp Écrire au cabinet
 ## Piéton et cycliste : des victimes non conductrices
 Le piéton heurté par une voiture, un deux-roues motorisé ou un autre véhicule terrestre à moteur, et le cycliste renversé dans les mêmes conditions, sont des victimes non conductrices. Le article 3 de la loi du 5 juillet 1985 indemnise leur dommage corporel sans que leur propre imprudence puisse, en principe, leur être opposée. Seule une faute inexcusable, cause exclusive de l'accident, peut les en priver.
@@ -1067,6 +1084,8 @@ La protection renforcée de l'article 3 concerne le dommage corporel. Le sort de
 ## Responsable inconnu, délais, proches
 Si le conducteur a pris la fuite ou n'est pas assuré, le Fonds de garantie des assurances obligatoires de dommages peut intervenir (article L. 421-1 du code des assurances). Les délais indiqués par l'administration sont distincts de la prescription civile : trois ans après l'accident si le responsable est inconnu ; un an à compter de la décision définitive ou de la transaction s'il est connu (Service-public, fiche F2679). Un délai manqué fait perdre ce recours-là.
 L'action en responsabilité de la victime directe ou indirecte se prescrit par dix ans à compter de la consolidation (article 2226 du code civil). Elle ne court pas contre le mineur non émancipé (article 2235). Le préjudice des proches se répare en tenant compte des limites opposables à la victime directe (article 6 de la loi de 1985).
+## À Marseille
+Le recours d'un piéton ou d'un cycliste renversé se forme, selon les faits, devant le tribunal judiciaire de Marseille, avec appel devant la cour d'appel d'Aix-en-Provence. Le tribunal administratif de Marseille est compétent pour les hôpitaux publics, par exemple l'AP-HM. La CIVI siège au tribunal judiciaire de Marseille lorsqu'il s'agit d'une agression. L'accident médical suit une autre voie : la Commission de conciliation et d'indemnisation des accidents médicaux de Provence-Alpes-Côte d'Azur. L'ONIAM précise que les services administratifs de cette commission sont à Lyon, 235 cours Lafayette, 69451 Lyon Cedex 6.
 ## Questions fréquentes
 Un piéton qui a traversé hors du passage est-il privé d'indemnisation ?
 Non, pas par principe. L'article 3 de la loi du 5 juillet 1985 n'oppose au piéton que la faute inexcusable qui a été la cause exclusive de l'accident. Traverser en dehors d'un passage n'est pas, à lui seul, cette faute.
@@ -1106,7 +1125,7 @@ Marseille · Cabinet unique
 # Avocat dommage corporel dans les Bouches-du-Rhône
 En bref
 Maître Ilan Guedj est avocat au barreau de Marseille, 16 rue Breteuil, 13001. Il n'a pas de cabinet à Aix-en-Provence, Aubagne, La Ciotat, Martigues ou ailleurs dans le département. Il peut assister une victime domiciliée ou blessée dans les Bouches-du-Rhône. La cour d'appel d'Aix-en-Provence a dans son ressort les Bouches-du-Rhône, le Var, les Alpes-Maritimes et les Alpes-de-Haute-Provence.
-Page rédigée sous la responsabilité de Maître Ilan Guedj, avocat au barreau de Marseille. Mise à jour le 20 octobre 2026. Le cabinet reçoit au 16 rue Breteuil, 13001 Marseille, du lundi au jeudi de 9 h à 19 h et le vendredi de 9 h à 17 h. Fermé le samedi et le dimanche. Téléphone : 06 63 46 59 84.
+Rédigé par Maître Ilan Guedj, avocat au barreau de Marseille depuis 2023 · mis à jour le 20 octobre 2026. Le cabinet reçoit au 16 rue Breteuil, 13001 Marseille, du lundi au jeudi de 9 h à 19 h et le vendredi de 9 h à 17 h. Fermé le samedi et le dimanche. Téléphone : 06 63 46 59 84.
 Appeler le 06 63 46 59 84 WhatsApp Écrire au cabinet
 ## Un seul cabinet, à Marseille
 Maître Ilan Guedj exerce au barreau de Marseille. L'adresse professionnelle est le 16 rue Breteuil, 13001 Marseille. Il n'existe pas de bureau secondaire à Aix-en-Provence, Aubagne, La Ciotat, Martigues, Istres, Salon-de-Provence, Vitrolles ou Marignane. Intervenir pour une victime qui habite ou a été blessée dans ces communes ne signifie pas y avoir pignon sur rue.
@@ -1122,6 +1141,8 @@ Le premier courrier informe du droit à un avocat et à un médecin (article L. 
 Que l'accident ait eu lieu sur la Canebière, la route d'Aix ou le littoral, les préjudices corporels se décrivent avec la nomenclature Dintilhac : frais de santé, pertes de gains professionnels, déficit fonctionnel temporaire, déficit fonctionnel permanent, souffrances endurées, préjudice esthétique, préjudice d'agrément, incidence professionnelle, assistance par tierce personne lorsque le besoin est établi. Ces postes s'examinent séparément. Un taux de déficit n'équivaut pas à un montant légal.
 L'expertise peut être amiable ou judiciaire. Le cadre judiciaire est celui des articles 263 à 284-1 du code de procédure civile. La victime choisit son médecin-conseil (article L. 211-10 du code des assurances). Si une somme est due et que l'obligation n'est pas sérieusement contestable, une provision peut être demandée en référé (article 835, alinéa 2, du code de procédure civile).
 Le lexique du dommage corporel définit ces termes. Le formulaire de contact permet d'exposer le dossier avant toute décision sur une offre.
+## À Marseille
+Le cabinet est à Marseille et n'a pas de bureau ailleurs dans le département. La juridiction saisie dépend des faits. À Marseille, le tribunal judiciaire et la cour d'appel d'Aix-en-Provence sont les juridictions de droit commun ; le tribunal administratif de Marseille connaît les hôpitaux publics, par exemple l'AP-HM ; la CIVI siège au tribunal judiciaire de Marseille pour les agressions. La commission des accidents médicaux de la région est la Commission de conciliation et d'indemnisation des accidents médicaux de Provence-Alpes-Côte d'Azur. L'ONIAM précise que les services administratifs de cette commission sont à Lyon, 235 cours Lafayette, 69451 Lyon Cedex 6.
 ## Questions fréquentes
 Le cabinet a-t-il une adresse à Aix, Aubagne, La Ciotat ou Martigues ?
 Non. La seule adresse professionnelle est le 16 rue Breteuil, 13001 Marseille. Intervenir pour une victime de ces communes ne crée pas un bureau local.

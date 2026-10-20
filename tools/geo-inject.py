@@ -92,8 +92,10 @@ BARREAU = {
     "alternateName": "Ordre des avocats du barreau de Marseille",
     "url": "https://www.barreau-marseille.avocat.fr/",
 }
+# Place id déjà utilisé sur l'accueil pour les avis Google (place_id:ChIJ7_fUSMPByRIR7Nq6quN5q9M).
 MAP = ("https://www.google.com/maps/search/?api=1"
-       "&query=16+Rue+Breteuil+13001+Marseille")
+       "&query=Ma%C3%AEtre+Ilan+GUEDJ+Avocat+dommage+corporel"
+       "&query_place_id=ChIJ7_fUSMPByRIR7Nq6quN5q9M")
 KNOWS = [
     "Droit du dommage corporel", "Indemnisation des victimes",
     "Accident de la circulation", "Loi Badinter du 5 juillet 1985",
@@ -125,8 +127,8 @@ SOURCES = [
      "name": "Profil de Maître Ilan Guedj sur l'annuaire officiel des avocats (avocat.fr)",
      "url": "https://consultation.avocat.fr/avocat-marseille/ilan-guedj-53358.html"},
     {"@type": "WebPage",
-     "name": "Fiche Cabinet Ilan Guedj sur Predictice",
-     "url": "https://predictice.com/cabinet/cabinet-ilan-guedj-922092382"},
+     "name": "Annuaire du barreau de Marseille",
+     "url": "https://www.barreau-marseille.avocat.fr/annuaire/?nom=guedj"},
 ]
 # Profils publics tenus par l'avocat lui-même (identité), en tête de sameAs.
 PROFILES = ["https://www.linkedin.com/in/ilan-guedj/", "https://x.com/Guedj_"]
@@ -390,8 +392,15 @@ def process(path):
     description = get(r'<meta[^>]+name="description"[^>]+content="([^"]*)"', src)
     if description:
         page["description"] = description
-    if rel.startswith("blog/"):
+    signed = {
+        "accidents-route.html", "erreur-medicale.html", "agression.html",
+        "accidents-vie.html", "accident-moto-marseille.html",
+        "pieton-cycliste-marseille.html",
+        "avocat-dommage-corporel-bouches-du-rhone.html",
+    }
+    if rel.startswith("blog/") or os.path.basename(rel) in signed:
         page["author"] = {"@id": PERSON_ID}
+    if rel.startswith("blog/"):
         page["datePublished"] = published
     if services:
         page["mainEntity"] = {"@id": services[0]["@id"]}
