@@ -26,6 +26,29 @@ Un bloc peut forcer sa valeur avec l'attribut `data-cta="…"` ; sinon elle est 
 ### `page_type`
 `accueil`, `service`, `ville`, `article`, `blog_accueil`, `contact`, `autre`.
 
+## Événements GA4 à déclarer comme événements clés
+
+Le même script pousse aussi dans le dataLayer (le canal déjà utilisé par GTM ; le `gtag()` de la page ne sert qu'au Consent Mode) des noms destinés à GA4. Paramètres : `page_path` (chemin + query) et `link_location`.
+
+| Événement clé | Quand il part | `link_location` | Autre paramètre |
+|---|---|---|---|
+| `click_phone` | clic sur un lien `tel:` | `header`, `footer`, `corps` ou `bouton flottant` | — |
+| `click_whatsapp` | clic sur un lien `wa.me` | idem | — |
+| `click_email` | clic sur un lien `mailto:` | idem | — |
+| `generate_lead` | formulaire de contact Formspree envoyé avec succès (`#contact-form`) | emplacement du formulaire (en pratique `corps`) | `form_id` (`contact-form`) |
+
+`header` regroupe l'en-tête et le menu mobile. `bouton flottant` regroupe la barre fixe mobile et le bouton WhatsApp desktop. Tout le reste (hero, milieu, fin de page, barre latérale) est `corps`.
+
+Aucun cookie n'est écrit par ce script. `analytics_storage` reste `denied` tant que le visiteur n'a pas accepté ; le Consent Mode laisse partir un ping sans cookie.
+
+Le guide gratuit (`lead_magnet_submit`) n'est pas un `generate_lead` : ce n'est pas le formulaire de contact.
+
+### Doublon possible dans GTM (conteneur non lisible depuis le dépôt)
+
+Les clics téléphone et WhatsApp envoient **aussi** `clic_telephone` et `clic_whatsapp`. Le succès du formulaire envoie **aussi** `form_submit`. Si le conteneur GTM-WP82S37T a déjà une balise GA4 sur ces noms historiques, elle comptera deux fois la même action dès qu'une balise écoutera `click_phone`, `click_whatsapp` ou `generate_lead`.
+
+À faire dans GTM, une seule fois : une balise GA4 « Événement » par nom clé (`click_phone`, `click_whatsapp`, `click_email`, `generate_lead`), paramètres `page_path`, `link_location` et `form_id`. Ne pas laisser en plus une balise GA4 sur `clic_telephone`, `clic_whatsapp` ou `form_submit`. Les balises Google Ads branchées sur les noms historiques, si elles existent déjà, peuvent rester : ce ne sont pas des événements GA4. `clic_calendly` ne doit pas être un événement clé.
+
 ## Garde-fous contre les doublons
 - Un seul écouteur de clic pour tout le site ; le script ne s'exécute qu'une fois même s'il est inclus deux fois.
 - Même événement + même emplacement dans un intervalle de 1,5 s : compté une seule fois (double tap).
