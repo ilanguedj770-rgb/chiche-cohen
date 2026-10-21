@@ -24,7 +24,7 @@ Chaque page du site commence par un bloc « En bref » (classe `geo-answer`) : u
 - [Agression](https://ig-avocat.com/agression): CIVI, FGTI, délais de saisine, auteur inconnu ou insolvable
 - [Accidents de la vie](https://ig-avocat.com/accidents-vie): garantie GAV, accident sans tiers, responsabilité civile
 - [Accident de moto à Marseille](https://ig-avocat.com/accident-moto-marseille): motard conducteur (article 4), passager, offre de l'assureur, expertise, délais
-- [Piéton et cycliste renversé à Marseille](https://ig-avocat.com/pieton-cycliste-marseille): victimes non conductrices (article 3), tramway sur voie propre, Fonds de garantie
+- [Piéton et cycliste renversé à Marseille](https://ig-avocat.com/pieton-cycliste-marseille): victimes non conductrices (article 3), piétons de plus de 70 ans, tierce personne et préjudice des proches, tramway sur voie propre, Fonds de garantie
 - [Avocat dommage corporel Bouches-du-Rhône](https://ig-avocat.com/avocat-dommage-corporel-bouches-du-rhone): cabinet unique à Marseille ; intervention à Aix, Aubagne, La Ciotat, Martigues, sans bureau sur place
 - [Honoraires](https://ig-avocat.com/honoraires): honoraire de résultat, aucune avance de frais, convention écrite
 - [Lexique du dommage corporel](https://ig-avocat.com/lexique-dommage-corporel): 31 définitions sourcées (nomenclature Dintilhac, DFP, DFT, consolidation, souffrances endurées, tierce personne, PGPA, PGPF, incidence professionnelle, CIVI, FGTI, FGAO, CCI, ONIAM, GAV…)
@@ -36,7 +36,7 @@ Chaque page du site commence par un bloc « En bref » (classe `geo-answer`) : u
 - [Que faire après un accident de la route ?](https://ig-avocat.com/blog/que-faire-apres-accident-route): constat, obligations, déclaration à l'assurance, erreurs à éviter
 - [Conducteur en faute : pouvez-vous être indemnisé ?](https://ig-avocat.com/blog/faute-conducteur-victime-indemnisation): article 4 de la loi Badinter, arrêt Cass. 2e civ. 19 juin 2025
 - [Victime passagère d'un accident : vos droits](https://ig-avocat.com/blog/indemnisation-victime-passagere-accident): indemnisation intégrale du passager, même si le conducteur est fautif
-- [Piéton renversé : quelle indemnisation après l'accident ?](https://ig-avocat.com/blog/pieton-indemnisation-accident): Piéton blessé par un véhicule : la loi Badinter l'indemnise même s'il a traversé hors d'un passage. Faute inexcusable, protections renforcées, délais d'offre.
+- [Piéton renversé : quelle indemnisation après l'accident ?](https://ig-avocat.com/blog/pieton-indemnisation-accident): Qui est responsable, et comment se calcule le montant (nomenclature Dintilhac, expertise, offre de l'assureur). Dans la grande majorité des cas, même en cas de faute.
 - [Cycliste renversé : quelle indemnisation après l'accident ?](https://ig-avocat.com/blog/accident-velo-indemnisation): Cycliste blessé par une voiture : la loi Badinter le protège comme un piéton. Faute inexcusable, VAE, dommages au vélo, délais d'offre et Fonds de garantie.
 - [Accident de moto : quelle indemnisation pour le motard ?](https://ig-avocat.com/blog/accident-moto-indemnisation): Motard blessé : la loi Badinter le traite en conducteur, sa faute peut réduire l'indemnisation. Droit à réparation, preuves, postes de préjudice et délais.
 - [Accident de trottinette électrique : quels sont vos droits ?](https://ig-avocat.com/blog/accident-trottinette-electrique-indemnisation): EDPM, loi Badinter, assurance obligatoire, FGAO

@@ -2,7 +2,7 @@
 
 > Corpus texte intégral du site https://ig-avocat.com, mis à disposition des assistants IA et des moteurs de réponse. Maître Ilan Guedj, avocat au barreau de Marseille, 16 rue Breteuil, 13001 Marseille — activité exclusivement consacrée à la défense des victimes de dommage corporel. Consultation gratuite, aucune avance de frais, honoraires uniquement au résultat. Téléphone : 06 63 46 59 84 — contact@ig-avocat.com.
 
-Version générée le 2026-10-20. Synthèse courte : https://ig-avocat.com/llms.txt
+Version générée le 2026-10-21. Synthèse courte : https://ig-avocat.com/llms.txt
 
 ---
 
@@ -1065,14 +1065,21 @@ URL : https://ig-avocat.com/pieton-cycliste-marseille
 Loi Badinter · Article 3
 # Avocat piéton et cycliste renversé à Marseille
 En bref
-Le piéton ou le cycliste renversé par un véhicule terrestre à moteur est une victime non conductrice. Son imprudence ne lui est opposable que si elle constitue une faute inexcusable, cause exclusive de l'accident (article 3 de la loi du 5 juillet 1985). Les moins de 16 ans, les plus de 70 ans et les personnes titulaires, au moment de l'accident, d'une invalidité d'au moins 80 % sont indemnisées dans tous les cas, sauf recherche volontaire du dommage. Maître Ilan Guedj exerce 16 rue Breteuil, 13001 Marseille.
-Rédigé par Maître Ilan Guedj, avocat au barreau de Marseille depuis 2023 · mis à jour le 20 octobre 2026. Le cabinet reçoit au 16 rue Breteuil, 13001 Marseille, du lundi au jeudi de 9 h à 19 h et le vendredi de 9 h à 17 h. Fermé le samedi et le dimanche. Téléphone : 06 63 46 59 84.
+Un piéton renversé à Marseille par une voiture ou un autre véhicule terrestre à moteur est, dans la grande majorité des cas, indemnisé de son dommage corporel même en cas de faute : l'article 3 de la loi du 5 juillet 1985 n'oppose que la faute inexcusable cause exclusive de l'accident, la recherche volontaire du dommage faisant aussi obstacle à l'indemnisation. Les victimes de plus de 70 ans, comme celles de moins de 16 ans ou titulaires, au moment de l'accident, d'un titre d'invalidité d'au moins 80 %, sont indemnisées de leurs dommages corporels sauf si elles ont volontairement recherché le dommage, et la faute inexcusable ne peut pas leur être opposée. Le cycliste dont le vélo n'est pas un véhicule terrestre à moteur relève du même article lorsqu'il est heurté par un tel véhicule.
+Rédigé par Maître Ilan Guedj, avocat au barreau de Marseille depuis 2023 · mis à jour le 21 octobre 2026. Le cabinet reçoit au 16 rue Breteuil, 13001 Marseille, du lundi au jeudi de 9 h à 19 h et le vendredi de 9 h à 17 h. Fermé le samedi et le dimanche. Téléphone : 06 63 46 59 84.
 Appeler le 06 63 46 59 84 WhatsApp Écrire au cabinet
 ## Piéton et cycliste : des victimes non conductrices
 Le piéton heurté par une voiture, un deux-roues motorisé ou un autre véhicule terrestre à moteur, et le cycliste renversé dans les mêmes conditions, sont des victimes non conductrices. Le article 3 de la loi du 5 juillet 1985 indemnise leur dommage corporel sans que leur propre imprudence puisse, en principe, leur être opposée. Seule une faute inexcusable, cause exclusive de l'accident, peut les en priver.
 La protection est plus forte encore pour les victimes de moins de seize ans, de plus de soixante-dix ans, ou titulaires au moment de l'accident d'un titre d'incapacité ou d'invalidité d'au moins 80 %. Elles sont, dans tous les cas, indemnisées, sauf si elles ont volontairement recherché le dommage (article 3, alinéas 2 et 3). Le article 1 vise aussi les personnes transportées en vertu d'un contrat. Le article 2 interdit d'opposer la force majeure ou le fait d'un tiers.
 Le cycliste dont le vélo n'est pas un véhicule terrestre à moteur n'est pas un conducteur au sens de cette loi. Il en va autrement de l'utilisateur d'une trottinette électrique : c'est un conducteur (article 4). Le détail est sur la page accident de trottinette électrique.
 Source : loi n° 85-677, articles 1, 2, 3 et 4.
+## Piétons âgés renversés
+Lorsqu'un piéton de plus de soixante-dix ans est renversé par un véhicule terrestre à moteur, l'article 3 de la loi du 5 juillet 1985 lui applique une protection renforcée. Il est indemnisé des dommages résultant des atteintes à sa personne, sauf s'il a volontairement recherché le dommage. La faute inexcusable ne peut pas lui être opposée. La même règle vaut pour les victimes de moins de seize ans et pour celles qui, au moment de l'accident, étaient titulaires d'un titre leur reconnaissant un taux d'incapacité permanente ou d'invalidité au moins égal à 80 %.
+L'âge s'apprécie au jour de l'accident. Traverser hors d'un passage, s'engager trop tôt ou marcher sur la chaussée reste une imprudence. Pour une victime de plus de 70 ans, cette imprudence ne réduit pas l'indemnisation du dommage corporel. Le régime des autres piétons, et la façon dont le montant se calcule, sont dans le guide piéton renversé : quelle indemnisation.
+L'association Piétons à Marseille écrit, sur sa page d'accueil, que « 60 % des accidents concernent des personnes de plus de 65 ans ». Ce chiffre est celui de l'association. Il ne modifie pas le seuil de l'article 3, qui vise les victimes de plus de soixante-dix ans.
+Les séquelles d'un piéton âgé appellent souvent l'aide d'un conjoint ou d'un enfant : toilette, habillage, repas, déplacements, surveillance. Lorsque ce besoin est médicalement établi, il relève de l'assistance par tierce personne. L'aide fournie gratuitement par un proche n'efface pas le poste : le besoin ne disparaît pas faute de facture. Cette indemnité répare le besoin de la victime. Elle n'est pas un salaire versé à l'aidant.
+Les proches peuvent aussi invoquer un préjudice qui leur est propre. En cas de décès, il s'agit notamment du préjudice d'affection, détaillé dans le guide décès et indemnisation des proches. Lorsque la victime survit avec un handicap, la nomenclature Dintilhac prévoit aussi un préjudice moral des proches devant la douleur et les séquelles, distinct de l'aide qu'ils apportent, et, dans des cas exceptionnels, le bouleversement de leurs conditions d'existence. L'article 6 de la loi du 5 juillet 1985 répare le préjudice du tiers en tenant compte des limites opposables à la victime directe.
+Sources : loi n° 85-677, articles 3 et 6. La phrase sur les plus de 65 ans est citée depuis la page d'accueil de Piétons à Marseille, consultée le 21 octobre 2026.
 ## Une limite locale : le tramway sur voie propre
 La loi de 1985 ne couvre pas tous les chocs. Elle exclut les chemins de fer et les tramways qui circulent sur une voie qui leur est propre (article 1). La Cour de cassation a jugé que le piéton heurté par un tramway sur une portion réservée exclusivement au tramway — bordure, barrières, point de choc après le passage piétons — n'est pas dans le champ de la loi de 1985 (Cass. 2e civ., 5 mars 2020, n° 19-11.411). À Marseille, le lieu exact du choc avec le tramway compte donc avant de qualifier le régime.
 Lorsqu'un bus ou un autocar est en cause, y compris à l'arrêt, d'autres solutions ont été rendues. Elles sont exposées dans le guide accident de bus ou de tramway.
@@ -1097,6 +1104,10 @@ Qui paie si le conducteur a pris la fuite ?
 Le Fonds de garantie peut intervenir lorsque le responsable est inconnu ou non assuré (article L. 421-1 du code des assurances). La fiche Service-public F2679 indique un délai de trois ans après l'accident si le responsable est inconnu, et d'un an à compter de la décision définitive ou de la transaction s'il est connu.
 Quel délai pour l'offre, et pour agir en justice ?
 L'offre suit l'article L. 211-9 : huit mois après l'accident, et une offre définitive dans les cinq mois de l'information sur la consolidation, le délai le plus favorable s'appliquant. L'action en responsabilité se prescrit par dix ans à compter de la consolidation (article 2226 du code civil).
+Une personne de plus de 70 ans renversée en tant que piéton est-elle indemnisée malgré une imprudence ?
+Oui, de ses dommages corporels, sauf si elle a volontairement recherché le dommage. L'article 3 de la loi du 5 juillet 1985 prévoit que la faute inexcusable ne peut pas être opposée aux victimes de plus de 70 ans, de moins de 16 ans, ou titulaires au moment de l'accident d'un titre d'invalidité d'au moins 80 %. Une imprudence ordinaire ne réduit donc pas cette indemnisation.
+L'aidant d'un piéton âgé renversé a-t-il des droits ?
+L'aide rendue par un proche pour les actes de la vie quotidienne relève, lorsque le besoin est médicalement établi, de l'assistance par tierce personne due à la victime, y compris si cette aide n'a pas été facturée. Les proches peuvent en outre demander réparation de leur préjudice propre, notamment le préjudice d'affection en cas de décès, dans les limites de l'article 6 de la loi du 5 juillet 1985.
 Pour aller plus loin
 Cabinet
 Accueil
@@ -5420,8 +5431,8 @@ URL : https://ig-avocat.com/blog/pieton-indemnisation-accident
 
 Accident de la route · Piéton · Guide 2026
 # Piéton renversé : quelle indemnisation après l'accident ?
-Le piéton blessé dans un accident impliquant un véhicule terrestre à moteur bénéficie de la protection la plus forte de la loi du 5 juillet 1985. Pour son dommage corporel, sa propre faute ne lui est opposable que dans l'hypothèse très restrictive d'une faute inexcusable constituant la cause exclusive de l'accident. Les moins de 16 ans, les plus de 70 ans et les personnes déjà titulaires, au moment de l'accident, d'un titre d'invalidité d'au moins 80 % bénéficient d'une protection renforcée : même cette faute leur est inopposable.
-Publié le 17 septembre 2026 8 min de lecture Maître Ilan Guedj
+Le piéton blessé dans un accident impliquant un véhicule terrestre à moteur bénéficie de la protection la plus forte de la loi du 5 juillet 1985. Dans la grande majorité des cas, même en cas de faute, son dommage corporel est indemnisé : l'article 3 n'oppose que la faute inexcusable lorsqu'elle est la cause exclusive de l'accident, et la recherche volontaire du dommage fait aussi obstacle à l'indemnisation. Les moins de 16 ans, les plus de 70 ans et les personnes déjà titulaires, au moment de l'accident, d'un titre d'invalidité d'au moins 80 % bénéficient d'une protection renforcée : la faute inexcusable ne peut pas leur être opposée, et seule la recherche volontaire du dommage peut alors faire obstacle. Le montant n'est pas un forfait : il se calcule poste par poste selon la nomenclature Dintilhac, après expertise médicale, et l'offre de l'assureur est une proposition, pas un plafond.
+Publié le 17 septembre 2026 · Mis à jour le 21 octobre 2026 10 min de lecture Maître Ilan Guedj
 Une question sur votre situation ? Premier échange gratuit et confidentiel.
 Appeler le 06 63 46 59 84 WhatsApp Prendre rendez-vous
 - Consultation gratuite
@@ -5443,7 +5454,7 @@ Trois conditions cumulatives, donc : le caractère volontaire, l'exceptionnelle 
 Lorsqu'un assureur oppose la faute inexcusable à un piéton, c'est une position de négociation avant d'être une analyse juridique. Elle se conteste, et elle tombe souvent.
 ## 4. Enfants, plus de 70 ans, personnes déjà invalides à 80 %
 Pour trois catégories de victimes, la loi va plus loin encore. Les personnes âgées de moins de seize ans, celles âgées de plus de soixante-dix ans, et celles titulaires, au moment de l'accident, d'un titre leur reconnaissant un taux d'incapacité permanente ou d'invalidité d'au moins 80 % ne peuvent se voir opposer que la recherche volontaire du dommage.
-Même une faute inexcusable ne leur est pas opposable. Un enfant qui traverse en courant derrière un ballon, une personne âgée qui s'engage hors d'un passage : l'indemnisation est due intégralement.
+Même une faute inexcusable ne leur est pas opposable. Un enfant qui traverse en courant derrière un ballon, une personne âgée qui s'engage hors d'un passage : leur dommage corporel est indemnisé, sauf s'ils ont volontairement recherché le dommage.
 Piéton renversé ?
 Le droit à indemnisation est rarement contesté : tout se joue sur le chiffrage. Faites vérifier gratuitement l'offre de l'assureur.
 Appeler le 06 63 46 59 84 WhatsApp Prendre rendez-vous
@@ -5458,16 +5469,22 @@ Si le conducteur n'était pas assuré, a pris la fuite ou n'a pas été identifi
 ## 6. Ce qui se joue à l'expertise médicale
 Le principe de l'indemnisation étant rarement discuté pour un piéton, toute la discussion se déplace sur le montant. Et le montant se décide à l'expertise.
 Le rapport chiffre le déficit fonctionnel, les souffrances endurées, le préjudice esthétique, le besoin en assistance par tierce personne, le retentissement professionnel. Ce qui n'y est pas relevé ne sera pas indemnisé. La victime peut s'y présenter assistée d'un médecin-recours, qu'elle choisit et qui intervient pour elle.
-## 7. Les délais
+## 7. Comment se calcule le montant de l'indemnisation
+Il n'existe pas de somme forfaitaire pour un piéton renversé, et aucun chiffre ne peut être annoncé avant de connaître les séquelles, l'âge et la situation de la personne. Le montant est la somme de postes de préjudice. Ce n'est pas un barème unique, et ce n'est pas le chiffre de la première offre.
+La nomenclature Dintilhac sert de trame. Elle classe les préjudices patrimoniaux et extrapatrimoniaux, temporaires avant la consolidation et permanents après. Pour un piéton blessé, les postes les plus souvent discutés sont les dépenses de santé restées à charge, les pertes de gains professionnels, le déficit fonctionnel temporaire puis permanent, les souffrances endurées, le préjudice esthétique, le préjudice d'agrément, l'incidence professionnelle et, lorsque le besoin est médicalement décrit, l'assistance par tierce personne.
+L'expertise médicale constate les lésions, la date de consolidation et les séquelles. Ce qui n'y est pas relevé est ensuite difficile à faire reconnaître. La victime peut s'y présenter assistée d'un médecin de son choix. Le taux de déficit fonctionnel permanent n'est pas une somme : sa traduction en euros dépend notamment de l'âge et des autres éléments du dossier.
+L'offre de l'assureur intervient dans ce cadre. L'article L. 211-9 du code des assurances lui impose de la présenter dans les délais légaux. Cette offre se lit poste par poste. C'est une proposition : l'accepter n'est pas une obligation, et elle ne fixe pas le plafond de l'indemnisation. Une offre incomplète — poste omis, aide humaine sous-évaluée, consolidation trop précoce — se discute. Le guide faut-il accepter l'offre de l'assurance précise les délais et la rétractation.
+Sources : rapport Dintilhac, 2005 · C. assur., art. L. 211-9
+## 8. Les délais
 L'assureur doit présenter une offre dans les huit mois de l'accident, puis une offre définitive dans les cinq mois suivant le jour où il est informé de la consolidation. Le retard est sanctionné par le doublement du taux de l'intérêt légal.
 L'action se prescrit par dix ans à compter de la consolidation, et non de l'accident.
 Sources : C. assur., art. L. 211-9 · C. civ., art. 2226
-## 8. Ce qu'il faut retenir
-- ✓ Le piéton relève de l'article 3 : son imprudence ne lui est pas opposable
+## 9. Ce qu'il faut retenir
+- ✓ Le piéton relève de l'article 3 : dans la grande majorité des cas, même en cas de faute, son dommage corporel est indemnisé
 - ✓ Traverser hors d'un passage protégé n'est pas une faute inexcusable
 - ✓ Moins de 16 ans, plus de 70 ans, titre d'invalidité d'au moins 80 % détenu avant l'accident : même la faute inexcusable est écartée
 - ✓ Conducteur non assuré, en fuite ou inconnu : le Fonds de garantie intervient
-- ✓ Le principe étant acquis, tout se joue à l'expertise médicale
+- ✓ Le montant se calcule poste par poste (nomenclature Dintilhac), après l'expertise : l'offre de l'assureur n'est pas un plafond
 ## Questions fréquentes
 ### J'ai traversé hors du passage piéton : serai-je indemnisé ?
 Oui, en principe. Traverser en dehors d'un passage protégé est une imprudence, mais ce n'est pas une faute inexcusable au sens de l'article 3 de la loi du 5 juillet 1985. Seule une faute volontaire d'une exceptionnelle gravité, cause exclusive de l'accident, pourrait vous priver de votre indemnisation.
@@ -5479,6 +5496,10 @@ Oui. Le Fonds de garantie des assurances obligatoires de dommages intervient lor
 La contester. La Cour de cassation en retient une définition très restrictive et elle est rarement caractérisée. Il faut examiner précisément les circonstances, le procès-verbal et le comportement du conducteur : si celui-ci a contribué à l'accident, la faute ne peut en être la cause exclusive.
 ### Combien de temps ai-je pour agir ?
 L'action en réparation du dommage corporel se prescrit par dix ans à compter de la consolidation, c'est-à-dire de la stabilisation de votre état de santé — et non à compter de l'accident.
+### Qui est responsable quand un piéton est renversé ?
+Quand un piéton est renversé par une voiture ou un autre véhicule terrestre à moteur, il n'est pas nécessaire de prouver une faute du conducteur : le véhicule impliqué suffit. C'est l'assureur de ce véhicule qui présente l'offre d'indemnisation. Si plusieurs véhicules sont impliqués, le piéton peut s'adresser à l'assureur de n'importe lequel d'entre eux. Si le conducteur est inconnu, non assuré ou a pris la fuite, le Fonds de garantie peut intervenir. Dans la grande majorité des cas, même en cas de faute du piéton, son dommage corporel est indemnisé : l'article 3 de la loi du 5 juillet 1985 n'oppose que la faute inexcusable cause exclusive de l'accident, et la recherche volontaire du dommage fait aussi obstacle à l'indemnisation.
+### Quel est le montant de l'indemnisation d'un piéton renversé ?
+Il n'existe pas de montant type, et aucun chiffre ne peut être annoncé sans connaître les séquelles et la situation de la personne. L'indemnisation est la somme des postes de préjudice décrits par la nomenclature Dintilhac, évalués après l'expertise médicale : dépenses de santé, pertes de gains, déficits fonctionnels temporaire et permanent, souffrances endurées, préjudices esthétique et d'agrément, incidence professionnelle, et assistance par tierce personne lorsque le besoin est établi. L'offre de l'assureur est une proposition dans les délais de l'article L. 211-9 du code des assurances. Elle ne fixe pas le plafond de l'indemnisation.
 ## Articles liés
 Page pivot
 Accident de la route : qui est indemnisé et dans quels délais ?
