@@ -21,7 +21,7 @@ Chaque page du site commence par un bloc « En bref » (classe `geo-answer`) : u
 ## Domaines
 - [Accident de la route](https://ig-avocat.com/accidents-route): loi Badinter, offre de l'assureur (L. 211-9), expertise, motards, piétons, passagers, conducteurs
 - [Erreur médicale](https://ig-avocat.com/erreur-medicale): faute, aléa thérapeutique, infection nosocomiale, CCI, ONIAM, prescription de dix ans
-- [Agression](https://ig-avocat.com/agression): CIVI, FGTI, délais de saisine, auteur inconnu ou insolvable
+- [Agression](https://ig-avocat.com/agression): CIVI (art. 706-3 et 706-5 du code de procédure pénale), délais, offre du FGTI, SARVI, violences sexuelles et conjugales, postes de préjudice
 - [Accidents de la vie](https://ig-avocat.com/accidents-vie): garantie GAV, accident sans tiers, responsabilité civile
 - [Accident de moto à Marseille](https://ig-avocat.com/accident-moto-marseille): indemnisation à Marseille, y compris le 13006 ; motard et scooteriste conducteurs (article 4), interfile, chaussée, équipement, expertise et postes Dintilhac
 - [Piéton et cycliste renversé à Marseille](https://ig-avocat.com/pieton-cycliste-marseille): victimes non conductrices (article 3), piétons de plus de 70 ans, tierce personne et préjudice des proches, tramway sur voie propre, Fonds de garantie
