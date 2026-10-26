@@ -11,17 +11,17 @@
   <!-- End Google Tag Manager -->
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Les 5 erreurs à éviter après un accident corporel | Ilan Guedj</title>
+  <title>5 erreurs à éviter après un accident corporel</title>
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
   <meta name="description" content="Accepter la première offre, signer avant consolidation, aller seul à l'expertise : les cinq erreurs à éviter après un accident corporel.">
-  <meta property="og:title" content="Les 5 erreurs à éviter après un accident corporel | Ilan Guedj">
+  <meta property="og:title" content="5 erreurs à éviter après un accident corporel">
   <meta property="og:description" content="Accepter la première offre, signer avant consolidation, aller seul à l'expertise : les cinq erreurs à éviter après un accident corporel.">
   <meta property="og:type" content="article">
   <meta property="og:url" content="https://ig-avocat.com/guide-5-erreurs">
   <meta property="og:image" content="https://ig-avocat.com/img/og-cover.jpg">
   <meta property="og:locale" content="fr_FR">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Les 5 erreurs à éviter après un accident corporel | Ilan Guedj">
+  <meta name="twitter:title" content="5 erreurs à éviter après un accident corporel">
   <meta name="twitter:description" content="Accepter la première offre, signer avant consolidation, aller seul à l'expertise : les cinq erreurs à éviter après un accident corporel.">
   <meta name="twitter:image" content="https://ig-avocat.com/img/og-cover.jpg">
   <link rel="alternate" type="text/markdown" href="/llms.txt" title="Version texte structurée pour les assistants IA">
@@ -31,6 +31,7 @@
     <link rel="preload" href="fonts/fraunces-latin.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
+  <link rel="stylesheet" href="css/tailwind.css">
   <style>
     /* ===== SCREEN STYLES ===== */
     /* Polices auto-hébergées, identiques au reste du site. */
@@ -341,10 +342,37 @@
     }
     .guide-footer strong { color: #474339; }
 
+
+    /* La barre mobile réutilise css/tailwind.css. On rétablit le rendu propre au guide. */
+    h1, h2, h3, h4, h5, h6 { font-weight: 700; font-variation-settings: normal; }
+    strong { font-weight: 700; }
+    .hidden { display: none !important; }
+    @media (max-width: 767px) {
+      body { padding-bottom: 6.5rem; }
+    }
+    .guide-form { margin-top: 8px; display: flex; flex-direction: column; gap: 12px; }
+    .guide-form label { display: block; font-size: 12px; font-weight: 700; margin-bottom: 4px; color: rgba(255,255,255,0.9); }
+    .guide-form input, .guide-form select, .guide-form textarea {
+      width: 100%; padding: 10px 12px; border-radius: 10px; border: 1px solid rgba(255,255,255,0.25);
+      background: #fff; color: #1B2430; font: inherit; font-size: 14px;
+    }
+    .guide-form .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+    .guide-form .consent { display: flex; gap: 8px; align-items: flex-start; font-size: 12px; color: rgba(255,255,255,0.8); line-height: 1.4; }
+    .guide-form .consent input { width: auto; margin-top: 2px; }
+    .guide-form button[type="submit"] {
+      background: #1A3796; color: #fff; border: 0; border-radius: 999px; padding: 14px 28px;
+      font-weight: 700; font-size: 15px; cursor: pointer; font-family: inherit;
+    }
+    #form-success { background: #ecfdf5; color: #166534; border-radius: 12px; padding: 14px; text-align: center; }
+    #form-success p { color: #166534; margin: 0; }
+    @media (max-width: 640px) {
+      .guide-form .row { grid-template-columns: 1fr; }
+    }
+
     /* ===== PRINT STYLES ===== */
     @media print {
       body { background: white; }
-      .top-bar, .print-btn { display: none !important; }
+      .top-bar, .print-btn, [data-cta="bouton_fixe_mobile"] { display: none !important; }
       .guide { max-width: 100%; margin: 0; box-shadow: none; border-radius: 0; }
       .guide-header { padding: 40px 48px; }
       .guide-title { font-size: 32px; }
@@ -750,7 +778,7 @@
       "@type": "WebPage",
       "@id": "https://ig-avocat.com/guide-5-erreurs#webpage",
       "url": "https://ig-avocat.com/guide-5-erreurs",
-      "name": "Les 5 erreurs à éviter après un accident corporel | Ilan Guedj",
+      "name": "5 erreurs à éviter après un accident corporel",
       "isPartOf": {
         "@id": "https://ig-avocat.com/#website"
       },
@@ -973,13 +1001,54 @@
       </div>
 
       <!-- CTA -->
-      <div class="cta-box">
+      <div class="cta-box" data-cta="fin_de_page">
         <h3>Votre situation mérite une analyse personnalisée</h3>
-        <p>Ce guide vous donne les bases, mais chaque dossier est différent. Un entretien de 30 minutes avec Maître Ilan Guedj peut changer radicalement le montant de votre indemnisation. Le premier rendez-vous est toujours gratuit et sans engagement.</p>
+        <p>Ce guide pose les cinq réflexes. Chaque dossier est différent. Le premier échange avec Maître Ilan Guedj est gratuit, confidentiel et sans engagement : il sert à regarder votre situation avant toute démarche.</p>
         <div class="cta-buttons">
-          <a href="contact" class="cta-btn cta-btn-primary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg> Prendre rendez-vous gratuitement</a>
-          <a href="https://wa.me/33663465984" class="cta-btn cta-btn-secondary"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0 text-blue-600"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/></svg> Écrire sur WhatsApp</a>
+          <a href="tel:+33663465984" class="cta-btn cta-btn-primary">Appeler le 06 63 46 59 84</a>
+          <a href="https://wa.me/33663465984" target="_blank" rel="noopener" class="cta-btn cta-btn-secondary">Écrire sur WhatsApp</a>
+          <a href="https://calendly.com/guedj-chiche-cohen" target="_blank" rel="noopener" data-calendly class="cta-btn cta-btn-secondary">Prendre rendez-vous</a>
         </div>
+        <form id="contact-form" class="guide-form" action="https://formspree.io/f/meelzkzw" method="POST">
+          <input type="hidden" name="_subject" value="Nouveau contact — guide 5 erreurs — Maître Ilan Guedj">
+          <div class="row">
+            <div>
+              <label for="guide-prenom">Prénom *</label>
+              <input id="guide-prenom" type="text" name="prenom" required autocomplete="given-name">
+            </div>
+            <div>
+              <label for="guide-nom">Nom *</label>
+              <input id="guide-nom" type="text" name="nom" required autocomplete="family-name">
+            </div>
+          </div>
+          <div>
+            <label for="guide-telephone">Téléphone *</label>
+            <input id="guide-telephone" type="tel" name="telephone" required autocomplete="tel">
+          </div>
+          <div>
+            <label for="guide-type">Type d'accident *</label>
+            <select id="guide-type" name="type_accident" required>
+              <option value="">Choisir...</option>
+              <option value="Accident de la route">Accident de la route</option>
+              <option value="Erreur médicale">Erreur médicale</option>
+              <option value="Agression">Agression / Violence</option>
+              <option value="Accident de la vie">Accident de la vie</option>
+              <option value="Autre">Autre</option>
+            </select>
+          </div>
+          <div>
+            <label for="guide-message">Décrivez brièvement votre situation</label>
+            <textarea id="guide-message" name="message" rows="3"></textarea>
+          </div>
+          <div class="consent">
+            <input type="checkbox" name="consentement" id="guide-consentement" required>
+            <label for="guide-consentement">J'accepte que mes données soient utilisées pour traiter ma demande. Secret professionnel garanti.</label>
+          </div>
+          <button type="submit" id="submit-btn">Envoyer ma demande</button>
+          <div id="form-success" class="hidden">
+            <p>Demande envoyée. Nous vous recontactons sous 24 h.</p>
+          </div>
+        </form>
       </div>
 
     </div><!-- end guide-body -->
@@ -991,12 +1060,47 @@
         16 Rue Breteuil · 13001 Marseille · <a href="mailto:contact@ig-avocat.com" style="color: #6b7280;">contact@ig-avocat.com</a>
       </div>
       <div style="text-align: right;">
-        <strong>06 63 46 59 84</strong><br>
+        <a href="tel:+33663465984"><strong>06 63 46 59 84</strong></a><br>
         © 2026 Maître Ilan Guedj · Tous droits réservés
       </div>
     </div>
 
   </div><!-- end guide -->
 
+  <script>
+    (function () {
+      var form = document.getElementById('contact-form');
+      if (!form) return;
+      form.addEventListener('submit', async function (e) {
+        e.preventDefault();
+        var submitBtn = document.getElementById('submit-btn');
+        var successMsg = document.getElementById('form-success');
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Envoi en cours...';
+        try {
+          var response = await fetch(form.action, {
+            method: 'POST',
+            body: new FormData(form),
+            headers: { 'Accept': 'application/json' }
+          });
+          if (response.ok) {
+            form.reset();
+            successMsg.classList.remove('hidden');
+            submitBtn.classList.add('hidden');
+            if (window.dataLayer) window.dataLayer.push({ event: 'form_submit', form_name: 'guide_5_erreurs' });
+          } else {
+            submitBtn.disabled = false;
+            submitBtn.textContent = 'Réessayer';
+            alert('Erreur lors de l\'envoi. Veuillez appeler le 06 63 46 59 84.');
+          }
+        } catch (err) {
+          submitBtn.disabled = false;
+          submitBtn.textContent = 'Réessayer';
+          alert('Erreur réseau. Veuillez appeler le 06 63 46 59 84.');
+        }
+      });
+    })();
+  </script>
+<!-- CTA:BARRE-MOBILE:START --><div class="fixed bottom-6 left-4 right-4 z-50 md:hidden" data-cta="bouton_fixe_mobile"><div class="bg-ink/90 backdrop-blur-xl p-2 rounded-2xl shadow-2xl flex gap-3 border border-white/10"><a href="https://wa.me/33663465984" class="flex-1 bg-[#25D366] text-white py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition"><svg class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>WhatsApp</a><a href="tel:+33663465984" class="flex-1 bg-white text-gray-900 py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Appeler</a><!-- CTA:BARRE-RDV:START --><a href="https://calendly.com/guedj-chiche-cohen" target="_blank" rel="noopener" data-calendly class="flex-1 bg-white/10 text-white py-3 rounded-xl font-bold flex justify-center items-center gap-1.5 text-sm active:scale-95 transition"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>RDV</a><!-- CTA:BARRE-RDV:END --></div></div><!-- CTA:BARRE-MOBILE:END -->
 </body>
 </html>
