@@ -70,6 +70,11 @@ for p in HTML:
         nodes = data.get("@graph",[data]) if isinstance(data,dict) else []
         for n in nodes:
             if isinstance(n,dict) and n.get("@type") in ("Article","BlogPosting","NewsArticle"): article=n
+            if isinstance(n,dict) and n.get("@type")=="ProfilePage":
+                for k in ("dateCreated","dateModified"):
+                    v=n.get(k)
+                    if v and not re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}(:\d{2})?([+-]\d{2}:\d{2}|Z)",v):
+                        errors.append(f"{rel}: ProfilePage {k} « {v} » doit être une date-heure ISO 8601 avec fuseau (ex. 2026-10-20T09:00:00+02:00), exigence Google")
     if rel.startswith("blog/") and rel!="blog/index.html":
         if 'ilan-guedj' not in s.lower(): warnings.append(f"{rel}: auteur canonique non detectable")
         if not article: warnings.append(f"{rel}: pas de JSON-LD Article")
