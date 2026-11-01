@@ -73,3 +73,36 @@ Si le widget ne charge pas, le visiteur est envoyé sur la page Calendly (le RDV
 - Les balises Google de GTM respectent ces signaux d'elles-mêmes : sans accord, elles envoient des pings sans cookie et Google modélise les conversions.
 - Événement `consent_update` (consent_analytics, consent_ads, consent_personalization) à chaque choix.
 - Lien « Gestion des cookies » dans chaque pied de page (`[data-consent-open]`) ; rubrique 7 des mentions légales (`/mentions-legales#cookies`).
+
+## GoatCounter (mesure sans cookie)
+
+Complément de GA4, **hors** du bandeau de consentement et du Consent Mode. Compte hébergé : `https://ig-avocat.goatcounter.com` (serveurs Hetzner, Finlande et Allemagne). Le script officiel `count.js` (licence ISC, en-tête conservé) est copié dans `/js/goatcounter-count.js` : aucune page ne charge ce fichier depuis un domaine tiers.
+
+Inclusion unique, marqueurs `<!-- GOATCOUNTER:START -->` / `<!-- GOATCOUNTER:END -->`, posée par `tools/cta-inject.py` (et par les gabarits `tools/publish-geo-content.py` et `tools/build-lexique.py`) :
+
+```html
+<script data-goatcounter="https://ig-avocat.goatcounter.com/count" async src="/js/goatcounter-count.js"></script>
+```
+
+### Réglages du compte
+
+- Rétention : **760 jours** (25 mois au maximum, comme indiqué dans la rubrique 7 des mentions légales).
+- Sessions **sans stockage** : pas de cookie, rien n'est écrit sur l'appareil pour la mesure.
+- Pas de pageviews individuelles : seules des statistiques agrégées sont conservées.
+- Aucune donnée personnelle n'est envoyée : pas de numéro de téléphone, pas d'adresse e-mail, pas d'identifiant Calendly, pas de contenu de formulaire.
+- La mesure elle-même n'écrit rien sur l'appareil. La seule écriture locale du script officiel est l'opt-out explicite du visiteur qui ouvre une page avec l'ancre `#toggle-goatcounter`.
+
+### Événements
+
+`js/ig-tracking.js` appelle `window.goatcounter.count({ path, title, event: true })` au même moment que l'événement dataLayer correspondant. `path` est le nom ci-dessous. `title` est **uniquement** la valeur `emplacement` déjà calculée (`header`, `footer`, `hero`…). Le dédoublonnage de 1,5 s (même événement, même emplacement) est celui de `clic_telephone` / `clic_whatsapp` / `clic_calendly`. `rdv-calendly` reprend le dédoublonnage de `calendly_rdv` (l'identifiant de l'invité sert à ne pas compter deux fois ; il n'est pas transmis). Si `goatcounter.count` n'est pas encore disponible, l'appel est ignoré dans un `try/catch` : aucune file d'attente.
+
+| `path` | Quand il part | `title` |
+|---|---|---|
+| `clic-telephone` | clic sur un lien `tel:` | `emplacement` |
+| `clic-whatsapp` | clic sur un lien `wa.me` | `emplacement` |
+| `clic-calendly` | ouverture du module Calendly | `emplacement` |
+| `rdv-calendly` | rendez-vous confirmé (`calendly.event_scheduled`) | `emplacement` du bouton |
+| `formulaire-contact` | succès Formspree de `contact.html`, au même moment que `form_submit` | `emplacement` du formulaire |
+| `guide-gratuit` | succès du guide gratuit sur `index.html`, au même moment que `lead_magnet_submit` | `emplacement` du formulaire |
+
+Les noms dataLayer (`clic_telephone`, `form_submit`, etc.) et les événements GA4 ne changent pas. Cette mesure est exemptée de consentement (article 82 de la loi Informatique et Libertés et lignes directrices CNIL sur les traceurs de mesure d'audience).

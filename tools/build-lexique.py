@@ -309,6 +309,9 @@ def build():
     <script type="application/ld+json">
 {json.dumps(graph, ensure_ascii=False, indent=2)}
 </script>
+    <!-- GOATCOUNTER:START -->
+    <script data-goatcounter="https://ig-avocat.goatcounter.com/count" async src="/js/goatcounter-count.js"></script>
+    <!-- GOATCOUNTER:END -->
 </head>
 '''
     page = head + nav + "\n<main>\n" + "".join(body) + "</main>\n\n    " + foot + "</body>\n</html>\n"
