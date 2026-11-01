@@ -11,6 +11,14 @@
  *   lead_magnet_submit  poussé par index.html, après réponse OK de Formspree
  *   exit_popup_cta      poussé par la popup de sortie (index.html), inchangé
  *
+ * GoatCounter (mesure sans cookie, hors consentement) reçoit les mêmes prises
+ * de contact, sans donnée personnelle : path = nom d'événement, title =
+ * emplacement uniquement. Voir TRACKING.md. Si le script n'est pas chargé,
+ * l'appel est ignoré : aucune file d'attente.
+ *   clic-telephone, clic-whatsapp, clic-calendly, rdv-calendly,
+ *   formulaire-contact (succès Formspree de /contact, même moment que form_submit),
+ *   guide-gratuit (succès du guide sur l'accueil, même moment que lead_magnet_submit).
+ *
  * Événements GA4 (mêmes clics, noms à déclarer comme événements clés) :
  *   click_phone, click_whatsapp, click_email, generate_lead
  *   paramètres : page_path, link_location (header | footer | corps | bouton flottant)
@@ -113,6 +121,21 @@
     return sendGa4('generate_lead', { form_id: formId || 'contact-form', link_location: linkLocation(place) });
   };
 
+  // Mesure sans cookie. title = emplacement déjà calculé, rien d'autre.
+  // Pas de file d'attente : un script absent ou en erreur est ignoré.
+  function gcEvent(path, title) {
+    try {
+      var gc = window.goatcounter;
+      if (!gc || typeof gc.count !== 'function') return;
+      gc.count({ path: path, title: title || '', event: true });
+    } catch (err) {}
+  }
+
+  function isContactPage() {
+    var p = location.pathname.replace(/\.html$/, '').replace(/\/+$/, '') || '/';
+    return p === '/contact';
+  }
+
   function kindOf(el) {
     var href = (el.getAttribute('href') || '').toLowerCase();
     if (href.indexOf('tel:') === 0) return 'tel';
@@ -163,16 +186,16 @@
     try { sessionStorage.setItem('cc_popup_dismissed', '1'); } catch (err) {}
     var where = linkLocation(place);
     if (kind === 'tel') {
-      push('clic_telephone', { emplacement: place });
+      if (push('clic_telephone', { emplacement: place })) gcEvent('clic-telephone', place);
       sendGa4('click_phone', { link_location: where });
     } else if (kind === 'whatsapp') {
-      push('clic_whatsapp', { emplacement: place });
+      if (push('clic_whatsapp', { emplacement: place })) gcEvent('clic-whatsapp', place);
       sendGa4('click_whatsapp', { link_location: where });
     } else if (kind === 'email') {
       sendGa4('click_email', { link_location: where });
     } else if (kind === 'calendly') {
       lastCalendlyPlace = place;
-      push('clic_calendly', { emplacement: place });
+      if (push('clic_calendly', { emplacement: place })) gcEvent('clic-calendly', place);
       if (el.hasAttribute('data-calendly')) {
         e.preventDefault();
         openCalendly(el.getAttribute('data-calendly-url') || el.getAttribute('href') || CALENDLY_URL);
@@ -200,7 +223,8 @@
     var id = (p.invitee && p.invitee.uri) || (p.event && p.event.uri) || 'rdv';
     if (seenInMemory[id] || alreadySeen(id)) return;
     seenInMemory[id] = true;
-    push('calendly_rdv', { emplacement: lastCalendlyPlace || (document.querySelector('.calendly-inline-widget') ? 'calendly_integre' : 'calendly') });
+    var place = lastCalendlyPlace || (document.querySelector('.calendly-inline-widget') ? 'calendly_integre' : 'calendly');
+    if (push('calendly_rdv', { emplacement: place })) gcEvent('rdv-calendly', place);
   });
 
   // Formulaire de contact (Formspree) : le succès retire la classe « hidden ».
@@ -212,6 +236,21 @@
     var obs = new MutationObserver(function () {
       if (success.classList.contains('hidden')) return;
       window.igLead(form.id || 'contact-form', form);
+      if (isContactPage()) gcEvent('formulaire-contact', placeOf(form));
+      obs.disconnect();
+    });
+    obs.observe(success, { attributes: true, attributeFilter: ['class'] });
+  }
+
+  // Guide gratuit (index.html) : même succès que lead_magnet_submit.
+  function watchGuideForm() {
+    var form = document.getElementById('guide-form');
+    var success = document.getElementById('guide-success');
+    if (!form || !success || success.getAttribute('data-ig-gc')) return;
+    success.setAttribute('data-ig-gc', '1');
+    var obs = new MutationObserver(function () {
+      if (success.classList.contains('hidden')) return;
+      gcEvent('guide-gratuit', placeOf(form));
       obs.disconnect();
     });
     obs.observe(success, { attributes: true, attributeFilter: ['class'] });
@@ -335,6 +374,7 @@
 
   function bootUi() {
     watchContactForm();
+    watchGuideForm();
     ensureCallbar();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', bootUi);

@@ -26,6 +26,13 @@ WA = "https://wa.me/33663465984"
 CAL = "https://calendly.com/guedj-chiche-cohen"
 TRACKING_TAG = '<script src="/js/ig-tracking.js" defer></script>'
 CONSENT_TAG = '<script src="/js/ig-consent.js" defer></script>'
+# Mesure d'audience sans cookie. Hors de toute logique de consentement.
+# Le script est la copie locale de https://gc.zgo.at/count.js (licence ISC).
+GOATCOUNTER_BLOCK = (
+    "    <!-- GOATCOUNTER:START -->\n"
+    '    <script data-goatcounter="https://ig-avocat.goatcounter.com/count" async src="/js/goatcounter-count.js"></script>\n'
+    "    <!-- GOATCOUNTER:END -->"
+)
 # Consent Mode v2 : valeurs par défaut posées AVANT le chargement de GTM.
 CONSENT_DEFAULT = (
     "<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}"
@@ -289,7 +296,18 @@ def last_section_before_footer(src):
 # --------------------------------------------------------------------------
 # Retouches communes à toutes les pages
 # --------------------------------------------------------------------------
+def ensure_goatcounter(src):
+    """Une seule inclusion, idempotente, jamais à l'intérieur du bandeau de consentement."""
+    if "<!-- GOATCOUNTER:START -->" in src or "goatcounter-count.js" in src:
+        return src
+    needle = "    " + TRACKING_TAG
+    if needle in src:
+        return src.replace(needle, GOATCOUNTER_BLOCK + "\n" + needle, 1)
+    return src.replace("</head>", GOATCOUNTER_BLOCK + "\n</head>", 1)
+
+
 def common(src, add_mobile_bar):
+    src = ensure_goatcounter(src)
     # Script de suivi
     if TRACKING_TAG not in src:
         src = src.replace("</head>", f"    {TRACKING_TAG}\n</head>", 1)
