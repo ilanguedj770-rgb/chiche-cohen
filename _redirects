@@ -12,6 +12,35 @@
 #  5. Legacy WordPress
 
 # ═══════════════════════════════════════════════════════════════════
+# INTERNE — fichiers de travail du dépôt, jamais servis au public
+# (le site est publié depuis la racine du dépôt : sans ces règles,
+# notes SEO, scripts et réponses brutes content/geo pourraient être
+# servis et indexés en contenu dupliqué). 404 forcé.
+# ═══════════════════════════════════════════════════════════════════
+/seo/*                          /404  404!
+/.claude/*                      /404  404!
+/content/*                      /404  404!
+/tools/*                        /404  404!
+/netlify/*                      /404  404!
+/.github/*                      /404  404!
+/CLAUDE.md                      /404  404!
+/CLAUDE.local.md                /404  404!
+/AUDIT_SEO_2026.md              /404  404!
+/CHARTE.md                      /404  404!
+/GEO-CONTENT-BACKLOG.md         /404  404!
+/GEO-CONTENT-PLAN-100.md        /404  404!
+/GEO-EDITORIAL-STANDARD.md      /404  404!
+/GEO-PUBLISHING.md              /404  404!
+/GEO-RECOMMANDATIONS-IA.md      /404  404!
+/SETUP-GSC-MCP.md               /404  404!
+/SOURCES-JURIDIQUES-VERIFIEES.md /404 404!
+/TRACKING.md                    /404  404!
+/.mcp.json                      /404  404!
+/package.json                   /404  404!
+/package-lock.json              /404  404!
+/tailwind.config.js             /404  404!
+
+# ═══════════════════════════════════════════════════════════════════
 # 0. REWRITES 200 — Servir directement les URLs canoniques propres
 # Court-circuite la boucle Pretty URLs × règle trailing-slash 301!
 # Ces règles DOIVENT être placées AVANT toute autre redirection.
