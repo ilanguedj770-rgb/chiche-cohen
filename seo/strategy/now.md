@@ -2,7 +2,8 @@
 
 1. **Mesurer avant d'écrire.** Revue Search Console 90 j vs 90 j précédents (compétence `page-refresh`) sur les pages d'argent et les pages pivots. Rapport mensuel le 15 dans `seo/reports/`.
 2. **Assembler les réponses de `content/geo/` en pages pivots** (plan dans `seo/keywords/`) :
-   - `/blog/prejudices-indemnisables-dintilhac` — DFT, esthétique, agrément, sexuel, établissement, affection, nomenclature
+   - PAS de nouvelle page préjudices : `/blog/indemnisation-accident-corporel` traite déjà Dintilhac (pos. 18,9) — l'enrichir avec DFT, esthétique, agrément, sexuel, établissement, affection
+   - Priorité absolue (revue du 2/11) : `/blog/erreur-medicale-droits-victime` — 14 720 impressions, CTR 0,6 % (voir `seo/reports/2026-11.md`)
    - `/blog/pertes-revenus-accident-indemnisation` — PGPA, PGPF, préjudice scolaire
    - `/blog/handicap-grave-logement-vehicule-adaptes` — logement, véhicule, aide familiale, lésion médullaire
    - `/blog/delai-indemnisation-accident` — consolidation, offre de l'assureur, provision, versement (distinct de la page prescription)

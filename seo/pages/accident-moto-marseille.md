@@ -5,7 +5,7 @@
 - Cluster : `seo/keywords/route.md`
 - Title actuel : Avocat accident de moto à Marseille | Ilan Guedj
 - H1 actuel : Avocat accident de moto à Marseille
-- Clics / impressions / position 90 j : non mesurés à ce jour
+- Clics / impressions / position 90 j (1/08→29/10/2026) : 0 clic / 56 impr. / pos. 36,0
 - Dernière mise à jour SEO : —
 
 ## Règles

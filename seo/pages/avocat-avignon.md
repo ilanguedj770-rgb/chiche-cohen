@@ -5,7 +5,7 @@
 - Cluster : `seo/keywords/local.md`
 - Title actuel : Avocat Dommage Corporel à Avignon | Maître Ilan Guedj
 - H1 actuel : Avocat dommage corporel à  Avignon .
-- Clics / impressions / position 90 j : non mesurés à ce jour
+- Clics / impressions / position 90 j (1/08→29/10/2026) : 1 clic / 88 impr. / pos. 16,7
 - Dernière mise à jour SEO : —
 
 ## Règles

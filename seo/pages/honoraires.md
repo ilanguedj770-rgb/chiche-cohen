@@ -5,7 +5,7 @@
 - Cluster : `seo/keywords/procedure-expertise.md`
 - Title actuel : Honoraires Avocat Dommage Corporel Marseille | 0 € d'avance
 - H1 actuel : Une rémunération transparente,   liée à votre succès.
-- Clics / impressions / position 90 j : non mesurés à ce jour
+- Clics / impressions / position 90 j (1/08→29/10/2026) : 2 clics / 164 impr. / pos. 11,6
 - Dernière mise à jour SEO : —
 
 ## Règles

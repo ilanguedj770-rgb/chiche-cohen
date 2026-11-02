@@ -5,7 +5,7 @@
 - Cluster : `seo/keywords/local.md`
 - Title actuel : Avocat Dommage Corporel à Aix-en-Provence | Ilan Guedj
 - H1 actuel : Avocat dommage corporel à  Aix-en-Provence .
-- Clics / impressions / position 90 j : non mesurés à ce jour
+- Clics / impressions / position 90 j (1/08→29/10/2026) : 1 clic / 552 impr. / pos. 19,6
 - Dernière mise à jour SEO : —
 
 ## Règles

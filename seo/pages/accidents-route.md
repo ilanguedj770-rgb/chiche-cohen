@@ -5,7 +5,7 @@
 - Cluster : `seo/keywords/route.md`
 - Title actuel : Avocat accident de la route à Marseille | Ilan Guedj
 - H1 actuel : Avocat accident de la route  à Marseille.
-- Clics / impressions / position 90 j : non mesurés à ce jour
+- Clics / impressions / position 90 j (1/08→29/10/2026) : 1 clic / 572 impr. / pos. 26,6
 - Dernière mise à jour SEO : —
 
 ## Règles

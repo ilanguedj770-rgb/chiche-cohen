@@ -5,7 +5,7 @@
 - Cluster : `seo/keywords/local.md`
 - Title actuel : Maître Ilan Guedj — Avocat dommage corporel à Marseille
 - H1 actuel : Maître Ilan Guedj
-- Clics / impressions / position 90 j : non mesurés à ce jour
+- Clics / impressions / position 90 j (1/08→29/10/2026) : 4 clics / 561 impr. / pos. 6,8
 - Dernière mise à jour SEO : —
 
 ## Règles

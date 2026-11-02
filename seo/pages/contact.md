@@ -5,7 +5,7 @@
 - Cluster : `seo/keywords/local.md`
 - Title actuel : Contacter Maître Ilan Guedj | Avocat Marseille
 - H1 actuel : Contactez-nous
-- Clics / impressions / position 90 j : non mesurés à ce jour
+- Clics / impressions / position 90 j (1/08→29/10/2026) : 3 clics / 418 impr. / pos. 6,3
 - Dernière mise à jour SEO : —
 
 ## Règles

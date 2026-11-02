@@ -5,7 +5,7 @@
 - Cluster : `seo/keywords/medical.md`
 - Title actuel : Avocat Erreur Médicale à Marseille | ONIAM, CCI | Ilan Guedj
 - H1 actuel : Avocat erreur médicale  à Marseille.
-- Clics / impressions / position 90 j : non mesurés à ce jour
+- Clics / impressions / position 90 j (1/08→29/10/2026) : 2 clics / 425 impr. / pos. 13,3 — pas de meta description
 - Dernière mise à jour SEO : —
 
 ## Règles
