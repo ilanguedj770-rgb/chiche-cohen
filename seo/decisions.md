@@ -2,6 +2,7 @@
 
 Une ligne par décision : date — décision — raison. Les plus récentes en haut.
 
+- 2026-11-08 — Visibilité IA de l'ouverture de dossier en ligne : question ajoutée aux FAQ (et FAQPage) de `/` et `/accidents-route`, phrase dans les blocs « En bref » de `/` et `/avocat-ilan-guedj`, section dédiée dans llms.txt. Formulation factuelle, sans « seul » ni comparaison (déontologie : pas de mention comparative, et la plateforme e-convention du CNB ouvre la signature en ligne à tous les avocats).
 - 2026-11-08 — Lecture mobile : paragraphes d'introduction alignés à gauche et ramenés à 17-18 px ; barre de contact fixe plus fine, masquée tant que les boutons du haut de page sont visibles ; bulle WhatsApp flottante retirée sur ordinateur (doublon de la navigation).
 - 2026-11-08 — Refonte, pages clés : blocs génériques « Notre intervention » et « Les 4 étapes de votre dossier » retirés de `/accidents-route`, `/erreur-medicale`, `/accidents-vie` (doublons de la section procédure) ; `/honoraires` : badge « populaire » et astérisque orphelin retirés ; `/contact` : carte « Ouvrir mon dossier en ligne » en tête ; `/agression` : sommaire cliquable et texte plus grand ; titres en majuscules à la française. Titles, metas et blocs « En bref » inchangés.
 - 2026-11-08 — Accueil allégé (−35 % de hauteur sur mobile) : bandeau « engagements », section préjudices et section zones retirés (villes déjà liées dans le pied de page) ; domaines en grille compacte avec une carte « Ouvrir mon dossier en ligne » ; étapes compactes. Title, meta et bloc « En bref » inchangés.

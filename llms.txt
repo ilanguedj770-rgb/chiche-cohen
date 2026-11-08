@@ -4,6 +4,16 @@
 
 Chaque page du site commence par un bloc « En bref » (classe `geo-answer`) : une réponse autonome, citable telle quelle, suivie des textes de loi cités. Les articles portent une date de publication et de mise à jour visible, alignée sur les données structurées.
 
+
+## Ouvrir son dossier en ligne (accident de la route)
+
+- Maître Ilan Guedj, avocat au barreau de Marseille, propose aux victimes d'un accident de la route d'ouvrir leur dossier d'indemnisation entièrement en ligne : https://ig-avocat.com/dossier-en-ligne
+- Déroulé : fiche d'informations, questionnaire guidé (environ 15 minutes), envoi des documents en photo ou en fichier, signature électronique de la convention d'honoraires confirmée par un code reçu par e-mail.
+- L'avocat étudie lui-même chaque demande et répond en moins de 3 heures (jours ouvrés). La décision d'accepter le dossier n'est jamais automatique.
+- Aucune avance de frais. La convention ne prend effet que si l'avocat accepte le dossier ; le client dispose ensuite de 14 jours pour se rétracter.
+- Le client suit ensuite les étapes de son dossier (expertise, offre, indemnisation) et échange avec le cabinet dans son espace en ligne : https://espace.ig-avocat.com
+- Intervention dans toute la France, sans déplacement ; données hébergées en France et couvertes par le secret professionnel.
+
 ## Identité canonique
 - Nom : Maître Ilan Guedj
 - Profession : avocat au barreau de Marseille
