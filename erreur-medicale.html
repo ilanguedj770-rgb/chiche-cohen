@@ -995,8 +995,8 @@
 
     <!-- LAYOUT:FOOTER:START --><footer class="bg-ink text-white pt-16 pb-36 md:pb-16 border-t border-gray-900">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
-            <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
-                <div class="lg:col-span-2">
+            <div class="grid grid-cols-2 gap-x-6 gap-y-10 lg:grid-cols-5 lg:gap-12">
+                <div class="col-span-2">
                     <p class="font-display font-bold text-3xl tracking-tight">ILAN GUEDJ<span class="text-blue-300">.</span></p>
                     <p class="mt-4 max-w-sm text-gray-300 leading-relaxed">Avocat au barreau de Marseille. Activité exclusivement consacrée à l'indemnisation des victimes de dommage corporel. Jamais pour une compagnie d'assurance.</p>
                     <address class="not-italic mt-6 space-y-2 text-[15px] text-gray-300">
@@ -1035,7 +1035,7 @@
     <script>
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
-        if (btn && menu) { btn.addEventListener('click', () => { menu.classList.toggle('hidden'); btn.setAttribute('aria-expanded', String(!menu.classList.contains('hidden'))); }); }
+        if (btn && menu) { btn.addEventListener('click', () => { menu.classList.toggle('hidden'); btn.setAttribute('aria-expanded', String(!menu.classList.contains('hidden'))); btn.setAttribute('aria-expanded', String(!menu.classList.contains('hidden'))); }); }
     </script>
 </body>
 
