@@ -28,6 +28,7 @@ ORDER = [
     "index.html",
     "avocat-ilan-guedj.html",
     "honoraires.html",
+    "dossier-en-ligne.html",
     "accidents-route.html",
     "erreur-medicale.html",
     "agression.html",
