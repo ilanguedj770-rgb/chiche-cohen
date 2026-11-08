@@ -333,9 +333,23 @@
     rootMo.observe(document.body, { childList: true, subtree: true });
   }
 
+  // Barre de contact mobile : masquée tant que les boutons du haut de page sont à l'écran,
+  // pour ne pas doubler les appels à l'action ni couvrir le texte d'entrée.
+  function barreSelonDefilement() {
+    function maj() {
+      var cachee = window.scrollY < 480;
+      document.querySelectorAll('[data-cta="bouton_fixe_mobile"], #ig-callbar').forEach(function (b) {
+        b.classList.toggle('ig-bar-cachee', cachee);
+      });
+    }
+    maj();
+    window.addEventListener('scroll', maj, { passive: true });
+  }
+
   function bootUi() {
     watchContactForm();
     ensureCallbar();
+    barreSelonDefilement();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', bootUi);
   else bootUi();
