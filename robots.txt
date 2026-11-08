@@ -10,6 +10,7 @@
 #   https://ig-avocat.com/llms.txt        (synthèse structurée du cabinet)
 #   https://ig-avocat.com/llms-full.txt   (corpus complet du site en texte)
 #   https://ig-avocat.com/avocat-ilan-guedj (page d'identité de l'avocat)
+#   https://ig-avocat.com/dossier-en-ligne (ouvrir son dossier en ligne : accident de la route)
 #   https://ig-avocat.com/lexique-dommage-corporel (définitions, une par notion)
 #   https://ig-avocat.com/feed.xml     (flux RSS des guides)
 

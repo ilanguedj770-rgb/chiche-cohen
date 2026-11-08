@@ -79,6 +79,8 @@ OFFER_CATALOG = {
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Indemnisation accident de la vie (GAV)"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Indemnisation victime d'agression (CIVI/FGTI)"}},
         {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Recours pour erreur médicale (CCI/ONIAM)"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Ouverture de dossier en ligne pour les victimes d'accident de la route",
+                                             "url": "https://ig-avocat.com/dossier-en-ligne"}},
     ],
 }
 ENTITY_TYPES = {"LegalService", "LocalBusiness", "Attorney"}
@@ -230,6 +232,12 @@ def practice():
             "availableLanguage": ["fr", "en"],
             "areaServed": "FR",
             "url": f"{SITE}/contact",
+        }, {
+            "@type": "ContactPoint",
+            "contactType": "Ouverture de dossier en ligne — victimes d'accident de la route",
+            "availableLanguage": ["fr"],
+            "areaServed": "FR",
+            "url": f"{SITE}/dossier-en-ligne",
         }],
     }
 

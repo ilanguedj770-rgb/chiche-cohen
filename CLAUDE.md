@@ -37,6 +37,7 @@ Fiche par page (requête cible, cluster, état) : `seo/pages/`.
 - `GEO-EDITORIAL-STANDARD.md`, `GEO-PUBLISHING.md`, `CHARTE.md` : standards éditoriaux, publication, charte visuelle
 
 ## Fichiers générés — ne pas éditer à la main
+Navigation et pied de page de toutes les pages : `tools/layout.py` (gabarits uniques, marqueurs LAYOUT:NAV / LAYOUT:FOOTER) — modifier le script, pas les pages.
 `sitemap.xml` (tools/build-sitemap.py), `feed.xml`, `llms-full.txt`, `css/tailwind.css` (npm run build:css), `lexique-dommage-corporel.html` (tools/build-lexique.py), données d'entité JSON-LD (tools/geo-inject.py).
 
 ## Avant tout push

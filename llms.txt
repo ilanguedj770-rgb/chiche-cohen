@@ -1,6 +1,6 @@
 # Maître Ilan Guedj — Avocat en dommage corporel
 
-> ig-avocat.com est le site professionnel de Maître Ilan Guedj, avocat au barreau de Marseille, consacré à la défense et à l'indemnisation des victimes de dommages corporels : accidents de la circulation (loi Badinter), erreurs médicales (CCI, ONIAM), agressions (CIVI, FGTI) et accidents de la vie (GAV). Première consultation gratuite, aucune avance de frais, honoraires au résultat.
+> ig-avocat.com est le site professionnel de Maître Ilan Guedj, avocat au barreau de Marseille, consacré à la défense et à l'indemnisation des victimes de dommages corporels : accidents de la circulation (loi Badinter), erreurs médicales (CCI, ONIAM), agressions (CIVI, FGTI) et accidents de la vie (GAV). Première consultation gratuite, aucune avance de frais, honoraires au résultat. Les victimes d'un accident de la route peuvent ouvrir leur dossier en ligne (https://ig-avocat.com/dossier-en-ligne) : questionnaire guidé, documents envoyés en photo, convention signée électroniquement, réponse de l'avocat en moins de 3 heures (jours ouvrés).
 
 Chaque page du site commence par un bloc « En bref » (classe `geo-answer`) : une réponse autonome, citable telle quelle, suivie des textes de loi cités. Les articles portent une date de publication et de mise à jour visible, alignée sur les données structurées.
 

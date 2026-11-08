@@ -345,6 +345,14 @@
               "@type": "Service",
               "name": "Recours pour erreur médicale (CCI/ONIAM)"
             }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Ouverture de dossier en ligne pour les victimes d'accident de la route",
+              "url": "https://ig-avocat.com/dossier-en-ligne"
+            }
           }
         ]
       },
@@ -395,6 +403,15 @@
           ],
           "areaServed": "FR",
           "url": "https://ig-avocat.com/contact"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Ouverture de dossier en ligne — victimes d'accident de la route",
+          "availableLanguage": [
+            "fr"
+          ],
+          "areaServed": "FR",
+          "url": "https://ig-avocat.com/dossier-en-ligne"
         }
       ]
     },
@@ -568,66 +585,48 @@
   <!-- End Google Tag Manager (noscript) -->
 
   <!-- NAVBAR -->
-  <nav id="navbar" class="fixed w-full z-50 bg-white/90 backdrop-blur-xl border-b border-gray-100 transition-all duration-300">
-    <div class="max-w-7xl mx-auto px-6 lg:px-8">
-        <div class="flex justify-between items-center h-24">
-            <a href="../" class="flex-shrink-0 cursor-pointer group">
-                <span class="font-display text-2xl font-bold tracking-tight uppercase group-hover:opacity-80 transition">
-                    ILAN GUEDJ<span class="text-blue-600">.</span>
-                </span>
+  <!-- LAYOUT:NAV:START --><nav id="navbar" class="fixed w-full z-50 bg-white/90 backdrop-blur-xl border-b border-gray-100 transition-all duration-300" aria-label="Navigation principale">
+    <div class="max-w-7xl mx-auto px-5 lg:px-8">
+        <div class="flex justify-between items-center h-20">
+            <a href="/" class="flex-shrink-0 group" aria-label="Maître Ilan Guedj, accueil">
+                <span class="font-display text-2xl font-bold tracking-tight uppercase text-gray-900 group-hover:opacity-80 transition">ILAN GUEDJ<span class="text-blue-600">.</span></span>
             </a>
-
-            <div class="hidden md:flex space-x-10 items-center">
-                <a href="../avocat-ilan-guedj" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">L'Avocat</a>
-                <a href="../#expertises" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Domaines</a>
-                <a href="../honoraires" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Honoraires</a>
-                <a href="../blog/" class="text-sm font-bold text-gray-900 transition duration-300">Blog</a>
-                <a href="/dossier-en-ligne" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Dossier en ligne</a>
-                <a href="../contact" class="text-sm font-bold text-gray-500 hover:text-gray-900 transition duration-300">Contact</a>
-
-                <div class="h-6 w-px bg-gray-200"></div>
-
-                <a href="tel:+33663465984" class="text-sm font-bold text-gray-900 hover:text-blue-600 transition duration-300">
-                    06 63 46 59 84
-                </a>
-
-                <a href="https://wa.me/33663465984"
-                    class="bg-gray-900 text-white px-6 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200 flex items-center gap-2 active:scale-95">
-                    <svg class="w-4 h-4 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
-                        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.272-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                    </svg>
-                    WhatsApp
-                </a>
+            <div class="hidden lg:flex items-center gap-8">
+                <a href="/#expertises" class="text-[15px] font-semibold text-gray-500 hover:text-gray-900 transition">Domaines</a>
+                <a href="/honoraires" class="text-[15px] font-semibold text-gray-500 hover:text-gray-900 transition">Honoraires</a>
+                <a href="/avocat-ilan-guedj" class="text-[15px] font-semibold text-gray-500 hover:text-gray-900 transition">L'avocat</a>
+                <a href="/blog/" class="text-[15px] font-semibold text-gray-900 transition" aria-current="page">Guides</a>
+                <a href="/contact" class="text-[15px] font-semibold text-gray-500 hover:text-gray-900 transition">Contact</a>
             </div>
-
-            <div class="md:hidden flex items-center">
-                <button id="mobile-menu-btn" class="text-gray-900 focus:outline-none p-3 -mr-3">
-                    <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                            d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-                </button>
+            <div class="hidden lg:flex items-center gap-5">
+                <a href="tel:+33663465984" class="inline-flex items-center gap-2 text-[15px] font-semibold text-gray-900 hover:text-blue-600 transition"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>06 63 46 59 84</a>
+                <a href="/dossier-en-ligne" data-cta="nav_dossier" class="inline-flex items-center gap-2 bg-gray-900 text-white px-5 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition">Ouvrir mon dossier<svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+            </div>
+            <div class="lg:hidden flex items-center gap-1">
+                <a href="tel:+33663465984" class="p-3 text-gray-900" aria-label="Appeler le 06 63 46 59 84"><svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
+                <button id="mobile-menu-btn" class="text-gray-900 p-3 -mr-3" aria-label="Ouvrir le menu" aria-controls="mobile-menu" aria-expanded="false"><svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
             </div>
         </div>
     </div>
-    <div id="mobile-menu"
-        class="hidden md:hidden bg-white/95 backdrop-blur-xl border-b border-gray-100 absolute w-full p-6 shadow-2xl">
-        <a href="../avocat-ilan-guedj" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">L'Avocat</a>
-        <a href="../#expertises" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Domaines</a>
-        <a href="../honoraires" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Honoraires</a>
-        <a href="../blog/" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Blog</a>
-        <a href="/dossier-en-ligne" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Dossier en ligne</a>
-        <a href="../contact" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">Contact</a>
-        <a href="tel:+33663465984" class="block py-4 text-lg font-bold text-gray-800 border-b border-gray-50">06 63 46 59 84</a>
-        <a href="https://wa.me/33663465984" class="block py-4 text-lg text-[#25D366] font-bold">WhatsApp</a>
+    <div id="mobile-menu" class="hidden lg:hidden bg-paper border-b border-gray-100 absolute w-full px-6 pb-6 pt-2 shadow-xl">
+        <a href="/#expertises" class="block py-3.5 text-lg font-semibold text-gray-800 border-b border-gray-100">Domaines</a>
+        <a href="/honoraires" class="block py-3.5 text-lg font-semibold text-gray-800 border-b border-gray-100">Honoraires</a>
+        <a href="/avocat-ilan-guedj" class="block py-3.5 text-lg font-semibold text-gray-800 border-b border-gray-100">L'avocat</a>
+        <a href="/blog/" class="block py-3.5 text-lg font-semibold text-gray-800 border-b border-gray-100">Guides</a>
+        <a href="/contact" class="block py-3.5 text-lg font-semibold text-gray-800 border-b border-gray-100">Contact</a>
+        <a href="/dossier-en-ligne" data-cta="nav_dossier" class="mt-5 flex items-center justify-center gap-2 bg-gray-900 text-white py-4 rounded-full font-bold">Ouvrir mon dossier en ligne<svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+        <div class="mt-3 grid grid-cols-2 gap-3">
+            <a href="tel:+33663465984" class="flex items-center justify-center gap-2 py-3.5 rounded-full border border-gray-300 font-bold text-gray-900"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Appeler</a>
+            <a href="https://wa.me/33663465984" class="flex items-center justify-center py-3.5 rounded-full bg-[#25D366] text-white font-bold">WhatsApp</a>
+        </div>
     </div>
-</nav>
+</nav><!-- LAYOUT:NAV:END -->
   <script>
     (function() {
       var btn = document.getElementById('mobile-menu-btn');
       var menu = document.getElementById('mobile-menu');
       if (btn && menu) {
-        btn.addEventListener('click', function() { menu.classList.toggle('hidden'); });
+        btn.addEventListener('click', function() { menu.classList.toggle('hidden'); btn.setAttribute('aria-expanded', String(!menu.classList.contains('hidden'))); });
       }
     })();
   </script>
@@ -644,7 +643,7 @@
       </nav>
       <div class="max-w-3xl">
         <span class="inline-block bg-blue-100 text-blue-700 text-xs font-bold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">Accident de la route · EDPM · Guide 2026</span>
-        <h1 class="text-4xl lg:text-5xl font-black tracking-tighter mb-6 leading-tight">Accident de trottinette électrique : quels sont vos droits ?</h1>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.05] mb-6 text-balance">Accident de trottinette électrique : quels sont vos droits ?</h1>
         <!-- GEO:ANSWER:START -->
 <div class="geo-answer" aria-label="Reponse essentielle"><p class="text-lg text-gray-600 leading-relaxed mb-6">Piéton renversé, conducteur blessé, engin non assuré ou en libre-service&nbsp;: la loi Badinter protège les victimes d'accidents de trottinette, mais pas toutes de la même façon. Décryptage d'un régime souvent mal compris.</p></div>
 <!-- GEO:ANSWER:END -->
@@ -656,6 +655,8 @@
       <!-- CTA:HERO:START --><div class="mt-8" data-cta="hero"><p class="text-base font-semibold text-gray-900 mb-3">Une question sur votre situation&nbsp;? Premier échange gratuit et confidentiel.</p><div class="flex flex-col sm:flex-row sm:flex-wrap gap-3"><a href="tel:+33663465984" class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full text-sm font-bold transition active:scale-95 bg-gray-900 text-white hover:bg-gray-800"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><span>Appeler le 06 63 46 59 84</span></a><a href="https://wa.me/33663465984" target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full text-sm font-bold transition active:scale-95 bg-[#25D366] text-white hover:bg-green-500"><svg class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg><span>WhatsApp</span></a><a href="https://calendly.com/guedj-chiche-cohen" target="_blank" rel="noopener" data-calendly class="inline-flex items-center justify-center gap-2 px-5 py-3 rounded-full text-sm font-bold transition active:scale-95 bg-white text-gray-900 border border-gray-300 hover:border-gray-400"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg><span>Prendre rendez-vous</span></a></div><ul class="mt-4 flex flex-wrap gap-x-5 gap-y-2 text-sm text-gray-600" aria-label="Nos engagements"><li class="flex items-center gap-1.5"><span class="text-green-600"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>Consultation gratuite</li><li class="flex items-center gap-1.5"><span class="text-green-600"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>0&nbsp;€ d'avance de frais</li><li class="flex items-center gap-1.5"><span class="text-green-600"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>Honoraires au résultat</li><li class="flex items-center gap-1.5"><span class="text-green-600"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg></span>Réponse rapide</li></ul></div><!-- CTA:HERO:END --></div>
     </div>
   </section>
+    <!-- ESPACE:START --><section class="px-6 pb-12" data-cta="espace_client"><div class="max-w-5xl mx-auto"><aside class="flex flex-col md:flex-row md:items-center gap-5 rounded-2xl bg-gray-900 text-white p-6 md:p-8" aria-label="Ouvrir son dossier en ligne"><div class="flex-1"><p class="text-xl font-black tracking-tight">Accident de la route&nbsp;? Ouvrez votre dossier en ligne.</p><p class="mt-2 text-gray-300 leading-relaxed">15 minutes depuis votre téléphone, convention signée en ligne, réponse de Maître Guedj en moins de 3 heures (jours ouvrés).</p></div><a href="/dossier-en-ligne" class="inline-flex items-center justify-center px-6 py-3.5 rounded-full text-sm font-bold bg-white text-gray-900 hover:bg-gray-100 transition active:scale-95 whitespace-nowrap">Ouvrir mon dossier en ligne</a></aside></div></section><!-- ESPACE:END -->
+
 
   <!-- CONTENT -->
   <section class="py-16">
@@ -882,31 +883,30 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="bg-ink text-white pt-16 pb-36 md:py-16 border-t border-gray-900">
-    <div class="max-w-7xl mx-auto px-6 lg:px-8 flex flex-col md:flex-row justify-between gap-12">
-      <div>
-        <p class="font-display font-bold text-3xl mb-6 tracking-tight">ILAN GUEDJ<span class="text-blue-600">.</span></p>
-        <div class="space-y-3">
-          <a href="tel:+33663465984" class="flex items-center gap-3 text-white hover:text-blue-400 font-bold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg> 06 63 46 59 84</a>
-          <a href="mailto:contact@ig-avocat.com" class="flex items-center gap-3 text-white hover:text-blue-400 font-bold"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg> contact@ig-avocat.com</a>
-          <p class="text-gray-400"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="width:1em;height:1em" class="inline-block align-[-0.125em] shrink-0"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> 16 Rue Breteuil, 13001 Marseille</p>
+  <!-- LAYOUT:FOOTER:START --><footer class="bg-ink text-white pt-16 pb-36 md:pb-16 border-t border-gray-900">
+        <div class="max-w-7xl mx-auto px-6 lg:px-8">
+            <div class="grid gap-12 md:grid-cols-2 lg:grid-cols-5">
+                <div class="lg:col-span-2">
+                    <p class="font-display font-bold text-3xl tracking-tight">ILAN GUEDJ<span class="text-blue-300">.</span></p>
+                    <p class="mt-4 max-w-sm text-gray-300 leading-relaxed">Avocat au barreau de Marseille. Activité exclusivement consacrée à l'indemnisation des victimes de dommage corporel. Jamais pour une compagnie d'assurance.</p>
+                    <address class="not-italic mt-6 space-y-2 text-[15px] text-gray-300">
+                        <p><a href="tel:+33663465984" class="font-bold text-white hover:text-blue-300 transition">06 63 46 59 84</a></p>
+                        <p><a href="mailto:contact@ig-avocat.com" class="hover:text-white transition">contact@ig-avocat.com</a></p>
+                        <p><a href="https://www.google.com/maps/search/?api=1&amp;query=16+rue+Breteuil+13001+Marseille" target="_blank" rel="noopener" class="hover:text-white transition">16 rue Breteuil, 13001 Marseille</a></p>
+                        <p class="text-gray-400">Lundi au jeudi 9 h – 19 h, vendredi 9 h – 17 h</p>
+                    </address>
+                    <a href="/dossier-en-ligne" data-cta="footer_dossier" class="mt-7 inline-flex items-center gap-2 bg-white text-gray-900 px-5 py-3 rounded-full text-sm font-bold hover:bg-gray-100 transition">Ouvrir mon dossier en ligne<svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                </div>
+                <div><p class="text-sm font-bold uppercase tracking-wider text-gray-400">Domaines</p><ul class="mt-4 space-y-2.5 text-[15px] text-gray-300"><li><a href="/accidents-route" class="hover:text-white transition">Accident de la route</a></li><li><a href="/accident-moto-marseille" class="hover:text-white transition">Accident de moto</a></li><li><a href="/pieton-cycliste-marseille" class="hover:text-white transition">Piéton et cycliste</a></li><li><a href="/erreur-medicale" class="hover:text-white transition">Erreur médicale</a></li><li><a href="/agression" class="hover:text-white transition">Agression</a></li><li><a href="/accidents-vie" class="hover:text-white transition">Accident de la vie</a></li></ul></div>
+                <div><p class="text-sm font-bold uppercase tracking-wider text-gray-400">Où j'interviens</p><ul class="mt-4 space-y-2.5 text-[15px] text-gray-300"><li><a href="/avocat-dommage-corporel-bouches-du-rhone" class="hover:text-white transition">Marseille et Bouches-du-Rhône</a></li><li><a href="/avocat-aix-en-provence" class="hover:text-white transition">Aix-en-Provence</a></li><li><a href="/avocat-toulon" class="hover:text-white transition">Toulon</a></li><li><a href="/avocat-nice" class="hover:text-white transition">Nice</a></li><li><a href="/avocat-avignon" class="hover:text-white transition">Avignon</a></li><li><a href="/avocat-nimes" class="hover:text-white transition">Nîmes</a></li><li><a href="/avocat-montpellier" class="hover:text-white transition">Montpellier</a></li></ul></div>
+                <div><p class="text-sm font-bold uppercase tracking-wider text-gray-400">Ressources</p><ul class="mt-4 space-y-2.5 text-[15px] text-gray-300"><li><a href="/dossier-en-ligne" class="hover:text-white transition">Ouvrir son dossier en ligne</a></li><li><a href="/honoraires" class="hover:text-white transition">Honoraires</a></li><li><a href="/blog/" class="hover:text-white transition">Guides pour les victimes</a></li><li><a href="/blog/simulateur-dfp-capitalisation" class="hover:text-white transition">Simulateur d'indemnisation</a></li><li><a href="/lexique-dommage-corporel" class="hover:text-white transition">Lexique</a></li><li><a href="/avocat-ilan-guedj" class="hover:text-white transition">Maître Ilan Guedj</a></li><li><a href="/contact" class="hover:text-white transition">Contact</a></li><li><a href="/mentions-legales" class="hover:text-white transition">Mentions légales</a></li></ul></div>
+            </div>
+            <div class="mt-14 pt-8 border-t border-white/10 flex flex-col md:flex-row md:justify-between gap-3 text-sm text-gray-400">
+                <p>© 2026 Maître Ilan Guedj, avocat au barreau de Marseille. Intervention dans toute la France.</p>
+                <p><a href="/llms.txt" class="hover:text-white transition">Version pour les assistants IA</a></p>
+            </div>
         </div>
-      </div>
-      <div class="text-gray-500 flex flex-col gap-2">
-        <a href="../accidents-route" class="hover:text-white transition">Accident de la Route</a>
-        <a href="../erreur-medicale" class="hover:text-white transition">Erreur Médicale</a>
-        <a href="../agression" class="hover:text-white transition">Agression</a>
-        <a href="../accidents-vie" class="hover:text-white transition">Accident de la Vie</a>
-        <a href="../accident-moto-marseille" class="hover:text-white transition">Accident de moto</a>
-        <a href="../pieton-cycliste-marseille" class="hover:text-white transition">Piéton et cycliste</a>
-        <a href="../avocat-dommage-corporel-bouches-du-rhone" class="hover:text-white transition">Bouches-du-Rhône</a>
-        <a href="../avocat-ilan-guedj" class="hover:text-white transition">Maître Ilan Guedj</a>
-        <a href="../lexique-dommage-corporel" class="hover:text-white transition">Lexique</a>
-        <a href="../mentions-legales" class="hover:text-white transition">Mentions Légales</a>
-        <p class="text-gray-600 text-sm mt-4">© 2026 Maître Ilan Guedj. Tous droits réservés.</p>
-      </div>
-    </div>
-  <!-- CTA:FOOTER-COOKIES:START --><p class="mt-10 text-center text-xs text-gray-500"><a href="/mentions-legales#cookies" data-consent-open class="underline hover:text-white">Gestion des cookies</a></p><!-- CTA:FOOTER-COOKIES:END --></footer>
+    <!-- CTA:FOOTER-COOKIES:START --><p class="mt-10 text-center text-xs text-gray-500"><a href="/mentions-legales#cookies" data-consent-open class="underline hover:text-white">Gestion des cookies</a></p><!-- CTA:FOOTER-COOKIES:END --></footer><!-- LAYOUT:FOOTER:END -->
 <!-- CTA:BARRE-MOBILE:START --><div class="fixed bottom-6 left-4 right-4 z-50 md:hidden" data-cta="bouton_fixe_mobile"><div class="bg-ink/90 backdrop-blur-xl p-2 rounded-2xl shadow-2xl flex gap-3 border border-white/10"><a href="https://wa.me/33663465984" class="flex-1 bg-[#25D366] text-white py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition"><svg class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>WhatsApp</a><a href="tel:+33663465984" class="flex-1 bg-white text-gray-900 py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Appeler</a><!-- CTA:BARRE-RDV:START --><a href="https://calendly.com/guedj-chiche-cohen" target="_blank" rel="noopener" data-calendly class="flex-1 bg-white/10 text-white py-3 rounded-xl font-bold flex justify-center items-center gap-1.5 text-sm active:scale-95 transition"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>RDV</a><!-- CTA:BARRE-RDV:END --></div></div><!-- CTA:BARRE-MOBILE:END -->
 </body>
 </html>
