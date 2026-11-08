@@ -2,7 +2,7 @@
 
 Une ligne par décision : date — décision — raison. Les plus récentes en haut.
 
-- 2026-11-08 — Médiatrice de la consommation mise à jour (Sandra Werey, mediateur-conso@…, mandat 2026-2028) sur `/honoraires` et `/mentions-legales` ; `/honoraires` précise l'honoraire fixe sans protection juridique (500 € TTC en fin de dossier), aligné sur la convention de l'espace client. Title et meta inchangés.
+- 2026-11-08 — Médiatrice de la consommation mise à jour (Sandra Werey, mediateur-conso@…, mandat 2026-2028) sur `/honoraires` et `/mentions-legales` ; honoraire fixe = prise en charge de la protection juridique, rien à défaut (pas de montant affiché sans PJ). Title et meta inchangés.
 - 2026-11-02 — Première revue Search Console (`seo/reports/2026-11.md`) : pas de page pivot « préjudices » séparée, `/blog/indemnisation-accident-corporel` en tient lieu. — Elle couvre déjà Dintilhac ; une seconde page cannibaliserait.
 - 2026-11-02 — Mise en place du second cerveau SEO (CLAUDE.md, `.claude/rules/`, compétence `page-refresh`, hook de protection, dossier `seo/`). — Ne plus perdre d'une session à l'autre les règles du site (NAP, déontologie, URLs, fichiers générés).
 - 2026-11-02 — Dossiers internes (`seo/`, `.claude/`, `CLAUDE.md`, documents de travail `.md` à la racine) renvoyés en 404 par `_redirects`. — Le site est publié depuis la racine du dépôt : sans règle, ces notes internes peuvent être servies et indexées.
