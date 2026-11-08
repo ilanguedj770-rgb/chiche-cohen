@@ -2,7 +2,7 @@
 
 Une ligne par décision : date — décision — raison. Les plus récentes en haut.
 
-- 2026-11-08 — Nouvelle page `/dossier-en-ligne` (requête : ouvrir son dossier avocat en ligne, accident de la route) ; lien « Dossier en ligne » dans la navigation de toutes les pages ; bandeau vers cette page sous le hero de `/`, `/accidents-route`, `/accident-moto-marseille`, `/pieton-cycliste-marseille`. Title et meta des pages existantes inchangés. À publier le jour de l'ouverture de l'espace client au public.
+- 2026-11-08 — Nouvelle page `/dossier-en-ligne` (requête : ouvrir son dossier avocat en ligne, accident de la route) ; lien « Dossier en ligne » dans la navigation de toutes les pages ; bandeau vers cette page sous le hero de `/`, `/accidents-route`, `/accident-moto-marseille`, `/pieton-cycliste-marseille`. Title et meta des pages existantes inchangés. Publié le 8 novembre 2026, à l'ouverture de l'espace client au public.
 - 2026-11-08 — Médiatrice de la consommation mise à jour (Sandra Werey, mediateur-conso@…, mandat 2026-2028) sur `/honoraires` et `/mentions-legales` ; honoraire fixe présenté comme couvert par la protection juridique, sans mention du cas où il n'y en a pas (choix de l'avocat). Title et meta inchangés.
 - 2026-11-02 — Première revue Search Console (`seo/reports/2026-11.md`) : pas de page pivot « préjudices » séparée, `/blog/indemnisation-accident-corporel` en tient lieu. — Elle couvre déjà Dintilhac ; une seconde page cannibaliserait.
 - 2026-11-02 — Mise en place du second cerveau SEO (CLAUDE.md, `.claude/rules/`, compétence `page-refresh`, hook de protection, dossier `seo/`). — Ne plus perdre d'une session à l'autre les règles du site (NAP, déontologie, URLs, fichiers générés).
