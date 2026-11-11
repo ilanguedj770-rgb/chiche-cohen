@@ -6,9 +6,18 @@
     <atom:link href="https://ig-avocat.com/feed.xml" rel="self" type="application/rss+xml"/>
     <description>Réponses juridiques sourcées pour les victimes d'accidents de la circulation, d'erreurs médicales, d'agressions et d'accidents de la vie, par Maître Ilan Guedj, avocat au barreau de Marseille.</description>
     <language>fr-FR</language>
-    <lastBuildDate>Tue, 27 Oct 2026 09:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 09:00:00 +0000</lastBuildDate>
     <managingEditor>contact@ig-avocat.com (Maître Ilan Guedj)</managingEditor>
     <image><url>https://ig-avocat.com/img/og-cover.jpg</url><title>Maître Ilan Guedj</title><link>https://ig-avocat.com/</link></image>
+    <item>
+      <title>Nouvelle nomenclature Dintilhac 2026 : ce qui change</title>
+      <link>https://ig-avocat.com/blog/nouvelle-nomenclature-dintilhac-2026</link>
+      <guid isPermaLink="true">https://ig-avocat.com/blog/nouvelle-nomenclature-dintilhac-2026</guid>
+      <description>Rapport de la Cour de cassation du 2 novembre 2026 : 22 postes pour la victime, 8 pour ses proches. Ce qui change, ce qui s&#x27;applique déjà, tableau complet.</description>
+      <dc:creator>Maître Ilan Guedj</dc:creator>
+      <pubDate>Wed, 11 Nov 2026 09:00:00 +0000</pubDate>
+      <dc:date>2026-11-11</dc:date>
+    </item>
     <item>
       <title>ONIAM : son barème ne s&#x27;impose pas au juge (jugement 2026)</title>
       <link>https://ig-avocat.com/blog/oniam-referentiel-tribunal-alea-therapeutique</link>

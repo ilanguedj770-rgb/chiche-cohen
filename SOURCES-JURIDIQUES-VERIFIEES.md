@@ -130,3 +130,10 @@ Aucun montant, taux ou statistique sans source primaire citée. En particulier :
 d'indemnisation par poste ou par taux, pas de « X fois la première offre ». Pour la capitalisation,
 seuls la méthode et l'exemple publié par la Gazette du Palais (14 janvier 2025, GPL471y4) sont
 repris ; le barème lui-même n'est pas reproduit.
+
+## Révision de la nomenclature Dintilhac (novembre 2026)
+
+- Cour de cassation, *Rapport du groupe de travail sur la révision de la nomenclature Dintilhac*, remis le 2 novembre 2026, 48 pages. **Lu le 11 novembre 2026** sur le PDF transmis par Ilan : synthèse des propositions (p. 36 à 43) lue en entier, introduction, conclusion et recommandations contrôlées. 22 postes pour la victime directe, 8 pour les victimes indirectes (p. 32) ; présidents : Mme Domitille Duval-Arnould et M. Savinien Grignon-Dumoulin (annexe 2) ; lettre de mission du 18 juillet 2025 ; propositions adoptées par consensus ; nomenclature « dépourvue de toute force contraignante » (introduction) ; assiette du recours des tiers payeurs non modifiée (conclusion).
+- Cass., ch. mixte, 25 mars 2022, n° 20-15.624, publié — préjudice d'angoisse de mort imminente — `courdecassation.fr/decision/623d6dae1343c305763c96cd` (JURITEXT000045422192)
+- Cass., ch. mixte, 25 mars 2022, n° 20-17.072, publié — préjudice d'attente et d'inquiétude des proches — `courdecassation.fr/decision/623d6dae1343c305763c96cc` (JURITEXT000045422189)
+- Cass., ch. mixte, 29 mai 2026, n° 24-17.384, publié — préjudice d'anxiété — cité par le rapport (note 64), arrêt non ouvert.
