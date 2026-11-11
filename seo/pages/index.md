@@ -12,3 +12,4 @@
 - Ne jamais changer l'URL.
 - Toute modification se consigne dans `seo/decisions.md`.
 - 2026-11-11 — Héros retravaillé, pastilles « Que vous est-il arrivé ? » (liens vers les six domaines), pictogrammes des cartes de domaine. Title, meta et bloc « En bref » inchangés.
+- 2026-11-11 — Avis Google remontés après les domaines et note reportée dans le haut de page ; section résultats renommée. Title, meta et bloc « En bref » inchangés.

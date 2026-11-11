@@ -451,3 +451,30 @@ a.group:hover .ig-ico { background: theme('colors.blue.600'); color: #fff; }
 /* Menu « Sur cette page » des pages longues (domaines, villes). */
 .ig-toc-wrap { max-width: 56rem; margin: 0 auto; padding: 1.5rem 1.25rem 0; }
 .ig-toc-wrap .ig-toc { margin-bottom: 0; }
+
+/* --- Avis Google (accueil) --------------------------------------------------- */
+.ig-stars { display: inline-flex; align-items: center; gap: 0.15rem; color: theme('colors.amber.400'); }
+.ig-stars svg { width: 1rem; height: 1rem; }
+.ig-star-off { color: theme('colors.gray.300'); }
+.ig-note { display: inline-flex; align-items: center; gap: 0.85rem; padding: 0.75rem 1.1rem; border-radius: 1.125rem; background: #fff; border: 1px solid rgba(27, 36, 48, 0.12); box-shadow: theme('boxShadow.soft'); transition: border-color 0.15s; }
+.ig-note[hidden] { display: none; }
+.ig-note:hover { border-color: theme('colors.gray.400'); }
+.ig-note-n { font-family: theme('fontFamily.display'); font-size: 2.25rem; font-weight: 700; line-height: 1; color: theme('colors.gray.900'); font-variant-numeric: tabular-nums lining-nums; }
+.ig-note-t { display: flex; flex-direction: column; gap: 0.2rem; font-size: 0.85rem; font-weight: 500; color: theme('colors.gray.600'); line-height: 1.3; }
+.ig-note-sm { gap: 0.6rem; padding: 0.45rem 0.9rem 0.45rem 0.75rem; border-radius: 999px; box-shadow: none; }
+.ig-note-sm .ig-note-n { font-size: 1.25rem; }
+.ig-note-sm .ig-note-t { flex-direction: row; align-items: center; gap: 0.5rem; font-weight: 600; color: theme('colors.gray.800'); }
+.ig-note-sm .ig-stars svg { width: 0.9rem; height: 0.9rem; }
+
+.ig-reviews { display: grid; gap: 1.25rem; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.ig-review { display: flex; flex-direction: column; padding: 1.75rem; border-radius: 1.125rem; background: #fff; border: 1px solid rgba(27, 36, 48, 0.1); box-shadow: theme('boxShadow.soft'); }
+.ig-review .ig-stars svg { width: 1.05rem; height: 1.05rem; }
+.ig-review-text { margin-top: 1rem; font-size: 1rem; line-height: 1.65; color: theme('colors.gray.700'); }
+/* Trois avis sur grand écran ; tous, en bandeau défilant, sur tablette et téléphone. */
+@media (min-width: 1024px) { .ig-reviews > :nth-child(n+4) { display: none; } }
+@media (max-width: 1023px) {
+  .ig-reviews { display: flex; overflow-x: auto; gap: 0.9rem; margin: 0 -1.25rem; padding: 0.25rem 1.25rem 1rem; scroll-snap-type: x mandatory; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .ig-reviews::-webkit-scrollbar { display: none; }
+  .ig-review { flex: 0 0 min(84%, 22rem); scroll-snap-align: center; padding: 1.4rem; }
+}
+@media print { .ig-skip, .ig-top, .ig-progress { display: none !important; } }
