@@ -447,3 +447,7 @@ a.group:hover .ig-ico { background: theme('colors.blue.600'); color: #fff; }
   .ig-chips::-webkit-scrollbar { display: none; }
   .ig-chips a { flex: none; scroll-snap-align: start; }
 }
+
+/* Menu « Sur cette page » des pages longues (domaines, villes). */
+.ig-toc-wrap { max-width: 56rem; margin: 0 auto; padding: 1.5rem 1.25rem 0; }
+.ig-toc-wrap .ig-toc { margin-bottom: 0; }

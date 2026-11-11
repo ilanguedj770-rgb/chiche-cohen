@@ -361,6 +361,37 @@
     });
   })();
 
+  /* 4 bis. Pages longues hors guides : menu « Sur cette page » sous le haut de page. */
+  (function () {
+    var path = location.pathname.replace(/\.html$/, '');
+    if (path === '/' || /^\/blog\//.test(path)) return;
+    var main = d.getElementById('contenu') || $('main');
+    if (!main || $('.ig-toc, [aria-label*="ommaire"]', main)) return;
+    var heads = $$('h2', main).filter(function (h) {
+      return !h.closest('aside, details, [data-cta], footer') && h.textContent.trim().length > 3;
+    });
+    if (heads.length < 5 || d.documentElement.scrollHeight < 6000) return;
+    var first = $('section', main);
+    if (!first || !first.parentNode) return;
+    var used = {};
+    heads.forEach(function (h) {
+      if (!h.id) {
+        var s = h.textContent.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+          .replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 60) || 'section';
+        while (used[s] || d.getElementById(s)) s += '-2';
+        h.id = s;
+      }
+      used[h.id] = true;
+    });
+    var box = el('div', { 'class': 'ig-toc-wrap' });
+    var toc = el('details', { 'class': 'ig-toc' },
+      '<summary>' + svg(I.list) + '<span>Sur cette page</span><small>' + heads.length + ' parties</small>' + svg(I.chevron, 'ig-i ig-dd-chev') + '</summary><ol>' +
+      heads.map(function (h) { return '<li><a href="#' + h.id + '">' + esc(h.textContent.replace(/\s+/g, ' ').trim()) + '</a></li>'; }).join('') + '</ol>');
+    box.appendChild(toc);
+    first.parentNode.insertBefore(box, first.nextSibling);
+    toc.addEventListener('click', function (e) { if (e.target.closest('a')) toc.open = false; });
+  })();
+
   /* 5. Retour en haut ------------------------------------------------------ */
   (function () {
     if (d.documentElement.scrollHeight < window.innerHeight * 3) return;

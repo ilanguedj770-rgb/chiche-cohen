@@ -44,7 +44,7 @@
     <link rel="preload" href="fonts/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 
     <!-- Tailwind CSS -->
-    <link rel="stylesheet" href="css/tailwind.css?v=2890938074">
+    <link rel="stylesheet" href="css/tailwind.css?v=c07daab24c">
 
     <!-- Preload LCP image -->
     <link rel="preload" as="image" href="img/associe-guedj.webp" fetchpriority="high">
@@ -585,7 +585,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.pdf"}},{"not":{"selector_matches":"[rel~=nofollow],[target=_blank],[download]"}}]},"eagerness":"moderate"}]}</script>
-    <script src="/js/ig-ui.js?v=f45b2767f5" defer></script>
+    <script src="/js/ig-ui.js?v=1c5777da79" defer></script>
     <!-- LAYOUT:HEAD:END -->
 </head>
 
@@ -700,11 +700,6 @@
 
     <!-- ============================================ -->
     <!-- ENGAGEMENTS                                  -->
-    <!-- ============================================ -->
-
-
-    <!-- ============================================ -->
-    <!-- DIAGNOSTIC WIDGET                            -->
     <!-- ============================================ -->
 
     <!-- ============================================ -->
@@ -1374,112 +1369,6 @@
                 });
             });
         }
-
-        // Diagnostic Widget Logic
-        (function() {
-            var widget = document.getElementById('diagnostic-widget');
-            if (!widget) return;
-
-            var diagState = { step: 1, type: null, evidence: [], injury: null };
-
-            function nextStep(targetStep) {
-                if (targetStep === 3 && diagState.evidence.length === 0) return;
-
-                var current = document.getElementById('step-' + diagState.step);
-                if (current) {
-                    current.classList.add('-translate-x-full', 'opacity-0', 'pointer-events-none');
-                    current.classList.remove('translate-x-0', 'opacity-100');
-                }
-
-                var next = document.getElementById('step-' + targetStep);
-                if (next) {
-                    next.classList.remove('translate-x-full', 'opacity-0', 'pointer-events-none');
-                    next.classList.add('translate-x-0', 'opacity-100');
-                }
-
-                diagState.step = targetStep;
-                var progress = (targetStep / 4) * 100;
-                var progressBar = document.getElementById('diag-progress');
-                if (progressBar) progressBar.style.width = progress + '%';
-            }
-
-            function showResult() {
-                var current = document.getElementById('step-3');
-                if (current) {
-                    current.classList.add('-translate-x-full', 'opacity-0', 'pointer-events-none');
-                    current.classList.remove('translate-x-0', 'opacity-100');
-                }
-
-                var isEligible = diagState.injury === 'Oui' && !diagState.evidence.includes('Rien') && diagState.evidence.length > 0;
-                var resultId = isEligible ? 'step-result-success' : 'step-result-warning';
-
-                var result = document.getElementById(resultId);
-                if (result) {
-                    result.classList.remove('translate-x-full', 'opacity-0', 'pointer-events-none');
-                    result.classList.add('translate-x-0', 'opacity-100');
-                }
-
-                var progressBar = document.getElementById('diag-progress');
-                if (progressBar) progressBar.style.width = '100%';
-            }
-
-            // Type buttons
-            widget.querySelectorAll('[data-type]').forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    diagState.type = btn.dataset.type;
-                    nextStep(2);
-                });
-            });
-
-            // Evidence buttons
-            widget.querySelectorAll('[data-evidence]').forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    var value = btn.dataset.evidence;
-                    if (value === 'Rien') {
-                        diagState.evidence = ['Rien'];
-                        widget.querySelectorAll('.evidence-btn').forEach(function(b) {
-                            b.classList.remove('border-blue-600', 'bg-blue-50');
-                            b.classList.add('border-gray-100');
-                        });
-                        btn.classList.remove('border-gray-100');
-                        btn.classList.add('border-blue-600', 'bg-blue-50');
-                    } else {
-                        if (diagState.evidence.includes('Rien')) {
-                            diagState.evidence = [];
-                            var rienBtn = widget.querySelector('[data-evidence="Rien"]');
-                            if (rienBtn) {
-                                rienBtn.classList.remove('border-blue-600', 'bg-blue-50');
-                                rienBtn.classList.add('border-gray-100');
-                            }
-                        }
-                        if (diagState.evidence.includes(value)) {
-                            diagState.evidence = diagState.evidence.filter(function(v) { return v !== value; });
-                            btn.classList.remove('border-blue-600', 'bg-blue-50');
-                            btn.classList.add('border-gray-100');
-                        } else {
-                            diagState.evidence.push(value);
-                            btn.classList.remove('border-gray-100');
-                            btn.classList.add('border-blue-600', 'bg-blue-50');
-                        }
-                    }
-                });
-            });
-
-            // Injury buttons
-            widget.querySelectorAll('[data-injury]').forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    diagState.injury = btn.dataset.injury;
-                    showResult();
-                });
-            });
-
-            // Next step buttons
-            widget.querySelectorAll('[data-next-step]').forEach(function(btn) {
-                btn.addEventListener('click', function() {
-                    nextStep(parseInt(btn.dataset.nextStep));
-                });
-            });
-        })();
 
         // Scroll Animation Observer
         var observer = new IntersectionObserver(function(entries, obs) {
