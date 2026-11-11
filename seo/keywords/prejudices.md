@@ -43,3 +43,6 @@
 
 ## Actualité (novembre 2026)
 - `/blog/nouvelle-nomenclature-dintilhac-2026` — requête cible : « nouvelle nomenclature Dintilhac » (révision proposée le 2 novembre 2026). Intention distincte de la page pivot `/blog/indemnisation-accident-corporel`, qui décrit la nomenclature en vigueur. À mettre à jour dès qu'une juridiction reprend la version révisée. Positions : à mesurer.
+
+## Base de décisions (novembre 2026)
+- `/blog/jurisprudence-indemnisation-cour-appel-aix-en-provence` — requête cible : « jurisprudence indemnisation dommage corporel cour d'appel Aix-en-Provence » (montants réels par arrêt). À compléter chaque mois avec deux ou trois arrêts lus en entier (Legal Data Hunter, source FR/Judilibre) ; chaque arrêt ajouté va dans `SOURCES-JURIDIQUES-VERIFIEES.md`. Positions : à mesurer.

@@ -137,3 +137,15 @@ repris ; le barème lui-même n'est pas reproduit.
 - Cass., ch. mixte, 25 mars 2022, n° 20-15.624, publié — préjudice d'angoisse de mort imminente — `courdecassation.fr/decision/623d6dae1343c305763c96cd` (JURITEXT000045422192)
 - Cass., ch. mixte, 25 mars 2022, n° 20-17.072, publié — préjudice d'attente et d'inquiétude des proches — `courdecassation.fr/decision/623d6dae1343c305763c96cc` (JURITEXT000045422189)
 - Cass., ch. mixte, 29 mai 2026, n° 24-17.384, publié — préjudice d'anxiété — cité par le rapport (note 64), arrêt non ouvert.
+
+## Décisions de cours d'appel lues en entier (base de décisions)
+
+Texte intégral lu le 11 novembre 2026 sur le site de la Cour de cassation (Judilibre). Chiffres repris de la décision, sans arrondi. Aucune de ces affaires n'a été plaidée par le cabinet.
+
+| Décision | Lien | Ce qui en est tiré |
+|---|---|---|
+| CA Aix-en-Provence, ch. 1-6, 11 janvier 2024, n° 22/10295 | `courdecassation.fr/decision/65a0e65e5bbe450008b2cbd0` | Cycliste, fracture du bassin. DFP 10 % : 13 520 € (non contesté) ; SE 3/7 : 6 000 € ; agrément 4 000 € ; médecin-conseil 2 000 € ; tierce personne 20 €/h |
+| CA Aix-en-Provence, ch. 1-6, 21 mars 2024, n° 23/01715 | `courdecassation.fr/decision/65fd2dbdcd2eb700086baa62` | Scooter contre camion, faute non prouvée, droit entier. DFP 7 % : 14 000 € ; SE 3/7 : 8 000 € ; IP 8 000 € ; part victime 38 214,67 € |
+| CA Aix-en-Provence, ch. 1-6, 30 mai 2024, n° 22/13514 | `courdecassation.fr/decision/665968b137809900088653ed` | DFP 3 % à 36 ans : 5 310 € ; SE 2,5/7 : 4 500 € ; IP 7 500 € (perte de chance d'un CDI) ; DFT 30 €/jour |
+| CA Aix-en-Provence, ch. 1-6, 4 juillet 2024, n° 22/09796 | `courdecassation.fr/decision/66878c8805d6f7f678d48d86` | Motard, réduction de 50 % confirmée. DFP 1 % : 1 960 € ; SE 2,5/7 : 4 000 € (avant réduction) ; doublement des intérêts sur 3 563,13 € |
+| CA Aix-en-Provence, ch. 1-6, 23 janvier 2025, n° 21/17259 | `courdecassation.fr/decision/67ac3e195a940b7d9cd96a34` | Piéton, traumatisme crânien. DFP 25 % à 26 ans : 80 000 € (point 3 200 €) ; SE 3/7 : 8 000 € ; préjudice d'affection des proches 3 000 € chacun |
