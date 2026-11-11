@@ -21,7 +21,7 @@ WA = "https://wa.me/33663465984"
 MAIL = "contact@ig-avocat.com"
 
 NAV_LINKS = [
-    ("/#expertises", "Domaines", None),
+    ("/#expertises", "Domaines", "__domaines__"),
     ("/honoraires", "Honoraires", "honoraires"),
     ("/avocat-ilan-guedj", "L'avocat", "avocat-ilan-guedj"),
     ("/blog/", "Guides", "blog"),
@@ -63,6 +63,13 @@ I_PHONE = ('<svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke
            '12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>')
 I_ARROW = ('<svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
            'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>')
+I_SEARCH = ('<svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" '
+            'stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>')
+I_X = ('<svg class="w-[18px] h-[18px]" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 '
+       '8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>')
+I_IN = ('<svg class="w-[18px] h-[18px]" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328'
+        '-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 '
+        '2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452z"/></svg>')
 I_MENU = ('<svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" '
           'aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>')
 
@@ -79,7 +86,9 @@ def nav(slug: str) -> str:
         actif = s is not None and s == slug
         cls = "text-gray-900" if actif else "text-gray-500 hover:text-gray-900"
         cur = ' aria-current="page"' if actif else ""
-        return f'<a href="{href}" class="text-[15px] font-semibold {cls} transition"{cur}>{label}</a>'
+        # Le lien « Domaines » devient un menu déroulant côté navigateur (js/ig-ui.js).
+        extra = " data-ig-domaines" if s == "__domaines__" else ""
+        return f'<a href="{href}" class="text-[15px] font-semibold {cls} transition"{cur}{extra}>{label}</a>'
 
     desk = "\n                ".join(lien(*l) for l in NAV_LINKS)
     mob = "\n        ".join(
@@ -95,10 +104,12 @@ def nav(slug: str) -> str:
                 {desk}
             </div>
             <div class="hidden lg:flex items-center gap-5">
+                <button type="button" data-ig-search class="p-2 -mr-2 text-gray-500 hover:text-gray-900 transition" aria-label="Rechercher dans le site" title="Rechercher (touche /)">{I_SEARCH}</button>
                 <a href="{TEL}" class="inline-flex items-center gap-2 text-[15px] font-semibold text-gray-900 hover:text-blue-600 transition">{I_PHONE}06 63 46 59 84</a>
                 <a href="/dossier-en-ligne" data-cta="nav_dossier" class="inline-flex items-center gap-2 bg-gray-900 text-white px-5 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition">Ouvrir mon dossier{I_ARROW}</a>
             </div>
             <div class="lg:hidden flex items-center gap-1">
+                <button type="button" data-ig-search class="p-3 text-gray-900" aria-label="Rechercher dans le site">{I_SEARCH.replace("w-5 h-5", "w-6 h-6")}</button>
                 <a href="{TEL}" class="p-3 text-gray-900" aria-label="Appeler le 06 63 46 59 84">{I_PHONE.replace("w-4 h-4", "w-6 h-6")}</a>
                 <button id="mobile-menu-btn" class="text-gray-900 p-3 -mr-3" aria-label="Ouvrir le menu" aria-controls="mobile-menu" aria-expanded="false">{I_MENU}</button>
             </div>
@@ -134,6 +145,10 @@ def footer(cookies: str) -> str:
                         <p><a href="https://www.google.com/maps/search/?api=1&amp;query=16+rue+Breteuil+13001+Marseille" target="_blank" rel="noopener" class="hover:text-white transition">16 rue Breteuil, 13001 Marseille</a></p>
                         <p class="text-gray-400">Lundi au jeudi 9 h – 19 h, vendredi 9 h – 17 h</p>
                     </address>
+                    <p class="mt-5 flex items-center gap-2">
+                        <a href="https://x.com/Guedj_" target="_blank" rel="noopener me" aria-label="Maître Ilan Guedj sur X" class="inline-flex items-center justify-center w-10 h-10 rounded-full border border-white/10 text-gray-300 hover:text-white hover:border-white/40 transition">{I_X}</a>
+                        <a href="https://www.linkedin.com/in/ilan-guedj/" target="_blank" rel="noopener me" aria-label="Maître Ilan Guedj sur LinkedIn" class="inline-flex items-center justify-center w-10 h-10 rounded-full border border-white/10 text-gray-300 hover:text-white hover:border-white/40 transition">{I_IN}</a>
+                    </p>
                     <a href="/dossier-en-ligne" data-cta="footer_dossier" class="mt-7 inline-flex items-center gap-2 bg-white text-gray-900 px-5 py-3 rounded-full text-sm font-bold hover:bg-gray-100 transition">Ouvrir mon dossier en ligne{I_ARROW}</a>
                 </div>
                 {colonne("Domaines", DOMAINES)}
@@ -146,6 +161,40 @@ def footer(cookies: str) -> str:
             </div>
         </div>
     {cookies}</footer><!-- LAYOUT:FOOTER:END -->'''
+
+
+# Bloc commun du <head> : icônes, couleur de thème, préchargement des pages au
+# survol (Speculation Rules) et interface commune. Idempotent via ses marqueurs.
+HEAD = '''<!-- LAYOUT:HEAD:START -->
+    <meta name="theme-color" content="#FAF7F2">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.pdf"}},{"not":{"selector_matches":"[rel~=nofollow],[target=_blank],[download]"}}]},"eagerness":"moderate"}]}</script>
+    <script src="/js/ig-ui.js" defer></script>
+    <!-- LAYOUT:HEAD:END -->'''
+HEAD_RE = re.compile(r"[ \t]*<!-- LAYOUT:HEAD:START -->.*?<!-- LAYOUT:HEAD:END -->\n?", re.S)
+# Calendly est chargé à la demande par js/ig-tracking.js : plus de feuille de
+# style ni de script tiers bloquants dans le <head>.
+CALENDLY_RE = re.compile(r"[ \t]*(?:<!-- Calendly[^>]*-->\s*)?<(?:link|script)[^>]+assets\.calendly\.com[^>]*>(?:</script>)?\n?", re.I)
+MAIN_OPEN = '<main id="contenu">'
+
+
+def head(s: str) -> str:
+    s = HEAD_RE.sub("", s)
+    s = CALENDLY_RE.sub("", s)
+    return s.replace("</head>", "    " + HEAD + "\n</head>", 1)
+
+
+def main_landmark(s: str) -> str:
+    """Un seul repère <main> par page, entre la navigation et le pied de page."""
+    if re.search(r"<main\b", s):
+        if 'id="contenu"' not in s:
+            s = re.sub(r"<main\b(?![^>]*\bid=)", '<main id="contenu"', s, count=1)
+        return s
+    a, b = "<!-- LAYOUT:NAV:END -->", "<!-- LAYOUT:FOOTER:START -->"
+    if a in s and b in s:
+        s = s.replace(a, a + "\n" + MAIN_OPEN, 1).replace(b, "</main>\n" + b, 1)
+    return s
 
 
 COOKIES_RE = re.compile(r"<!-- CTA:FOOTER-COOKIES:START -->.*?<!-- CTA:FOOTER-COOKIES:END -->", re.S)
@@ -170,6 +219,10 @@ def apply(path: Path) -> bool:
     if m:
         c = COOKIES_RE.search(m.group(0))
         s = s[:m.start()] + footer(c.group(0) if c else DEFAULT_COOKIES) + s[m.end():]
+    s = main_landmark(head(s))
+    # Les anciens appels directs à Calendly passent par le chargement à la demande.
+    s = re.sub(r"""onclick="Calendly\.initPopupWidget\(\{url: 'https://calendly\.com/guedj-chiche-cohen'\}\);""", 'data-calendly onclick="', s)
+    s = s.replace(' onclick="return false;"', "")
     # Le bouton du menu mobile indique son état aux lecteurs d'écran.
     s = s.replace("menu.classList.toggle('hidden');", "menu.classList.toggle('hidden'); btn.setAttribute('aria-expanded', String(!menu.classList.contains('hidden')));")
     if s != avant:

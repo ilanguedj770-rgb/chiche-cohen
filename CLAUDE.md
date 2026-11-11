@@ -38,7 +38,9 @@ Fiche par page (requête cible, cluster, état) : `seo/pages/`.
 
 ## Fichiers générés — ne pas éditer à la main
 Navigation et pied de page de toutes les pages : `tools/layout.py` (gabarits uniques, marqueurs LAYOUT:NAV / LAYOUT:FOOTER) — modifier le script, pas les pages.
-`sitemap.xml` (tools/build-sitemap.py), `feed.xml`, `llms-full.txt`, `css/tailwind.css` (npm run build:css), `lexique-dommage-corporel.html` (tools/build-lexique.py), données d'entité JSON-LD (tools/geo-inject.py).
+Bloc commun du `<head>` (marqueurs LAYOUT:HEAD), repère `<main id="contenu">` : aussi `tools/layout.py`.
+Interface commune (menu Domaines, recherche, sommaire et progression des guides, partage, calculateur d'échéances) : `js/ig-ui.js`, styles `.ig-*` dans `css/input.css` — le menu et la recherche sont rendus côté navigateur pour ne pas modifier le texte des pages.
+`search-index.json` (tools/build-search.py, lancé par geo-build), `sitemap.xml` (tools/build-sitemap.py), `feed.xml`, `llms-full.txt`, `css/tailwind.css` (npm run build:css), `lexique-dommage-corporel.html` (tools/build-lexique.py), données d'entité JSON-LD (tools/geo-inject.py).
 
 ## Avant tout push
 1. `python3 tools/geo-audit.py` → 0 erreur exigée

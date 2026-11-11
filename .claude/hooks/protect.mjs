@@ -15,6 +15,7 @@ const block = (msg) => { process.stderr.write(msg + "\n"); process.exit(2); };
 const generated = {
   "sitemap.xml": "tools/build-sitemap.py (ou tools/geo-build.py)",
   "feed.xml": "tools/build-feed.py (ou tools/geo-build.py)",
+  "search-index.json": "tools/build-search.py (ou tools/geo-build.py)",
   "llms-full.txt": "tools/build-llms-full.py (ou tools/geo-build.py)",
   "css/tailwind.css": "npm run build:css",
   "lexique-dommage-corporel.html": "tools/build-lexique.py",

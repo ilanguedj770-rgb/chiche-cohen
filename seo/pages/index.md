@@ -11,3 +11,4 @@
 ## Règles
 - Ne jamais changer l'URL.
 - Toute modification se consigne dans `seo/decisions.md`.
+- 2026-11-11 — Héros retravaillé, pastilles « Que vous est-il arrivé ? » (liens vers les six domaines), pictogrammes des cartes de domaine. Title, meta et bloc « En bref » inchangés.

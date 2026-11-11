@@ -11,6 +11,7 @@ de cuivre. Titres en serif, texte en sans, formes généreuses, ombres diffuses.
 | Palette, typographies, rayons, ombres | `tailwind.config.js` |
 | Fonds de page, titres, focus, reprises sur fond sombre | `css/input.css` |
 | Feuille livrée (générée, ne pas éditer) | `css/tailwind.css` |
+| Composants d'interface (menu, recherche, sommaire, calculateur) | `js/ig-ui.js` + classes `.ig-*` de `css/input.css` |
 | Polices auto-hébergées | `fonts/` |
 | Image de partage | `tools/build-og-image.py` → `img/og-cover.jpg` |
 

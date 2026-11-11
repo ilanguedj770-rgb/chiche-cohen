@@ -463,6 +463,13 @@
 <link rel="alternate" type="application/rss+xml" title="Guides de Maître Ilan Guedj — flux RSS" href="/feed.xml">
     <script src="/js/ig-tracking.js" defer></script>
     <script src="/js/ig-consent.js" defer></script>
+    <!-- LAYOUT:HEAD:START -->
+    <meta name="theme-color" content="#FAF7F2">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <script type="speculationrules">{"prefetch":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/*.pdf"}},{"not":{"selector_matches":"[rel~=nofollow],[target=_blank],[download]"}}]},"eagerness":"moderate"}]}</script>
+    <script src="/js/ig-ui.js" defer></script>
+    <!-- LAYOUT:HEAD:END -->
 </head>
 
 <body class="antialiased bg-white flex flex-col min-h-screen">
@@ -478,17 +485,19 @@
                 <span class="font-display text-2xl font-bold tracking-tight uppercase text-gray-900 group-hover:opacity-80 transition">ILAN GUEDJ<span class="text-blue-600">.</span></span>
             </a>
             <div class="hidden lg:flex items-center gap-8">
-                <a href="/#expertises" class="text-[15px] font-semibold text-gray-500 hover:text-gray-900 transition">Domaines</a>
+                <a href="/#expertises" class="text-[15px] font-semibold text-gray-500 hover:text-gray-900 transition" data-ig-domaines>Domaines</a>
                 <a href="/honoraires" class="text-[15px] font-semibold text-gray-500 hover:text-gray-900 transition">Honoraires</a>
                 <a href="/avocat-ilan-guedj" class="text-[15px] font-semibold text-gray-500 hover:text-gray-900 transition">L'avocat</a>
                 <a href="/blog/" class="text-[15px] font-semibold text-gray-500 hover:text-gray-900 transition">Guides</a>
                 <a href="/contact" class="text-[15px] font-semibold text-gray-500 hover:text-gray-900 transition">Contact</a>
             </div>
             <div class="hidden lg:flex items-center gap-5">
+                <button type="button" data-ig-search class="p-2 -mr-2 text-gray-500 hover:text-gray-900 transition" aria-label="Rechercher dans le site" title="Rechercher (touche /)"><svg class="w-5 h-5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></button>
                 <a href="tel:+33663465984" class="inline-flex items-center gap-2 text-[15px] font-semibold text-gray-900 hover:text-blue-600 transition"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>06 63 46 59 84</a>
                 <a href="/dossier-en-ligne" data-cta="nav_dossier" class="inline-flex items-center gap-2 bg-gray-900 text-white px-5 py-3 rounded-full text-sm font-bold hover:bg-gray-800 transition">Ouvrir mon dossier<svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
             </div>
             <div class="lg:hidden flex items-center gap-1">
+                <button type="button" data-ig-search class="p-3 text-gray-900" aria-label="Rechercher dans le site"><svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg></button>
                 <a href="tel:+33663465984" class="p-3 text-gray-900" aria-label="Appeler le 06 63 46 59 84"><svg class="w-6 h-6 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg></a>
                 <button id="mobile-menu-btn" class="text-gray-900 p-3 -mr-3" aria-label="Ouvrir le menu" aria-controls="mobile-menu" aria-expanded="false"><svg class="w-7 h-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
             </div>
@@ -508,7 +517,7 @@
     </div>
 </nav><!-- LAYOUT:NAV:END -->
 
-    <main class="flex-1 pt-40 pb-32 px-6">
+    <main id="contenu" class="flex-1 pt-40 pb-32 px-6">
         <div class="max-w-4xl mx-auto">
 
             <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.05] mb-6 text-balance">Mentions Légales</h1>
@@ -703,6 +712,10 @@
                         <p><a href="https://www.google.com/maps/search/?api=1&amp;query=16+rue+Breteuil+13001+Marseille" target="_blank" rel="noopener" class="hover:text-white transition">16 rue Breteuil, 13001 Marseille</a></p>
                         <p class="text-gray-400">Lundi au jeudi 9 h – 19 h, vendredi 9 h – 17 h</p>
                     </address>
+                    <p class="mt-5 flex items-center gap-2">
+                        <a href="https://x.com/Guedj_" target="_blank" rel="noopener me" aria-label="Maître Ilan Guedj sur X" class="inline-flex items-center justify-center w-10 h-10 rounded-full border border-white/10 text-gray-300 hover:text-white hover:border-white/40 transition"><svg class="w-[18px] h-[18px]" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg></a>
+                        <a href="https://www.linkedin.com/in/ilan-guedj/" target="_blank" rel="noopener me" aria-label="Maître Ilan Guedj sur LinkedIn" class="inline-flex items-center justify-center w-10 h-10 rounded-full border border-white/10 text-gray-300 hover:text-white hover:border-white/40 transition"><svg class="w-[18px] h-[18px]" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 1 1 0-4.124 2.062 2.062 0 0 1 0 4.124zM7.119 20.452H3.555V9h3.564v11.452z"/></svg></a>
+                    </p>
                     <a href="/dossier-en-ligne" data-cta="footer_dossier" class="mt-7 inline-flex items-center gap-2 bg-white text-gray-900 px-5 py-3 rounded-full text-sm font-bold hover:bg-gray-100 transition">Ouvrir mon dossier en ligne<svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
                 </div>
                 <div><p class="text-sm font-bold uppercase tracking-wider text-gray-400">Domaines</p><ul class="mt-4 space-y-2.5 text-[15px] text-gray-300"><li><a href="/accidents-route" class="hover:text-white transition">Accident de la route</a></li><li><a href="/accident-moto-marseille" class="hover:text-white transition">Accident de moto</a></li><li><a href="/pieton-cycliste-marseille" class="hover:text-white transition">Piéton et cycliste</a></li><li><a href="/erreur-medicale" class="hover:text-white transition">Erreur médicale</a></li><li><a href="/agression" class="hover:text-white transition">Agression</a></li><li><a href="/accidents-vie" class="hover:text-white transition">Accident de la vie</a></li></ul></div>
@@ -733,7 +746,7 @@
     <script>
         const btn = document.getElementById('mobile-menu-btn');
         const menu = document.getElementById('mobile-menu');
-        if (btn && menu) { btn.addEventListener('click', () => { menu.classList.toggle('hidden'); btn.setAttribute('aria-expanded', String(!menu.classList.contains('hidden'))); btn.setAttribute('aria-expanded', String(!menu.classList.contains('hidden'))); }); }
+        if (btn && menu) { btn.addEventListener('click', () => { menu.classList.toggle('hidden'); btn.setAttribute('aria-expanded', String(!menu.classList.contains('hidden'))); btn.setAttribute('aria-expanded', String(!menu.classList.contains('hidden'))); btn.setAttribute('aria-expanded', String(!menu.classList.contains('hidden'))); btn.setAttribute('aria-expanded', String(!menu.classList.contains('hidden'))); }); }
     </script>
 <!-- CTA:BARRE-MOBILE:START --><div class="fixed bottom-6 left-4 right-4 z-50 md:hidden" data-cta="bouton_fixe_mobile"><div class="bg-ink/90 backdrop-blur-xl p-2 rounded-2xl shadow-2xl flex gap-3 border border-white/10"><a href="https://wa.me/33663465984" class="flex-1 bg-[#25D366] text-white py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition"><svg class="w-4 h-4 shrink-0" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>WhatsApp</a><a href="tel:+33663465984" class="flex-1 bg-white text-gray-900 py-3 rounded-xl font-bold flex justify-center items-center gap-2 text-sm active:scale-95 transition"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>Appeler</a><!-- CTA:BARRE-RDV:START --><a href="https://calendly.com/guedj-chiche-cohen" target="_blank" rel="noopener" data-calendly class="flex-1 bg-white/10 text-white py-3 rounded-xl font-bold flex justify-center items-center gap-1.5 text-sm active:scale-95 transition"><svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></svg>RDV</a><!-- CTA:BARRE-RDV:END --></div></div><!-- CTA:BARRE-MOBILE:END -->
 </body>

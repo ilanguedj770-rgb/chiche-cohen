@@ -42,25 +42,32 @@
     return c;
   }
 
+  // Bandeau compact : sur mobile il ne doit jamais masquer les boutons d'appel
+  // du haut de page (refonte de novembre 2026). Refuser reste aussi simple qu'accepter.
   var css =
-    '.igc{position:fixed;z-index:2147483000;left:16px;right:16px;bottom:16px;max-width:560px;margin:0 auto;' +
-    'background:#fff;color:#1f2937;border:1px solid #e5e7eb;border-radius:16px;box-shadow:0 20px 50px rgba(0,0,0,.18);' +
-    'padding:20px;font:14px/1.5 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}' +
-    '@media(min-width:768px){.igc{left:24px;right:auto;bottom:24px;margin:0}}' +
-    '.igc h2{font-size:16px;font-weight:700;margin:0 0 6px;color:#111827}' +
-    '.igc p{margin:0 0 14px;color:#4b5563}' +
-    '.igc a{color:#1d4ed8;text-decoration:underline}' +
-    '.igc-row{display:flex;flex-wrap:wrap;gap:8px}' +
-    '.igc-b{flex:1 1 140px;min-height:44px;padding:10px 14px;border-radius:999px;font-weight:700;font-size:14px;cursor:pointer;' +
-    'border:1px solid #111827;background:#111827;color:#fff}' +
-    '.igc-b.igc-l{background:#fff;color:#111827;border-color:#d1d5db;flex-basis:100%}' +
-    '@media(min-width:480px){.igc-b.igc-l{flex-basis:auto}}' +
-    '.igc-b:focus-visible,.igc-t input:focus-visible{outline:3px solid #2563eb;outline-offset:2px}' +
+    '.igc{position:fixed;z-index:2147483000;left:12px;right:12px;bottom:12px;max-width:520px;margin:0 auto;' +
+    'background:#fff;color:#38352E;border:1px solid rgba(27,36,48,.12);border-radius:18px;box-shadow:0 20px 50px -12px rgba(27,36,48,.35);' +
+    'padding:14px 16px;font:13px/1.45 Inter,system-ui,-apple-system,"Segoe UI",sans-serif}' +
+    '@media(min-width:768px){.igc{left:24px;right:auto;bottom:24px;margin:0;padding:20px;font-size:14px;line-height:1.5}}' +
+    '.igc h2{display:none;font-family:Fraunces,Georgia,serif;font-size:17px;font-weight:600;margin:0 0 6px;color:#1B2430}' +
+    '@media(min-width:768px){.igc h2{display:block}}.igc.igc-open h2{display:block}' +
+    '.igc p{margin:0 0 10px;color:#5C574E;line-height:inherit}' +
+    '@media(min-width:768px){.igc p{margin-bottom:14px}}' +
+    '.igc a{color:#1E40AF;text-decoration:underline}' +
+    '.igc-row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}' +
+    '.igc-b{flex:1 1 0;min-height:44px;padding:8px 8px;border-radius:999px;font-weight:700;font-size:13px;white-space:nowrap;cursor:pointer;' +
+    'border:1px solid #1B2430;background:#1B2430;color:#fff}' +
+    '@media(min-width:768px){.igc-b{font-size:14px;padding:8px 14px}}' +
+    '.igc-b.igc-l{flex:0 0 auto;min-height:44px;background:transparent;color:#38352E;border-color:transparent;text-decoration:underline;' +
+    'text-underline-offset:3px;font-weight:600;padding:8px 6px}' +
+    '.igc.igc-open .igc-b.igc-l{flex:1 1 100%;background:#fff;border-color:#C9C2B5;text-decoration:none;font-weight:700}' +
+    '.igc-b:focus-visible,.igc-t input:focus-visible{outline:3px solid #1E40AF;outline-offset:2px}' +
     '.igc-opts{margin:4px 0 14px;display:none}.igc.igc-open .igc-opts{display:block}' +
-    '.igc-t{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-top:1px solid #f3f4f6}' +
-    '.igc-t input{margin-top:3px;width:18px;height:18px;flex:none;accent-color:#111827}' +
-    '.igc-t strong{display:block;color:#111827}.igc-t span{color:#6b7280;font-size:13px}' +
-    '.igc .igc-save{display:none}.igc.igc-open .igc-save{display:block}.igc.igc-open .igc-more{display:none}';
+    '.igc-t{display:flex;gap:12px;align-items:flex-start;padding:10px 0;border-top:1px solid #F1ECE3}' +
+    '.igc-t input{margin-top:3px;width:18px;height:18px;flex:none;accent-color:#1B2430}' +
+    '.igc-t strong{display:block;color:#1B2430}.igc-t span{color:#5C574E;font-size:13px}' +
+    '.igc .igc-save{display:none}.igc.igc-open .igc-save{display:block}.igc.igc-open .igc-more{display:none}' +
+    '.igc.igc-open{max-height:calc(100dvh - 24px);overflow-y:auto}';
 
   var box = null;
   function build() {
@@ -75,8 +82,8 @@
     box.setAttribute('aria-labelledby', 'igc-title');
     box.innerHTML =
       '<h2 id="igc-title">Cookies de mesure</h2>' +
-      '<p>Avec votre accord, ce site utilise des cookies Google (Analytics et Ads) pour mesurer sa fréquentation et l\'efficacité de ses annonces. ' +
-      'Vous pouvez refuser : le site fonctionne de la même façon. <a href="/mentions-legales#cookies">En savoir plus</a></p>' +
+      '<p>Avec votre accord, ce site utilise des cookies Google (Analytics et Ads) pour mesurer sa fréquentation et ses annonces. ' +
+      'Vous pouvez refuser : rien ne change pour vous. <a href="/mentions-legales#cookies">En savoir plus</a></p>' +
       '<div class="igc-opts" id="igc-opts">' +
       '<label class="igc-t"><input type="checkbox" checked disabled><span><strong>Nécessaires</strong>Mémorisation de votre choix. Toujours actifs.</span></label>' +
       '<label class="igc-t"><input type="checkbox" data-k="a"><span><strong>Mesure d\'audience</strong>Google Analytics : pages vues, contacts, statistiques anonymisées.</span></label>' +

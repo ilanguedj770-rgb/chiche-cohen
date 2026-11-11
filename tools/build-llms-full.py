@@ -45,7 +45,7 @@ ORDER = [
     "contact.html",
     "mentions-legales.html",
 ]
-SKIP = {"guide-5-erreurs.html", "blog/index.html"}
+SKIP = {"guide-5-erreurs.html", "blog/index.html", "404.html"}
 
 DROP_BLOCKS = ("script", "style", "svg", "noscript", "nav", "footer", "iframe", "template")
 BLOCK_TAGS = {"p", "div", "section", "article", "tr", "br", "ul", "ol", "table", "blockquote"}

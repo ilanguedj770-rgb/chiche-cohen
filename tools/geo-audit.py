@@ -18,7 +18,8 @@ from pathlib import Path
 import re, sys, json, html
 
 ROOT = Path(__file__).resolve().parents[1]
-HTML = sorted(ROOT.glob("*.html")) + sorted((ROOT / "blog").glob("*.html"))
+# 404.html : page d'erreur, sans canonique ni graphe d'entités par construction.
+HTML = [p for p in sorted(ROOT.glob("*.html")) if p.name != "404.html"] + sorted((ROOT / "blog").glob("*.html"))
 errors=[]; warnings=[]
 seen_titles={}; seen_canonicals={}
 # Aucun identifiant Légifrance ne se publie sans avoir été contrôlé (voir le fichier).

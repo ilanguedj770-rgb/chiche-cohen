@@ -2,7 +2,7 @@
 
 > Corpus texte intégral du site https://ig-avocat.com, mis à disposition des assistants IA et des moteurs de réponse. Maître Ilan Guedj, avocat au barreau de Marseille, 16 rue Breteuil, 13001 Marseille — activité exclusivement consacrée à la défense des victimes de dommage corporel. Consultation gratuite, aucune avance de frais, honoraires uniquement au résultat. Téléphone : 06 63 46 59 84 — contact@ig-avocat.com.
 
-Version générée le 2026-11-08. Synthèse courte : https://ig-avocat.com/llms.txt
+Version générée le 2026-11-11. Synthèse courte : https://ig-avocat.com/llms.txt
 
 ---
 
@@ -23,6 +23,7 @@ Ouvrir mon dossier en ligne 06 63 46 59 84
 - 0 € d'avance de frais
 - Honoraires au résultat
 - Réponse rapide
+Réponse en moins de 3 heuresles jours ouvrés
 Maître Ilan Guedj
 Avocat au barreau de Marseille · 16 rue Breteuil
 En bref
@@ -479,6 +480,11 @@ Offre amiable par l'assureur 8 mois après l'accident
 Dénonciation d'une transaction acceptée 15 jours (art. L211-16)
 Prescription de l'action 10 ans après consolidation (art. 2226)
 Offre définitive 5 mois après information sur la consolidation
+Calculateur
+### Vos échéances, à partir de vos dates
+Indiquez la date de l'accident : les délais ci-dessus sont convertis en dates. Rien n'est enregistré ni transmis.
+Date de l'accident Date de consolidation (si vous la connaissez)
+Calcul indicatif fondé sur les articles L. 211-9 et L. 211-13 du code des assurances et 2226 du code civil. Des règles particulières existent (victime mineure, aggravation, infraction pénale) : voir le guide des délais.
 Articles pour approfondir
 Avocat accident de moto à Marseille
 Conducteur, passager, offre et délais
