@@ -291,7 +291,7 @@ def last_section_before_footer(src):
 # --------------------------------------------------------------------------
 def common(src, add_mobile_bar):
     # Script de suivi
-    if TRACKING_TAG not in src:
+    if "/js/ig-tracking.js" not in src:
         src = src.replace("</head>", f"    {TRACKING_TAG}\n</head>", 1)
     # Barre mobile existante : emplacement explicite
     src = src.replace('<div class="fixed bottom-6 left-4 right-4 z-50 md:hidden animate-fade-in-up">',
@@ -518,7 +518,7 @@ def consent(src):
         src = src[:i] + marked("CONSENT-DEFAULT", CONSENT_DEFAULT) + "\n    " + src[i:]
     elif has_block(src, "CONSENT-DEFAULT"):
         src = replace_block(src, "CONSENT-DEFAULT", CONSENT_DEFAULT)
-    if CONSENT_TAG not in src:
+    if "/js/ig-consent.js" not in src:
         src = src.replace("</head>", f"    {CONSENT_TAG}\n</head>", 1)
     if "<footer" in src:
         if has_block(src, "FOOTER-COOKIES"):

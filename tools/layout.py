@@ -197,6 +197,23 @@ def main_landmark(s: str) -> str:
     return s
 
 
+# Version des ressources : l'empreinte du fichier est ajoutée à son adresse, pour
+# qu'un visiteur déjà venu ne garde jamais une ancienne feuille de style en cache
+# face à des pages nouvelles (pictogrammes sans style, le 11 novembre 2026).
+import hashlib
+
+
+def _v(rel: str) -> str:
+    return hashlib.sha1((ROOT / rel).read_bytes()).hexdigest()[:10]
+
+
+ASSET_RE = re.compile(r'''((?:href|src)=")((?:\.\./|/)?)(css/tailwind\.css|js/ig-ui\.js|js/ig-consent\.js|js/ig-tracking\.js)(?:\?v=[0-9a-f]+)?"''')
+
+
+def assets(s: str) -> str:
+    return ASSET_RE.sub(lambda m: f'{m.group(1)}{m.group(2)}{m.group(3)}?v={_v(m.group(3))}"', s)
+
+
 COOKIES_RE = re.compile(r"<!-- CTA:FOOTER-COOKIES:START -->.*?<!-- CTA:FOOTER-COOKIES:END -->", re.S)
 DEFAULT_COOKIES = ('<!-- CTA:FOOTER-COOKIES:START --><p class="mt-10 text-center text-xs text-gray-500"><a href="/mentions-legales#cookies" '
                    'data-consent-open class="underline hover:text-white">Gestion des cookies</a></p><!-- CTA:FOOTER-COOKIES:END -->')
@@ -219,7 +236,7 @@ def apply(path: Path) -> bool:
     if m:
         c = COOKIES_RE.search(m.group(0))
         s = s[:m.start()] + footer(c.group(0) if c else DEFAULT_COOKIES) + s[m.end():]
-    s = main_landmark(head(s))
+    s = assets(main_landmark(head(s)))
     # Les anciens appels directs à Calendly passent par le chargement à la demande.
     s = re.sub(r"""onclick="Calendly\.initPopupWidget\(\{url: 'https://calendly\.com/guedj-chiche-cohen'\}\);""", 'data-calendly onclick="', s)
     s = s.replace(' onclick="return false;"', "")

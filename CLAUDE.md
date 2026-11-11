@@ -46,6 +46,7 @@ Interface commune (menu Domaines, recherche, sommaire et progression des guides,
 1. `python3 tools/geo-audit.py` → 0 erreur exigée
 2. `python3 tools/check-internal-links.py` → OK
 3. Si nouvelles classes Tailwind : `npm run build:css` et aligner sur la sortie Linux (piège Windows connu)
+4. Après toute modification de `css/` ou de `js/` : relancer `python3 tools/layout.py` — il met à jour l'empreinte `?v=` des feuilles et scripts dans les pages ; sans cela, les visiteurs déjà venus gardent l'ancienne version en cache (incident du 11/11/2026)
 Sous Windows : `py` au lieu de `python3`, et `PYTHONUTF8=1`.
 
 ## Comment répondre
